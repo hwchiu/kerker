@@ -1,9 +1,24 @@
 import unittest
 
-from bali_wedding_research.schema import validate_venue_record
+from bali_wedding_research.schema import validate_price_entry, validate_venue_record
 
 
 class VenueSchemaTest(unittest.TestCase):
+    def _base_price_entry(self) -> dict[str, object]:
+        return {
+            "label": "Cliffside chapel package",
+            "currency": "USD",
+            "amount_min": 8500,
+            "amount_max": None,
+            "pricing_year": 2026,
+            "includes_stay": False,
+            "includes_decoration": True,
+            "includes_dinner": False,
+            "includes_tax_service": False,
+            "conditions_text": "Ceremony package only",
+            "confidence": "high",
+        }
+
     def _base_venue(self) -> dict[str, object]:
         return {
             "id": "ayana-resort-bali",
@@ -31,21 +46,7 @@ class VenueSchemaTest(unittest.TestCase):
             "guest_capacity_dinner_max": 120,
             "recommended_guest_size_band": "81-120",
             "pricing_status": "public_price_available",
-            "price_entries": [
-                {
-                    "label": "Cliffside chapel package",
-                    "currency": "USD",
-                    "amount_min": 8500,
-                    "amount_max": None,
-                    "pricing_year": 2026,
-                    "includes_stay": False,
-                    "includes_decoration": True,
-                    "includes_dinner": False,
-                    "includes_tax_service": False,
-                    "conditions_text": "Ceremony package only",
-                    "confidence": "high",
-                }
-            ],
+            "price_entries": [self._base_price_entry()],
             "price_summary_text": "Public ceremony package starts at USD 8,500",
             "price_risk_level": "low",
             "rain_backup_status": "strong",
@@ -102,6 +103,82 @@ class VenueSchemaTest(unittest.TestCase):
 
         with self.assertRaises(ValueError):
             validate_venue_record(record)
+
+    def test_validate_price_entry_rejects_bool_amount_min(self) -> None:
+        entry = self._base_price_entry()
+        entry["amount_min"] = True
+
+        with self.assertRaises(ValueError):
+            validate_price_entry(entry)
+
+    def test_validate_price_entry_rejects_bool_pricing_year(self) -> None:
+        entry = self._base_price_entry()
+        entry["pricing_year"] = True
+
+        with self.assertRaises(ValueError):
+            validate_price_entry(entry)
+
+    def test_validate_price_entry_rejects_nan_amount_min(self) -> None:
+        entry = self._base_price_entry()
+        entry["amount_min"] = float("nan")
+
+        with self.assertRaises(ValueError):
+            validate_price_entry(entry)
+
+    def test_validate_price_entry_rejects_infinite_amount_min(self) -> None:
+        entry = self._base_price_entry()
+        entry["amount_min"] = float("inf")
+
+        with self.assertRaises(ValueError):
+            validate_price_entry(entry)
+
+    def test_validate_price_entry_rejects_negative_amount_min(self) -> None:
+        entry = self._base_price_entry()
+        entry["amount_min"] = -1
+
+        with self.assertRaises(ValueError):
+            validate_price_entry(entry)
+
+    def test_validate_price_entry_rejects_amount_min_greater_than_amount_max(self) -> None:
+        entry = self._base_price_entry()
+        entry["amount_min"] = 9000
+        entry["amount_max"] = 8500
+
+        with self.assertRaises(ValueError):
+            validate_price_entry(entry)
+
+    def test_validate_venue_record_normalizes_lowercase_usd_currency(self) -> None:
+        record = self._base_venue()
+        record["price_entries"] = [self._base_price_entry()]
+        record["price_entries"][0]["currency"] = "usd"
+
+        validated = validate_venue_record(record)
+
+        self.assertEqual(validated["price_entries"][0]["currency"], "USD")
+        self.assertEqual(validated["price_band_normalized"], "premium")
+        self.assertEqual(validated["price_risk_level"], "low")
+
+    def test_validate_venue_record_rejects_low_risk_when_public_price_has_no_usd_minimum(self) -> None:
+        record = self._base_venue()
+        record["price_entries"] = [self._base_price_entry()]
+        record["price_entries"][0]["currency"] = "EUR"
+        record["price_risk_level"] = "low"
+        record["price_band_normalized"] = None
+
+        with self.assertRaises(ValueError):
+            validate_venue_record(record)
+
+    def test_validate_venue_record_accepts_high_risk_when_public_price_has_no_usd_minimum(self) -> None:
+        record = self._base_venue()
+        record["price_entries"] = [self._base_price_entry()]
+        record["price_entries"][0]["currency"] = "EUR"
+        record["price_risk_level"] = "high"
+        record["price_band_normalized"] = None
+
+        validated = validate_venue_record(record)
+
+        self.assertIsNone(validated["price_band_normalized"])
+        self.assertEqual(validated["price_risk_level"], "high")
 
 
 if __name__ == "__main__":

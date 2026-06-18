@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from copy import deepcopy
 from datetime import date
+import math
 from typing import Any
 
 SOURCE_TYPES = {
@@ -318,7 +319,7 @@ def _require_bool(value: Any, field: str) -> bool:
 
 
 def _require_int(value: Any, field: str) -> int:
-    if not isinstance(value, int):
+    if isinstance(value, bool) or not isinstance(value, int):
         raise ValueError(f"{field} must be an integer")
     return value
 
@@ -326,9 +327,14 @@ def _require_int(value: Any, field: str) -> int:
 def _require_number_or_none(value: Any, field: str) -> float | None:
     if value is None:
         return None
-    if not isinstance(value, (int, float)):
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
         raise ValueError(f"{field} must be a number or null")
-    return float(value)
+    number = float(value)
+    if not math.isfinite(number):
+        raise ValueError(f"{field} must be a finite number or null")
+    if number < 0:
+        raise ValueError(f"{field} must be zero or greater")
+    return number
 
 
 def normalize_price_band(starting_usd: float | None) -> str | None:
@@ -366,11 +372,17 @@ def validate_price_entry(entry: dict[str, Any]) -> dict[str, Any]:
     )
 
     candidate["label"] = _require_non_empty_string(candidate["label"], "label")
-    candidate["currency"] = _require_non_empty_string(candidate["currency"], "currency")
+    candidate["currency"] = _require_non_empty_string(candidate["currency"], "currency").upper()
     candidate["amount_min"] = _require_number_or_none(candidate["amount_min"], "amount_min")
     candidate["amount_max"] = _require_number_or_none(candidate["amount_max"], "amount_max")
     if candidate["amount_min"] is None and candidate["amount_max"] is None:
         raise ValueError("price entry must define amount_min or amount_max")
+    if (
+        candidate["amount_min"] is not None
+        and candidate["amount_max"] is not None
+        and candidate["amount_min"] > candidate["amount_max"]
+    ):
+        raise ValueError("amount_min must be less than or equal to amount_max")
     candidate["pricing_year"] = _require_int(candidate["pricing_year"], "pricing_year")
     candidate["includes_stay"] = _require_bool(candidate["includes_stay"], "includes_stay")
     candidate["includes_decoration"] = _require_bool(
@@ -407,6 +419,8 @@ def _public_starting_price_usd(price_entries: list[dict[str, Any]]) -> float | N
 
 def _derived_price_risk(pricing_status: str, price_entries: list[dict[str, Any]]) -> str:
     if pricing_status != "public_price_available" or not price_entries:
+        return "high"
+    if _public_starting_price_usd(price_entries) is None:
         return "high"
     if all(entry["confidence"] == "low" for entry in price_entries):
         return "medium"
