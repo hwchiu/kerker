@@ -51,8 +51,11 @@ def _require_string_list(value: Any, field: str, *, allow_empty: bool = False) -
 
 def _require_iso_date(value: Any, field: str) -> str:
     text = _require_non_empty_string(value, field)
-    date.fromisoformat(text)
-    return text
+    try:
+        parsed = date.fromisoformat(text)
+    except ValueError as exc:
+        raise ValueError(f"{field} must be a valid ISO date") from exc
+    return parsed.isoformat()
 
 
 def _optional_iso_date(value: Any, field: str) -> str | None:
