@@ -5,6 +5,7 @@ from copy import deepcopy
 from typing import Any
 
 ALLOWED_SEED_STATUSES = {"candidate", "record_created", "rejected"}
+STATUS_PRECEDENCE = {"candidate": 0, "rejected": 1, "record_created": 2}
 
 
 def slugify_name(value: str) -> str:
@@ -61,53 +62,81 @@ def _alias_keys(entry: dict[str, Any]) -> set[str]:
     return {slugify_name(name) for name in names}
 
 
-def _merge_canonical_entry(target: dict[str, Any], source: dict[str, Any]) -> None:
-    target["aliases"] = sorted(set(target["aliases"]) | set(source["aliases"]))
-    target["discovery_urls"] = sorted(
-        set(target["discovery_urls"]) | set(source["discovery_urls"])
+def _group_aliases(entries: list[dict[str, Any]]) -> list[str]:
+    return sorted(
+        {
+            name
+            for entry in entries
+            for name in [entry["name_en"], *entry["aliases"]]
+        }
     )
 
 
+def _group_discovery_urls(entries: list[dict[str, Any]]) -> list[str]:
+    return sorted(
+        {
+            url
+            for entry in entries
+            for url in entry["discovery_urls"]
+        }
+    )
+
+
+def _group_keys(entries: list[dict[str, Any]]) -> set[str]:
+    keys: set[str] = set()
+    for entry in entries:
+        keys.update(_alias_keys(entry))
+    return keys
+
+
+def _choose_primary_entry(entries: list[dict[str, Any]]) -> dict[str, Any]:
+    return min(
+        entries,
+        key=lambda entry: (-STATUS_PRECEDENCE[entry["status"]], entry["seed_id"]),
+    )
+
+
+def _build_canonical_entry(entries: list[dict[str, Any]]) -> dict[str, Any]:
+    regions = {entry["region"] for entry in entries}
+    if len(regions) != 1:
+        raise ValueError("connected seed entries must share the same region")
+
+    primary = _choose_primary_entry(entries)
+    return {
+        "seed_id": primary["seed_id"],
+        "name_en": primary["name_en"],
+        "aliases": _group_aliases(entries),
+        "region": primary["region"],
+        "discovery_urls": _group_discovery_urls(entries),
+        "status": primary["status"],
+    }
+
+
 def merge_seed_registry(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    merged: list[dict[str, Any]] = []
-    alias_to_entry: dict[str, dict[str, Any]] = {}
+    merged_groups: list[list[dict[str, Any]]] = []
+    alias_to_group: dict[str, list[dict[str, Any]]] = {}
 
     for raw_entry in entries:
         entry = _validate_seed_entry(raw_entry)
         keys = _alias_keys(entry)
-        matching_entries = [
-            candidate
-            for candidate in merged
-            if any(alias_to_entry.get(key) is candidate for key in keys)
+        matching_groups = [
+            group
+            for group in merged_groups
+            if any(alias_to_group.get(key) is group for key in keys)
         ]
 
-        if not matching_entries:
-            canonical = {
-                "seed_id": entry["seed_id"],
-                "name_en": entry["name_en"],
-                "aliases": sorted({entry["name_en"], *entry["aliases"]}),
-                "region": entry["region"],
-                "discovery_urls": entry["discovery_urls"],
-                "status": entry["status"],
-            }
-            merged.append(canonical)
-            for key in keys:
-                alias_to_entry[key] = canonical
-            continue
+        if not matching_groups:
+            group = [entry]
+            merged_groups.append(group)
+        else:
+            group = matching_groups[0]
+            group.append(entry)
+            for duplicate in matching_groups[1:]:
+                group.extend(duplicate)
+                merged_groups.remove(duplicate)
 
-        existing = matching_entries[0]
-        for duplicate in matching_entries[1:]:
-            _merge_canonical_entry(existing, duplicate)
-            merged.remove(duplicate)
+        _build_canonical_entry(group)
+        for key in _group_keys(group):
+            alias_to_group[key] = group
 
-        _merge_canonical_entry(
-            existing,
-            {
-                "aliases": sorted({entry["name_en"], *entry["aliases"]}),
-                "discovery_urls": entry["discovery_urls"],
-            },
-        )
-        for key in {slugify_name(name) for name in existing["aliases"]} | keys:
-            alias_to_entry[key] = existing
-
-    return merged
+    return [_build_canonical_entry(group) for group in merged_groups]
