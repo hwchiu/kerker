@@ -5,7 +5,7 @@ from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
 
 from bali_wedding_research.cli import main
-from bali_wedding_research.io import write_json_file
+from bali_wedding_research.io import load_json_file, write_json_file
 from bali_wedding_research.paths import workspace_paths
 from tests.sample_data import photo_records, source_record, venue_record
 
@@ -105,6 +105,68 @@ class CliTest(unittest.TestCase):
             )
             self.assertEqual(stderr, "")
             self.assertTrue((paths["notes"] / "example-cliffside-resort.md").exists())
+
+    def test_merge_seeds_writes_canonical_seed_registry(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            exit_code, _, stderr = self._run_main(["init-workspace", "--root", tmpdir])
+            self.assertEqual(exit_code, 0)
+            self.assertEqual(stderr, "")
+            paths = workspace_paths(root)
+
+            raw_a = root / "seed-a.json"
+            raw_b = root / "seed-b.json"
+
+            write_json_file(
+                raw_a,
+                [
+                    {
+                        "seed_id": "example-cliffside-resort",
+                        "name_en": "Example Cliffside Resort",
+                        "aliases": ["Example Cliffside"],
+                        "region": "Uluwatu",
+                        "discovery_urls": ["https://example.com/seed-a"],
+                        "status": "candidate",
+                    }
+                ],
+            )
+            write_json_file(
+                raw_b,
+                [
+                    {
+                        "seed_id": "example-cliffside-listing",
+                        "name_en": "Example Cliffside",
+                        "aliases": ["Example Cliffside Resort"],
+                        "region": "Uluwatu",
+                        "discovery_urls": ["https://example.com/seed-b"],
+                        "status": "candidate",
+                    }
+                ],
+            )
+
+            exit_code, stdout, stderr = self._run_main(
+                [
+                    "merge-seeds",
+                    "--root",
+                    tmpdir,
+                    "--input",
+                    str(raw_a),
+                    "--input",
+                    str(raw_b),
+                ]
+            )
+
+            self.assertEqual(exit_code, 0)
+            self.assertEqual(stderr, "")
+            merged_path = paths["seeds"] / "venue-seeds.json"
+            self.assertEqual(stdout, f"{merged_path}\n")
+            self.assertTrue(merged_path.exists())
+            merged = load_json_file(merged_path)
+            self.assertEqual(len(merged), 1)
+            self.assertEqual(
+                merged[0]["discovery_urls"],
+                ["https://example.com/seed-a", "https://example.com/seed-b"],
+            )
 
     def test_missing_command_returns_exit_code_2(self) -> None:
         exit_code, stdout, stderr = self._run_main([])

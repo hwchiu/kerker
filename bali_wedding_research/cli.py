@@ -4,9 +4,10 @@ import argparse
 from pathlib import Path
 
 from .derive import write_derived_indexes
-from .io import validate_workspace
+from .io import load_json_file, validate_workspace, write_json_file
 from .notes import write_all_venue_notes
-from .paths import ensure_workspace_layout
+from .paths import ensure_workspace_layout, workspace_paths
+from .seed_registry import merge_seed_registry
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -24,6 +25,10 @@ def build_parser() -> argparse.ArgumentParser:
 
     notes_parser = subparsers.add_parser("build-notes")
     notes_parser.add_argument("--root", default=".")
+
+    seed_parser = subparsers.add_parser("merge-seeds")
+    seed_parser.add_argument("--root", default=".")
+    seed_parser.add_argument("--input", action="append", required=True)
 
     return parser
 
@@ -63,6 +68,21 @@ def main(argv: list[str] | None = None) -> int:
         outputs = write_all_venue_notes(root)
         for path in outputs:
             print(path)
+        return 0
+
+    if args.command == "merge-seeds":
+        paths = workspace_paths(root)
+        raw_entries: list[dict[str, object]] = []
+        for input_path in args.input:
+            payload = load_json_file(Path(input_path))
+            if isinstance(payload, list):
+                raw_entries.extend(payload)
+            else:
+                raw_entries.append(payload)
+        merged = merge_seed_registry(raw_entries)
+        output_path = paths["seeds"] / "venue-seeds.json"
+        write_json_file(output_path, merged)
+        print(output_path)
         return 0
 
     parser.error("unsupported command")
