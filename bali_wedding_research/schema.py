@@ -125,3 +125,152 @@ def validate_source_record(record: dict[str, Any]) -> dict[str, Any]:
         "raw_excerpt_summary",
     )
     return candidate
+
+
+IMAGE_TYPES = {
+    "official_wedding_gallery",
+    "official_hotel_gallery",
+    "real_wedding_feature",
+    "platform_listing_gallery",
+    "blog_feature",
+    "press_feature",
+    "social_post",
+}
+
+SCENE_TAGS = {
+    "water-platform",
+    "chapel-interior",
+    "chapel-exterior",
+    "cliffside-ceremony",
+    "beach-ceremony",
+    "garden-reception",
+    "ballroom-reception",
+    "jungle-view",
+    "guest-seating",
+    "floral-setup",
+    "entrance-procession",
+    "night-view",
+    "room",
+    "public-area",
+    "arrival-flow",
+    "rain-backup-space",
+}
+
+PHOTO_AUTHENTICITY = {"official_promotional", "real_wedding", "unknown"}
+PHOTO_COVERAGE_TYPES = {"single_image", "small_gallery", "large_gallery", "document_embedded"}
+DECISION_VALUES = {"high", "medium", "low"}
+PHOTO_COVERAGE_LEVELS = {"high", "medium", "low", "unknown"}
+
+
+def validate_photo_record(record: dict[str, Any]) -> dict[str, Any]:
+    candidate = _as_record(record, "photo record")
+    _require_keys(
+        candidate,
+        {
+            "photo_entry_id",
+            "venue_id",
+            "source_id",
+            "page_url",
+            "image_url_or_gallery_url",
+            "image_type",
+            "scene_tags",
+            "authenticity",
+            "coverage_type",
+            "decision_value",
+            "decision_notes",
+        },
+        "photo record",
+    )
+
+    candidate["photo_entry_id"] = _require_non_empty_string(candidate["photo_entry_id"], "photo_entry_id")
+    candidate["venue_id"] = _require_non_empty_string(candidate["venue_id"], "venue_id")
+    candidate["source_id"] = _require_non_empty_string(candidate["source_id"], "source_id")
+    candidate["page_url"] = _require_non_empty_string(candidate["page_url"], "page_url")
+    candidate["image_url_or_gallery_url"] = _require_non_empty_string(
+        candidate["image_url_or_gallery_url"],
+        "image_url_or_gallery_url",
+    )
+    candidate["image_type"] = _require_choice(candidate["image_type"], "image_type", IMAGE_TYPES)
+    candidate["scene_tags"] = _require_string_list(candidate["scene_tags"], "scene_tags")
+    unknown_tags = sorted(set(candidate["scene_tags"]) - SCENE_TAGS)
+    if unknown_tags:
+        raise ValueError(f"scene_tags contains unsupported values: {', '.join(unknown_tags)}")
+    candidate["authenticity"] = _require_choice(
+        candidate["authenticity"],
+        "authenticity",
+        PHOTO_AUTHENTICITY,
+    )
+    candidate["coverage_type"] = _require_choice(
+        candidate["coverage_type"],
+        "coverage_type",
+        PHOTO_COVERAGE_TYPES,
+    )
+    candidate["decision_value"] = _require_choice(
+        candidate["decision_value"],
+        "decision_value",
+        DECISION_VALUES,
+    )
+    candidate["decision_notes"] = _require_non_empty_string(
+        candidate["decision_notes"],
+        "decision_notes",
+    )
+    return candidate
+
+
+def _coverage_level(entries: list[dict[str, Any]]) -> str:
+    if not entries:
+        return "unknown"
+    high_count = sum(1 for entry in entries if entry["decision_value"] == "high")
+    if high_count >= 2 or len(entries) >= 4:
+        return "high"
+    if high_count == 1 or len(entries) >= 2:
+        return "medium"
+    return "low"
+
+
+def summarize_photo_coverage(photo_entries: list[dict[str, Any]]) -> dict[str, str]:
+    ceremony_tags = {
+        "water-platform",
+        "chapel-interior",
+        "chapel-exterior",
+        "cliffside-ceremony",
+        "beach-ceremony",
+    }
+    reception_tags = {
+        "garden-reception",
+        "ballroom-reception",
+        "guest-seating",
+        "night-view",
+        "floral-setup",
+    }
+    rain_backup_tags = {"rain-backup-space"}
+    accommodation_tags = {"room", "public-area", "arrival-flow"}
+
+    def matching_entries(tags: set[str]) -> list[dict[str, Any]]:
+        return [
+            entry
+            for entry in photo_entries
+            if set(entry["scene_tags"]) & tags
+        ]
+
+    coverage = {
+        "photo_coverage_ceremony": _coverage_level(matching_entries(ceremony_tags)),
+        "photo_coverage_reception": _coverage_level(matching_entries(reception_tags)),
+        "photo_coverage_rain_backup": _coverage_level(matching_entries(rain_backup_tags)),
+        "photo_coverage_accommodation": _coverage_level(matching_entries(accommodation_tags)),
+    }
+
+    high_count = sum(1 for value in coverage.values() if value == "high")
+    medium_count = sum(1 for value in coverage.values() if value == "medium")
+    low_count = sum(1 for value in coverage.values() if value == "low")
+
+    if high_count >= 2:
+        coverage["photo_reference_value_overall"] = "high"
+    elif high_count == 1 or medium_count >= 2:
+        coverage["photo_reference_value_overall"] = "medium"
+    elif low_count >= 1:
+        coverage["photo_reference_value_overall"] = "low"
+    else:
+        coverage["photo_reference_value_overall"] = "unknown"
+
+    return coverage
