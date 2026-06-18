@@ -64,18 +64,25 @@ def load_workspace_records(
     sources_by_id = _index_unique_records(sources, key="source_id", label="source_id")
     _index_unique_records(photos, key="photo_entry_id", label="photo_entry_id")
 
+    for source in sources:
+        if source["venue_id"] not in venues_by_id:
+            raise ValueError(
+                f"source {source['source_id']} references missing venue: {source['venue_id']}"
+            )
+
     for venue in venues:
         missing_sources = sorted(set(venue["source_ids"]) - set(sources_by_id))
         if missing_sources:
             raise ValueError(
                 f"venue {venue['id']} references missing sources: {', '.join(missing_sources)}"
             )
-
-    for source in sources:
-        if source["venue_id"] not in venues_by_id:
-            raise ValueError(
-                f"source {source['source_id']} references missing venue: {source['venue_id']}"
-            )
+        for source_id in venue["source_ids"]:
+            source_venue_id = sources_by_id[source_id]["venue_id"]
+            if source_venue_id != venue["id"]:
+                raise ValueError(
+                    f"venue {venue['id']} references source {source_id} "
+                    f"owned by venue {source_venue_id}"
+                )
 
     for photo in photos:
         if photo["source_id"] not in sources_by_id:

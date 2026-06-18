@@ -157,6 +157,35 @@ class DerivedIndexTest(unittest.TestCase):
             ):
                 validate_workspace(root)
 
+    def test_validate_workspace_rejects_venue_referencing_another_venues_source(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            venues = [
+                self.make_venue(
+                    source_ids=["example-cliffside-official", "example-garden-official"],
+                ),
+                self.make_venue(
+                    venue_id="example-garden-resort",
+                    source_ids=["example-garden-official"],
+                ),
+            ]
+            sources = [
+                self.make_source(),
+                self.make_source(
+                    source_id="example-garden-official",
+                    venue_id="example-garden-resort",
+                ),
+            ]
+
+            self.write_workspace(root, venues=venues, sources=sources)
+
+            with self.assertRaisesRegex(
+                ValueError,
+                "venue example-cliffside-resort references source example-garden-official "
+                "owned by venue example-garden-resort",
+            ):
+                validate_workspace(root)
+
 
 if __name__ == "__main__":
     unittest.main()
