@@ -36,6 +36,21 @@ def load_validated_records(
     return records
 
 
+def _index_unique_records(
+    records: list[dict[str, Any]],
+    *,
+    key: str,
+    label: str,
+) -> dict[str, dict[str, Any]]:
+    indexed: dict[str, dict[str, Any]] = {}
+    for record in records:
+        record_id = record[key]
+        if record_id in indexed:
+            raise ValueError(f"duplicate {label}: {record_id}")
+        indexed[record_id] = record
+    return indexed
+
+
 def load_workspace_records(
     root: Path,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
@@ -45,21 +60,39 @@ def load_workspace_records(
     sources = load_validated_records(paths["sources"], validate_source_record)
     photos = load_validated_records(paths["photos"], validate_photo_record)
 
-    source_ids = {source["source_id"] for source in sources}
-    venue_ids = {venue["id"] for venue in venues}
+    venues_by_id = _index_unique_records(venues, key="id", label="venue id")
+    sources_by_id = _index_unique_records(sources, key="source_id", label="source_id")
+    _index_unique_records(photos, key="photo_entry_id", label="photo_entry_id")
 
     for venue in venues:
-        missing_sources = sorted(set(venue["source_ids"]) - source_ids)
+        missing_sources = sorted(set(venue["source_ids"]) - set(sources_by_id))
         if missing_sources:
             raise ValueError(
                 f"venue {venue['id']} references missing sources: {', '.join(missing_sources)}"
             )
 
+    for source in sources:
+        if source["venue_id"] not in venues_by_id:
+            raise ValueError(
+                f"source {source['source_id']} references missing venue: {source['venue_id']}"
+            )
+
     for photo in photos:
-        if photo["source_id"] not in source_ids:
-            raise ValueError(f"photo {photo['photo_entry_id']} references missing source")
-        if photo["venue_id"] not in venue_ids:
-            raise ValueError(f"photo {photo['photo_entry_id']} references missing venue")
+        if photo["source_id"] not in sources_by_id:
+            raise ValueError(
+                f"photo {photo['photo_entry_id']} references missing source: {photo['source_id']}"
+            )
+        if photo["venue_id"] not in venues_by_id:
+            raise ValueError(
+                f"photo {photo['photo_entry_id']} references missing venue: {photo['venue_id']}"
+            )
+        source_venue_id = sources_by_id[photo["source_id"]]["venue_id"]
+        if source_venue_id != photo["venue_id"]:
+            raise ValueError(
+                "photo "
+                f"{photo['photo_entry_id']} source {photo['source_id']} belongs to venue "
+                f"{source_venue_id}, not {photo['venue_id']}"
+            )
 
     return venues, sources, photos
 
