@@ -40,6 +40,50 @@ class SeedRegistryTest(unittest.TestCase):
             ["AYANA Bali", "AYANA Resort Bali"],
         )
 
+    def test_merge_seed_registry_collapses_bridged_alias_groups(self) -> None:
+        entries = [
+            {
+                "seed_id": "alpha-venue",
+                "name_en": "Alpha Venue",
+                "aliases": ["Alpha Bali"],
+                "region": "Jimbaran",
+                "discovery_urls": ["https://example.com/alpha-official"],
+                "status": "candidate",
+            },
+            {
+                "seed_id": "bravo-venue",
+                "name_en": "Bravo Venue",
+                "aliases": ["Bravo Bali"],
+                "region": "Jimbaran",
+                "discovery_urls": ["https://example.com/bravo-official"],
+                "status": "candidate",
+            },
+            {
+                "seed_id": "alpha-bravo-listing",
+                "name_en": "Alpha Bali",
+                "aliases": ["Bravo Venue"],
+                "region": "Jimbaran",
+                "discovery_urls": ["https://example.com/alpha-bravo-listing"],
+                "status": "candidate",
+            },
+        ]
+
+        merged = merge_seed_registry(entries)
+
+        self.assertEqual(len(merged), 1)
+        self.assertEqual(
+            merged[0]["discovery_urls"],
+            [
+                "https://example.com/alpha-bravo-listing",
+                "https://example.com/alpha-official",
+                "https://example.com/bravo-official",
+            ],
+        )
+        self.assertEqual(
+            merged[0]["aliases"],
+            ["Alpha Bali", "Alpha Venue", "Bravo Bali", "Bravo Venue"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

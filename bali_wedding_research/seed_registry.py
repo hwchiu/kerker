@@ -61,6 +61,13 @@ def _alias_keys(entry: dict[str, Any]) -> set[str]:
     return {slugify_name(name) for name in names}
 
 
+def _merge_canonical_entry(target: dict[str, Any], source: dict[str, Any]) -> None:
+    target["aliases"] = sorted(set(target["aliases"]) | set(source["aliases"]))
+    target["discovery_urls"] = sorted(
+        set(target["discovery_urls"]) | set(source["discovery_urls"])
+    )
+
+
 def merge_seed_registry(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
     merged: list[dict[str, Any]] = []
     alias_to_entry: dict[str, dict[str, Any]] = {}
@@ -68,9 +75,13 @@ def merge_seed_registry(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
     for raw_entry in entries:
         entry = _validate_seed_entry(raw_entry)
         keys = _alias_keys(entry)
-        existing = next((alias_to_entry[key] for key in keys if key in alias_to_entry), None)
+        matching_entries = [
+            candidate
+            for candidate in merged
+            if any(alias_to_entry.get(key) is candidate for key in keys)
+        ]
 
-        if existing is None:
+        if not matching_entries:
             canonical = {
                 "seed_id": entry["seed_id"],
                 "name_en": entry["name_en"],
@@ -84,13 +95,19 @@ def merge_seed_registry(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 alias_to_entry[key] = canonical
             continue
 
-        existing["aliases"] = sorted(
-            set(existing["aliases"]) | {entry["name_en"]} | set(entry["aliases"])
+        existing = matching_entries[0]
+        for duplicate in matching_entries[1:]:
+            _merge_canonical_entry(existing, duplicate)
+            merged.remove(duplicate)
+
+        _merge_canonical_entry(
+            existing,
+            {
+                "aliases": sorted({entry["name_en"], *entry["aliases"]}),
+                "discovery_urls": entry["discovery_urls"],
+            },
         )
-        existing["discovery_urls"] = sorted(
-            set(existing["discovery_urls"]) | set(entry["discovery_urls"])
-        )
-        for key in keys:
+        for key in {slugify_name(name) for name in existing["aliases"]} | keys:
             alias_to_entry[key] = existing
 
     return merged
