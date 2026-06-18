@@ -5,6 +5,7 @@ from pathlib import Path
 
 from .derive import write_derived_indexes
 from .io import validate_workspace
+from .notes import write_all_venue_notes
 from .paths import ensure_workspace_layout
 
 
@@ -20,6 +21,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     derived_parser = subparsers.add_parser("build-derived")
     derived_parser.add_argument("--root", default=".")
+
+    notes_parser = subparsers.add_parser("build-notes")
+    notes_parser.add_argument("--root", default=".")
 
     return parser
 
@@ -51,6 +55,12 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.command == "build-derived":
         outputs = write_derived_indexes(root)
+        for path in outputs:
+            print(path)
+        return 0
+
+    if args.command == "build-notes":
+        outputs = write_all_venue_notes(root)
         for path in outputs:
             print(path)
         return 0

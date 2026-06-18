@@ -88,6 +88,20 @@ class CliTest(unittest.TestCase):
             )
             self.assertEqual(stderr, "")
 
+    def test_build_notes_writes_markdown_files(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            main(["init-workspace", "--root", tmpdir])
+            paths = workspace_paths(root)
+
+            write_json_file(paths["sources"] / "example.json", source_record())
+            write_json_file(paths["photos"] / "example.json", photo_records())
+            write_json_file(paths["venues"] / "example.json", venue_record())
+
+            exit_code = main(["build-notes", "--root", tmpdir])
+            self.assertEqual(exit_code, 0)
+            self.assertTrue((paths["notes"] / "example-cliffside-resort.md").exists())
+
     def test_missing_command_returns_exit_code_2(self) -> None:
         exit_code, stdout, stderr = self._run_main([])
 
