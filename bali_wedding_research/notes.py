@@ -8,6 +8,15 @@ from .io import load_workspace_records
 from .paths import ensure_workspace_layout, workspace_paths
 
 
+def _display_price_band(derived_entry: dict[str, Any]) -> str:
+    price_band = derived_entry.get("price_band_normalized")
+    if price_band:
+        return str(price_band)
+    if derived_entry.get("pricing_status") == "quote_required":
+        return "待詢價"
+    return "未知"
+
+
 def render_venue_note(venue: dict[str, Any], derived_entry: dict[str, Any]) -> str:
     venue_types = ", ".join(venue["venue_types"])
     best_for = "\n".join(f"- {item}" for item in venue["best_for"])
@@ -26,7 +35,7 @@ def render_venue_note(venue: dict[str, Any], derived_entry: dict[str, Any]) -> s
         f"- 地區：{venue['region']}\n"
         f"- 場地型態：{venue_types}\n"
         f"- 價格狀態：{venue['pricing_status']}\n"
-        f"- 價位帶：{derived_entry['price_band_normalized']}\n"
+        f"- 價位帶：{_display_price_band(derived_entry)}\n"
         f"- 雨備強度：{venue['rain_backup_status']}\n"
         f"- 住宿整合：{venue['accommodation_fit']}\n"
         f"- 交通風險：{venue['traffic_risk_level']}\n"
@@ -51,6 +60,11 @@ def write_all_venue_notes(root: Path) -> list[Path]:
     derived_lookup = {
         entry["id"]: entry for entry in build_derived_indexes(root)["venues"]
     }
+    venue_ids = {venue["id"] for venue in venues}
+
+    for existing_note in paths["notes"].glob("*.md"):
+        if existing_note.stem not in venue_ids:
+            existing_note.unlink()
 
     written: list[Path] = []
     for venue in venues:
