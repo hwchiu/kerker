@@ -711,6 +711,17 @@ def validate_venue_record(record: dict[str, Any]) -> dict[str, Any]:
         allow_empty=True,
     )
     candidate["source_ids"] = _require_string_list(candidate["source_ids"], "source_ids")
+    duplicate_source_ids = sorted(
+        {
+            source_id
+            for source_id in candidate["source_ids"]
+            if candidate["source_ids"].count(source_id) > 1
+        }
+    )
+    if duplicate_source_ids:
+        raise ValueError(
+            "source_ids must not contain duplicates: " + ", ".join(duplicate_source_ids)
+        )
     candidate["photo_index_id"] = _require_non_empty_string(
         candidate["photo_index_id"],
         "photo_index_id",

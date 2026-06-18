@@ -205,6 +205,19 @@ class VenueSchemaTest(unittest.TestCase):
         ):
             validate_venue_record(record)
 
+    def test_validate_venue_record_rejects_duplicate_source_ids(self) -> None:
+        record = self._base_venue()
+        record["source_ids"] = [
+            "ayana-official-weddings",
+            "ayana-official-weddings",
+        ]
+
+        with self.assertRaisesRegex(
+            ValueError,
+            "source_ids must not contain duplicates: ayana-official-weddings",
+        ):
+            validate_venue_record(record)
+
 
 if __name__ == "__main__":
     unittest.main()
