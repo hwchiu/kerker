@@ -80,6 +80,7 @@ def main(argv: list[str] | None = None) -> int:
             else:
                 raw_entries.append(payload)
         merged = merge_seed_registry(raw_entries)
+        merged.sort(key=lambda entry: str(entry.get("seed_id", "")))
         output_path = paths["seeds"] / "venue-seeds.json"
         write_json_file(output_path, merged)
         print(output_path)

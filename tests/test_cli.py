@@ -168,6 +168,81 @@ class CliTest(unittest.TestCase):
                 ["https://example.com/seed-a", "https://example.com/seed-b"],
             )
 
+    def test_merge_seeds_writes_disconnected_groups_in_stable_order(self) -> None:
+        seed_alpha = {
+            "seed_id": "alpha-beach-club",
+            "name_en": "Alpha Beach Club",
+            "aliases": [],
+            "region": "Seminyak",
+            "discovery_urls": ["https://example.com/alpha"],
+            "status": "candidate",
+        }
+        seed_zeta = {
+            "seed_id": "zeta-garden-villa",
+            "name_en": "Zeta Garden Villa",
+            "aliases": [],
+            "region": "Ubud",
+            "discovery_urls": ["https://example.com/zeta"],
+            "status": "candidate",
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir_a, tempfile.TemporaryDirectory() as tmpdir_b:
+            root_a = self._init_workspace(tmpdir_a)
+            paths_a = workspace_paths(root_a)
+            alpha_path_a = root_a / "alpha.json"
+            zeta_path_a = root_a / "zeta.json"
+            write_json_file(alpha_path_a, [seed_alpha])
+            write_json_file(zeta_path_a, [seed_zeta])
+
+            exit_code, stdout, stderr = self._run_main(
+                [
+                    "merge-seeds",
+                    "--root",
+                    tmpdir_a,
+                    "--input",
+                    str(zeta_path_a),
+                    "--input",
+                    str(alpha_path_a),
+                ]
+            )
+
+            self.assertEqual(exit_code, 0)
+            self.assertEqual(stderr, "")
+            merged_path_a = paths_a["seeds"] / "venue-seeds.json"
+            self.assertEqual(stdout, f"{merged_path_a}\n")
+            merged_a = load_json_file(merged_path_a)
+
+            root_b = self._init_workspace(tmpdir_b)
+            paths_b = workspace_paths(root_b)
+            alpha_path_b = root_b / "alpha.json"
+            zeta_path_b = root_b / "zeta.json"
+            write_json_file(alpha_path_b, [seed_alpha])
+            write_json_file(zeta_path_b, [seed_zeta])
+
+            exit_code, stdout, stderr = self._run_main(
+                [
+                    "merge-seeds",
+                    "--root",
+                    tmpdir_b,
+                    "--input",
+                    str(alpha_path_b),
+                    "--input",
+                    str(zeta_path_b),
+                ]
+            )
+
+            self.assertEqual(exit_code, 0)
+            self.assertEqual(stderr, "")
+            merged_path_b = paths_b["seeds"] / "venue-seeds.json"
+            self.assertEqual(stdout, f"{merged_path_b}\n")
+            merged_b = load_json_file(merged_path_b)
+
+            self.assertEqual(
+                [entry["seed_id"] for entry in merged_a],
+                ["alpha-beach-club", "zeta-garden-villa"],
+            )
+            self.assertEqual(merged_a, merged_b)
+
     def test_missing_command_returns_exit_code_2(self) -> None:
         exit_code, stdout, stderr = self._run_main([])
 
