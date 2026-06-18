@@ -1,11 +1,41 @@
 from __future__ import annotations
 
+import json
 from pathlib import Path
 from typing import Any
 
 from .derive import build_derived_indexes
 from .io import load_workspace_records
 from .paths import ensure_workspace_layout, workspace_paths
+
+
+def _generated_notes_manifest_path(notes_dir: Path) -> Path:
+    return notes_dir / ".generated-notes.json"
+
+
+def _load_generated_note_names(notes_dir: Path) -> set[str]:
+    manifest_path = _generated_notes_manifest_path(notes_dir)
+    if not manifest_path.exists():
+        return set()
+
+    with manifest_path.open("r", encoding="utf-8") as handle:
+        payload = json.load(handle)
+
+    if not isinstance(payload, list):
+        return set()
+
+    return {
+        item
+        for item in payload
+        if isinstance(item, str) and item.endswith(".md") and Path(item).name == item
+    }
+
+
+def _write_generated_note_names(notes_dir: Path, note_names: set[str]) -> None:
+    manifest_path = _generated_notes_manifest_path(notes_dir)
+    with manifest_path.open("w", encoding="utf-8") as handle:
+        json.dump(sorted(note_names), handle, ensure_ascii=False, indent=2)
+        handle.write("\n")
 
 
 def _display_price_band(derived_entry: dict[str, Any]) -> str:
@@ -60,10 +90,12 @@ def write_all_venue_notes(root: Path) -> list[Path]:
     derived_lookup = {
         entry["id"]: entry for entry in build_derived_indexes(root)["venues"]
     }
-    venue_ids = {venue["id"] for venue in venues}
+    previous_note_names = _load_generated_note_names(paths["notes"])
+    current_note_names = {f"{venue['id']}.md" for venue in venues}
 
-    for existing_note in paths["notes"].glob("*.md"):
-        if existing_note.stem not in venue_ids:
+    for note_name in previous_note_names - current_note_names:
+        existing_note = paths["notes"] / note_name
+        if existing_note.exists():
             existing_note.unlink()
 
     written: list[Path] = []
@@ -74,4 +106,6 @@ def write_all_venue_notes(root: Path) -> list[Path]:
             encoding="utf-8",
         )
         written.append(target)
+
+    _write_generated_note_names(paths["notes"], current_note_names)
     return written

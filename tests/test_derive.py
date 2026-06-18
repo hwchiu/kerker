@@ -20,9 +20,18 @@ class DerivedIndexTest(unittest.TestCase):
     ) -> dict[str, Path]:
         ensure_workspace_layout(root)
         paths = workspace_paths(root)
-        write_json_file(paths["venues"] / "records.json", venues or [venue_record()])
-        write_json_file(paths["sources"] / "records.json", sources or [source_record()])
-        write_json_file(paths["photos"] / "records.json", photos or photo_records())
+        write_json_file(
+            paths["venues"] / "records.json",
+            [venue_record()] if venues is None else venues,
+        )
+        write_json_file(
+            paths["sources"] / "records.json",
+            [source_record()] if sources is None else sources,
+        )
+        write_json_file(
+            paths["photos"] / "records.json",
+            photo_records() if photos is None else photos,
+        )
         return paths
 
     def make_venue(
@@ -149,7 +158,7 @@ class DerivedIndexTest(unittest.TestCase):
             root = Path(tmpdir)
             venues = [self.make_venue(source_ids=["missing-source-id"])]
 
-            self.write_workspace(root, venues=venues)
+            self.write_workspace(root, venues=venues, sources=[])
 
             with self.assertRaisesRegex(
                 ValueError,
@@ -183,6 +192,24 @@ class DerivedIndexTest(unittest.TestCase):
                 ValueError,
                 "venue example-cliffside-resort references source example-garden-official "
                 "owned by venue example-garden-resort",
+            ):
+                validate_workspace(root)
+
+    def test_validate_workspace_rejects_source_missing_from_venue_source_ids(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            venues = [self.make_venue(source_ids=["example-cliffside-official"])]
+            sources = [
+                self.make_source(),
+                self.make_source(source_id="example-extra-official"),
+            ]
+
+            self.write_workspace(root, venues=venues, sources=sources)
+
+            with self.assertRaisesRegex(
+                ValueError,
+                "source example-extra-official belongs to venue example-cliffside-resort "
+                "but is missing from venue.source_ids",
             ):
                 validate_workspace(root)
 

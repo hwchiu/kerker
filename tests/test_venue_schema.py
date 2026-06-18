@@ -180,6 +180,31 @@ class VenueSchemaTest(unittest.TestCase):
         self.assertIsNone(validated["price_band_normalized"])
         self.assertEqual(validated["price_risk_level"], "high")
 
+    def test_validate_venue_record_rejects_unknown_status_with_public_price_entries(self) -> None:
+        record = self._base_venue()
+        record["pricing_status"] = "unknown"
+        record["price_risk_level"] = "high"
+        record["price_band_normalized"] = None
+
+        with self.assertRaisesRegex(
+            ValueError,
+            "pricing_status=unknown must not carry public price entries",
+        ):
+            validate_venue_record(record)
+
+    def test_validate_venue_record_rejects_public_price_available_without_price_entries(self) -> None:
+        record = self._base_venue()
+        record["price_entries"] = []
+        record["pricing_status"] = "public_price_available"
+        record["price_risk_level"] = "high"
+        record["price_band_normalized"] = None
+
+        with self.assertRaisesRegex(
+            ValueError,
+            "pricing_status=public_price_available requires at least one public price entry",
+        ):
+            validate_venue_record(record)
+
 
 if __name__ == "__main__":
     unittest.main()

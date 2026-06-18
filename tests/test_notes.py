@@ -97,7 +97,7 @@ class NotesTest(unittest.TestCase):
             self.assertEqual(len(written), 1)
             self.assertTrue(written[0].exists())
 
-    def test_write_all_venue_notes_removes_stale_markdown_files(self) -> None:
+    def test_write_all_venue_notes_preserves_unmanaged_markdown_files(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)
             ensure_workspace_layout(root)
@@ -106,14 +106,57 @@ class NotesTest(unittest.TestCase):
             write_json_file(paths["sources"] / "example.json", source_record())
             write_json_file(paths["photos"] / "example.json", photo_records())
             write_json_file(paths["venues"] / "example.json", venue_record())
-            stale_note = paths["notes"] / "old-venue.md"
-            stale_note.write_text("# stale\n", encoding="utf-8")
+            readme = paths["notes"] / "README.md"
+            readme.write_text("# Manual notes guide\n", encoding="utf-8")
 
-            written = write_all_venue_notes(root)
+            write_all_venue_notes(root)
 
-            self.assertEqual(len(written), 1)
-            self.assertFalse(stale_note.exists())
-            self.assertTrue((paths["notes"] / "example-cliffside-resort.md").exists())
+            self.assertTrue(readme.exists())
+            self.assertEqual(readme.read_text(encoding="utf-8"), "# Manual notes guide\n")
+
+    def test_write_all_venue_notes_removes_stale_generated_notes_on_regeneration(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            ensure_workspace_layout(root)
+            paths = workspace_paths(root)
+
+            write_json_file(paths["sources"] / "example.json", source_record())
+            write_json_file(paths["photos"] / "example.json", photo_records())
+            write_json_file(paths["venues"] / "example.json", venue_record())
+            readme = paths["notes"] / "README.md"
+            readme.write_text("# Manual notes guide\n", encoding="utf-8")
+
+            first_written = write_all_venue_notes(root)
+
+            replacement_source = source_record()
+            replacement_source["source_id"] = "garden-official"
+            replacement_source["venue_id"] = "garden-venue"
+
+            replacement_venue = venue_record()
+            replacement_venue["id"] = "garden-venue"
+            replacement_venue["name_zh"] = "花園宴會場"
+            replacement_venue["name_en_official"] = "Garden Venue"
+            replacement_venue["source_ids"] = ["garden-official"]
+            replacement_venue["photo_index_id"] = "garden-venue"
+
+            replacement_photos = photo_records()
+            for index, photo in enumerate(replacement_photos, start=1):
+                photo["photo_entry_id"] = f"garden-photo-{index}"
+                photo["venue_id"] = "garden-venue"
+                photo["source_id"] = "garden-official"
+
+            write_json_file(paths["sources"] / "example.json", replacement_source)
+            write_json_file(paths["photos"] / "example.json", replacement_photos)
+            write_json_file(paths["venues"] / "example.json", replacement_venue)
+
+            second_written = write_all_venue_notes(root)
+
+            self.assertEqual(len(first_written), 1)
+            self.assertEqual(len(second_written), 1)
+            self.assertFalse((paths["notes"] / "example-cliffside-resort.md").exists())
+            self.assertTrue((paths["notes"] / "garden-venue.md").exists())
+            self.assertTrue(readme.exists())
+            self.assertEqual(readme.read_text(encoding="utf-8"), "# Manual notes guide\n")
 
 
 if __name__ == "__main__":

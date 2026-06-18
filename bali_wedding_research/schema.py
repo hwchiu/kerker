@@ -716,6 +716,16 @@ def validate_venue_record(record: dict[str, Any]) -> dict[str, Any]:
         "photo_index_id",
     )
 
+    if candidate["pricing_status"] == "unknown" and candidate["price_entries"]:
+        raise ValueError("pricing_status=unknown must not carry public price entries")
+    if (
+        candidate["pricing_status"] == "public_price_available"
+        and not candidate["price_entries"]
+    ):
+        raise ValueError(
+            "pricing_status=public_price_available requires at least one public price entry"
+        )
+
     public_price = _public_starting_price_usd(candidate["price_entries"])
     expected_band = normalize_price_band(public_price)
     expected_risk = _derived_price_risk(candidate["pricing_status"], candidate["price_entries"])
