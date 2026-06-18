@@ -221,9 +221,11 @@ def _coverage_level(entries: list[dict[str, Any]]) -> str:
     if not entries:
         return "unknown"
     high_count = sum(1 for entry in entries if entry["decision_value"] == "high")
-    if high_count >= 2 or len(entries) >= 4:
+    medium_count = sum(1 for entry in entries if entry["decision_value"] == "medium")
+    low_count = sum(1 for entry in entries if entry["decision_value"] == "low")
+    if high_count >= 2 or (high_count >= 1 and medium_count >= 1):
         return "high"
-    if high_count == 1 or len(entries) >= 2:
+    if high_count >= 1 or medium_count >= 1 or low_count >= 2:
         return "medium"
     return "low"
 
@@ -266,7 +268,7 @@ def summarize_photo_coverage(photo_entries: list[dict[str, Any]]) -> dict[str, s
 
     if high_count >= 2:
         coverage["photo_reference_value_overall"] = "high"
-    elif high_count == 1 or medium_count >= 2:
+    elif high_count >= 1 or medium_count >= 1:
         coverage["photo_reference_value_overall"] = "medium"
     elif low_count >= 1:
         coverage["photo_reference_value_overall"] = "low"

@@ -97,6 +97,138 @@ class PhotoSchemaTest(unittest.TestCase):
         self.assertEqual(coverage["photo_coverage_accommodation"], "low")
         self.assertEqual(coverage["photo_reference_value_overall"], "medium")
 
+    def test_summarize_photo_coverage_single_medium_signal_stays_medium_overall(self) -> None:
+        entries = [
+            validate_photo_record(
+                {
+                    "photo_entry_id": "gallery-medium-1",
+                    "venue_id": "ayana-resort-bali",
+                    "source_id": "ayana-official-weddings",
+                    "page_url": "https://example.com/gallery/medium-1",
+                    "image_url_or_gallery_url": "https://example.com/images/medium-1.jpg",
+                    "image_type": "official_wedding_gallery",
+                    "scene_tags": ["cliffside-ceremony"],
+                    "authenticity": "official_promotional",
+                    "coverage_type": "single_image",
+                    "decision_value": "medium",
+                    "decision_notes": "Shows ceremony layout with usable detail",
+                }
+            ),
+        ]
+
+        coverage = summarize_photo_coverage(entries)
+
+        self.assertEqual(coverage["photo_coverage_ceremony"], "medium")
+        self.assertEqual(coverage["photo_reference_value_overall"], "medium")
+
+    def test_summarize_photo_coverage_medium_signal_not_downgraded_by_low_signal(self) -> None:
+        entries = [
+            validate_photo_record(
+                {
+                    "photo_entry_id": "gallery-medium-2",
+                    "venue_id": "ayana-resort-bali",
+                    "source_id": "ayana-official-weddings",
+                    "page_url": "https://example.com/gallery/medium-2",
+                    "image_url_or_gallery_url": "https://example.com/images/medium-2.jpg",
+                    "image_type": "official_wedding_gallery",
+                    "scene_tags": ["cliffside-ceremony"],
+                    "authenticity": "official_promotional",
+                    "coverage_type": "single_image",
+                    "decision_value": "medium",
+                    "decision_notes": "Usable ceremony photo",
+                }
+            ),
+            validate_photo_record(
+                {
+                    "photo_entry_id": "gallery-low-1",
+                    "venue_id": "ayana-resort-bali",
+                    "source_id": "ayana-official-weddings",
+                    "page_url": "https://example.com/gallery/low-1",
+                    "image_url_or_gallery_url": "https://example.com/images/low-1.jpg",
+                    "image_type": "official_hotel_gallery",
+                    "scene_tags": ["room"],
+                    "authenticity": "official_promotional",
+                    "coverage_type": "single_image",
+                    "decision_value": "low",
+                    "decision_notes": "Weak room overview",
+                }
+            ),
+        ]
+
+        coverage = summarize_photo_coverage(entries)
+
+        self.assertEqual(coverage["photo_coverage_ceremony"], "medium")
+        self.assertEqual(coverage["photo_coverage_accommodation"], "low")
+        self.assertEqual(coverage["photo_reference_value_overall"], "medium")
+
+    def test_summarize_photo_coverage_multiple_low_signals_only_reach_medium(self) -> None:
+        entries = [
+            validate_photo_record(
+                {
+                    "photo_entry_id": "gallery-low-r1",
+                    "venue_id": "ayana-resort-bali",
+                    "source_id": "ayana-official-weddings",
+                    "page_url": "https://example.com/gallery/low-r1",
+                    "image_url_or_gallery_url": "https://example.com/images/low-r1.jpg",
+                    "image_type": "official_wedding_gallery",
+                    "scene_tags": ["guest-seating"],
+                    "authenticity": "official_promotional",
+                    "coverage_type": "single_image",
+                    "decision_value": "low",
+                    "decision_notes": "Weak reception angle one",
+                }
+            ),
+            validate_photo_record(
+                {
+                    "photo_entry_id": "gallery-low-r2",
+                    "venue_id": "ayana-resort-bali",
+                    "source_id": "ayana-official-weddings",
+                    "page_url": "https://example.com/gallery/low-r2",
+                    "image_url_or_gallery_url": "https://example.com/images/low-r2.jpg",
+                    "image_type": "official_wedding_gallery",
+                    "scene_tags": ["night-view"],
+                    "authenticity": "official_promotional",
+                    "coverage_type": "single_image",
+                    "decision_value": "low",
+                    "decision_notes": "Weak reception angle two",
+                }
+            ),
+            validate_photo_record(
+                {
+                    "photo_entry_id": "gallery-low-r3",
+                    "venue_id": "ayana-resort-bali",
+                    "source_id": "ayana-official-weddings",
+                    "page_url": "https://example.com/gallery/low-r3",
+                    "image_url_or_gallery_url": "https://example.com/images/low-r3.jpg",
+                    "image_type": "official_wedding_gallery",
+                    "scene_tags": ["floral-setup"],
+                    "authenticity": "official_promotional",
+                    "coverage_type": "single_image",
+                    "decision_value": "low",
+                    "decision_notes": "Weak reception angle three",
+                }
+            ),
+            validate_photo_record(
+                {
+                    "photo_entry_id": "gallery-low-r4",
+                    "venue_id": "ayana-resort-bali",
+                    "source_id": "ayana-official-weddings",
+                    "page_url": "https://example.com/gallery/low-r4",
+                    "image_url_or_gallery_url": "https://example.com/images/low-r4.jpg",
+                    "image_type": "official_wedding_gallery",
+                    "scene_tags": ["garden-reception"],
+                    "authenticity": "official_promotional",
+                    "coverage_type": "single_image",
+                    "decision_value": "low",
+                    "decision_notes": "Weak reception angle four",
+                }
+            ),
+        ]
+
+        coverage = summarize_photo_coverage(entries)
+
+        self.assertEqual(coverage["photo_coverage_reception"], "medium")
+
 
 if __name__ == "__main__":
     unittest.main()
