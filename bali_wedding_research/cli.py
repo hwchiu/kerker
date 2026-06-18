@@ -26,7 +26,12 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
-    args = parser.parse_args(argv)
+    try:
+        args = parser.parse_args(argv)
+    except SystemExit as error:
+        if isinstance(error.code, int):
+            return error.code
+        return 1
     root = Path(args.root)
 
     if args.command == "init-workspace":
