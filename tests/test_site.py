@@ -306,16 +306,24 @@ class StaticSiteTest(unittest.TestCase):
                     docs_dir / "assets" / "site.js",
                     docs_dir / "venues" / "example-cliffside-resort.html",
                     docs_dir / ".nojekyll",
+                    docs_dir / "docs" / "index.html",
+                    docs_dir / "docs" / "venues" / "example-cliffside-resort.html",
                     root / "index.html",
                     root / ".nojekyll",
                 ],
             )
             docs_index = (docs_dir / "index.html").read_text(encoding="utf-8")
+            legacy_docs_index = (docs_dir / "docs" / "index.html").read_text(encoding="utf-8")
+            legacy_venue_index = (
+                docs_dir / "docs" / "venues" / "example-cliffside-resort.html"
+            ).read_text(encoding="utf-8")
             root_index = (root / "index.html").read_text(encoding="utf-8")
 
             self.assertIn("範例懸崖度假村", docs_index)
-            self.assertIn('content="0; url=docs/"', root_index)
-            self.assertIn('window.location.replace("docs/")', root_index)
+            self.assertIn('content="0; url=../"', legacy_docs_index)
+            self.assertIn('content="0; url=../../venues/example-cliffside-resort.html"', legacy_venue_index)
+            self.assertIn("window.location.pathname.endsWith", root_index)
+            self.assertIn('window.location.replace(`${basePath}docs/`)', root_index)
             self.assertIn('href="docs/"', root_index)
             self.assertEqual((docs_dir / ".nojekyll").read_text(encoding="utf-8"), "")
             self.assertEqual((root / ".nojekyll").read_text(encoding="utf-8"), "")

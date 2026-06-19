@@ -2595,6 +2595,27 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
     )
 
 
+def _render_static_redirect_page(target: str, *, title: str) -> str:
+    safe_target = escape(target, quote=True)
+    return (
+        "<!doctype html>"
+        '<html lang="zh-Hant">'
+        "<head>"
+        '<meta charset="utf-8">'
+        '<meta name="viewport" content="width=device-width, initial-scale=1">'
+        f'<meta http-equiv="refresh" content="0; url={safe_target}">'
+        f"<title>{escape(title)}</title>"
+        "<script>"
+        f"window.location.replace({json.dumps(target)});"
+        "</script>"
+        "</head>"
+        "<body>"
+        f'<p>Redirecting to <a href="{safe_target}">{safe_target}</a>.</p>'
+        "</body>"
+        "</html>"
+    )
+
+
 def _render_pages_redirect_page() -> str:
     return (
         "<!doctype html>"
@@ -2602,10 +2623,12 @@ def _render_pages_redirect_page() -> str:
         "<head>"
         '<meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width, initial-scale=1">'
-        '<meta http-equiv="refresh" content="0; url=docs/">'
         "<title>峇里島婚禮場地索引</title>"
         "<script>"
-        'window.location.replace("docs/");'
+        'const basePath = window.location.pathname.endsWith("/")'
+        ' ? window.location.pathname'
+        ' : `${window.location.pathname}/`;'
+        'window.location.replace(`${basePath}docs/`);'
         "</script>"
         "</head>"
         "<body>"
@@ -2670,16 +2693,40 @@ def write_pages_site(root: Path, docs_dir: Path | None = None) -> list[Path]:
     written = write_static_site(root, target_docs_dir)
 
     docs_nojekyll_path = target_docs_dir / ".nojekyll"
+    legacy_docs_dir = target_docs_dir / "docs"
+    legacy_venues_dir = legacy_docs_dir / "venues"
     root_index_path = root / "index.html"
     root_nojekyll_path = root / ".nojekyll"
 
+    legacy_docs_dir.mkdir(parents=True, exist_ok=True)
+    legacy_venues_dir.mkdir(parents=True, exist_ok=True)
+    for existing in legacy_venues_dir.glob("*.html"):
+        existing.unlink()
+
     docs_nojekyll_path.write_text("", encoding="utf-8")
+    legacy_index_path = legacy_docs_dir / "index.html"
+    legacy_index_path.write_text(
+        _render_static_redirect_page("../", title="峇里島婚禮場地索引"),
+        encoding="utf-8",
+    )
+    legacy_written = [legacy_index_path]
+    for detail_page_path in sorted((target_docs_dir / "venues").glob("*.html")):
+        legacy_detail_path = legacy_venues_dir / detail_page_path.name
+        legacy_detail_path.write_text(
+            _render_static_redirect_page(
+                f"../../venues/{detail_page_path.name}",
+                title="峇里島婚禮場地檔案",
+            ),
+            encoding="utf-8",
+        )
+        legacy_written.append(legacy_detail_path)
     root_index_path.write_text(_render_pages_redirect_page(), encoding="utf-8")
     root_nojekyll_path.write_text("", encoding="utf-8")
 
     return [
         *written,
         docs_nojekyll_path,
+        *legacy_written,
         root_index_path,
         root_nojekyll_path,
     ]

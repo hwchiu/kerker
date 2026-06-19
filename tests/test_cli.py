@@ -157,6 +157,8 @@ class CliTest(unittest.TestCase):
                     str(docs_root / "assets" / "site.js"),
                     str(docs_root / "venues" / "example-cliffside-resort.html"),
                     str(docs_root / ".nojekyll"),
+                    str(docs_root / "docs" / "index.html"),
+                    str(docs_root / "docs" / "venues" / "example-cliffside-resort.html"),
                     str(root / "index.html"),
                     str(root / ".nojekyll"),
                 ],
@@ -164,6 +166,8 @@ class CliTest(unittest.TestCase):
             self.assertEqual(stderr, "")
             self.assertTrue((docs_root / "index.html").exists())
             self.assertTrue((docs_root / ".nojekyll").exists())
+            self.assertTrue((docs_root / "docs" / "index.html").exists())
+            self.assertTrue((docs_root / "docs" / "venues" / "example-cliffside-resort.html").exists())
             self.assertTrue((root / "index.html").exists())
             self.assertTrue((root / ".nojekyll").exists())
 
