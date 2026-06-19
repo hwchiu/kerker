@@ -1,0 +1,223 @@
+[
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-photo-watabe-majestic-ja",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-watabe-majestic-ja",
+    "page_url": "https://www.watabe-wedding.co.jp/bali/chapel_majestic/",
+    "image_url_or_gallery_url": "https://www.watabe-wedding.co.jp/bali/chapel_majestic/",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "chapel-exterior",
+      "chapel-interior",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "日文婚顧頁能補充 Majestic Chapel 的包裝視角與教堂細節。"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-photo-weddingku-felix-ika",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-weddingku-felix-ika",
+    "page_url": "https://www.weddingku.com/real-weddings/ritz-carlton-bali",
+    "image_url_or_gallery_url": "https://www.weddingku.com/real-weddings/ritz-carlton-bali",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "garden-reception",
+      "floral-setup",
+      "guest-seating"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "真實婚禮案例，適合看 Ritz 晚宴與花藝在實際婚禮中的落地感。"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-photo-weddingku-stefan-olivia",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-weddingku-stefan-olivia",
+    "page_url": "https://new.weddingku.com/real-weddings/rustic-garden-wedding-with-capiz-shell-element-on-stefan-olivia-wedding-day-at-the-ritz-carlton-bali",
+    "image_url_or_gallery_url": "https://new.weddingku.com/real-weddings/rustic-garden-wedding-with-capiz-shell-element-on-stefan-olivia-wedding-day-at-the-ritz-carlton-bali",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "garden-reception",
+      "guest-seating",
+      "floral-setup"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "另一組真實婚禮案例，可直接比較 Ritz 草坪宴會在不同設計方向下的實景差異。"
+  },
+  {
+    "photo_entry_id": "alila-villas-uluwatu-photo-watabe-ja",
+    "venue_id": "alila-villas-uluwatu",
+    "source_id": "alila-villas-uluwatu-watabe-ja",
+    "page_url": "https://www.watabe-wedding.co.jp/bali/chapel_alila/",
+    "image_url_or_gallery_url": "https://www.watabe-wedding.co.jp/bali/chapel_alila/",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "日文婚顧頁讓 Alila 懸崖儀式與 Cabana 的比例更容易理解。"
+  },
+  {
+    "photo_entry_id": "alila-villas-uluwatu-photo-weddingku-mario-rachel",
+    "venue_id": "alila-villas-uluwatu",
+    "source_id": "alila-villas-uluwatu-weddingku-mario-rachel",
+    "page_url": "https://www.weddingku.com/real-weddings/elegant-ocean-view-bali-wedding-of-mario-rachel-at-alila-villas-uluwatu",
+    "image_url_or_gallery_url": "https://www.weddingku.com/real-weddings/elegant-ocean-view-bali-wedding-of-mario-rachel-at-alila-villas-uluwatu",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "真實婚禮案例有助於確認 Alila 懸崖儀式區與晚宴氛圍在現場的真實樣子。"
+  },
+  {
+    "photo_entry_id": "alila-villas-uluwatu-photo-weddingku-utah-rex",
+    "venue_id": "alila-villas-uluwatu",
+    "source_id": "alila-villas-uluwatu-weddingku-utah-rex",
+    "page_url": "https://www.weddingku.com/real-weddings/romantic-modern-wedding-at-alila-uluwatu-bali",
+    "image_url_or_gallery_url": "https://www.weddingku.com/real-weddings/romantic-modern-wedding-at-alila-uluwatu-bali",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "floral-setup",
+      "guest-seating"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "補另一組 Alila 真實婚禮視角，方便看不同花藝與座位配置。"
+  },
+  {
+    "photo_entry_id": "the-apurva-kempinski-bali-photo-watabe-ja",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_id": "the-apurva-kempinski-bali-watabe-ja",
+    "page_url": "https://www.watabe-wedding.co.jp/bali/chapel_kempinski_apurva/",
+    "image_url_or_gallery_url": "https://www.watabe-wedding.co.jp/bali/chapel_kempinski_apurva/",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "chapel-exterior",
+      "chapel-interior",
+      "public-area"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "日文婚顧頁可補 Apurva Chapel 的建築感與光線。"
+  },
+  {
+    "photo_entry_id": "the-apurva-kempinski-bali-photo-weddingku-felix-debby",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_id": "the-apurva-kempinski-bali-weddingku-felix-debby",
+    "page_url": "https://www.weddingku.com/real-weddings/romantic-autumn-on-bali-wedding-of-felix-debby-at-the-apurva-kempinski-bali",
+    "image_url_or_gallery_url": "https://www.weddingku.com/real-weddings/romantic-autumn-on-bali-wedding-of-felix-debby-at-the-apurva-kempinski-bali",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "floral-setup",
+      "guest-seating",
+      "ballroom-reception"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "真實婚禮案例補足 Apurva 晚宴與場佈在實際婚禮中的呈現。"
+  },
+  {
+    "photo_entry_id": "the-apurva-kempinski-bali-photo-weddingku-martin-clarissa",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_id": "the-apurva-kempinski-bali-weddingku-martin-clarissa",
+    "page_url": "https://www.weddingku.com/real-weddings/a-romantic-wedding-with-white-gray-dominance-at-apurva-kempinski-bali-martin-clarissa",
+    "image_url_or_gallery_url": "https://www.weddingku.com/real-weddings/a-romantic-wedding-with-white-gray-dominance-at-apurva-kempinski-bali-martin-clarissa",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "chapel-exterior",
+      "floral-setup",
+      "guest-seating"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "另一組 Apurva 真實婚禮案例，適合比對不同配色與儀式設計。"
+  },
+  {
+    "photo_entry_id": "ayana-bali-photo-weddingku-bella-ken",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-weddingku-bella-ken",
+    "page_url": "https://www.weddingku.com/real-weddings/i-was-always-yours-to-have",
+    "image_url_or_gallery_url": "https://www.weddingku.com/real-weddings/i-was-always-yours-to-have",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "water-platform",
+      "night-view",
+      "guest-seating"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "能直接看 AYANA 高空海景婚禮在夜景與桌型上的真實效果。"
+  },
+  {
+    "photo_entry_id": "ayana-bali-photo-weddingku-hendri-winna",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-weddingku-hendri-winna",
+    "page_url": "https://www.weddingku.com/real-weddings/we-love-each-other-we-understand-each-other",
+    "image_url_or_gallery_url": "https://www.weddingku.com/real-weddings/we-love-each-other-we-understand-each-other",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "garden-reception",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "補足 AYANA 在雨季前後的真實婚禮呈現，對判斷戶外感受很有幫助。"
+  },
+  {
+    "photo_entry_id": "conrad-bali-photo-watabe-ja",
+    "venue_id": "conrad-bali",
+    "source_id": "conrad-bali-watabe-ja",
+    "page_url": "https://www.watabe-wedding.co.jp/bali/chapel_conrad_infinity/",
+    "image_url_or_gallery_url": "https://www.watabe-wedding.co.jp/bali/chapel_conrad_infinity/",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "chapel-interior",
+      "beach-ceremony",
+      "arrival-flow"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "日文婚顧頁可補 Infinity Chapel 的內外觀與海邊儀式氛圍。"
+  },
+  {
+    "photo_entry_id": "bvlgari-resort-bali-photo-watabe-ja",
+    "venue_id": "bvlgari-resort-bali",
+    "source_id": "bvlgari-resort-bali-watabe-ja",
+    "page_url": "https://www.watabe-wedding.co.jp/bali/chapel_bulgari/",
+    "image_url_or_gallery_url": "https://www.watabe-wedding.co.jp/bali/chapel_bulgari/",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "chapel-exterior",
+      "cliffside-ceremony",
+      "night-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "日文婚顧頁補了寶格麗教堂在日系婚禮視角下的照片線索。"
+  }
+]

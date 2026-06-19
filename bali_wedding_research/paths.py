@@ -12,6 +12,7 @@ def workspace_paths(root: Path) -> dict[str, Path]:
         "sources": resolved_root / "data" / "sources",
         "seeds": resolved_root / "data" / "seeds",
         "derived": resolved_root / "data" / "derived",
+        "photo_assets": resolved_root / "data" / "photo-assets",
         "notes": resolved_root / "content" / "venue-notes",
     }
 
@@ -19,7 +20,7 @@ def workspace_paths(root: Path) -> dict[str, Path]:
 def ensure_workspace_layout(root: Path) -> list[Path]:
     paths = workspace_paths(root)
     created: list[Path] = []
-    for key in ("venues", "photos", "sources", "seeds", "derived", "notes"):
+    for key in ("venues", "photos", "sources", "seeds", "derived", "photo_assets", "notes"):
         directory = paths[key]
         directory.mkdir(parents=True, exist_ok=True)
         created.append(directory)

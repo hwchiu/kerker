@@ -1,0 +1,282 @@
+[
+  {
+    "source_id": "six-senses-uluwatu-bali-official-resort",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "official",
+    "source_name": "烏魯瓦圖六善度假村概覽",
+    "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/indonesia/uluwatu-bali/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Primary resort overview for positioning and property identity.",
+    "raw_excerpt_summary": "度假村位於烏魯瓦圖的石灰岩懸崖建築內，享有印度洋的壯麗景色。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-official-weddings",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "official",
+    "source_name": "烏魯瓦圖六善酒店婚禮頁面",
+    "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/indonesia/uluwatu-bali/meetings/weddings/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "Most important official wedding page for venue list and guest capacities.",
+    "raw_excerpt_summary": "列出了婚禮場地，包括 The Retreat、Cinema Paradiso、Aarunya 宴會廳和 Andakara Lawn，最多可容納 180 位賓客。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-official-meetings",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "official",
+    "source_name": "烏魯瓦圖六善酒店會議和場地",
+    "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/indonesia/uluwatu-bali/meetings/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "rain_backup",
+      "photos"
+    ],
+    "reliability_notes": "Useful official event-space source for the wider venue mix beyond weddings copy.",
+    "raw_excerpt_summary": "加強 Aarunya 宴會廳和 The Retreat 作為可舉辦活動的場所，提供室內和私人活動的靈活性。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-official-accommodations",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "official",
+    "source_name": "烏魯瓦圖六善酒店的住宿",
+    "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/indonesia/uluwatu-bali/accommodation/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "Best official accommodation page for the key-count mix and villa inventory.",
+    "raw_excerpt_summary": "度假村擁有 28 間空中套房和頂層公寓以及 75 間懸崖泳池別墅。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-official-how-to-get-there",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "official",
+    "source_name": "烏魯瓦圖六善酒店 如何前往",
+    "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/indonesia/uluwatu-bali/destination/how-to-get-there/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "transport"
+    ],
+    "reliability_notes": "Official transport source for airport timing.",
+    "raw_excerpt_summary": "度假村距離伍拉賴國際機場 (Ngurah Rai International Airport) 以南約 45 分鐘車程。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-official-indonesia-listing",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "official",
+    "source_name": "印尼六善度假村列表",
+    "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/indonesia/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "restrictions"
+    ],
+    "reliability_notes": "Important current-status source because the Indonesia portfolio page explicitly surfaces the closure note.",
+    "raw_excerpt_summary": "聲明稱，峇里島烏魯瓦圖六善酒店已於 2026 年 2 月 1 日起暫時關閉，以進行深思熟慮的改造。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-official-cliff-bar",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "official",
+    "source_name": "烏魯瓦圖六善 The Cliff Bar 頁面",
+    "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/indonesia/uluwatu-bali/dining/the-cliff-bar/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Useful visual source for sunset and evening atmosphere even though it is not a dedicated wedding page.",
+    "raw_excerpt_summary": "展現了度假村懸崖邊的用餐和雞尾酒氛圍，這與夜間活動的氣氛有關。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-myoverseas-overview",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 烏魯瓦圖六善酒店概述",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/six-senses-uluwatu-bali",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "photos"
+    ],
+    "reliability_notes": "Current instant-quote source that gives the clearest public price baseline for Six Senses.",
+    "raw_excerpt_summary": "列出了可容納 30 位賓客的基本婚禮套餐，起價為 23,000 美元，並將度假村分佈在六個婚禮場地。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-myoverseas-ceremony",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 烏魯瓦圖六善酒店儀式場地",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/six-senses-uluwatu-bali/ceremony-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "pricing",
+      "rain_backup"
+    ],
+    "reliability_notes": "Useful public breakdown of ceremony spaces and how the cliff formats compare.",
+    "raw_excerpt_summary": "闡明烏魯瓦圖六善酒店內可舉辦儀式的空間及其不同規模。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-bridestory-venue",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "platform_agency",
+    "source_name": "新娘故事烏魯瓦圖六善酒店場地頁面",
+    "source_url": "https://www.bridestory.com/six-senses-uluwatu",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "pricing",
+      "restrictions"
+    ],
+    "reliability_notes": "Planner-facing source for image browsing and package discovery, though freshness varies.",
+    "raw_excerpt_summary": "在 Bridestory 提供烏魯瓦圖六善酒店的場地簡介和婚禮購物介面。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-bridestory-store",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "platform_agency",
+    "source_name": "新娘故事烏魯瓦圖六善酒店商店頁面",
+    "source_url": "https://www.bridestory.com/six-senses-uluwatu/store",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "pricing"
+    ],
+    "reliability_notes": "Useful supporting page for package browsing and additional gallery depth.",
+    "raw_excerpt_summary": "將場所清單擴展為烏魯瓦圖六善酒店的套裝購物頁面。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-official-zh-resort",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "official",
+    "source_name": "烏魯瓦圖六善酒店中文概覽頁面",
+    "source_url": "https://www.sixsenses.com/zh/hotels-resorts/asia-the-pacific/indonesia/uluwatu-bali/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "restrictions"
+    ],
+    "reliability_notes": "Chinese-language official overview useful for current operating status, luxury positioning, and broad resort identity.",
+    "raw_excerpt_summary": "聲明稱，峇里島烏魯瓦圖六善酒店已於 2026 年 2 月 1 日起暫時關閉，以進行深思熟慮的改造。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-official-zh-weddings",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "official",
+    "source_name": "烏魯瓦圖六善中文婚禮頁面",
+    "source_url": "https://www.sixsenses.com/zh/hotels-resorts/asia-the-pacific/indonesia/uluwatu-bali/meetings/weddings/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "Chinese-language official wedding page useful for venue names, capacity framing, and indoor-backup context.",
+    "raw_excerpt_summary": "列出了 The Retreat、Cinema Paradiso 和 Aarunya Ballroom 等活動空間，其容量可容納更大型的慶祝活動。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-ctrip-hotel",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "platform_agency",
+    "source_name": "攜程網 烏魯瓦圖六善飯店頁面",
+    "source_url": "https://hotels.ctrip.com/hotels/21888559.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Chinese-language booking page useful for hotel-gallery browsing and stay-product comparison against other Uluwatu resorts.",
+    "raw_excerpt_summary": "在中文預訂流程中提供烏魯瓦圖六善酒店的房間和度假村瀏覽。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-licheng-chinese-venue",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "麗城之愛烏魯瓦圖六善酒店場地頁面",
+    "source_url": "https://www.lichenglove.com/hotel/bali-hotel-1953",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "pricing",
+      "restrictions"
+    ],
+    "reliability_notes": "Chinese-language wedding-planner page useful for panorama views, quick package framing, and FAQ-style orientation, but not authoritative for current live policy.",
+    "raw_excerpt_summary": "提供烏魯瓦圖六善酒店的場地圖片、全景、套餐建議和常見問題解答式規劃說明。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-balifortwo-aarunya-50",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bali For Two Six Senses Aarunya 50 人方案",
+    "source_url": "https://balifortwo2.com/six-senses-uluwatu-enchanting-aarunya-50-pax/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Planner package page; useful for public package framing and venue images, but not a contract source.",
+    "raw_excerpt_summary": "非官方方案頁，可直接看 Aarunya 50 人婚禮的儀式與晚宴配置。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-neverneverland-zh",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "platform_agency",
+    "source_name": "NeverNeverLand Six Senses Uluwatu 婚禮中文頁",
+    "source_url": "https://neverneverlandinbali.com/wedding/17033-2/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Chinese wedding-agency page; translated venue framing and gallery support only.",
+    "raw_excerpt_summary": "中文婚禮頁整理 Six Senses Uluwatu 婚禮場地與度假村配套，適合快速比對玩法。"
+  }
+]

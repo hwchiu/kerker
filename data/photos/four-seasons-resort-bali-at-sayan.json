@@ -1,0 +1,274 @@
+[
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-official-weddings",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-official-weddings",
+    "page_url": "https://www.fourseasons.com/sayan/weddings/",
+    "image_url_or_gallery_url": "https://www.fourseasons.com/sayan/weddings/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "jungle-view",
+      "floral-setup",
+      "entrance-procession"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "最適合先理解薩揚如何把儀式放進叢林河谷環境中的官方頁。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-official-venues",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-official-venues",
+    "page_url": "https://www.fourseasons.com/sayan/weddings/venues/",
+    "image_url_or_gallery_url": "https://www.fourseasons.com/sayan/weddings/venues/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "jungle-view",
+      "garden-reception",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "最有用的官方頁面，可區分荷花池、河畔和別墅風格的活動外觀。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-official-gallery",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-official-gallery",
+    "page_url": "https://www.fourseasons.com/sayan/gallery/",
+    "image_url_or_gallery_url": "https://www.fourseasons.com/sayan/gallery/",
+    "image_type": "official_hotel_gallery",
+    "scene_tags": [
+      "arrival-flow",
+      "public-area",
+      "jungle-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "非常適合賓客體驗的非婚禮部分，尤其是橋樑抵達和山谷建築。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-official-accommodations",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-official-accommodations",
+    "page_url": "https://www.fourseasons.com/sayan/accommodations/",
+    "image_url_or_gallery_url": "https://www.fourseasons.com/sayan/accommodations/",
+    "image_type": "official_hotel_gallery",
+    "scene_tags": [
+      "room",
+      "public-area"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "有助於將賓客住宿基調與其他烏布或峇里島南部度假村進行比較。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-myoverseas-overview",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-myoverseas-overview",
+    "page_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-sayan",
+    "image_url_or_gallery_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-sayan",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "jungle-view",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "面向規劃者的實用圖集，可快速比較薩揚在不同婚禮角度下的實際感。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-myoverseas-ceremony",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-myoverseas-ceremony",
+    "page_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-sayan/ceremony-venues",
+    "image_url_or_gallery_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-sayan/ceremony-venues",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "jungle-view",
+      "floral-setup",
+      "entrance-procession"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "強烈的快速視覺效果可用於判斷儀式空間的親密或暴露程度。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-myoverseas-reception",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-myoverseas-reception",
+    "page_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-sayan/reception-venues",
+    "image_url_or_gallery_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-sayan/reception-venues",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "garden-reception",
+      "night-view",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "適合判斷薩揚晚宴尺度，以及對你們團隊來說是否會過於私密。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-bridestory-venue",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-bridestory-venue",
+    "page_url": "https://www.bridestory.com/four-seasons-resort-bali-sayan",
+    "image_url_or_gallery_url": "https://www.bridestory.com/four-seasons-resort-bali-sayan",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "jungle-view",
+      "garden-reception",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "補上一個實用的婚禮規劃圖集視角。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-bridestory-royal-villa",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-bridestory-royal-villa",
+    "page_url": "https://www.bridestory.com/four-seasons-resort-bali-sayan/projects/royal-villa",
+    "image_url_or_gallery_url": "https://www.bridestory.com/four-seasons-resort-bali-sayan/projects/royal-villa",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "garden-reception",
+      "rain-backup-space",
+      "public-area"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "對於考慮私人別墅形式而不是主要度假勝地的情侶來說很重要。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-bridestory-jonathan-celine",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-bridestory-jonathan-celine",
+    "page_url": "https://www.bridestory.com/four-seasons-resort-bali-sayan/projects/the-wedding-of-celine-jonathan-oleh-bali-eve-wedding-event-planner",
+    "image_url_or_gallery_url": "https://www.bridestory.com/four-seasons-resort-bali-sayan/projects/the-wedding-of-celine-jonathan-oleh-bali-eve-wedding-event-planner",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "jungle-view",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "真實的婚禮報導有助於展示叢林環境如何超越精美的宣傳圖像。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-official-zh-resort",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-official-zh-resort",
+    "page_url": "https://www.fourseasons.com/zh/sayan/",
+    "image_url_or_gallery_url": "https://www.fourseasons.com/zh/sayan/",
+    "image_type": "official_hotel_gallery",
+    "scene_tags": [
+      "arrival-flow",
+      "public-area",
+      "jungle-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "有用的中文官方概述，介紹了橋樑到達、叢林氛圍和房間基調。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-tripcom-hk",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-tripcom-hk-hotel",
+    "page_url": "https://hk.trip.com/hotels/bali-hotel-detail-1460857/four-seasons-resort-bali-at-sayan/",
+    "image_url_or_gallery_url": "https://hk.trip.com/hotels/bali-hotel-detail-1460857/four-seasons-resort-bali-at-sayan/",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "room",
+      "jungle-view",
+      "arrival-flow"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "有用的中文飯店畫廊，提供面向叢林的客房和抵達體驗。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-tripadvisor-tw",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-tripadvisor-tw-hotel",
+    "page_url": "https://www.tripadvisor.com.tw/Hotel_Review-g2209545-d301883-Reviews-Four_Seasons_Resort_Bali_At_Sayan-Sayan_Ubud_Gianyar_Regency_Bali.html",
+    "image_url_or_gallery_url": "https://www.tripadvisor.com.tw/Hotel_Review-g2209545-d301883-Reviews-Four_Seasons_Resort_Bali_At_Sayan-Sayan_Ubud_Gianyar_Regency_Bali.html",
+    "image_type": "social_post",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "jungle-view"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "旅行者照片有助於查看薩揚的叢林環境和房間在官方行銷照片之外的樣子。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-florasay",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-florasay-chinese-wedding",
+    "page_url": "https://www.florasay.com/wedding/bali-island-fourseasons-sayan-wedding/",
+    "image_url_or_gallery_url": "https://www.florasay.com/wedding/bali-island-fourseasons-sayan-wedding/",
+    "image_type": "blog_feature",
+    "scene_tags": [
+      "jungle-view",
+      "floral-setup",
+      "guest-seating"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "中文婚禮圖集可快速建立薩揚烏布叢林儀式的氛圍感。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-balifortwo-chris-sue",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-balifortwo-chris-sue",
+    "page_url": "https://balifortwo2.com/chris-and-sues-wedding-at-four-seasons-hotel-sayan/",
+    "image_url_or_gallery_url": "https://balifortwo2.com/chris-and-sues-wedding-at-four-seasons-hotel-sayan/",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "jungle-view",
+      "guest-seating",
+      "floral-setup",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "真實婚禮能看薩揚叢林河谷背景與荷花池婚禮在現場到底有多私密。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-sayan-florasay-zh",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-resort-bali-at-sayan-florasay-zh",
+    "page_url": "https://www.florasay.com/wedding/bali-island-fourseasons-sayan-wedding/",
+    "image_url_or_gallery_url": "https://www.florasay.com/wedding/bali-island-fourseasons-sayan-wedding/",
+    "image_type": "blog_feature",
+    "scene_tags": [
+      "jungle-view",
+      "garden-reception",
+      "guest-seating"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "中文頁圖集可快速建立四季薩揚的森林婚禮印象，對比南部懸崖型場地特別有用。"
+  }
+]

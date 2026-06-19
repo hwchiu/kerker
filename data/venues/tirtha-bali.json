@@ -1,0 +1,150 @@
+{
+  "id": "tirtha-bali",
+  "name_zh": "Tirtha Bali 水之教堂",
+  "name_en_official": "Tirtha Bali",
+  "brand_or_group": "Tirtha Bali",
+  "venue_operator_type": "standalone_venue",
+  "is_standalone": true,
+  "region": "Uluwatu",
+  "subarea": "Pecatu",
+  "official_website": "https://tirtha.com/",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Tirtha+Bali+Uluwatu",
+  "address_text": "Jl. Uluwatu, Br. Dinas Karang Boma, Desa Pecatu 80364, Bali, Indonesia",
+  "venue_types": [
+    "cliffside",
+    "chapel",
+    "garden"
+  ],
+  "primary_visual_identity": "專門建造的婚禮經營者將玻璃海洋教堂和懸崖舞台與獨立的森林般花園別墅配對。",
+  "ceremony_space_types": [
+    "glass-chapel",
+    "cliffside-stage",
+    "garden",
+    "greenhouse"
+  ],
+  "reception_space_types": [
+    "glass-room",
+    "garden",
+    "ocean-view-room",
+    "pool-terrace"
+  ],
+  "supports_ceremony_only": true,
+  "supports_ceremony_and_dinner": true,
+  "supports_buyout": true,
+  "supports_micro_wedding": true,
+  "guest_capacity_ceremony_min": 20,
+  "guest_capacity_ceremony_max": 150,
+  "guest_capacity_dinner_min": 20,
+  "guest_capacity_dinner_max": 300,
+  "recommended_guest_size_band": "81-120",
+  "pricing_status": "public_price_available",
+  "price_entries": [
+    {
+      "label": "Tirtha Uluwatu 基本婚禮套餐（30 人）",
+      "currency": "USD",
+      "amount_min": 11300,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": true,
+      "includes_dinner": false,
+      "includes_tax_service": false,
+      "conditions_text": "30位客人的第三方即時報價基準；直接與 Tirtha 確認稅金、服務和確切的套餐範圍。",
+      "confidence": "medium"
+    },
+    {
+      "label": "30 位賓客的 Eve 套餐：教堂儀式＋Glass House 招待會",
+      "currency": "USD",
+      "amount_min": 14496,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": true,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "Tirtha Uluwatu 和玻璃屋合併格式的規劃清單；確認當前稅費和確切的包含內容。",
+      "confidence": "medium"
+    }
+  ],
+  "price_summary_text": "目前公開資料顯示，Tirtha 的起點約為 11,300 美元（30 位賓客），若採教堂加 Glass House 接待的組合，30 位賓客的整體方案約為 14,500 美元。",
+  "price_risk_level": "low",
+  "rain_backup_status": "strong",
+  "has_indoor_backup": true,
+  "has_covered_backup": true,
+  "backup_space_description": "下雨天的選擇包括 Tirtha Uluwatu 的室內玻璃教堂/天堂室和封閉的雞蛋花風格玻璃屋內飾。",
+  "backup_quality_notes": "Tirtha 的防雨計畫異常強勁，因為備用空間仍然是婚禮設計的房間，而不是普通的飯店用餐區。",
+  "weather_exposure_notes": "最具標誌性的 Tirtha 空間仍然位於懸崖邊緣或花園中，因此即使存在室內替代方案，風和雨仍然很重要。",
+  "airport_drive_time_minutes_estimate": 45,
+  "transport_notes": "Tirtha 的官方地點頁面顯示距離機場約 45 分鐘路程，而 Glass House 距離 Tirtha Uluwatu 約 7 分鐘車程，因此分場接駁車計畫是體驗的一部分。",
+  "traffic_risk_level": "high",
+  "onsite_accommodation_available": true,
+  "onsite_room_inventory_notes": "Glass House 提供三間臥室套房，而 Tirtha Uluwatu 本身就是一個專門建造的場所，而不是完整的飯店。",
+  "nearby_accommodation_notes": "大多數客房仍需安排在附近的烏魯瓦圖、培卡圖或金巴蘭酒店，並有專車接送。",
+  "accommodation_fit": "fragmented",
+  "guest_mobility_notes": "分場形式要求客人在懸崖場館和玻璃屋之間換乘，因此不應讓老人和兒童自行管理交通。",
+  "restriction_level": "medium",
+  "noise_cutoff_notes": "公共第三方場地頁面顯示，Glass House 的放大音樂通常會在 22:00 左右減少，派對後的延期需要單獨的房間和費用；直接確認當前規則。",
+  "external_vendor_policy": "Tirtha 是一家精心策劃的婚禮經營者；確認可以引進哪些外部策劃師、造型師、樂隊和 AV 團隊以及適用的場地費用。",
+  "minimum_stay_requirement_notes": "公開的酒店式最低入住時間並沒有明確規定，但一些組合套餐仍然依賴特定的房間使用或場地組合；透過包裹確認。",
+  "minimum_spend_notes": "晚餐和飲料承諾因套餐而異，公開定價更多是套餐主導的，而不是僅場地租賃的，因此應以書面形式提出最低限額。",
+  "drone_policy_notes": "確認目前的無人機和空中批准，特別是對於懸崖邊緣的儀式空間和雙場地形式。",
+  "family_child_notes": "如果接駁車管理嚴格的話，Tirtha 很適合家庭婚禮，但它比每個人都睡在一個莊園裡的度假村要省力。",
+  "religious_or_space_use_notes": "Tirtha 支持象徵性和宗教特定的儀式形式，但合法的儀式過程和精確的空間匹配仍需要直接確認。",
+  "operational_constraints_notes": "Tirtha 最強的形式通常同時使用 Tirtha Uluwatu 和 Glass House，這增加了運動和計時的複雜性，但也增加了視覺多樣性和更好的天氣適應能力。",
+  "style_tags": [
+    "glass-chapel",
+    "ocean-view",
+    "garden-villa",
+    "japanese-elegance",
+    "split-venue"
+  ],
+  "price_band_normalized": null,
+  "best_for": [
+    "想要同時在婚禮故事中舉辦懸崖海洋儀式和鬱鬱蔥蔥的花園招待會的夫婦",
+    "設計前衛的婚禮重視專門建造的建築而不是普通的飯店宴會廳",
+    "賓客對儀式和晚宴之間協調一致的班車物流感到滿意"
+  ],
+  "not_ideal_for": [
+    "希望每個人都睡在同一片土地上的團體",
+    "想要最簡單的單場地婚禮流程的夫婦",
+    "需要現場酒店規模房間庫存的婚禮"
+  ],
+  "key_strengths": [
+    "非常強大的雨備份，同時又不失賽事美感",
+    "一位經營者管理下的懸崖邊和花園的獨特個性",
+    "專門打造的婚禮專業知識而非標準的飯店活動管理"
+  ],
+  "key_risks": [
+    "現場住宿有限",
+    "分場地流動增加了客流的複雜性",
+    "公開定價仍因套餐和場地組合而異"
+  ],
+  "data_completeness": "comparable_core_complete",
+  "research_status": "deep_research_complete",
+  "last_verified_at": "2026-06-18",
+  "data_freshness": "recent",
+  "open_questions": [
+    "確認目前的外部供應商、開瓶費和生產費。",
+    "確認目前的全包套餐包括新娘準備用途以外的任何客房組件。",
+    "分別確認 Tirtha Uluwatu 和 Glass House 目前的音樂宵禁和餘興派對選項。"
+  ],
+  "source_ids": [
+    "tirtha-bali-official-home",
+    "tirtha-bali-official-contact",
+    "tirtha-bali-official-location",
+    "tirtha-bali-official-venues",
+    "tirtha-bali-official-chapel",
+    "tirtha-bali-official-glass-stage",
+    "tirtha-bali-official-glass-house",
+    "tirtha-bali-official-reception-only",
+    "tirtha-bali-myoverseaswedding",
+    "tirtha-bali-balifortwo-eve",
+    "tirtha-bali-bridestory-uluwatu-gallery",
+    "tirtha-bali-bridestory-glass-house-gallery",
+    "tirtha-bali-bridestory-real-wedding",
+    "tirtha-bali-balifortwo-mariko-johnathon",
+    "tirtha-bali-neverneverland-zh",
+    "tirtha-bali-sweetday-uluwatu-zh"
+  ],
+  "photo_index_id": "tirtha-bali"
+}

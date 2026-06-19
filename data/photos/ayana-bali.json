@@ -1,0 +1,191 @@
+[
+  {
+    "photo_entry_id": "ayana-bali-photo-weddings-overview",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-official-weddings",
+    "page_url": "https://www.ayana.com/bali/weddings/",
+    "image_url_or_gallery_url": "https://www.ayana.com/bali/weddings/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "chapel-exterior",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "用於比較阿雅娜截然不同的場地外觀的最佳單一官方頁面。"
+  },
+  {
+    "photo_entry_id": "ayana-bali-photo-sky-official",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-official-sky",
+    "page_url": "https://www.ayana.com/bali/weddings/sky/",
+    "image_url_or_gallery_url": "https://www.ayana.com/bali/weddings/sky/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "展現阿雅娜標誌性的浮崖儀式和日落招待會特色。"
+  },
+  {
+    "photo_entry_id": "ayana-bali-photo-tresna-official",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-official-tresna",
+    "page_url": "https://www.ayana.com/bali/weddings/packages/tresnadream-wedding/",
+    "image_url_or_gallery_url": "https://www.ayana.com/bali/weddings/packages/tresnadream-wedding/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "chapel-interior",
+      "rain-backup-space",
+      "floral-setup"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "重要的證據證明阿雅娜擁有一個室內防雨教堂，仍然讓人感覺很高級。"
+  },
+  {
+    "photo_entry_id": "ayana-bali-photo-villa-official",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-bridestory-villa-gallery",
+    "page_url": "https://www.bridestory.com/ayana-bali/projects/ayana-villa",
+    "image_url_or_gallery_url": "https://www.bridestory.com/ayana-bali/projects/ayana-villa",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "適用於別墅買斷規模的晚宴和私人甲板造型。"
+  },
+  {
+    "photo_entry_id": "ayana-bali-photo-rooms-official",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-official-hotels",
+    "page_url": "https://www.ayana.com/bali/hotels/",
+    "image_url_or_gallery_url": "https://www.ayana.com/bali/hotels/",
+    "image_type": "official_hotel_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "arrival-flow"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "有助於判斷客人的住宿品質和綜合莊園的感覺。"
+  },
+  {
+    "photo_entry_id": "ayana-bali-photo-sky-bridestory",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-bridestory-sky-gallery",
+    "page_url": "https://www.bridestory.com/ayana-bali/projects/sky",
+    "image_url_or_gallery_url": "https://www.bridestory.com/ayana-bali/projects/sky",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "floral-setup",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "添加阿雅娜自己的官方照片之外的造型參考。"
+  },
+  {
+    "photo_entry_id": "ayana-bali-photo-tresna-bridestory",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-bridestory-tresna-gallery",
+    "page_url": "https://www.bridestory.com/ayana-bali/projects/tresna-chapel",
+    "image_url_or_gallery_url": "https://www.bridestory.com/ayana-bali/projects/tresna-chapel",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "chapel-interior",
+      "chapel-exterior",
+      "floral-setup"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "對室內教堂的實際過道和祭壇外觀有很強的參考作用。"
+  },
+  {
+    "photo_entry_id": "ayana-bali-photo-tripcom-hk",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-tripcom-hk-hotel",
+    "page_url": "https://hk.trip.com/hotels/bali-hotel-detail-711373/ayana-resort-and-spa-bali/",
+    "image_url_or_gallery_url": "https://hk.trip.com/hotels/bali-hotel-detail-711373/ayana-resort-and-spa-bali/",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "night-view"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "中文平台圖集對檢查 AYANA 客房、泳池與園區實際氛圍很有用，能補足大型度假村真實感。"
+  },
+  {
+    "photo_entry_id": "ayana-bali-photo-ctrip-hotel",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-ctrip-hotel",
+    "page_url": "https://hotels.ctrip.com/hotels/711373.html",
+    "image_url_or_gallery_url": "https://hotels.ctrip.com/hotels/711373.html",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "arrival-flow"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "攜程頁面可快速確認 AYANA 的房型、公共空間與動線規模感，方便判斷一站式住宿是否真的成立。"
+  },
+  {
+    "photo_entry_id": "ayana-bali-balifortwo-summer-nicholas",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-balifortwo-summer-nicholas",
+    "page_url": "https://balifortwo2.com/summer-nicholass-wedding-at-ayana-tresna-chapel/",
+    "image_url_or_gallery_url": "https://balifortwo2.com/summer-nicholass-wedding-at-ayana-tresna-chapel/",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "chapel-exterior",
+      "chapel-interior",
+      "entrance-procession",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "能直接看 Tresna Chapel 新人出場、撒花與婚禮當天的實際氛圍。"
+  },
+  {
+    "photo_entry_id": "ayana-bali-neverneverland-zh",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-neverneverland-zh",
+    "page_url": "https://neverneverlandinbali.com/wedding/17780-2/",
+    "image_url_or_gallery_url": "https://neverneverlandinbali.com/wedding/17780-2/",
+    "image_type": "blog_feature",
+    "scene_tags": [
+      "chapel-exterior",
+      "cliffside-ceremony",
+      "public-area",
+      "night-view"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "中文頁可快速看 AYANA SKY、教堂與度假村公共空間的整體視覺。"
+  }
+]

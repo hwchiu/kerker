@@ -1,0 +1,213 @@
+[
+  {
+    "source_id": "the-ritz-carlton-bali-watabe-majestic-ja",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "platform_agency",
+    "source_name": "ワタベウェディング The Majestic Chapel 日文場地頁",
+    "source_url": "https://www.watabe-wedding.co.jp/bali/chapel_majestic/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "ja",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "日文婚顧會場頁，適合補日系婚禮包裝角度與教堂視覺，但不是飯店官方營運規範來源。",
+    "raw_excerpt_summary": "以日文集中介紹麗思卡爾頓 Majestic Chapel 的照片與會場定位，適合比對日系婚顧如何呈現這座海邊玻璃教堂。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-weddingku-felix-ika",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Weddingku 真實婚禮 Felix & Ika @ The Ritz-Carlton Bali",
+    "source_url": "https://www.weddingku.com/real-weddings/ritz-carlton-bali",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "印尼婚禮平台真實婚禮案例，對觀察實際花藝、座位與晚宴質感很有用。",
+    "raw_excerpt_summary": "真實婚禮案例頁，聚焦 Felix & Ika 在麗思卡爾頓的現場佈置、花藝與宴會氣氛。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-weddingku-stefan-olivia",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Weddingku 真實婚禮 Stefan & Olivia @ The Ritz-Carlton Bali",
+    "source_url": "https://new.weddingku.com/real-weddings/rustic-garden-wedding-with-capiz-shell-element-on-stefan-olivia-wedding-day-at-the-ritz-carlton-bali",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "印尼婚禮平台的另一組 Ritz 真實婚禮案例，可補足不同佈置風格與草坪宴會的實拍。",
+    "raw_excerpt_summary": "以 rustic garden 為主題的真實婚禮案例，能看到麗思卡爾頓草坪宴會與桌面設計的另一種做法。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-watabe-ja",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "platform_agency",
+    "source_name": "ワタベウェディング Alila Cliff Edge Cabana 日文場地頁",
+    "source_url": "https://www.watabe-wedding.co.jp/bali/chapel_alila/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "ja",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "日文婚顧頁，適合補充 Alila 在日系客群中的視覺定位與海崖儀式氛圍。",
+    "raw_excerpt_summary": "日文場地頁集中介紹 Alila Villas Uluwatu Cliff Edge Cabana 的照片與場地氣質，適合比對懸崖婚禮的包裝方向。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-weddingku-mario-rachel",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "editorial_case_study",
+    "source_name": "Weddingku 真實婚禮 Mario & Rachel @ Alila Villas Uluwatu",
+    "source_url": "https://www.weddingku.com/real-weddings/elegant-ocean-view-bali-wedding-of-mario-rachel-at-alila-villas-uluwatu",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Weddingku 真實婚禮案例，對看海景儀式與晚宴的真實畫面很有價值。",
+    "raw_excerpt_summary": "以 Elegant Ocean View 為主題的真實婚禮案例，能直接看 Alila 懸崖儀式與宴會配置。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-weddingku-utah-rex",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "editorial_case_study",
+    "source_name": "Weddingku 真實婚禮 Utah & Rex @ Alila Uluwatu",
+    "source_url": "https://www.weddingku.com/real-weddings/romantic-modern-wedding-at-alila-uluwatu-bali",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "第二組 Alila 真實婚禮案例，能補現場光線、花藝和座位尺度差異。",
+    "raw_excerpt_summary": "Romantic Modern 主題案例補足 Alila 在不同婚禮設計語言下的實際呈現。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-watabe-ja",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "platform_agency",
+    "source_name": "ワタベウェディング Oceanfront Apurva Chapel 日文場地頁",
+    "source_url": "https://www.watabe-wedding.co.jp/bali/chapel_kempinski_apurva/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "ja",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "日文婚顧頁可補充 Apurva Chapel 在日本客群的敘事與視覺呈現。",
+    "raw_excerpt_summary": "日文場地頁主打 Oceanfront Apurva Chapel，方便快速比對 Apurva 教堂的外觀、光線與儀式感。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-weddingku-felix-debby",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Weddingku 真實婚禮 Felix & Debby @ The Apurva Kempinski Bali",
+    "source_url": "https://www.weddingku.com/real-weddings/romantic-autumn-on-bali-wedding-of-felix-debby-at-the-apurva-kempinski-bali",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Weddingku 真實婚禮案例，可補 Apurva 教堂與宴會實際落地效果。",
+    "raw_excerpt_summary": "Romantic Autumn 主題案例，能看到 Apurva 的花藝、宴席與現場動線實拍。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-weddingku-martin-clarissa",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Weddingku 真實婚禮 Martin & Clarissa @ The Apurva Kempinski Bali",
+    "source_url": "https://www.weddingku.com/real-weddings/a-romantic-wedding-with-white-gray-dominance-at-apurva-kempinski-bali-martin-clarissa",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "第二組 Apurva 真實婚禮案例，適合看不同配色與宴會做法。",
+    "raw_excerpt_summary": "白灰主題的真實婚禮案例，補充 Apurva 在較現代、低彩度設計下的實際感。"
+  },
+  {
+    "source_id": "ayana-bali-weddingku-bella-ken",
+    "venue_id": "ayana-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Weddingku 真實婚禮 Bella & Ken @ AYANA Resort Bali",
+    "source_url": "https://www.weddingku.com/real-weddings/i-was-always-yours-to-have",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "AYANA 真實婚禮案例，能補 Sky / cliff dinner 的夜景與桌型氛圍。",
+    "raw_excerpt_summary": "Whimsical Wonderland 主題案例，適合看 AYANA 夜景婚禮與高空海景氛圍的實拍。"
+  },
+  {
+    "source_id": "ayana-bali-weddingku-hendri-winna",
+    "venue_id": "ayana-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Weddingku 真實婚禮 Hendri & Winna @ AYANA Resort Bali",
+    "source_url": "https://www.weddingku.com/real-weddings/we-love-each-other-we-understand-each-other",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "第二組 AYANA 真實婚禮案例，可補雨季條件下的現場佈置與拍攝感受。",
+    "raw_excerpt_summary": "案例描述婚禮前一週遇到連日大雨，但當天放晴，對評估 AYANA 戶外婚禮的天候感受很有參考價值。"
+  },
+  {
+    "source_id": "conrad-bali-watabe-ja",
+    "venue_id": "conrad-bali",
+    "source_type": "platform_agency",
+    "source_name": "ワタベウェディング Conrad Bali Infinity Chapel 日文場地頁",
+    "source_url": "https://www.watabe-wedding.co.jp/bali/chapel_conrad_infinity/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "ja",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "日文婚顧頁，對補充 Conrad Infinity Chapel 的會場照片很有幫助。",
+    "raw_excerpt_summary": "日文場地頁聚焦 Conrad Bali Infinity Chapel，可用來比對教堂內外與濱海儀式感。"
+  },
+  {
+    "source_id": "bvlgari-resort-bali-watabe-ja",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "platform_agency",
+    "source_name": "ワタベウェディング Bulgari Chapel 日文場地頁",
+    "source_url": "https://www.watabe-wedding.co.jp/bali/chapel_bulgari/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "ja",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "日文婚顧頁，能補寶格麗教堂在日本客群中的婚禮定位與圖片線索。",
+    "raw_excerpt_summary": "以日文介紹 Bulgari Chapel 的場地頁，適合比對寶格麗教堂與高端海崖婚禮的包裝方式。"
+  },
+  {
+    "source_id": "bvlgari-resort-bali-suka-zh",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "platform_agency",
+    "source_name": "Suka Wedding 寶格麗婚禮中文頁",
+    "source_url": "https://www.sukawedding.com/Wedding_Venue_Detail.asp?ViD=75786C6EA39F36913801B160D0B95D1A",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "photos"
+    ],
+    "reliability_notes": "中文婚顧頁，雖然不是官方來源，但對理解寶格麗有哪些婚禮玩法很有幫助。",
+    "raw_excerpt_summary": "中文頁整理寶格麗的教堂、水中婚禮、海灘婚禮與場包玩法，對初步理解產品組合很有用。"
+  }
+]

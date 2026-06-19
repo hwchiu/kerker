@@ -1,0 +1,742 @@
+{
+  "generated_at": "2026-06-19",
+  "venues": [
+    {
+      "id": "alila-villas-uluwatu",
+      "name_zh": "阿麗拉烏魯瓦圖別墅",
+      "name_en_official": "Alila Villas Uluwatu",
+      "region": "Uluwatu",
+      "venue_types": [
+        "cliffside",
+        "garden",
+        "villa-buyout"
+      ],
+      "recommended_guest_size_band": "81-120",
+      "pricing_status": "public_price_available",
+      "price_band_normalized": "ultra_luxury",
+      "price_summary_text": "Alila 的定價是公開可見的，但不同分會場的套餐價格變化很大：當前的即時報價頁面為 30 位客人 21,300 美元起，而公開的 Bridestory 頁面顯示 Cliff Edge Cabana 的 30 位客人淨價為 200,000,000 印尼盾，100 印尼盾，1099,999 為印尼盾的特別優惠。",
+      "rain_backup_status": "medium",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "high",
+      "best_for": [
+        "想要一個以設計為主導的全別墅度假村而不是一個巨大莊園的夫婦",
+        "婚禮優先考慮現代建築、海景和高端入住體驗",
+        "中型賓客數量仍希望在一處豪華酒店舉行儀式和晚宴"
+      ],
+      "not_ideal_for": [
+        "對預算敏感的目的地婚禮",
+        "大型婚禮需要宴會廳規模的防雨能力",
+        "喜歡最簡單的機場接送和最平坦運動的客人"
+      ],
+      "key_strengths": [
+        "非常強烈的設計特徵和懸崖邊的視覺回報",
+        "別墅住宿體驗與婚禮本身融為一體",
+        "公開定價存在多種形式，有助於早期預算比較"
+      ],
+      "key_risks": [
+        "整體價格因分會場和賓客人數而異",
+        "標誌性的懸崖邊空間真實存在天氣和風的影響",
+        "大量客人仍需要仔細的房間分區和交通規劃"
+      ],
+      "open_questions": [
+        "確認懸崖邊緣小屋和外部草坪的確切降雨計畫位置。",
+        "確認目前的外部供應商審批費用和生產規則。",
+        "確認目前哪些場地組合可以在不進行更廣泛買斷的情況下容納 100 多名晚餐客人。"
+      ],
+      "source_count": 19,
+      "photo_count": 15,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
+      "photo_coverage_rain_backup": "unknown",
+      "photo_coverage_accommodation": "medium",
+      "photo_reference_value_overall": "high"
+    },
+    {
+      "id": "ayana-bali",
+      "name_zh": "峇里島阿雅娜度假村",
+      "name_en_official": "AYANA Bali",
+      "region": "Jimbaran",
+      "venue_types": [
+        "cliffside",
+        "chapel",
+        "garden",
+        "ballroom",
+        "water-platform",
+        "villa-buyout",
+        "beach"
+      ],
+      "recommended_guest_size_band": "120+",
+      "pricing_status": "public_price_available",
+      "price_band_normalized": null,
+      "price_summary_text": "有公開定價，但可比性因分會場和賓客人數而異；阿雅娜的 Bridestory 商店目前展示可容納 100 位客人的 SKY 全套套餐，售價為 410,800,000 印尼盾。",
+      "rain_backup_status": "strong",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "medium",
+      "best_for": [
+        "想要在不更換酒店的情況下獲得最廣泛場地選擇的情侶",
+        "需要大量現場房間庫存和內部後勤支援的婚禮",
+        "想要擁有餐飲、水療中心和派對深度的一站式度假村的團體"
+      ],
+      "not_ideal_for": [
+        "尋求最安靜的精品店氛圍的情侶",
+        "需要簡單比較公開定價的預算",
+        "不喜歡在大型度假村內走動的客人"
+      ],
+      "key_strengths": [
+        "從 SKY 和教堂到花園和舞廳，場地種類繁多",
+        "擁有四間飯店和別墅的強大現場住宿基地",
+        "比大多數峇里島戶外婚禮度假村更好的防雨設施",
+        "可以舉辦從私人儀式到大型婚禮的各種活動"
+      ],
+      "key_risks": [
+        "阿雅娜眾多分會場的套餐定價很難比較",
+        "該地產夠大，內部交通規劃很重要",
+        "頂級日落場地和黃金日期很快就滿了"
+      ],
+      "open_questions": [
+        "確認 Tresna、KISIK 和 Asmara 等小型儀式專用形式的當前官方定價。",
+        "確認外部供應商審批費用、開瓶費和更新的 AV 政策。",
+        "確認最新的戶外音樂宵禁和最佳的莊園內派對替代方案。"
+      ],
+      "source_count": 15,
+      "photo_count": 13,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
+      "photo_coverage_rain_backup": "medium",
+      "photo_coverage_accommodation": "high",
+      "photo_reference_value_overall": "high"
+    },
+    {
+      "id": "bvlgari-resort-bali",
+      "name_zh": "峇里島寶格麗度假村",
+      "name_en_official": "Bvlgari Resort Bali",
+      "region": "Uluwatu",
+      "venue_types": [
+        "cliffside",
+        "chapel",
+        "villa-buyout",
+        "water-platform"
+      ],
+      "recommended_guest_size_band": "51-80",
+      "pricing_status": "public_price_available",
+      "price_band_normalized": "ultra_luxury",
+      "price_summary_text": "Bvlgari 是第一批中公開門檻最高的企業之一：目前的即時報價頁面起價約為 23,200 美元（可供 30 名賓客使用），而公開的 2024 年 Bvlgari Villa 和 Mansion 頁面仍分別顯示淨價 398,000,000 印尼盾和 500,000,000 印尼盾。",
+      "rain_backup_status": "strong",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "high",
+      "traffic_risk_level": "high",
+      "best_for": [
+        "情侶優先考慮超豪華隱私和品牌服務",
+        "想要選擇有教堂的別墅住宿的中小型客人",
+        "慶祝活動，住宿本身就是奢華宣言的一部分"
+      ],
+      "not_ideal_for": [
+        "價值驅動的目的地婚禮",
+        "非常休閒的家庭團體，尋找輕鬆的平坦運動",
+        "在詢價前需要廣泛公開價格透明度的夫婦"
+      ],
+      "key_strengths": [
+        "以別墅為基礎的住宿，具有強烈的豪華定位",
+        "明確教堂、別墅和豪宅格式的公共容量錨點",
+        "透過教堂和室內替代方案，為親密婚禮提供強大的雨水靈活性"
+      ],
+      "key_risks": [
+        "非常高的入門價格和別墅之夜承諾",
+        "節日限制日期和每人附加費",
+        "烏魯瓦圖交通和懸崖頂運動仍需規劃"
+      ],
+      "open_questions": [
+        "確認目前哪些形式支援 50 位以上賓客的全座接待晚宴，而無需離開標誌性場地。",
+        "確認最新的外部供應商審批規則和製作費用。",
+        "確認當前的聲音截止和最佳的酒店內派對替代方案。"
+      ],
+      "source_count": 16,
+      "photo_count": 13,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
+      "photo_coverage_rain_backup": "medium",
+      "photo_coverage_accommodation": "medium",
+      "photo_reference_value_overall": "high"
+    },
+    {
+      "id": "conrad-bali",
+      "name_zh": "峇里康萊德度假村",
+      "name_en_official": "Conrad Bali",
+      "region": "Nusa Dua",
+      "venue_types": [
+        "chapel",
+        "beach",
+        "garden",
+        "ballroom"
+      ],
+      "recommended_guest_size_band": "81-120",
+      "pricing_status": "public_price_available",
+      "price_band_normalized": null,
+      "price_summary_text": "康萊德酒店的公共套餐定價相對直觀，以印尼盾計：小型無限教堂儀式套餐的價格約為 76,895,000 印尼盾（可供 20 位賓客入住），而可見的儀式加招待會形式的價格約為 380,000,000 印尼盾（可供 50 位賓客入住 50,050 50,050 印尼盾）可供 50,050 印尼盾入住。",
+      "rain_backup_status": "strong",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "medium",
+      "best_for": [
+        "想要欣賞標誌性玻璃教堂外觀又不想深入烏魯瓦圖的情侶",
+        "需要一個完整的度假村、更方便的後勤和房間塊的家庭",
+        "比純粹的別墅或草坪場地需要更好的防雨能力的婚禮"
+      ],
+      "not_ideal_for": [
+        "想要享受最私密的精品氛圍的情侶",
+        "人們追求超建築懸崖別墅美學",
+        "需要與其他公開上市進行同等美元定價的預算"
+      ],
+      "key_strengths": [
+        "無限教堂仍然是峇里島最清晰的標誌性儀式視覺效果之一",
+        "房間庫存、交通便利性和家庭友善的度假村基礎設施之間的良好平衡",
+        "公包知名度比許多豪華酒店好"
+      ],
+      "key_risks": [
+        "大多數可見公開價格均以 IDR 表示，這使得跨場所標準化變得更加困難",
+        "最上鏡的場地仍受到天氣影響",
+        "一旦房間堵塞和晚餐規模增加，套餐選擇可能會迅速變化"
+      ],
+      "open_questions": [
+        "確認無限教堂、海洋花園和宴會廳主導形式的最新直接套餐網格。",
+        "確認目前的外部供應商、開瓶費和無人機規則。",
+        "確認目前的戶外音樂截止和深夜室內延長政策。"
+      ],
+      "source_count": 18,
+      "photo_count": 12,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
+      "photo_coverage_rain_backup": "medium",
+      "photo_coverage_accommodation": "medium",
+      "photo_reference_value_overall": "high"
+    },
+    {
+      "id": "four-seasons-resort-bali-at-jimbaran-bay",
+      "name_zh": "峇里島金巴蘭灣四季度假酒店",
+      "name_en_official": "Four Seasons Resort Bali at Jimbaran Bay",
+      "region": "Jimbaran",
+      "venue_types": [
+        "beach",
+        "garden",
+        "water-platform",
+        "villa-buyout",
+        "lawn"
+      ],
+      "recommended_guest_size_band": "81-120",
+      "pricing_status": "public_price_available",
+      "price_band_normalized": "luxury",
+      "price_summary_text": "公開定價可透過目前的第三方即時報價頁面查看，金巴蘭灣起價約為 14,200 美元（30 名客人），在直接簽約細節正常化之前，接待處主導的比較價格約為 14,600 美元（30 名客人）。",
+      "rain_backup_status": "medium",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "medium",
+      "best_for": [
+        "想享受峇里島海灘別墅的情侶又不失飯店級後勤服務",
+        "家庭優先考慮便捷的機場交通和一處房產的賓客協調",
+        "想要在溫暖的日落度假村環境中舉行象徵性儀式和晚餐的目的地婚禮"
+      ],
+      "not_ideal_for": [
+        "堅持使用專用玻璃教堂或宴會廳規模防雨設施的情侶",
+        "需要低門檻峇里島度假村婚禮的預算",
+        "想要最私密的懸崖莊園氛圍而不是豪華度假村的婚禮"
+      ],
+      "key_strengths": [
+        "與更深的烏魯瓦圖場館相比，前往機場要容易得多",
+        "全別墅住宿讓賓客入住體驗與婚禮保持一致",
+        "視覺範圍涵蓋水道、海灘、日落露台和餐廳主導的接待處"
+      ],
+      "key_risks": [
+        "簽名儀式造型仍暴露在外",
+        "最適合情侶的套餐可能會完全改變，具體取決於您實際使用的金巴蘭分會場",
+        "戶外計時、音樂截止、海灘後勤需明確確認"
+      ],
+      "open_questions": [
+        "確認水道和海灘儀式形式的當前降雨計劃圖。",
+        "確認 Sundara 和海濱空間目前的外部供應商和娛樂規則。",
+        "確認目前哪些形式仍可在沒有更廣泛買斷條件的情況下舉辦 120 人以上的婚禮。"
+      ],
+      "source_count": 17,
+      "photo_count": 14,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
+      "photo_coverage_rain_backup": "unknown",
+      "photo_coverage_accommodation": "high",
+      "photo_reference_value_overall": "high"
+    },
+    {
+      "id": "four-seasons-resort-bali-at-sayan",
+      "name_zh": "峇里島薩揚四季度假村",
+      "name_en_official": "Four Seasons Resort Bali at Sayan",
+      "region": "Ubud",
+      "venue_types": [
+        "jungle",
+        "garden",
+        "lawn",
+        "rooftop",
+        "villa-buyout"
+      ],
+      "recommended_guest_size_band": "21-50",
+      "pricing_status": "public_price_available",
+      "price_band_normalized": "luxury",
+      "price_summary_text": "Sayan 目前顯示，一場 30 人婚禮的公開即時報價約為 12,600 美元，而以接待為中心的比較則根據場地組合，30 人婚禮的價格約為 11,800 美元。",
+      "rain_backup_status": "medium",
+      "accommodation_fit": "workable_with_shuttles",
+      "restriction_level": "medium",
+      "traffic_risk_level": "high",
+      "best_for": [
+        "想要明顯的烏布叢林風格而不是海灘或教堂婚禮的夫婦",
+        "私密的目的地婚禮，氣氛比賓客人數更重要",
+        "以設計為主導的慶祝活動，希望在私人別墅或荷塘裡講述故事"
+      ],
+      "not_ideal_for": [
+        "大型婚禮需要宴會廳規模的防雨計劃",
+        "需要最簡單的機場接送和最方便的出行方式的客人",
+        "需要較低門檻的烏布婚禮場地的預算"
+      ],
+      "key_strengths": [
+        "峇里島最清晰的叢林和河流視覺特徵之一",
+        "私人別墅和荷塘業態給人一種獨特而不是通用的感覺",
+        "存在公開定價，這對於超豪華烏布場館來說並不常見"
+      ],
+      "key_risks": [
+        "天氣是魅力的一部分，也是最大的營運風險之一",
+        "賓客交通和流動性比峇里島南部海灘度假村更為複雜",
+        "如果您的賓客名單開始超過親密至中等規模，容量很快就會達到頂峰"
+      ],
+      "open_questions": [
+        "確認蓮花池和河濱泳池露台活動的當前降雨計畫圖。",
+        "確認薩揚私人別墅婚禮形式的外部供應商和無人機規則。",
+        "確認哪些當前套餐仍需要皇家別墅住宿承諾。"
+      ],
+      "source_count": 20,
+      "photo_count": 16,
+      "photo_coverage_ceremony": "unknown",
+      "photo_coverage_reception": "high",
+      "photo_coverage_rain_backup": "medium",
+      "photo_coverage_accommodation": "high",
+      "photo_reference_value_overall": "high"
+    },
+    {
+      "id": "hanging-gardens-of-bali",
+      "name_zh": "峇里島空中花園",
+      "name_en_official": "Hanging Gardens of Bali",
+      "region": "Payangan",
+      "venue_types": [
+        "jungle",
+        "water-platform",
+        "villa-buyout",
+        "garden"
+      ],
+      "recommended_guest_size_band": "21-50",
+      "pricing_status": "public_price_available",
+      "price_band_normalized": null,
+      "price_summary_text": "公共套餐可見度存在，但仍主要以印尼盾和套餐為主導：目前的 Bridestory 店面展示儀式和招待晚宴，價格為 166,250,000 印尼盾，可供 30 名至 50 名客人使用，還提供最多可容納 100 名客人的隱藏宮殿套餐。",
+      "rain_backup_status": "medium",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "medium",
+      "best_for": [
+        "想要明顯的叢林和水域視覺效果而不是標準教堂的情侶",
+        "具有強大靜修能量的私人至中型目的地婚禮",
+        "可以使用隱宮作為私人莊園的買斷式慶祝活動"
+      ],
+      "not_ideal_for": [
+        "大型老年客人群體，需要平坦的移動和簡單的物流",
+        "想要最強防風雨婚禮流程的情侶",
+        "想要最短機場接送服務的客人"
+      ],
+      "key_strengths": [
+        "峇里島最具特色的叢林婚禮背景之一",
+        "撞球舞台和隱藏宮殿的照片價值非常高",
+        "別墅式度假村的感覺非常適合沉浸式的親密住宿"
+      ],
+      "key_risks": [
+        "從機場長途接送",
+        "天氣和地形比平坦的懸崖度假村更重要",
+        "公開定價仍主要以一攬子計劃為主導，並以 IDR 為基礎"
+      ],
+      "open_questions": [
+        "確認目前泳池舞台儀式和晚宴佈置的室內防雨計畫流程。",
+        "確認舉辦 30 至 50 人的婚禮時，現場實際上可預留多少間客房。",
+        "確認隱藏宮殿婚禮是否需要多晚地產買斷以及當前的合理限制是多少。"
+      ],
+      "source_count": 15,
+      "photo_count": 11,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
+      "photo_coverage_rain_backup": "medium",
+      "photo_coverage_accommodation": "high",
+      "photo_reference_value_overall": "high"
+    },
+    {
+      "id": "hilton-bali-resort",
+      "name_zh": "峇里島希爾頓度假酒店",
+      "name_en_official": "Hilton Bali Resort",
+      "region": "Nusa Dua",
+      "venue_types": [
+        "chapel",
+        "water-platform",
+        "beach",
+        "garden",
+        "ballroom",
+        "cliffside"
+      ],
+      "recommended_guest_size_band": "120+",
+      "pricing_status": "public_price_available",
+      "price_band_normalized": "luxury",
+      "price_summary_text": "峇里島希爾頓酒店是峇里島南部較為透明的教堂度假村之一：目前的公開定價為 30 位客人的 11,100 美元左右，2025 年 Wiwaha Chapel 套餐的價格為 48,000,000 印尼盾，可供 40 位客人。",
+      "rain_backup_status": "strong",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "medium",
+      "best_for": [
+        "想要舉辦經典峇里島教堂或水上婚禮但又不想享受超豪華價格的情侶",
+        "家庭成員較多的目的地婚禮需要房間庫存和實用的物流",
+        "需要可靠的雨水備份或宴會廳規模的活動"
+      ],
+      "not_ideal_for": [
+        "想要小型私人莊園感覺的夫婦",
+        "設計純粹主義者尋求峇里島最具編輯性的建築",
+        "想要超獨特精品氛圍的婚禮"
+      ],
+      "key_strengths": [
+        "公共套餐的知名度比許多同類度假村更好",
+        "強大的場地從教堂和潑水儀式到舞廳和海灘晚宴",
+        "大量房間庫存使賓客住宿和接駁車規劃變得更加容易"
+      ],
+      "key_risks": [
+        "這是一個更大、更傳統的度假體驗，而不是一個僻靜的莊園",
+        "大物業客流仍需精心運輸和馬車協調",
+        "Wiwaha 格式和宴會廳選項之間的特定場地條件可能會發生重大變化"
+      ],
+      "open_questions": [
+        "確認目前與日落 Wiwaha 禮拜堂和 Wiwaha Water 老虎機相關的最低食品和飲料標準。",
+        "確認目前的外部供應商、樂隊和無人機在海灘和舞廳形式中的規則。",
+        "確認目前的室內房間用作較大的戶外晚餐佈局的防雨備用房間。"
+      ],
+      "source_count": 20,
+      "photo_count": 16,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
+      "photo_coverage_rain_backup": "unknown",
+      "photo_coverage_accommodation": "medium",
+      "photo_reference_value_overall": "high"
+    },
+    {
+      "id": "mandapa-a-ritz-carlton-reserve",
+      "name_zh": "曼達帕麗思卡爾頓隱世酒店",
+      "name_en_official": "Mandapa, a Ritz-Carlton Reserve",
+      "region": "Ubud",
+      "venue_types": [
+        "jungle",
+        "garden",
+        "lawn",
+        "villa-buyout"
+      ],
+      "recommended_guest_size_band": "21-50",
+      "pricing_status": "public_price_available",
+      "price_band_normalized": "luxury",
+      "price_summary_text": "Mandapa 目前顯示的公共起點價格約為 10,900 美元至 11,100 美元，可容納 30 位客人，具體取決於頁面路徑和場地組合，這使其接近高級豪華而不是超豪華的峇里島南部懸崖度假村。",
+      "rain_backup_status": "medium",
+      "accommodation_fit": "workable_with_shuttles",
+      "restriction_level": "medium",
+      "traffic_risk_level": "high",
+      "best_for": [
+        "想要一場深入烏布、叢林和河流婚禮的情侶",
+        "隱私和氣氛比規模更重要的私人目的地婚禮",
+        "想要以別墅為主導的奢華體驗，且比標準五星級飯店更具深情的保留感的團體"
+      ],
+      "not_ideal_for": [
+        "需要舞廳級雨險的大型婚禮",
+        "需要最快到達機場和最簡單交通的客人",
+        "想要海灘、教堂或經典的峇里島南部奢華氛圍的情侶"
+      ],
+      "key_strengths": [
+        "峇里島最強大的河谷奢華品牌之一",
+        "中文旅遊報道豐富，有助於客房及賓客體驗研究",
+        "寺廟花園和河濱格式給人一種獨特的感覺，而不是可以互換的"
+      ],
+      "key_risks": [
+        "機場接送和烏布交通比金巴蘭或努沙杜瓦嚴重得多",
+        "天氣、階梯和地形對執行力的影響比在平坦的場地更大",
+        "對於預訂來說，房間庫存充足，但不足以容納每個大型婚禮賓客團體"
+      ],
+      "open_questions": [
+        "確認Temple Garden、Ayung Riverside 和Wantilan 活動目前的降雨計劃流程​​。",
+        "確認目前的外部供應商、開瓶費和無人機政策。",
+        "確認哪些當前套餐需要預訂別墅或間夜承諾。"
+      ],
+      "source_count": 13,
+      "photo_count": 9,
+      "photo_coverage_ceremony": "unknown",
+      "photo_coverage_reception": "high",
+      "photo_coverage_rain_backup": "unknown",
+      "photo_coverage_accommodation": "medium",
+      "photo_reference_value_overall": "medium"
+    },
+    {
+      "id": "six-senses-uluwatu-bali",
+      "name_zh": "峇里島烏魯瓦圖六善酒店",
+      "name_en_official": "Six Senses Uluwatu, Bali",
+      "region": "Uluwatu",
+      "venue_types": [
+        "cliffside",
+        "lawn",
+        "ballroom",
+        "villa-buyout",
+        "rooftop"
+      ],
+      "recommended_guest_size_band": "81-120",
+      "pricing_status": "public_price_available",
+      "price_band_normalized": "ultra_luxury",
+      "price_summary_text": "六善酒店目前顯示的公共即時報價基準約為 30 位客人 23,000 美元，但任何即時預算都應根據度假村目前的改造時間表和重新開放條件進行檢查。",
+      "rain_backup_status": "strong",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "high",
+      "best_for": [
+        "想要一場高設計的烏魯瓦圖懸崖婚禮且比大多數同齡人擁有更強防雨能力的夫婦",
+        "重視住在套房和懸崖別墅而不是分散在不同飯店的團體",
+        "婚禮規模可以從小到中大型，同時保持奢華健康的基調"
+      ],
+      "not_ideal_for": [
+        "現在需要一個可操作的特定場所的夫婦，而不需要重新開放歧義",
+        "想要最平坦、最方便的度假村交通的客人",
+        "需要低門檻烏魯瓦圖婚禮的預算"
+      ],
+      "key_strengths": [
+        "戲劇性的懸崖美學和宴會廳功能的備份的強大結合",
+        "良好的現場住宿深度，可將核心客人群體聚集在一起",
+        "各具特色的分會場讓同一場地支持私密且大型的活動形式"
+      ],
+      "key_risks": [
+        "該度假村目前正處於公開宣布的臨時關閉期，以進行改造工作",
+        "烏魯瓦圖的接送時間和交通狀況比金巴蘭或努沙杜瓦差得多",
+        "儘管有宴會廳備用，但懸崖邊的標誌性空間仍然高度暴露在天氣中"
+      ],
+      "open_questions": [
+        "確認目前重新開放的時間表以及您的目標期間是否接受婚禮。",
+        "改造工作完成後，確認目前的外部供應商和生產規則。",
+        "確認哪些場地組合可以在不進行更廣泛買斷的情況下為 100 名以上賓客舉辦儀式和晚宴。"
+      ],
+      "source_count": 17,
+      "photo_count": 15,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
+      "photo_coverage_rain_backup": "unknown",
+      "photo_coverage_accommodation": "high",
+      "photo_reference_value_overall": "high"
+    },
+    {
+      "id": "the-apurva-kempinski-bali",
+      "name_zh": "峇里島阿普爾瓦凱賓斯基飯店",
+      "name_en_official": "The Apurva Kempinski Bali",
+      "region": "Nusa Dua",
+      "venue_types": [
+        "chapel",
+        "cliffside",
+        "lawn",
+        "ballroom",
+        "villa-buyout"
+      ],
+      "recommended_guest_size_band": "120+",
+      "pricing_status": "public_price_available",
+      "price_band_normalized": "ultra_luxury",
+      "price_summary_text": "Apurva 屬於超豪華級別：目前的公共基準價格為 20,200 美元（可容納 30 名賓客），可見的套餐示例範圍從小型 Apurva 禮拜堂儀式的 98,600,000 印尼盾，到可容納 100 名賓客的儀式和招待會（帶房間）的 780,000,000,000,000 印尼盾（含房間）的 780,000,000,000 印尼盾（印尼盾）。",
+      "rain_backup_status": "strong",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "medium",
+      "best_for": [
+        "想要一個可以舉辦親密婚禮和大型婚禮的豪華度假村的夫婦",
+        "需要大量房間庫存和更順暢的機場通道的家庭",
+        "在婚禮上，防雨品質是不容忽視的因素"
+      ],
+      "not_ideal_for": [
+        "尋求小型精品店或私人別墅感覺的情侶",
+        "需要一場簡單的低門檻懸崖婚禮的預算",
+        "不喜歡豪華大飯店氛圍的人"
+      ],
+      "key_strengths": [
+        "非常強大的目的地婚禮房間庫存和物流基礎",
+        "一處房產內設有微型婚禮教堂和大型宴會廳",
+        "公共套餐範例比僅報價的豪華飯店更容易進行早期預算過濾"
+      ],
+      "key_risks": [
+        "套餐比較可能會變得令人困惑，因為場地組合範圍從私密的教堂到宴會廳規模的活動",
+        "大型物業物流仍需要時間表和錯誤的規劃",
+        "拍攝和專業照片的許可必須管理，而不是假設"
+      ],
+      "open_questions": [
+        "確認 Amala、Kimaya、Ocean Front Apurva Chapel 和 Ocean Front Lawn 的最新直達套餐網格。",
+        "確認目前的外部供應商、開瓶費和生產准入規則。",
+        "確認最新的客房庫存數字是否仍為 475 間或已在正式預訂庫存中重新分類。"
+      ],
+      "source_count": 22,
+      "photo_count": 16,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
+      "photo_coverage_rain_backup": "high",
+      "photo_coverage_accommodation": "medium",
+      "photo_reference_value_overall": "high"
+    },
+    {
+      "id": "the-edge-bali",
+      "name_zh": "峇里島 The Edge 懸崖別墅",
+      "name_en_official": "The Edge Bali",
+      "region": "Uluwatu",
+      "venue_types": [
+        "cliffside",
+        "villa-buyout",
+        "lawn"
+      ],
+      "recommended_guest_size_band": "51-80",
+      "pricing_status": "public_price_available",
+      "price_band_normalized": "premium",
+      "price_summary_text": "The Edge 是目前最容易找到公開價格的懸崖別墅婚禮場地之一：公開起點約為 9,000 美元（30 位賓客）；另有可見方案頁顯示，Intimate Wedding 約為 IDR 71,500,000（最多 10 位賓客），Nearest & Dearest Cliff Wedding 約為 IDR 132,000,000（最多 30 位賓客）。",
+      "rain_backup_status": "medium",
+      "accommodation_fit": "workable_with_shuttles",
+      "restriction_level": "high",
+      "traffic_risk_level": "high",
+      "best_for": [
+        "想要戲劇性的私人別墅懸崖體驗而不是經典的酒店婚禮的情侶",
+        "將住宿視為活動故事一部分的中小型豪華婚禮",
+        "具有強烈視覺效果的買斷式慶祝活動"
+      ],
+      "not_ideal_for": [
+        "需要為大量客人提供簡單的一站式解決方案的家庭",
+        "需要正式舞廳級防雨備份的情侶",
+        "除非嚴格管理流量，否則行動不便的客人"
+      ],
+      "key_strengths": [
+        "出色的懸崖邊視覺形象和多種婚禮套餐氛圍",
+        "為情侶和 VIP 客人提供豐富的私人別墅奢華體驗",
+        "公共套餐價格比許多其他超豪華別墅莊園更容易找到"
+      ],
+      "key_risks": [
+        "隨著人數的增長，超額住宿和賓客班車成為主要的規劃項目",
+        "簽名空間的天氣暴露仍然很高",
+        "圍繞聲音、無人機和外部供應商的營運規則需要儘早確認"
+      ],
+      "open_questions": [
+        "確認每個套餐系列的正式防雨計劃，尤其是 The Sky 和 ​​The Edge Wedding。",
+        "確認當前的音樂、無人機和外部供應商規則以及任何深夜限制。",
+        "確認莊園目前別墅組合的最新有效隔夜睡眠容量。"
+      ],
+      "source_count": 18,
+      "photo_count": 11,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
+      "photo_coverage_rain_backup": "high",
+      "photo_coverage_accommodation": "high",
+      "photo_reference_value_overall": "high"
+    },
+    {
+      "id": "the-ritz-carlton-bali",
+      "name_zh": "峇里島麗思卡爾頓酒店",
+      "name_en_official": "The Ritz-Carlton, Bali",
+      "region": "Nusa Dua",
+      "venue_types": [
+        "chapel",
+        "cliffside",
+        "beach",
+        "lawn",
+        "ballroom",
+        "villa-buyout"
+      ],
+      "recommended_guest_size_band": "120+",
+      "pricing_status": "public_price_available",
+      "price_band_normalized": "ultra_luxury",
+      "price_summary_text": "目前「我的海外婚禮」的公開定價為 18,800 美元（30 位賓客）左右，而較早的 Bridestory 套餐頁面仍然顯示 30 位賓客的 Majestic Chapel 和 Chapel Lawn 格式，價格為 260,000,000 印尼盾，包含住宿費用。",
+      "rain_backup_status": "strong",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "medium",
+      "best_for": [
+        "想要舉辦經典峇里島玻璃教堂婚禮並擁有更強大的大型活動後勤服務的情侶",
+        "需要大量現場房間庫存並更輕鬆抵達峇里島南部的家庭",
+        "婚禮規模可以從親密的教堂時刻到 100 多位賓客的懸崖招待會"
+      ],
+      "not_ideal_for": [
+        "追求小型精品莊園氛圍的情侶",
+        "需要較低門檻的努沙杜瓦豪華婚禮的預算",
+        "想要最具設計實驗性的懸崖建築而不是經典的拋光奢華的人們"
+      ],
+      "key_strengths": [
+        "非常強大的客房庫存，可讓客人集中在一處房產上",
+        "雄偉的教堂加上草坪和宴會廳的組合創造了真正的規劃靈活性",
+        "中文旅行和評論覆蓋範圍廣，讓視覺和住宿研究變得更容易"
+      ],
+      "key_risks": [
+        "這是一個大型豪華度假村，因此必須設計而不是假設的親密感",
+        "場地選擇極大地改變了同一物業的成本和氛圍",
+        "儘管有強大的備份選項，戶外標誌性外觀仍然暴露在天氣中"
+      ],
+      "open_questions": [
+        "確認 Majestic Chapel、Chapel Lawn、Cliff Lawn 和海灘格式的最新直接容量和最低支出網格。",
+        "確認目前的外部供應商、開瓶費和無人機規則。",
+        "確認大型戶外晚宴佈置的現行宴會廳後備流程。"
+      ],
+      "source_count": 17,
+      "photo_count": 13,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
+      "photo_coverage_rain_backup": "unknown",
+      "photo_coverage_accommodation": "medium",
+      "photo_reference_value_overall": "high"
+    },
+    {
+      "id": "tirtha-bali",
+      "name_zh": "Tirtha Bali 水之教堂",
+      "name_en_official": "Tirtha Bali",
+      "region": "Uluwatu",
+      "venue_types": [
+        "cliffside",
+        "chapel",
+        "garden"
+      ],
+      "recommended_guest_size_band": "81-120",
+      "pricing_status": "public_price_available",
+      "price_band_normalized": "luxury",
+      "price_summary_text": "目前公開資料顯示，Tirtha 的起點約為 11,300 美元（30 位賓客），若採教堂加 Glass House 接待的組合，30 位賓客的整體方案約為 14,500 美元。",
+      "rain_backup_status": "strong",
+      "accommodation_fit": "fragmented",
+      "restriction_level": "medium",
+      "traffic_risk_level": "high",
+      "best_for": [
+        "想要同時在婚禮故事中舉辦懸崖海洋儀式和鬱鬱蔥蔥的花園招待會的夫婦",
+        "設計前衛的婚禮重視專門建造的建築而不是普通的飯店宴會廳",
+        "賓客對儀式和晚宴之間協調一致的班車物流感到滿意"
+      ],
+      "not_ideal_for": [
+        "希望每個人都睡在同一片土地上的團體",
+        "想要最簡單的單場地婚禮流程的夫婦",
+        "需要現場酒店規模房間庫存的婚禮"
+      ],
+      "key_strengths": [
+        "非常強大的雨備份，同時又不失賽事美感",
+        "一位經營者管理下的懸崖邊和花園的獨特個性",
+        "專門打造的婚禮專業知識而非標準的飯店活動管理"
+      ],
+      "key_risks": [
+        "現場住宿有限",
+        "分場地流動增加了客流的複雜性",
+        "公開定價仍因套餐和場地組合而異"
+      ],
+      "open_questions": [
+        "確認目前的外部供應商、開瓶費和生產費。",
+        "確認目前的全包套餐包括新娘準備用途以外的任何客房組件。",
+        "分別確認 Tirtha Uluwatu 和 Glass House 目前的音樂宵禁和餘興派對選項。"
+      ],
+      "source_count": 15,
+      "photo_count": 11,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
+      "photo_coverage_rain_backup": "high",
+      "photo_coverage_accommodation": "medium",
+      "photo_reference_value_overall": "high"
+    }
+  ]
+}

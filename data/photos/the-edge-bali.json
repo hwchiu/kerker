@@ -1,0 +1,190 @@
+[
+  {
+    "photo_entry_id": "the-edge-bali-photo-official-resort",
+    "venue_id": "the-edge-bali",
+    "source_id": "the-edge-bali-official-resort",
+    "page_url": "https://theedgebali.com/",
+    "image_url_or_gallery_url": "https://theedgebali.com/",
+    "image_type": "official_hotel_gallery",
+    "scene_tags": [
+      "public-area",
+      "arrival-flow",
+      "night-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "莊園、懸崖和抵達氛圍的最佳整體視覺定位。"
+  },
+  {
+    "photo_entry_id": "the-edge-bali-photo-edge-wedding",
+    "venue_id": "the-edge-bali",
+    "source_id": "the-edge-bali-official-edge-wedding",
+    "page_url": "https://theedgebali.com/weddings/the-edge-wedding/",
+    "image_url_or_gallery_url": "https://theedgebali.com/weddings/the-edge-wedding/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "guest-seating",
+      "floral-setup"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "The Edge 最大規模的懸崖婚禮佈置的核心官方來源。"
+  },
+  {
+    "photo_entry_id": "the-edge-bali-photo-sky-wedding",
+    "venue_id": "the-edge-bali",
+    "source_id": "the-edge-bali-official-sky-wedding",
+    "page_url": "https://theedgebali.com/weddings/the-sky-wedding/",
+    "image_url_or_gallery_url": "https://theedgebali.com/weddings/the-sky-wedding/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "night-view",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "對於更具電影感的面向地平線的婚禮形式很有用。"
+  },
+  {
+    "photo_entry_id": "the-edge-bali-photo-sea-wedding",
+    "venue_id": "the-edge-bali",
+    "source_id": "the-edge-bali-official-sea-wedding",
+    "page_url": "https://theedgebali.com/weddings/the-sea-wedding/",
+    "image_url_or_gallery_url": "https://theedgebali.com/weddings/the-sea-wedding/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "garden-reception",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "對於閱讀中型儀式加晚宴的形式很重要。"
+  },
+  {
+    "photo_entry_id": "the-edge-bali-photo-intimate-wedding",
+    "venue_id": "the-edge-bali",
+    "source_id": "the-edge-bali-official-intimate-wedding",
+    "page_url": "https://theedgebali.com/weddings/the-intimate-wedding/",
+    "image_url_or_gallery_url": "https://theedgebali.com/weddings/the-intimate-wedding/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "room",
+      "rain-backup-space",
+      "public-area"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "對於了解以別墅為主導的親密形式和天氣回退的感覺很有用。"
+  },
+  {
+    "photo_entry_id": "the-edge-bali-photo-villas",
+    "venue_id": "the-edge-bali",
+    "source_id": "the-edge-bali-official-villas",
+    "page_url": "https://theedgebali.com/villas/",
+    "image_url_or_gallery_url": "https://theedgebali.com/villas/",
+    "image_type": "official_hotel_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "rain-backup-space"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "住宿品質和惡劣天氣下的室內別墅空間的強大來源。"
+  },
+  {
+    "photo_entry_id": "the-edge-bali-photo-bridestory-venue",
+    "venue_id": "the-edge-bali",
+    "source_id": "the-edge-bali-bridestory-venue",
+    "page_url": "https://www.bridestory.com/the-edge",
+    "image_url_or_gallery_url": "https://www.bridestory.com/the-edge",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "garden-reception",
+      "night-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "用於儀式和接待視覺效果的有用公共聚合器。"
+  },
+  {
+    "photo_entry_id": "the-edge-bali-photo-bridestory-project",
+    "venue_id": "the-edge-bali",
+    "source_id": "the-edge-bali-bridestory-project",
+    "page_url": "https://www.bridestory.com/the-edge/projects/the-edge-bali",
+    "image_url_or_gallery_url": "https://www.bridestory.com/the-edge/projects/the-edge-bali",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "night-view",
+      "guest-seating",
+      "floral-setup"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "最近的第三方項目視覺效果有助於交叉檢查該莊園當前的造型基調。"
+  },
+  {
+    "photo_entry_id": "the-edge-bali-photo-tripcom-hk",
+    "venue_id": "the-edge-bali",
+    "source_id": "the-edge-bali-tripcom-hk-hotel",
+    "page_url": "https://hk.trip.com/hotels/bali-hotel-detail-685862/the-edge-bali?locale=en-HK",
+    "image_url_or_gallery_url": "https://hk.trip.com/hotels/bali-hotel-detail-685862/the-edge-bali?locale=en-HK",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "night-view"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "中文平台圖集可補看 The Edge 的 villa、泳池和夜景實拍，方便判斷它的超奢華感是否接近真實入住狀態。"
+  },
+  {
+    "photo_entry_id": "the-edge-bali-photo-ctrip-hotel",
+    "venue_id": "the-edge-bali",
+    "source_id": "the-edge-bali-ctrip-hotel",
+    "page_url": "https://hotels.ctrip.com/hotels/685862.html",
+    "image_url_or_gallery_url": "https://hotels.ctrip.com/hotels/685862.html",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "arrival-flow"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "攜程頁面有助於補強 The Edge 的客房、公共區域與入住動線參考，避免只看到婚禮宣傳照。"
+  },
+  {
+    "photo_entry_id": "the-edge-bali-balifortwo-elijah-morgan",
+    "venue_id": "the-edge-bali",
+    "source_id": "the-edge-bali-balifortwo-elijah-morgan",
+    "page_url": "https://balifortwo2.com/elijah-morgans-wedding-at-the-edge/",
+    "image_url_or_gallery_url": "https://balifortwo2.com/elijah-morgans-wedding-at-the-edge/",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "guest-seating",
+      "night-view",
+      "entrance-procession"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "可直接看 The Edge 真實婚禮的大場面、進場動線與夜間派對氛圍。"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-official-resort",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "official",
+    "source_name": "峇里島金巴蘭灣四季度假村概覽",
+    "source_url": "https://www.fourseasons.com/jimbaranbay/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Primary resort overview for brand positioning, location framing, and overall accommodation style.",
+    "raw_excerpt_summary": "將金巴蘭灣打造為峇里島日落海岸上的全別墅海濱度假村。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-official-weddings",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "official",
+    "source_name": "四季金巴蘭灣婚禮頁面",
+    "source_url": "https://www.fourseasons.com/jimbaranbay/weddings/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "restrictions"
+    ],
+    "reliability_notes": "Best official wedding overview for ceremony concepts and positioning.",
+    "raw_excerpt_summary": "將金巴蘭灣描述為日落海岸婚禮勝地，並擁有量身定制的慶祝活動。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-official-venues",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "official",
+    "source_name": "金巴蘭灣四季婚禮場地",
+    "source_url": "https://www.fourseasons.com/jimbaranbay/weddings/venues/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "rain_backup",
+      "photos"
+    ],
+    "reliability_notes": "Best official page for mapping ceremony and reception spaces against guest counts.",
+    "raw_excerpt_summary": "展示多種儀式和接待場所，從私密的別墅空間到更大的海濱和草坪佈局。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-official-packages",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "official",
+    "source_name": "金巴蘭灣四季婚禮套餐",
+    "source_url": "https://www.fourseasons.com/jimbaranbay/weddings/packages/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "restrictions",
+      "photos"
+    ],
+    "reliability_notes": "Useful official context on package concepts even though prices are not public on the Four Seasons site.",
+    "raw_excerpt_summary": "定位多種婚禮套餐風格，包括組合和慶祝主導形式。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-official-getting-here",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "official",
+    "source_name": "四季金巴蘭灣到達這裡",
+    "source_url": "https://www.fourseasons.com/jimbaranbay/getting-here/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "transport"
+    ],
+    "reliability_notes": "Official transport source for airport timing and logistics framing.",
+    "raw_excerpt_summary": "交通暢通時，度假村距離伍拉賴國際機場約 20 分鐘路程。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-official-accommodations",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "official",
+    "source_name": "金巴蘭灣四季酒店",
+    "source_url": "https://www.fourseasons.com/jimbaranbay/accommodations/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "Primary accommodation page for confirming the all-villa inventory style.",
+    "raw_excerpt_summary": "確認該物業圍繞金巴蘭灣的豪華別墅和住宅風格住宿而建。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-official-gallery",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "official",
+    "source_name": "四季金巴蘭灣畫廊",
+    "source_url": "https://www.fourseasons.com/jimbaranbay/gallery/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Official image bank that is useful for checking ceremony atmosphere, villas, and public areas.",
+    "raw_excerpt_summary": "提供度假村海濱、別墅和餐飲空間的廣闊視野。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-myoverseas-overview",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮四季金巴蘭概述",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-jimbaran-bay",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "photos"
+    ],
+    "reliability_notes": "Current public instant-quote platform; useful for pricing baselines and comparable capacity framing, but direct contracting still wins.",
+    "raw_excerpt_summary": "列出了可容納 30 位賓客的基本婚禮套餐，起價為 14,200 美元，並在金巴蘭灣舉辦了五個婚禮場地。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-myoverseas-ceremony",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮四季金巴蘭儀式場地",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-jimbaran-bay/ceremony-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "rain_backup",
+      "pricing"
+    ],
+    "reliability_notes": "Useful public breakdown of ceremony space types and quote baselines.",
+    "raw_excerpt_summary": "幫助比較金巴蘭度假村內的水道、海濱和私人別墅儀式形式。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-myoverseas-reception",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮四季金巴蘭接待場地",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-jimbaran-bay/reception-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "rain_backup"
+    ],
+    "reliability_notes": "Useful for reception-space comparisons because it separates dinner settings from ceremony-only options.",
+    "raw_excerpt_summary": "顯示了 30 位客人的公共接待主導價格約為 14,600 美元的基準，並闡明了晚餐地點的差異。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-bridestory-venue",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "新娘故事四季金巴蘭場地頁面",
+    "source_url": "https://www.bridestory.com/four-seasons-resort-bali-jimbaran-bay",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "pricing",
+      "restrictions"
+    ],
+    "reliability_notes": "Helpful platform listing for package browsing and visual references, but package freshness varies.",
+    "raw_excerpt_summary": "將度假村打造為靈活的峇里島婚禮場地，風格多樣，套餐清單清晰可見。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-bridestory-resort-overview",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 四季金巴蘭度假村概況項目",
+    "source_url": "https://www.bridestory.com/four-seasons-resort-bali-jimbaran-bay/projects/resort-overview1485225895",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful visual project page showing how the resort photographs across villas and event spaces.",
+    "raw_excerpt_summary": "提供度假村別墅、公共區域和婚禮氛圍的擴展視覺概覽。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-official-zh-resort",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "official",
+    "source_name": "峇里島金巴蘭灣四季度假村中文概覽頁面",
+    "source_url": "https://www.fourseasons.com/zh/jimbaranbay/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Chinese-language official overview useful for villa-stay framing, property identity, and guest-orientation research.",
+    "raw_excerpt_summary": "金巴蘭灣成為峇里島豪華海濱度假勝地，植根於峇里島傳統和私人泳池別墅住宿。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-tripcom-hk-hotel",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "Trip.com 香港峇里島金巴蘭灣四季度假村飯店頁面",
+    "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-1477039/four-seasons-resort-bali-at-jimbaran-bay/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Chinese-language hotel-booking page useful for image browsing, practical stay context, and quick price scanning.",
+    "raw_excerpt_summary": "Trip.com 的香港飯店頁面提供金巴蘭灣度假村的真實評論、照片和房價瀏覽。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-tripadvisor-tw-hotel",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "social_inspiration",
+    "source_name": "Tripadvisor 台灣峇里島金巴蘭灣四季度假村飯店頁面",
+    "source_url": "https://www.tripadvisor.com.tw/Hotel_Review-g297696-d307571-Reviews-Four_Seasons_Resort_Bali_at_Jimbaran_Bay-Jimbaran_South_Kuta_Bali.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful Chinese-language traveler-photo source for understanding how the resort reads beyond official marketing images.",
+    "raw_excerpt_summary": "Tripadvisor 台灣顯示了數千條關於峇里島金巴蘭灣四季度假村的遊客評論和照片。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-hmdays-chinese-wedding",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "editorial_case_study",
+    "source_name": "HMDAYS 四季金巴蘭婚禮頁面",
+    "source_url": "https://m.hmdays.com/wedding/bali/bfourseason",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Chinese-language wedding-planner page useful for visual references and venue-story framing, but not authoritative for live operations or pricing.",
+    "raw_excerpt_summary": "將金巴蘭四季酒店打造成峇里島全別墅婚禮度假村，以海灣環境為中心講述目的地婚禮故事。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-neverneverland-zh",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "NeverNeverLand 金巴蘭灣四季度假村婚禮中文頁",
+    "source_url": "https://neverneverlandinbali.com/wedding/17693-2/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Chinese wedding-agency page; useful for translated package framing and resort imagery.",
+    "raw_excerpt_summary": "中文婚禮頁整理金巴蘭四季的水上走道、Sundara 與別墅住宿畫面，適合補足婚禮與住宿整合感。"
+  }
+]

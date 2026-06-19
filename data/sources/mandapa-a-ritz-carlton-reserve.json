@@ -1,0 +1,216 @@
+[
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-official-zh-overview",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "official",
+    "source_name": "曼達帕中文概覽頁面",
+    "source_url": "https://www.ritzcarlton.com/zh-cn/hotels/dpsub-mandapa-a-ritz-carlton-reserve/overview/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "Chinese-language official overview with the clearest public room-count and property-summary text.",
+    "raw_excerpt_summary": "States Mandapa 在烏布擁有 35 間套房、25 間私人泳池別墅、四個餐飲場所和一個恢復活力的水療中心。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-official-zh-weddings",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "official",
+    "source_name": "曼達帕中文婚禮頁面",
+    "source_url": "https://www.ritzcarlton.com/zh-cn/hotels/dpsub-mandapa-a-ritz-carlton-reserve/weddings/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "Chinese-language official wedding page used for ceremony-space identity and reserve-style positioning.",
+    "raw_excerpt_summary": "重點介紹稻田草坪、精緻的烏布婚禮場地和歷史悠久的寺廟環境，作為曼達帕儀式故事的一部分。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-tripcom-hk-hotel",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "platform_agency",
+    "source_name": "Trip.com 香港曼達帕飯店頁",
+    "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-2144691/mandapa-a-ritz-carlton-reserve/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Useful Chinese-language hotel listing for address context, room-product browsing, and public-area imagery.",
+    "raw_excerpt_summary": "將 Mandapa 置於烏布 Kedewatan，並加強 35 間套房和 25 間別墅的住宿組合。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-ctrip-hotel",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "platform_agency",
+    "source_name": "攜程曼達帕飯店頁面",
+    "source_url": "https://hotels.ctrip.com/hotels/2144691.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "accommodation",
+      "transport",
+      "photos"
+    ],
+    "reliability_notes": "Chinese-language booking source with concise practical hotel framing that is useful for stay and route context.",
+    "raw_excerpt_summary": "將 Mandapa 描述為烏布的一處健康度假勝地，擁有 35 間套房、25 間私人泳池別墅，並享有阿勇河 (Ayung River) 的環境。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-tripadvisor-tw-hotel",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "social_inspiration",
+    "source_name": "Tripadvisor 台灣曼達帕飯店頁",
+    "source_url": "https://www.tripadvisor.com.tw/Hotel_Review-g1933359-d8293999-Reviews-Mandapa_A_Ritz_carlton_Reserve-Kedewatan_Ubud_Gianyar_Regency_Bali.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful Chinese-language traveler reference with a large photo bank and guest comments, but not authoritative for wedding rules.",
+    "raw_excerpt_summary": "提供數千張位於 Kedewatan 的 Mandapa 的旅客圖片和實際住宿印象。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-tripadvisor-cn-hotel",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "social_inspiration",
+    "source_name": "Tripadvisor 中國曼達帕飯店頁",
+    "source_url": "https://www.tripadvisor.cn/Hotel_Review-g1933359-d8293999-Reviews-Mandapa_a_Ritz_Carlton_Reserve-Kedewatan_Ubud_Gianyar_Regency_Bali.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Chinese-language traveler page useful for room and atmosphere validation from a guest perspective.",
+    "raw_excerpt_summary": "以豐富的旅遊照片集總結曼達帕作為峇里島精神中心的避難所。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-myoverseas-overview",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮曼達帕概述",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/mandapa-a-ritz-carlton-reserve",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "photos"
+    ],
+    "reliability_notes": "Current public wedding-venue comparison source for Mandapa's price baseline and venue count.",
+    "raw_excerpt_summary": "顯示 Mandapa 的基本婚禮套餐，起價約為 11,100 美元，可供 30 位賓客入住。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-myoverseas-ceremony",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮曼達帕儀式場地",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/mandapa-a-ritz-carlton-reserve/ceremony-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "pricing",
+      "rain_backup"
+    ],
+    "reliability_notes": "Best public source for Mandapa's upper ceremony capacities and venue-by-venue differentiation.",
+    "raw_excerpt_summary": "States Temple Garden 花園以曼達帕 (Mandapa) 歷史悠久的寺廟為背景，最多可容納 120 名客人。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-myoverseas-reception",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮曼達帕接待場地",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/mandapa-a-ritz-carlton-reserve/reception-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "rain_backup"
+    ],
+    "reliability_notes": "Useful public source for Mandapa's lower USD entry point and reception framing.",
+    "raw_excerpt_summary": "顯示 30 位賓客的公共婚禮底價約為 10,900 美元，並重點介紹了坦普爾花園和其他可接待的空間。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-bridestory-venue",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory Mandapa 場地頁面",
+    "source_url": "https://www.bridestory.com/mandapa-a-ritz-carlton-reserve",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "photos"
+    ],
+    "reliability_notes": "Planner-facing listing used for package visibility and wedding-gallery depth.",
+    "raw_excerpt_summary": "展示曼達帕婚禮產品，包括花園和河畔套餐，並公開可見價格。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-bridestory-resort-overview",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 曼達帕度假村概覽",
+    "source_url": "https://www.bridestory.com/mandapa-a-ritz-carlton-reserve/projects/resort-overview",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful visual source for seeing how the reserve markets the whole property in wedding context.",
+    "raw_excerpt_summary": "將曼達帕定位為烏布保護區，其靈感來自峇里島土著村莊，適合舉辦私密的目的地婚禮。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-bridestory-real-wedding",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "platform_agency",
+    "source_name": "Dede 和 Ivonne Kadiman 在曼達帕舉行的新娘故事婚禮",
+    "source_url": "https://www.bridestory.com/mandapa-a-ritz-carlton-reserve/projects/wedding-of-dede-and-ivonne-kadiman",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": "2017-11-16",
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Older but still useful real-wedding reference because it shows how Mandapa works across tea ceremony, blessing, and dinner flow.",
+    "raw_excerpt_summary": "展示了一場真正的曼達帕婚禮，使用了酒店的多個空間並容納了入住度假村的客人。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-neverneverland-zh-hotel",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "platform_agency",
+    "source_name": "NeverNeverLand Mandapa 中文飯店頁",
+    "source_url": "https://neverneverlandinbali.com/hotel/4396-2/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Chinese hotel-agency page; useful for accommodation and atmosphere checks, but not wedding-specific.",
+    "raw_excerpt_summary": "中文飯店頁整理 Mandapa 河谷度假村空間與房型，適合補住宿體驗與叢林氛圍判斷。"
+  }
+]

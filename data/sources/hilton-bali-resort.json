@@ -1,0 +1,325 @@
+[
+  {
+    "source_id": "hilton-bali-resort-official-resort",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "official",
+    "source_name": "峇里島希爾頓度假村概覽",
+    "source_url": "https://www.hilton.com/en/hotels/dpsbahi-hilton-bali-resort/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Primary resort page for overall positioning and family-resort inventory style.",
+    "raw_excerpt_summary": "峇里島希爾頓度假村是一座懸崖邊的度假村，可通往海灘、多個泳池和廣泛的賓客設施。"
+  },
+  {
+    "source_id": "hilton-bali-resort-official-location",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "official",
+    "source_name": "峇里島希爾頓度假村位置及交通",
+    "source_url": "https://www.hilton.com/en/hotels/dpsbahi-hilton-bali-resort/hotel-location/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "transport"
+    ],
+    "reliability_notes": "Best official transport source for airport distance and Sawangan location.",
+    "raw_excerpt_summary": "度假村位於 Sawangan，距離伍拉賴國際機場約 16 公里。"
+  },
+  {
+    "source_id": "hilton-bali-resort-official-weddings",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "official",
+    "source_name": "峇里島希爾頓度假村婚禮頁面",
+    "source_url": "https://www.hilton.com/en/hotels/dpsbahi-hilton-bali-resort/weddings/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "Primary official wedding page for chapel and temple positioning.",
+    "raw_excerpt_summary": "希爾頓是峇里島唯一一家在懸崖上擁有全玻璃教堂和峇里島寺廟的飯店。"
+  },
+  {
+    "source_id": "hilton-bali-resort-official-events",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "official",
+    "source_name": "峇里島希爾頓度假村活動頁面",
+    "source_url": "https://www.hilton.com/en/hotels/dpsbahi-hilton-bali-resort/events/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "rain_backup"
+    ],
+    "reliability_notes": "Useful official source for ballroom and broader event-space context.",
+    "raw_excerpt_summary": "希爾頓確認將懸崖教堂與更大的活動室和室內功能空間結合。"
+  },
+  {
+    "source_id": "hilton-bali-resort-official-rooms",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "official",
+    "source_name": "峇里島希爾頓度假村客房和套房",
+    "source_url": "https://www.hilton.com/en/hotels/dpsbahi-hilton-bali-resort/rooms/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "Primary accommodation source for rooms, suites, and direct-pool room references.",
+    "raw_excerpt_summary": "顯示度假村適合婚禮賓客區的客房、套房和別墅式住宿組合。"
+  },
+  {
+    "source_id": "hilton-bali-resort-official-gallery",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "official",
+    "source_name": "峇里島希爾頓度假村畫廊",
+    "source_url": "https://www.hilton.com/en/hotels/dpsbahi-hilton-bali-resort/gallery/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Official image bank for venue mood, rooms, and resort-wide atmosphere.",
+    "raw_excerpt_summary": "提供懸崖邊度假村、房間、游泳池和公共區域的視覺覆蓋。"
+  },
+  {
+    "source_id": "hilton-bali-resort-myoverseas-overview",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 峇里島希爾頓度假村概述",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/hilton-bali-resort",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "photos"
+    ],
+    "reliability_notes": "Current public instant-quote page used for price normalization against peer resorts.",
+    "raw_excerpt_summary": "列出了 30 位賓客的基本婚禮套餐，起價為 11,100 美元，並在五個婚禮場地舉辦希爾頓酒店。"
+  },
+  {
+    "source_id": "hilton-bali-resort-myoverseas-ceremony",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 峇里島希爾頓度假村儀式場地",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/hilton-bali-resort/ceremony-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "rain_backup"
+    ],
+    "reliability_notes": "Useful for public ceremony capacity references and Wiwaha comparisons.",
+    "raw_excerpt_summary": "幫助比較威瓦哈教堂、威瓦哈水、海灘和希爾頓度假村內的其他儀式選項。"
+  },
+  {
+    "source_id": "hilton-bali-resort-myoverseas-reception",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 峇里島希爾頓度假村接待場地",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/hilton-bali-resort/reception-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "pricing",
+      "rain_backup"
+    ],
+    "reliability_notes": "Useful for public reception sizing and identifying Hilton's large-format options.",
+    "raw_excerpt_summary": "展示希爾頓如何從戶外晚餐轉變為可容納更多客人的大型宴會廳形式。"
+  },
+  {
+    "source_id": "hilton-bali-resort-bridestory-venue",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 峇里島希爾頓度假村場地頁面",
+    "source_url": "https://www.bridestory.com/hilton-bali-resort",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "pricing",
+      "restrictions"
+    ],
+    "reliability_notes": "Planner-facing listing that helps confirm gallery depth and package visibility.",
+    "raw_excerpt_summary": "在婚禮購物環境中提供希爾頓的場地圖集和套餐連結。"
+  },
+  {
+    "source_id": "hilton-bali-resort-bridestory-store-chapel",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 2025 Wiwaha 教堂婚禮套餐",
+    "source_url": "https://www.bridestory.com/store/2025-wiwaha-chapel-wedding-a5e0",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "High-signal public package listing because it shows both price and guest capacity directly.",
+    "raw_excerpt_summary": "列出 2025 年 Wiwaha 禮拜堂套餐，價格為 48,000,000 印尼盾，可供 40 位客人入住。"
+  },
+  {
+    "source_id": "hilton-bali-resort-bridestory-wiwaha-water",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory Wiwaha 水上婚禮項目",
+    "source_url": "https://www.bridestory.com/hilton-bali-resort/projects/wiwaha-wedding-at-hilton-bali-resort",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Useful project page for seeing Hilton's water-wedding format beyond brochure summaries.",
+    "raw_excerpt_summary": "在度假村的懸崖頂平台上展示 Wiwaha 送水儀式的造型。"
+  },
+  {
+    "source_id": "hilton-bali-resort-bridestory-wiwaha-chapel",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory Wiwaha 教堂婚禮項目",
+    "source_url": "https://www.bridestory.com/hilton-bali-resort/projects/wiwaha-chapel-wedding",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Useful project page for the glass-chapel look, which is central to Hilton's positioning.",
+    "raw_excerpt_summary": "展示 Wiwaha 教堂的設置以及玻璃結構在真實婚禮風格中的表現。"
+  },
+  {
+    "source_id": "hilton-bali-resort-bridestory-lia-steve",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "platform_agency",
+    "source_name": "新娘故事 莉亞和史蒂夫在峇里島希爾頓度假村舉行的婚禮",
+    "source_url": "https://www.bridestory.com/hilton-bali-resort/projects/the-wedding-of-lia-steve",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Real-wedding project source that helps assess what Hilton looks like in use rather than only in promo photography.",
+    "raw_excerpt_summary": "為峇里島希爾頓度假村的慶祝活動提供實際的婚禮報道，包括接待氣氛。"
+  },
+  {
+    "source_id": "hilton-bali-resort-official-zh-resort",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "official",
+    "source_name": "峇里島希爾頓度假村中文概覽頁面",
+    "source_url": "https://www.hilton.com/zh-hans/hotels/dpsbahi-hilton-bali-resort/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Chinese-language official resort overview useful for family-resort amenities, room-product context, and visual orientation.",
+    "raw_excerpt_summary": "峇里島希爾頓度假村是一座懸崖邊的飯店，設有兒童俱樂部、水療中心、四個游泳池，並可通往白色沙灘。"
+  },
+  {
+    "source_id": "hilton-bali-resort-official-zh-weddings",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "official",
+    "source_name": "峇里島希爾頓度假村中文婚禮頁面",
+    "source_url": "https://www.hilton.com/zh-hans/hotels/dpsbahi-hilton-bali-resort/weddings/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "photos",
+      "restrictions"
+    ],
+    "reliability_notes": "Chinese-language official wedding page with package-inclusion context and useful small-print details for guest math.",
+    "raw_excerpt_summary": "概述了婚禮套餐的內容，並註明額外賓客的收費標準為每人 250,000 印尼盾淨價。"
+  },
+  {
+    "source_id": "hilton-bali-resort-tripcom-hk-hotel",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "platform_agency",
+    "source_name": "Trip.com 香港峇里島希爾頓度假村飯店頁面",
+    "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-982024/hilton-bali-resort/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Chinese-language booking page useful for hotel-gallery browsing and practical stay comparison.",
+    "raw_excerpt_summary": "Trip.com 在香港的清單提供了峇里島希爾頓度假村的照片、客房選擇和預訂式住宿環境。"
+  },
+  {
+    "source_id": "hilton-bali-resort-ctrip-hotel",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "platform_agency",
+    "source_name": "攜程網峇里島希爾頓度假村飯店頁面",
+    "source_url": "https://hotels.ctrip.com/hotels/982024.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Chinese-language booking source useful for quick transport framing and broad room/product browsing.",
+    "raw_excerpt_summary": "將峇里島希爾頓度假村概括為坐落在 40 公尺高的懸崖上，俯瞰印度洋的酒店。"
+  },
+  {
+    "source_id": "hilton-bali-resort-tripadvisor-cn-hotel",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "social_inspiration",
+    "source_name": "Tripadvisor 中國希爾頓峇里島度假村飯店頁面",
+    "source_url": "https://www.tripadvisor.cn/Hotel_Review-g297698-d301929-Reviews-Hilton_Bali_Resort-Nusa_Dua_Nusa_Dua_Peninsula_Bali.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful Chinese-language traveler-photo source for checking how the resort looks outside official marketing images.",
+    "raw_excerpt_summary": "Tripadvisor 中國將峇里島希爾頓度假村呈現為位於努沙杜瓦懸崖邊的住宿，並設有大型旅客照片庫。"
+  },
+  {
+    "source_id": "hilton-bali-resort-balifortwo-jess-henning",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "editorial_case_study",
+    "source_name": "Bali For Two Jess & Henning 在 Hilton Bali Resort 的真實婚禮",
+    "source_url": "https://balifortwo2.com/jess-hennings-wedding-at-hilton-bali-resort/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Real-wedding planner feature; useful for visual cross-checks of chapel and evening setup.",
+    "raw_excerpt_summary": "真實婚禮案例，可看 Wiwaha 教堂、新人出場與晚間佈置在真實婚禮中的感覺。"
+  }
+]

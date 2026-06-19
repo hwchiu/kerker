@@ -1,0 +1,331 @@
+[
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-official-resort",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "official",
+    "source_name": "峇里島薩揚四季度假村概覽",
+    "source_url": "https://www.fourseasons.com/sayan/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Primary resort overview for the jungle-valley positioning and overall guest experience.",
+    "raw_excerpt_summary": "將薩揚 (Sayan) 打造為烏布的精神療癒勝地，俯瞰茂密的叢林和河流景觀。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-official-weddings",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "official",
+    "source_name": "四季薩揚婚禮頁面",
+    "source_url": "https://www.fourseasons.com/sayan/weddings/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "restrictions",
+      "capacity"
+    ],
+    "reliability_notes": "Best official wedding overview for how the resort positions jungle and traditional ceremonies.",
+    "raw_excerpt_summary": "將薩揚 (Sayan) 呈現為在烏布舉行傳統、森林和親密峇里島婚禮的目的地。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-official-venues",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "official",
+    "source_name": "薩揚四季婚禮場地",
+    "source_url": "https://www.fourseasons.com/sayan/weddings/venues/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "Most important official venue page for capacity ranges and the actual location mix.",
+    "raw_excerpt_summary": "提供蓮花池、愛詠露台、河濱泳池露台以及適合小型至中型慶祝活動的別墅風格選擇。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-official-packages",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "official",
+    "source_name": "薩揚四季婚禮套餐",
+    "source_url": "https://www.fourseasons.com/sayan/weddings/packages/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "restrictions",
+      "photos"
+    ],
+    "reliability_notes": "Useful for package positioning and how Four Seasons bundles ceremony and honeymoon concepts.",
+    "raw_excerpt_summary": "強調薩揚的套餐概念，包括跨島婚禮和與金巴蘭灣的蜜月組合。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-official-planning",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "official",
+    "source_name": "四季薩揚婚禮策劃頁面",
+    "source_url": "https://www.fourseasons.com/sayan/weddings/planning/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "restrictions",
+      "transport"
+    ],
+    "reliability_notes": "Good official context for planner support and on-property coordination assumptions.",
+    "raw_excerpt_summary": "強調在烏布環境中提供專門的婚禮策劃支援和量身定制的活動協調。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-official-getting-here",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "official",
+    "source_name": "四季薩揚到達這裡",
+    "source_url": "https://www.fourseasons.com/sayan/getting-here/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "transport"
+    ],
+    "reliability_notes": "Official transport source for Ubud proximity and general access framing.",
+    "raw_excerpt_summary": "度假村位於峇里島高地的阿勇河沿岸，距離烏布市中心約 15 分鐘路程。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-official-accommodations",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "official",
+    "source_name": "薩揚四季酒店住宿",
+    "source_url": "https://www.fourseasons.com/sayan/accommodations/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "Primary accommodation page for the mix of suites, villas, and private-pool lodging.",
+    "raw_excerpt_summary": "確認該度假村將河谷套房與私人別墅和較大的特色住宅結合。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-official-gallery",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "official",
+    "source_name": "四季薩揚畫廊",
+    "source_url": "https://www.fourseasons.com/sayan/gallery/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Official visual bank for seeing the bridge arrival, jungle views, and villa interiors.",
+    "raw_excerpt_summary": "提供度假村叢林建築、客房、餐廳和山谷環境的廣泛圖像。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-myoverseas-overview",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮四季薩揚概述",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-sayan",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "photos"
+    ],
+    "reliability_notes": "Current public instant-quote source that helps normalize Sayan against other Bali venues.",
+    "raw_excerpt_summary": "列出了可容納 30 位賓客的基本婚禮套餐，起價為 12,600 美元，並在四個婚禮場地安排了 Sayan。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-myoverseas-ceremony",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮四季薩揚儀式場地",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-sayan/ceremony-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "pricing",
+      "rain_backup"
+    ],
+    "reliability_notes": "Useful for ceremony-capacity comparisons and private-villa conditions.",
+    "raw_excerpt_summary": "闡明親密的儀式設置，例如荷花池和薩揚內的私人別墅選項。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-myoverseas-reception",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮四季薩揚接待場地",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-sayan/reception-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "rain_backup"
+    ],
+    "reliability_notes": "Useful public breakdown of Sayan's dinner-focused venue math.",
+    "raw_excerpt_summary": "顯示了 30 位客人的公共接待主導價格約為 11,800 美元的底線，並強調了晚餐空間的隱私。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-bridestory-venue",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "platform_agency",
+    "source_name": "新娘故事四季薩揚會場頁面",
+    "source_url": "https://www.bridestory.com/four-seasons-resort-bali-sayan",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "pricing",
+      "restrictions"
+    ],
+    "reliability_notes": "Planner-facing listing that helps cross-check package visibility and venue imagery.",
+    "raw_excerpt_summary": "在 Bridestory 提供《四季薩揚》的包瀏覽和項目庫。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-bridestory-royal-villa",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "platform_agency",
+    "source_name": "薩揚四季新娘故事皇家別墅",
+    "source_url": "https://www.bridestory.com/four-seasons-resort-bali-sayan/projects/royal-villa",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity",
+      "rain_backup"
+    ],
+    "reliability_notes": "Useful project page for how the private-villa format can host both ceremony and reception.",
+    "raw_excerpt_summary": "將皇家別墅展示為私人儀式和晚宴場所，具有室內和室外的靈活性。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-bridestory-jonathan-celine",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "platform_agency",
+    "source_name": "新娘故事 喬納森和席琳在薩揚四季的婚禮",
+    "source_url": "https://www.bridestory.com/four-seasons-resort-bali-sayan/projects/the-wedding-of-celine-jonathan-oleh-bali-eve-wedding-event-planner",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Real-wedding style project source that helps separate promo imagery from actual setup outcomes.",
+    "raw_excerpt_summary": "為薩揚在實際婚禮佈置中如何拍攝添加更生動的視覺參考。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-official-zh-resort",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "official",
+    "source_name": "峇里島薩揚四季度假村中文概覽頁面",
+    "source_url": "https://www.fourseasons.com/zh/sayan/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Chinese-language official overview that is useful for the resort's jungle identity, wellness positioning, and guest-stay framing.",
+    "raw_excerpt_summary": "將薩揚 (Sayan) 定位為烏布豪華度假勝地，俯瞰鬱鬱蔥蔥的叢林，提供精神煥發的度假體驗。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-tripcom-hk-hotel",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "platform_agency",
+    "source_name": "Trip.com 香港峇里島薩揚四季度假村飯店頁面",
+    "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-1460857/four-seasons-resort-bali-at-sayan/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Chinese-language booking page that is useful for room browsing, arrival-flow description, and practical stay comparison.",
+    "raw_excerpt_summary": "描述如何穿過木橋到達懸空的荷花池，並指出度假村擁有 60 間套房和別墅。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-tripadvisor-tw-hotel",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "social_inspiration",
+    "source_name": "Tripadvisor 台灣峇里島薩揚四季度假村飯店頁面",
+    "source_url": "https://www.tripadvisor.com.tw/Hotel_Review-g2209545-d301883-Reviews-Four_Seasons_Resort_Bali_At_Sayan-Sayan_Ubud_Gianyar_Regency_Bali.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful Chinese-language traveler-photo source for cross-checking jungle atmosphere, guest rooms, and actual stay impressions.",
+    "raw_excerpt_summary": "Tripadvisor 台灣列出了峇里島薩揚四季度假村的 2,088 則旅客評論和 3,058 張照片。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-florasay-chinese-wedding",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "editorial_case_study",
+    "source_name": "Florasay 四季薩揚婚禮頁面",
+    "source_url": "https://www.florasay.com/wedding/bali-island-fourseasons-sayan-wedding/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Chinese-language wedding-planner page useful for quick visual orientation and venue-story comparison, but not authoritative on current rules.",
+    "raw_excerpt_summary": "透過婚禮策劃鏡頭展示薩揚的四個季節，重點是烏布叢林風光和親密的慶祝視覺效果。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-balifortwo-chris-sue",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "editorial_case_study",
+    "source_name": "Bali For Two Chris & Sue 在四季薩揚的真實婚禮",
+    "source_url": "https://balifortwo2.com/chris-and-sues-wedding-at-four-seasons-hotel-sayan/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Real-wedding planner feature; useful for checking how Sayan reads in a real event.",
+    "raw_excerpt_summary": "真實婚禮案例，能看叢林河谷背景、荷花池儀式與晚宴氣氛在實際婚禮中的樣子。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-sayan-florasay-zh",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "platform_agency",
+    "source_name": "Florasay 四季薩揚森林婚禮中文頁",
+    "source_url": "https://www.florasay.com/wedding/bali-island-fourseasons-sayan-wedding/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Chinese wedding-agency article; useful for translated framing and image references.",
+    "raw_excerpt_summary": "中文頁用烏布森林婚禮角度介紹四季薩揚，描述蓮花池、叢林與河谷景觀。"
+  }
+]

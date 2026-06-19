@@ -1,0 +1,237 @@
+[
+  {
+    "source_id": "bvlgari-official-overview",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "official",
+    "source_name": "峇里島寶格麗度假村官方概述",
+    "source_url": "https://www.bulgarihotels.com/en_US/bali/the-resort/overview",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "Official resort overview used for on-site stay, positioning, and villa count.",
+    "raw_excerpt_summary": "確認客製化管家服務、私人泳池以及 59 棟專屬別墅和豪宅。"
+  },
+  {
+    "source_id": "bvlgari-official-location",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "official",
+    "source_name": "峇里島寶格麗度假村位置頁面",
+    "source_url": "https://www.bulgarihotels.com/en_US/bali/location",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "transport"
+    ],
+    "reliability_notes": "Best official transport source for airport transfer costs and address.",
+    "raw_excerpt_summary": "列出 Jalan Goa Lempeh 地址以及官方機場計程車和飯店接送價格。"
+  },
+  {
+    "source_id": "bvlgari-official-chapel",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "official",
+    "source_name": "寶格麗教堂官方頁面",
+    "source_url": "https://www.bulgarihotels.com/en_US/bali/wedding/bulgari-chapel",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "Official ceremony page for the Bvlgari Chapel.",
+    "raw_excerpt_summary": "將教堂定位為世界上第一座寶格麗婚禮教堂和度假村的標誌性室內儀式空間。"
+  },
+  {
+    "source_id": "bvlgari-official-villa",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "official",
+    "source_name": "寶格麗別墅婚禮頁面",
+    "source_url": "https://www.bulgarihotels.com/en_US/bali/wedding/the-bulgari-villa",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Official page for the villa format and linked pavilion capacity.",
+    "raw_excerpt_summary": "展現私人別墅婚禮氛圍，並註明展館最多可容納100人。"
+  },
+  {
+    "source_id": "bvlgari-official-mansion",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "official",
+    "source_name": "寶格麗大廈婚禮頁面",
+    "source_url": "https://www.bulgarihotels.com/en_US/bali/wedding/the-bvlgari-mansion-wedding",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "accommodation",
+      "photos",
+      "restrictions"
+    ],
+    "reliability_notes": "Official page for the mansion buyout format.",
+    "raw_excerpt_summary": "確認五臥室豪宅包含兩晚住宿，並在泳池上方使用透明祭壇。"
+  },
+  {
+    "source_id": "bvlgari-official-ocean-view-villa",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "official",
+    "source_name": "寶格麗海景別墅頁面",
+    "source_url": "https://www.bulgarihotels.com/en_US/bali/villas-and-mansions/One-bedrooms/ocean-view-villa",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "Official room-style page used for guest-stay expectation and photo support.",
+    "raw_excerpt_summary": "展示了婚禮嘉賓和新人入住所期望的私人泳池別墅住宿體驗。"
+  },
+  {
+    "source_id": "bvlgari-myoverseaswedding",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 峇里島寶格麗度假村",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/bulgari-resort-bali",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "restrictions"
+    ],
+    "reliability_notes": "Current third-party instant-quote platform that helps with cross-venue budget comparison.",
+    "raw_excerpt_summary": "顯示 30 位賓客的基本婚禮套餐價格為 23,200 美元，並註明度假村有六個婚禮場地。"
+  },
+  {
+    "source_id": "bvlgari-bridestory-chapel",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 寶格麗教堂婚禮",
+    "source_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/bvlgari-chapel-wedding",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": "2024-03-04",
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos"
+    ],
+    "reliability_notes": "Public venue project page useful for chapel capacity and styling reference.",
+    "raw_excerpt_summary": "列出寶格麗教堂婚禮，最多可容納 90 人。"
+  },
+  {
+    "source_id": "bvlgari-bridestory-villa",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 寶格麗別墅婚禮",
+    "source_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/bulgari-villa-wedding",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": "2024-03-04",
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "accommodation",
+      "restrictions",
+      "photos"
+    ],
+    "reliability_notes": "Public project page with detailed inclusions, stay terms, and price for the villa format.",
+    "raw_excerpt_summary": "列出最多 50 人的別墅婚禮，包括兩晚別墅住宿，淨價 398,000,000 印尼盾起。"
+  },
+  {
+    "source_id": "bvlgari-bridestory-mansion",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 寶格麗豪宅婚禮",
+    "source_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/the-bulgari-mansion-wedding",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": "2024-03-04",
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "accommodation",
+      "restrictions",
+      "photos"
+    ],
+    "reliability_notes": "Public project page with detailed inclusions and pricing for the mansion format.",
+    "raw_excerpt_summary": "豪宅婚禮最多可容納 50 人，包括兩晚五房豪宅住宿，淨價 508,000,000 印尼盾起。"
+  },
+  {
+    "source_id": "bvlgari-tripcom-hk-hotel",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "platform_agency",
+    "source_name": "Trip.com 香港 峇里島寶格麗度假村飯店頁",
+    "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-926153/bvlgari-resort-bali?locale=en-HK",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "中文訂房平台頁面，可補足非官方視角的飯店照片、住客感受與基本交通住宿資訊。",
+    "raw_excerpt_summary": "提供大量飯店實拍與住客評論視角，適合先看寶格麗整體氛圍、房型與公共區域實際呈現。"
+  },
+  {
+    "source_id": "bvlgari-ctrip-hotel",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "platform_agency",
+    "source_name": "攜程 峇里島寶格麗度假村飯店頁",
+    "source_url": "https://hotels.ctrip.com/hotels/926153.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "中文訂房平台頁面，對補充真實觀感照片和住宿尺度判斷特別有用。",
+    "raw_excerpt_summary": "可用來交叉比對寶格麗度假村的客房、泳池、公共空間與整體懸崖奢華感是否符合預期。"
+  },
+  {
+    "source_id": "bvlgari-balifortwo-jeffrey-mag",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Bali For Two Jeffrey & Mag 在寶格麗度假村的真實婚禮",
+    "source_url": "https://balifortwo2.com/jeffrey-mags-wedding-at-bulgari-resort/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Real-wedding gallery from a Bali wedding planner; strong for visual validation, but not a contract source.",
+    "raw_excerpt_summary": "真實婚禮案例，能直接看寶格麗教堂、懸崖背景與賓客席次在實際婚禮佈置下的樣子。"
+  },
+  {
+    "source_id": "bvlgari-neverneverland-zh",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "platform_agency",
+    "source_name": "NeverNeverLand 寶格麗度假村婚禮中文頁",
+    "source_url": "https://neverneverlandinbali.com/wedding/18087-2/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Chinese wedding-agency page; useful for translated package framing and galleries, but direct confirmation is still required.",
+    "raw_excerpt_summary": "中文婚禮頁整理寶格麗教堂、Villa、Mansion 等形式，適合快速看場地選項與空間畫面。"
+  }
+]

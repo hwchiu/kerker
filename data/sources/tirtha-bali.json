@@ -1,0 +1,246 @@
+[
+  {
+    "source_id": "tirtha-bali-official-home",
+    "venue_id": "tirtha-bali",
+    "source_type": "official",
+    "source_name": "Tirtha 峇里島官方首頁",
+    "source_url": "https://tirtha.com/",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Official operator overview describing Tirtha Uluwatu and Glass House together.",
+    "raw_excerpt_summary": "確認 Tirtha Bali 在烏魯瓦圖經營兩個場所，Glass House 擁有三間臥室套房。"
+  },
+  {
+    "source_id": "tirtha-bali-official-contact",
+    "venue_id": "tirtha-bali",
+    "source_type": "official",
+    "source_name": "Tirtha 峇里島聯絡頁面",
+    "source_url": "https://tirtha.com/contact-us/",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "transport"
+    ],
+    "reliability_notes": "Official contact page with address and phone reference.",
+    "raw_excerpt_summary": "提供 Tirtha Bali 在 Pecatu、Jl. Uluwatu 的地址、地圖與聯絡方式。"
+  },
+  {
+    "source_id": "tirtha-bali-official-location",
+    "venue_id": "tirtha-bali",
+    "source_type": "official",
+    "source_name": "Tirtha 峇里島位置頁面",
+    "source_url": "https://tirtha.com/venues/our-location/",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "transport"
+    ],
+    "reliability_notes": "Best official transport source for airport timing and split-venue distance.",
+    "raw_excerpt_summary": "據稱，該場館距離機場約 45 分鐘路程，Glass House 距離 Tirtha Uluwatu 約 7 分鐘車程。"
+  },
+  {
+    "source_id": "tirtha-bali-official-venues",
+    "venue_id": "tirtha-bali",
+    "source_type": "official",
+    "source_name": "Tirtha Bali 場館概覽",
+    "source_url": "https://tirtha.com/venues/",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "Official overview of Tirtha Uluwatu and Glass House as a paired venue system.",
+    "raw_excerpt_summary": "將 Tirtha Uluwatu 描述為海景懸崖場地，將 Glass House 描述為帶套房的花園休憩場所。"
+  },
+  {
+    "source_id": "tirtha-bali-official-chapel",
+    "venue_id": "tirtha-bali",
+    "source_type": "official",
+    "source_name": "Tirtha 峇里島婚禮教堂頁面",
+    "source_url": "https://tirtha.com/venues/wedding-chapel/",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "Official chapel page used for indoor-ceremony and backup analysis.",
+    "raw_excerpt_summary": "展示了標誌性的玻璃教堂，並強化了 Tirtha 專門建造的儀式形象。"
+  },
+  {
+    "source_id": "tirtha-bali-official-glass-stage",
+    "venue_id": "tirtha-bali",
+    "source_type": "official",
+    "source_name": "Tirtha Bali 玻璃舞台頁面",
+    "source_url": "https://tirtha.com/venues/glass-stage/",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "rain_backup",
+      "photos"
+    ],
+    "reliability_notes": "Official page for the cliffside glass stage.",
+    "raw_excerpt_summary": "據稱，玻璃舞台最多可容納 150 位客人，如果天氣變化，可以移至室內的天堂室。"
+  },
+  {
+    "source_id": "tirtha-bali-official-glass-house",
+    "venue_id": "tirtha-bali",
+    "source_type": "official",
+    "source_name": "Tirtha 峇里島玻璃屋頁面",
+    "source_url": "https://tirtha.com/venues/glass-house/",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "accommodation",
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "Official page used for the villa-side venue, suites, and ceremony options.",
+    "raw_excerpt_summary": "確認玻璃屋佔地 3,000 平方米，將森林般的儀式和接待空間與三間套房融為一體。"
+  },
+  {
+    "source_id": "tirtha-bali-official-reception-only",
+    "venue_id": "tirtha-bali",
+    "source_type": "official",
+    "source_name": "Tirtha Bali 僅限接待頁面",
+    "source_url": "https://tirtha.com/wedding-package/reception-only/",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "rain_backup",
+      "restrictions"
+    ],
+    "reliability_notes": "Official source for dinner and combined-space capacity references.",
+    "raw_excerpt_summary": "列出月光花園可容納 150 人，地球加花園可容納約 300 人，以及其他面向接待的容量說明。"
+  },
+  {
+    "source_id": "tirtha-bali-myoverseaswedding",
+    "venue_id": "tirtha-bali",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 Tirtha Uluwatu",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/tirtha-uluwatu",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "restrictions"
+    ],
+    "reliability_notes": "Current third-party instant-quote platform; useful for public baseline pricing, but final venue terms must be confirmed direct.",
+    "raw_excerpt_summary": "顯示 30 位賓客的基本婚禮套餐價格為 11,300 美元，並將 Tirtha 定位為一體化婚禮目的地。"
+  },
+  {
+    "source_id": "tirtha-bali-balifortwo-eve",
+    "venue_id": "tirtha-bali",
+    "source_type": "platform_agency",
+    "source_name": "Tirtha Uluwatu Eve 方案頁",
+    "source_url": "https://balifortwo2.com/eve-at-tirtha-uluwatu-for-chapel-wedding-and-reception-at-glass-house-for-30-guests/",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "restrictions"
+    ],
+    "reliability_notes": "Third-party planner package used to estimate a combined chapel and Glass House event cost.",
+    "raw_excerpt_summary": "列出 Eve 套餐，30 位賓客價格為 14,496 美元，形式為教堂儀式加 Glass House 招待會。"
+  },
+  {
+    "source_id": "tirtha-bali-bridestory-uluwatu-gallery",
+    "venue_id": "tirtha-bali",
+    "source_type": "platform_agency",
+    "source_name": "烏魯瓦圖Tirtha新娘故事",
+    "source_url": "https://www.bridestory.com/tirtha-bali/projects/tirtha-uluwatu",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Venue project page used as a photo gallery source.",
+    "raw_excerpt_summary": "為標誌性的 Tirtha Uluwatu 玻璃教堂提供視覺參考。"
+  },
+  {
+    "source_id": "tirtha-bali-bridestory-glass-house-gallery",
+    "venue_id": "tirtha-bali",
+    "source_type": "platform_agency",
+    "source_name": "新娘故事玻璃屋婚禮",
+    "source_url": "https://www.bridestory.com/tirtha-bali/projects/the-glass-house-wedding",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful gallery source for the Glass House look and the bedroom-suite context.",
+    "raw_excerpt_summary": "將玻璃屋概念展示為一顆隱藏的寶石，擁有三間套房和花園風格。"
+  },
+  {
+    "source_id": "tirtha-bali-bridestory-real-wedding",
+    "venue_id": "tirtha-bali",
+    "source_type": "platform_agency",
+    "source_name": "凱莉和奧利佛的新娘故事真實婚禮",
+    "source_url": "https://www.bridestory.com/tirtha-bali/projects/real-wedding-of-kelly-and-oliver",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Real-wedding reference useful for seeing how Tirtha photographs in practice rather than only promo imagery.",
+    "raw_excerpt_summary": "以烏魯瓦圖懸崖為背景的真實婚禮故事，採用 Tirtha 標誌性的儀式造型。"
+  },
+  {
+    "source_id": "tirtha-bali-balifortwo-mariko-johnathon",
+    "venue_id": "tirtha-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Bali For Two Mariko & Johnathon 在 Tirtha 的真實婚禮",
+    "source_url": "https://balifortwo2.com/mariko-johnathons-wedding-at-tirtha-chapel-and-glass-house/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Real-wedding planner feature; useful for judging actual ceremony-to-reception flow.",
+    "raw_excerpt_summary": "真實婚禮案例，直接看教堂到 Glass House 的接續感、花藝與夜間晚宴氛圍。"
+  },
+  {
+    "source_id": "tirtha-bali-neverneverland-zh",
+    "venue_id": "tirtha-bali",
+    "source_type": "platform_agency",
+    "source_name": "NeverNeverLand Tirtha Bali 婚禮中文頁",
+    "source_url": "https://neverneverlandinbali.com/wedding/17451-2/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Chinese wedding-agency page; useful for translated venue framing and image references.",
+    "raw_excerpt_summary": "中文婚禮頁介紹 Tirtha 三個懸崖場地與日式調性，並附大量場地與方案圖片。"
+  }
+]

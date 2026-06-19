@@ -1,0 +1,190 @@
+[
+  {
+    "photo_entry_id": "hanging-gardens-photo-weddings-official",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_id": "hanging-gardens-official-weddings",
+    "page_url": "https://www.hanginggardensofbali.com/weddings",
+    "image_url_or_gallery_url": "https://www.hanginggardensofbali.com/weddings",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "water-platform",
+      "jungle-view",
+      "floral-setup"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "度假村叢林婚禮氛圍的最佳官方切入點。"
+  },
+  {
+    "photo_entry_id": "hanging-gardens-photo-hidden-palace-official",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_id": "hanging-gardens-official-hidden-palace",
+    "page_url": "https://www.hanginggardensofbali.com/hidden-palace",
+    "image_url_or_gallery_url": "https://www.hanginggardensofbali.com/hidden-palace",
+    "image_type": "official_hotel_gallery",
+    "scene_tags": [
+      "public-area",
+      "jungle-view",
+      "arrival-flow"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "對於判斷買斷感覺、抵達體驗和私人莊園情緒很有用。"
+  },
+  {
+    "photo_entry_id": "hanging-gardens-photo-hidden-palace-estate",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_id": "hanging-gardens-official-hidden-palace-estate",
+    "page_url": "https://hanginggardensofbali.com/suites-villas/5-bedroom-full-private-estate",
+    "image_url_or_gallery_url": "https://hanginggardensofbali.com/suites-villas/5-bedroom-full-private-estate",
+    "image_type": "official_hotel_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "rain-backup-space"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "這是了解天氣變化時房地產活動可以在室內撤退的高價值來源。"
+  },
+  {
+    "photo_entry_id": "hanging-gardens-photo-suites-official",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_id": "hanging-gardens-official-suites",
+    "page_url": "https://hanginggardensofbali.com/suites-villas",
+    "image_url_or_gallery_url": "https://hanginggardensofbali.com/suites-villas",
+    "image_type": "official_hotel_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "arrival-flow"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "對於整個主要度假村（而不僅僅是隱藏宮殿）的客人入住期望很有用。"
+  },
+  {
+    "photo_entry_id": "hanging-gardens-photo-pool-bridestory",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_id": "hanging-gardens-bridestory-pool-project",
+    "page_url": "https://www.bridestory.com/hanging-gardens-of-bali/projects/wedding-ceremony-at-the-two-tiered-cascading-pool",
+    "image_url_or_gallery_url": "https://www.bridestory.com/hanging-gardens-of-bali/projects/wedding-ceremony-at-the-two-tiered-cascading-pool",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "water-platform",
+      "guest-seating",
+      "jungle-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "顯示出人們通常所說的空中花園婚禮時所指的確切視覺效果。"
+  },
+  {
+    "photo_entry_id": "hanging-gardens-photo-infinity-lounge",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_id": "hanging-gardens-bridestory-infinity-lounge",
+    "page_url": "https://www.bridestory.com/hanging-gardens-of-bali/projects/blessing-ceremony-at-infinity-lounge",
+    "image_url_or_gallery_url": "https://www.bridestory.com/hanging-gardens-of-bali/projects/blessing-ceremony-at-infinity-lounge",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "jungle-view",
+      "guest-seating",
+      "floral-setup"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "對於不拘泥於撞球舞台概念的情侶來說，這是很好的二次儀式參考。"
+  },
+  {
+    "photo_entry_id": "hanging-gardens-photo-hidden-palace-bridestory",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_id": "hanging-gardens-bridestory-hidden-palace",
+    "page_url": "https://www.bridestory.com/hanging-gardens-of-bali/projects/hidden-palace",
+    "image_url_or_gallery_url": "https://www.bridestory.com/hanging-gardens-of-bali/projects/hidden-palace",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "public-area",
+      "jungle-view",
+      "room"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "隱宮買斷美學是否符合這對夫婦的品味的有力參考。"
+  },
+  {
+    "photo_entry_id": "hanging-gardens-photo-hidden-palace-wedding",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_id": "hanging-gardens-bridestory-hidden-palace-wedding",
+    "page_url": "https://www.bridestory.com/hanging-gardens-of-bali/projects/wedding-at-the-hidden-palace",
+    "image_url_or_gallery_url": "https://www.bridestory.com/hanging-gardens-of-bali/projects/wedding-at-the-hidden-palace",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "garden-reception",
+      "night-view",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "對於莊園婚宴造型和夜間氣氛很有用。"
+  },
+  {
+    "photo_entry_id": "hanging-gardens-photo-tripcom-hk",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_id": "hanging-gardens-tripcom-hk-hotel",
+    "page_url": "https://hk.trip.com/hotels/bali-hotel-detail-992131/hanging-gardens-of-bali?locale=en-HK",
+    "image_url_or_gallery_url": "https://hk.trip.com/hotels/bali-hotel-detail-992131/hanging-gardens-of-bali?locale=en-HK",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "jungle-view"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "中文平台圖集能補看空中花園客房、雙層泳池與山谷景觀，幫助判斷叢林婚禮住宿體驗是否夠強。"
+  },
+  {
+    "photo_entry_id": "hanging-gardens-photo-ctrip-hotel",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_id": "hanging-gardens-ctrip-hotel",
+    "page_url": "https://hotels.ctrip.com/hotels/992131.html",
+    "image_url_or_gallery_url": "https://hotels.ctrip.com/hotels/992131.html",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "arrival-flow"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "攜程頁面可補強房型、動線與公共區域實拍，讓空中花園不只剩官方叢林宣傳感。"
+  },
+  {
+    "photo_entry_id": "hanging-gardens-of-bali-balifortwo-hidden-palace",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_id": "hanging-gardens-of-bali-balifortwo-hidden-palace",
+    "page_url": "https://www.balifortwo.com/ubud-wedding/hanging-gardens",
+    "image_url_or_gallery_url": "https://www.balifortwo.com/ubud-wedding/hanging-gardens",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "jungle-view",
+      "garden-reception",
+      "public-area",
+      "room"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "補足空中花園 / Hidden Palace 的叢林婚禮與住宿氛圍照片，便於對比南部懸崖場地。"
+  }
+]

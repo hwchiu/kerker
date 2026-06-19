@@ -1,0 +1,241 @@
+[
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-official-weddings",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-official-weddings",
+    "page_url": "https://www.fourseasons.com/jimbaranbay/weddings/",
+    "image_url_or_gallery_url": "https://www.fourseasons.com/jimbaranbay/weddings/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "water-platform",
+      "beach-ceremony",
+      "floral-setup"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "金巴蘭儀式氣氛和品牌級婚禮造型的最佳官方起點。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-official-venues",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-official-venues",
+    "page_url": "https://www.fourseasons.com/jimbaranbay/weddings/venues/",
+    "image_url_or_gallery_url": "https://www.fourseasons.com/jimbaranbay/weddings/venues/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "water-platform",
+      "beach-ceremony",
+      "garden-reception",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "最有用的官方頁面，用於了解水域、海灘、草坪和晚餐空間之間的差異。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-official-gallery",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-official-gallery",
+    "page_url": "https://www.fourseasons.com/jimbaranbay/gallery/",
+    "image_url_or_gallery_url": "https://www.fourseasons.com/jimbaranbay/gallery/",
+    "image_type": "official_hotel_gallery",
+    "scene_tags": [
+      "public-area",
+      "night-view",
+      "arrival-flow"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "對整體氛圍、到達、日落公共區域有良好的配套覆蓋。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-official-accommodations",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-official-accommodations",
+    "page_url": "https://www.fourseasons.com/jimbaranbay/accommodations/",
+    "image_url_or_gallery_url": "https://www.fourseasons.com/jimbaranbay/accommodations/",
+    "image_type": "official_hotel_gallery",
+    "scene_tags": [
+      "room",
+      "public-area"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "有助於檢查別墅住宿風格是否符合您想要為客人舉辦的婚禮基調。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-myoverseas-overview",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-myoverseas-overview",
+    "page_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-jimbaran-bay",
+    "image_url_or_gallery_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-jimbaran-bay",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "water-platform",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "很好的交叉檢查，因為它在婚禮策劃環境中而不是在酒店行銷環境中重新組織了場地視覺效果。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-myoverseas-ceremony",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-myoverseas-ceremony",
+    "page_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-jimbaran-bay/ceremony-venues",
+    "image_url_or_gallery_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-jimbaran-bay/ceremony-venues",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "water-platform",
+      "beach-ceremony",
+      "floral-setup"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "對於比較儀式地點如何改變同一度假村的整體感覺非常有用。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-myoverseas-reception",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-myoverseas-reception",
+    "page_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-jimbaran-bay/reception-venues",
+    "image_url_or_gallery_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/four-seasons-resort-bali-at-jimbaran-bay/reception-venues",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "garden-reception",
+      "night-view",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "無論您喜歡 Sundara 風格的餐飲還是更大的海灘和草坪招待會，都是最佳的快速視覺參考。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-bridestory-venue",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-bridestory-venue",
+    "page_url": "https://www.bridestory.com/four-seasons-resort-bali-jimbaran-bay",
+    "image_url_or_gallery_url": "https://www.bridestory.com/four-seasons-resort-bali-jimbaran-bay",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "water-platform",
+      "beach-ceremony",
+      "garden-reception"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "為同一場館系列增加另一個面向規劃者的畫廊角度。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-bridestory-resort-overview",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-bridestory-resort-overview",
+    "page_url": "https://www.bridestory.com/four-seasons-resort-bali-jimbaran-bay/projects/resort-overview1485225895",
+    "image_url_or_gallery_url": "https://www.bridestory.com/four-seasons-resort-bali-jimbaran-bay/projects/resort-overview1485225895",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "arrival-flow"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "為賓客體驗的非儀式部分提供有用的額外圖像集。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-official-zh-resort",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-official-zh-resort",
+    "page_url": "https://www.fourseasons.com/zh/jimbaranbay/",
+    "image_url_or_gallery_url": "https://www.fourseasons.com/zh/jimbaranbay/",
+    "image_type": "official_hotel_gallery",
+    "scene_tags": [
+      "public-area",
+      "arrival-flow",
+      "room"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "有用的中文官方圖集，了解別墅氛圍、公共區域和抵達感覺。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-tripcom-hk",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-tripcom-hk-hotel",
+    "page_url": "https://hk.trip.com/hotels/bali-hotel-detail-1477039/four-seasons-resort-bali-at-jimbaran-bay/",
+    "image_url_or_gallery_url": "https://hk.trip.com/hotels/bali-hotel-detail-1477039/four-seasons-resort-bali-at-jimbaran-bay/",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "night-view"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "有用的中文飯店畫廊，介紹客房、公共區域和整體度假村氛圍。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-tripadvisor-tw",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-tripadvisor-tw-hotel",
+    "page_url": "https://www.tripadvisor.com.tw/Hotel_Review-g297696-d307571-Reviews-Four_Seasons_Resort_Bali_at_Jimbaran_Bay-Jimbaran_South_Kuta_Bali.html",
+    "image_url_or_gallery_url": "https://www.tripadvisor.com.tw/Hotel_Review-g297696-d307571-Reviews-Four_Seasons_Resort_Bali_at_Jimbaran_Bay-Jimbaran_South_Kuta_Bali.html",
+    "image_type": "social_post",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "arrival-flow"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "大型旅行者照片庫可用於檢查金巴蘭在精美的宣傳圖片之外的外觀。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-hmdays",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-hmdays-chinese-wedding",
+    "page_url": "https://m.hmdays.com/wedding/bali/bfourseason",
+    "image_url_or_gallery_url": "https://m.hmdays.com/wedding/bali/bfourseason",
+    "image_type": "blog_feature",
+    "scene_tags": [
+      "water-platform",
+      "beach-ceremony",
+      "floral-setup"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "有用的中文婚禮功能，可快速比較金巴蘭的水道和海灘風格。"
+  },
+  {
+    "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-neverneverland-zh",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-neverneverland-zh",
+    "page_url": "https://neverneverlandinbali.com/wedding/17693-2/",
+    "image_url_or_gallery_url": "https://neverneverlandinbali.com/wedding/17693-2/",
+    "image_type": "blog_feature",
+    "scene_tags": [
+      "water-platform",
+      "beach-ceremony",
+      "garden-reception",
+      "room"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "中文頁補足金巴蘭四季的水上儀式、Sundara 與別墅住宿畫面。"
+  }
+]

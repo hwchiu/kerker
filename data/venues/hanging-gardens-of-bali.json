@@ -1,0 +1,137 @@
+{
+  "id": "hanging-gardens-of-bali",
+  "name_zh": "峇里島空中花園",
+  "name_en_official": "Hanging Gardens of Bali",
+  "brand_or_group": "Hanging Gardens of Bali",
+  "venue_operator_type": "resort",
+  "is_standalone": false,
+  "region": "Payangan",
+  "subarea": "Buahan",
+  "official_website": "https://hanginggardensofbali.com/",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Hanging+Gardens+of+Bali+Buahan+Payangan",
+  "address_text": "Br. Susut, Desa Buahan, Payangan, Gianyar, Bali, Indonesia",
+  "venue_types": [
+    "jungle",
+    "water-platform",
+    "villa-buyout",
+    "garden"
+  ],
+  "primary_visual_identity": "標誌性的叢林度假村圍繞著浮動泳池舞台儀式和隱藏宮殿私人莊園而建。",
+  "ceremony_space_types": [
+    "floating-pool-stage",
+    "jungle-lounge",
+    "private-estate",
+    "temple-view-terrace"
+  ],
+  "reception_space_types": [
+    "poolside-dinner",
+    "private-estate",
+    "restaurant-terrace",
+    "jungle-lounge"
+  ],
+  "supports_ceremony_only": true,
+  "supports_ceremony_and_dinner": true,
+  "supports_buyout": true,
+  "supports_micro_wedding": true,
+  "guest_capacity_ceremony_min": 2,
+  "guest_capacity_ceremony_max": 100,
+  "guest_capacity_dinner_min": 10,
+  "guest_capacity_dinner_max": 100,
+  "recommended_guest_size_band": "21-50",
+  "pricing_status": "public_price_available",
+  "price_entries": [
+    {
+      "label": "婚禮及招待晚宴套餐",
+      "currency": "IDR",
+      "amount_min": 166250000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": true,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "公共 Bridestory 商店清單可容納 30 名至 50 名客人；直接與度假村確認稅費、服務和當前的包含表。",
+      "confidence": "medium"
+    }
+  ],
+  "price_summary_text": "公共套餐可見度存在，但仍主要以印尼盾和套餐為主導：目前的 Bridestory 店面展示儀式和招待晚宴，價格為 166,250,000 印尼盾，可供 30 名至 50 名客人使用，還提供最多可容納 100 名客人的隱藏宮殿套餐。",
+  "price_risk_level": "high",
+  "rain_backup_status": "medium",
+  "has_indoor_backup": true,
+  "has_covered_backup": true,
+  "backup_space_description": "室內度假村和私人莊園的室內設計是存在的，但主要的泳池舞台和叢林儀式視覺效果仍然是室外的。",
+  "backup_quality_notes": "該場館確實有室內庇護所選項，但與擁有專用室內教堂或溫室的度假村相比，後備設施的專用性較差，視覺效果也較差。",
+  "weather_exposure_notes": "浮動泳池舞台、叢林露台和莊園戶外空間暴露在雨水、潮濕和濕滑的環境中。",
+  "airport_drive_time_minutes_estimate": 90,
+  "transport_notes": "目前大多數旅遊清單顯示，空中花園距離峇里島機場約 90 分鐘路程，距離烏布鎮約 30 分鐘路程；度假村還提供 VIP 機場接送服務，並使用纜車式的內部交通。",
+  "traffic_risk_level": "medium",
+  "onsite_accommodation_available": true,
+  "onsite_room_inventory_notes": "度假村以別墅為主，Hidden Palace 增設了五間套房的私人莊園，最多可容納 13 位入住客人。",
+  "nearby_accommodation_notes": "可以在烏布和帕艷甘周圍放置班車，但這會明顯延長婚禮時間並削弱一次性撤退的感覺。",
+  "accommodation_fit": "one_stop",
+  "guest_mobility_notes": "叢林地形需要樓梯和纜車通道，因此與平坦的懸崖度假村或綜合宴會廳酒店相比，它不太適合老年人。",
+  "restriction_level": "medium",
+  "noise_cutoff_notes": "確認當前的晚餐和放大的音樂截止；該場所的優勢在於浪漫的叢林用餐，而不是深夜派對的規模。",
+  "external_vendor_policy": "儘早確認外部規劃師、花店、生產和樂隊訪問，因為偏遠叢林的交付和設置限制可能會影響供應商的選擇。",
+  "minimum_stay_requirement_notes": "顯然，沒有明確規定一攬子最低入住天數，但隱密宮殿式的婚禮應確認是否必須強制購買地產過夜。",
+  "minimum_spend_notes": "公開定價是套餐主導的，而不是僅場地租賃的，因此請根據您的確切客人數量索取詳細的食物、飲料和最低設置。",
+  "drone_policy_notes": "在進行空中覆蓋之前，請確認當前無人機可以進入主泳池、寺廟景觀走廊和茂密的叢林樹冠周圍。",
+  "family_child_notes": "非常適合成人為主的私人婚禮，但有小孩或老人的家庭應仔細檢查樓梯、濕度和較長的轉移時間。",
+  "religious_or_space_use_notes": "該場地擅長舉辦象徵性、誓言更新和親密的慶祝活動；合法的儀式程序和任何與寺廟相鄰的敏感問題都應直接確認。",
+  "operational_constraints_notes": "偏遠的叢林通道、海拔變化以及對室外水和叢林空間的依賴，使得這裡的好天氣計劃比平坦的峇里島度假村更重要。",
+  "style_tags": [
+    "jungle",
+    "floating-stage",
+    "private-estate",
+    "romantic",
+    "retreat"
+  ],
+  "price_band_normalized": null,
+  "best_for": [
+    "想要明顯的叢林和水域視覺效果而不是標準教堂的情侶",
+    "具有強大靜修能量的私人至中型目的地婚禮",
+    "可以使用隱宮作為私人莊園的買斷式慶祝活動"
+  ],
+  "not_ideal_for": [
+    "大型老年客人群體，需要平坦的移動和簡單的物流",
+    "想要最強防風雨婚禮流程的情侶",
+    "想要最短機場接送服務的客人"
+  ],
+  "key_strengths": [
+    "峇里島最具特色的叢林婚禮背景之一",
+    "撞球舞台和隱藏宮殿的照片價值非常高",
+    "別墅式度假村的感覺非常適合沉浸式的親密住宿"
+  ],
+  "key_risks": [
+    "從機場長途接送",
+    "天氣和地形比平坦的懸崖度假村更重要",
+    "公開定價仍主要以一攬子計劃為主導，並以 IDR 為基礎"
+  ],
+  "data_completeness": "comparable_core_complete",
+  "research_status": "deep_research_complete",
+  "last_verified_at": "2026-06-18",
+  "data_freshness": "recent",
+  "open_questions": [
+    "確認目前泳池舞台儀式和晚宴佈置的室內防雨計畫流程。",
+    "確認舉辦 30 至 50 人的婚禮時，現場實際上可預留多少間客房。",
+    "確認隱藏宮殿婚禮是否需要多晚地產買斷以及當前的合理限制是多少。"
+  ],
+  "source_ids": [
+    "hanging-gardens-official-weddings",
+    "hanging-gardens-official-vip",
+    "hanging-gardens-official-hidden-palace",
+    "hanging-gardens-official-hidden-palace-estate",
+    "hanging-gardens-official-suites",
+    "hanging-gardens-official-contact",
+    "hanging-gardens-bridestory-venue",
+    "hanging-gardens-bridestory-package",
+    "hanging-gardens-bridestory-pool-project",
+    "hanging-gardens-bridestory-infinity-lounge",
+    "hanging-gardens-bridestory-hidden-palace",
+    "hanging-gardens-bridestory-hidden-palace-wedding",
+    "hanging-gardens-tripcom-hk-hotel",
+    "hanging-gardens-ctrip-hotel",
+    "hanging-gardens-of-bali-balifortwo-hidden-palace"
+  ],
+  "photo_index_id": "hanging-gardens-of-bali"
+}

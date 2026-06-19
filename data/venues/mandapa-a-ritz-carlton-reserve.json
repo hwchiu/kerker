@@ -1,0 +1,149 @@
+{
+  "id": "mandapa-a-ritz-carlton-reserve",
+  "name_zh": "曼達帕麗思卡爾頓隱世酒店",
+  "name_en_official": "Mandapa, a Ritz-Carlton Reserve",
+  "brand_or_group": "Ritz-Carlton Reserve / Marriott",
+  "venue_operator_type": "resort",
+  "is_standalone": false,
+  "region": "Ubud",
+  "subarea": "Kedewatan",
+  "official_website": "https://www.ritzcarlton.com/en/hotels/dpsub-mandapa-a-ritz-carlton-reserve/overview/",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Mandapa+a+Ritz-Carlton+Reserve",
+  "address_text": "Raya Kedewatan, Banjar Kedewatan, Ubud, Gianyar, Bali 80571, Indonesia",
+  "venue_types": [
+    "jungle",
+    "garden",
+    "lawn",
+    "villa-buyout"
+  ],
+  "primary_visual_identity": "烏布河谷麗思卡爾頓保護區以寺廟為背景的草坪、阿勇河畔儀式、水稻梯田景觀以及以私人別墅為主導的慶祝活動。",
+  "ceremony_space_types": [
+    "temple-lawn",
+    "riverside-lawn",
+    "rice-terrace",
+    "reserve-villa"
+  ],
+  "reception_space_types": [
+    "temple-lawn",
+    "riverside-lawn",
+    "private-villa-dining",
+    "wantilan-lawn"
+  ],
+  "supports_ceremony_only": true,
+  "supports_ceremony_and_dinner": true,
+  "supports_buyout": true,
+  "supports_micro_wedding": true,
+  "guest_capacity_ceremony_min": 2,
+  "guest_capacity_ceremony_max": 120,
+  "guest_capacity_dinner_min": 2,
+  "guest_capacity_dinner_max": 120,
+  "recommended_guest_size_band": "21-50",
+  "pricing_status": "public_price_available",
+  "price_entries": [
+    {
+      "label": "30 位賓客的基本婚禮套餐",
+      "currency": "USD",
+      "amount_min": 10900,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": true,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "目前「我的海外婚禮」在曼達帕舉辦的招待會以 30 位賓客為主導；直接簽約應確認當前的稅收、服務和特定場地條件。",
+      "confidence": "medium"
+    },
+    {
+      "label": "30 位賓客的基本婚禮套餐",
+      "currency": "USD",
+      "amount_min": 11100,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": true,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "目前「我的海外婚禮」概覽基準為 30 位賓客；與較低的接收引導入口點進行比較很有用。",
+      "confidence": "medium"
+    }
+  ],
+  "price_summary_text": "Mandapa 目前顯示的公共起點價格約為 10,900 美元至 11,100 美元，可容納 30 位客人，具體取決於頁面路徑和場地組合，這使其接近高級豪華而不是超豪華的峇里島南部懸崖度假村。",
+  "price_risk_level": "low",
+  "rain_backup_status": "medium",
+  "has_indoor_backup": true,
+  "has_covered_backup": true,
+  "backup_space_description": "曼達帕似乎依賴有頂棚的涼亭、別墅內部和精選的有遮蔽的用餐區，而不是專門的教堂或宴會廳。",
+  "backup_quality_notes": "它比簡單的開放草坪更能適應天氣變化，但情侶不應該像在有宴會廳的豪華度假村那樣假設視覺上等效的降雨計劃。",
+  "weather_exposure_notes": "河流濕度、烏布雨水和陡峭的地形都是這裡氣氛的一部分，這也意味著潮濕天氣的執行力比平坦的海灘度假村更重要。",
+  "airport_drive_time_minutes_estimate": 75,
+  "transport_notes": "中國的旅遊清單將曼達帕置於烏布 Kedewatan 深處，距離機場約 39 公里，因此現實世界中的車程通常超過一個小時。",
+  "traffic_risk_level": "high",
+  "onsite_accommodation_available": true,
+  "onsite_room_inventory_notes": "中國官方和旅遊頁面一致提到有 35 間套房和 25 間私人泳池別墅，這對於保護區式酒店來說已經足夠了，但與大型度假村相比仍然有限。",
+  "nearby_accommodation_notes": "烏布庫存充足，但酒店外的客人需要製定班車計劃並安排更保守的婚禮當天時間。",
+  "accommodation_fit": "workable_with_shuttles",
+  "guest_mobility_notes": "曼達帕的河谷、稻田台階和分層的鄉村風格佈局使其美麗，但與平坦的努沙杜瓦度假村相比，對於老年客人來說不那麼輕鬆。",
+  "restriction_level": "medium",
+  "noise_cutoff_notes": "確認當前的戶外音樂和晚餐結束規則，因為靜修氛圍更適合優雅的慶祝活動，而不是非常晚的放大派對。",
+  "external_vendor_policy": "曼達帕是一個精心策劃的保護區，因此請儘早確認外部規劃師、花藝團隊、燈光人員、音樂家和無人機操作員的現行規則。",
+  "minimum_stay_requirement_notes": "私人別墅或保護區風格的形式可能具有與草坪活動不同的住宿邏輯，因此只有在住宿假設明確後才能比較曼達帕。",
+  "minimum_spend_notes": "Temple Garden、Ayung Riverside、Wantilan 和以別墅為主導的業態在容量和支出方面表現截然不同，因此請要求按地點進行細分，而不是單一的標題報價。",
+  "drone_policy_notes": "考慮到河谷、遊客隱私以及保護區以健康為導向的運作風格，無人機進入應預先獲得批准。",
+  "family_child_notes": "非常適合想要真正烏布靜修的小型多日家庭團體，但年幼的孩子和祖父母需要更密切的活動和時間規劃。",
+  "religious_or_space_use_notes": "曼達帕的寺廟鄰近和河谷空間特別適合舉辦象徵性和文化層次的儀式，但應直接確認法律和信仰的特定要求。",
+  "operational_constraints_notes": "曼達帕並不是想成為一個巨大的婚禮機器；而是想成為一個巨大的婚禮機器。其價值在於隱私、氛圍和烏布特色，這意味著容量、天氣計劃和客人移動都需要現實的協調。",
+  "style_tags": [
+    "jungle-retreat",
+    "riverside",
+    "temple-lawn",
+    "reserve-villa",
+    "wellness-luxury",
+    "ubud"
+  ],
+  "price_band_normalized": null,
+  "best_for": [
+    "想要一場深入烏布、叢林和河流婚禮的情侶",
+    "隱私和氣氛比規模更重要的私人目的地婚禮",
+    "想要以別墅為主導的奢華體驗，且比標準五星級飯店更具深情的保留感的團體"
+  ],
+  "not_ideal_for": [
+    "需要舞廳級雨險的大型婚禮",
+    "需要最快到達機場和最簡單交通的客人",
+    "想要海灘、教堂或經典的峇里島南部奢華氛圍的情侶"
+  ],
+  "key_strengths": [
+    "峇里島最強大的河谷奢華品牌之一",
+    "中文旅遊報道豐富，有助於客房及賓客體驗研究",
+    "寺廟花園和河濱格式給人一種獨特的感覺，而不是可以互換的"
+  ],
+  "key_risks": [
+    "機場接送和烏布交通比金巴蘭或努沙杜瓦嚴重得多",
+    "天氣、階梯和地形對執行力的影響比在平坦的場地更大",
+    "對於預訂來說，房間庫存充足，但不足以容納每個大型婚禮賓客團體"
+  ],
+  "data_completeness": "comparable_core_complete",
+  "research_status": "needs_price_followup",
+  "last_verified_at": "2026-06-19",
+  "data_freshness": "recent",
+  "open_questions": [
+    "確認Temple Garden、Ayung Riverside 和Wantilan 活動目前的降雨計劃流程​​。",
+    "確認目前的外部供應商、開瓶費和無人機政策。",
+    "確認哪些當前套餐需要預訂別墅或間夜承諾。"
+  ],
+  "source_ids": [
+    "mandapa-a-ritz-carlton-reserve-official-zh-overview",
+    "mandapa-a-ritz-carlton-reserve-official-zh-weddings",
+    "mandapa-a-ritz-carlton-reserve-tripcom-hk-hotel",
+    "mandapa-a-ritz-carlton-reserve-ctrip-hotel",
+    "mandapa-a-ritz-carlton-reserve-tripadvisor-tw-hotel",
+    "mandapa-a-ritz-carlton-reserve-tripadvisor-cn-hotel",
+    "mandapa-a-ritz-carlton-reserve-myoverseas-overview",
+    "mandapa-a-ritz-carlton-reserve-myoverseas-ceremony",
+    "mandapa-a-ritz-carlton-reserve-myoverseas-reception",
+    "mandapa-a-ritz-carlton-reserve-bridestory-venue",
+    "mandapa-a-ritz-carlton-reserve-bridestory-resort-overview",
+    "mandapa-a-ritz-carlton-reserve-bridestory-real-wedding",
+    "mandapa-a-ritz-carlton-reserve-neverneverland-zh-hotel"
+  ],
+  "photo_index_id": "mandapa-a-ritz-carlton-reserve"
+}

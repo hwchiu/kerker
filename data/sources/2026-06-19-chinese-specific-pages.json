@@ -1,0 +1,300 @@
+[
+  {
+    "source_id": "the-ritz-carlton-bali-weddings-com-tw-zh",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "platform_agency",
+    "source_name": "閣樓婚禮顧問 Ritz-Carlton Bali 中文場地頁",
+    "source_url": "https://www.weddings.com.tw/the-ritz-carlton-bali-overseas-wedding-bali/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "transport",
+      "accommodation"
+    ],
+    "reliability_notes": "台灣婚顧的中文場地頁，適合快速理解場地定位、住宿與交通脈絡，但不是飯店官方營運規範來源。",
+    "raw_excerpt_summary": "中文場地頁強調努沙杜瓦白沙灘、懸崖地形與 Majestic Chapel 的純白海邊教堂感，適合拿來比對海邊教堂婚禮定位。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-sweetday-majestic-zh",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "platform_agency",
+    "source_name": "Sweetday 麗池卡爾登 Majestic Chapel 中文頁",
+    "source_url": "https://sweetday.com.tw/wedding/%E5%B7%B4%E9%87%8C%E5%B3%B6%E9%BA%97%E6%B1%A0%E5%8D%A1%E7%88%BE%E7%99%BB%E9%85%92%E5%BA%97%E6%95%99%E5%A0%82%E5%A9%9A%E7%A6%AE-the-ritz-carlton-bali-majestic-chapel/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "restrictions"
+    ],
+    "reliability_notes": "台灣婚顧的中文套裝頁，對理解教堂視覺與包套玩法很有用，但實際檔期、流程與加價項目仍需再向場地方確認。",
+    "raw_excerpt_summary": "頁面主打 Majestic Chapel 面海白沙灘視角，並列出可延伸到夕陽時段的中文攝錄包套內容。"
+  },
+  {
+    "source_id": "bvlgari-resort-bali-weddings-com-tw-portfolio-zh",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "閣樓婚禮顧問 Bvlgari Resort Bali 婚禮實錄",
+    "source_url": "https://www.weddings.com.tw/portfolio/bali-wedding-bvlgari-resort-bali/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "台灣婚顧婚禮實錄頁，雖非飯店官方，但比純場地介紹更接近實際婚禮落地成果。",
+    "raw_excerpt_summary": "婚禮實錄聚焦寶格麗懸崖私密證婚與柔粉晚宴佈置，適合看高奢場地在真實婚禮中的完成度。"
+  },
+  {
+    "source_id": "bvlgari-resort-bali-sweetday-resort-zh",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "platform_agency",
+    "source_name": "Sweetday 寶格麗度假村中文頁",
+    "source_url": "https://sweetday.com.tw/wedding/%E5%B7%B4%E9%87%8C%E5%B3%B6%E5%AF%B6%E6%A0%BC%E9%BA%97bvlgari-hotel-bali%E6%B8%A1%E5%81%87%E6%9D%91/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "台灣婚顧的中文介紹頁，對理解寶格麗的住宿整合與懸崖位置很有幫助，但非官方合約條款來源。",
+    "raw_excerpt_summary": "中文頁集中介紹寶格麗 59 間別墅、懸崖海岸線與義式奢華住宿氛圍，對評估住宿整合型婚禮很有參考價值。"
+  },
+  {
+    "source_id": "bvlgari-resort-bali-sweetday-water-zh",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "platform_agency",
+    "source_name": "Sweetday 寶格麗水上婚禮中文頁",
+    "source_url": "https://sweetday.com.tw/wedding/%E5%B7%B4%E9%87%8C%E5%B3%B6%E5%AF%B6%E6%A0%BC%E9%BA%97%E6%B0%B4%E4%B8%8A%E5%A9%9A%E7%A6%AE-bvlgari-water-wedding/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "restrictions"
+    ],
+    "reliability_notes": "台灣婚顧的水上婚禮介紹頁，適合補充寶格麗水上儀式玩法，但實際場地限制與備案仍需二次確認。",
+    "raw_excerpt_summary": "頁面聚焦寶格麗透明水上儀式台與印度洋前方的水上證婚體驗，可補水上平台玩法。"
+  },
+  {
+    "source_id": "ayana-bali-weddings-com-tw-zh",
+    "venue_id": "ayana-bali",
+    "source_type": "platform_agency",
+    "source_name": "閣樓婚禮顧問 AYANA Resort 婚禮全攻略",
+    "source_url": "https://www.weddings.com.tw/ayana-resort-%E5%A9%9A%E7%A6%AE%E5%85%A8%E6%94%BB%E7%95%A5/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "台灣婚顧的中文全攻略頁，對理解 AYANA 的費用規劃與賓客安排很有用，但不是官方報價或合約條款。",
+    "raw_excerpt_summary": "完整攻略整理 AYANA 的婚禮場地、費用規劃、儀式空間、新娘房與賓客安排，是中文決策角度很完整的一頁。"
+  },
+  {
+    "source_id": "ayana-bali-sweetday-tresna-zh",
+    "venue_id": "ayana-bali",
+    "source_type": "platform_agency",
+    "source_name": "Sweetday AYANA Tresna Chapel 中文頁",
+    "source_url": "https://sweetday.com.tw/wedding/%E5%B7%B4%E9%87%8C%E5%B3%B6%E9%98%BF%E9%9B%85%E5%A8%9C%E7%88%B5%E5%A3%AB%E5%A8%9C%E6%95%99%E5%A0%82-ayana-tresna-chapel-wedding/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "restrictions"
+    ],
+    "reliability_notes": "台灣婚顧的中文場地頁，對比 Tresna 與 Astina 的風格差異很有幫助，但操作細節仍需與 AYANA 最終確認。",
+    "raw_excerpt_summary": "介紹 Tresna 與 Astina 的氣質差異，強調綠玻璃教堂、海景草坪與馬車進場。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-weddings-com-tw-zh",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "platform_agency",
+    "source_name": "閣樓婚禮顧問 Alila Villas Uluwatu 中文攻略",
+    "source_url": "https://www.weddings.com.tw/alila-villas-uluwatu%E5%B3%87%E9%87%8C%E5%B3%B6%E6%87%B8%E5%B4%96%E5%A9%9A%E7%A6%AE/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport",
+      "rain_backup"
+    ],
+    "reliability_notes": "台灣婚顧的中文場地攻略，對理解 Alila 的房型、賓客接待與天氣建議很有幫助，但不是官方營運規範來源。",
+    "raw_excerpt_summary": "完整解析 Alila 的儀式空間、房型、接待細節與天氣建議，適合評估懸崖婚禮與住宿搭配。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-sweetday-water-zh",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "platform_agency",
+    "source_name": "Sweetday Alila 水上婚禮中文頁",
+    "source_url": "https://sweetday.com.tw/wedding/%E5%B7%B4%E5%8E%98%E5%B3%B6%E9%98%BF%E9%BA%97%E6%8B%89%E6%87%B8%E5%B4%96%E6%B0%B4%E4%B8%8A%E5%A9%9A%E7%A6%AE-alila-villas-uluwatu-water-wedding/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "rain_backup"
+    ],
+    "reliability_notes": "台灣婚顧的中文套裝頁，對理解 Alila 鳥巢水台、兩晚住宿綁定與光線條件很有幫助，但不等同官方確認。",
+    "raw_excerpt_summary": "聚焦 Alila 鳥巢 / Cabana 舞台的 360 度採光與兩晚泳池別墅住宿條件，方便看設計感婚禮的實拍氛圍。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-sweetday-oceanfront-zh",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "platform_agency",
+    "source_name": "Sweetday Apurva Ocean Front Chapel 中文頁",
+    "source_url": "https://sweetday.com.tw/wedding/%E5%B7%B4%E9%87%8C%E5%B3%B6%E5%87%B1%E8%B3%93%E6%96%AF%E5%9F%BA%E6%B5%B7%E6%99%AF%E6%95%99%E5%A0%82%E5%A9%9A%E7%A6%AE-the-apurva-kempinski-bali-ocean-front-chapel/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "capacity"
+    ],
+    "reliability_notes": "台灣婚顧的中文場地頁，對比 Ocean Front Chapel 與附屬別墅的玩法很有參考價值，但仍需與 Apurva 確認最新條件。",
+    "raw_excerpt_summary": "介紹 Ocean Front Chapel 與相鄰三房別墅、兩座無邊泳池，以及可切換 Amala / Kimaya 的多教堂玩法。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-weddings-com-tw-zh",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "閣樓婚禮顧問 Four Seasons Jimbaran 中文場地頁",
+    "source_url": "https://www.weddings.com.tw/four-season-resort-jimbaran-overseas-wedding-bali/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "台灣婚顧的中文場地頁，適合快速理解 Jimbaran Bay 的整體度假村風格與住宿整合，但不是官方規範來源。",
+    "raw_excerpt_summary": "中文場地頁強調 Jimbaran 傳統峇里小村落風格與多種婚禮佈置地點，適合看度假村整體感。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-sweetday-zh",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "Sweetday Four Seasons Jimbaran 中文頁",
+    "source_url": "https://sweetday.com.tw/wedding/%E5%B7%B4%E9%87%8C%E5%B3%B6%E5%9B%9B%E5%AD%A3%E9%85%92%E5%BA%97%E5%A9%9A%E7%A6%AE-four-seasons-jimbaran-bay/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "台灣婚顧的中文頁，對理解四季在金巴蘭的場地選擇與住宿結合很有幫助，但實際條件仍需與飯店確認。",
+    "raw_excerpt_summary": "頁面指出金巴蘭灣經典度假村裡有多種婚禮場地，適合評估賓客住宿與多場地切換。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-sweetday-water-zh",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "Sweetday Four Seasons Pool Terrace Water Wedding 中文頁",
+    "source_url": "https://sweetday.com.tw/wedding/%E5%B7%B4%E9%87%8C%E5%B3%B6%E5%9B%9B%E5%AD%A3%E9%85%92%E5%BA%97%E6%B0%B4%E4%B8%8A%E5%A9%9A%E7%A6%AE-four-seasons-jimbaran-pool-terrace-water-wedding/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "pricing",
+      "accommodation"
+    ],
+    "reliability_notes": "台灣婚顧的中文套裝頁，對比較 Jimbaran 水上台與別墅住宿綁定玩法很有幫助，但價格與包含項目仍需再確認。",
+    "raw_excerpt_summary": "聚焦 Pool Terrace Water Wedding，對想比較 Jimbaran 水上台與別墅住宿綁定條件很有幫助。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-weddings-com-tw-zh",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "platform_agency",
+    "source_name": "閣樓婚禮顧問 Six Senses Uluwatu 中文場地頁",
+    "source_url": "https://www.weddings.com.tw/six-senses-uluwatu-overseas-wedding-bali/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "台灣婚顧的中文場地頁，對 Six Senses 的懸崖定位與渡假氛圍描述很完整，但不是官方營運規範。",
+    "raw_excerpt_summary": "中文場地頁強調 2018 開幕的低調奢華、烏魯瓦圖懸崖定位與高規格渡假體驗。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-sweetday-cinema-zh",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "platform_agency",
+    "source_name": "Sweetday Six Senses Cinema Paradiso 中文頁",
+    "source_url": "https://sweetday.com.tw/wedding/%E5%B7%B4%E9%87%8C%E5%B3%B6%E5%85%AD%E6%84%9F%E9%85%92%E5%BA%97%E6%96%B7%E5%B4%96%E6%B5%B7%E6%99%AF%E5%A9%9A%E7%A6%AE-six-senses-bali-uluwatu-cinema-paradiso-wedding/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "transport"
+    ],
+    "reliability_notes": "台灣婚顧的中文頁，對 Cinema Paradiso 的懸崖海景呈現很有參考價值，但非官方最終作業條件來源。",
+    "raw_excerpt_summary": "聚焦 Cinema Paradiso 斷崖海景婚禮與烏魯瓦圖懸崖海景度假村的地理氣質。"
+  },
+  {
+    "source_id": "the-edge-bali-weddings-com-tw-zh",
+    "venue_id": "the-edge-bali",
+    "source_type": "platform_agency",
+    "source_name": "閣樓婚禮顧問 The Edge Bali 中文場地頁",
+    "source_url": "https://www.weddings.com.tw/the-edge-bali-overseas-wedding-bali/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "台灣婚顧的中文場地頁，對 The Edge 的海崖私宅感與別墅配置描述很有用，但不是官方營運規則來源。",
+    "raw_excerpt_summary": "中文場地頁強調 360 度海景懸崖別墅、雙泳池與頂級私宅感，適合比對高價懸崖婚禮。"
+  },
+  {
+    "source_id": "the-edge-bali-sweetday-zh",
+    "venue_id": "the-edge-bali",
+    "source_type": "platform_agency",
+    "source_name": "Sweetday The Edge Wedding 中文頁",
+    "source_url": "https://sweetday.com.tw/wedding/%E5%B7%B4%E9%87%8C%E5%B3%B6edge%E6%96%B7%E5%B4%96%E6%B5%B7%E6%99%AF%E5%A9%9A%E7%A6%AE-the-edge-wedding/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "台灣婚顧的中文頁，對理解 The Edge 的斷崖儀式與住宿綁定有幫助，但仍需向場地方確認最新方案。",
+    "raw_excerpt_summary": "頁面把 The Edge 定位成斷崖海景婚禮與一房別墅住宿綁定的高端選擇。"
+  },
+  {
+    "source_id": "tirtha-bali-sweetday-uluwatu-zh",
+    "venue_id": "tirtha-bali",
+    "source_type": "platform_agency",
+    "source_name": "Sweetday Tirtha Uluwatu Chapel 中文頁",
+    "source_url": "https://sweetday.com.tw/wedding/%E5%B7%B4%E9%87%8C%E5%B3%B6%E6%B0%B4%E4%B9%8B%E6%95%99%E5%A0%82%E5%A9%9A%E7%A6%AE-tirtha-uluwatu-chapel-wedding/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "capacity",
+      "restrictions"
+    ],
+    "reliability_notes": "台灣婚顧的中文頁，對水之教堂的日系包裝、教堂與露台晚宴組合很有幫助，但仍需確認實際檔期與限制。",
+    "raw_excerpt_summary": "中文頁介紹日系團隊打造的玻璃帆船教堂與海景露台晚宴，可補水之教堂的中文視角。"
+  }
+]

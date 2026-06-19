@@ -1,0 +1,190 @@
+[
+  {
+    "photo_entry_id": "conrad-bali-photo-official-weddings",
+    "venue_id": "conrad-bali",
+    "source_id": "conrad-bali-official-weddings",
+    "page_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/weddings/",
+    "image_url_or_gallery_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/weddings/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "chapel-exterior",
+      "cliffside-ceremony",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "最能快速理解康萊德婚禮整體定位的官方入口頁。"
+  },
+  {
+    "photo_entry_id": "conrad-bali-photo-official-packages",
+    "venue_id": "conrad-bali",
+    "source_id": "conrad-bali-official-wedding-packages",
+    "page_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/weddings/wedding-packages/",
+    "image_url_or_gallery_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/weddings/wedding-packages/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "chapel-exterior",
+      "rain-backup-space",
+      "floral-setup"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "關於無限教堂外觀和場地後備敘述的良好官方來源。"
+  },
+  {
+    "photo_entry_id": "conrad-bali-photo-official-gallery",
+    "venue_id": "conrad-bali",
+    "source_id": "conrad-bali-official-gallery",
+    "page_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/gallery/",
+    "image_url_or_gallery_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/gallery/",
+    "image_type": "official_hotel_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "arrival-flow"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "適合補看住宿品質與一般賓客入住體驗。"
+  },
+  {
+    "photo_entry_id": "conrad-bali-photo-bridestory-venue",
+    "venue_id": "conrad-bali",
+    "source_id": "conrad-bali-bridestory-venue",
+    "page_url": "https://www.bridestory.com/conrad-bali",
+    "image_url_or_gallery_url": "https://www.bridestory.com/conrad-bali",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "chapel-exterior",
+      "garden-reception",
+      "night-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "廣泛的公共畫廊資源涵蓋儀式和接待空間。"
+  },
+  {
+    "photo_entry_id": "conrad-bali-photo-bridestory-infinity-chapel",
+    "venue_id": "conrad-bali",
+    "source_id": "conrad-bali-bridestory-infinity-chapel",
+    "page_url": "https://www.bridestory.com/store/infinity-chapel-20-pax-nusa-dua-3538",
+    "image_url_or_gallery_url": "https://www.bridestory.com/store/infinity-chapel-20-pax-nusa-dua-3538",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "chapel-exterior",
+      "chapel-interior",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "對於集中觀察無限教堂的幾何結構和座位規模非常有用。"
+  },
+  {
+    "photo_entry_id": "conrad-bali-photo-bridestory-bale",
+    "venue_id": "conrad-bali",
+    "source_id": "conrad-bali-bridestory-bale",
+    "page_url": "https://www.bridestory.com/conrad-bali/projects/wedding-venue-bale",
+    "image_url_or_gallery_url": "https://www.bridestory.com/conrad-bali/projects/wedding-venue-bale",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "beach-ceremony",
+      "guest-seating",
+      "floral-setup"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "適合補看 Infinity Chapel 之外的海邊或草坪婚禮形式。"
+  },
+  {
+    "photo_entry_id": "conrad-bali-photo-bridestory-ocean-garden",
+    "venue_id": "conrad-bali",
+    "source_id": "conrad-bali-bridestory-ocean-garden",
+    "page_url": "https://www.bridestory.com/conrad-bali/projects/venue-ocean-garden",
+    "image_url_or_gallery_url": "https://www.bridestory.com/conrad-bali/projects/venue-ocean-garden",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "garden-reception",
+      "night-view",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "海洋花園晚餐氣氛很好的參考。"
+  },
+  {
+    "photo_entry_id": "conrad-bali-photo-tripcom-hk",
+    "venue_id": "conrad-bali",
+    "source_id": "conrad-bali-tripcom-hk-hotel",
+    "page_url": "https://hk.trip.com/hotels/bali-hotel-detail-926122/conrad-bali?locale=en-HK",
+    "image_url_or_gallery_url": "https://hk.trip.com/hotels/bali-hotel-detail-926122/conrad-bali?locale=en-HK",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "night-view"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "中文平台圖集可以補看康萊德的房型、泳池與公共空間，幫助判斷它是否夠適合大量賓客入住。"
+  },
+  {
+    "photo_entry_id": "conrad-bali-photo-ctrip-hotel",
+    "venue_id": "conrad-bali",
+    "source_id": "conrad-bali-ctrip-hotel",
+    "page_url": "https://hotels.ctrip.com/hotels/926122.html",
+    "image_url_or_gallery_url": "https://hotels.ctrip.com/hotels/926122.html",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "arrival-flow"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "攜程飯店頁常能看到更多客房與公共區域實拍，適合補強康萊德的住宿與動線參考。"
+  },
+  {
+    "photo_entry_id": "conrad-bali-balifortwo-kaedi-dylan",
+    "venue_id": "conrad-bali",
+    "source_id": "conrad-bali-balifortwo-kaedi-dylan",
+    "page_url": "https://balifortwo2.com/kaedi-dylans-wedding-at-conrad/",
+    "image_url_or_gallery_url": "https://balifortwo2.com/kaedi-dylans-wedding-at-conrad/",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "chapel-interior",
+      "chapel-exterior",
+      "floral-setup",
+      "guest-seating"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "可看 Infinity Chapel 真實婚禮動線、白花佈置與賓客席次密度。"
+  },
+  {
+    "photo_entry_id": "conrad-bali-neverneverland-zh",
+    "venue_id": "conrad-bali",
+    "source_id": "conrad-bali-neverneverland-zh",
+    "page_url": "https://neverneverlandinbali.com/16585-2/",
+    "image_url_or_gallery_url": "https://neverneverlandinbali.com/16585-2/",
+    "image_type": "blog_feature",
+    "scene_tags": [
+      "chapel-exterior",
+      "water-platform",
+      "garden-reception"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "中文頁補充康萊德水台、教堂與花園形式，適合快速做版位比較。"
+  }
+]

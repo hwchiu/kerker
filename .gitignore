@@ -1,2 +1,5 @@
 .worktrees/
 worktrees/
+__pycache__/
+site/
+data/photo-assets/

@@ -1,0 +1,173 @@
+[
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-photo-official-zh-weddings",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-official-zh-weddings",
+    "page_url": "https://www.ritzcarlton.com/zh-cn/hotels/dpssw-the-ritz-carlton-bali/weddings/",
+    "image_url_or_gallery_url": "https://www.ritzcarlton.com/zh-cn/hotels/dpssw-the-ritz-carlton-bali/weddings/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "chapel-exterior",
+      "beach-ceremony",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "教堂、草坪和海灘婚禮視覺效果的最佳中文官方切入點。"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-photo-official-zh-overview",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-official-zh-overview",
+    "page_url": "https://www.ritzcarlton.com/zh-cn/hotels/dpssw-the-ritz-carlton-bali/overview/",
+    "image_url_or_gallery_url": "https://www.ritzcarlton.com/zh-cn/hotels/dpssw-the-ritz-carlton-bali/overview/",
+    "image_type": "official_hotel_gallery",
+    "scene_tags": [
+      "public-area",
+      "arrival-flow",
+      "night-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "對於了解專用婚禮佈置之外更廣泛的度假村氛圍和規模非常有用。"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-photo-tripadvisor-tw",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-tripadvisor-tw-hotel",
+    "page_url": "https://www.tripadvisor.com.tw/Hotel_Review-g297698-d6820858-Reviews-The_Ritz_Carlton_Bali-Nusa_Dua_Benoa_South_Kuta_Bali.html",
+    "image_url_or_gallery_url": "https://www.tripadvisor.com.tw/Hotel_Review-g297698-d6820858-Reviews-The_Ritz_Carlton_Bali-Nusa_Dua_Benoa_South_Kuta_Bali.html",
+    "image_type": "social_post",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "arrival-flow"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "大型旅行者照片庫，可協助檢視飯店在官方宣傳圖片之外的解讀。"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-photo-tripcom-hk",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-tripcom-hk-hotel",
+    "page_url": "https://hk.trip.com/hotels/bali-hotel-detail-1716859/the-ritz-carlton-bali/",
+    "image_url_or_gallery_url": "https://hk.trip.com/hotels/bali-hotel-detail-1716859/the-ritz-carlton-bali/",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "night-view"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "有用的中文飯店畫廊，提供房間、游泳池和公共空間的印象。"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-photo-myoverseas-overview",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-myoverseas-overview",
+    "page_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-ritz-carlton-bali",
+    "image_url_or_gallery_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-ritz-carlton-bali",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "chapel-exterior",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "很好的婚禮比較畫廊，展示了麗茲空間在面向策劃者的環境中的感覺。"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-photo-myoverseas-ceremony",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-myoverseas-ceremony",
+    "page_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-ritz-carlton-bali/ceremony-venues",
+    "image_url_or_gallery_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-ritz-carlton-bali/ceremony-venues",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "chapel-interior",
+      "chapel-exterior",
+      "beach-ceremony"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "對於檢查雄偉教堂、海灘和草坪儀式形式之間的視覺差距很有用。"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-photo-myoverseas-reception",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-myoverseas-reception",
+    "page_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-ritz-carlton-bali/reception-venues",
+    "image_url_or_gallery_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-ritz-carlton-bali/reception-venues",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "garden-reception",
+      "ballroom-reception",
+      "night-view"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "最佳快速參考，了解您是喜歡 Cliff Lawn 規模還是更適合室內的接收計劃。"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-photo-bridestory-weddings",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-bridestory-weddings",
+    "page_url": "https://www.bridestory.com/ritz-carlton-bali/projects/ritz-carlton-bali-weddings",
+    "image_url_or_gallery_url": "https://www.bridestory.com/ritz-carlton-bali/projects/ritz-carlton-bali-weddings",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "chapel-exterior",
+      "guest-seating",
+      "floral-setup"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "為教堂和草坪設置添加另一個婚禮特定的畫廊角度。"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-balifortwo-seaside-chapel",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-balifortwo-seaside-chapel",
+    "page_url": "https://balifortwo2.com/the-ritz-carlton-bali-seaside-chapel-lawn-wedding-for-30-guests/",
+    "image_url_or_gallery_url": "https://balifortwo2.com/the-ritz-carlton-bali-seaside-chapel-lawn-wedding-for-30-guests/",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "chapel-interior",
+      "chapel-exterior",
+      "garden-reception",
+      "guest-seating"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "可直接看教堂、草坪與 30 人尺度的婚禮佈置，對初步 shortlist 很有用。"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-neverneverland-zh",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-neverneverland-zh",
+    "page_url": "https://neverneverlandinbali.com/wedding/16720-2/",
+    "image_url_or_gallery_url": "https://neverneverlandinbali.com/wedding/16720-2/",
+    "image_type": "blog_feature",
+    "scene_tags": [
+      "chapel-exterior",
+      "chapel-interior",
+      "public-area"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "中文頁補足麗思卡爾頓教堂、草坪與公共空間的實際感，便於和 Ritz 官方圖做落差比較。"
+  }
+]

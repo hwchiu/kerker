@@ -1,0 +1,242 @@
+[
+  {
+    "source_id": "hanging-gardens-official-weddings",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "official",
+    "source_name": "峇里島空中花園婚禮頁面",
+    "source_url": "https://www.hanginggardensofbali.com/weddings",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "restrictions"
+    ],
+    "reliability_notes": "Official wedding landing page describing the resort's positioning and atmosphere.",
+    "raw_excerpt_summary": "將空中花園打造為以風景優美的熱帶環境為中心的浪漫叢林婚禮場地。"
+  },
+  {
+    "source_id": "hanging-gardens-official-vip",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "official",
+    "source_name": "空中花園貴賓服務",
+    "source_url": "https://hanginggardensofbali.com/experience/vip",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "transport"
+    ],
+    "reliability_notes": "Official airport-transfer and arrival-experience source.",
+    "raw_excerpt_summary": "確認度假村積極出售前往烏布/佩豔安叢林的 VIP 機場接送服務。"
+  },
+  {
+    "source_id": "hanging-gardens-official-hidden-palace",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "official",
+    "source_name": "空中花園隱藏宮殿概述",
+    "source_url": "https://www.hanginggardensofbali.com/hidden-palace",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "rain_backup"
+    ],
+    "reliability_notes": "Official estate overview for the Hidden Palace buyout option.",
+    "raw_excerpt_summary": "將隱藏宮殿展示為通過纜車到達的私人叢林莊園，對於買斷式婚禮分析很有用。"
+  },
+  {
+    "source_id": "hanging-gardens-official-hidden-palace-estate",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "official",
+    "source_name": "空中花園隱宮五臥室莊園",
+    "source_url": "https://hanginggardensofbali.com/suites-villas/5-bedroom-full-private-estate",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "Best official source for the estate's stay capacity and suite count.",
+    "raw_excerpt_summary": "確認 2,000 平方米的隱宮設有五間套房，最多可容納 13 位房客。"
+  },
+  {
+    "source_id": "hanging-gardens-official-suites",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "official",
+    "source_name": "空中花園套房和別墅",
+    "source_url": "https://hanginggardensofbali.com/suites-villas",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "Official room-and-villa page for the general stay product.",
+    "raw_excerpt_summary": "將空中花園展示為以別墅為基礎的叢林度假村，而不是標準的客房旅館。"
+  },
+  {
+    "source_id": "hanging-gardens-official-contact",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "official",
+    "source_name": "空中花園聯絡頁面",
+    "source_url": "https://hanginggardensofbali.com/contact-us",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "transport"
+    ],
+    "reliability_notes": "Official contact endpoint used for address and direct inquiry reference.",
+    "raw_excerpt_summary": "提供度假村的直接聯繫路線以進行交通和預訂後續工作。"
+  },
+  {
+    "source_id": "hanging-gardens-bridestory-venue",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "platform_agency",
+    "source_name": "峇里島 Bridestory 空中花園場地列表",
+    "source_url": "https://www.bridestory.com/hanging-gardens-of-bali",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "pricing",
+      "photos"
+    ],
+    "reliability_notes": "Marketplace listing useful for public pricing visibility and wedding capacity signals, but final terms need direct confirmation.",
+    "raw_excerpt_summary": "顯示場地最多可容納 100 位賓客舉行婚禮，並公開公共商店式的定價參考。"
+  },
+  {
+    "source_id": "hanging-gardens-bridestory-package",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 空中花園商店列表",
+    "source_url": "https://www.bridestory.com/id/hanging-gardens-of-bali/store",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "Useful pricing snapshot from the public vendor storefront.",
+    "raw_excerpt_summary": "列出了 30 人至 50 人的儀式加招待會套餐，價格為 166,250,000 印尼盾，並顯示了最多 100 人的隱宮套餐。"
+  },
+  {
+    "source_id": "hanging-gardens-bridestory-pool-project",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 兩層層疊泳池儀式",
+    "source_url": "https://www.bridestory.com/hanging-gardens-of-bali/projects/wedding-ceremony-at-the-two-tiered-cascading-pool",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "High-value project page for the resort's signature floating ceremony stage.",
+    "raw_excerpt_summary": "在標誌性兩層泳池中央的浮動舞台上宣誓，俯瞰寺廟和叢林。"
+  },
+  {
+    "source_id": "hanging-gardens-bridestory-infinity-lounge",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory Infinity Lounge 祝福儀式",
+    "source_url": "https://www.bridestory.com/hanging-gardens-of-bali/projects/blessing-ceremony-at-infinity-lounge",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Supplemental gallery source for a second ceremony look beyond the pool stage.",
+    "raw_excerpt_summary": "展示了 Infinity Lounge 面向叢林的儀式佈置，可欣賞寺廟和山谷的景色。"
+  },
+  {
+    "source_id": "hanging-gardens-bridestory-hidden-palace",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "platform_agency",
+    "source_name": "新娘故事隱宮項目",
+    "source_url": "https://www.bridestory.com/hanging-gardens-of-bali/projects/hidden-palace",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful for visualizing the estate feel beyond the main pool-stage narrative.",
+    "raw_excerpt_summary": "隱密宮殿 (Hidden Palace) 是一座佔地 2,000 平方公尺的豪華叢林住宅，具有私人莊園的氛圍。"
+  },
+  {
+    "source_id": "hanging-gardens-bridestory-hidden-palace-wedding",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "platform_agency",
+    "source_name": "隱密宮殿的新娘故事婚禮",
+    "source_url": "https://www.bridestory.com/hanging-gardens-of-bali/projects/wedding-at-the-hidden-palace",
+    "captured_at": "2026-06-18",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Gallery-style project page for estate wedding styling examples.",
+    "raw_excerpt_summary": "展示隱藏宮殿作為實際婚禮場地而不僅僅是住宿產品時的讀感。"
+  },
+  {
+    "source_id": "hanging-gardens-tripcom-hk-hotel",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "platform_agency",
+    "source_name": "Trip.com 香港 峇里島空中花園飯店頁",
+    "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-992131/hanging-gardens-of-bali?locale=en-HK",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "中文訂房平台頁面，能補足叢林客房、無邊際泳池與山谷公共空間的非官方視角。",
+    "raw_excerpt_summary": "適合先看空中花園在實拍照片裡的叢林沉浸感與住宿尺度，再判斷它是否足以支撐婚禮住宿體驗。"
+  },
+  {
+    "source_id": "hanging-gardens-ctrip-hotel",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "platform_agency",
+    "source_name": "攜程 峇里島空中花園飯店頁",
+    "source_url": "https://hotels.ctrip.com/hotels/992131.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "中文訂房平台來源，對補強空中花園客房、景觀與公共區域的真實照片特別有用。",
+    "raw_excerpt_summary": "可交叉比對空中花園的雙層泳池、房型與峽谷景觀是否真的符合你們對叢林婚禮的期待。"
+  },
+  {
+    "source_id": "hanging-gardens-of-bali-balifortwo-hidden-palace",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bali For Two Hanging Gardens Hidden Palace 婚禮頁",
+    "source_url": "https://www.balifortwo.com/ubud-wedding/hanging-gardens",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Non-official venue page; visually helpful, though not a contract source.",
+    "raw_excerpt_summary": "非官方場地頁集中呈現 Hidden Palace 與 Hanging Gardens 的叢林婚禮視覺與住宿氛圍。"
+  }
+]

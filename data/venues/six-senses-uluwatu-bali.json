@@ -1,0 +1,143 @@
+{
+  "id": "six-senses-uluwatu-bali",
+  "name_zh": "峇里島烏魯瓦圖六善酒店",
+  "name_en_official": "Six Senses Uluwatu, Bali",
+  "brand_or_group": "Six Senses",
+  "venue_operator_type": "resort",
+  "is_standalone": false,
+  "region": "Uluwatu",
+  "subarea": "Pecatu",
+  "official_website": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/indonesia/uluwatu-bali/",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Six+Senses+Uluwatu+Bali",
+  "address_text": "Jalan Goa Lempeh, Uluwatu, Bali 80361, Indonesia",
+  "venue_types": [
+    "cliffside",
+    "lawn",
+    "ballroom",
+    "villa-buyout",
+    "rooftop"
+  ],
+  "primary_visual_identity": "這是一個以健康為主導的石灰岩懸崖度假村，可欣賞海洋全景、The Retreat 別墅活動、電影院式的私人儀式以及真正的全天候宴會廳。",
+  "ceremony_space_types": [
+    "cliff-lawn",
+    "private-villa-function-space",
+    "cinema-ceremony",
+    "ballroom-terrace"
+  ],
+  "reception_space_types": [
+    "ballroom",
+    "cliffside-lawn",
+    "private-villa-function-space",
+    "terrace-dinner"
+  ],
+  "supports_ceremony_only": true,
+  "supports_ceremony_and_dinner": true,
+  "supports_buyout": true,
+  "supports_micro_wedding": true,
+  "guest_capacity_ceremony_min": 2,
+  "guest_capacity_ceremony_max": 100,
+  "guest_capacity_dinner_min": 2,
+  "guest_capacity_dinner_max": 180,
+  "recommended_guest_size_band": "81-120",
+  "pricing_status": "public_price_available",
+  "price_entries": [
+    {
+      "label": "30 位賓客的基本婚禮套餐",
+      "currency": "USD",
+      "amount_min": 23000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": true,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "目前「我的海外婚禮」即時報價基準（適用於峇里島烏魯瓦圖六善酒店 30 位賓客）；直接簽約應確認目前的重新開放和包裝條件。",
+      "confidence": "medium"
+    }
+  ],
+  "price_summary_text": "六善酒店目前顯示的公共即時報價基準約為 30 位客人 23,000 美元，但任何即時預算都應根據度假村目前的改造時間表和重新開放條件進行檢查。",
+  "price_risk_level": "low",
+  "rain_backup_status": "strong",
+  "has_indoor_backup": true,
+  "has_covered_backup": true,
+  "backup_space_description": "阿魯尼亞宴會廳是這裡的關鍵優勢，與許多依賴部分餐廳備份的懸崖度假村相比，六善酒店擁有更嚴格的防雨計劃。",
+  "backup_quality_notes": "與大多數烏魯瓦圖懸崖相比，六善酒店提供了更強大的緊急基礎設施，因為它將別墅形式與真正的宴會廳相結合。",
+  "weather_exposure_notes": "儘管該房產有室內後備選項，但標誌性的懸崖草坪和露台仍然高度暴露在風、熱和雨季變化的影響下。",
+  "airport_drive_time_minutes_estimate": 45,
+  "transport_notes": "六善酒店表示，度假村距離機場向南約 45 分鐘車程，雖然可行，但在午後高峰和日落時段仍容易受到烏魯瓦圖交通擁堵的影響。",
+  "traffic_risk_level": "high",
+  "onsite_accommodation_available": true,
+  "onsite_room_inventory_notes": "六善酒店公開列出了 28 間空中套房和頂層公寓以及 75 間懸崖泳池別墅，使其成為烏魯瓦圖最強大的全酒店住宿體驗之一。",
+  "nearby_accommodation_notes": "培卡圖和烏魯瓦圖的住宿人數可能會過多，但將核心家庭和婚禮派對成員留在現場將使在這個陡峭的懸崖房產上的時間安排更加容易。",
+  "accommodation_fit": "one_stop",
+  "guest_mobility_notes": "這是一個分層的懸崖度假村，步道較長且海拔變化，因此移動規劃對於在多個活動點移動的老人、兒童和客人非常重要。",
+  "restriction_level": "medium",
+  "noise_cutoff_notes": "確認目前戶外慶祝活動的截止時間以及深夜部分是否必須移至阿魯尼亞宴會廳或其他封閉區域。",
+  "external_vendor_policy": "六善酒店的營運屬於高接觸奢華水平，因此請確認目前針對外部規劃師、裝飾師、娛樂、製作和無人機團隊的批准規則。",
+  "minimum_stay_requirement_notes": "度假勝地和別墅主導的婚禮形式可能與宴會廳活動不同，因此請要求六善酒店清楚地繪製任何間夜或捆綁住宿條件。",
+  "minimum_spend_notes": "30 位賓客的基線與全面的懸崖或宴會廳慶祝活動之間存在很大差距，因此只有在確定確切的場地組合後，預算比較才有意義。",
+  "drone_policy_notes": "考慮到懸崖安全、客人隱私以及度假村正在進行的改造工作，無人機的使用應假定僅獲得批准。",
+  "family_child_notes": "非常適合住在現場的設計前衛的家庭，但開放的懸崖邊緣和梯田佈局意味著對孩子和祖父母進行更密切的監督和交通規劃。",
+  "religious_or_space_use_notes": "公共目的地婚禮形式主要是像徵性的；直接與度假村確認任何合法婚姻或特定信仰的設置需求。",
+  "operational_constraints_notes": "目前最重要的規劃問題是營運狀態：六善酒店公開表示，該度假村已從 2026 年 2 月 1 日起暫時關閉，以進行深思熟慮的轉型，因此在進入任何正式候選名單之前，必須驗證是否可以舉行婚禮並重新開放時間。",
+  "style_tags": [
+    "wellness-luxury",
+    "clifftop",
+    "oceanfront",
+    "ballroom-backup",
+    "villa-buyout",
+    "sunset"
+  ],
+  "price_band_normalized": null,
+  "best_for": [
+    "想要一場高設計的烏魯瓦圖懸崖婚禮且比大多數同齡人擁有更強防雨能力的夫婦",
+    "重視住在套房和懸崖別墅而不是分散在不同飯店的團體",
+    "婚禮規模可以從小到中大型，同時保持奢華健康的基調"
+  ],
+  "not_ideal_for": [
+    "現在需要一個可操作的特定場所的夫婦，而不需要重新開放歧義",
+    "想要最平坦、最方便的度假村交通的客人",
+    "需要低門檻烏魯瓦圖婚禮的預算"
+  ],
+  "key_strengths": [
+    "戲劇性的懸崖美學和宴會廳功能的備份的強大結合",
+    "良好的現場住宿深度，可將核心客人群體聚集在一起",
+    "各具特色的分會場讓同一場地支持私密且大型的活動形式"
+  ],
+  "key_risks": [
+    "該度假村目前正處於公開宣布的臨時關閉期，以進行改造工作",
+    "烏魯瓦圖的接送時間和交通狀況比金巴蘭或努沙杜瓦差得多",
+    "儘管有宴會廳備用，但懸崖邊的標誌性空間仍然高度暴露在天氣中"
+  ],
+  "data_completeness": "comparable_core_complete",
+  "research_status": "needs_price_followup",
+  "last_verified_at": "2026-06-19",
+  "data_freshness": "recent",
+  "open_questions": [
+    "確認目前重新開放的時間表以及您的目標期間是否接受婚禮。",
+    "改造工作完成後，確認目前的外部供應商和生產規則。",
+    "確認哪些場地組合可以在不進行更廣泛買斷的情況下為 100 名以上賓客舉辦儀式和晚宴。"
+  ],
+  "source_ids": [
+    "six-senses-uluwatu-bali-official-resort",
+    "six-senses-uluwatu-bali-official-weddings",
+    "six-senses-uluwatu-bali-official-meetings",
+    "six-senses-uluwatu-bali-official-accommodations",
+    "six-senses-uluwatu-bali-official-how-to-get-there",
+    "six-senses-uluwatu-bali-official-indonesia-listing",
+    "six-senses-uluwatu-bali-official-cliff-bar",
+    "six-senses-uluwatu-bali-official-zh-resort",
+    "six-senses-uluwatu-bali-official-zh-weddings",
+    "six-senses-uluwatu-bali-ctrip-hotel",
+    "six-senses-uluwatu-bali-licheng-chinese-venue",
+    "six-senses-uluwatu-bali-myoverseas-overview",
+    "six-senses-uluwatu-bali-myoverseas-ceremony",
+    "six-senses-uluwatu-bali-bridestory-venue",
+    "six-senses-uluwatu-bali-bridestory-store",
+    "six-senses-uluwatu-bali-balifortwo-aarunya-50",
+    "six-senses-uluwatu-bali-neverneverland-zh",
+    "six-senses-uluwatu-bali-weddings-com-tw-zh",
+    "six-senses-uluwatu-bali-sweetday-cinema-zh"
+  ],
+  "photo_index_id": "six-senses-uluwatu-bali"
+}

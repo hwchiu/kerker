@@ -3,6 +3,7 @@ import tempfile
 import unittest
 from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
+from unittest.mock import patch
 
 from bali_wedding_research.cli import main
 from bali_wedding_research.io import load_json_file, write_json_file
@@ -45,6 +46,7 @@ class CliTest(unittest.TestCase):
                     str(paths["sources"]),
                     str(paths["seeds"]),
                     str(paths["derived"]),
+                    str(paths["photo_assets"]),
                     str(paths["notes"]),
                 ],
             )
@@ -105,6 +107,120 @@ class CliTest(unittest.TestCase):
             )
             self.assertEqual(stderr, "")
             self.assertTrue((paths["notes"] / "example-cliffside-resort.md").exists())
+
+    def test_build_site_writes_static_site_files(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = self._init_workspace(tmpdir)
+            paths = workspace_paths(root)
+
+            write_json_file(paths["sources"] / "example.json", source_record())
+            write_json_file(paths["photos"] / "example.json", photo_records())
+            write_json_file(paths["venues"] / "example.json", venue_record())
+
+            exit_code, stdout, stderr = self._run_main(["build-site", "--root", tmpdir])
+
+            site_root = root / "site"
+            self.assertEqual(exit_code, 0)
+            self.assertEqual(
+                stdout.splitlines(),
+                [
+                    str(site_root / "index.html"),
+                    str(site_root / "assets" / "site.css"),
+                    str(site_root / "assets" / "site.js"),
+                    str(site_root / "venues" / "example-cliffside-resort.html"),
+                ],
+            )
+            self.assertEqual(stderr, "")
+            self.assertTrue((site_root / "index.html").exists())
+            self.assertTrue((site_root / "venues" / "example-cliffside-resort.html").exists())
+
+    def test_build_pages_site_writes_docs_site_and_redirect_files(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = self._init_workspace(tmpdir)
+            paths = workspace_paths(root)
+
+            write_json_file(paths["sources"] / "example.json", source_record())
+            write_json_file(paths["photos"] / "example.json", photo_records())
+            write_json_file(paths["venues"] / "example.json", venue_record())
+
+            exit_code, stdout, stderr = self._run_main(
+                ["build-pages-site", "--root", tmpdir]
+            )
+
+            docs_root = root / "docs"
+            self.assertEqual(exit_code, 0)
+            self.assertEqual(
+                stdout.splitlines(),
+                [
+                    str(docs_root / "index.html"),
+                    str(docs_root / "assets" / "site.css"),
+                    str(docs_root / "assets" / "site.js"),
+                    str(docs_root / "venues" / "example-cliffside-resort.html"),
+                    str(docs_root / ".nojekyll"),
+                    str(root / "index.html"),
+                    str(root / ".nojekyll"),
+                ],
+            )
+            self.assertEqual(stderr, "")
+            self.assertTrue((docs_root / "index.html").exists())
+            self.assertTrue((docs_root / ".nojekyll").exists())
+            self.assertTrue((root / "index.html").exists())
+            self.assertTrue((root / ".nojekyll").exists())
+
+    def test_build_photo_assets_writes_manifest(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = self._init_workspace(tmpdir)
+            paths = workspace_paths(root)
+            manifest_path = paths["derived"] / "photo-assets.json"
+
+            with patch("bali_wedding_research.cli.write_photo_assets") as write_photo_assets_mock:
+                write_photo_assets_mock.return_value = manifest_path
+                exit_code, stdout, stderr = self._run_main(
+                    [
+                        "build-photo-assets",
+                        "--root",
+                        tmpdir,
+                        "--max-images-per-photo",
+                        "4",
+                    ]
+                )
+
+            self.assertEqual(exit_code, 0)
+            self.assertEqual(stdout, f"{manifest_path}\n")
+            self.assertEqual(stderr, "")
+            write_photo_assets_mock.assert_called_once_with(root, max_images_per_photo=4)
+
+    def test_serve_site_invokes_server_with_expected_arguments(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = self._init_workspace(tmpdir)
+            paths = workspace_paths(root)
+
+            write_json_file(paths["sources"] / "example.json", source_record())
+            write_json_file(paths["photos"] / "example.json", photo_records())
+            write_json_file(paths["venues"] / "example.json", venue_record())
+
+            with patch("bali_wedding_research.cli.serve_site") as serve_site_mock:
+                exit_code, stdout, stderr = self._run_main(
+                    [
+                        "serve-site",
+                        "--root",
+                        tmpdir,
+                        "--host",
+                        "0.0.0.0",
+                        "--port",
+                        "8123",
+                    ]
+                )
+
+            self.assertEqual(exit_code, 0)
+            self.assertEqual(stdout, "")
+            self.assertEqual(stderr, "")
+            serve_site_mock.assert_called_once_with(
+                root,
+                root / "site",
+                host="0.0.0.0",
+                port=8123,
+            )
 
     def test_merge_seeds_writes_canonical_seed_registry(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:

@@ -1,0 +1,296 @@
+[
+  {
+    "source_id": "the-edge-bali-official-resort",
+    "venue_id": "the-edge-bali",
+    "source_type": "official",
+    "source_name": "The Edge Bali 度假村概覽",
+    "source_url": "https://theedgebali.com/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Primary official property page for the estate scale and villa inventory wording.",
+    "raw_excerpt_summary": "States The Edge 目前在烏魯瓦圖的懸崖上擁有八棟屢獲殊榮的私人別墅。"
+  },
+  {
+    "source_id": "the-edge-bali-official-weddings",
+    "venue_id": "the-edge-bali",
+    "source_type": "official",
+    "source_name": "The Edge 婚禮概覽",
+    "source_url": "https://theedgebali.com/weddings/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "restrictions"
+    ],
+    "reliability_notes": "Best official umbrella page for how the estate positions its cliff wedding offering.",
+    "raw_excerpt_summary": "將 The Edge 描述為位於懸崖頂端、以奢華婚禮聞名的別墅婚禮莊園。"
+  },
+  {
+    "source_id": "the-edge-bali-official-edge-wedding",
+    "venue_id": "the-edge-bali",
+    "source_type": "official",
+    "source_name": "The Edge 婚禮套餐頁面",
+    "source_url": "https://theedgebali.com/weddings/the-edge-wedding/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos"
+    ],
+    "reliability_notes": "Official large-format package page with a clear top-end guest capacity.",
+    "raw_excerpt_summary": "States The Edge 婚禮套餐最多可容納 150 位賓客。"
+  },
+  {
+    "source_id": "the-edge-bali-official-sky-wedding",
+    "venue_id": "the-edge-bali",
+    "source_type": "official",
+    "source_name": "天空婚禮套餐頁面",
+    "source_url": "https://theedgebali.com/weddings/the-sky-wedding/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "restrictions"
+    ],
+    "reliability_notes": "Official package page for one of the most photogenic cliffside formats.",
+    "raw_excerpt_summary": "將天空婚禮呈現為面向地平線的懸崖慶祝形式。"
+  },
+  {
+    "source_id": "the-edge-bali-official-sea-wedding",
+    "venue_id": "the-edge-bali",
+    "source_type": "official",
+    "source_name": "海上婚禮套餐頁面",
+    "source_url": "https://theedgebali.com/weddings/the-sea-wedding/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Official mid-size package page with a clear guest cap and stay-oriented framing.",
+    "raw_excerpt_summary": "海上婚禮套餐最多可容納 50 位客人，並包含豪華住宿元素。"
+  },
+  {
+    "source_id": "the-edge-bali-official-intimate-wedding",
+    "venue_id": "the-edge-bali",
+    "source_type": "official",
+    "source_name": "親密婚禮套餐頁面",
+    "source_url": "https://theedgebali.com/weddings/the-intimate-wedding/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Official package page showing the estate can also handle small private celebrations.",
+    "raw_excerpt_summary": "呈現一場圍繞情侶及其核心圈子設計的私人別墅慶祝活動。"
+  },
+  {
+    "source_id": "the-edge-bali-official-villas",
+    "venue_id": "the-edge-bali",
+    "source_type": "official",
+    "source_name": "The Edge 別墅頁面",
+    "source_url": "https://theedgebali.com/villas/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "accommodation",
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "Official villa page useful for the stay experience and likely weather fallback spaces.",
+    "raw_excerpt_summary": "展示莊園的懸崖頂別墅作為核心住宿層，擁有私人奢華和海景。"
+  },
+  {
+    "source_id": "the-edge-bali-official-facilities",
+    "venue_id": "the-edge-bali",
+    "source_type": "official",
+    "source_name": "The Edge 設施頁面",
+    "source_url": "https://theedgebali.com/facilities/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Useful for signature public-space and atmosphere references such as the sky pool.",
+    "raw_excerpt_summary": "亮點是位於烏魯瓦圖懸崖上方 162 公尺處的玻璃底空中泳池。"
+  },
+  {
+    "source_id": "the-edge-bali-myoverseas-overview",
+    "venue_id": "the-edge-bali",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 The Edge Bali 概覽",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-edge-bali",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "transport"
+    ],
+    "reliability_notes": "Current instant-quote page giving a public starting price and practical transport baseline.",
+    "raw_excerpt_summary": "列出 30 位賓客的基本婚禮套餐價格為 9,000 美元。"
+  },
+  {
+    "source_id": "the-edge-bali-myoverseas-ceremony",
+    "venue_id": "the-edge-bali",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 The Edge 儀式場地",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-edge-bali/ceremony-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "Useful for a second public pricing checkpoint focused on ceremony-led formats.",
+    "raw_excerpt_summary": "顯示 30 位賓客的基本婚禮套餐價格為 9,400 美元。"
+  },
+  {
+    "source_id": "the-edge-bali-myoverseas-reception",
+    "venue_id": "the-edge-bali",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 The Edge 接待場地",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-edge-bali/reception-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "transport",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful for transport baseline and package framing, but official villa inventory should override any older estate counts.",
+    "raw_excerpt_summary": "該地產距離機場約 18 公里，並顯示出以公共接待為主導的定價基準。"
+  },
+  {
+    "source_id": "the-edge-bali-bridestory-venue",
+    "venue_id": "the-edge-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory The Edge 場地列表",
+    "source_url": "https://www.bridestory.com/the-edge",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Useful umbrella listing with reviews and public project links.",
+    "raw_excerpt_summary": "作為 The Edge 場地項目和評論的主要 Bridestory 入口點。"
+  },
+  {
+    "source_id": "the-edge-bali-bridestory-project",
+    "venue_id": "the-edge-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory The Edge - 峇里島項目",
+    "source_url": "https://www.bridestory.com/the-edge/projects/the-edge-bali",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": "2024-05-29",
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Recent project page useful for checking the estate's look in a newer visual context.",
+    "raw_excerpt_summary": "補上一個與 The Edge Bali 相關的較新項目圖集。"
+  },
+  {
+    "source_id": "the-edge-bali-bridestory-intimate",
+    "venue_id": "the-edge-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 親密婚禮套餐",
+    "source_url": "https://www.bridestory.com/store/the-intimate-wedding-b031",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful public micro-wedding price anchor with villa-stay inclusions.",
+    "raw_excerpt_summary": "列出“親密婚禮”，​​淨價為 71,500,000 印尼盾，最多可容納 10 位客人，並提供一晚豪華住宿。"
+  },
+  {
+    "source_id": "the-edge-bali-bridestory-cliff-package",
+    "venue_id": "the-edge-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 最近和最親愛的懸崖婚禮套餐",
+    "source_url": "https://www.bridestory.com/store/the-cliff-wedding-a9db",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful public package page for a 30-guest cliffside format with accommodation included.",
+    "raw_excerpt_summary": "列出最近和最親愛的懸崖婚禮，價格為 132,000,000 印尼盾，最多可容納 30 位客人，並在三臥室別墅中住宿一晚。"
+  },
+  {
+    "source_id": "the-edge-bali-tripcom-hk-hotel",
+    "venue_id": "the-edge-bali",
+    "source_type": "platform_agency",
+    "source_name": "Trip.com 香港 The Edge Bali 飯店頁",
+    "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-685862/the-edge-bali?locale=en-HK",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "中文訂房平台頁面，能補看 villa、泳池與懸崖公共空間的真實住宿視角。",
+    "raw_excerpt_summary": "適合先看 The Edge 在房型、泳池與懸崖景觀上的實拍效果，再判斷它的超奢華定位是否符合預期。"
+  },
+  {
+    "source_id": "the-edge-bali-ctrip-hotel",
+    "venue_id": "the-edge-bali",
+    "source_type": "platform_agency",
+    "source_name": "攜程 The Edge Bali 飯店頁",
+    "source_url": "https://hotels.ctrip.com/hotels/685862.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "中文訂房平台來源，可補充 The Edge 的 villa、海景公共區域與住宿真實感。",
+    "raw_excerpt_summary": "可用來交叉比對 The Edge 的客房、懸崖景觀與整體住宿體驗是否足以支撐婚禮包場型決策。"
+  },
+  {
+    "source_id": "the-edge-bali-balifortwo-elijah-morgan",
+    "venue_id": "the-edge-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Bali For Two Elijah & Morgan 在 The Edge 的真實婚禮",
+    "source_url": "https://balifortwo2.com/elijah-morgans-wedding-at-the-edge/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Real-wedding planner feature; very useful for understanding guest scale at The Edge.",
+    "raw_excerpt_summary": "真實婚禮案例，直接看懸崖邊大型賓客規模、進場動線與夜間派對氛圍。"
+  }
+]

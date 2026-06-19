@@ -17,6 +17,7 @@ class WorkspacePathsTest(unittest.TestCase):
             self.assertEqual(paths["sources"], root / "data" / "sources")
             self.assertEqual(paths["seeds"], root / "data" / "seeds")
             self.assertEqual(paths["derived"], root / "data" / "derived")
+            self.assertEqual(paths["photo_assets"], root / "data" / "photo-assets")
             self.assertEqual(paths["notes"], root / "content" / "venue-notes")
 
     def test_ensure_workspace_layout_creates_all_directories(self) -> None:
@@ -32,6 +33,7 @@ class WorkspacePathsTest(unittest.TestCase):
                     root / "data" / "sources",
                     root / "data" / "seeds",
                     root / "data" / "derived",
+                    root / "data" / "photo-assets",
                     root / "content" / "venue-notes",
                 ],
             )

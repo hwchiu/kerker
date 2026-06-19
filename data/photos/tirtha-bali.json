@@ -1,0 +1,190 @@
+[
+  {
+    "photo_entry_id": "tirtha-bali-photo-venues-overview",
+    "venue_id": "tirtha-bali",
+    "source_id": "tirtha-bali-official-venues",
+    "page_url": "https://tirtha.com/venues/",
+    "image_url_or_gallery_url": "https://tirtha.com/venues/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "chapel-exterior",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "有用的第一站視覺效果，有助於理解兩個場地的概念。"
+  },
+  {
+    "photo_entry_id": "tirtha-bali-photo-chapel-official",
+    "venue_id": "tirtha-bali",
+    "source_id": "tirtha-bali-official-chapel",
+    "page_url": "https://tirtha.com/venues/wedding-chapel/",
+    "image_url_or_gallery_url": "https://tirtha.com/venues/wedding-chapel/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "chapel-interior",
+      "chapel-exterior",
+      "rain-backup-space"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "直接參考室內玻璃教堂的體驗及其防雨特性。"
+  },
+  {
+    "photo_entry_id": "tirtha-bali-photo-glass-stage-official",
+    "venue_id": "tirtha-bali",
+    "source_id": "tirtha-bali-official-glass-stage",
+    "page_url": "https://tirtha.com/venues/glass-stage/",
+    "image_url_or_gallery_url": "https://tirtha.com/venues/glass-stage/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "guest-seating",
+      "floral-setup"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "戲劇性的露天懸崖形式的最佳官方照片來源。"
+  },
+  {
+    "photo_entry_id": "tirtha-bali-photo-glass-house-official",
+    "venue_id": "tirtha-bali",
+    "source_id": "tirtha-bali-official-glass-house",
+    "page_url": "https://tirtha.com/venues/glass-house/",
+    "image_url_or_gallery_url": "https://tirtha.com/venues/glass-house/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "garden-reception",
+      "jungle-view",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "展現了Tirtha故事的後半部：森林般的別墅和晚餐氛圍。"
+  },
+  {
+    "photo_entry_id": "tirtha-bali-photo-reception-official",
+    "venue_id": "tirtha-bali",
+    "source_id": "tirtha-bali-official-reception-only",
+    "page_url": "https://tirtha.com/wedding-package/reception-only/",
+    "image_url_or_gallery_url": "https://tirtha.com/wedding-package/reception-only/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": [
+      "garden-reception",
+      "night-view",
+      "guest-seating"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "對於晚餐佈局以及月光花園和更大的 Tirtha 空間之間的規模差異很重要。"
+  },
+  {
+    "photo_entry_id": "tirtha-bali-photo-bridestory-uluwatu",
+    "venue_id": "tirtha-bali",
+    "source_id": "tirtha-bali-bridestory-uluwatu-gallery",
+    "page_url": "https://www.bridestory.com/tirtha-bali/projects/tirtha-uluwatu",
+    "image_url_or_gallery_url": "https://www.bridestory.com/tirtha-bali/projects/tirtha-uluwatu",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "chapel-interior",
+      "guest-seating",
+      "floral-setup"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "在玻璃教堂儀式設置上添加另一個角度。"
+  },
+  {
+    "photo_entry_id": "tirtha-bali-photo-bridestory-glass-house",
+    "venue_id": "tirtha-bali",
+    "source_id": "tirtha-bali-bridestory-glass-house-gallery",
+    "page_url": "https://www.bridestory.com/tirtha-bali/projects/the-glass-house-wedding",
+    "image_url_or_gallery_url": "https://www.bridestory.com/tirtha-bali/projects/the-glass-house-wedding",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "garden-reception",
+      "rain-backup-space",
+      "public-area"
+    ],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "對於理解玻璃屋如何解讀為戶外場地和有遮蔽的後備環境很有用。"
+  },
+  {
+    "photo_entry_id": "tirtha-bali-photo-real-wedding",
+    "venue_id": "tirtha-bali",
+    "source_id": "tirtha-bali-bridestory-real-wedding",
+    "page_url": "https://www.bridestory.com/tirtha-bali/projects/real-wedding-of-kelly-and-oliver",
+    "image_url_or_gallery_url": "https://www.bridestory.com/tirtha-bali/projects/real-wedding-of-kelly-and-oliver",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "真實的婚禮報道有助於將 Tirtha 的生活經歷與純粹的宣傳形象區分開來。"
+  },
+  {
+    "photo_entry_id": "tirtha-bali-photo-balifortwo-eve",
+    "venue_id": "tirtha-bali",
+    "source_id": "tirtha-bali-balifortwo-eve",
+    "page_url": "https://balifortwo2.com/eve-at-tirtha-uluwatu-for-chapel-wedding-and-reception-at-glass-house-for-30-guests/",
+    "image_url_or_gallery_url": "https://balifortwo2.com/eve-at-tirtha-uluwatu-for-chapel-wedding-and-reception-at-glass-house-for-30-guests/",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "chapel-interior",
+      "garden-reception",
+      "guest-seating"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "外部婚禮部落格的真實案例照片可直接對照水之教堂儀式與 Glass House 晚宴的實際呈現。"
+  },
+  {
+    "photo_entry_id": "tirtha-bali-balifortwo-mariko-johnathon",
+    "venue_id": "tirtha-bali",
+    "source_id": "tirtha-bali-balifortwo-mariko-johnathon",
+    "page_url": "https://balifortwo2.com/mariko-johnathons-wedding-at-tirtha-chapel-and-glass-house/",
+    "image_url_or_gallery_url": "https://balifortwo2.com/mariko-johnathons-wedding-at-tirtha-chapel-and-glass-house/",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "chapel-interior",
+      "chapel-exterior",
+      "ballroom-reception",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "可直接看 Tirtha 教堂到 Glass House 的真實婚禮轉場與夜間氛圍。"
+  },
+  {
+    "photo_entry_id": "tirtha-bali-neverneverland-zh",
+    "venue_id": "tirtha-bali",
+    "source_id": "tirtha-bali-neverneverland-zh",
+    "page_url": "https://neverneverlandinbali.com/wedding/17451-2/",
+    "image_url_or_gallery_url": "https://neverneverlandinbali.com/wedding/17451-2/",
+    "image_type": "blog_feature",
+    "scene_tags": [
+      "chapel-exterior",
+      "cliffside-ceremony",
+      "ballroom-reception"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "中文頁圖片多，適合快速看 Tirtha 各場地的外觀與方案畫面差異。"
+  }
+]
