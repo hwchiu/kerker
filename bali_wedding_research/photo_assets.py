@@ -588,7 +588,7 @@ def copy_photo_assets_for_site(root: Path, output_dir: Path) -> dict[str, list[s
     photo_assets_root = workspace_paths(root)["photo_assets"]
     site_assets_root = output_dir / "assets" / "photos"
     expected_targets: set[Path] = set()
-    candidates: list[tuple[str, Path, Path]] = []
+    asset_copy_tasks: list[tuple[str, Path, Path]] = []
     mapping: dict[str, list[str]] = {}
 
     for item in items:
@@ -608,19 +608,21 @@ def copy_photo_assets_for_site(root: Path, output_dir: Path) -> dict[str, list[s
                 continue
             target_path = site_assets_root / relative_inside_assets
             expected_targets.add(target_path)
-            candidates.append((photo_entry_id, source_path, target_path))
+            asset_copy_tasks.append((photo_entry_id, source_path, target_path))
 
     if site_assets_root.exists():
-        for existing in sorted(site_assets_root.rglob("*"), reverse=True):
+        for existing in site_assets_root.rglob("*"):
             if existing.is_file() and existing not in expected_targets:
                 existing.unlink()
-            elif existing.is_dir():
+        for existing in sorted(site_assets_root.rglob("*"), reverse=True):
+            if existing.is_dir():
                 try:
                     existing.rmdir()
                 except OSError:
-                    pass
+                    # Non-empty directories are expected when preserved assets remain in place.
+                    continue
 
-    for photo_entry_id, source_path, target_path in candidates:
+    for photo_entry_id, source_path, target_path in asset_copy_tasks:
         if source_path.exists():
             target_path.parent.mkdir(parents=True, exist_ok=True)
             copy2(source_path, target_path)
