@@ -5,7 +5,7 @@ from copy import deepcopy
 from pathlib import Path
 from urllib.request import urlopen
 
-from bali_wedding_research.io import write_json_file
+from bali_wedding_research.io import load_json_file, write_json_file
 from bali_wedding_research.paths import ensure_workspace_layout, workspace_paths
 from bali_wedding_research.site import (
     build_site_server,
@@ -229,6 +229,27 @@ class StaticSiteTest(unittest.TestCase):
             self.assertIn(".gallery-preview-hint", site_css)
             self.assertIn("touchstart", site_js)
             self.assertIn("touchend", site_js)
+
+    def test_write_static_site_keeps_photo_sources_visible_without_local_previews(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            paths = self._write_workspace(root)
+            photos_path = paths["photos"] / "example.json"
+            photos = load_json_file(photos_path)
+            for photo in photos:
+                photo["image_url_or_gallery_url"] = photo["page_url"]
+            write_json_file(photos_path, photos)
+            output_dir = root / "site"
+
+            write_static_site(root, output_dir)
+
+            detail_html = (
+                output_dir / "venues" / "example-cliffside-resort.html"
+            ).read_text(encoding="utf-8")
+
+            self.assertIn("gallery-preview-fallback", detail_html)
+            self.assertIn("開啟來源相簿", detail_html)
+            self.assertIn("目前缺少本地快取圖", detail_html)
 
     def test_write_static_site_emits_homepage_toc_and_section_tracking_hooks(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:

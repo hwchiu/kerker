@@ -881,6 +881,33 @@ a {
   letter-spacing: 0.04em;
 }
 
+.gallery-preview-fallback {
+  display: grid;
+  gap: 10px;
+  align-content: end;
+  min-height: 220px;
+  padding: 18px;
+  border: 1px dashed rgba(171, 191, 255, 0.28);
+  border-radius: var(--radius-sm);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(143, 180, 255, 0.08)),
+    radial-gradient(circle at top right, rgba(255, 210, 143, 0.18), transparent 28%);
+  color: var(--hero-ink);
+  text-decoration: none;
+}
+
+.gallery-preview-fallback strong {
+  font-size: 1.05rem;
+}
+
+.gallery-preview-fallback-kicker {
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(224, 233, 255, 0.74);
+}
+
 .gallery-preview-hint {
   margin: -4px 0 0;
   color: var(--muted);
@@ -4182,8 +4209,6 @@ def _photo_gallery_items(
     items: list[dict[str, str]] = []
     for entry in _visible_photo_entries(photo_entries, photo_assets_by_entry, source_lookup):
         preview_urls = _photo_preview_urls(entry, photo_assets_by_entry)
-        if not preview_urls:
-            continue
         source = source_lookup.get(entry["source_id"], {})
         source_name = str(source.get("source_name", entry["photo_entry_id"]))
         source_type_label = SOURCE_TYPE_LABELS.get(
@@ -4208,6 +4233,21 @@ def _photo_gallery_items(
             _badge(source_type_label),
             _badge(decision_label, tone="badge"),
         ] + [_badge(label) for label in scene_labels]
+        if not preview_urls:
+            items.append(
+                {
+                    "url": "",
+                    "title": title,
+                    "summary": "目前缺少本地快取圖，請直接開啟來源頁查看完整相簿。",
+                    "meta": f"{authenticity_label} · {image_type_label} · {source_name}",
+                    "details": str(entry["decision_notes"]),
+                    "badges_html": "".join(badges),
+                    "source_link": str(entry["page_url"]),
+                    "source_name": source_name,
+                    "aria_label": "",
+                }
+            )
+            continue
         for index, url in enumerate(preview_urls, start=1):
             items.append(
                 {
@@ -4235,22 +4275,35 @@ def _render_photo_cards(
     gallery_items = _photo_gallery_items(photo_entries, photo_assets_by_entry, source_lookup)
     if not gallery_items:
         return '<div class="empty-state">目前還沒有整理到可參考的照片來源。</div>'
+    has_preview = any(item["url"] for item in gallery_items)
     cards = []
     for item in gallery_items:
+        if item["url"]:
+            preview = (
+                '<button type="button" class="gallery-preview-button" '
+                f'data-lightbox-image="{escape(item["url"])}" '
+                'data-lightbox-group="venue-gallery" '
+                f'data-lightbox-caption="{escape(item["details"])}" '
+                f'data-lightbox-caption-title="{escape(item["title"])}" '
+                f'data-lightbox-caption-meta="{escape(item["meta"])}" '
+                f'data-lightbox-caption-body="{escape(item["details"])}" '
+                f'aria-label="{escape(item["aria_label"])}">'
+                f'<img class="gallery-preview" src="{escape(item["url"])}" alt="{escape(item["title"])}" loading="lazy">'
+                '<span class="gallery-preview-overlay">查看大圖</span>'
+                "</button>"
+            )
+        else:
+            preview = (
+                f'<a class="gallery-preview-fallback" href="{escape(item["source_link"])}" target="_blank" rel="noreferrer">'
+                '<span class="gallery-preview-fallback-kicker">暫無本地預覽</span>'
+                '<strong>開啟來源相簿</strong>'
+                f'<span>{escape(item["source_name"])}</span>'
+                "</a>"
+            )
         cards.append(
             '<article class="photo-gallery-item">'
-            '<button type="button" class="gallery-preview-button" '
-            f'data-lightbox-image="{escape(item["url"])}" '
-            'data-lightbox-group="venue-gallery" '
-            f'data-lightbox-caption="{escape(item["details"])}" '
-            f'data-lightbox-caption-title="{escape(item["title"])}" '
-            f'data-lightbox-caption-meta="{escape(item["meta"])}" '
-            f'data-lightbox-caption-body="{escape(item["details"])}" '
-            f'aria-label="{escape(item["aria_label"])}">'
-            f'<img class="gallery-preview" src="{escape(item["url"])}" alt="{escape(item["title"])}" loading="lazy">'
-            '<span class="gallery-preview-overlay">查看大圖</span>'
-            "</button>"
-            '<div class="photo-gallery-meta">'
+            + preview
+            + '<div class="photo-gallery-meta">'
             f'<h3 class="photo-gallery-title">{escape(item["title"])}</h3>'
             f'<p class="photo-gallery-summary-text">{escape(item["summary"])}</p>'
             "</div>"
@@ -4265,7 +4318,11 @@ def _render_photo_cards(
     return (
         '<div class="photo-gallery-grid">'
         + "".join(cards)
-        + '</div><p class="gallery-preview-hint">點圖可放大；全部照片會放在同一個 lightbox 內左右切換。</p>'
+        + (
+            '</div><p class="gallery-preview-hint">點圖可放大；全部照片會放在同一個 lightbox 內左右切換。沒有本地快取圖的來源會直接連到原始相簿。</p>'
+            if has_preview
+            else '</div><p class="gallery-preview-hint">目前缺少本地快取圖，請直接開啟來源相簿查看照片。</p>'
+        )
     )
 
 

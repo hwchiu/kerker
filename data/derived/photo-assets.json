@@ -1,4 +1,1355 @@
 {
   "generated_at": "2026-06-20",
-  "items": []
+  "items": [
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-photo-sweetday-majestic-zh",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-sweetday-majestic-zh",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-sweetday-majestic-zh-01.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-sweetday-majestic-zh-02.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-sweetday-majestic-zh-03.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-sweetday-majestic-zh-04.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-sweetday-majestic-zh-05.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-sweetday-majestic-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-photo-weddings-com-tw-portfolio-zh",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-weddings-com-tw-portfolio-zh",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-weddings-com-tw-portfolio-zh-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-weddings-com-tw-portfolio-zh-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-weddings-com-tw-portfolio-zh-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-weddings-com-tw-portfolio-zh-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-weddings-com-tw-portfolio-zh-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-weddings-com-tw-portfolio-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-photo-sweetday-resort-zh",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-sweetday-resort-zh",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-sweetday-resort-zh-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-sweetday-resort-zh-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-sweetday-resort-zh-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-sweetday-resort-zh-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-sweetday-resort-zh-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-sweetday-resort-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-photo-sweetday-water-zh",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-sweetday-water-zh",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-sweetday-water-zh-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-sweetday-water-zh-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-sweetday-water-zh-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-sweetday-water-zh-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-sweetday-water-zh-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-resort-bali-photo-sweetday-water-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-photo-sweetday-tresna-zh",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-sweetday-tresna-zh",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/ayana-bali-photo-sweetday-tresna-zh-01.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-sweetday-tresna-zh-02.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-sweetday-tresna-zh-03.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-sweetday-tresna-zh-04.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-sweetday-tresna-zh-05.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-sweetday-tresna-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-photo-sweetday-water-zh",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-sweetday-water-zh",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-sweetday-water-zh-01.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-sweetday-water-zh-02.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-sweetday-water-zh-03.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-sweetday-water-zh-04.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-sweetday-water-zh-05.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-sweetday-water-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-apurva-kempinski-bali-photo-sweetday-oceanfront-zh",
+      "venue_id": "the-apurva-kempinski-bali",
+      "source_id": "the-apurva-kempinski-bali-sweetday-oceanfront-zh",
+      "asset_paths": [
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-sweetday-oceanfront-zh-01.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-sweetday-oceanfront-zh-02.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-sweetday-oceanfront-zh-03.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-sweetday-oceanfront-zh-04.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-photo-sweetday-cinema-zh",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-sweetday-cinema-zh",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-sweetday-cinema-zh-01.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-sweetday-cinema-zh-02.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-edge-bali-photo-sweetday-zh",
+      "venue_id": "the-edge-bali",
+      "source_id": "the-edge-bali-sweetday-zh",
+      "asset_paths": [
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-sweetday-zh-01.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-sweetday-zh-02.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-sweetday-zh-03.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-sweetday-zh-04.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-sweetday-zh-05.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-sweetday-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-zh",
+      "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+      "source_id": "four-seasons-resort-bali-at-jimbaran-bay-sweetday-zh",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-zh-01.jpeg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-zh-02.jpeg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-zh-03.jpeg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-zh-04.jpeg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-zh-05.jpeg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-zh-06.jpeg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-water-zh",
+      "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+      "source_id": "four-seasons-resort-bali-at-jimbaran-bay-sweetday-water-zh",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-water-zh-01.jpeg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-water-zh-02.jpeg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-water-zh-03.jpeg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-water-zh-04.jpeg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-water-zh-05.jpeg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-water-zh-06.jpeg"
+      ]
+    },
+    {
+      "photo_entry_id": "tirtha-bali-photo-sweetday-uluwatu-zh",
+      "venue_id": "tirtha-bali",
+      "source_id": "tirtha-bali-sweetday-uluwatu-zh",
+      "asset_paths": [
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-sweetday-uluwatu-zh-01.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-sweetday-uluwatu-zh-02.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-sweetday-uluwatu-zh-03.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-sweetday-uluwatu-zh-04.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-sweetday-uluwatu-zh-05.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-sweetday-uluwatu-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-photo-weddingku-felix-ika",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-weddingku-felix-ika",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-weddingku-felix-ika-01.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-weddingku-felix-ika-02.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-weddingku-felix-ika-03.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-weddingku-felix-ika-04.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-weddingku-felix-ika-05.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-weddingku-felix-ika-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-photo-weddingku-stefan-olivia",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-weddingku-stefan-olivia",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-weddingku-stefan-olivia-01.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-weddingku-stefan-olivia-02.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-weddingku-stefan-olivia-03.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-weddingku-stefan-olivia-04.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-weddingku-stefan-olivia-05.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-weddingku-stefan-olivia-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-photo-weddingku-mario-rachel",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-weddingku-mario-rachel",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-weddingku-mario-rachel-01.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-weddingku-mario-rachel-02.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-weddingku-mario-rachel-03.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-weddingku-mario-rachel-04.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-weddingku-mario-rachel-05.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-weddingku-mario-rachel-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-photo-weddingku-utah-rex",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-weddingku-utah-rex",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-weddingku-utah-rex-01.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-weddingku-utah-rex-02.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-weddingku-utah-rex-03.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-weddingku-utah-rex-04.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-weddingku-utah-rex-05.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-weddingku-utah-rex-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-apurva-kempinski-bali-photo-weddingku-felix-debby",
+      "venue_id": "the-apurva-kempinski-bali",
+      "source_id": "the-apurva-kempinski-bali-weddingku-felix-debby",
+      "asset_paths": [
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-weddingku-felix-debby-01.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-weddingku-felix-debby-02.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-weddingku-felix-debby-03.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-weddingku-felix-debby-04.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-weddingku-felix-debby-05.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-weddingku-felix-debby-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-apurva-kempinski-bali-photo-weddingku-martin-clarissa",
+      "venue_id": "the-apurva-kempinski-bali",
+      "source_id": "the-apurva-kempinski-bali-weddingku-martin-clarissa",
+      "asset_paths": [
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-weddingku-martin-clarissa-01.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-weddingku-martin-clarissa-02.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-weddingku-martin-clarissa-03.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-weddingku-martin-clarissa-04.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-weddingku-martin-clarissa-05.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-weddingku-martin-clarissa-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-photo-weddingku-bella-ken",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-weddingku-bella-ken",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/ayana-bali-photo-weddingku-bella-ken-01.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-weddingku-bella-ken-02.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-weddingku-bella-ken-03.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-weddingku-bella-ken-04.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-weddingku-bella-ken-05.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-weddingku-bella-ken-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-photo-weddingku-hendri-winna",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-weddingku-hendri-winna",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/ayana-bali-photo-weddingku-hendri-winna-01.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-weddingku-hendri-winna-02.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-weddingku-hendri-winna-03.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-weddingku-hendri-winna-04.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-weddingku-hendri-winna-05.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-weddingku-hendri-winna-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-photo-theweddingnotebook-tuscany-2026",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-theweddingnotebook-tuscany-2026",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-theweddingnotebook-tuscany-2026-01.webp",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-theweddingnotebook-tuscany-2026-02.webp",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-theweddingnotebook-tuscany-2026-03.webp",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-theweddingnotebook-tuscany-2026-04.webp",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-theweddingnotebook-tuscany-2026-05.webp",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-theweddingnotebook-tuscany-2026-06.webp"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-photo-sweetday-retreat-zh",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-sweetday-retreat-zh",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-sweetday-retreat-zh-01.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-sweetday-retreat-zh-02.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-sweetday-retreat-zh-03.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-sweetday-retreat-zh-04.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-sweetday-retreat-zh-05.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-photo-weddingku-cinema-paradiso-gallery",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-weddingku-cinema-paradiso-gallery",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-cinema-paradiso-gallery-01.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-cinema-paradiso-gallery-02.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-photo-balifortwo-eastern-palace",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-balifortwo-eastern-palace",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-eastern-palace-01.gif",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-eastern-palace-02.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-eastern-palace-03.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-eastern-palace-04.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-eastern-palace-05.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-eastern-palace-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-photo-balifortwo-grand-destiny",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-balifortwo-grand-destiny",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-grand-destiny-01.gif",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-grand-destiny-02.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-grand-destiny-03.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-grand-destiny-04.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-grand-destiny-05.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-grand-destiny-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-photo-ameblo-ja",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-ameblo-ja",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-ameblo-ja-01.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-ameblo-ja-02.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-ameblo-ja-03.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-ameblo-ja-04.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-ameblo-ja-05.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-ameblo-ja-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-edge-bali-photo-kvision-zh",
+      "venue_id": "the-edge-bali",
+      "source_id": "the-edge-bali-kvision-zh",
+      "asset_paths": [
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-kvision-zh-01.png",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-kvision-zh-02.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-kvision-zh-03.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-kvision-zh-04.png",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-kvision-zh-05.png",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-kvision-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-edge-bali-photo-balifortwo-edge-package",
+      "venue_id": "the-edge-bali",
+      "source_id": "the-edge-bali-balifortwo-edge-package",
+      "asset_paths": [
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-edge-package-01.gif",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-edge-package-02.jpeg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-edge-package-03.jpeg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-edge-package-04.jpeg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-edge-package-05.jpeg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-edge-package-06.jpeg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-edge-bali-photo-balifortwo-intimate-package",
+      "venue_id": "the-edge-bali",
+      "source_id": "the-edge-bali-balifortwo-intimate-package",
+      "asset_paths": [
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-intimate-package-01.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-intimate-package-02.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-intimate-package-03.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-intimate-package-04.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-intimate-package-05.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-intimate-package-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-edge-bali-photo-balifortwo-sea-package",
+      "venue_id": "the-edge-bali",
+      "source_id": "the-edge-bali-balifortwo-sea-package",
+      "asset_paths": [
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-01.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-02.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-03.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-04.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-05.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-edge-bali-photo-balifortwo-sky-package",
+      "venue_id": "the-edge-bali",
+      "source_id": "the-edge-bali-balifortwo-sky-package",
+      "asset_paths": [
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-01.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-02.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-03.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-04.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-05.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-edge-bali-photo-weddingku-kelsey-aneesh",
+      "venue_id": "the-edge-bali",
+      "source_id": "the-edge-bali-weddingku-kelsey-aneesh",
+      "asset_paths": [
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-kelsey-aneesh-01.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-kelsey-aneesh-02.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-kelsey-aneesh-03.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-kelsey-aneesh-04.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-kelsey-aneesh-05.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-kelsey-aneesh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-gusmank-2023",
+      "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+      "source_id": "four-seasons-resort-bali-at-jimbaran-bay-gusmank-2023",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-gusmank-2023-01.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-gusmank-2023-02.png",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-gusmank-2023-03.png",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-gusmank-2023-04.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-gusmank-2023-05.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-gusmank-2023-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-happybali-pool-terrace",
+      "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+      "source_id": "four-seasons-resort-bali-at-jimbaran-bay-happybali-pool-terrace",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-happybali-pool-terrace-01.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-happybali-pool-terrace-02.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-happybali-pool-terrace-03.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-happybali-pool-terrace-04.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-happybali-pool-terrace-05.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-happybali-pool-terrace-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-bless-report-k-ja",
+      "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+      "source_id": "four-seasons-resort-bali-at-jimbaran-bay-bless-bali-report-k-ja",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-bless-report-k-ja-01.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-bless-report-k-ja-02.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-bless-report-k-ja-03.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-bless-report-k-ja-04.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-bless-report-k-ja-05.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-bless-report-k-ja-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-bless-report-o-ja",
+      "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+      "source_id": "four-seasons-resort-bali-at-jimbaran-bay-bless-bali-report-o-ja",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-bless-report-o-ja-01.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-bless-report-o-ja-02.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-bless-report-o-ja-03.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-bless-report-o-ja-04.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-bless-report-o-ja-05.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-bless-report-o-ja-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-northwest-travel-zh",
+      "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+      "source_id": "four-seasons-resort-bali-at-jimbaran-bay-northwest-travel-zh",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-northwest-travel-zh-01.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-northwest-travel-zh-02.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-northwest-travel-zh-03.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-northwest-travel-zh-04.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-northwest-travel-zh-05.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-northwest-travel-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "mandapa-a-ritz-carlton-reserve-photo-weddings-com-tw-zh",
+      "venue_id": "mandapa-a-ritz-carlton-reserve",
+      "source_id": "mandapa-a-ritz-carlton-reserve-weddings-com-tw-zh",
+      "asset_paths": [
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-weddings-com-tw-zh-01.jpeg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-weddings-com-tw-zh-02.png",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-weddings-com-tw-zh-03.png",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-weddings-com-tw-zh-04.png",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-weddings-com-tw-zh-05.jpeg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-weddings-com-tw-zh-06.png"
+      ]
+    },
+    {
+      "photo_entry_id": "mandapa-a-ritz-carlton-reserve-photo-gusmank-2024",
+      "venue_id": "mandapa-a-ritz-carlton-reserve",
+      "source_id": "mandapa-a-ritz-carlton-reserve-gusmank-2024",
+      "asset_paths": [
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-gusmank-2024-01.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-gusmank-2024-02.png",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-gusmank-2024-03.png",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-gusmank-2024-04.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-gusmank-2024-05.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-gusmank-2024-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "mandapa-a-ritz-carlton-reserve-photo-cinemotionphoto",
+      "venue_id": "mandapa-a-ritz-carlton-reserve",
+      "source_id": "mandapa-a-ritz-carlton-reserve-cinemotionphoto",
+      "asset_paths": [
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-cinemotionphoto-01.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-cinemotionphoto-02.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-cinemotionphoto-03.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-cinemotionphoto-04.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-cinemotionphoto-05.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-cinemotionphoto-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "hanging-gardens-of-bali-photo-whiteroses-hidden-palace",
+      "venue_id": "hanging-gardens-of-bali",
+      "source_id": "hanging-gardens-of-bali-whiteroses-hidden-palace",
+      "asset_paths": [
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-photo-whiteroses-hidden-palace-01.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-photo-whiteroses-hidden-palace-02.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "hanging-gardens-of-bali-photo-bernadeta-real-wedding",
+      "venue_id": "hanging-gardens-of-bali",
+      "source_id": "hanging-gardens-of-bali-bernadeta-real-wedding",
+      "asset_paths": [
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-photo-bernadeta-real-wedding-01.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-photo-bernadeta-real-wedding-02.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "hanging-gardens-of-bali-photo-cinemotionphoto",
+      "venue_id": "hanging-gardens-of-bali",
+      "source_id": "hanging-gardens-of-bali-cinemotionphoto",
+      "asset_paths": [
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-photo-cinemotionphoto-01.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-photo-cinemotionphoto-02.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-photo-cinemotionphoto-03.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-photo-cinemotionphoto-04.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-photo-cinemotionphoto-05.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-photo-cinemotionphoto-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-photo-weddingku-5-spots",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-weddingku-5-spots",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-5-spots-01.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-5-spots-02.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-5-spots-03.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-5-spots-04.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-5-spots-05.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-5-spots-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-photo-weddingku-devy-stephanie",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-weddingku-devy-stephanie",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-devy-stephanie-01.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-devy-stephanie-02.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-devy-stephanie-03.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-devy-stephanie-04.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-devy-stephanie-05.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-devy-stephanie-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-photo-weddingku-eastern-palace",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-weddingku-eastern-palace",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-eastern-palace-01.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-eastern-palace-02.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-edge-bali-photo-weddingku-viola-fry",
+      "venue_id": "the-edge-bali",
+      "source_id": "the-edge-bali-weddingku-viola-fry",
+      "asset_paths": [
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-viola-fry-01.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-viola-fry-02.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-viola-fry-03.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-viola-fry-04.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-viola-fry-05.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-viola-fry-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-edge-bali-photo-weddingku-ocean-view-blog",
+      "venue_id": "the-edge-bali",
+      "source_id": "the-edge-bali-weddingku-ocean-view-blog",
+      "asset_paths": [
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-ocean-view-blog-01.jpeg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-ocean-view-blog-02.jpeg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-ocean-view-blog-03.jpeg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-ocean-view-blog-04.jpeg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-ocean-view-blog-05.jpeg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-weddingku-ocean-view-blog-06.jpeg"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-photo-bridestory-modern-elegant",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-bridestory-modern-elegant",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-bridestory-modern-elegant-01.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-bridestory-modern-elegant-02.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-bridestory-modern-elegant-03.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-bridestory-modern-elegant-04.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-bridestory-modern-elegant-05.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-bridestory-modern-elegant-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-photo-ctrip",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-ctrip-hotel",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-ctrip-01.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-ctrip-02.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-ctrip-03.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-ctrip-04.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-ctrip-05.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-ctrip-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-photo-tripcom-moments",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-tripcom-moments",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-tripcom-moments-01.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-tripcom-moments-02.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-tripcom-moments-03.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-tripcom-moments-04.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-tripcom-moments-05.jpg",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-photo-tripcom-moments-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-balifortwo-charles-stella",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-balifortwo-charles-stella",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-balifortwo-charles-stella-01.webp",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-balifortwo-charles-stella-02.webp",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-balifortwo-charles-stella-03.webp",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-balifortwo-charles-stella-04.webp",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-balifortwo-charles-stella-05.webp",
+        "data/photo-assets/alila-villas-uluwatu/alila-villas-uluwatu-balifortwo-charles-stella-06.webp"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-photo-tripcom-hk",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-tripcom-hk-hotel",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/ayana-bali-photo-tripcom-hk-01.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-tripcom-hk-02.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-tripcom-hk-03.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-tripcom-hk-04.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-tripcom-hk-05.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-tripcom-hk-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-photo-ctrip-hotel",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-ctrip-hotel",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/ayana-bali-photo-ctrip-hotel-01.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-ctrip-hotel-02.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-ctrip-hotel-03.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-ctrip-hotel-04.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-ctrip-hotel-05.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-photo-ctrip-hotel-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-balifortwo-summer-nicholas",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-balifortwo-summer-nicholas",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/ayana-bali-balifortwo-summer-nicholas-01.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-balifortwo-summer-nicholas-02.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-balifortwo-summer-nicholas-03.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-balifortwo-summer-nicholas-04.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-balifortwo-summer-nicholas-05.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-balifortwo-summer-nicholas-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-neverneverland-zh",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-neverneverland-zh",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/ayana-bali-neverneverland-zh-01.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-neverneverland-zh-02.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-neverneverland-zh-03.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-neverneverland-zh-04.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-neverneverland-zh-05.jpg",
+        "data/photo-assets/ayana-bali/ayana-bali-neverneverland-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-photo-tripcom-hk",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-tripcom-hk-hotel",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-tripcom-hk-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-tripcom-hk-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-tripcom-hk-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-tripcom-hk-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-tripcom-hk-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-tripcom-hk-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-photo-ctrip-hotel",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-ctrip-hotel",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-ctrip-hotel-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-ctrip-hotel-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-ctrip-hotel-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-ctrip-hotel-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-ctrip-hotel-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-ctrip-hotel-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-balifortwo-jeffrey-mag",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balifortwo-jeffrey-mag",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-jeffrey-mag-01.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-jeffrey-mag-02.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-jeffrey-mag-03.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-jeffrey-mag-04.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-jeffrey-mag-05.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-jeffrey-mag-06.webp"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-neverneverland-zh",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-neverneverland-zh",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-neverneverland-zh-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-neverneverland-zh-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-neverneverland-zh-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-neverneverland-zh-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-neverneverland-zh-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-neverneverland-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-photo-balivibes-overview",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balivibes-overview",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balivibes-overview-01.jpeg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balivibes-overview-02.jpeg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balivibes-overview-03.jpeg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-photo-balifortwo-villa",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balifortwo-villa",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-05.jpeg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-photo-balifortwo-la-terrazza",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balifortwo-la-terrazza",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-05.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-photo-suka-zh",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-suka-zh",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-suka-zh-01.png",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-suka-zh-02.png",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-suka-zh-03.png",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-suka-zh-04.png",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-suka-zh-05.png",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-suka-zh-06.png"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-photo-tripcom-hk",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-tripcom-hk-hotel",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-photo-tripcom-hk-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-photo-tripcom-hk-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-photo-tripcom-hk-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-photo-tripcom-hk-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-photo-tripcom-hk-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-photo-tripcom-hk-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-photo-ctrip-hotel",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-ctrip-hotel",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-photo-ctrip-hotel-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-photo-ctrip-hotel-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-photo-ctrip-hotel-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-photo-ctrip-hotel-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-photo-ctrip-hotel-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-photo-ctrip-hotel-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-kaedi-dylan",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-kaedi-dylan",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kaedi-dylan-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kaedi-dylan-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kaedi-dylan-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kaedi-dylan-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kaedi-dylan-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kaedi-dylan-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-neverneverland-zh",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-neverneverland-zh",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-neverneverland-zh-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-neverneverland-zh-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-neverneverland-zh-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-neverneverland-zh-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-neverneverland-zh-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-neverneverland-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-tripcom-hk",
+      "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+      "source_id": "four-seasons-resort-bali-at-jimbaran-bay-tripcom-hk-hotel",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-tripcom-hk-01.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-tripcom-hk-02.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-tripcom-hk-03.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-tripcom-hk-04.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-tripcom-hk-05.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-tripcom-hk-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-hmdays",
+      "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+      "source_id": "four-seasons-resort-bali-at-jimbaran-bay-hmdays-chinese-wedding",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-hmdays-01.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-hmdays-02.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-hmdays-03.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-hmdays-04.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-hmdays-05.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-hmdays-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-neverneverland-zh",
+      "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+      "source_id": "four-seasons-resort-bali-at-jimbaran-bay-neverneverland-zh",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-neverneverland-zh-01.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-neverneverland-zh-02.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-neverneverland-zh-03.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-neverneverland-zh-04.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-neverneverland-zh-05.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-neverneverland-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-bridestory-jonathan-celine",
+      "venue_id": "four-seasons-resort-bali-at-sayan",
+      "source_id": "four-seasons-resort-bali-at-sayan-bridestory-jonathan-celine",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-bridestory-jonathan-celine-01.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-bridestory-jonathan-celine-02.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-bridestory-jonathan-celine-03.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-bridestory-jonathan-celine-04.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-bridestory-jonathan-celine-05.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-bridestory-jonathan-celine-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-tripcom-hk",
+      "venue_id": "four-seasons-resort-bali-at-sayan",
+      "source_id": "four-seasons-resort-bali-at-sayan-tripcom-hk-hotel",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-tripcom-hk-01.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-tripcom-hk-02.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-tripcom-hk-03.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-tripcom-hk-04.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-tripcom-hk-05.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-tripcom-hk-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-sayan-photo-florasay",
+      "venue_id": "four-seasons-resort-bali-at-sayan",
+      "source_id": "four-seasons-resort-bali-at-sayan-florasay-chinese-wedding",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-florasay-01.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-florasay-02.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-florasay-03.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-florasay-04.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-florasay-05.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-photo-florasay-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-sayan-balifortwo-chris-sue",
+      "venue_id": "four-seasons-resort-bali-at-sayan",
+      "source_id": "four-seasons-resort-bali-at-sayan-balifortwo-chris-sue",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-balifortwo-chris-sue-01.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-balifortwo-chris-sue-02.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-balifortwo-chris-sue-03.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-balifortwo-chris-sue-04.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-balifortwo-chris-sue-05.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-balifortwo-chris-sue-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-sayan-florasay-zh",
+      "venue_id": "four-seasons-resort-bali-at-sayan",
+      "source_id": "four-seasons-resort-bali-at-sayan-florasay-zh",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-florasay-zh-01.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-florasay-zh-02.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-florasay-zh-03.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-florasay-zh-04.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-florasay-zh-05.jpg",
+        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-florasay-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "hanging-gardens-photo-tripcom-hk",
+      "venue_id": "hanging-gardens-of-bali",
+      "source_id": "hanging-gardens-tripcom-hk-hotel",
+      "asset_paths": [
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-tripcom-hk-01.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-tripcom-hk-02.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-tripcom-hk-03.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-tripcom-hk-04.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-tripcom-hk-05.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-tripcom-hk-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "hanging-gardens-photo-ctrip-hotel",
+      "venue_id": "hanging-gardens-of-bali",
+      "source_id": "hanging-gardens-ctrip-hotel",
+      "asset_paths": [
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-ctrip-hotel-01.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-ctrip-hotel-02.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-ctrip-hotel-03.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-ctrip-hotel-04.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-ctrip-hotel-05.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-ctrip-hotel-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "hanging-gardens-of-bali-balifortwo-hidden-palace",
+      "venue_id": "hanging-gardens-of-bali",
+      "source_id": "hanging-gardens-of-bali-balifortwo-hidden-palace",
+      "asset_paths": [
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-balifortwo-hidden-palace-01.gif",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-balifortwo-hidden-palace-02.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-balifortwo-hidden-palace-03.png",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-balifortwo-hidden-palace-04.png",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-balifortwo-hidden-palace-05.jpg",
+        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-of-bali-balifortwo-hidden-palace-06.png"
+      ]
+    },
+    {
+      "photo_entry_id": "hilton-bali-resort-photo-bridestory-lia-steve",
+      "venue_id": "hilton-bali-resort",
+      "source_id": "hilton-bali-resort-bridestory-lia-steve",
+      "asset_paths": [
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-bridestory-lia-steve-01.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-bridestory-lia-steve-02.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-bridestory-lia-steve-03.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-bridestory-lia-steve-04.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-bridestory-lia-steve-05.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-bridestory-lia-steve-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "hilton-bali-resort-photo-tripcom-hk",
+      "venue_id": "hilton-bali-resort",
+      "source_id": "hilton-bali-resort-tripcom-hk-hotel",
+      "asset_paths": [
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-tripcom-hk-01.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-tripcom-hk-02.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-tripcom-hk-03.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-tripcom-hk-04.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-tripcom-hk-05.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-tripcom-hk-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "hilton-bali-resort-photo-ctrip",
+      "venue_id": "hilton-bali-resort",
+      "source_id": "hilton-bali-resort-ctrip-hotel",
+      "asset_paths": [
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-ctrip-01.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-ctrip-02.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-ctrip-03.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-ctrip-04.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-ctrip-05.jpg",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-photo-ctrip-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "hilton-bali-resort-balifortwo-jess-henning",
+      "venue_id": "hilton-bali-resort",
+      "source_id": "hilton-bali-resort-balifortwo-jess-henning",
+      "asset_paths": [
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-balifortwo-jess-henning-01.webp",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-balifortwo-jess-henning-02.webp",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-balifortwo-jess-henning-03.webp",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-balifortwo-jess-henning-04.webp",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-balifortwo-jess-henning-05.webp",
+        "data/photo-assets/hilton-bali-resort/hilton-bali-resort-balifortwo-jess-henning-06.webp"
+      ]
+    },
+    {
+      "photo_entry_id": "mandapa-a-ritz-carlton-reserve-photo-tripcom-hk",
+      "venue_id": "mandapa-a-ritz-carlton-reserve",
+      "source_id": "mandapa-a-ritz-carlton-reserve-tripcom-hk-hotel",
+      "asset_paths": [
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-tripcom-hk-01.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-tripcom-hk-02.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-tripcom-hk-03.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-tripcom-hk-04.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-tripcom-hk-05.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-tripcom-hk-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "mandapa-a-ritz-carlton-reserve-photo-bridestory-real-wedding",
+      "venue_id": "mandapa-a-ritz-carlton-reserve",
+      "source_id": "mandapa-a-ritz-carlton-reserve-bridestory-real-wedding",
+      "asset_paths": [
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-bridestory-real-wedding-01.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-bridestory-real-wedding-02.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-bridestory-real-wedding-03.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-bridestory-real-wedding-04.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-bridestory-real-wedding-05.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-photo-bridestory-real-wedding-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "mandapa-a-ritz-carlton-reserve-neverneverland-zh-hotel",
+      "venue_id": "mandapa-a-ritz-carlton-reserve",
+      "source_id": "mandapa-a-ritz-carlton-reserve-neverneverland-zh-hotel",
+      "asset_paths": [
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-neverneverland-zh-hotel-01.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-neverneverland-zh-hotel-02.jpg",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-neverneverland-zh-hotel-03.webp",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-neverneverland-zh-hotel-04.webp",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-neverneverland-zh-hotel-05.webp",
+        "data/photo-assets/mandapa-a-ritz-carlton-reserve/mandapa-a-ritz-carlton-reserve-neverneverland-zh-hotel-06.webp"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-photo-bridestory-store",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-bridestory-store",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-bridestory-store-01.png",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-bridestory-store-02.png",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-bridestory-store-03.png",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-bridestory-store-04.png",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-bridestory-store-05.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-bridestory-store-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-photo-ctrip",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-ctrip-hotel",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-ctrip-01.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-ctrip-02.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-ctrip-03.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-ctrip-04.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-ctrip-05.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-ctrip-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-photo-licheng",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-licheng-chinese-venue",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-licheng-01.png",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-licheng-02.png",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-licheng-03.png",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-licheng-04.png"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-balifortwo-aarunya-50",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-balifortwo-aarunya-50",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-01.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-02.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-03.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-04.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-05.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "six-senses-uluwatu-bali-neverneverland-zh",
+      "venue_id": "six-senses-uluwatu-bali",
+      "source_id": "six-senses-uluwatu-bali-neverneverland-zh",
+      "asset_paths": [
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-neverneverland-zh-01.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-neverneverland-zh-02.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-neverneverland-zh-03.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-neverneverland-zh-04.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-neverneverland-zh-05.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-neverneverland-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-apurva-kempinski-bali-photo-bridestory-project",
+      "venue_id": "the-apurva-kempinski-bali",
+      "source_id": "the-apurva-kempinski-bali-bridestory-project",
+      "asset_paths": [
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-bridestory-project-01.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-bridestory-project-02.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-bridestory-project-03.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-bridestory-project-04.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-bridestory-project-05.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-bridestory-project-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-apurva-kempinski-bali-photo-tripcom-hk",
+      "venue_id": "the-apurva-kempinski-bali",
+      "source_id": "the-apurva-kempinski-bali-tripcom-hk-hotel",
+      "asset_paths": [
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-tripcom-hk-01.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-tripcom-hk-02.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-tripcom-hk-03.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-tripcom-hk-04.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-tripcom-hk-05.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-tripcom-hk-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-apurva-kempinski-bali-photo-ctrip",
+      "venue_id": "the-apurva-kempinski-bali",
+      "source_id": "the-apurva-kempinski-bali-ctrip-hotel",
+      "asset_paths": [
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-ctrip-01.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-ctrip-02.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-ctrip-03.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-ctrip-04.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-ctrip-05.jpg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-ctrip-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-apurva-kempinski-bali-balifortwo-joanne-tien-ho",
+      "venue_id": "the-apurva-kempinski-bali",
+      "source_id": "the-apurva-kempinski-bali-balifortwo-joanne-tien-ho",
+      "asset_paths": [
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-balifortwo-joanne-tien-ho-01.jpeg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-balifortwo-joanne-tien-ho-02.jpeg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-balifortwo-joanne-tien-ho-03.jpeg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-balifortwo-joanne-tien-ho-04.jpeg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-balifortwo-joanne-tien-ho-05.jpeg",
+        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-balifortwo-joanne-tien-ho-06.jpeg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-edge-bali-photo-bridestory-project",
+      "venue_id": "the-edge-bali",
+      "source_id": "the-edge-bali-bridestory-project",
+      "asset_paths": [
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-bridestory-project-01.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-bridestory-project-02.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-bridestory-project-03.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-bridestory-project-04.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-bridestory-project-05.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-bridestory-project-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-edge-bali-photo-tripcom-hk",
+      "venue_id": "the-edge-bali",
+      "source_id": "the-edge-bali-tripcom-hk-hotel",
+      "asset_paths": [
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-tripcom-hk-01.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-tripcom-hk-02.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-tripcom-hk-03.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-tripcom-hk-04.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-tripcom-hk-05.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-tripcom-hk-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-edge-bali-photo-ctrip-hotel",
+      "venue_id": "the-edge-bali",
+      "source_id": "the-edge-bali-ctrip-hotel",
+      "asset_paths": [
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-ctrip-hotel-01.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-ctrip-hotel-02.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-ctrip-hotel-03.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-ctrip-hotel-04.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-ctrip-hotel-05.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-ctrip-hotel-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-edge-bali-balifortwo-elijah-morgan",
+      "venue_id": "the-edge-bali",
+      "source_id": "the-edge-bali-balifortwo-elijah-morgan",
+      "asset_paths": [
+        "data/photo-assets/the-edge-bali/the-edge-bali-balifortwo-elijah-morgan-01.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-balifortwo-elijah-morgan-02.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-balifortwo-elijah-morgan-03.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-balifortwo-elijah-morgan-04.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-balifortwo-elijah-morgan-05.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-balifortwo-elijah-morgan-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-photo-tripcom-hk",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-tripcom-hk-hotel",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-tripcom-hk-01.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-tripcom-hk-02.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-tripcom-hk-03.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-tripcom-hk-04.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-tripcom-hk-05.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-photo-tripcom-hk-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-balifortwo-seaside-chapel",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-balifortwo-seaside-chapel",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-01.webp",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-02.webp",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-03.webp",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-04.jpeg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-05.webp",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-neverneverland-zh",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-neverneverland-zh",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-neverneverland-zh-01.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-neverneverland-zh-02.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-neverneverland-zh-03.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-neverneverland-zh-04.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-neverneverland-zh-05.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-neverneverland-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "tirtha-bali-photo-real-wedding",
+      "venue_id": "tirtha-bali",
+      "source_id": "tirtha-bali-bridestory-real-wedding",
+      "asset_paths": [
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-real-wedding-01.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-real-wedding-02.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-real-wedding-03.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-real-wedding-04.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-real-wedding-05.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-real-wedding-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "tirtha-bali-photo-balifortwo-eve",
+      "venue_id": "tirtha-bali",
+      "source_id": "tirtha-bali-balifortwo-eve",
+      "asset_paths": [
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-01.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-02.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-03.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-04.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-05.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "tirtha-bali-balifortwo-mariko-johnathon",
+      "venue_id": "tirtha-bali",
+      "source_id": "tirtha-bali-balifortwo-mariko-johnathon",
+      "asset_paths": [
+        "data/photo-assets/tirtha-bali/tirtha-bali-balifortwo-mariko-johnathon-01.webp",
+        "data/photo-assets/tirtha-bali/tirtha-bali-balifortwo-mariko-johnathon-02.webp",
+        "data/photo-assets/tirtha-bali/tirtha-bali-balifortwo-mariko-johnathon-03.webp",
+        "data/photo-assets/tirtha-bali/tirtha-bali-balifortwo-mariko-johnathon-04.webp",
+        "data/photo-assets/tirtha-bali/tirtha-bali-balifortwo-mariko-johnathon-05.webp",
+        "data/photo-assets/tirtha-bali/tirtha-bali-balifortwo-mariko-johnathon-06.webp"
+      ]
+    },
+    {
+      "photo_entry_id": "tirtha-bali-neverneverland-zh",
+      "venue_id": "tirtha-bali",
+      "source_id": "tirtha-bali-neverneverland-zh",
+      "asset_paths": [
+        "data/photo-assets/tirtha-bali/tirtha-bali-neverneverland-zh-01.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-neverneverland-zh-02.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-neverneverland-zh-03.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-neverneverland-zh-04.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-neverneverland-zh-05.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-neverneverland-zh-06.jpg"
+      ]
+    }
+  ]
 }
