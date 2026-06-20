@@ -580,6 +580,7 @@ a {
 }
 
 .card-media {
+  position: relative;
   overflow: hidden;
   border: 1px solid rgba(29, 42, 45, 0.08);
   border-radius: var(--radius-lg);
@@ -881,6 +882,33 @@ a {
   letter-spacing: 0.04em;
 }
 
+.gallery-preview-fallback {
+  display: grid;
+  gap: 10px;
+  align-content: end;
+  min-height: 220px;
+  padding: 18px;
+  border: 1px dashed rgba(171, 191, 255, 0.28);
+  border-radius: var(--radius-sm);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(143, 180, 255, 0.08)),
+    radial-gradient(circle at top right, rgba(255, 210, 143, 0.18), transparent 28%);
+  color: var(--hero-ink);
+  text-decoration: none;
+}
+
+.gallery-preview-fallback strong {
+  font-size: 1.05rem;
+}
+
+.gallery-preview-fallback-kicker {
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(224, 233, 255, 0.74);
+}
+
 .gallery-preview-hint {
   margin: -4px 0 0;
   color: var(--muted);
@@ -1116,6 +1144,10 @@ a {
   background: linear-gradient(135deg, rgba(172, 141, 95, 0.24), rgba(39, 71, 63, 0.48));
 }
 
+.preview-media-fallback {
+  display: grid;
+}
+
 .style-card-media::after {
   content: "";
   position: absolute;
@@ -1136,6 +1168,60 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.preview-media-content {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  align-content: end;
+  gap: 12px;
+  min-height: 100%;
+  padding: 22px;
+}
+
+.preview-media-kicker {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(247, 241, 231, 0.78);
+}
+
+.preview-media-note {
+  margin: 0;
+  color: rgba(247, 241, 231, 0.86);
+  line-height: 1.6;
+}
+
+.preview-media-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.preview-media-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 244, 227, 0.24);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--hero-ink);
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
+}
+
+.preview-media-link:hover,
+.preview-media-link:focus-visible {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 244, 227, 0.42);
 }
 
 .style-card-body {
@@ -1220,6 +1306,7 @@ a {
 }
 
 .style-venue-media {
+  position: relative;
   min-height: 100%;
   background: rgba(31, 107, 104, 0.08);
 }
@@ -1842,6 +1929,628 @@ a {
 
   .lightbox-nav.next {
     right: 10px;
+  }
+}
+
+/* 2026 redesign overrides */
+:root {
+  --bg: #08111f;
+  --bg-glow: rgba(105, 139, 255, 0.22);
+  --ink: #eef2ff;
+  --muted: #a6b4d3;
+  --panel: rgba(10, 18, 36, 0.82);
+  --panel-strong: rgba(14, 24, 48, 0.94);
+  --line: rgba(150, 173, 255, 0.14);
+  --line-strong: rgba(173, 195, 255, 0.28);
+  --teal: #8fb4ff;
+  --teal-soft: rgba(143, 180, 255, 0.12);
+  --coral: #ffb5b7;
+  --gold: #ffd28f;
+  --hero-ink: #f7f8ff;
+  --shadow-sm: 0 22px 48px rgba(3, 8, 20, 0.32);
+  --shadow-md: 0 30px 70px rgba(2, 6, 18, 0.42);
+  --shadow-lg: 0 40px 110px rgba(2, 6, 18, 0.56);
+  --radius-xl: 36px;
+  --radius-lg: 28px;
+  --radius-sm: 18px;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 10%, rgba(110, 147, 255, 0.32), transparent 22%),
+    radial-gradient(circle at 88% 6%, rgba(255, 135, 187, 0.2), transparent 24%),
+    radial-gradient(circle at 76% 78%, rgba(101, 231, 203, 0.16), transparent 26%),
+    linear-gradient(180deg, #060c18 0%, #091224 34%, #0d1830 100%);
+}
+
+body::before {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 24%),
+    radial-gradient(circle at 20% 14%, rgba(255, 255, 255, 0.1), transparent 18%),
+    radial-gradient(circle at 82% 22%, rgba(144, 182, 255, 0.14), transparent 18%);
+  opacity: 1;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: auto auto 6% 6%;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(114, 241, 214, 0.14), transparent 68%);
+  filter: blur(16px);
+  pointer-events: none;
+}
+
+.page-shell {
+  width: min(1360px, calc(100vw - 40px));
+  padding: 36px 0 120px;
+}
+
+.hero,
+.detail-hero,
+.surface,
+.page-toc,
+.style-card,
+.venue-card,
+.style-venue-card,
+.gallery-card,
+.source-card,
+.photo-gallery-item,
+.shortlist-card,
+.fit-card,
+.alt-card,
+.status-overview-card,
+.snapshot-card,
+.space-card,
+.card-panel,
+.metric,
+.quick-fact,
+.detail-block,
+.shortlist-item,
+.hero .stat {
+  border-color: rgba(150, 173, 255, 0.14);
+  box-shadow: var(--shadow-sm);
+}
+
+.hero,
+.detail-hero {
+  padding: 56px;
+  background:
+    linear-gradient(135deg, rgba(13, 22, 46, 0.96), rgba(19, 14, 44, 0.92) 58%, rgba(8, 52, 71, 0.9) 100%),
+    radial-gradient(circle at top right, rgba(255, 210, 143, 0.18), transparent 26%);
+  border: 1px solid rgba(171, 191, 255, 0.18);
+  box-shadow: var(--shadow-lg);
+}
+
+.hero::before,
+.detail-hero::before,
+.surface::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  pointer-events: none;
+}
+
+.hero::after,
+.surface::after,
+.detail-hero::after {
+  inset: auto 5% -72px auto;
+  width: 260px;
+  height: 260px;
+  background: radial-gradient(circle, rgba(143, 180, 255, 0.2), transparent 70%);
+}
+
+.surface {
+  margin-top: 28px;
+  padding: 32px;
+  background:
+    linear-gradient(180deg, rgba(13, 21, 41, 0.88), rgba(9, 17, 34, 0.94)),
+    rgba(10, 18, 36, 0.9);
+  border: 1px solid rgba(150, 173, 255, 0.14);
+  backdrop-filter: blur(18px);
+}
+
+.surface + .surface {
+  margin-top: 24px;
+}
+
+.hero-layout {
+  gap: 36px;
+  grid-template-columns: minmax(0, 1.6fr) minmax(320px, 0.8fr);
+  align-items: stretch;
+}
+
+.hero-copy {
+  gap: 8px;
+}
+
+.hero h1,
+.detail-hero h1,
+.section-head h2,
+.venue-card h2,
+.style-card h3 {
+  letter-spacing: -0.04em;
+}
+
+.hero h1,
+.detail-hero h1 {
+  max-width: 10ch;
+  line-height: 0.9;
+}
+
+.hero-panel {
+  align-content: start;
+  padding: 28px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(143, 180, 255, 0.04));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.hero-grid,
+.detail-grid {
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.hero .stat,
+.quick-fact {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(143, 180, 255, 0.04));
+}
+
+.hero .stat strong,
+.quick-fact strong {
+  font-size: 2.1rem;
+}
+
+.eyebrow,
+.card-kicker,
+.detail-kicker,
+.metric dt,
+.control label,
+.style-meta,
+.price-table th,
+.source-table th,
+.compare-table th,
+.toc-current-label {
+  color: rgba(205, 217, 255, 0.78);
+}
+
+.lede,
+.section-head p,
+.hint,
+.subtle,
+.card-subtitle,
+.detail-subtitle,
+.gallery-source-meta,
+.photo-gallery-summary-text,
+.gallery-preview-hint,
+.results-meta,
+.status-meta,
+.gallery-card p,
+.source-card p,
+.summary,
+.style-summary-list dd,
+.metric dd,
+.compare-table td,
+.price-table td,
+.source-table td,
+.photo-gallery-link,
+.empty-state,
+.gallery-empty {
+  color: var(--muted);
+}
+
+.hero .lede,
+.hero .hint,
+.hero .subtle,
+.hero .card-kicker,
+.hero .detail-kicker,
+.hero .eyebrow,
+.hero-rate-note {
+  color: rgba(233, 239, 255, 0.78);
+}
+
+.section-head {
+  align-items: start;
+  margin-bottom: 24px;
+}
+
+.section-head h2 {
+  font-size: clamp(2.3rem, 3.6vw, 3.8rem);
+}
+
+.index-layout {
+  gap: 28px;
+  grid-template-columns: minmax(0, 1fr) 320px;
+}
+
+.page-toc {
+  top: 20px;
+  gap: 22px;
+  padding: 24px;
+  background:
+    linear-gradient(180deg, rgba(17, 27, 52, 0.92), rgba(11, 18, 35, 0.98));
+  border: 1px solid rgba(171, 191, 255, 0.18);
+  box-shadow: var(--shadow-md);
+}
+
+.page-toc-link,
+.quick-link,
+.detail-anchor-link,
+.toggle-chip,
+.compare-detail-link,
+.photo-gallery-link {
+  border-color: rgba(171, 191, 255, 0.18);
+  background: rgba(143, 180, 255, 0.08);
+  color: var(--hero-ink);
+}
+
+.page-toc-link:hover,
+.page-toc-link:focus-visible,
+.quick-link:hover,
+.quick-link:focus-visible,
+.detail-anchor-link:hover,
+.detail-anchor-link:focus-visible,
+.toggle-chip:hover,
+.compare-detail-link:hover,
+.compare-detail-link:focus-visible {
+  background: rgba(143, 180, 255, 0.16);
+  border-color: rgba(201, 214, 255, 0.28);
+}
+
+.page-toc-link.is-active {
+  background: linear-gradient(135deg, #99b9ff, #c4b0ff);
+  border-color: transparent;
+  color: #111a32;
+  box-shadow: 0 14px 30px rgba(111, 144, 255, 0.32);
+}
+
+.toc-current {
+  border-color: rgba(171, 191, 255, 0.16);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.toc-current strong {
+  color: var(--hero-ink);
+}
+
+.control input,
+.control select {
+  border-color: rgba(171, 191, 255, 0.18);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--hero-ink);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.control input::placeholder {
+  color: rgba(198, 210, 246, 0.6);
+}
+
+.control input:focus,
+.control select:focus {
+  outline: 2px solid rgba(153, 185, 255, 0.46);
+}
+
+.advanced-filters,
+.compare-scroll {
+  border-color: rgba(171, 191, 255, 0.18);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.advanced-filters summary {
+  color: var(--hero-ink);
+}
+
+.results-meta {
+  padding-top: 4px;
+}
+
+.style-grid {
+  gap: 18px;
+}
+
+.style-card {
+  position: relative;
+  background:
+    linear-gradient(180deg, rgba(20, 31, 59, 0.94), rgba(13, 22, 42, 0.98));
+  border: 1px solid rgba(171, 191, 255, 0.16);
+}
+
+.style-card::before,
+.venue-card::before,
+.style-venue-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: linear-gradient(90deg, #9cc0ff, #ffcda0, #8ff2df);
+  pointer-events: none;
+}
+
+.style-card:nth-child(2n)::before,
+.venue-card:nth-child(2n)::before {
+  background: linear-gradient(90deg, #8ff2df, #9cc0ff, #c8b3ff);
+}
+
+.style-card:nth-child(3n)::before,
+.venue-card:nth-child(3n)::before {
+  background: linear-gradient(90deg, #ffcda0, #ffb6d9, #9cc0ff);
+}
+
+.style-card-media {
+  min-height: 200px;
+  background:
+    radial-gradient(circle at top right, rgba(255, 205, 160, 0.28), transparent 26%),
+    linear-gradient(135deg, rgba(99, 132, 255, 0.34), rgba(25, 93, 110, 0.52));
+}
+
+.style-card-media::after {
+  background: linear-gradient(180deg, rgba(8, 12, 24, 0.02), rgba(8, 12, 24, 0.76));
+}
+
+.style-card-media-placeholder::before {
+  inset: 20px;
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+.style-card-media.preview-media-fallback {
+  min-height: 200px;
+}
+
+.style-venue-media.preview-media-fallback,
+.card-media.preview-media-fallback {
+  min-height: 220px;
+}
+
+.style-card-body,
+.style-venue-body,
+.gallery-card,
+.source-card,
+.photo-gallery-item,
+.shortlist-card,
+.fit-card,
+.alt-card,
+.status-overview-card,
+.snapshot-card,
+.space-card,
+.detail-block,
+.card-panel,
+.metric,
+.shortlist-item {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(143, 180, 255, 0.02));
+}
+
+.style-card-count,
+.gallery-source-count,
+.chip,
+.badge,
+.shortlist-index,
+.status-pill {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--hero-ink);
+}
+
+.badge {
+  background: rgba(255, 210, 143, 0.16);
+  color: #ffe6c4;
+}
+
+.results-grid {
+  gap: 22px;
+}
+
+.venue-card {
+  overflow: hidden;
+  gap: 20px;
+  padding: 0;
+  background:
+    linear-gradient(180deg, rgba(14, 24, 48, 0.98), rgba(10, 18, 36, 0.98));
+  border: 1px solid rgba(171, 191, 255, 0.14);
+  border-top: 0;
+  box-shadow: var(--shadow-md);
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.venue-card > div,
+.venue-card > p,
+.venue-card > dl,
+.venue-card > article {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.venue-card > :first-child {
+  padding-top: 0;
+}
+
+.venue-card > :last-child {
+  padding-bottom: 24px;
+}
+
+.venue-card:hover,
+.venue-card:focus-within,
+.style-venue-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(201, 214, 255, 0.24);
+  box-shadow: 0 34px 82px rgba(2, 7, 18, 0.55);
+}
+
+.card-media {
+  border: 0;
+  border-radius: calc(var(--radius-lg) - 2px) calc(var(--radius-lg) - 2px) 0 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0));
+}
+
+.card-image {
+  aspect-ratio: 16 / 9;
+  filter: saturate(1.04) contrast(1.02);
+}
+
+.venue-card h2 {
+  font-size: clamp(2rem, 3vw, 2.6rem);
+}
+
+.metric-grid,
+.filter-guide,
+.photo-insight-grid,
+.shortlist-grid,
+.fit-grid,
+.alt-grid {
+  gap: 14px;
+}
+
+.link-button {
+  background: linear-gradient(135deg, #97b8ff, #c7b5ff 54%, #86ecd8);
+  color: #111a32;
+  box-shadow: 0 16px 34px rgba(111, 144, 255, 0.26);
+}
+
+.link-button.secondary {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--hero-ink);
+  border-color: rgba(171, 191, 255, 0.18);
+}
+
+.compare-table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: rgba(18, 28, 55, 0.96);
+  color: rgba(224, 233, 255, 0.84);
+}
+
+.compare-table td {
+  border-bottom-color: rgba(171, 191, 255, 0.1);
+}
+
+.compare-cell-price,
+.decision-value,
+.photo-gallery-summary,
+.photo-gallery-link,
+.compare-detail-link,
+.toc-current strong {
+  color: var(--hero-ink);
+}
+
+.compare-row:nth-child(2n) td {
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.style-venue-card {
+  position: relative;
+  background: linear-gradient(180deg, rgba(14, 24, 48, 0.98), rgba(10, 18, 36, 0.98));
+  border-color: rgba(171, 191, 255, 0.14);
+}
+
+.gallery-card,
+.source-card,
+.photo-gallery-item,
+.advanced-filters,
+.compare-scroll,
+.shortlist-item,
+.empty-state,
+.gallery-empty {
+  border-color: rgba(171, 191, 255, 0.14);
+}
+
+.photo-gallery-item,
+.shortlist-item,
+.empty-state,
+.gallery-empty {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.gallery-preview,
+.style-venue-image {
+  border-color: rgba(171, 191, 255, 0.14);
+}
+
+.lightbox {
+  background: rgba(4, 8, 18, 0.92);
+}
+
+.lightbox-frame {
+  background: rgba(9, 15, 29, 0.96);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+@media (max-width: 980px) {
+  .page-shell {
+    width: min(100vw - 24px, 100%);
+    padding-bottom: 96px;
+  }
+
+  .hero,
+  .detail-hero,
+  .surface {
+    padding: 24px;
+  }
+
+  .index-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .page-toc {
+    top: 12px;
+  }
+
+  .style-grid,
+  .results-grid,
+  .style-section-grid,
+  .shortlist-grid,
+  .fit-grid,
+  .alt-grid,
+  .filter-guide,
+  .photo-insight-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-shell {
+    width: min(100vw - 16px, 100%);
+    padding-top: 16px;
+  }
+
+  .hero,
+  .detail-hero,
+  .surface {
+    padding: 20px;
+    border-radius: 26px;
+  }
+
+  .hero h1,
+  .detail-hero h1 {
+    max-width: none;
+  }
+
+  .venue-card > div,
+  .venue-card > p,
+  .venue-card > dl,
+  .venue-card > article {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .venue-card > :last-child {
+    padding-bottom: 18px;
+  }
+
+  .page-toc,
+  .hero-actions,
+  .detail-anchor-nav,
+  .page-toc-nav,
+  .style-grid {
+    scrollbar-width: none;
   }
 }
 """
@@ -3028,15 +3737,17 @@ def _render_style_nav(entries: list[dict[str, Any]]) -> str:
     cards = []
     for definition in WEDDING_STYLE_DEFINITIONS:
         style_entries = grouped.get(definition["key"], [])
-        cover = ""
-        if style_entries and style_entries[0].get("cover_photo_url"):
-            cover = (
-                '<div class="style-card-media">'
-                f'<img class="style-card-image" src="{escape(str(style_entries[0]["cover_photo_url"]))}" alt="{escape(definition["label"])}代表場地照片" loading="lazy">'
-                "</div>"
+        cover = (
+            _render_preview_media(
+                style_entries[0],
+                container_class="style-card-media",
+                image_class="style-card-image",
+                placeholder_class="style-card-media-placeholder",
+                alt_text=f'{definition["label"]}代表場地照片',
             )
-        else:
-            cover = '<div class="style-card-media style-card-media-placeholder"></div>'
+            if style_entries
+            else '<div class="style-card-media style-card-media-placeholder"></div>'
+        )
         example_items = "".join(
             f"<li>{escape(entry['name_zh'])}</li>"
             for entry in style_entries[:3]
@@ -3101,13 +3812,12 @@ def _render_index_toc(entries: list[dict[str, Any]]) -> str:
 
 
 def _render_style_spotlight(entry: dict[str, Any]) -> str:
-    cover = ""
-    if entry.get("cover_photo_url"):
-        cover = (
-            '<div class="style-venue-media">'
-            f'<img class="style-venue-image" src="{escape(str(entry["cover_photo_url"]))}" alt="{escape(entry["name_zh"])}" loading="lazy">'
-            "</div>"
-        )
+    cover = _render_preview_media(
+        entry,
+        container_class="style-venue-media",
+        image_class="style-venue-image",
+        alt_text=entry["name_zh"],
+    )
     return (
         '<article class="style-venue-card">'
         f"{cover}"
@@ -3370,13 +4080,12 @@ def _render_card(entry: dict[str, Any]) -> str:
         _badge(entry["accommodation_label"]),
         _badge(entry["photo_value_label"], tone="badge"),
     ]
-    cover = ""
-    if entry.get("cover_photo_url"):
-        cover = (
-            '<div class="card-media">'
-            f'<img class="card-image" src="{escape(str(entry["cover_photo_url"]))}" alt="{escape(entry["name_zh"])}" loading="lazy">'
-            "</div>"
-        )
+    cover = _render_preview_media(
+        entry,
+        container_class="card-media",
+        image_class="card-image",
+        alt_text=entry["name_zh"],
+    )
     return (
         '<article class="venue-card">'
         f"{cover}"
@@ -3561,6 +4270,62 @@ def _index_cover_photo_url(
     return None
 
 
+def _index_preview_source(
+    photo_entries: list[dict[str, Any]],
+    photo_assets_by_entry: dict[str, list[str]],
+    source_lookup: dict[str, dict[str, Any]],
+) -> tuple[str | None, str | None]:
+    for entry in _visible_photo_entries(photo_entries, photo_assets_by_entry, source_lookup):
+        source = source_lookup.get(entry["source_id"], {})
+        return str(entry["page_url"]), str(source.get("source_name", "照片來源"))
+    for source in source_lookup.values():
+        return str(source["source_url"]), str(source.get("source_name", "來源頁"))
+    return None, None
+
+
+def _render_preview_media(
+    entry: dict[str, Any],
+    *,
+    container_class: str,
+    image_class: str,
+    placeholder_class: str = "",
+    alt_text: str,
+) -> str:
+    classes = " ".join(
+        part for part in [container_class, placeholder_class, "preview-media-fallback"] if part
+    )
+    if entry.get("cover_photo_url"):
+        return (
+            f'<div class="{escape(container_class)}">'
+            f'<img class="{escape(image_class)}" src="{escape(str(entry["cover_photo_url"]))}" alt="{escape(alt_text)}" loading="lazy">'
+            "</div>"
+        )
+    actions = []
+    if entry.get("preview_source_url"):
+        actions.append(
+            f'<a class="preview-media-link" href="{escape(str(entry["preview_source_url"]))}" target="_blank" rel="noreferrer">照片來源</a>'
+        )
+    if entry.get("official_website"):
+        actions.append(
+            f'<a class="preview-media-link" href="{escape(str(entry["official_website"]))}" target="_blank" rel="noreferrer">官方網站</a>'
+        )
+    if not actions:
+        return f'<div class="{escape(" ".join(part for part in [container_class, placeholder_class] if part))}"></div>'
+    source_name = entry.get("preview_source_name")
+    note = "目前沒有快取照片，可先看來源頁或官方網站。"
+    if source_name:
+        note = f"目前沒有快取照片，可先看 {source_name} 或官方網站。"
+    return (
+        f'<div class="{escape(classes)}">'
+        '<div class="preview-media-content">'
+        '<p class="preview-media-kicker">Preview</p>'
+        f'<p class="preview-media-note">{escape(note)}</p>'
+        f'<div class="preview-media-actions">{"".join(actions)}</div>'
+        "</div>"
+        "</div>"
+    )
+
+
 def _photo_gallery_items(
     photo_entries: list[dict[str, Any]],
     photo_assets_by_entry: dict[str, list[str]],
@@ -3569,8 +4334,6 @@ def _photo_gallery_items(
     items: list[dict[str, str]] = []
     for entry in _visible_photo_entries(photo_entries, photo_assets_by_entry, source_lookup):
         preview_urls = _photo_preview_urls(entry, photo_assets_by_entry)
-        if not preview_urls:
-            continue
         source = source_lookup.get(entry["source_id"], {})
         source_name = str(source.get("source_name", entry["photo_entry_id"]))
         source_type_label = SOURCE_TYPE_LABELS.get(
@@ -3595,6 +4358,21 @@ def _photo_gallery_items(
             _badge(source_type_label),
             _badge(decision_label, tone="badge"),
         ] + [_badge(label) for label in scene_labels]
+        if not preview_urls:
+            items.append(
+                {
+                    "url": "",
+                    "title": title,
+                    "summary": "目前缺少本地快取圖，請直接開啟來源頁查看完整相簿。",
+                    "meta": f"{authenticity_label} · {image_type_label} · {source_name}",
+                    "details": str(entry["decision_notes"]),
+                    "badges_html": "".join(badges),
+                    "source_link": str(entry["page_url"]),
+                    "source_name": source_name,
+                    "aria_label": "",
+                }
+            )
+            continue
         for index, url in enumerate(preview_urls, start=1):
             items.append(
                 {
@@ -3622,22 +4400,35 @@ def _render_photo_cards(
     gallery_items = _photo_gallery_items(photo_entries, photo_assets_by_entry, source_lookup)
     if not gallery_items:
         return '<div class="empty-state">目前還沒有整理到可參考的照片來源。</div>'
+    has_preview = any(item["url"] for item in gallery_items)
     cards = []
     for item in gallery_items:
+        if item["url"]:
+            preview = (
+                '<button type="button" class="gallery-preview-button" '
+                f'data-lightbox-image="{escape(item["url"])}" '
+                'data-lightbox-group="venue-gallery" '
+                f'data-lightbox-caption="{escape(item["details"])}" '
+                f'data-lightbox-caption-title="{escape(item["title"])}" '
+                f'data-lightbox-caption-meta="{escape(item["meta"])}" '
+                f'data-lightbox-caption-body="{escape(item["details"])}" '
+                f'aria-label="{escape(item["aria_label"])}">'
+                f'<img class="gallery-preview" src="{escape(item["url"])}" alt="{escape(item["title"])}" loading="lazy">'
+                '<span class="gallery-preview-overlay">查看大圖</span>'
+                "</button>"
+            )
+        else:
+            preview = (
+                f'<a class="gallery-preview-fallback" href="{escape(item["source_link"])}" target="_blank" rel="noreferrer">'
+                '<span class="gallery-preview-fallback-kicker">暫無本地預覽</span>'
+                '<strong>開啟來源相簿</strong>'
+                f'<span>{escape(item["source_name"])}</span>'
+                "</a>"
+            )
         cards.append(
             '<article class="photo-gallery-item">'
-            '<button type="button" class="gallery-preview-button" '
-            f'data-lightbox-image="{escape(item["url"])}" '
-            'data-lightbox-group="venue-gallery" '
-            f'data-lightbox-caption="{escape(item["details"])}" '
-            f'data-lightbox-caption-title="{escape(item["title"])}" '
-            f'data-lightbox-caption-meta="{escape(item["meta"])}" '
-            f'data-lightbox-caption-body="{escape(item["details"])}" '
-            f'aria-label="{escape(item["aria_label"])}">'
-            f'<img class="gallery-preview" src="{escape(item["url"])}" alt="{escape(item["title"])}" loading="lazy">'
-            '<span class="gallery-preview-overlay">查看大圖</span>'
-            "</button>"
-            '<div class="photo-gallery-meta">'
+            + preview
+            + '<div class="photo-gallery-meta">'
             f'<h3 class="photo-gallery-title">{escape(item["title"])}</h3>'
             f'<p class="photo-gallery-summary-text">{escape(item["summary"])}</p>'
             "</div>"
@@ -3652,7 +4443,11 @@ def _render_photo_cards(
     return (
         '<div class="photo-gallery-grid">'
         + "".join(cards)
-        + '</div><p class="gallery-preview-hint">點圖可放大；全部照片會放在同一個 lightbox 內左右切換。</p>'
+        + (
+            '</div><p class="gallery-preview-hint">點圖可放大；全部照片會放在同一個 lightbox 內左右切換。沒有本地快取圖的來源會直接連到原始相簿。</p>'
+            if has_preview
+            else '</div><p class="gallery-preview-hint">目前缺少本地快取圖，請直接開啟來源相簿查看照片。</p>'
+        )
     )
 
 
@@ -3950,6 +4745,7 @@ def _index_entry(
         "id": venue["id"],
         "name_zh": venue["name_zh"],
         "name_en_official": venue["name_en_official"],
+        "official_website": venue["official_website"],
         "region": venue["region"],
         "subarea": venue["subarea"],
         "venue_types": venue["venue_types"],
@@ -4001,6 +4797,8 @@ def _index_entry(
         "curated_rank": curated_rank,
         "search_text": search_text,
         "cover_photo_url": None,
+        "preview_source_url": None,
+        "preview_source_name": None,
     }
 
 
@@ -4064,6 +4862,14 @@ def _attach_cover_photo_urls(
         }
         updated = dict(entry)
         updated["cover_photo_url"] = _index_cover_photo_url(
+            photos_by_venue.get(entry["id"], []),
+            photo_assets_by_entry,
+            source_lookup,
+        )
+        (
+            updated["preview_source_url"],
+            updated["preview_source_name"],
+        ) = _index_preview_source(
             photos_by_venue.get(entry["id"], []),
             photo_assets_by_entry,
             source_lookup,

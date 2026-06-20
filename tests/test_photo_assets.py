@@ -607,6 +607,55 @@ class PhotoAssetsTest(unittest.TestCase):
             finally:
                 os.chdir(original_cwd)
 
+    def test_copy_photo_assets_for_site_preserves_existing_site_photo_when_source_is_missing(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            ensure_workspace_layout(root)
+            paths = workspace_paths(root)
+            write_json_file(
+                paths["derived"] / "photo-assets.json",
+                {
+                    "generated_at": "2026-06-20",
+                    "items": [
+                        {
+                            "photo_entry_id": "example-photo-1",
+                            "venue_id": "example-cliffside-resort",
+                            "source_id": "example-source",
+                            "asset_paths": [
+                                "data/photo-assets/example-cliffside-resort/example-photo-1.jpg"
+                            ],
+                        }
+                    ],
+                },
+            )
+
+            output_dir = root / "site"
+            preserved_asset = (
+                output_dir
+                / "assets"
+                / "photos"
+                / "example-cliffside-resort"
+                / "example-photo-1.jpg"
+            )
+            stale_asset = preserved_asset.with_name("stale.jpg")
+            preserved_asset.parent.mkdir(parents=True, exist_ok=True)
+            preserved_asset.write_bytes(b"preserved-image-data")
+            stale_asset.write_bytes(b"stale-data")
+
+            mapping = copy_photo_assets_for_site(root, output_dir)
+
+            self.assertEqual(
+                mapping,
+                {
+                    "example-photo-1": [
+                        "../assets/photos/example-cliffside-resort/example-photo-1.jpg"
+                    ]
+                },
+            )
+            self.assertTrue(preserved_asset.exists())
+            self.assertEqual(preserved_asset.read_bytes(), b"preserved-image-data")
+            self.assertFalse(stale_asset.exists())
+
 
 if __name__ == "__main__":
     unittest.main()
