@@ -49,6 +49,23 @@ def _display_price_band(derived_entry: dict[str, Any]) -> str:
 
 def render_venue_note(venue: dict[str, Any], derived_entry: dict[str, Any]) -> str:
     venue_types = ", ".join(venue["venue_types"])
+    quick_scan_rows = [
+        ("地區", venue["region"]),
+        ("場地型態", venue_types),
+        ("價格狀態", venue["pricing_status"]),
+        ("價位帶", _display_price_band(derived_entry)),
+        ("雨備強度", venue["rain_backup_status"]),
+        ("住宿整合", venue["accommodation_fit"]),
+        ("交通風險", venue["traffic_risk_level"]),
+        ("照片參考價值", derived_entry["photo_reference_value_overall"]),
+    ]
+    quick_scan_table = "\n".join(
+        [
+            "| 項目 | 內容 |",
+            "| --- | --- |",
+            *[f"| {label} | {value} |" for label, value in quick_scan_rows],
+        ]
+    )
     best_for = "\n".join(f"- {item}" for item in venue["best_for"])
     not_ideal_for = "\n".join(f"- {item}" for item in venue["not_ideal_for"])
     strengths = "\n".join(f"- {item}" for item in venue["key_strengths"])
@@ -62,14 +79,7 @@ def render_venue_note(venue: dict[str, Any], derived_entry: dict[str, Any]) -> s
     return (
         f"# {venue['name_zh']} ({venue['name_en_official']})\n\n"
         "## 快速判讀\n"
-        f"- 地區：{venue['region']}\n"
-        f"- 場地型態：{venue_types}\n"
-        f"- 價格狀態：{venue['pricing_status']}\n"
-        f"- 價位帶：{_display_price_band(derived_entry)}\n"
-        f"- 雨備強度：{venue['rain_backup_status']}\n"
-        f"- 住宿整合：{venue['accommodation_fit']}\n"
-        f"- 交通風險：{venue['traffic_risk_level']}\n"
-        f"- 照片參考價值：{derived_entry['photo_reference_value_overall']}\n\n"
+        f"{quick_scan_table}\n\n"
         "## 適合誰\n"
         f"{best_for}\n\n"
         "## 不適合誰\n"

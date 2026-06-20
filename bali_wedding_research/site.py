@@ -185,13 +185,27 @@ a {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
+.index-layout {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  align-items: start;
+}
+
+.index-main {
+  min-width: 0;
+}
+
+.index-sidebar {
+  min-width: 0;
+}
+
 .page-toc {
   position: sticky;
   top: 14px;
   z-index: 16;
   display: grid;
   gap: 18px;
-  margin-bottom: 24px;
   padding: 22px 24px;
   background:
     linear-gradient(180deg, rgba(255, 252, 247, 0.96), rgba(250, 244, 236, 0.92));
@@ -238,8 +252,7 @@ a {
 }
 
 .page-toc-nav {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   gap: 10px;
 }
 
@@ -1572,6 +1585,10 @@ a {
   }
 
   .hero-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .index-layout {
     grid-template-columns: 1fr;
   }
 
@@ -3051,19 +3068,6 @@ def _render_style_nav(entries: list[dict[str, Any]]) -> str:
 
 def _render_index_toc(entries: list[dict[str, Any]]) -> str:
     grouped = _entries_by_style(entries)
-    primary_links = [
-        ("style-overview", "場地類型總覽"),
-        ("filter-panel", "條件篩選"),
-        ("compare-section", "全部比較"),
-        ("card-section", "飯店卡片"),
-    ]
-    primary_nav = "".join(
-        '<a class="page-toc-link" '
-        f'href="#{escape(section_id)}" '
-        f'data-section-link="{escape(section_id)}" '
-        f'data-section-label="{escape(label)}">{escape(label)}</a>'
-        for section_id, label in primary_links
-    )
     style_nav = "".join(
         '<a class="page-toc-link" '
         f'href="#style-{escape(definition["key"])}" '
@@ -3077,23 +3081,19 @@ def _render_index_toc(entries: list[dict[str, Any]]) -> str:
         '<section class="surface page-toc" id="page-toc">'
         '<div class="page-toc-head">'
         '<div class="page-toc-title">'
-        '<p class="eyebrow">首頁目錄</p>'
-        "<h2>先定錨，再往下看</h2>"
-        '<p class="summary">這一頁資料很多，但不需要線性讀完；先跳到你要比較的段落，再決定要不要進單一飯店頁。</p>'
+        '<p class="eyebrow">Wedding Types</p>'
+        "<h2>右側類型導覽</h2>"
+        '<p class="summary">先用教堂、叢林、懸崖、水上平台、沙灘等類型定方向，再回頭比價格、雨備與交通。</p>'
         "</div>"
         '<div class="toc-current">'
         '<span class="toc-current-label">目前區塊</span>'
-        '<strong id="tocCurrentLabel">場地類型總覽</strong>'
+        '<strong id="tocCurrentLabel">教堂</strong>'
         "</div>"
         "</div>"
         '<div class="page-toc-groups">'
         '<div class="toc-group">'
-        '<p class="subtle">主章節</p>'
-        f'<nav class="page-toc-nav" aria-label="首頁內容目錄">{primary_nav}</nav>'
-        "</div>"
-        '<div class="toc-group">'
-        '<p class="subtle">場地類型</p>'
-        f'<nav class="page-toc-nav" aria-label="場地類型錨點">{style_nav}</nav>'
+        '<p class="subtle">婚禮類型</p>'
+        f'<nav class="page-toc-nav" aria-label="首頁內容目錄">{style_nav}</nav>'
         "</div>"
         "</div>"
         "</section>"
@@ -4132,7 +4132,8 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         "</div>"
         f'<p class="hint hero-rate-note">{escape(FX_NOTE_TEXT)}</p>'
         "</section>"
-        f"{_render_index_toc(entries)}"
+        '<div class="index-layout">'
+        '<div class="index-main">'
         f"{_render_style_nav(entries)}"
         '<section class="surface" id="filter-panel">'
         '<div class="section-head">'
@@ -4190,6 +4191,11 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         '<div id="emptyState" class="empty-state" hidden>目前沒有場地符合這組篩選條件。</div>'
         "</section>"
         f"{_render_style_sections(entries)}"
+        "</div>"
+        '<aside class="index-sidebar">'
+        f"{_render_index_toc(entries)}"
+        "</aside>"
+        "</div>"
         f'<script id="venue-data" type="application/json">{_safe_json(entries)}</script>'
         '<script src="assets/site.js"></script>'
         "</main>"
