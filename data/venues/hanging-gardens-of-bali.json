@@ -34,9 +34,9 @@
   "supports_buyout": true,
   "supports_micro_wedding": true,
   "guest_capacity_ceremony_min": 2,
-  "guest_capacity_ceremony_max": 100,
+  "guest_capacity_ceremony_max": 50,
   "guest_capacity_dinner_min": 10,
-  "guest_capacity_dinner_max": 100,
+  "guest_capacity_dinner_max": 50,
   "recommended_guest_size_band": "21-50",
   "pricing_status": "public_price_available",
   "price_entries": [
@@ -56,6 +56,17 @@
   ],
   "price_summary_text": "公共套餐可見度存在，但仍主要以印尼盾和套餐為主導：目前的 Bridestory 店面展示儀式和招待晚宴，價格為 166,250,000 印尼盾，可供 30 名至 50 名客人使用，還提供最多可容納 100 名客人的隱藏宮殿套餐。",
   "price_risk_level": "high",
+  "current_status": {
+    "level": "normal",
+    "headline": "官方頁面目前仍主打 Hidden Palace 五房私人莊園與婚禮頁，未見近期停業公告",
+    "summary": "截至 2026-06-20，官方婚禮頁、Hidden Palace 主頁與 5-bedroom full private estate 頁面都仍可正常查詢。這代表 Hidden Palace 不是過時的舊婚禮素材，而是目前仍被官方當作獨立私人莊園產品呈現；若你想比較叢林包場婚禮，這條線應視為現行可評估選項，而不是歷史案例。",
+    "checked_at": "2026-06-20",
+    "source_ids": [
+      "hanging-gardens-of-bali-official-status-weddings-2026-06-20",
+      "hanging-gardens-of-bali-official-status-hidden-palace-2026-06-20",
+      "hanging-gardens-of-bali-official-status-hidden-palace-estate-2026-06-20"
+    ]
+  },
   "rain_backup_status": "medium",
   "has_indoor_backup": true,
   "has_covered_backup": true,
@@ -73,18 +84,76 @@
   "restriction_level": "medium",
   "noise_cutoff_notes": "確認當前的晚餐和放大的音樂截止；該場所的優勢在於浪漫的叢林用餐，而不是深夜派對的規模。",
   "external_vendor_policy": "儘早確認外部規劃師、花店、生產和樂隊訪問，因為偏遠叢林的交付和設置限制可能會影響供應商的選擇。",
-  "minimum_stay_requirement_notes": "顯然，沒有明確規定一攬子最低入住天數，但隱密宮殿式的婚禮應確認是否必須強制購買地產過夜。",
-  "minimum_spend_notes": "公開定價是套餐主導的，而不是僅場地租賃的，因此請根據您的確切客人數量索取詳細的食物、飲料和最低設置。",
+  "minimum_stay_requirement_notes": "主 resort 的 intimate wedding 不一定強制包場，但 Hidden Palace 線明顯更像住宿綁定產品；White Roses 頁面甚至直接把兩晚 Emperor Suite 住宿寫進 package 脈絡。",
+  "minimum_spend_notes": "若想使用最 iconic 的 infinity pool wedding，婚顧頁直接提到會牽動更高的 F&B 與 room stay 門檻，因此不能把主 resort intimate package 和 Hidden Palace / infinity pool 線混成同一個價格層。 ",
   "drone_policy_notes": "在進行空中覆蓋之前，請確認當前無人機可以進入主泳池、寺廟景觀走廊和茂密的叢林樹冠周圍。",
   "family_child_notes": "非常適合成人為主的私人婚禮，但有小孩或老人的家庭應仔細檢查樓梯、濕度和較長的轉移時間。",
   "religious_or_space_use_notes": "該場地擅長舉辦象徵性、誓言更新和親密的慶祝活動；合法的儀式程序和任何與寺廟相鄰的敏感問題都應直接確認。",
-  "operational_constraints_notes": "偏遠的叢林通道、海拔變化以及對室外水和叢林空間的依賴，使得這裡的好天氣計劃比平坦的峇里島度假村更重要。",
+  "operational_constraints_notes": "偏遠的叢林通道、海拔變化以及對室外水和叢林空間的依賴，使得這裡的好天氣計劃比平坦的峇里島度假村更重要；此外，Hidden Palace 目前已被官方當作獨立私人莊園持續主打，詢價時要把主 resort intimate 線與莊園包場線分開談。",
   "style_tags": [
     "jungle",
     "floating-stage",
     "private-estate",
     "romantic",
     "retreat"
+  ],
+  "wedding_spaces": [
+    {
+      "space_id": "floating-pool-stage",
+      "label": "雙層無邊際泳池浮台",
+      "space_types": [
+        "water-platform",
+        "floating-stage"
+      ],
+      "privacy_level": "semi-private",
+      "event_scope": "ceremony_only",
+      "capacity_summary_text": "主 resort 版本更適合 2 至 20 人的 intimate ceremony；超過這個範圍就很容易失去空間平衡。",
+      "price_summary_text": "是 Hanging Gardens 最 iconic 的畫面，但不一定等於最容易執行或最能容納賓客的方案。",
+      "backup_summary_text": "遇雨很難維持同等級視覺，通常要退回室內或 covered lounge 線，這是此場地最大的風險之一。",
+      "decision_notes": "如果你就是為了『漂浮在叢林中的泳池婚禮』而來，這個空間會非常有吸引力，但它偏向照片導向而非大人數導向。"
+    },
+    {
+      "space_id": "infinity-lounge-valley-terrace",
+      "label": "Infinity Lounge / Valley Terrace 山谷露台",
+      "space_types": [
+        "jungle-lounge",
+        "terrace"
+      ],
+      "privacy_level": "semi-private",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "大多更適合 10 至 20 人，作為 blessing ceremony、小型 dinner 或延伸酒會。",
+      "price_summary_text": "比浮台更務實，對真正要吃晚餐、聊天與保留儀式節奏的人通常更友善。",
+      "backup_summary_text": "雖然仍受天候影響，但比直接站在泳池浮台上更容易轉換到 covered zone。",
+      "decision_notes": "如果你喜歡叢林感，但不想一切都押在最極端的浮台畫面，這條線通常更平衡。"
+    },
+    {
+      "space_id": "riverside-platform",
+      "label": "Riverside Platform 河畔平台",
+      "space_types": [
+        "riverside",
+        "platform"
+      ],
+      "privacy_level": "private",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "偏 elopement 到 very intimate wedding，約 2 至 12 人最自然。",
+      "price_summary_text": "不是高聲量的大場景，但更容易做出沉浸式 jungle retreat 婚禮體驗。",
+      "backup_summary_text": "受濕度、地面與降雨影響大，遇天候風險時通常要回到 villa 或 indoor lounge 線。",
+      "decision_notes": "適合把婚禮做成靜謐、近乎私密儀式，而不是親友很多的慶祝活動。"
+    },
+    {
+      "space_id": "hidden-palace-private-estate",
+      "label": "Hidden Palace 私人莊園",
+      "space_types": [
+        "private-estate",
+        "villa-buyout"
+      ],
+      "privacy_level": "buyout_required",
+      "event_scope": "buyout_event",
+      "capacity_summary_text": "20 至 50 人最有機會成立完整 ceremony + dinner + stay 的一站式叢林婚禮。",
+      "price_summary_text": "和主 resort 的 intimate package 不是同一產品；如果你想用更完整的莊園隱私感，幾乎一定會牽動住宿與更高的 minimum spend。",
+      "backup_summary_text": "比主 resort 浮台更有可能退到莊園室內區域，因此雨備穩定度相對更高。",
+      "decision_notes": "如果你真正要的是『叢林私人莊園婚禮』而不只是拍一組浮台照片，Hidden Palace 才是正確比較對手。"
+    }
   ],
   "price_band_normalized": null,
   "best_for": [
@@ -109,7 +178,7 @@
   ],
   "data_completeness": "comparable_core_complete",
   "research_status": "deep_research_complete",
-  "last_verified_at": "2026-06-18",
+  "last_verified_at": "2026-06-20",
   "data_freshness": "recent",
   "open_questions": [
     "確認目前泳池舞台儀式和晚宴佈置的室內防雨計畫流程。",
@@ -131,7 +200,14 @@
     "hanging-gardens-bridestory-hidden-palace-wedding",
     "hanging-gardens-tripcom-hk-hotel",
     "hanging-gardens-ctrip-hotel",
-    "hanging-gardens-of-bali-balifortwo-hidden-palace"
+    "hanging-gardens-of-bali-balifortwo-hidden-palace",
+    "hanging-gardens-of-bali-venuereport",
+    "hanging-gardens-of-bali-whiteroses-hidden-palace",
+    "hanging-gardens-of-bali-bernadeta-real-wedding",
+    "hanging-gardens-of-bali-cinemotionphoto",
+    "hanging-gardens-of-bali-official-status-weddings-2026-06-20",
+    "hanging-gardens-of-bali-official-status-hidden-palace-2026-06-20",
+    "hanging-gardens-of-bali-official-status-hidden-palace-estate-2026-06-20"
   ],
   "photo_index_id": "hanging-gardens-of-bali"
 }

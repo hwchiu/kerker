@@ -77,9 +77,61 @@
       "includes_tax_service": false,
       "conditions_text": "公共懸崖婚禮套餐最多可容納 30 位賓客，並可在三臥室別墅住宿一晚。",
       "confidence": "high"
+    },
+    {
+      "label": "The Intimate Wedding（最多 10 位賓客）",
+      "currency": "IDR",
+      "amount_min": 68000000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": true,
+      "includes_decoration": true,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "Bali For Two 公開 package page 顯示 ceremony 與 reception 都在 The Villa，並綁 1 晚 1-bedroom 住宿。",
+      "confidence": "medium"
+    },
+    {
+      "label": "The Sea Wedding（最多 50 位賓客）",
+      "currency": "IDR",
+      "amount_min": 326000000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": true,
+      "includes_decoration": true,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "Bali For Two 公開 package page 顯示 ceremony 在 The Villa、reception 在 The Venue，並綁 1 晚 The Villa + 2 晚 5-bedroom villa。",
+      "confidence": "medium"
+    },
+    {
+      "label": "The Sky Wedding（最多 100 位賓客）",
+      "currency": "IDR",
+      "amount_min": 492000000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": true,
+      "includes_decoration": true,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "Bali For Two 公開 package page 顯示 ceremony 在 The Villa、reception 在 The Venue，並綁 1 晚 5-bedroom villa + 1 晚 3-bedroom villa。",
+      "confidence": "medium"
+    },
+    {
+      "label": "The Edge Wedding（大型 cliff package）",
+      "currency": "IDR",
+      "amount_min": 725000000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": true,
+      "includes_decoration": true,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "Bali For Two package page 的 published rate，對應 2 晚 10 間房與大型 cliff-front celebration。",
+      "confidence": "medium"
     }
   ],
-  "price_summary_text": "The Edge 是目前最容易找到公開價格的懸崖別墅婚禮場地之一：公開起點約為 9,000 美元（30 位賓客）；另有可見方案頁顯示，Intimate Wedding 約為 IDR 71,500,000（最多 10 位賓客），Nearest & Dearest Cliff Wedding 約為 IDR 132,000,000（最多 30 位賓客）。",
+  "price_summary_text": "The Edge 的公開價格帶已能看到從 micro wedding 到大型 cliff package 的階梯：小型 Intimate 約 IDR 68,000,000 起，30 人級 cliff wedding 約 IDR 132,000,000，50 人 Sea Wedding 約 IDR 326,000,000，100 人 Sky Wedding 約 IDR 492,000,000，而大型 The Edge Wedding published rate 約 IDR 725,000,000。",
   "price_risk_level": "low",
   "rain_backup_status": "medium",
   "has_indoor_backup": true,
@@ -98,8 +150,8 @@
   "restriction_level": "high",
   "noise_cutoff_notes": "確認確切的戶外音樂截止時間，以及在不違反社區或別墅規則的情況下可以繼續深夜活動的地點（如果有）。",
   "external_vendor_policy": "該莊園經過精心策劃，以豪華為主導，因此外部規劃、娛樂、生產和花店許可應儘早與進入窗口一起確認。",
-  "minimum_stay_requirement_notes": "公共套餐通常包括一晚或兩晚別墅住宿，因此整體婚禮定價應與強制性住宿價格分開。",
-  "minimum_spend_notes": "套餐範圍在親密的別墅形式和更大的懸崖慶祝活動之間急劇變化，因此如果沒有完整的包含表，僅場地的數字可能會產生誤導。",
+  "minimum_stay_requirement_notes": "The Edge 的 package 幾乎都把房晚綁進產品本體，只是強度不同：Intimate 是 1 晚 1-bedroom、Sea Wedding 是 The Villa + 5-bedroom villa、Sky Wedding 是 5-bedroom + 3-bedroom villa，而大型 The Edge Wedding 甚至直接綁 2 晚 10 間房。",
+  "minimum_spend_notes": "真正的比較不是單看場租，而是要看你落在哪一條容量線。從 10 人 intimate、50 人 Sea、100 人 Sky 到大型 The Edge Wedding，F&B、住宿和製作規模會一起跳級。",
   "drone_policy_notes": "空中泳池和懸崖邊緣空間是明顯的無人機目標，但應儘早安排批准，因為隱私和風力條件可能受到嚴格管理。",
   "family_child_notes": "最適合成人團體或嚴格管理的家庭活動；懸崖邊緣和高級別墅佈局不如綜合家庭度假村寬容。",
   "religious_or_space_use_notes": "象徵性世俗目的地婚禮的優勢最強，而不是基於教堂的正式宗教儀式。",
@@ -111,6 +163,64 @@
     "sky-pool",
     "private-buyout",
     "celebrity-favorite"
+  ],
+  "wedding_spaces": [
+    {
+      "space_id": "the-edge-signature-cliff-wedding",
+      "label": "The Edge Signature 懸崖婚禮",
+      "space_types": [
+        "cliffside",
+        "lawn"
+      ],
+      "privacy_level": "shared",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "官方大型婚禮頁寫到最多約 150 位，但婚顧 package page 把整體 celebration frame 拉到 200 至 250 位等級；若要超過官方上限，必須直接向場地方核實。",
+      "price_summary_text": "這條線不是用 intimate 套餐的思路在看。婚顧頁的 published rate 約 IDR 725,000,000，並綁 2 晚 10 間房／20 位 in-house guest。",
+      "backup_summary_text": "遇雨可退回別墅室內與 covered areas，但無法保留同樣的懸崖大場面視覺。",
+      "decision_notes": "如果你們要的是 The Edge 最標誌性的大片懸崖感，先看這條，而且要同時問清楚 The One / The Palms / The Venue 這些大型流程的實際搭配方式。"
+    },
+    {
+      "space_id": "the-sky-wedding",
+      "label": "The Sky Wedding 天際線儀式",
+      "space_types": [
+        "cliffside",
+        "rooftop"
+      ],
+      "privacy_level": "semi-private",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "公開 package page 直接寫到最多約 100 位，且住宿綁法是 1 晚 5-bedroom villa + 1 晚 3-bedroom villa，屬明確的中大型 cliff 線。",
+      "price_summary_text": "公開 package 約 IDR 492,000,000，比最大型 The Edge Wedding 更像高辨識度的 boutique cliff format，但仍是完整 wedding line。",
+      "backup_summary_text": "仍屬高度戶外暴露型，雨天多半回到別墅室內與遮蔽區，不會是等值替代。",
+      "decision_notes": "如果你在意畫面辨識度大於最極限桌數，The Sky 常比最大型草坪更值得先問。"
+    },
+    {
+      "space_id": "the-sea-wedding",
+      "label": "The Sea Wedding 海景中型婚禮",
+      "space_types": [
+        "cliffside",
+        "villa-buyout"
+      ],
+      "privacy_level": "semi-private",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "公開 package 直接寫到最多約 50 位，且流程是 ceremony at The Villa、reception at The Venue，屬很清楚的中型 cliff wedding 線。",
+      "price_summary_text": "公開 package 約 IDR 326,000,000；常是最容易拿來和其他 cliff venue 中型方案正面比較的版本。",
+      "backup_summary_text": "遇雨仍要依賴別墅室內與 covered areas，因此雨備比 ballroom 型飯店弱，但比純草坪穩一些。",
+      "decision_notes": "如果你們賓客大約落在 30 至 50 位，The Sea 往往比最小或最大方案更有比較價值，因為房晚綁定與流程都很明確。"
+    },
+    {
+      "space_id": "intimate-villa-wedding",
+      "label": "Intimate Villa Wedding 私宅小型婚禮",
+      "space_types": [
+        "villa-buyout",
+        "cliffside"
+      ],
+      "privacy_level": "private",
+      "event_scope": "buyout_event",
+      "capacity_summary_text": "Bridestory 與 Bali For Two 都指向最多約 10 位，並綁 1 晚 villa stay，是最容易落地的私宅版本。",
+      "price_summary_text": "公開起點約 IDR 68,000,000 至 71,500,000，屬入門版 The Edge wedding，但住宿與私密體驗已經綁在一起。",
+      "backup_summary_text": "雨天多半直接轉回 villa 室內與 private dining 邏輯，執行上比大場面戶外婚禮更可控。",
+      "decision_notes": "如果你們重視私密感、住宿體驗與小規模儀式，不一定要衝最大的 cliff package。"
+    }
   ],
   "price_band_normalized": null,
   "best_for": [
@@ -135,12 +245,13 @@
   ],
   "data_completeness": "comparable_core_complete",
   "research_status": "needs_price_followup",
-  "last_verified_at": "2026-06-19",
+  "last_verified_at": "2026-06-20",
   "data_freshness": "recent",
   "open_questions": [
-    "確認每個套餐系列的正式防雨計劃，尤其是 The Sky 和 ​​The Edge Wedding。",
+    "確認每個套餐系列的正式防雨計劃，尤其是 The Sky 和 The Edge Wedding。",
     "確認當前的音樂、無人機和外部供應商規則以及任何深夜限制。",
-    "確認莊園目前別墅組合的最新有效隔夜睡眠容量。"
+    "確認莊園目前別墅組合的最新有效隔夜睡眠容量。",
+    "確認官方頁公開上限與婚顧 package page 提到的 200 至 250 位 celebration 差異，目前是否仍成立。"
   ],
   "source_ids": [
     "the-edge-bali-official-resort",
@@ -162,7 +273,15 @@
     "the-edge-bali-ctrip-hotel",
     "the-edge-bali-balifortwo-elijah-morgan",
     "the-edge-bali-weddings-com-tw-zh",
-    "the-edge-bali-sweetday-zh"
+    "the-edge-bali-sweetday-zh",
+    "the-edge-bali-weddingku-viola-fry",
+    "the-edge-bali-weddingku-ocean-view-blog",
+    "the-edge-bali-kvision-zh",
+    "the-edge-bali-balifortwo-edge-package",
+    "the-edge-bali-balifortwo-intimate-package",
+    "the-edge-bali-balifortwo-sea-package",
+    "the-edge-bali-balifortwo-sky-package",
+    "the-edge-bali-weddingku-kelsey-aneesh"
   ],
   "photo_index_id": "the-edge-bali"
 }

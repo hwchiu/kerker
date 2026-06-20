@@ -1,0 +1,32 @@
+[
+  {
+    "source_id": "six-senses-uluwatu-bali-official-status-en-2026-06-20",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "official",
+    "source_name": "Six Senses Indonesia 官方營運狀態頁",
+    "source_url": "https://www.sixsenses.com/en/hotels-resorts/asia-the-pacific/indonesia/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "restrictions"
+    ],
+    "reliability_notes": "官方印尼總覽頁直接顯示 Six Senses Uluwatu, Bali 的暫時關閉公告，適合作為近期營運狀態依據。",
+    "raw_excerpt_summary": "官方頁面標示度假村自 2026-02-01 起暫時關閉，將進行一段 thoughtful transformation。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-official-status-zh-2026-06-20",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "official",
+    "source_name": "六善中文官網 烏魯瓦圖頁面營運狀態",
+    "source_url": "https://www.sixsenses.com/zh/hotels-resorts/asia-the-pacific/indonesia/uluwatu-bali/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "restrictions"
+    ],
+    "reliability_notes": "中文官網同樣標出暫時關閉公告，可作為中文使用者核對現況的直接來源。",
+    "raw_excerpt_summary": "中文頁面同樣標示峇里島烏魯瓦圖六善酒店自 2026-02-01 起暫時關閉，進行轉型更新。"
+  }
+]

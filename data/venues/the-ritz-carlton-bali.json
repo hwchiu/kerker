@@ -102,6 +102,63 @@
     "suite-and-villa",
     "family-luxury"
   ],
+  "wedding_spaces": [
+    {
+      "space_id": "majestic-chapel",
+      "label": "Majestic Chapel 玻璃教堂",
+      "space_types": [
+        "chapel"
+      ],
+      "privacy_level": "shared",
+      "event_scope": "ceremony_only",
+      "capacity_summary_text": "是麗思卡爾頓最經典的儀式主場，公開方案常以小至中型教堂婚禮作基準切入。",
+      "price_summary_text": "若你們把教堂感、長輩接受度與雨備穩定放第一順位，Majestic Chapel 往往最容易進 shortlist。",
+      "backup_summary_text": "本身就是室內／半室內式的儀式核心，因此比純戶外懸崖或海灘形式更穩。",
+      "decision_notes": "適合重視經典峇里島玻璃教堂氛圍的人；缺點是私密度與設計感不會像 boutique cliff estate 那麼強烈。"
+    },
+    {
+      "space_id": "chapel-lawn",
+      "label": "Chapel Lawn 教堂草坪晚宴",
+      "space_types": [
+        "lawn",
+        "chapel"
+      ],
+      "privacy_level": "semi-private",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "歷史公開方案常見到 Majestic Chapel 搭配 Chapel Lawn 的約 30 人版本，適合小至中型的典型 Ritz 流程。",
+      "price_summary_text": "屬於最容易理解的『教堂儀式＋戶外晚宴』組合，拿來和其他教堂型飯店比較很有效。",
+      "backup_summary_text": "遇雨時可回到教堂與室內宴會空間邏輯，比純草坪晚宴更有後手。",
+      "decision_notes": "如果你們要的是經典教堂婚禮流程，而不是超大型 cliff party，這條線通常最直觀。"
+    },
+    {
+      "space_id": "cliff-lawn",
+      "label": "Cliff Lawn 懸崖大型晚宴",
+      "space_types": [
+        "cliffside",
+        "lawn"
+      ],
+      "privacy_level": "shared",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "公開 reception 資料直接把 Cliff Lawn 拉到最多約 400 位，是 Ritz 做大桌數的核心場地。",
+      "price_summary_text": "一旦走到 Cliff Lawn 等級，預算就不只是教堂 package，而是大型戶外宴會、燈光音響與交通接待總和。",
+      "backup_summary_text": "優勢是同館可退到 ballroom 與其他室內活動空間，不至於只剩餐廳級雨備。",
+      "decision_notes": "需要大桌數、家族型婚禮或正式晚宴規模時，Ritz 的 Cliff Lawn 是它和 boutique cliff venue 拉開差距的地方。"
+    },
+    {
+      "space_id": "beachfront-ceremony",
+      "label": "Beachfront / Seaside Lawn 海景儀式線",
+      "space_types": [
+        "beach",
+        "lawn"
+      ],
+      "privacy_level": "shared",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "婚禮頁與第三方方案都顯示 Ritz 不只做教堂，也能走更輕鬆的海灘或 seaside lawn wedding 節奏。",
+      "price_summary_text": "通常比大型 Cliff Lawn 更像度假感婚禮，但仍要確認是否搭配教堂、草坪或純海灘流程。",
+      "backup_summary_text": "一樣可回到度假村室內空間，不過一旦離開海灘主畫面，氛圍差距會比教堂線更明顯。",
+      "decision_notes": "如果你們喜歡 Ritz 的住宿與服務，但不想被教堂感綁死，海景草坪線值得單獨比較。"
+    }
+  ],
   "price_band_normalized": null,
   "best_for": [
     "想要舉辦經典峇里島玻璃教堂婚禮並擁有更強大的大型活動後勤服務的情侶",

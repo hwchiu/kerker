@@ -1,6 +1,7 @@
 import os
 import tempfile
 import unittest
+from datetime import date
 from pathlib import Path
 
 from bali_wedding_research.io import load_json_file, write_json_file
@@ -119,6 +120,40 @@ class PhotoAssetsTest(unittest.TestCase):
             ],
         )
 
+    def test_extract_candidate_image_urls_supports_weddingku_article_images(self) -> None:
+        html = """
+        <img src="https://images.weddingku.com/images/upload/articles/images/uyp0sfe66mto42120221630.jpg">
+        <img src="https://images.weddingku.com/images/upload/articles/images682/uyp0sfe66mto42120221630.jpg">
+        <img src="https://images.weddingku.com/images/noimage-largehorizontal.jpg">
+        """
+
+        urls = extract_candidate_image_urls(
+            html,
+            page_url="https://www.weddingku.com/blog/5-spot-wedding-venue-eksotis-di-six-senses-uluwatu",
+        )
+
+        self.assertEqual(
+            urls,
+            ["https://images.weddingku.com/images/upload/articles/images/uyp0sfe66mto42120221630.jpg"],
+        )
+
+    def test_extract_candidate_image_urls_prioritizes_weddingku_fullsize_article_images(self) -> None:
+        html = """
+        <img src="https://images.weddingku.com/images/upload/articles/images682/sxoa6ed553r442920261338.jpg">
+        <img src="https://images.weddingku.com/images/upload/articles/images/sxoa6ed553r442920261338.jpg">
+        <img src="https://images.weddingku.com/images/upload/products/thumbs/136827-typ0sfe6qmso.jpg">
+        """
+
+        urls = extract_candidate_image_urls(
+            html,
+            page_url="https://www.weddingku.com/blog/ocean-view-wedding-di-uluwatu-bali-yang-bikin-jatuh-cinta",
+        )
+
+        self.assertEqual(
+            urls,
+            ["https://images.weddingku.com/images/upload/articles/images/sxoa6ed553r442920261338.jpg"],
+        )
+
     def test_extract_candidate_image_urls_supports_balifortwo_squarespace_hosts(self) -> None:
         html = """
         <img src="https://images.squarespace-cdn.com/content/v1/55a710/example/Bali-wedding-easy-Hanging-garden-ubud-01.jpg">
@@ -156,6 +191,60 @@ class PhotoAssetsTest(unittest.TestCase):
                 "https://www.watabe-wedding.co.jp/resort_wedding/wedding_report/uploads/2025/05/1547083/1547083151.JPG",
                 "https://www.watabe-wedding.co.jp/resort_wedding/wedding_report/uploads/2025/05/1530033/1530033085.jpg",
             ],
+        )
+
+    def test_extract_candidate_image_urls_supports_the_wedding_notebook_r2_assets(self) -> None:
+        html = """
+        <link rel="preload" href="https://pub-example.r2.dev/inspire/story/1775709975378-cover/crop-4x5-mobile-cover.webp" as="image">
+        <img src="https://pub-example.r2.dev/inspire/story/1775709983993-RW-ArlaSharmaineQuanBali44-1024x683/high.webp">
+        <img src="https://theweddingnotebook.com/twn-logo.png">
+        """
+
+        urls = extract_candidate_image_urls(
+            html,
+            page_url="https://theweddingnotebook.com/inspire/real-weddings/story/",
+        )
+
+        self.assertEqual(
+            urls,
+            [
+                "https://pub-example.r2.dev/inspire/story/1775709983993-RW-ArlaSharmaineQuanBali44-1024x683/high.webp",
+                "https://pub-example.r2.dev/inspire/story/1775709975378-cover/crop-4x5-mobile-cover.webp",
+            ],
+        )
+
+    def test_extract_candidate_image_urls_supports_kvision_assets(self) -> None:
+        html = """
+        <img src="https://kvisiontw.isimg.cc/uploads/2024/08/0821123935g2PaNqp7-150x150.jpg">
+        <img src="https://kvisiontw.isimg.cc/uploads/2024/08/0821123935g2PaNqp7.jpg">
+        <img src="https://kvisiontw.isimg.cc/uploads/2024/01/logo.png">
+        """
+
+        urls = extract_candidate_image_urls(
+            html,
+            page_url="https://kvision.tw/gallery/baliwedding_the_edge/",
+        )
+
+        self.assertEqual(
+            urls,
+            ["https://kvisiontw.isimg.cc/uploads/2024/08/0821123935g2PaNqp7.jpg"],
+        )
+
+    def test_extract_candidate_image_urls_supports_ameblo_user_images(self) -> None:
+        html = """
+        <img src="https://stat.ameba.jp/user_images/20231225/01/kenjimovement/90/26/j/o1000075015381138552.jpg?caw=800">
+        <img src="https://stat.ameba.jp/user_images/20231225/01/kenjimovement/90/26/j/o1000075015381138552.jpg">
+        <img src="https://stat100.ameba.jp/ameblo/pc/img/amebloJp/abema_logo.png">
+        """
+
+        urls = extract_candidate_image_urls(
+            html,
+            page_url="https://ameblo.jp/kenjimovement/entry-12834033508.html",
+        )
+
+        self.assertEqual(
+            urls,
+            ["https://stat.ameba.jp/user_images/20231225/01/kenjimovement/90/26/j/o1000075015381138552.jpg"],
         )
 
     def test_extract_candidate_image_urls_supports_weddings_com_tw_wordpress(self) -> None:
@@ -263,6 +352,80 @@ class PhotoAssetsTest(unittest.TestCase):
             ["https://img.gowedding.tw/wp-content/uploads/2017/12/001-2.jpg"],
         )
 
+    def test_extract_candidate_image_urls_resolves_relative_wordpress_lazy_urls(self) -> None:
+        html = """
+        <img data-src="/wp-content/uploads/2026/01/bvlgari-villa-300x200.jpg">
+        <img data-lazy-src="/wp-content/uploads/2026/01/bvlgari-villa.jpg">
+        """
+
+        urls = extract_candidate_image_urls(
+            html,
+            page_url="https://balivibesweddings.com/bvlgari-resort-bali/",
+        )
+
+        self.assertEqual(
+            urls,
+            ["https://balivibesweddings.com/wp-content/uploads/2026/01/bvlgari-villa.jpg"],
+        )
+
+    def test_extract_candidate_image_urls_prefers_largest_squarespace_srcset_candidate(self) -> None:
+        html = """
+        <img
+          srcset="
+            https://images.squarespace-cdn.com/content/v1/55a710/example/Bali-wedding-easy-Hanging-garden-ubud-01.jpg?format=500w 500w,
+            https://images.squarespace-cdn.com/content/v1/55a710/example/Bali-wedding-easy-Hanging-garden-ubud-01.jpg?format=1500w 1500w
+          "
+        >
+        """
+
+        urls = extract_candidate_image_urls(
+            html,
+            page_url="https://www.balifortwo.com/ubud-wedding/hanging-gardens",
+        )
+
+        self.assertEqual(
+            urls,
+            [
+                "https://images.squarespace-cdn.com/content/v1/55a710/example/Bali-wedding-easy-Hanging-garden-ubud-01.jpg?format=1500w"
+            ],
+        )
+
+    def test_extract_candidate_image_urls_reads_image_urls_from_json_ld(self) -> None:
+        html = """
+        <script type="application/ld+json">
+          {"image":["\\/wp-content\\/uploads\\/2026\\/01\\/bali-villa-300x200.jpg","\\/wp-content\\/uploads\\/2026\\/01\\/bali-villa.jpg"]}
+        </script>
+        """
+
+        urls = extract_candidate_image_urls(
+            html,
+            page_url="https://balivibesweddings.com/bvlgari-resort-bali/",
+        )
+
+        self.assertEqual(
+            urls,
+            ["https://balivibesweddings.com/wp-content/uploads/2026/01/bali-villa.jpg"],
+        )
+
+    def test_extract_candidate_image_urls_reads_relative_background_images(self) -> None:
+        html = """
+        <div class="gallery-item" style="background-image:url('/UploadFile/WVenue_Album/SukaWedding-Album-20181009114702_82321.png')"></div>
+        <div class="gallery-item" style="background-image:url('/UploadFile/WVenue_Album/SukaWedding-Album-20181009114717_18714.png')"></div>
+        """
+
+        urls = extract_candidate_image_urls(
+            html,
+            page_url="https://www.sukawedding.com/Wedding_Venue_Detail.asp?ViD=75786C6EA39F36913801B160D0B95D1A",
+        )
+
+        self.assertEqual(
+            urls,
+            [
+                "https://www.sukawedding.com/UploadFile/WVenue_Album/SukaWedding-Album-20181009114702_82321.png",
+                "https://www.sukawedding.com/UploadFile/WVenue_Album/SukaWedding-Album-20181009114717_18714.png",
+            ],
+        )
+
     def test_write_photo_assets_downloads_non_official_sources_and_writes_manifest(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)
@@ -311,12 +474,83 @@ class PhotoAssetsTest(unittest.TestCase):
             manifest_path = write_photo_assets(root, max_images_per_photo=4, fetcher=fetcher)
             manifest = load_json_file(manifest_path)
 
-            self.assertEqual(manifest["generated_at"], "2026-06-19")
+            self.assertEqual(manifest["generated_at"], date.today().isoformat())
             self.assertEqual(len(manifest["items"]), 1)
             self.assertEqual(manifest["items"][0]["photo_entry_id"], platform_photo["photo_entry_id"])
             asset_path = root / manifest["items"][0]["asset_paths"][0]
             self.assertTrue(asset_path.exists())
             self.assertEqual(asset_path.read_bytes(), b"fake-image-data")
+
+    def test_write_photo_assets_skips_official_promotional_photo_records(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            ensure_workspace_layout(root)
+            paths = workspace_paths(root)
+
+            venue = venue_record()
+            venue["source_ids"] = [
+                "example-bridestory-real",
+                "example-tripcom-official-promo",
+            ]
+            real_source = {
+                **source_record(),
+                "source_id": "example-bridestory-real",
+                "source_type": "platform_agency",
+                "source_name": "Example Bridestory Real Wedding",
+                "source_url": "https://www.bridestory.com/example/projects/test-wedding",
+            }
+            promo_source = {
+                **source_record(),
+                "source_id": "example-tripcom-official-promo",
+                "source_type": "platform_agency",
+                "source_name": "Example Trip.com Listing",
+                "source_url": "https://hk.trip.com/hotels/example",
+            }
+            real_photo = {
+                **photo_records()[0],
+                "photo_entry_id": "example-bridestory-real-photo",
+                "source_id": "example-bridestory-real",
+                "page_url": "https://www.bridestory.com/example/projects/test-wedding",
+                "image_url_or_gallery_url": "https://www.bridestory.com/example/projects/test-wedding",
+                "authenticity": "real_wedding",
+            }
+            promo_photo = {
+                **photo_records()[1],
+                "photo_entry_id": "example-tripcom-official-promo-photo",
+                "source_id": "example-tripcom-official-promo",
+                "page_url": "https://hk.trip.com/hotels/example",
+                "image_url_or_gallery_url": "https://hk.trip.com/hotels/example",
+                "image_type": "platform_listing_gallery",
+                "authenticity": "official_promotional",
+            }
+
+            write_json_file(paths["venues"] / "example.json", venue)
+            write_json_file(paths["sources"] / "example.json", [real_source, promo_source])
+            write_json_file(paths["photos"] / "example.json", [real_photo, promo_photo])
+
+            def fetcher(url: str) -> bytes:
+                if url == "https://www.bridestory.com/example/projects/test-wedding":
+                    return (
+                        b'<img src="https://images.bridestory.com/image/upload/assets/test-real-image.jpg">'
+                    )
+                if url == "https://images.bridestory.com/image/upload/assets/test-real-image.jpg":
+                    return b"real-image-data"
+                if url == "https://hk.trip.com/hotels/example":
+                    return b'"https://ak-d.tripcdn.com/images/official-promo.jpg"'
+                if url == "https://ak-d.tripcdn.com/images/official-promo.jpg":
+                    return b"promo-image-data"
+                raise AssertionError(url)
+
+            manifest_path = write_photo_assets(root, max_images_per_photo=4, fetcher=fetcher)
+            manifest = load_json_file(manifest_path)
+
+            self.assertEqual(
+                [item["photo_entry_id"] for item in manifest["items"]],
+                ["example-bridestory-real-photo"],
+            )
+            asset_path = root / manifest["items"][0]["asset_paths"][0]
+            self.assertTrue(asset_path.exists())
+            self.assertEqual(asset_path.read_bytes(), b"real-image-data")
 
     def test_copy_photo_assets_for_site_supports_relative_root(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:

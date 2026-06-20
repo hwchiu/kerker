@@ -1,0 +1,47 @@
+[
+  {
+    "source_id": "hanging-gardens-of-bali-official-status-weddings-2026-06-20",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "official",
+    "source_name": "空中花園官方婚禮頁（2026-06-20 現況檢查）",
+    "source_url": "https://www.hanginggardensofbali.com/weddings",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "restrictions"
+    ],
+    "reliability_notes": "官方婚禮頁在 2026-06-20 仍可正常瀏覽，適合作為近期是否仍主打婚禮業務的第一層現況依據。",
+    "raw_excerpt_summary": "官方頁面仍以 Bali Weddings at Hanging Gardens of Bali 為標題持續提供婚禮內容，未見停業或婚禮下架公告。"
+  },
+  {
+    "source_id": "hanging-gardens-of-bali-official-status-hidden-palace-2026-06-20",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "official",
+    "source_name": "空中花園 Hidden Palace 頁面（2026-06-20 現況檢查）",
+    "source_url": "https://www.hanginggardensofbali.com/hidden-palace",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "accommodation"
+    ],
+    "reliability_notes": "官方頁面直接把 Hidden Palace 描述為叢林中的獨立 sanctuary，可作為莊園線目前仍在主推的依據。",
+    "raw_excerpt_summary": "頁面仍以 The Hidden Palace 為獨立主題，描述為位於叢林深處、具備五間豪華套房的 private estate。"
+  },
+  {
+    "source_id": "hanging-gardens-of-bali-official-status-hidden-palace-estate-2026-06-20",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "official",
+    "source_name": "空中花園 Hidden Palace 5-Bedroom Full Private Estate 頁面（2026-06-20 現況檢查）",
+    "source_url": "https://hanginggardensofbali.com/suites-villas/5-bedroom-full-private-estate",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "accommodation"
+    ],
+    "reliability_notes": "官方住宿頁明確把 Hidden Palace 作為五房 full private estate 販售，這比舊婚顧頁更能反映目前產品形態。",
+    "raw_excerpt_summary": "頁面寫明可完整包下 2,000 平方公尺的 Hidden Palace，並以 five luxurious suites 的 full private estate 形式持續販售。"
+  }
+]

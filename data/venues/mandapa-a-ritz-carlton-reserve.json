@@ -86,8 +86,8 @@
   "restriction_level": "medium",
   "noise_cutoff_notes": "確認當前的戶外音樂和晚餐結束規則，因為靜修氛圍更適合優雅的慶祝活動，而不是非常晚的放大派對。",
   "external_vendor_policy": "曼達帕是一個精心策劃的保護區，因此請儘早確認外部規劃師、花藝團隊、燈光人員、音樂家和無人機操作員的現行規則。",
-  "minimum_stay_requirement_notes": "私人別墅或保護區風格的形式可能具有與草坪活動不同的住宿邏輯，因此只有在住宿假設明確後才能比較曼達帕。",
-  "minimum_spend_notes": "Temple Garden、Ayung Riverside、Wantilan 和以別墅為主導的業態在容量和支出方面表現截然不同，因此請要求按地點進行細分，而不是單一的標題報價。",
+  "minimum_stay_requirement_notes": "場地目錄頁指出 couple 常見至少兩晚入住，而 80 人以上的形式往往會進入更高 room-night 或近似 buyout 的討論，因此不能把 Mandapa 當成單純草坪租借來比價。",
+  "minimum_spend_notes": "Riverfront Lawn、Mandapa Temple、Rice Terrace、Private Villa 與 Dining Pavilion 的成本邏輯明顯不同，尤其 80 人以上幾乎一定會牽動住宿與包場條件。",
   "drone_policy_notes": "考慮到河谷、遊客隱私以及保護區以健康為導向的運作風格，無人機進入應預先獲得批准。",
   "family_child_notes": "非常適合想要真正烏布靜修的小型多日家庭團體，但年幼的孩子和祖父母需要更密切的活動和時間規劃。",
   "religious_or_space_use_notes": "曼達帕的寺廟鄰近和河谷空間特別適合舉辦象徵性和文化層次的儀式，但應直接確認法律和信仰的特定要求。",
@@ -99,6 +99,78 @@
     "reserve-villa",
     "wellness-luxury",
     "ubud"
+  ],
+  "wedding_spaces": [
+    {
+      "space_id": "riverfront-lawn",
+      "label": "Riverfront Lawn / Ayung Riverside 河畔草坪",
+      "space_types": [
+        "riverside-lawn",
+        "garden-lawn"
+      ],
+      "privacy_level": "semi-private",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "中文攻略頁寫約 60 人最合適；更大的婚禮也有人使用，但 60 人內最容易維持河谷儀式感。",
+      "price_summary_text": "是 Mandapa 最主流的 ceremony 線之一，通常會比 villa format 更容易做出完整觀禮動線。",
+      "backup_summary_text": "大雨時常需要退到有頂棚 pavilion 或室內用餐區，無法保留完整河畔氛圍。",
+      "decision_notes": "如果你想要真正的 Ubud 河谷婚禮感，這個空間通常是 Mandapa 的第一選擇。"
+    },
+    {
+      "space_id": "mandapa-temple",
+      "label": "Mandapa Temple 靜心寺廟空間",
+      "space_types": [
+        "temple-space",
+        "indoor-ceremony"
+      ],
+      "privacy_level": "private",
+      "event_scope": "ceremony_only",
+      "capacity_summary_text": "約 20 人，適合祝禱、迎親、長輩儀式或 very intimate vows。",
+      "price_summary_text": "不是大型晚宴英雄場，但對重視文化感、私密度與長輩參與的人非常有價值。",
+      "backup_summary_text": "本身就是較受保護的室內 / 半室內空間，天候穩定度遠高於外部河畔草坪。",
+      "decision_notes": "如果你要的是在地靈魂感而不是大景海景，Mandapa Temple 很容易成為加分題。"
+    },
+    {
+      "space_id": "private-villa-garden",
+      "label": "Private Villa Garden 私人別墅庭園",
+      "space_types": [
+        "private-villa",
+        "garden"
+      ],
+      "privacy_level": "private",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "約 15 至 30 人最合適，適合 family-only 或 welcome ceremony。",
+      "price_summary_text": "通常會和 villa stay 緊密綁定，不能把它和公共草坪形式用同一個邏輯比較。",
+      "backup_summary_text": "遇雨可直接退回別墅內部與 covered living area，是 Mandapa 最務實的小型雨備方案之一。",
+      "decision_notes": "如果你要真正私密、住宿和婚禮一體的體驗，villa garden 比公共草坪更接近答案。"
+    },
+    {
+      "space_id": "rice-terrace-deck",
+      "label": "Rice Terrace Deck 稻田景觀平台",
+      "space_types": [
+        "rice-terrace",
+        "viewing-deck"
+      ],
+      "privacy_level": "semi-private",
+      "event_scope": "ceremony_only",
+      "capacity_summary_text": "更適合 elopement 到約 20 人的小型誓詞交換與拍照。",
+      "price_summary_text": "主打的是稻田與河谷畫面，而不是大量觀禮椅或大型晚宴承接能力。",
+      "backup_summary_text": "非常吃天氣與地面條件，遇雨時通常要回到 pavilion 或 villa 線。",
+      "decision_notes": "如果你優先追求畫面，而不是很多賓客，這個空間的魅力非常高。"
+    },
+    {
+      "space_id": "dining-pavilion",
+      "label": "Dining Pavilion / Pool Bar and Library 有頂棚晚宴線",
+      "space_types": [
+        "covered-dining",
+        "semi-indoor"
+      ],
+      "privacy_level": "semi-private",
+      "event_scope": "reception_only",
+      "capacity_summary_text": "約 20 至 40 人最自然，可作 rain backup、after-party 或正式晚宴。",
+      "price_summary_text": "雖然不如河谷草坪有戲劇性，但對濕季與家庭型婚禮的穩定性很重要。",
+      "backup_summary_text": "是 Mandapa 少數可預期的天候保險空間之一，也是把戶外 ceremony 轉成可執行晚宴的關鍵。",
+      "decision_notes": "如果你不想把整場婚禮壓在烏布午後天氣上，這條線一定要一起比較。"
+    }
   ],
   "price_band_normalized": null,
   "best_for": [
@@ -143,7 +215,13 @@
     "mandapa-a-ritz-carlton-reserve-bridestory-venue",
     "mandapa-a-ritz-carlton-reserve-bridestory-resort-overview",
     "mandapa-a-ritz-carlton-reserve-bridestory-real-wedding",
-    "mandapa-a-ritz-carlton-reserve-neverneverland-zh-hotel"
+    "mandapa-a-ritz-carlton-reserve-neverneverland-zh-hotel",
+    "mandapa-a-ritz-carlton-reserve-weddings-com-tw-zh",
+    "mandapa-a-ritz-carlton-reserve-venuereport",
+    "mandapa-a-ritz-carlton-reserve-dstudios-guide",
+    "mandapa-a-ritz-carlton-reserve-gusmank-2024",
+    "mandapa-a-ritz-carlton-reserve-weddingku-realwedding",
+    "mandapa-a-ritz-carlton-reserve-cinemotionphoto"
   ],
   "photo_index_id": "mandapa-a-ritz-carlton-reserve"
 }

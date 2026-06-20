@@ -233,5 +233,57 @@
     ],
     "reliability_notes": "Chinese wedding-agency page; useful for translated package framing and galleries, but direct confirmation is still required.",
     "raw_excerpt_summary": "中文婚禮頁整理寶格麗教堂、Villa、Mansion 等形式，適合快速看場地選項與空間畫面。"
+  },
+  {
+    "source_id": "bvlgari-balivibes-overview",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bali Vibes Weddings Bvlgari Resort Bali 場地頁",
+    "source_url": "https://balivibesweddings.com/bvlgari-resort-bali/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity",
+      "restrictions",
+      "accommodation"
+    ],
+    "reliability_notes": "英文婚禮策劃頁，對比較 Chapel、Villa、Mansion 與 La Terrazza 等不同玩法很有幫助，但不是官方合約條款來源。",
+    "raw_excerpt_summary": "頁面把 Chapel、Villa、Mansion 與 La Terrazza 分開介紹，特別適合拿來分辨公開型海景露台與私人買斷型水台。"
+  },
+  {
+    "source_id": "bvlgari-balifortwo-villa",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bali For Two Bvlgari Villa Wedding 場地頁",
+    "source_url": "https://balifortwo2.com/bvlgari-resort-bali-the-bvlgari-villa-wedding/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity",
+      "accommodation"
+    ],
+    "reliability_notes": "婚禮規劃頁，雖非真實婚禮實錄，但對理解 Bvlgari Villa 的上下層動線、映池水台與晚宴布局很有參考價值。",
+    "raw_excerpt_summary": "聚焦 Bvlgari Villa 的上層映池水台、下層酒會露台與最多約 50 人的私密婚禮尺度，方便跟教堂和豪宅形式直接比較。"
+  },
+  {
+    "source_id": "bvlgari-balifortwo-la-terrazza",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bali For Two La Terrazza Wedding 場地頁",
+    "source_url": "https://balifortwo2.com/bvlgari-resort-bali-la-terrazza-wedding-for-12-guests/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity",
+      "restrictions"
+    ],
+    "reliability_notes": "小型婚禮策劃頁，對 La Terrazza 這種較公開、較輕量的海景露台玩法特別有比較價值，但不是官方價格保證。",
+    "raw_excerpt_summary": "以 12 位賓客的海景微型婚禮為主軸，能快速看出 La Terrazza 與別墅 / 豪宅買斷型在私密度與規模上的差異。"
   }
 ]

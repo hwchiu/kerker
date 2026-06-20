@@ -203,5 +203,74 @@
     "coverage_type": "large_gallery",
     "decision_value": "medium",
     "decision_notes": "中文頁照片量多，適合快速比對寶格麗水台、教堂與 Mansion 晚宴視覺。"
+  },
+  {
+    "photo_entry_id": "bvlgari-photo-balivibes-overview",
+    "venue_id": "bvlgari-resort-bali",
+    "source_id": "bvlgari-balivibes-overview",
+    "page_url": "https://balivibesweddings.com/bvlgari-resort-bali/",
+    "image_url_or_gallery_url": "https://balivibesweddings.com/bvlgari-resort-bali/",
+    "image_type": "blog_feature",
+    "scene_tags": [
+      "water-platform",
+      "chapel-exterior",
+      "guest-seating",
+      "public-area"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "同一頁就能切換看教堂、Villa、Mansion 與 La Terrazza，是建立寶格麗空間差異最快的非官方視覺入口。"
+  },
+  {
+    "photo_entry_id": "bvlgari-photo-balifortwo-villa",
+    "venue_id": "bvlgari-resort-bali",
+    "source_id": "bvlgari-balifortwo-villa",
+    "page_url": "https://balifortwo2.com/bvlgari-resort-bali-the-bvlgari-villa-wedding/",
+    "image_url_or_gallery_url": "https://balifortwo2.com/bvlgari-resort-bali-the-bvlgari-villa-wedding/",
+    "image_type": "blog_feature",
+    "scene_tags": [
+      "water-platform",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "可直接看私人別墅水台、長桌晚宴與上下層動線，是判斷 Villa 玩法值不值得買斷的重要補充。"
+  },
+  {
+    "photo_entry_id": "bvlgari-photo-balifortwo-la-terrazza",
+    "venue_id": "bvlgari-resort-bali",
+    "source_id": "bvlgari-balifortwo-la-terrazza",
+    "page_url": "https://balifortwo2.com/bvlgari-resort-bali-la-terrazza-wedding-for-12-guests/",
+    "image_url_or_gallery_url": "https://balifortwo2.com/bvlgari-resort-bali-la-terrazza-wedding-for-12-guests/",
+    "image_type": "blog_feature",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "適合拿來對照 La Terrazza 這種少人數海景露台婚禮與別墅 / 豪宅買斷型在私密度上的差別。"
+  },
+  {
+    "photo_entry_id": "bvlgari-photo-suka-zh",
+    "venue_id": "bvlgari-resort-bali",
+    "source_id": "bvlgari-resort-bali-suka-zh",
+    "page_url": "https://www.sukawedding.com/Wedding_Venue_Detail.asp?ViD=75786C6EA39F36913801B160D0B95D1A",
+    "image_url_or_gallery_url": "https://www.sukawedding.com/Wedding_Venue_Detail.asp?ViD=75786C6EA39F36913801B160D0B95D1A",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": [
+      "water-platform",
+      "chapel-exterior",
+      "night-view"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "中文頁能快速補看寶格麗水中婚禮、教堂與夜景畫面，適合做初步中文比對。"
   }
 ]

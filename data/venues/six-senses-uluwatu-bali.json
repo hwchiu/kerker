@@ -74,12 +74,12 @@
   "restriction_level": "medium",
   "noise_cutoff_notes": "確認目前戶外慶祝活動的截止時間以及深夜部分是否必須移至阿魯尼亞宴會廳或其他封閉區域。",
   "external_vendor_policy": "六善酒店的營運屬於高接觸奢華水平，因此請確認目前針對外部規劃師、裝飾師、娛樂、製作和無人機團隊的批准規則。",
-  "minimum_stay_requirement_notes": "度假勝地和別墅主導的婚禮形式可能與宴會廳活動不同，因此請要求六善酒店清楚地繪製任何間夜或捆綁住宿條件。",
-  "minimum_spend_notes": "30 位賓客的基線與全面的懸崖或宴會廳慶祝活動之間存在很大差距，因此只有在確定確切的場地組合後，預算比較才有意義。",
+  "minimum_stay_requirement_notes": "Cinema Paradiso、Andakara Lawn、The Retreat、Eastern Palace 和 Grand Destiny / Owner's Villa 的房晚邏輯並不相同；如果你看的是私宅線，要把住宿、場地與晚宴成本拆開問，尤其 Grand Destiny 這類 buyout 線會直接綁 2 晚 Owner's Villa。",
+  "minimum_spend_notes": "30 位賓客的公開基線只夠做參考。真正會拉開差距的是你選 cliff ceremony、Aarunya 備援、Eastern Palace 這種 100 人級 villa 線，還是 Grand Destiny 這種直接帶 food / beverage credit 的大型 buyout 玩法。",
   "drone_policy_notes": "考慮到懸崖安全、客人隱私以及度假村正在進行的改造工作，無人機的使用應假定僅獲得批准。",
   "family_child_notes": "非常適合住在現場的設計前衛的家庭，但開放的懸崖邊緣和梯田佈局意味著對孩子和祖父母進行更密切的監督和交通規劃。",
   "religious_or_space_use_notes": "公共目的地婚禮形式主要是像徵性的；直接與度假村確認任何合法婚姻或特定信仰的設置需求。",
-  "operational_constraints_notes": "目前最重要的規劃問題是營運狀態：六善酒店公開表示，該度假村已從 2026 年 2 月 1 日起暫時關閉，以進行深思熟慮的轉型，因此在進入任何正式候選名單之前，必須驗證是否可以舉行婚禮並重新開放時間。",
+  "operational_constraints_notes": "目前最重要的規劃問題不是風格，而是營運狀態。官方頁面已公開標示自 2026 年 2 月 1 日起暫時關閉進行轉型更新，因此在放進近期 shortlist 前，必須先確認是否已恢復接單與營運。",
   "style_tags": [
     "wellness-luxury",
     "clifftop",
@@ -87,6 +87,102 @@
     "ballroom-backup",
     "villa-buyout",
     "sunset"
+  ],
+  "current_status": {
+    "level": "temporarily_closed",
+    "headline": "官方頁面顯示自 2026-02-01 起暫時關閉整修",
+    "summary": "英文與中文官方頁面都標示 Six Senses Uluwatu, Bali 自 2026-02-01 起暫時關閉，進行轉型更新。若你們的婚期在近期，不能只看婚禮頁與舊案例，必須先確認是否已恢復接單、重新開館，以及婚禮場地是否同步開放。",
+    "checked_at": "2026-06-20",
+    "source_ids": [
+      "six-senses-uluwatu-bali-official-status-en-2026-06-20",
+      "six-senses-uluwatu-bali-official-status-zh-2026-06-20"
+    ]
+  },
+  "wedding_spaces": [
+    {
+      "space_id": "cinema-paradiso",
+      "label": "Cinema Paradiso 懸崖劇院式儀式空間",
+      "space_types": [
+        "cliffside-ceremony",
+        "terrace"
+      ],
+      "privacy_level": "semi-private",
+      "event_scope": "ceremony_only",
+      "capacity_summary_text": "Weddingku 整理文直接把它收斂在約 20 至 30 位 intimate wedding 最合適。",
+      "price_summary_text": "是 Six Senses 最有戲劇性的私密 ceremony 線之一；Weddingku 子圖集能補看 seating 和花藝框景，但通常不是大量賓客晚宴的主場。",
+      "backup_summary_text": "優勢是度假村有 semi-indoor ballroom 可承接雨備；缺點是無法保留同樣的 cliff theater 視覺。",
+      "decision_notes": "如果你要的是近距離、很有儀式感的懸崖證婚，而不是大場面 party，Cinema Paradiso 很強。"
+    },
+    {
+      "space_id": "aarunya-ballroom",
+      "label": "Aarunya Ballroom 室內宴會廳",
+      "space_types": [
+        "ballroom",
+        "indoor-reception"
+      ],
+      "privacy_level": "shared",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "可承接中大型 dinner 與正式流程，是 Six Senses 最大的雨備優勢。",
+      "price_summary_text": "如果你把可執行性放在第一順位，Aarunya 的存在會讓 Six Senses 比多數純 cliff venue 更有底氣。",
+      "backup_summary_text": "真正的室內後備，不只是餐廳或半開放露台，因此在濕季比較吃香。",
+      "decision_notes": "它不一定最夢幻，但它是 Six Senses 能打贏其他懸崖場地的關鍵硬實力。"
+    },
+    {
+      "space_id": "eastern-palace-villa",
+      "label": "The Eastern Palace 私人別墅婚禮",
+      "space_types": [
+        "private-villa",
+        "villa-buyout"
+      ],
+      "privacy_level": "private",
+      "event_scope": "buyout_event",
+      "capacity_summary_text": "婚顧方案頁把它拉到 100 人級 villa wedding 線，適合把 ceremony、stay 與晚宴整合成一場更私密但不小規模的活動。",
+      "price_summary_text": "和一般 cliffside lawn 不是同一產品；方案頁直接列 food credit IDR 100,000,000++、beverage credit IDR 20,000,000++，說明它的比較邏輯更接近 villa hospitality package。",
+      "backup_summary_text": "遇雨可退回 villa 室內區與 covered areas，比單純草坪更有操作彈性。",
+      "decision_notes": "如果你喜歡 Six Senses 的品牌與服務，但不想走公開 ceremony 路線，Eastern Palace 很值得單獨比較。"
+    },
+    {
+      "space_id": "andakara-lawn",
+      "label": "Andakara Lawn / 主懸崖草坪",
+      "space_types": [
+        "cliff-lawn",
+        "oceanfront-lawn"
+      ],
+      "privacy_level": "shared",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "比 Cinema Paradiso 更能容納中型賓客；The Wedding Notebook 真實婚禮直接把 ceremony 放在 Andakara Lawn，能看到它在實際花藝與賓客座位下的尺度。",
+      "price_summary_text": "是最典型的 Uluwatu cliff wedding 線，但成本與風險都跟天氣、風勢與晚宴配置直接綁定。",
+      "backup_summary_text": "大雨時可退到 ballroom，但 outdoor cliff feel 會明顯改變。",
+      "decision_notes": "如果你想保有 cliffside 宏大感，又不想完全犧牲執行穩定度，Six Senses 的 lawn + ballroom 組合是它的強項。"
+    },
+    {
+      "space_id": "retreat-villa",
+      "label": "The Retreat Villa 晚宴／After-party 別墅線",
+      "space_types": [
+        "private-villa",
+        "villa-buyout"
+      ],
+      "privacy_level": "private",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "真實婚禮案例把晚宴放在 Retreat Villa，說明它不只是住宿別墅，也能承接 dinner 與 after-party 轉場。",
+      "price_summary_text": "這條線的比較方式不是單看 ceremony fee，而是把 villa hospitality、晚宴與雨天轉場一起看。",
+      "backup_summary_text": "別墅內外區與 covered areas 的切換彈性比裸露草坪高，適合作為雨後轉場或夜間續攤空間。",
+      "decision_notes": "如果你們想把晚宴做成別墅款待感，而不是標準 ballroom reception，Retreat 應該被單獨拿出來比較。"
+    },
+    {
+      "space_id": "grand-destiny-owners-villa",
+      "label": "Grand Destiny / Owner's Villa 大型私宅包場",
+      "space_types": [
+        "private-villa",
+        "villa-buyout"
+      ],
+      "privacy_level": "buyout_required",
+      "event_scope": "buyout_event",
+      "capacity_summary_text": "婚顧方案頁把這條線拉到 maximum 400 people，明顯是超大型 buyout 玩法；但和官方婚禮頁公開上限存在差距，必須二次核實。",
+      "price_summary_text": "方案頁直接列 2 晚 4-bedroom Owner's Villa、food credit IDR 200,000,000++ 和 beverage credit IDR 40,000,000++，屬另一個量級的產品線。",
+      "backup_summary_text": "買斷型私宅比一般 lawn 形式有更多內外區分流空間，但越大規模越需要確認重新開館後是否仍承接這種玩法。",
+      "decision_notes": "如果你在 Six Senses 想做的是高私密度但又不小場的 buyout wedding，Grand Destiny 代表的是另一條完全不同的決策線。"
+    }
   ],
   "price_band_normalized": null,
   "best_for": [
@@ -111,12 +207,13 @@
   ],
   "data_completeness": "comparable_core_complete",
   "research_status": "needs_price_followup",
-  "last_verified_at": "2026-06-19",
+  "last_verified_at": "2026-06-20",
   "data_freshness": "recent",
   "open_questions": [
     "確認目前重新開放的時間表以及您的目標期間是否接受婚禮。",
     "改造工作完成後，確認目前的外部供應商和生產規則。",
-    "確認哪些場地組合可以在不進行更廣泛買斷的情況下為 100 名以上賓客舉辦儀式和晚宴。"
+    "確認哪些場地組合可以在不進行更廣泛買斷的情況下為 100 名以上賓客舉辦儀式和晚宴。",
+    "確認官方婚禮頁公開上限與 Grand Destiny / Owner's Villa 方案頁之間的大型容量差異，目前是否仍成立。"
   ],
   "source_ids": [
     "six-senses-uluwatu-bali-official-resort",
@@ -137,7 +234,18 @@
     "six-senses-uluwatu-bali-balifortwo-aarunya-50",
     "six-senses-uluwatu-bali-neverneverland-zh",
     "six-senses-uluwatu-bali-weddings-com-tw-zh",
-    "six-senses-uluwatu-bali-sweetday-cinema-zh"
+    "six-senses-uluwatu-bali-sweetday-cinema-zh",
+    "six-senses-uluwatu-bali-weddingku-5-spots",
+    "six-senses-uluwatu-bali-weddingku-devy-stephanie",
+    "six-senses-uluwatu-bali-weddingku-eastern-palace",
+    "six-senses-uluwatu-bali-theweddingnotebook-tuscany-2026",
+    "six-senses-uluwatu-bali-sweetday-retreat-zh",
+    "six-senses-uluwatu-bali-weddingku-cinema-paradiso-gallery",
+    "six-senses-uluwatu-bali-balifortwo-eastern-palace",
+    "six-senses-uluwatu-bali-balifortwo-grand-destiny",
+    "six-senses-uluwatu-bali-ameblo-ja",
+    "six-senses-uluwatu-bali-official-status-en-2026-06-20",
+    "six-senses-uluwatu-bali-official-status-zh-2026-06-20"
   ],
   "photo_index_id": "six-senses-uluwatu-bali"
 }

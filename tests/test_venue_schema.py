@@ -87,6 +87,19 @@ class VenueSchemaTest(unittest.TestCase):
             "photo_index_id": "ayana-resort-bali",
         }
 
+    def _base_wedding_space(self) -> dict[str, object]:
+        return {
+            "space_id": "chapel-main",
+            "label": "主儀式教堂",
+            "space_types": ["chapel"],
+            "privacy_level": "shared",
+            "event_scope": "ceremony_only",
+            "capacity_summary_text": "儀式最多 80 人",
+            "price_summary_text": "公開儀式方案約 USD 8,500 起",
+            "backup_summary_text": "雨天可直接改為室內教堂形式",
+            "decision_notes": "適合重視教堂感與雨備穩定的新娘。",
+        }
+
     def test_validate_venue_record_normalizes_price_band_for_public_prices(self) -> None:
         validated = validate_venue_record(self._base_venue())
 
@@ -215,6 +228,109 @@ class VenueSchemaTest(unittest.TestCase):
         with self.assertRaisesRegex(
             ValueError,
             "source_ids must not contain duplicates: ayana-official-weddings",
+        ):
+            validate_venue_record(record)
+
+    def test_validate_venue_record_defaults_wedding_spaces_to_empty_list(self) -> None:
+        validated = validate_venue_record(self._base_venue())
+
+        self.assertEqual(validated["wedding_spaces"], [])
+
+    def test_validate_venue_record_accepts_structured_wedding_spaces(self) -> None:
+        record = self._base_venue()
+        record["wedding_spaces"] = [
+            self._base_wedding_space(),
+            {
+                **self._base_wedding_space(),
+                "space_id": "villa-water-stage",
+                "label": "私人別墅水台",
+                "space_types": ["water-platform", "villa-buyout"],
+                "privacy_level": "private",
+                "event_scope": "buyout_event",
+                "capacity_summary_text": "儀式＋晚宴最多 50 人",
+                "price_summary_text": "需搭配別墅住宿與專案報價",
+                "backup_summary_text": "雨天改為別墅室內與教堂備案",
+                "decision_notes": "私密性高，但住宿與低消門檻也更重。",
+            },
+        ]
+
+        validated = validate_venue_record(record)
+
+        self.assertEqual(len(validated["wedding_spaces"]), 2)
+        self.assertEqual(validated["wedding_spaces"][1]["privacy_level"], "private")
+        self.assertEqual(validated["wedding_spaces"][1]["event_scope"], "buyout_event")
+
+    def test_validate_venue_record_rejects_non_list_wedding_spaces(self) -> None:
+        record = self._base_venue()
+        record["wedding_spaces"] = "chapel"
+
+        with self.assertRaisesRegex(ValueError, "wedding_spaces must be a list"):
+            validate_venue_record(record)
+
+    def test_validate_venue_record_rejects_invalid_wedding_space_privacy_level(self) -> None:
+        record = self._base_venue()
+        record["wedding_spaces"] = [{**self._base_wedding_space(), "privacy_level": "public"}]
+
+        with self.assertRaisesRegex(ValueError, "privacy_level must be one of"):
+            validate_venue_record(record)
+
+    def test_validate_venue_record_rejects_invalid_wedding_space_event_scope(self) -> None:
+        record = self._base_venue()
+        record["wedding_spaces"] = [{**self._base_wedding_space(), "event_scope": "overnight"}]
+
+        with self.assertRaisesRegex(ValueError, "event_scope must be one of"):
+            validate_venue_record(record)
+
+    def test_validate_venue_record_accepts_current_status(self) -> None:
+        record = self._base_venue()
+        record["source_ids"] = [
+            "ayana-official-weddings",
+            "ayana-operational-status",
+        ]
+        record["current_status"] = {
+            "level": "maintenance_notice",
+            "headline": "主草坪旁公共區域有局部施工",
+            "summary": "儀式主場仍可使用，但動線與拍照角度可能受施工圍籬影響。",
+            "checked_at": "2026-06-20",
+            "source_ids": ["ayana-operational-status"],
+        }
+
+        validated = validate_venue_record(record)
+
+        self.assertIsNotNone(validated["current_status"])
+        self.assertEqual(validated["current_status"]["level"], "maintenance_notice")
+        self.assertEqual(validated["current_status"]["checked_at"], "2026-06-20")
+
+    def test_validate_venue_record_rejects_invalid_current_status_level(self) -> None:
+        record = self._base_venue()
+        record["source_ids"] = [
+            "ayana-official-weddings",
+            "ayana-operational-status",
+        ]
+        record["current_status"] = {
+            "level": "closed_soon",
+            "headline": "測試",
+            "summary": "測試",
+            "checked_at": "2026-06-20",
+            "source_ids": ["ayana-operational-status"],
+        }
+
+        with self.assertRaisesRegex(ValueError, "level must be one of"):
+            validate_venue_record(record)
+
+    def test_validate_venue_record_rejects_current_status_sources_missing_from_venue(self) -> None:
+        record = self._base_venue()
+        record["current_status"] = {
+            "level": "limited_operations",
+            "headline": "宴會廳僅限部分時段",
+            "summary": "測試摘要",
+            "checked_at": "2026-06-20",
+            "source_ids": ["ayana-operational-status"],
+        }
+
+        with self.assertRaisesRegex(
+            ValueError,
+            "current_status source_ids must exist in source_ids: ayana-operational-status",
         ):
             validate_venue_record(record)
 

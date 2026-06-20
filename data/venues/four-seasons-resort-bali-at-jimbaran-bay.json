@@ -87,9 +87,9 @@
   "restriction_level": "medium",
   "noise_cutoff_notes": "確認當前的海灘和戶外音樂宵禁，特別是如果您想在正式招待會後在 Sundara 或其他餐廳主導的場所舉辦餘興派對。",
   "external_vendor_policy": "四季酒店在內部舉辦目的地婚禮，具有強大的營運控制能力，因此請確認當前的批准要求以及外部策劃者、音樂家、裝飾師和製作團隊的任何使用費用。",
-  "minimum_stay_requirement_notes": "一些別墅主導或私人形式可以捆綁住宿，而高需求的日期可能會限制小型儀式如何使用最上鏡的空間，因此請仔細比較同類報價。",
+  "minimum_stay_requirement_notes": "不同子空間的房晚邏輯差很多：Gili Jimbaran 常見會綁一晚 Garden Villa，Pool Terrace Water Wedding 常見會連動三間 One Bedroom Garden Villa，因此一定要把房晚和場地費拆開看。",
   "minimum_spend_notes": "場地選擇會大大改變消費情況，因為水道、海濱、桑德拉和私人別墅格式各自表現得像不同的產品。",
-  "drone_policy_notes": "無人機活動應預先批准，因為度假村混合了私人別墅、海濱公共區域和日落擁擠，這可能會使飛行變得複雜。",
+  "drone_policy_notes": "無人機活動應預先批准；中文婚顧頁甚至直接把禁空拍與禁放氣球列成限制，因此不要假設金巴蘭四季能自由飛無人機。",
   "family_child_notes": "非常適合家庭成員較多的目的地婚禮，因為海灘度假村的形式、別墅住宿和機場便利性減少了兒童和年長親戚的摩擦。",
   "religious_or_space_use_notes": "象徵性的慶祝活動是預設的公共形式；直接與度假村團隊確認任何合法婚姻或特定信仰儀式的要求。",
   "operational_constraints_notes": "旺季日落需求和分場地差異是這裡的主要規劃陷阱：如果您沒有確定確切的儀式和晚宴組合，很容易比較錯誤的金巴蘭灣套餐。",
@@ -100,6 +100,91 @@
     "all-villa",
     "sunset",
     "family-luxury"
+  ],
+  "wedding_spaces": [
+    {
+      "space_id": "gili-jimbaran",
+      "label": "Gili Jimbaran 海灣草坪",
+      "space_types": [
+        "beach-lawn",
+        "cove-lawn"
+      ],
+      "privacy_level": "semi-private",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "英文婚顧頁寫可到約 50 人；更舒服的人數帶落在 elopement 到 30 人。",
+      "price_summary_text": "常見會連動一晚 Garden Villa，比大型 reception line 更像高質感小型海邊婚禮產品。",
+      "backup_summary_text": "遇雨通常要改到 Gazebo、Sundara 室內區或其他 covered dining space，無法保留同樣的貼海視覺。",
+      "decision_notes": "離海最近、最有巴厘島感，適合把 sunset vows 與 intimate dinner 當核心。"
+    },
+    {
+      "space_id": "pool-terrace-water-wedding",
+      "label": "Pool Terrace Water Wedding 水上台",
+      "space_types": [
+        "water-platform",
+        "pool-terrace"
+      ],
+      "privacy_level": "shared",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "常見可做 30 位 seated dinner，並以 10:00 或 17:00 檔次操作。",
+      "price_summary_text": "是金巴蘭四季最有辨識度的水上台產品，通常會綁三間 One Bedroom Garden Villa。",
+      "backup_summary_text": "遇雨需退到 covered dining 或 villa 室內，水上台的透明延伸視覺不會完整保留。",
+      "decision_notes": "如果你要把 Jimbaran 拿來正面對打 Bvlgari、Alila 的水上台，這個就是主戰場。"
+    },
+    {
+      "space_id": "jimbaran-garden",
+      "label": "Jimbaran Garden 草坪",
+      "space_types": [
+        "garden-lawn"
+      ],
+      "privacy_level": "shared",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "Bless Bali 資料寫 ceremony 約 60 人，party 約 4 至 30 人。",
+      "price_summary_text": "比水上台更彈性，通常更適合 ceremony 加小型 dinner 的 garden flow。",
+      "backup_summary_text": "雨季多半要改到 Gazebo、Sundara 室內區或其他有頂棚晚宴空間。",
+      "decision_notes": "綠意較重、節奏較柔和，對長輩與家庭群體通常比純海邊形式更友善。"
+    },
+    {
+      "space_id": "coconut-grove",
+      "label": "Coconut Grove 椰林草坪",
+      "space_types": [
+        "garden",
+        "lawn"
+      ],
+      "privacy_level": "shared",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "日文婚顧頁寫可承接約 20 至 210 人，偏大型戶外 party format。",
+      "price_summary_text": "和 Gili Jimbaran、Pool Terrace 不是同一種產品，通常是中大型晚宴和派對線。",
+      "backup_summary_text": "大雨時必須明確確認是否改 Sundara 或其他室內空間，不能只假設臨時搭棚。",
+      "decision_notes": "如果人數來到 80+，這裡通常比小型海邊形式更現實。"
+    },
+    {
+      "space_id": "sundara-private-room",
+      "label": "Sundara 2F Private Room 私人包廂",
+      "space_types": [
+        "private-dining",
+        "indoor-dining"
+      ],
+      "privacy_level": "private",
+      "event_scope": "reception_only",
+      "capacity_summary_text": "約 10 至 16 人，適合 family dinner、after-party 或超小型宴席。",
+      "price_summary_text": "不是主 ceremony 英雄場，但對追求精緻晚宴與天候穩定的人很有價值。",
+      "backup_summary_text": "室內包廂，是金巴蘭四季最務實的天候保險選項之一。",
+      "decision_notes": "如果你在意雨季可執行性，這個空間的存在會大幅提高 Jimbaran 的穩定分。"
+    },
+    {
+      "space_id": "fore-shore-gazebo",
+      "label": "Fore-shore Gazebo 海邊涼亭",
+      "space_types": [
+        "gazebo",
+        "romantic-dinner"
+      ],
+      "privacy_level": "private",
+      "event_scope": "reception_only",
+      "capacity_summary_text": "約 2 至 4 人，偏兩人浪漫晚餐或拍照重點，不是正式 reception 空間。",
+      "price_summary_text": "更像婚禮週的加值體驗，而不是用來撐大型宴席的主場。",
+      "backup_summary_text": "日文頁面明寫目前無屋頂，不應視為真正雨備；若要有頂版本要另確認其他 gazebo。",
+      "decision_notes": "適合兩人 sunset dinner 或婚禮後延伸體驗，但不適合拿來誤認成可容納親友的晚宴場地。"
+    }
   ],
   "price_band_normalized": null,
   "best_for": [
@@ -151,7 +236,15 @@
     "four-seasons-resort-bali-at-jimbaran-bay-neverneverland-zh",
     "four-seasons-resort-bali-at-jimbaran-bay-weddings-com-tw-zh",
     "four-seasons-resort-bali-at-jimbaran-bay-sweetday-zh",
-    "four-seasons-resort-bali-at-jimbaran-bay-sweetday-water-zh"
+    "four-seasons-resort-bali-at-jimbaran-bay-sweetday-water-zh",
+    "four-seasons-resort-bali-at-jimbaran-bay-gusmank-2023",
+    "four-seasons-resort-bali-at-jimbaran-bay-happybali-gili",
+    "four-seasons-resort-bali-at-jimbaran-bay-happybali-pool-terrace",
+    "four-seasons-resort-bali-at-jimbaran-bay-bless-bali-overview-ja",
+    "four-seasons-resort-bali-at-jimbaran-bay-bless-bali-sundara-private-room-ja",
+    "four-seasons-resort-bali-at-jimbaran-bay-bless-bali-report-k-ja",
+    "four-seasons-resort-bali-at-jimbaran-bay-bless-bali-report-o-ja",
+    "four-seasons-resort-bali-at-jimbaran-bay-northwest-travel-zh"
   ],
   "photo_index_id": "four-seasons-resort-bali-at-jimbaran-bay"
 }

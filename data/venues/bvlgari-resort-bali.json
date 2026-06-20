@@ -134,6 +134,75 @@
     "節日限制日期和每人附加費",
     "烏魯瓦圖交通和懸崖頂運動仍需規劃"
   ],
+  "wedding_spaces": [
+    {
+      "space_id": "bvlgari-chapel",
+      "label": "寶格麗教堂",
+      "space_types": [
+        "chapel"
+      ],
+      "privacy_level": "shared",
+      "event_scope": "ceremony_only",
+      "capacity_summary_text": "公開資料多指向象徵儀式最多約 90 人，是寶格麗最穩定的室內儀式主場。",
+      "price_summary_text": "若你把雨備穩定、教堂感與長輩接受度放在第一順位，教堂通常是最容易 shortlist 的公開形式；晚宴仍要再接其他空間。",
+      "backup_summary_text": "本身就是室內儀式空間，遇雨幾乎不需要改變婚禮主邏輯。",
+      "decision_notes": "適合重視品牌教堂感、天候穩定性與儀式感的人，缺點是私密度與住宿一體化不如別墅 / 豪宅玩法。"
+    },
+    {
+      "space_id": "public-water-wedding-stage",
+      "label": "公開水中婚禮台",
+      "space_types": [
+        "water-platform"
+      ],
+      "privacy_level": "shared",
+      "event_scope": "ceremony_only",
+      "capacity_summary_text": "透明祭壇設在面海水景前方，重點是拿到寶格麗最經典的水上儀式畫面；常見做法是儀式後再接別處晚宴。",
+      "price_summary_text": "通常比私人別墅 / 豪宅買斷型更容易切入，但公開價格與最新可接人數仍需逐案確認。",
+      "backup_summary_text": "遇雨多半要回到教堂或其他室內區域，私密度與改場自由度都不如買斷型水台。",
+      "decision_notes": "如果你要的是寶格麗經典的面海透明祭壇視覺，但不一定想綁整棟別墅，這是最該先問的公開型玩法。"
+    },
+    {
+      "space_id": "la-terrazza",
+      "label": "La Terrazza 海景露台",
+      "space_types": [
+        "cliffside"
+      ],
+      "privacy_level": "semi-private",
+      "event_scope": "ceremony_and_dinner",
+      "capacity_summary_text": "公開案例常見到 12 人級距，保留海景與餐廳氣氛，但不是別墅／豪宅那種完整私有場地。",
+      "price_summary_text": "屬較輕量的海景露台玩法，通常比別墅 / 豪宅包場更容易談，但仍要逐案確認最低消費與晚宴形式。",
+      "backup_summary_text": "遇雨多半要轉向室內餐飲空間或教堂備案，空間彈性不如買斷式形式。",
+      "decision_notes": "適合只想要少人數、海景與精緻晚餐氛圍，不追求最高私密性與最強浮台識別度的組合。"
+    },
+    {
+      "space_id": "bvlgari-villa-private-water-stage",
+      "label": "Bvlgari Villa 私人水台",
+      "space_types": [
+        "water-platform",
+        "villa-buyout"
+      ],
+      "privacy_level": "private",
+      "event_scope": "buyout_event",
+      "capacity_summary_text": "公開資料多指向最多約 50 人；樓下酒會露台加樓上映池水台，是最典型的私人別墅婚禮格式。",
+      "price_summary_text": "2024 年公開專案起價約 IDR 398,000,000，並綁兩晚別墅住宿、私人晚宴與接送條件。",
+      "backup_summary_text": "雨天可轉為別墅室內、教堂或其他室內區域，但流程與空間切換都需要飯店高度協調。",
+      "decision_notes": "比公開水台更私密，也更能把住宿體驗綁進婚禮主軸；代價是住宿承諾與總預算門檻明顯拉高。"
+    },
+    {
+      "space_id": "bvlgari-mansion-private-water-stage",
+      "label": "Bvlgari Mansion 總裁豪宅私人水台",
+      "space_types": [
+        "water-platform",
+        "villa-buyout"
+      ],
+      "privacy_level": "private",
+      "event_scope": "buyout_event",
+      "capacity_summary_text": "公開資料多指向最多約 50 人；五房豪宅加 T 字型透明水台，是寶格麗最具總裁級私密感的版本。",
+      "price_summary_text": "2024 年公開專案起價約 IDR 508,000,000，通常是寶格麗最昂貴、也最完整的豪宅買斷玩法。",
+      "backup_summary_text": "遇雨可轉豪宅室內、教堂或其他室內區域，但整體仍高度依賴現場協調與時段管理。",
+      "decision_notes": "如果你在意總裁級私密性、浮台儀式與住宿儀式一體化，這是最接近寶格麗終極版本的選擇。"
+    }
+  ],
   "data_completeness": "comparable_core_complete",
   "research_status": "deep_research_complete",
   "last_verified_at": "2026-06-18",
@@ -157,6 +226,9 @@
     "bvlgari-tripcom-hk-hotel",
     "bvlgari-ctrip-hotel",
     "bvlgari-balifortwo-jeffrey-mag",
+    "bvlgari-balivibes-overview",
+    "bvlgari-balifortwo-villa",
+    "bvlgari-balifortwo-la-terrazza",
     "bvlgari-neverneverland-zh",
     "bvlgari-resort-bali-watabe-ja",
     "bvlgari-resort-bali-suka-zh",

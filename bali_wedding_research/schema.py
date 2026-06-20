@@ -310,6 +310,19 @@ RESEARCH_STATUSES = {
 }
 DATA_FRESHNESS = {"recent", "possibly_outdated", "clearly_outdated"}
 PRICE_BANDS = {"budget", "midrange", "premium", "luxury", "ultra_luxury"}
+SPACE_PRIVACY_LEVELS = {"shared", "semi-private", "private", "buyout_required"}
+SPACE_EVENT_SCOPES = {
+    "ceremony_only",
+    "ceremony_and_dinner",
+    "reception_only",
+    "buyout_event",
+}
+CURRENT_STATUS_LEVELS = {
+    "normal",
+    "maintenance_notice",
+    "limited_operations",
+    "temporarily_closed",
+}
 
 
 def _require_bool(value: Any, field: str) -> bool:
@@ -403,6 +416,94 @@ def validate_price_entry(entry: dict[str, Any]) -> dict[str, Any]:
         "confidence",
         PRICE_CONFIDENCE,
     )
+    return candidate
+
+
+def validate_wedding_space_entry(entry: dict[str, Any]) -> dict[str, Any]:
+    candidate = _as_record(entry, "wedding space")
+    _require_keys(
+        candidate,
+        {
+            "space_id",
+            "label",
+            "space_types",
+            "privacy_level",
+            "event_scope",
+            "capacity_summary_text",
+            "price_summary_text",
+            "backup_summary_text",
+            "decision_notes",
+        },
+        "wedding space",
+    )
+
+    candidate["space_id"] = _require_non_empty_string(candidate["space_id"], "space_id")
+    candidate["label"] = _require_non_empty_string(candidate["label"], "label")
+    candidate["space_types"] = _require_string_list(candidate["space_types"], "space_types")
+    candidate["privacy_level"] = _require_choice(
+        candidate["privacy_level"],
+        "privacy_level",
+        SPACE_PRIVACY_LEVELS,
+    )
+    candidate["event_scope"] = _require_choice(
+        candidate["event_scope"],
+        "event_scope",
+        SPACE_EVENT_SCOPES,
+    )
+    candidate["capacity_summary_text"] = _require_non_empty_string(
+        candidate["capacity_summary_text"],
+        "capacity_summary_text",
+    )
+    candidate["price_summary_text"] = _require_non_empty_string(
+        candidate["price_summary_text"],
+        "price_summary_text",
+    )
+    candidate["backup_summary_text"] = _require_non_empty_string(
+        candidate["backup_summary_text"],
+        "backup_summary_text",
+    )
+    candidate["decision_notes"] = _require_non_empty_string(
+        candidate["decision_notes"],
+        "decision_notes",
+    )
+    return candidate
+
+
+def validate_current_status_entry(entry: dict[str, Any]) -> dict[str, Any]:
+    candidate = _as_record(entry, "current status")
+    _require_keys(
+        candidate,
+        {
+            "level",
+            "headline",
+            "summary",
+            "checked_at",
+            "source_ids",
+        },
+        "current status",
+    )
+
+    candidate["level"] = _require_choice(
+        candidate["level"],
+        "level",
+        CURRENT_STATUS_LEVELS,
+    )
+    candidate["headline"] = _require_non_empty_string(candidate["headline"], "headline")
+    candidate["summary"] = _require_non_empty_string(candidate["summary"], "summary")
+    candidate["checked_at"] = _require_iso_date(candidate["checked_at"], "checked_at")
+    candidate["source_ids"] = _require_string_list(candidate["source_ids"], "source_ids")
+    duplicate_source_ids = sorted(
+        {
+            source_id
+            for source_id in candidate["source_ids"]
+            if candidate["source_ids"].count(source_id) > 1
+        }
+    )
+    if duplicate_source_ids:
+        raise ValueError(
+            "current status source_ids must not contain duplicates: "
+            + ", ".join(duplicate_source_ids)
+        )
     return candidate
 
 
@@ -726,6 +827,28 @@ def validate_venue_record(record: dict[str, Any]) -> dict[str, Any]:
         candidate["photo_index_id"],
         "photo_index_id",
     )
+    if "current_status" not in candidate or candidate["current_status"] is None:
+        candidate["current_status"] = None
+    else:
+        candidate["current_status"] = validate_current_status_entry(candidate["current_status"])
+    if "wedding_spaces" not in candidate:
+        candidate["wedding_spaces"] = []
+    elif not isinstance(candidate["wedding_spaces"], list):
+        raise ValueError("wedding_spaces must be a list")
+    else:
+        candidate["wedding_spaces"] = [
+            validate_wedding_space_entry(entry)
+            for entry in candidate["wedding_spaces"]
+        ]
+    if candidate["current_status"] is not None:
+        missing_status_sources = sorted(
+            set(candidate["current_status"]["source_ids"]) - set(candidate["source_ids"])
+        )
+        if missing_status_sources:
+            raise ValueError(
+                "current_status source_ids must exist in source_ids: "
+                + ", ".join(missing_status_sources)
+            )
 
     if candidate["pricing_status"] == "unknown" and candidate["price_entries"]:
         raise ValueError("pricing_status=unknown must not carry public price entries")

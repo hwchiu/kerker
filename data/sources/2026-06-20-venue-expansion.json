@@ -1,0 +1,384 @@
+[
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-gusmank-2023",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "editorial_case_study",
+    "source_name": "Gusmank 四季金巴蘭灣真實婚禮實拍",
+    "source_url": "https://www.gusmank.com/2023/four-seasons-resort-jimbaran-wedding/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "婚攝實拍案例，對判斷 Gili Jimbaran 的實際氛圍、動線與小型婚禮比例很有參考價值。",
+    "raw_excerpt_summary": "以真實婚禮畫面呈現金巴蘭灣四季的 all-villa 氛圍、海邊儀式與日落質感，特別適合比對 Gili Jimbaran 這類 intimate 海景形式。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-happybali-gili",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "Happy Bali Wedding Gili Jimbaran 場地頁",
+    "source_url": "https://www.happybaliwedding.com/venue/gili-jimbaran/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "英文婚顧場地頁，對 Gili Jimbaran 的適合人數、海灣位置與房晚綁定玩法很有幫助，但仍需與四季確認最新條件。",
+    "raw_excerpt_summary": "將 Gili Jimbaran 描述為靠近海灘的 private cove wedding 選項，適合 elopement 到約 50 位賓客，並帶有 Garden Villa 住宿綁定的訊號。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-happybali-pool-terrace",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "Happy Bali Wedding Pool Terrace Water Wedding 場地頁",
+    "source_url": "https://www.happybaliwedding.com/venue/pool-terrace-water-wedding/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "accommodation",
+      "photos",
+      "restrictions"
+    ],
+    "reliability_notes": "英文婚顧頁，對 Pool Terrace 水上台的尺寸、時段與房晚綁定資訊很有價值。",
+    "raw_excerpt_summary": "頁面描述 Pool Terrace 為高於海面約 35 公尺、擁有 180 度海景與 T 字型透明水上台的婚禮產品，常見搭配 30 位 dinner 與三間 Garden Villa。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-bless-bali-overview-ja",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "Bless Bali 四季金巴蘭灣日文總覽頁",
+    "source_url": "https://www.bless-bali.com/single_c_wedding/four-seansons-resort-bali-at-jimbaran-bay/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "ja",
+    "evidence_categories": [
+      "capacity",
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "日文婚顧整理頁把不同 ceremony / party space 拆得比官方更細，適合做場地子空間比較。",
+    "raw_excerpt_summary": "將 Jimbaran Garden、Gili Jimbaran、Coconut Grove、Pool Terrace、Imperial Villa 與 Sundara 等不同玩法分開列出，並提供對應人數帶與聚會型態。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-bless-bali-sundara-private-room-ja",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "Bless Bali Sundara Private Room 日文頁",
+    "source_url": "https://www.bless-bali.com/wedding-party/four-seasons-resort-bali-at-jimbaran-bay-sundara-private-room/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "ja",
+    "evidence_categories": [
+      "capacity",
+      "rain_backup",
+      "photos"
+    ],
+    "reliability_notes": "日文婚顧對 Sundara 私人包廂的描述很具體，適合補強超小型晚宴與雨備選項。",
+    "raw_excerpt_summary": "把 Sundara 二樓私人包廂定位成面海 sunset private dining，約 10 至 16 位，對 family dinner、after-party 或雨備 dinner 很有參考價值。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-bless-bali-report-k-ja",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "editorial_case_study",
+    "source_name": "Bless Bali 金巴蘭灣四季婚禮實例 K",
+    "source_url": "https://www.bless-bali.com/report/four-seansons-resort-bali-at-jimbaran-bay-k/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "ja",
+    "evidence_categories": [
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "日文真實婚禮實例，直接補到雨季傍晚暴雨與蚊蟲等實際執行感受。",
+    "raw_excerpt_summary": "案例呈現 Jimbaran Garden ceremony 加 Gazebo 晚餐的真實流程，並提到雨季突發大雨與戶外晚宴的現場體感。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-bless-bali-report-o-ja",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "editorial_case_study",
+    "source_name": "Bless Bali 金巴蘭灣四季婚禮實例 O",
+    "source_url": "https://www.bless-bali.com/report/four-seansons-resort-bali-at-jimbaran-bay-o/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "ja",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "日文實拍案例，對 Gili Jimbaran ceremony 與 Gazebo dinner 的真實讀感很有幫助。",
+    "raw_excerpt_summary": "案例以 Gili Jimbaran 儀式加浪漫晚餐的形式呈現金巴蘭四季，補足巴厘島感與上品感兼具的實際畫面。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-northwest-travel-zh",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "西北旅遊 Four Seasons Jimbaran 中文頁",
+    "source_url": "https://northwest-travel.com/bali/bali-hotels/wedding-four-seasons-resort-bali-at-jimbaran-bay/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "transport",
+      "restrictions",
+      "photos"
+    ],
+    "reliability_notes": "中文婚顧頁，對機場距離、常用儀式時段與明確限制條件很有實用價值。",
+    "raw_excerpt_summary": "頁面列出距機場約 20 分鐘、常見 ceremony 時段、20 張觀禮椅，以及禁空拍、禁放氣球等明確限制。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-weddings-com-tw-zh",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "platform_agency",
+    "source_name": "閣樓婚禮顧問 Mandapa 中文攻略",
+    "source_url": "https://www.weddings.com.tw/%E3%80%90%E5%B3%87%E9%87%8C%E5%B3%B6%E5%A9%9A%E7%A6%AE%E9%85%92%E5%BA%97%E6%8E%A8%E8%96%A6%E3%80%91%E9%9D%9C%E8%AC%90%E7%A8%BB%E7%94%B0%E8%A3%A1%E7%9A%84%E6%A5%B5%E5%A5%A2%E4%B9%8B%E9%81%B8-mandapa-a/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": "2025-07-14",
+    "language": "zh",
+    "evidence_categories": [
+      "capacity",
+      "rain_backup",
+      "transport",
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "中文攻略頁把 Mandapa 的 ceremony 子空間、交通與雨季建議寫得很完整，是目前中文資訊密度最高的來源之一。",
+    "raw_excerpt_summary": "頁面把 Riverfront Lawn、Mandapa Temple、Private Villa Garden 與 Dining Pavilion 拆開說明，並補充機場車程、雨季安排與房型建議。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-venuereport",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "editorial_case_study",
+    "source_name": "Venue Report Mandapa 場地頁",
+    "source_url": "https://www.venuereport.com/venue/mandapa-a-ritz-carlton-reserve/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "accommodation",
+      "restrictions"
+    ],
+    "reliability_notes": "場地目錄頁提供對房量、標準包裝與大人數 buyout 門檻的有用訊號，但仍需官方核對。",
+    "raw_excerpt_summary": "頁面指出 Mandapa 有 35 間套房加 25 間別墅、標準婚禮包裝從 20 人起算，並暗示 80 人以上會明顯進入更高的房晚或 buyout 討論。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-dstudios-guide",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "editorial_case_study",
+    "source_name": "Dstudios Mandapa 場地指南",
+    "source_url": "https://dstudios.in/mandapa-ritz-carlton-ubud/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "rain_backup",
+      "photos"
+    ],
+    "reliability_notes": "攝影團隊場地指南，對 Temple Lawn、Ayung Riverside、Rice Terrace 與 Pool Bar / Library 的實際用途很有價值。",
+    "raw_excerpt_summary": "把 Mandapa 的主力場地拆成 Temple Lawn、Ayung Riverside、In-Villa Wedding、Rice Terrace Deck 與 Pool Bar and Library，並補到 semi-open reception 的替代思路。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-gusmank-2024",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "editorial_case_study",
+    "source_name": "Gusmank Mandapa 烏布婚禮實拍",
+    "source_url": "https://www.gusmank.com/2024/mandapa-ubud-wedding/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "婚攝真實案例，能直接看 Mandapa 在 very intimate wedding 尺度下的真實完成度。",
+    "raw_excerpt_summary": "實拍集中呈現 Ayung 河谷與稻田背景下的 elopement / very intimate wedding，強化 Mandapa 偏小型、高氛圍婚禮的讀感。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-weddingku-realwedding",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "editorial_case_study",
+    "source_name": "Weddingku Mandapa 真實婚禮頁",
+    "source_url": "https://www.weddingku.com/wedding-vendors/honeymoon/mandapa-a-ritz-carlton-reserve-ubud/realwedding",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "印尼婚禮平台的真實婚禮圖庫，適合補當地市場視角下的 Mandapa 實拍。",
+    "raw_excerpt_summary": "提供 Mandapa 叢林、河谷與儀式現場的印尼市場實拍圖庫，適合交叉比對官方與婚顧的場地呈現。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-cinemotionphoto",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "editorial_case_study",
+    "source_name": "Cinemotion Mandapa Wedding Photographer 場地文",
+    "source_url": "https://www.cinemotionphoto.com/mandapa-ritz-carlton-reserve-wedding-photographer",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "攝影師場地文更強調現場讀感與畫面層次，對 space narrative 很有幫助。",
+    "raw_excerpt_summary": "以 riverside pavilions、rice-field terraces、jungle valleys 和 reserve villas 的角度描述 Mandapa，對 wedding space 的氣質拆分很有用。"
+  },
+  {
+    "source_id": "hanging-gardens-of-bali-venuereport",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Venue Report Hanging Gardens Ubud 場地頁",
+    "source_url": "https://www.venuereport.com/venue/hanging-gardens-ubud/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "transport",
+      "accommodation"
+    ],
+    "reliability_notes": "場地目錄對 50 人上下的上限、11 PM curfew 與 funicular 內部動線提供實用判斷。",
+    "raw_excerpt_summary": "將 Hanging Gardens 描述為適合中小型叢林婚禮的度假村，強調雙層泳池、山谷地形、纜車內部移動與約 50 位上下的人數判讀。"
+  },
+  {
+    "source_id": "hanging-gardens-of-bali-whiteroses-hidden-palace",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "platform_agency",
+    "source_name": "White Roses Hidden Palace Wedding 頁面",
+    "source_url": "https://whiterosesplanner.com/ubud-wedding/hanging-gardens-hidden-palace-wedding",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "restrictions",
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "婚顧套裝頁雖非官方，但對 Hidden Palace 的房晚綁定與 infinity pool wedding 的門檻寫得很直接。",
+    "raw_excerpt_summary": "指出 Hidden Palace 形式常搭配兩晚住宿，且若想指定 infinity pool wedding，會牽動更高 room revenue 與 F&B 門檻。"
+  },
+  {
+    "source_id": "hanging-gardens-of-bali-bernadeta-real-wedding",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Bernadeta Kupiec Hanging Gardens 真實婚禮",
+    "source_url": "https://bernadetakupiec.co.uk/hanging-gardens-bali-wedding/",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "真實婚禮實拍，對 January 濕季、少人數婚禮在現場的真實讀感很有價值。",
+    "raw_excerpt_summary": "以一場偏 intimate 的真實婚禮呈現 Hanging Gardens 的濕季氛圍，幫助判斷叢林場地在人少規模下是否足夠浪漫且可控。"
+  },
+  {
+    "source_id": "hanging-gardens-of-bali-cinemotionphoto",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Cinemotion Hanging Gardens Wedding Photographer 場地文",
+    "source_url": "https://www.cinemotionphoto.com/hanging-gardens-of-bali-wedding-photographer",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "攝影師角度把 Hanging Gardens 的空間語彙拆得很清楚，適合轉成 wedding_spaces。",
+    "raw_excerpt_summary": "把場地理解成 Suspended Infinity Pools、Valley Terraces、Riverside Platforms 與 Private Villas 幾條線，補強主 resort 與 Hidden Palace 的差異。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-weddingku-5-spots",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Weddingku 六善 5 個婚禮場地整理",
+    "source_url": "https://www.weddingku.com/blog/5-spot-wedding-venue-eksotis-di-six-senses-uluwatu",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "印尼婚禮平台整理文，對 Six Senses 子空間的快速分類非常有幫助。",
+    "raw_excerpt_summary": "文章把 Six Senses 的 wedding spot 拆成多個等級，並明確提到 Cinema Paradiso 適合約 20 至 30 位賓客，且度假村有 semi indoor ballroom 可作備案。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-weddingku-devy-stephanie",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Weddingku Devy & Stephanie @ Six Senses 真實婚禮",
+    "source_url": "https://www.weddingku.com/real-weddings/romantisme-pernikahan-devy-stephanie-dengan-konsep-rustic-di-six-senses-uluwatu-bali",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮實拍可直接補 Six Senses 的儀式、花藝與宴會現場感。",
+    "raw_excerpt_summary": "以 rustic 風格真實婚禮呈現 Six Senses 的懸崖場地與餐敘效果，比純 venue listing 更接近實際落地狀態。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-weddingku-eastern-palace",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "platform_agency",
+    "source_name": "Weddingku The Eastern Palace 方案頁",
+    "source_url": "https://www.weddingku.com/wedding-vendors/destination-wedding-venue/six-senses-uluwatu/pricelist/the-eastern-palace-?id=26651",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "pricing",
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "方案頁雖帶有銷售性，但對 Eastern Palace 這類 villa 型婚禮的住宿綁定與空間感很有參考價值。",
+    "raw_excerpt_summary": "把 The Eastern Palace 定位成私密 villa wedding 玩法，有助於和 Cinema Paradiso、clifftop lawn 與 ballroom 線分開比較。"
+  },
+  {
+    "source_id": "the-edge-bali-weddingku-viola-fry",
+    "venue_id": "the-edge-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Weddingku Viola & Fry @ The Edge Bali 真實婚禮",
+    "source_url": "https://www.weddingku.com/real-weddings/intimate-rustic-elegant-wedding-viola-fry-at-the-edge-bali",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "真實婚禮實拍可以補到 The Edge sunset cocktail、晚宴與 after-party 的真實尺度。",
+    "raw_excerpt_summary": "案例以 intimate rustic elegant 為主題，直接呈現 The Edge 的 ceremony、cocktail、sitting dinner 與 after-party 流程。"
+  },
+  {
+    "source_id": "the-edge-bali-weddingku-ocean-view-blog",
+    "venue_id": "the-edge-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Weddingku The Edge 海景婚禮專題",
+    "source_url": "https://www.weddingku.com/blog/ocean-view-wedding-di-uluwatu-bali-yang-bikin-jatuh-cinta",
+    "captured_at": "2026-06-20",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "印尼專題文對 The Edge 的 glass deck 與 ultra-luxury 私宅感有更直白的描述。",
+    "raw_excerpt_summary": "文章把 The Edge 定位成直接面海的 ultra-luxury cliff venue，強調 glass deck 與極強的私人莊園感。"
+  }
+]

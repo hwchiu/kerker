@@ -119,21 +119,158 @@ class StaticSiteTest(unittest.TestCase):
             self.assertIn("快速初篩路線", index_html)
             self.assertIn("全部場地比較", index_html)
             self.assertIn("sortSelect", index_html)
+            self.assertLess(index_html.index("快速初篩路線"), index_html.index("先篩選再深看"))
+            self.assertLess(index_html.index("場地卡片"), index_html.index('id="style-chapel"'))
             self.assertIn("Example Cliffside Weddings", detail_html)
             self.assertIn("https://example.com/cliffside/gallery/1", detail_html)
             self.assertIn("Confirm corkage fees for external alcohol", detail_html)
+            self.assertIn("決策摘要", detail_html)
             self.assertIn("決策適配", detail_html)
             self.assertIn("相近替代場地", detail_html)
             self.assertIn("Example Garden Resort", detail_html)
             self.assertIn('class="gallery-preview"', detail_html)
             self.assertIn('data-lightbox-image="https://example.com/images/1.jpg"', detail_html)
+            self.assertIn('data-lightbox-group="example-photo-1"', detail_html)
             self.assertIn('id="photoLightbox"', detail_html)
+            self.assertIn('data-lightbox-target="status"', detail_html)
             self.assertIn('src="https://example.com/images/1.jpg"', detail_html)
             self.assertIn("NT$269,068", detail_html)
             self.assertIn("NT$461,500", detail_html)
             self.assertIn("約原幣 USD 8,500", detail_html)
             self.assertIn("約原幣 IDR 260,000,000", detail_html)
             self.assertNotIn("Public ceremony package starts at USD 8,500", detail_html)
+            self.assertNotIn("婚禮空間比較", detail_html)
+
+    def test_write_static_site_renders_wedding_spaces_when_present(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            paths = self._write_workspace(root)
+            venue = venue_record()
+            venue["wedding_spaces"] = [
+                {
+                    "space_id": "chapel-main",
+                    "label": "寶格麗教堂",
+                    "space_types": ["chapel"],
+                    "privacy_level": "shared",
+                    "event_scope": "ceremony_only",
+                    "capacity_summary_text": "儀式最多 90 人",
+                    "price_summary_text": "公開教堂方案適合把雨備放在第一順位的新娘",
+                    "backup_summary_text": "本身就是室內儀式空間，雨備最穩。",
+                    "decision_notes": "重視品牌感與天候穩定時，最容易 shortlist。",
+                },
+                {
+                    "space_id": "mansion-water-stage",
+                    "label": "總裁豪宅私人水台",
+                    "space_types": ["water-platform", "villa-buyout"],
+                    "privacy_level": "private",
+                    "event_scope": "buyout_event",
+                    "capacity_summary_text": "儀式＋晚宴最多 50 人",
+                    "price_summary_text": "需綁豪宅住宿與買斷型預算",
+                    "backup_summary_text": "雨天多半改為豪宅室內區域與教堂備案。",
+                    "decision_notes": "最私密、最有代表性，但成本與操作門檻也最高。",
+                },
+            ]
+            write_json_file(paths["venues"] / "example.json", venue)
+
+            output_dir = root / "site"
+            write_static_site(root, output_dir)
+            index_html = (output_dir / "index.html").read_text(encoding="utf-8")
+            detail_html = (
+                output_dir / "venues" / "example-cliffside-resort.html"
+            ).read_text(encoding="utf-8")
+
+            self.assertIn("婚禮空間比較", detail_html)
+            self.assertIn("寶格麗教堂", detail_html)
+            self.assertIn("總裁豪宅私人水台", detail_html)
+            self.assertIn("共享空間", detail_html)
+            self.assertIn("私密包場", detail_html)
+            self.assertIn("買斷型活動", detail_html)
+            self.assertNotIn("婚禮空間比較", index_html)
+
+    def test_write_static_site_emits_mobile_and_gallery_ui_hooks(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            self._write_workspace_with_similar_venue(root)
+            output_dir = root / "site"
+
+            write_static_site(root, output_dir)
+
+            index_html = (output_dir / "index.html").read_text(encoding="utf-8")
+            detail_html = (
+                output_dir / "venues" / "example-cliffside-resort.html"
+            ).read_text(encoding="utf-8")
+            site_css = (output_dir / "assets" / "site.css").read_text(encoding="utf-8")
+            site_js = (output_dir / "assets" / "site.js").read_text(encoding="utf-8")
+
+            self.assertIn('class="filter-guide"', index_html)
+            self.assertIn('class="style-card-count"', index_html)
+            self.assertIn('class="shortlist-item"', index_html)
+            self.assertIn('class="compare-row"', index_html)
+            self.assertIn('class="compare-detail-link"', index_html)
+            self.assertIn('class="detail-anchor-nav"', detail_html)
+            self.assertIn('href="#decision-summary"', detail_html)
+            self.assertIn('id="photo-gallery"', detail_html)
+            self.assertIn('class="gallery-card-header"', detail_html)
+            self.assertIn('class="gallery-preview-hint"', detail_html)
+            self.assertIn('data-lightbox-target="meta"', detail_html)
+            self.assertIn('data-lightbox-target="hint"', detail_html)
+            self.assertIn(".filter-guide", site_css)
+            self.assertIn(".style-card-count", site_css)
+            self.assertIn(".compare-row", site_css)
+            self.assertIn(".detail-anchor-nav", site_css)
+            self.assertIn(".gallery-preview-hint", site_css)
+            self.assertIn("touchstart", site_js)
+            self.assertIn("touchend", site_js)
+
+    def test_write_static_site_renders_current_status_alerts(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            paths = self._write_workspace(root)
+            status_source = {
+                "source_id": "example-operational-status",
+                "venue_id": "example-cliffside-resort",
+                "source_type": "official",
+                "source_name": "Example Resort Status",
+                "source_url": "https://example.com/cliffside/status",
+                "captured_at": "2026-06-20",
+                "content_date_if_known": None,
+                "language": "en",
+                "evidence_categories": ["restrictions"],
+                "reliability_notes": "Synthetic official status notice for test coverage",
+                "raw_excerpt_summary": "Temporary closure notice",
+            }
+            venue = venue_record()
+            venue["source_ids"] = [
+                "example-cliffside-official",
+                "example-operational-status",
+            ]
+            venue["current_status"] = {
+                "level": "temporarily_closed",
+                "headline": "官方頁面顯示自 2026-02-01 起暫時關閉",
+                "summary": "近期婚期必須先確認是否已恢復接單與開館。",
+                "checked_at": "2026-06-20",
+                "source_ids": ["example-operational-status"],
+            }
+
+            write_json_file(paths["sources"] / "example.json", [source_record(), status_source])
+            write_json_file(paths["venues"] / "example.json", venue)
+
+            output_dir = root / "site"
+            write_static_site(root, output_dir)
+            index_html = (output_dir / "index.html").read_text(encoding="utf-8")
+            detail_html = (
+                output_dir / "venues" / "example-cliffside-resort.html"
+            ).read_text(encoding="utf-8")
+
+            self.assertIn("現況", index_html)
+            self.assertIn("近期營運現況", index_html)
+            self.assertIn("暫停營運", index_html)
+            self.assertIn("官方頁面顯示自 2026-02-01 起暫時關閉", index_html)
+            self.assertIn('href="#status-overview"', index_html)
+            self.assertIn('href="#current-status"', detail_html)
+            self.assertIn('id="current-status"', detail_html)
+            self.assertIn("營運現況", detail_html)
+            self.assertIn("近期婚期必須先確認是否已恢復接單與開館。", detail_html)
 
     def test_write_static_site_uses_local_photo_assets_when_manifest_exists(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:

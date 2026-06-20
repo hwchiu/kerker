@@ -18,18 +18,21 @@ from .photo_assets import copy_photo_assets_for_site
 SITE_CSS = """@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --bg: #f5eee4;
-  --bg-glow: rgba(244, 160, 124, 0.28);
-  --ink: #1d2a2d;
-  --muted: #5c6c6f;
-  --panel: rgba(255, 248, 240, 0.84);
-  --panel-strong: rgba(255, 252, 249, 0.92);
-  --line: rgba(29, 42, 45, 0.12);
+  --bg: #f7f1ea;
+  --bg-glow: rgba(244, 160, 124, 0.18);
+  --ink: #1f2a2d;
+  --muted: #677578;
+  --panel: rgba(255, 249, 244, 0.78);
+  --panel-strong: rgba(255, 252, 249, 0.94);
+  --line: rgba(29, 42, 45, 0.1);
+  --line-strong: rgba(29, 42, 45, 0.16);
   --teal: #1f6b68;
-  --teal-soft: rgba(31, 107, 104, 0.12);
-  --coral: #cf6f53;
+  --teal-soft: rgba(31, 107, 104, 0.08);
+  --coral: #cb6c51;
   --gold: #c29d4d;
-  --shadow: 0 24px 60px rgba(39, 45, 49, 0.12);
+  --shadow-sm: 0 12px 30px rgba(39, 45, 49, 0.06);
+  --shadow-md: 0 18px 44px rgba(39, 45, 49, 0.08);
+  --shadow-lg: 0 26px 62px rgba(39, 45, 49, 0.1);
   --radius-xl: 28px;
   --radius-lg: 20px;
   --radius-sm: 12px;
@@ -49,9 +52,9 @@ body {
   font-family: "Manrope", sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at top left, var(--bg-glow), transparent 32%),
-    radial-gradient(circle at 90% 10%, rgba(31, 107, 104, 0.16), transparent 24%),
-    linear-gradient(180deg, #f9f2ea 0%, #f3eadf 36%, #efe6db 100%);
+    radial-gradient(circle at top left, var(--bg-glow), transparent 34%),
+    radial-gradient(circle at 90% 10%, rgba(31, 107, 104, 0.1), transparent 22%),
+    linear-gradient(180deg, #fbf7f2 0%, #f6efe7 38%, #f1e9df 100%);
 }
 
 body.lightbox-open {
@@ -64,15 +67,9 @@ body::before {
   inset: 0;
   pointer-events: none;
   background:
-    linear-gradient(120deg, rgba(255, 255, 255, 0.32), transparent 40%),
-    repeating-linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0.08) 0,
-      rgba(255, 255, 255, 0.08) 1px,
-      transparent 1px,
-      transparent 24px
-    );
-  opacity: 0.45;
+    linear-gradient(180deg, rgba(255, 255, 255, 0.28), transparent 24%),
+    radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.3), transparent 18%);
+  opacity: 0.35;
 }
 
 a {
@@ -80,36 +77,40 @@ a {
 }
 
 .page-shell {
-  width: min(1180px, calc(100vw - 32px));
+  width: min(1200px, calc(100vw - 32px));
   margin: 0 auto;
-  padding: 32px 0 72px;
+  padding: 28px 0 88px;
 }
 
 .hero,
 .surface {
   position: relative;
   overflow: hidden;
-  background: var(--panel);
+  background: rgba(255, 252, 248, 0.82);
   border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: var(--radius-xl);
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(18px);
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(10px);
 }
 
 .hero {
-  padding: 44px;
-  margin-bottom: 22px;
+  padding: 48px;
+  margin-bottom: 24px;
+  background:
+    linear-gradient(180deg, rgba(255, 251, 247, 0.9), rgba(255, 247, 240, 0.86)),
+    radial-gradient(circle at 100% 0%, rgba(31, 107, 104, 0.06), transparent 20%);
+  box-shadow: var(--shadow-md);
 }
 
 .hero::after,
 .surface::after {
   content: "";
   position: absolute;
-  inset: auto -60px -80px auto;
-  width: 180px;
-  height: 180px;
+  inset: auto -40px -70px auto;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(31, 107, 104, 0.18), transparent 70%);
+  background: radial-gradient(circle, rgba(31, 107, 104, 0.12), transparent 70%);
 }
 
 .eyebrow {
@@ -139,9 +140,44 @@ a {
 .lede {
   max-width: 760px;
   margin: 18px 0 0;
-  font-size: 1rem;
+  font-size: 1.02rem;
   line-height: 1.8;
   color: var(--muted);
+}
+
+.hero-actions,
+.detail-anchor-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.quick-link,
+.detail-anchor-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 15px;
+  border-radius: 999px;
+  border: 1px solid rgba(31, 107, 104, 0.14);
+  background: rgba(255, 255, 255, 0.58);
+  color: var(--teal);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  transition: transform 180ms ease, background-color 180ms ease, border-color 180ms ease;
+}
+
+.quick-link:hover,
+.quick-link:focus-visible,
+.detail-anchor-link:hover,
+.detail-anchor-link:focus-visible {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.86);
+  border-color: rgba(31, 107, 104, 0.24);
 }
 
 .hero-grid,
@@ -164,7 +200,7 @@ a {
 
 .stat,
 .quick-fact {
-  padding: 20px;
+  padding: 22px;
 }
 
 .stat strong,
@@ -184,8 +220,8 @@ a {
 }
 
 .surface {
-  padding: 26px;
-  margin-top: 20px;
+  padding: 28px;
+  margin-top: 22px;
 }
 
 .section-head {
@@ -193,7 +229,7 @@ a {
   align-items: end;
   justify-content: space-between;
   gap: 16px;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .section-head h2 {
@@ -208,10 +244,84 @@ a {
   line-height: 1.7;
 }
 
+.status-inline {
+  display: grid;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(194, 157, 77, 0.24);
+  background: rgba(255, 250, 242, 0.94);
+}
+
+.status-inline.status-inline-ok {
+  border-color: rgba(31, 107, 104, 0.2);
+  background: rgba(243, 250, 249, 0.96);
+}
+
+.status-inline.status-inline-watch {
+  border-color: rgba(194, 157, 77, 0.28);
+  background: rgba(255, 249, 239, 0.96);
+}
+
+.status-inline.status-inline-alert {
+  border-color: rgba(203, 108, 81, 0.28);
+  background: rgba(255, 243, 239, 0.97);
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-height: 30px;
+  padding: 0 12px;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.status-pill-ok {
+  background: rgba(31, 107, 104, 0.12);
+  color: var(--teal);
+}
+
+.status-pill-watch {
+  background: rgba(194, 157, 77, 0.18);
+  color: #8f6c16;
+}
+
+.status-pill-alert {
+  background: rgba(203, 108, 81, 0.16);
+  color: #9f4933;
+}
+
+.status-summary,
+.status-note,
+.status-meta {
+  margin: 0;
+}
+
+.status-summary {
+  color: var(--ink);
+  line-height: 1.65;
+}
+
+.status-meta {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.compare-status {
+  display: grid;
+  gap: 6px;
+}
+
 .control-grid {
   display: grid;
-  gap: 14px;
-  grid-template-columns: minmax(0, 1.5fr) repeat(5, minmax(0, 1fr));
+  gap: 16px;
+  grid-template-columns: minmax(0, 1.8fr) repeat(3, minmax(0, 1fr));
 }
 
 .control label {
@@ -228,9 +338,9 @@ a {
 .control select {
   width: 100%;
   appearance: none;
-  border: 1px solid var(--line);
+  border: 1px solid var(--line-strong);
   border-radius: 999px;
-  background: #fffdfa;
+  background: rgba(255, 255, 255, 0.8);
   padding: 14px 18px;
   font: inherit;
   color: var(--ink);
@@ -253,7 +363,7 @@ a {
 
 .results-grid {
   display: grid;
-  gap: 18px;
+  gap: 20px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   margin-top: 20px;
 }
@@ -262,31 +372,31 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 18px;
   min-height: 100%;
-  padding: 26px;
+  padding: 24px;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(255, 250, 247, 0.96)),
-    linear-gradient(140deg, rgba(207, 111, 83, 0.04), rgba(31, 107, 104, 0.02));
-  border: 1px solid rgba(29, 42, 45, 0.09);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(255, 249, 245, 0.96)),
+    linear-gradient(140deg, rgba(207, 111, 83, 0.03), rgba(31, 107, 104, 0.015));
+  border: 1px solid rgba(29, 42, 45, 0.08);
   border-radius: var(--radius-lg);
-  box-shadow: 0 18px 38px rgba(39, 45, 49, 0.08);
+  box-shadow: var(--shadow-sm);
   animation: rise 560ms ease both;
 }
 
 .card-media {
   overflow: hidden;
-  border: 1px solid rgba(29, 42, 45, 0.09);
+  border: 1px solid rgba(29, 42, 45, 0.08);
   border-radius: var(--radius-lg);
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.4), rgba(255, 250, 247, 0.7)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.48), rgba(255, 250, 247, 0.74)),
     rgba(31, 107, 104, 0.08);
 }
 
 .card-image {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 9.4;
   object-fit: cover;
 }
 
@@ -324,11 +434,11 @@ a {
   align-items: center;
   gap: 8px;
   min-height: 32px;
-  padding: 6px 12px;
+  padding: 7px 12px;
   border-radius: 999px;
   background: var(--teal-soft);
   color: var(--teal);
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 700;
 }
 
@@ -345,13 +455,14 @@ a {
 
 .metric-grid {
   display: grid;
-  gap: 10px;
+  gap: 12px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .metric,
 .card-panel {
-  padding: 16px;
+  padding: 18px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.44);
 }
 
 .metric dt {
@@ -402,29 +513,40 @@ a {
   text-decoration: none;
   font-weight: 800;
   letter-spacing: 0.02em;
+  box-shadow: 0 10px 24px rgba(31, 107, 104, 0.16);
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
 }
 
 .link-button.secondary {
   background: rgba(31, 107, 104, 0.08);
   color: var(--teal);
+  box-shadow: none;
+}
+
+.link-button:hover,
+.link-button:focus-visible,
+.compare-detail-link:hover,
+.compare-detail-link:focus-visible {
+  transform: translateY(-1px);
 }
 
 .detail-hero {
-  padding: 34px;
+  padding: 40px;
 }
 
 .detail-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 24px;
 }
 
 .stack {
   display: grid;
-  gap: 16px;
+  gap: 18px;
 }
 
 .two-column {
   display: grid;
-  gap: 18px;
+  gap: 20px;
   grid-template-columns: 1.2fr 0.8fr;
 }
 
@@ -456,7 +578,7 @@ a {
 
 .gallery-grid {
   display: grid;
-  gap: 14px;
+  gap: 16px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
@@ -474,21 +596,54 @@ a {
 
 .gallery-card {
   display: grid;
-  gap: 14px;
+  gap: 16px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(255, 250, 247, 0.94)),
+    rgba(31, 107, 104, 0.02);
+}
+
+.gallery-card-header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.gallery-source-meta {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.gallery-source-count,
+.style-card-count {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 11px;
+  border-radius: 999px;
+  background: rgba(31, 107, 104, 0.08);
+  color: var(--teal);
+  font-size: 0.78rem;
+  font-weight: 800;
+  white-space: nowrap;
 }
 
 .gallery-preview-grid {
   display: grid;
-  gap: 10px;
+  gap: 12px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .gallery-preview-button {
   display: block;
+  position: relative;
   padding: 0;
   border: 0;
   background: transparent;
   cursor: zoom-in;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
 }
 
 .gallery-preview {
@@ -499,6 +654,32 @@ a {
   border-radius: var(--radius-sm);
   border: 1px solid rgba(29, 42, 45, 0.08);
   background: rgba(255, 255, 255, 0.8);
+  transition: transform 220ms ease;
+}
+
+.gallery-preview-button:hover .gallery-preview,
+.gallery-preview-button:focus-visible .gallery-preview {
+  transform: scale(1.03);
+}
+
+.gallery-preview-overlay {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(18, 25, 27, 0.7);
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.gallery-preview-hint {
+  margin: -4px 0 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.6;
 }
 
 .gallery-empty {
@@ -522,6 +703,139 @@ a {
   line-height: 1.7;
 }
 
+.advanced-filters {
+  margin-top: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--panel-strong);
+  overflow: hidden;
+}
+
+.advanced-filters summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 16px 18px;
+  font-size: 0.92rem;
+  font-weight: 800;
+  color: var(--teal);
+}
+
+.advanced-filters summary::-webkit-details-marker {
+  display: none;
+}
+
+.advanced-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding: 0 18px 18px;
+}
+
+.filter-guide {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 18px;
+}
+
+.filter-guide-card {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.56);
+}
+
+.filter-guide-card h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
+.advanced-toggle-grid {
+  padding: 0 18px 18px;
+  margin-top: 0;
+}
+
+.snapshot-grid,
+.space-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.summary-card,
+.space-card {
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.68);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.44);
+}
+
+.summary-card-emphasis {
+  background: linear-gradient(180deg, rgba(31, 107, 104, 0.08), rgba(255, 255, 255, 0.92));
+}
+
+.summary-card .summary,
+.space-card .summary {
+  margin-top: 8px;
+}
+
+.space-summary {
+  display: grid;
+  gap: 10px;
+  margin: 14px 0;
+}
+
+.space-summary dt {
+  margin: 0 0 4px;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.space-summary dd {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.price-table-wrap {
+  overflow-x: auto;
+}
+
+.status-overview-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.status-overview-card {
+  display: grid;
+  gap: 14px;
+  padding: 20px;
+  background: var(--panel-strong);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.46);
+}
+
+.status-overview-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 12px;
+}
+
+.status-overview-top h3 {
+  margin: 4px 0 0;
+  font-size: 1.18rem;
+}
+
+.status-overview-card .status-summary {
+  margin: 0;
+}
+
 .style-grid {
   display: grid;
   gap: 14px;
@@ -529,10 +843,20 @@ a {
 }
 
 .style-card {
+  display: grid;
+  gap: 14px;
   padding: 20px;
   background: var(--panel-strong);
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.44);
+}
+
+.style-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
 }
 
 .style-card h3 {
@@ -541,12 +865,30 @@ a {
 }
 
 .style-meta {
-  margin: 14px 0 8px;
-  font-size: 0.84rem;
+  margin: 0;
+  font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--teal);
+}
+
+.style-card-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.style-card-examples li {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(31, 107, 104, 0.06);
+  color: var(--ink);
+  font-size: 0.82rem;
+  line-height: 1.35;
 }
 
 .style-section-grid {
@@ -562,6 +904,7 @@ a {
   border-radius: var(--radius-lg);
   background: var(--panel-strong);
   overflow: hidden;
+  box-shadow: var(--shadow-sm);
 }
 
 .style-venue-media {
@@ -579,8 +922,8 @@ a {
 
 .style-venue-body {
   display: grid;
-  gap: 12px;
-  padding: 18px;
+  gap: 14px;
+  padding: 20px;
 }
 
 .style-venue-body h3 {
@@ -623,6 +966,7 @@ a {
   background: var(--panel-strong);
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.46);
 }
 
 .shortlist-card h3,
@@ -632,14 +976,47 @@ a {
   font-size: 1rem;
 }
 
-.shortlist-card ol {
+.shortlist-list {
+  display: grid;
+  gap: 12px;
   margin: 14px 0 0;
-  padding-left: 18px;
-  line-height: 1.7;
+  padding: 0;
+  list-style: none;
 }
 
-.shortlist-card li + li {
-  margin-top: 8px;
+.shortlist-item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+  padding: 14px;
+  border: 1px solid rgba(29, 42, 45, 0.08);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.54);
+}
+
+.shortlist-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  background: rgba(31, 107, 104, 0.08);
+  color: var(--teal);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.shortlist-item-body {
+  display: grid;
+  gap: 6px;
+}
+
+.shortlist-item-body strong {
+  font-size: 0.95rem;
+  line-height: 1.45;
 }
 
 .toggle-grid {
@@ -670,6 +1047,7 @@ a {
 .compare-scroll {
   margin-top: 18px;
   overflow-x: auto;
+  padding-bottom: 4px;
 }
 
 .compare-table {
@@ -684,7 +1062,7 @@ a {
   border-bottom: 1px solid var(--line);
   text-align: left;
   vertical-align: top;
-  background: rgba(255, 255, 255, 0.32);
+  background: rgba(255, 255, 255, 0.36);
 }
 
 .compare-table th {
@@ -698,6 +1076,35 @@ a {
 
 .compare-table td strong {
   display: block;
+}
+
+.compare-venue {
+  display: grid;
+  gap: 4px;
+}
+
+.compare-cell-price {
+  font-weight: 800;
+  color: var(--teal);
+}
+
+.compare-detail-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: rgba(31, 107, 104, 0.08);
+  color: var(--teal);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 800;
+  transition: transform 180ms ease, background-color 180ms ease;
+}
+
+.compare-table td[data-column-label]::before {
+  content: "";
 }
 
 .decision-line {
@@ -730,8 +1137,9 @@ a {
   z-index: 40;
   display: grid;
   place-items: center;
-  padding: 20px;
-  background: rgba(16, 23, 26, 0.88);
+  padding: 24px;
+  background: rgba(16, 23, 26, 0.9);
+  backdrop-filter: blur(8px);
 }
 
 .lightbox[hidden] {
@@ -740,19 +1148,21 @@ a {
 
 .lightbox-dialog {
   position: relative;
-  width: min(1100px, calc(100vw - 32px));
+  width: min(1120px, calc(100vw - 32px));
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
-  gap: 16px;
+  gap: 14px;
   align-items: center;
 }
 
 .lightbox-frame {
+  position: relative;
   margin: 0;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(17, 24, 26, 0.88);
   border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: var(--radius-lg);
+  border-radius: 24px;
   overflow: hidden;
+  box-shadow: 0 24px 54px rgba(0, 0, 0, 0.22);
 }
 
 .lightbox-image {
@@ -764,9 +1174,53 @@ a {
 }
 
 .lightbox-caption {
-  padding: 14px 18px;
+  display: grid;
+  gap: 8px;
+  padding: 16px 18px 18px;
   color: rgba(255, 255, 255, 0.84);
   line-height: 1.6;
+  background: linear-gradient(180deg, rgba(9, 13, 15, 0), rgba(9, 13, 15, 0.48));
+}
+
+.lightbox-caption-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.lightbox-title {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.lightbox-meta {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.lightbox-copy {
+  margin: 0;
+}
+
+.lightbox-hint {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.lightbox-status {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  min-width: 56px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(16, 23, 26, 0.7);
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-align: center;
 }
 
 .lightbox-close,
@@ -778,11 +1232,12 @@ a {
   height: 48px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.1);
   color: #fff;
   cursor: pointer;
   font: inherit;
   font-size: 1.5rem;
+  backdrop-filter: blur(8px);
 }
 
 .lightbox-close {
@@ -815,6 +1270,7 @@ a {
   }
 
   .control-grid,
+  .advanced-grid,
   .results-grid,
   .two-column,
   .detail-grid,
@@ -823,7 +1279,10 @@ a {
   .style-section-grid,
   .gallery-grid,
   .photo-insight-grid,
+  .status-overview-grid,
   .shortlist-grid,
+  .snapshot-grid,
+  .space-grid,
   .fit-grid,
   .alt-grid {
     grid-template-columns: 1fr;
@@ -834,6 +1293,25 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .filter-guide {
+    grid-template-columns: 1fr;
+  }
+
+  .style-grid,
+  .shortlist-grid,
+  .status-overview-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .detail-grid,
+  .photo-insight-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery-card-header {
+    align-items: start;
+  }
+
   .lightbox-close {
     top: 12px;
     right: 12px;
@@ -842,8 +1320,15 @@ a {
 
 @media (max-width: 640px) {
   .page-shell {
-    width: min(100vw - 18px, 100%);
-    padding-top: 18px;
+    width: min(100vw - 16px, 100%);
+    padding-top: 16px;
+  }
+
+  .hero,
+  .surface,
+  .detail-hero {
+    padding: 20px;
+    border-radius: 24px;
   }
 
   .hero h1,
@@ -851,8 +1336,147 @@ a {
     font-size: clamp(2.6rem, 14vw, 4rem);
   }
 
+  .hero-actions,
+  .detail-anchor-nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    margin-right: -4px;
+    scroll-snap-type: x proximity;
+  }
+
+  .quick-link,
+  .detail-anchor-link {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+  }
+
   .venue-card {
     padding: 20px;
+  }
+
+  .filter-guide,
+  .style-grid,
+  .shortlist-grid,
+  .status-overview-grid {
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(250px, 84vw);
+    grid-template-columns: none;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scroll-snap-type: x proximity;
+  }
+
+  .filter-guide-card,
+  .style-card,
+  .shortlist-card,
+  .status-overview-card {
+    scroll-snap-align: start;
+  }
+
+  .advanced-filters summary {
+    padding: 14px 16px;
+  }
+
+  .detail-grid,
+  .photo-insight-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery-card-header {
+    flex-direction: column;
+  }
+
+  .compare-scroll {
+    overflow: visible;
+  }
+
+  .compare-table {
+    min-width: 0;
+  }
+
+  .compare-table thead {
+    display: none;
+  }
+
+  .compare-table tbody {
+    display: grid;
+    gap: 12px;
+  }
+
+  .compare-table tr {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    padding: 18px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: rgba(255, 255, 255, 0.58);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .compare-table td {
+    display: grid;
+    gap: 8px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .compare-row .compare-cell-venue,
+  .compare-row .compare-cell-detail {
+    grid-column: 1 / -1;
+  }
+
+  .compare-row .compare-cell-price {
+    padding: 12px 14px;
+    border: 1px solid rgba(31, 107, 104, 0.12);
+    border-radius: 16px;
+    background: rgba(31, 107, 104, 0.08);
+  }
+
+  .compare-row .compare-cell-venue::before {
+    display: none;
+  }
+
+  .compare-table td[data-column-label]::before {
+    content: attr(data-column-label);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .compare-detail-link {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .lightbox {
+    padding: 12px;
+  }
+
+  .lightbox-dialog {
+    width: min(100vw - 4px, 100%);
+    gap: 12px;
+  }
+
+  .lightbox-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 44px;
+    height: 44px;
+  }
+
+  .lightbox-nav.prev {
+    left: 10px;
+  }
+
+  .lightbox-nav.next {
+    right: 10px;
   }
 }
 """
@@ -871,49 +1495,89 @@ SITE_JS = """(function () {
 
     const imageNode = lightbox.querySelector('[data-lightbox-target="image"]');
     const captionNode = lightbox.querySelector('[data-lightbox-target="caption"]');
+    const titleNode = lightbox.querySelector('[data-lightbox-target="title"]');
+    const metaNode = lightbox.querySelector('[data-lightbox-target="meta"]');
+    const hintNode = lightbox.querySelector('[data-lightbox-target="hint"]');
+    const statusNode = lightbox.querySelector('[data-lightbox-target="status"]');
     const closeNode = lightbox.querySelector("[data-lightbox-close]");
     const prevNode = lightbox.querySelector("[data-lightbox-prev]");
     const nextNode = lightbox.querySelector("[data-lightbox-next]");
+    const frameNode = lightbox.querySelector(".lightbox-frame");
+    let activeGroup = [];
     let activeIndex = -1;
+    let lastFocusedTrigger = null;
+    let touchStartX = 0;
+    let touchStartY = 0;
 
     function render(index) {
-      const trigger = triggers[index];
+      const trigger = activeGroup[index];
       if (!trigger || !imageNode || !captionNode) {
         return;
       }
       imageNode.src = trigger.dataset.lightboxImage || "";
       imageNode.alt = trigger.querySelector("img")?.alt || "";
-      captionNode.textContent = trigger.dataset.lightboxCaption || imageNode.alt;
+      const titleText = trigger.dataset.lightboxCaptionTitle || trigger.dataset.lightboxCaption || imageNode.alt;
+      const metaText = trigger.dataset.lightboxCaptionMeta || "";
+      const bodyText = trigger.dataset.lightboxCaptionBody || trigger.dataset.lightboxCaption || imageNode.alt;
+      if (titleNode) {
+        titleNode.textContent = titleText;
+      }
+      if (metaNode) {
+        metaNode.textContent = metaText;
+      }
+      captionNode.textContent = bodyText;
+      if (hintNode) {
+        hintNode.textContent = activeGroup.length > 1
+          ? "左右滑動、方向鍵切換，點背景或按 Esc 關閉。"
+          : "點背景或按 Esc 關閉。";
+      }
+      if (statusNode) {
+        statusNode.textContent = activeGroup.length ? `${index + 1} / ${activeGroup.length}` : "";
+      }
       if (prevNode) {
-        prevNode.disabled = triggers.length <= 1;
+        prevNode.disabled = activeGroup.length <= 1;
       }
       if (nextNode) {
-        nextNode.disabled = triggers.length <= 1;
+        nextNode.disabled = activeGroup.length <= 1;
       }
     }
 
-    function open(index) {
-      activeIndex = index;
-      render(index);
+    function open(trigger) {
+      const groupId = trigger.dataset.lightboxGroup || trigger.dataset.lightboxImage || "";
+      lastFocusedTrigger = trigger;
+      activeGroup = triggers.filter((item) => {
+        const itemGroup = item.dataset.lightboxGroup || item.dataset.lightboxImage || "";
+        return itemGroup === groupId;
+      });
+      activeIndex = activeGroup.indexOf(trigger);
+      if (activeIndex === -1) {
+        activeGroup = [trigger];
+        activeIndex = 0;
+      }
+      render(activeIndex);
       lightbox.hidden = false;
       document.body.classList.add("lightbox-open");
+      closeNode?.focus();
     }
 
     function close() {
       lightbox.hidden = true;
       document.body.classList.remove("lightbox-open");
+      activeGroup = [];
       activeIndex = -1;
+      lastFocusedTrigger?.focus();
     }
 
     function step(delta) {
-      if (activeIndex === -1 || !triggers.length) {
+      if (activeIndex === -1 || !activeGroup.length) {
         return;
       }
-      open((activeIndex + delta + triggers.length) % triggers.length);
+      activeIndex = (activeIndex + delta + activeGroup.length) % activeGroup.length;
+      render(activeIndex);
     }
 
-    triggers.forEach((trigger, index) => {
-      trigger.addEventListener("click", () => open(index));
+    triggers.forEach((trigger) => {
+      trigger.addEventListener("click", () => open(trigger));
     });
 
     closeNode?.addEventListener("click", close);
@@ -924,6 +1588,26 @@ SITE_JS = """(function () {
         close();
       }
     });
+    frameNode?.addEventListener("touchstart", (event) => {
+      if (event.touches.length !== 1) {
+        return;
+      }
+      touchStartX = event.touches[0].clientX;
+      touchStartY = event.touches[0].clientY;
+    }, { passive: true });
+    frameNode?.addEventListener("touchend", (event) => {
+      if (!event.changedTouches.length) {
+        return;
+      }
+      const touch = event.changedTouches[0];
+      const deltaX = touch.clientX - touchStartX;
+      const deltaY = touch.clientY - touchStartY;
+      if (Math.abs(deltaX) > 48 && Math.abs(deltaX) > Math.abs(deltaY) * 1.2) {
+        step(deltaX < 0 ? 1 : -1);
+      }
+      touchStartX = 0;
+      touchStartY = 0;
+    }, { passive: true });
     document.addEventListener("keydown", (event) => {
       if (lightbox.hidden) {
         return;
@@ -988,6 +1672,29 @@ SITE_JS = """(function () {
     return items.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
   }
 
+  function renderStatusPill(venue) {
+    if (!venue.current_status_label) {
+      return "";
+    }
+    return `<span class="status-pill status-pill-${escapeHtml(venue.current_status_tone || "watch")}">${escapeHtml(venue.current_status_label)}</span>`;
+  }
+
+  function renderStatusNotice(venue) {
+    if (!venue.current_status_headline || !venue.current_status_label) {
+      return "";
+    }
+    const checkedAt = venue.current_status_checked_at
+      ? `<p class="status-meta">最後檢查 ${escapeHtml(venue.current_status_checked_at)}</p>`
+      : "";
+    return `
+      <div class="status-inline status-inline-${escapeHtml(venue.current_status_tone || "watch")}">
+        ${renderStatusPill(venue)}
+        <p class="status-summary">${escapeHtml(venue.current_status_headline)}</p>
+        ${checkedAt}
+      </div>
+    `;
+  }
+
   function renderCard(venue) {
     const chips = [
       venue.price_band_label,
@@ -1010,6 +1717,7 @@ SITE_JS = """(function () {
           <h2>${escapeHtml(venue.name_zh)}</h2>
           <p class="card-subtitle">${escapeHtml(venue.name_en_official)}<br>${escapeHtml(venue.primary_visual_identity)}</p>
         </div>
+        ${renderStatusNotice(venue)}
         <div class="chip-row">
           ${chips.map((chip) => `<span class="chip">${escapeHtml(chip)}</span>`).join("")}
         </div>
@@ -1048,18 +1756,29 @@ SITE_JS = """(function () {
   }
 
   function renderCompareRow(venue) {
+    const statusCell = venue.current_status_headline && venue.current_status_label
+      ? `
+        <div class="compare-status">
+          ${renderStatusPill(venue)}
+          <span class="subtle">${escapeHtml(venue.current_status_headline)}</span>
+        </div>
+      `
+      : '<span class="subtle">未見現況警示</span>';
     return `
-      <tr>
-        <td>
-          <strong>${escapeHtml(venue.name_zh)}</strong>
-          <span class="subtle">${escapeHtml(venue.name_en_official)}</span>
+      <tr class="compare-row">
+        <td class="compare-cell compare-cell-venue" data-column-label="場地">
+          <div class="compare-venue">
+            <strong>${escapeHtml(venue.name_zh)}</strong>
+            <span class="subtle">${escapeHtml(venue.name_en_official)}</span>
+          </div>
         </td>
-        <td>${escapeHtml(venue.public_price_anchor_label)}</td>
-        <td>${escapeHtml(venue.capacity_summary)}</td>
-        <td>${escapeHtml(venue.rain_backup_label)}</td>
-        <td>${escapeHtml(venue.transport_summary)}</td>
-        <td>${escapeHtml(venue.accommodation_label)}</td>
-        <td><a href="venues/${escapeHtml(venue.id)}.html">查看</a></td>
+        <td class="compare-cell compare-cell-price" data-column-label="公開入門價">${escapeHtml(venue.public_price_anchor_label)}</td>
+        <td class="compare-cell" data-column-label="容量">${escapeHtml(venue.capacity_summary)}</td>
+        <td class="compare-cell" data-column-label="雨備">${escapeHtml(venue.rain_backup_label)}</td>
+        <td class="compare-cell" data-column-label="現況">${statusCell}</td>
+        <td class="compare-cell" data-column-label="交通">${escapeHtml(venue.transport_summary)}</td>
+        <td class="compare-cell" data-column-label="住宿">${escapeHtml(venue.accommodation_label)}</td>
+        <td class="compare-cell compare-cell-detail" data-column-label="明細"><a class="compare-detail-link" href="venues/${escapeHtml(venue.id)}.html">查看完整檔案</a></td>
       </tr>
     `;
   }
@@ -1216,6 +1935,27 @@ PRICE_STATUS_LABELS = {
     "unknown": "價格待確認",
 }
 
+CURRENT_STATUS_LEVEL_LABELS = {
+    "normal": "營運正常",
+    "maintenance_notice": "維修／施工中",
+    "limited_operations": "部分設施受限",
+    "temporarily_closed": "暫停營運",
+}
+
+CURRENT_STATUS_LEVEL_TONES = {
+    "normal": "ok",
+    "maintenance_notice": "watch",
+    "limited_operations": "watch",
+    "temporarily_closed": "alert",
+}
+
+CURRENT_STATUS_RANKS = {
+    "normal": 0,
+    "maintenance_notice": 1,
+    "limited_operations": 2,
+    "temporarily_closed": 3,
+}
+
 FX_REFERENCE_DATE = "2026/06/18"
 FX_TO_TWD = {
     "USD": 31.655,
@@ -1312,6 +2052,20 @@ PHOTO_AUTHENTICITY_LABELS = {
     "official_promotional": "官方宣傳感",
     "real_wedding": "真實婚禮",
     "unknown": "真實度待確認",
+}
+
+SPACE_PRIVACY_LABELS = {
+    "shared": "共享空間",
+    "semi-private": "半私密",
+    "private": "私密包場",
+    "buyout_required": "需先包場",
+}
+
+SPACE_EVENT_SCOPE_LABELS = {
+    "ceremony_only": "僅儀式",
+    "ceremony_and_dinner": "儀式＋晚宴",
+    "reception_only": "僅晚宴",
+    "buyout_event": "買斷型活動",
 }
 
 PHOTO_COVERAGE_LABELS = {
@@ -1463,6 +2217,10 @@ def _tag_label(tag: str) -> str:
     return SCENE_TAG_LABELS.get(tag, tag.replace("-", " "))
 
 
+def _space_type_label(tag: str) -> str:
+    return VENUE_TYPE_LABELS.get(tag, _tag_label(tag))
+
+
 def _style_keys_for_venue(venue: dict[str, Any]) -> list[str]:
     keys: list[str] = []
     venue_types = set(venue["venue_types"])
@@ -1516,6 +2274,72 @@ def _source_summary(source_count: int, photo_count: int) -> str:
     return f"{source_count} 個來源 / {photo_count} 筆非官方照片來源"
 
 
+def _current_status_label(status: dict[str, Any] | None) -> str | None:
+    if not status:
+        return None
+    return CURRENT_STATUS_LEVEL_LABELS.get(status["level"], status["level"])
+
+
+def _current_status_tone(status: dict[str, Any] | None) -> str:
+    if not status:
+        return "ok"
+    return CURRENT_STATUS_LEVEL_TONES.get(status["level"], "watch")
+
+
+def _current_status_rank(status: dict[str, Any] | None) -> int:
+    if not status:
+        return 0
+    return CURRENT_STATUS_RANKS.get(status["level"], 1)
+
+
+def _render_status_pill(label: str, tone: str) -> str:
+    return (
+        f'<span class="status-pill status-pill-{escape(tone)}">{escape(label)}</span>'
+    )
+
+
+def _render_entry_status_notice(entry: dict[str, Any]) -> str:
+    headline = entry.get("current_status_headline")
+    label = entry.get("current_status_label")
+    if not headline or not label:
+        return ""
+    checked_at = entry.get("current_status_checked_at")
+    tone = entry.get("current_status_tone", "watch")
+    checked_line = (
+        f'<p class="status-meta">最後檢查 {escape(str(checked_at))}</p>'
+        if checked_at
+        else ""
+    )
+    return (
+        f'<div class="status-inline status-inline-{escape(str(tone))}">'
+        f"{_render_status_pill(str(label), str(tone))}"
+        f'<p class="status-summary">{escape(str(headline))}</p>'
+        f"{checked_line}"
+        "</div>"
+    )
+
+
+def _render_current_status_section(venue: dict[str, Any]) -> str:
+    status = venue.get("current_status")
+    if not status:
+        return ""
+    label = _current_status_label(status) or "營運現況待確認"
+    tone = _current_status_tone(status)
+    return (
+        '<section class="surface" id="current-status">'
+        '<div class="section-head"><h2>營運現況</h2>'
+        '<p>這類公告會直接影響是否值得放進近期 shortlist，先確認能不能辦，再談風格與價格。</p></div>'
+        f'<div class="status-inline status-inline-{escape(tone)}">'
+        f"{_render_status_pill(label, tone)}"
+        f'<p class="status-summary">{escape(status["headline"])}</p>'
+        f'<p class="status-note">{escape(status["summary"])}</p>'
+        f'<p class="status-meta">最後檢查 {escape(status["checked_at"])}</p>'
+        "</div>"
+        '<p class="hint" style="margin-top:12px;">這筆提醒已綁定到來源紀錄，正式詢價前仍建議再做一次最後確認。</p>'
+        "</section>"
+    )
+
+
 def _price_band_label(venue: dict[str, Any]) -> str:
     if venue["price_band_normalized"] is not None:
         return PRICE_BAND_LABELS[venue["price_band_normalized"]]
@@ -1558,12 +2382,15 @@ def _is_visible_photo_entry(
 ) -> bool:
     if entry["image_type"] in HIDDEN_PHOTO_IMAGE_TYPES:
         return False
+    if entry["authenticity"] == "official_promotional":
+        return False
     source = source_lookup.get(entry["source_id"], {})
     return source.get("source_type") != "official"
 
 
 def _decision_fit_labels(venue: dict[str, Any]) -> list[str]:
     labels = []
+    status = venue.get("current_status")
     if venue["supports_ceremony_and_dinner"]:
         labels.append("可辦儀式＋晚宴")
     if venue["supports_buyout"]:
@@ -1572,11 +2399,14 @@ def _decision_fit_labels(venue: dict[str, Any]) -> list[str]:
         labels.append("適合小型婚禮")
     if venue["has_indoor_backup"]:
         labels.append("有室內雨備")
+    status_label = _current_status_label(status)
+    if status_label and status and status["level"] != "normal":
+        labels.append(status_label)
     return labels
 
 
 def _decision_fit_lines(venue: dict[str, Any], photo_value_key: str) -> list[tuple[str, str]]:
-    return [
+    lines = [
         ("可只辦儀式", _format_bool(venue["supports_ceremony_only"])),
         ("可辦儀式＋晚宴", _format_bool(venue["supports_ceremony_and_dinner"])),
         ("可整體包場", _format_bool(venue["supports_buyout"])),
@@ -1586,22 +2416,34 @@ def _decision_fit_lines(venue: dict[str, Any], photo_value_key: str) -> list[tup
         ("照片參考深度", PHOTO_VALUE_LABELS[photo_value_key]),
         ("價格風險", RISK_LABELS[venue["price_risk_level"]]),
     ]
+    status_label = _current_status_label(venue.get("current_status"))
+    if status_label:
+        lines.append(("營運現況", status_label))
+    return lines
 
 
 def _render_shortlist_track(title: str, description: str, entries: list[dict[str, Any]]) -> str:
-    items = "".join(
-        "<li>"
-        f"<strong>{escape(entry['name_zh'])}</strong><br>"
-        f"<span class=\"subtle\">{escape(entry['public_price_anchor_label'])} / "
-        f"{escape(entry['rain_backup_label'])} / {escape(entry['transport_summary'])}</span>"
-        "</li>"
-        for entry in entries
-    )
+    items = []
+    for index, entry in enumerate(entries, start=1):
+        status_suffix = ""
+        if entry.get("current_status_headline") and entry.get("current_status_label"):
+            status_suffix = f" / {entry['current_status_label']}"
+        items.append(
+            '<li class="shortlist-item">'
+            f'<span class="shortlist-index">{index:02d}</span>'
+            '<div class="shortlist-item-body">'
+            f"<strong>{escape(entry['name_zh'])}</strong>"
+            f"<span class=\"subtle\">{escape(entry['public_price_anchor_label'])} / "
+            f"{escape(entry['rain_backup_label'])} / {escape(entry['transport_summary'])}"
+            f"{escape(status_suffix)}</span>"
+            "</div>"
+            "</li>"
+        )
     return (
         '<article class="shortlist-card">'
         f"<h3>{escape(title)}</h3>"
         f'<p class="subtle">{escape(description)}</p>'
-        f"<ol>{items}</ol>"
+        f'<ol class="shortlist-list">{"".join(items)}</ol>'
         "</article>"
     )
 
@@ -1610,6 +2452,7 @@ def _rank_shortlists(entries: list[dict[str, Any]]) -> list[tuple[str, str, list
     logistics = sorted(
         entries,
         key=lambda entry: (
+            entry["current_status_rank"],
             entry["airport_drive_time_minutes_estimate"],
             entry["traffic_risk_rank"],
             entry["accommodation_rank"],
@@ -1619,6 +2462,7 @@ def _rank_shortlists(entries: list[dict[str, Any]]) -> list[tuple[str, str, list
     rain = sorted(
         entries,
         key=lambda entry: (
+            entry["current_status_rank"],
             entry["rain_backup_rank"],
             not entry["has_indoor_backup"],
             entry["curated_rank"],
@@ -1627,6 +2471,7 @@ def _rank_shortlists(entries: list[dict[str, Any]]) -> list[tuple[str, str, list
     scale = sorted(
         entries,
         key=lambda entry: (
+            entry["current_status_rank"],
             -entry["guest_capacity_dinner_max"],
             entry["accommodation_rank"],
             entry["curated_rank"],
@@ -1637,6 +2482,7 @@ def _rank_shortlists(entries: list[dict[str, Any]]) -> list[tuple[str, str, list
         for entry in sorted(
             entries,
             key=lambda entry: (
+                entry["current_status_rank"],
                 entry["public_price_sort_key"],
                 entry["curated_rank"],
             ),
@@ -1659,12 +2505,61 @@ def _render_shortlist_section(entries: list[dict[str, Any]]) -> str:
         for title, description, shortlist in _rank_shortlists(entries)
     )
     return (
-        '<section class="surface">'
+        '<section class="surface" id="shortlist-section">'
         '<div class="section-head">'
         "<h2>快速初篩路線</h2>"
         '<p>先用最常見的淘汰條件做第一輪：交通、雨備、桌數與公開入門價。</p>'
         "</div>"
         f'<div class="shortlist-grid">{cards}</div>'
+        "</section>"
+    )
+
+
+def _render_status_overview(entries: list[dict[str, Any]]) -> str:
+    status_entries = [
+        entry
+        for entry in entries
+        if entry.get("current_status_headline") and entry.get("current_status_label")
+    ]
+    if not status_entries:
+        return ""
+    status_entries = sorted(
+        status_entries,
+        key=lambda entry: (
+            -entry["current_status_rank"],
+            entry["curated_rank"],
+        ),
+    )
+    cards = []
+    for entry in status_entries:
+        checked_at = (
+            f'最後檢查 {escape(str(entry["current_status_checked_at"]))}'
+            if entry.get("current_status_checked_at")
+            else "最後檢查日期待補"
+        )
+        cards.append(
+            '<article class="status-overview-card">'
+            '<div class="status-overview-top">'
+            '<div>'
+            f'<p class="eyebrow">{escape(entry["region"])} / {escape(entry["recommended_guest_size_band"])}</p>'
+            f'<h3>{escape(entry["name_zh"])}</h3>'
+            f'<p class="subtle">{escape(entry["name_en_official"])}</p>'
+            "</div>"
+            f'{_render_status_pill(entry["current_status_label"], entry["current_status_tone"])}'
+            "</div>"
+            f'<p class="status-summary">{escape(entry["current_status_headline"])}</p>'
+            f'<p class="hint">{escape(entry.get("current_status_summary") or entry["price_summary_text"])}</p>'
+            '<div class="detail-actions">'
+            f'<span class="subtle">{checked_at}</span>'
+            f'<a class="link-button secondary" href="venues/{escape(entry["id"])}.html">查看現況與場地檔案</a>'
+            "</div>"
+            "</article>"
+        )
+    return (
+        '<section class="surface" id="status-overview">'
+        '<div class="section-head"><h2>近期營運現況</h2>'
+        '<p>像停修、局部限制、重新主打的新空間這類變化，會直接影響這批場地值不值得放進近期 shortlist。</p></div>'
+        f'<div class="status-overview-grid">{"".join(cards)}</div>'
         "</section>"
     )
 
@@ -1691,19 +2586,25 @@ def _render_style_nav(entries: list[dict[str, Any]]) -> str:
     cards = []
     for definition in WEDDING_STYLE_DEFINITIONS:
         style_entries = grouped.get(definition["key"], [])
-        examples = "、".join(entry["name_zh"] for entry in style_entries[:3]) or "目前尚未歸類到這一型"
+        example_items = "".join(
+            f"<li>{escape(entry['name_zh'])}</li>"
+            for entry in style_entries[:3]
+        ) or "<li>目前尚未歸類到這一型</li>"
         cards.append(
             '<article class="style-card">'
+            '<div class="style-card-top">'
             f'<p class="eyebrow">{escape(definition["label"])}</p>'
+            f'<span class="style-card-count">{len(style_entries)} 個場地</span>'
+            "</div>"
             f'<h3>{escape(definition["label"])}</h3>'
             f'<p class="summary">{escape(definition["description"])}</p>'
-            f'<p class="style-meta">{len(style_entries)} 個場地</p>'
-            f'<p class="hint">{escape(examples)}</p>'
+            '<p class="style-meta">代表場地</p>'
+            f'<ul class="style-card-examples">{example_items}</ul>'
             f'<a class="link-button secondary" href="#style-{escape(definition["key"])}">查看這一類</a>'
             "</article>"
         )
     return (
-        '<section class="surface">'
+        '<section class="surface" id="style-overview">'
         '<div class="section-head"><h2>依婚禮風格開始挑</h2>'
         '<p>同一個場地可能同時出現在多種風格裡，先從你們最在意的畫面語言開始縮小範圍。</p></div>'
         f'<div class="style-grid">{"".join(cards)}</div>'
@@ -1719,6 +2620,7 @@ def _render_style_spotlight(entry: dict[str, Any]) -> str:
             f'<img class="style-venue-image" src="{escape(str(entry["cover_photo_url"]))}" alt="{escape(entry["name_zh"])}" loading="lazy">'
             "</div>"
         )
+    status_notice = _render_entry_status_notice(entry)
     return (
         '<article class="style-venue-card">'
         f"{cover}"
@@ -1726,6 +2628,7 @@ def _render_style_spotlight(entry: dict[str, Any]) -> str:
         f'<p class="card-kicker">{escape(entry["region"])} / {escape(entry["recommended_guest_size_band"])}</p>'
         f'<h3>{escape(entry["name_zh"])}</h3>'
         f'<p class="subtle">{escape(entry["name_en_official"])}</p>'
+        f"{status_notice}"
         f'<p class="summary">{escape(entry["primary_visual_identity"])}</p>'
         f'<div class="chip-row">{_badge(entry["public_price_anchor_label"], tone="badge")}{_badge(entry["rain_backup_label"])}{_badge(entry["accommodation_label"])}</div>'
         '<dl class="style-summary-list">'
@@ -1766,18 +2669,30 @@ def _render_style_sections(entries: list[dict[str, Any]]) -> str:
 def _render_compare_rows(entries: list[dict[str, Any]]) -> str:
     rows = []
     for entry in entries:
+        if entry.get("current_status_headline") and entry.get("current_status_label"):
+            status_cell = (
+                '<div class="compare-status">'
+                f'{_render_status_pill(entry["current_status_label"], entry["current_status_tone"])}'
+                f'<span class="subtle">{escape(entry["current_status_headline"])}</span>'
+                "</div>"
+            )
+        else:
+            status_cell = '<span class="subtle">未見現況警示</span>'
         rows.append(
-            "<tr>"
-            "<td>"
+            '<tr class="compare-row">'
+            '<td class="compare-cell compare-cell-venue" data-column-label="場地">'
+            '<div class="compare-venue">'
             f"<strong>{escape(entry['name_zh'])}</strong>"
             f"<span class=\"subtle\">{escape(entry['name_en_official'])}</span>"
+            "</div>"
             "</td>"
-            f"<td>{escape(entry['public_price_anchor_label'])}</td>"
-            f"<td>{escape(entry['capacity_summary'])}</td>"
-            f"<td>{escape(entry['rain_backup_label'])}</td>"
-            f"<td>{escape(entry['transport_summary'])}</td>"
-            f"<td>{escape(entry['accommodation_label'])}</td>"
-            f"<td><a href=\"venues/{escape(entry['id'])}.html\">查看</a></td>"
+            f'<td class="compare-cell compare-cell-price" data-column-label="公開入門價">{escape(entry["public_price_anchor_label"])}</td>'
+            f'<td class="compare-cell" data-column-label="容量">{escape(entry["capacity_summary"])}</td>'
+            f'<td class="compare-cell" data-column-label="雨備">{escape(entry["rain_backup_label"])}</td>'
+            f'<td class="compare-cell" data-column-label="現況">{status_cell}</td>'
+            f'<td class="compare-cell" data-column-label="交通">{escape(entry["transport_summary"])}</td>'
+            f'<td class="compare-cell" data-column-label="住宿">{escape(entry["accommodation_label"])}</td>'
+            f'<td class="compare-cell compare-cell-detail" data-column-label="明細"><a class="compare-detail-link" href="venues/{escape(entry["id"])}.html">查看完整檔案</a></td>'
             "</tr>"
         )
     return "".join(rows)
@@ -1827,6 +2742,95 @@ def _render_decision_fit(venue: dict[str, Any], photo_value_key: str) -> str:
         f'<span class="decision-value">{escape(value)}</span>'
         "</div>"
         for label, value in _decision_fit_lines(venue, photo_value_key)
+    )
+    return (
+        '<section class="surface" id="decision-fit">'
+        '<div class="section-head"><h2>決策適配</h2>'
+        '<p>把結構條件攤平看，確認它能不能真的支撐你們想要的婚禮形式。</p></div>'
+        '<div class="fit-grid">'
+        f'<article class="fit-card">{lines}</article>'
+        '<article class="fit-card">'
+        '<h3>賓客移動感受</h3>'
+        f'<p class="summary">{escape(venue["guest_mobility_notes"])}</p>'
+        "</article>"
+        '<article class="fit-card">'
+        '<h3>較不適合</h3>'
+        f'<ul class="list">{_html_list(venue["not_ideal_for"], empty_text="尚未整理到資料。")}</ul>'
+        "</article>"
+        '<article class="fit-card">'
+        '<h3>待確認問題</h3>'
+        f'<ul class="list">{_html_list(venue["open_questions"], empty_text="目前沒有待確認問題。")}</ul>'
+        "</article>"
+        '</div>'
+        "</section>"
+    )
+
+
+def _render_detail_snapshot(venue: dict[str, Any], photo_value_key: str) -> str:
+    public_price_anchor_label, _ = _public_price_anchor(venue)
+    concern_text = (
+        venue["open_questions"][0]
+        if venue["open_questions"]
+        else (venue["key_risks"][0] if venue["key_risks"] else "目前沒有整理到額外的阻礙點。")
+    )
+    cards = [
+        ("公開入門價", public_price_anchor_label),
+        ("容量輪廓", _capacity_summary(venue)),
+        ("雨備結論", f'{RAIN_BACKUP_LABELS[venue["rain_backup_status"]]}｜{venue["backup_space_description"]}'),
+        ("交通／住宿", f'{_transport_summary(venue)}｜{ACCOMMODATION_LABELS[venue["accommodation_fit"]]}'),
+    ]
+    cards_html = "".join(
+        '<article class="summary-card">'
+        f'<p class="subtle">{escape(label)}</p>'
+        f'<p class="summary">{escape(value)}</p>'
+        "</article>"
+        for label, value in cards
+    )
+    return (
+        '<section class="surface decision-snapshot" id="decision-summary">'
+        '<div class="section-head"><h2>決策摘要</h2>'
+        '<p>先判斷這間場地有沒有 shortlist 資格，再決定要不要投入時間深查細節與照片。</p></div>'
+        f'<div class="snapshot-grid">{cards_html}'
+        '<article class="summary-card summary-card-emphasis">'
+        '<p class="subtle">第一個要追問的點</p>'
+        f'<p class="summary">{escape(concern_text)}</p>'
+        f'<p class="hint">照片參考深度：{escape(PHOTO_VALUE_LABELS[photo_value_key])}</p>'
+        "</article>"
+        "</div>"
+        "</section>"
+    )
+
+
+def _render_wedding_spaces(venue: dict[str, Any]) -> str:
+    wedding_spaces = venue.get("wedding_spaces", [])
+    if not wedding_spaces:
+        return ""
+    cards = []
+    for space in wedding_spaces:
+        type_badges = "".join(
+            _badge(_space_type_label(tag))
+            for tag in space["space_types"]
+        )
+        cards.append(
+            '<article class="space-card">'
+            f'<h3>{escape(space["label"])}</h3>'
+            f'<div class="chip-row">{_badge(SPACE_PRIVACY_LABELS[space["privacy_level"]], tone="badge")}'
+            f'{_badge(SPACE_EVENT_SCOPE_LABELS[space["event_scope"]], tone="badge")}'
+            f"{type_badges}</div>"
+            '<dl class="space-summary">'
+            f'<div><dt>適合規模</dt><dd>{escape(space["capacity_summary_text"])}</dd></div>'
+            f'<div><dt>價格輪廓</dt><dd>{escape(space["price_summary_text"])}</dd></div>'
+            f'<div><dt>雨備方向</dt><dd>{escape(space["backup_summary_text"])}</dd></div>'
+            "</dl>"
+            f'<p class="summary">{escape(space["decision_notes"])}</p>'
+            "</article>"
+        )
+    return (
+        '<section class="surface">'
+        '<div class="section-head"><h2>婚禮空間比較</h2>'
+        '<p>同一間飯店內常常同時有公開型、私密型與包場型玩法；這裡先把真正影響決策的空間拆開看。</p></div>'
+        f'<div class="space-grid">{"".join(cards)}</div>'
+        "</section>"
     )
     return (
         '<section class="surface">'
@@ -1897,6 +2901,7 @@ def _render_card(entry: dict[str, Any]) -> str:
             f'<img class="card-image" src="{escape(str(entry["cover_photo_url"]))}" alt="{escape(entry["name_zh"])}" loading="lazy">'
             "</div>"
         )
+    status_notice = _render_entry_status_notice(entry)
     return (
         '<article class="venue-card">'
         f"{cover}"
@@ -1906,6 +2911,7 @@ def _render_card(entry: dict[str, Any]) -> str:
         f'<p class="card-subtitle">{escape(entry["name_en_official"])}<br>'
         f'{escape(entry["primary_visual_identity"])}</p>'
         "</div>"
+        f"{status_notice}"
         f'<div class="chip-row">{"".join(chips)}</div>'
         f'<p class="summary">{escape(entry["price_summary_text"])}</p>'
         '<dl class="metric-grid">'
@@ -1918,6 +2924,12 @@ def _render_card(entry: dict[str, Any]) -> str:
         '<div class="metric"><dt>限制風險</dt>'
         f'<dd>{escape(entry["restriction_label"])}</dd></div>'
         "</dl>"
+        '<div class="chip-row">'
+        + "".join(
+            _badge(label, tone="badge")
+            for label in entry["decision_fit_labels"]
+        )
+        + "</div>"
         '<div class="card-panel">'
         '<p class="subtle">適合對象</p>'
         f'<ul class="compact-list">{_html_list(entry["best_for"][:2], empty_text="尚未整理到資料。")}</ul>'
@@ -1975,12 +2987,12 @@ def _render_price_table(price_entries: list[dict[str, Any]]) -> str:
             "</tr>"
         )
     return (
-        '<table class="price-table">'
+        '<div class="price-table-wrap"><table class="price-table">'
         "<thead><tr>"
         "<th>方案</th><th>價格</th><th>年份</th><th>包含項目</th><th>可信度</th>"
         "</tr></thead>"
         f"<tbody>{''.join(rows)}</tbody>"
-        "</table>"
+        "</table></div>"
     )
 
 
@@ -2087,15 +3099,23 @@ def _render_photo_cards(
     for entry in visible_entries:
         source = source_lookup.get(entry["source_id"], {})
         preview_urls = _photo_preview_urls(entry, photo_assets_by_entry)
+        source_name = source.get("source_name", entry["photo_entry_id"])
+        preview_total = min(len(preview_urls), 6)
         preview_html = (
             '<div class="gallery-preview-grid">'
             + "".join(
                 '<button type="button" class="gallery-preview-button" '
                 f'data-lightbox-image="{escape(url)}" '
-                f'data-lightbox-caption="{escape(source.get("source_name", entry["photo_entry_id"]))}">'
-                f'<img class="gallery-preview" src="{escape(url)}" alt="{escape(source.get("source_name", entry["photo_entry_id"]))}" loading="lazy">'
+                f'data-lightbox-group="{escape(entry["photo_entry_id"])}" '
+                f'data-lightbox-caption="{escape(source_name)}" '
+                f'data-lightbox-caption-title="{escape(source_name)}" '
+                f'data-lightbox-caption-meta="{escape(f"第 {index} 張 / {preview_total} 張 · {PHOTO_AUTHENTICITY_LABELS.get(entry["authenticity"], entry["authenticity"])} · {IMAGE_TYPE_LABELS.get(entry["image_type"], entry["image_type"])}")}" '
+                f'data-lightbox-caption-body="{escape(entry["decision_notes"])}" '
+                f'aria-label="{escape(f"{source_name} 第 {index} 張，共 {preview_total} 張，點擊放大")}" >'
+                f'<img class="gallery-preview" src="{escape(url)}" alt="{escape(source_name)}" loading="lazy">'
+                '<span class="gallery-preview-overlay">查看大圖</span>'
                 "</button>"
-                for url in preview_urls[:6]
+                for index, url in enumerate(preview_urls[:6], start=1)
             )
             + "</div>"
         )
@@ -2103,8 +3123,15 @@ def _render_photo_cards(
             preview_html = '<div class="gallery-empty">這個來源目前還沒成功抓到可直接顯示的圖片。</div>'
         cards.append(
             '<article class="gallery-card card-panel">'
-            f'<h3>{escape(source.get("source_name", entry["photo_entry_id"]))}</h3>'
+            '<div class="gallery-card-header">'
+            '<div>'
+            f'<h3>{escape(source_name)}</h3>'
+            f'<p class="gallery-source-meta">{escape(SOURCE_TYPE_LABELS.get(source.get("source_type", ""), "來源類型待確認"))} / {escape(PHOTO_AUTHENTICITY_LABELS.get(entry["authenticity"], entry["authenticity"]))}</p>'
+            "</div>"
+            f'<span class="gallery-source-count">{preview_total} 張可看</span>'
+            "</div>"
             f"{preview_html}"
+            '<p class="gallery-preview-hint">點圖可放大；lightbox 內可左右滑動、用方向鍵切換。</p>'
             f'<div class="chip-row">{_badge(SOURCE_TYPE_LABELS.get(source.get("source_type", ""), "來源類型待確認"))}'
             f'{_badge(IMAGE_TYPE_LABELS.get(entry["image_type"], entry["image_type"]))}'
             f'{_badge(PHOTO_AUTHENTICITY_LABELS.get(entry["authenticity"], entry["authenticity"]))}'
@@ -2153,7 +3180,15 @@ def _render_photo_lightbox() -> str:
         '<button type="button" class="lightbox-nav prev" data-lightbox-prev aria-label="上一張照片">‹</button>'
         '<figure class="lightbox-frame">'
         '<img class="lightbox-image" data-lightbox-target="image" alt="">'
-        '<figcaption class="lightbox-caption" data-lightbox-target="caption"></figcaption>'
+        '<div class="lightbox-status" data-lightbox-target="status"></div>'
+        '<figcaption class="lightbox-caption">'
+        '<div class="lightbox-caption-top">'
+        '<strong class="lightbox-title" data-lightbox-target="title"></strong>'
+        '<span class="lightbox-meta" data-lightbox-target="meta"></span>'
+        "</div>"
+        '<p class="lightbox-copy" data-lightbox-target="caption"></p>'
+        '<div class="lightbox-hint" data-lightbox-target="hint"></div>'
+        "</figcaption>"
         "</figure>"
         '<button type="button" class="lightbox-nav next" data-lightbox-next aria-label="下一張照片">›</button>'
         "</div>"
@@ -2192,6 +3227,9 @@ def _render_detail_page(
 ) -> str:
     source_lookup = {source["source_id"]: source for source in sources}
     photo_stats = _photo_stats(photos, photo_assets_by_entry, source_lookup)
+    status_nav_link = ""
+    if venue.get("current_status"):
+        status_nav_link = '<a class="detail-anchor-link" href="#current-status">營運現況</a>'
     quick_facts = [
         ("價格模式", PRICE_STATUS_LABELS[venue["pricing_status"]]),
         ("雨備能力", RAIN_BACKUP_LABELS[venue["rain_backup_status"]]),
@@ -2226,12 +3264,23 @@ def _render_detail_page(
         f'<p class="detail-kicker">{escape(venue["brand_or_group"])}</p>'
         f'<h1>{escape(venue["name_zh"])}</h1>'
         f'<p class="detail-subtitle">{escape(venue["name_en_official"])}<br>{escape(venue["primary_visual_identity"])}</p>'
+        '<nav class="detail-anchor-nav" aria-label="場地檔案快速跳轉">'
+        f"{status_nav_link}"
+        '<a class="detail-anchor-link" href="#decision-summary">決策摘要</a>'
+        '<a class="detail-anchor-link" href="#decision-fit">決策適配</a>'
+        '<a class="detail-anchor-link" href="#detail-scan">快速掃描</a>'
+        '<a class="detail-anchor-link" href="#price-breakdown">價格條目</a>'
+        '<a class="detail-anchor-link" href="#photo-gallery">照片參考</a>'
+        '<a class="detail-anchor-link" href="#restrictions">限制事項</a>'
+        "</nav>"
         '<div class="detail-grid">'
         f"{facts_html}"
         "</div>"
         "</section>"
+        f"{_render_current_status_section(venue)}"
+        f"{_render_detail_snapshot(venue, str(photo_stats['photo_value_key']))}"
         f"{_render_decision_fit(venue, str(photo_stats['photo_value_key']))}"
-        '<section class="surface">'
+        '<section class="surface" id="detail-scan">'
         '<div class="section-head"><h2>快速掃描</h2>'
         '<p>把容量、價格、雨備、交通與住宿一次看完，先判斷有沒有 shortlist 資格。</p></div>'
         '<div class="two-column">'
@@ -2278,13 +3327,14 @@ def _render_detail_page(
         "</div>"
         "</div>"
         "</section>"
-        '<section class="surface">'
+        f"{_render_wedding_spaces(venue)}"
+        '<section class="surface" id="price-breakdown">'
         '<div class="section-head"><h2>價格條目</h2>'
         '<p>先用公開可見的方案底價做比較；下表主欄位已換算台幣，原始幣別保留在同列方便對照。</p></div>'
         f'<p class="hint" style="margin-bottom:16px;">{escape(FX_NOTE_TEXT)}</p>'
         f"{_render_price_table(venue['price_entries'])}"
         "</section>"
-        '<section class="surface">'
+        '<section class="surface" id="restrictions">'
         '<div class="section-head"><h2>限制與待確認事項</h2>'
         '<p>這些條件往往比想像中更影響預算、外部廠商選擇和賓客動線。</p></div>'
         '<div class="two-column">'
@@ -2309,7 +3359,7 @@ def _render_detail_page(
         "</div>"
         "</div>"
         "</section>"
-        '<section class="surface">'
+        '<section class="surface" id="photo-gallery">'
         '<div class="section-head"><h2>照片參考</h2>'
         '<p>直接看真實分享、旅客照片與平台頁面，比對儀式感、雨備、晚宴空間和賓客動線；點照片可放大查看。</p></div>'
         f"{_render_photo_insights(photos, photo_assets_by_entry, source_lookup)}"
@@ -2349,6 +3399,7 @@ def _index_entry(
     public_price_anchor_label, public_price_sort_key = _public_price_anchor(venue)
     style_keys = _style_keys_for_venue(venue)
     source_lookup = {source["source_id"]: source for source in sources}
+    current_status = venue.get("current_status")
     visible_photo_count = sum(
         1
         for entry in photos
@@ -2369,6 +3420,18 @@ def _index_entry(
                 *venue["style_tags"],
                 *venue["best_for"],
                 *venue["key_strengths"],
+                *( [current_status["headline"], current_status["summary"]] if current_status else [] ),
+                *[
+                    part
+                    for space in venue.get("wedding_spaces", [])
+                    for part in [
+                        space["label"],
+                        *space["space_types"],
+                        space["capacity_summary_text"],
+                        space["price_summary_text"],
+                        space["decision_notes"],
+                    ]
+                ],
             ]
         )
     )
@@ -2418,6 +3481,12 @@ def _index_entry(
         "supports_micro_wedding": venue["supports_micro_wedding"],
         "has_indoor_backup": venue["has_indoor_backup"],
         "decision_fit_labels": _decision_fit_labels(venue),
+        "current_status_label": _current_status_label(current_status),
+        "current_status_headline": current_status["headline"] if current_status else None,
+        "current_status_summary": current_status["summary"] if current_status else None,
+        "current_status_checked_at": current_status["checked_at"] if current_status else None,
+        "current_status_tone": _current_status_tone(current_status),
+        "current_status_rank": _current_status_rank(current_status),
         "curated_rank": curated_rank,
         "search_text": search_text,
         "cover_photo_url": None,
@@ -2495,6 +3564,12 @@ def _attach_cover_photo_urls(
 def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) -> str:
     card_html = "".join(_render_card(entry) for entry in entries)
     compare_rows = _render_compare_rows(entries)
+    status_overview_html = _render_status_overview(entries)
+    status_quick_link = (
+        '<a class="quick-link" href="#status-overview">看現況提醒</a>'
+        if status_overview_html
+        else ""
+    )
     region_values = sorted({entry["region"] for entry in entries})
     style_values = [definition["key"] for definition in WEDDING_STYLE_DEFINITIONS]
     guest_values = sorted({entry["recommended_guest_size_band"] for entry in entries})
@@ -2517,6 +3592,14 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         '<p class="eyebrow">Bali Wedding Research</p>'
         "<h1>峇里島婚禮場地索引</h1>"
         '<p class="lede">先用場地、雨備、交通與住宿快速淘汰，再點進單一場地檔案看價格、容量、非官方照片線索與限制。</p>'
+        '<nav class="hero-actions" aria-label="首頁快速跳轉">'
+        f"{status_quick_link}"
+        '<a class="quick-link" href="#style-overview">看風格分類</a>'
+        '<a class="quick-link" href="#shortlist-section">看 shortlist</a>'
+        '<a class="quick-link" href="#filter-panel">開條件篩選</a>'
+        '<a class="quick-link" href="#compare-section">看全部比較</a>'
+        '<a class="quick-link" href="#card-section">看場地卡片</a>'
+        "</nav>"
         '<div class="hero-grid">'
         '<div class="stat">'
         f"<strong>{totals['venue_count']}</strong><span>已整理場地</span>"
@@ -2533,13 +3616,18 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         "</div>"
         f'<p class="hint" style="margin-top:16px;">{escape(FX_NOTE_TEXT)}</p>'
         "</section>"
+        f"{status_overview_html}"
         f"{_render_style_nav(entries)}"
-        f"{_render_style_sections(entries)}"
         f"{_render_shortlist_section(entries)}"
-        '<section class="surface">'
+        '<section class="surface" id="filter-panel">'
         '<div class="section-head">'
         "<h2>先篩選再深看</h2>"
         '<p>可用名稱、區域、風格或結構化條件，先把 shortlist 快速收斂。</p>'
+        "</div>"
+        '<div class="filter-guide">'
+        '<article class="filter-guide-card"><p class="eyebrow">Step 1</p><h3>先限縮區域與風格</h3><p class="hint">先把畫面語言與地理條件縮小，剩下的結果會好讀很多。</p></article>'
+        '<article class="filter-guide-card"><p class="eyebrow">Step 2</p><h3>再開進階條件</h3><p class="hint">雨備、住宿整合與排序通常最能快速淘汰不適合的場地。</p></article>'
+        '<article class="filter-guide-card"><p class="eyebrow">Step 3</p><h3>最後切到 compare</h3><p class="hint">表格區在手機會自動變成卡片視圖，適合做最後 shortlist。</p></article>'
         "</div>"
         '<div class="control-grid">'
         '<div class="control"><label for="searchInput">搜尋</label>'
@@ -2550,6 +3638,9 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         f'<select id="typeFilter">{_render_select_options(style_values, labels=WEDDING_STYLE_LABELS)}</select></div>'
         '<div class="control"><label for="guestFilter">適合人數帶</label>'
         f'<select id="guestFilter">{_render_select_options(guest_values)}</select></div>'
+        "</div>"
+        '<details class="advanced-filters"><summary>更多條件與排序</summary>'
+        '<div class="advanced-grid">'
         '<div class="control"><label for="priceFilter">價格級距</label>'
         f'<select id="priceFilter">{_render_select_options(price_values, labels=PRICE_BAND_LABELS)}</select></div>'
         '<div class="control"><label for="rainFilter">雨備能力</label>'
@@ -2559,12 +3650,13 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         '<div class="control"><label for="sortSelect">排序方式</label>'
         '<select id="sortSelect"><option value="curated">編輯排序</option><option value="starting-price">公開入門價最低</option><option value="airport-time">距機場最短</option><option value="dinner-capacity">晚宴容量最大</option><option value="rain-readiness">雨備最強</option><option value="photo-depth">照片線索最多</option></select></div>'
         "</div>"
-        '<div class="toggle-grid">'
+        '<div class="toggle-grid advanced-toggle-grid">'
         '<label class="toggle-chip" for="dinnerFilter"><input id="dinnerFilter" type="checkbox">只看可辦儀式＋晚宴</label>'
         '<label class="toggle-chip" for="indoorFilter"><input id="indoorFilter" type="checkbox">只看有室內雨備</label>'
         '<label class="toggle-chip" for="buyoutFilter"><input id="buyoutFilter" type="checkbox">只看可包場</label>'
         '<label class="toggle-chip" for="microFilter"><input id="microFilter" type="checkbox">只看適合小型婚禮</label>'
         "</div>"
+        "</details>"
         '<div class="results-meta">'
         '<span id="resultCount">'
         f"{len(entries)} / {len(entries)} 個場地顯示中"
@@ -2572,14 +3664,14 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         f'<span>{escape(", ".join(totals["regions"]))}</span>'
         "</div>"
         '</section>'
-        '<section class="surface">'
+        '<section class="surface" id="compare-section">'
         '<div class="section-head"><h2>全部場地比較</h2>'
         '<p>先橫向掃描最影響決策的條件，再決定哪些值得點開看完整檔案。</p></div>'
-        '<div class="compare-scroll"><table class="compare-table"><thead><tr><th>場地</th><th>公開入門價</th><th>容量</th><th>雨備</th><th>交通</th><th>住宿</th><th>明細</th></tr></thead><tbody id="compareBody">'
+        '<div class="compare-scroll"><table class="compare-table"><thead><tr><th>場地</th><th>公開入門價</th><th>容量</th><th>雨備</th><th>現況</th><th>交通</th><th>住宿</th><th>明細</th></tr></thead><tbody id="compareBody">'
         f"{compare_rows}"
         '</tbody></table></div>'
         "</section>"
-        '<section class="surface">'
+        '<section class="surface" id="card-section">'
         '<div class="section-head"><h2>場地卡片</h2>'
         '<p>如果你要看適合對象、優勢風險與資料密度，這裡比表格更直觀。</p></div>'
         '<div id="results" class="results-grid">'
@@ -2587,6 +3679,7 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         "</div>"
         '<div id="emptyState" class="empty-state" hidden>目前沒有場地符合這組篩選條件。</div>'
         "</section>"
+        f"{_render_style_sections(entries)}"
         f'<script id="venue-data" type="application/json">{_safe_json(entries)}</script>'
         '<script src="assets/site.js"></script>'
         "</main>"
