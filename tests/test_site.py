@@ -251,6 +251,28 @@ class StaticSiteTest(unittest.TestCase):
             self.assertIn("開啟來源相簿", detail_html)
             self.assertIn("目前缺少本地快取圖", detail_html)
 
+    def test_write_static_site_surfaces_preview_links_on_index_without_cached_images(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            paths = self._write_workspace(root)
+            photos_path = paths["photos"] / "example.json"
+            photos = load_json_file(photos_path)
+            for photo in photos:
+                photo["image_url_or_gallery_url"] = photo["page_url"]
+            write_json_file(photos_path, photos)
+            output_dir = root / "site"
+
+            write_static_site(root, output_dir)
+
+            index_html = (output_dir / "index.html").read_text(encoding="utf-8")
+
+            self.assertIn("preview-media-fallback", index_html)
+            self.assertIn("目前沒有快取照片", index_html)
+            self.assertIn('href="https://example.com/cliffside/gallery/1"', index_html)
+            self.assertIn(">照片來源</a>", index_html)
+            self.assertIn('href="https://example.com/cliffside"', index_html)
+            self.assertIn(">官方網站</a>", index_html)
+
     def test_write_static_site_emits_homepage_toc_and_section_tracking_hooks(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)

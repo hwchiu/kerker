@@ -580,6 +580,7 @@ a {
 }
 
 .card-media {
+  position: relative;
   overflow: hidden;
   border: 1px solid rgba(29, 42, 45, 0.08);
   border-radius: var(--radius-lg);
@@ -1143,6 +1144,10 @@ a {
   background: linear-gradient(135deg, rgba(172, 141, 95, 0.24), rgba(39, 71, 63, 0.48));
 }
 
+.preview-media-fallback {
+  display: grid;
+}
+
 .style-card-media::after {
   content: "";
   position: absolute;
@@ -1163,6 +1168,60 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.preview-media-content {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  align-content: end;
+  gap: 12px;
+  min-height: 100%;
+  padding: 22px;
+}
+
+.preview-media-kicker {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(247, 241, 231, 0.78);
+}
+
+.preview-media-note {
+  margin: 0;
+  color: rgba(247, 241, 231, 0.86);
+  line-height: 1.6;
+}
+
+.preview-media-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.preview-media-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 244, 227, 0.24);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--hero-ink);
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
+}
+
+.preview-media-link:hover,
+.preview-media-link:focus-visible {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 244, 227, 0.42);
 }
 
 .style-card-body {
@@ -1247,6 +1306,7 @@ a {
 }
 
 .style-venue-media {
+  position: relative;
   min-height: 100%;
   background: rgba(31, 107, 104, 0.08);
 }
@@ -2240,6 +2300,15 @@ body::after {
 .style-card-media-placeholder::before {
   inset: 20px;
   border-color: rgba(255, 255, 255, 0.14);
+}
+
+.style-card-media.preview-media-fallback {
+  min-height: 200px;
+}
+
+.style-venue-media.preview-media-fallback,
+.card-media.preview-media-fallback {
+  min-height: 220px;
 }
 
 .style-card-body,
@@ -3668,15 +3737,17 @@ def _render_style_nav(entries: list[dict[str, Any]]) -> str:
     cards = []
     for definition in WEDDING_STYLE_DEFINITIONS:
         style_entries = grouped.get(definition["key"], [])
-        cover = ""
-        if style_entries and style_entries[0].get("cover_photo_url"):
-            cover = (
-                '<div class="style-card-media">'
-                f'<img class="style-card-image" src="{escape(str(style_entries[0]["cover_photo_url"]))}" alt="{escape(definition["label"])}代表場地照片" loading="lazy">'
-                "</div>"
+        cover = (
+            _render_preview_media(
+                style_entries[0],
+                container_class="style-card-media",
+                image_class="style-card-image",
+                placeholder_class="style-card-media-placeholder",
+                alt_text=f'{definition["label"]}代表場地照片',
             )
-        else:
-            cover = '<div class="style-card-media style-card-media-placeholder"></div>'
+            if style_entries
+            else '<div class="style-card-media style-card-media-placeholder"></div>'
+        )
         example_items = "".join(
             f"<li>{escape(entry['name_zh'])}</li>"
             for entry in style_entries[:3]
@@ -3741,13 +3812,12 @@ def _render_index_toc(entries: list[dict[str, Any]]) -> str:
 
 
 def _render_style_spotlight(entry: dict[str, Any]) -> str:
-    cover = ""
-    if entry.get("cover_photo_url"):
-        cover = (
-            '<div class="style-venue-media">'
-            f'<img class="style-venue-image" src="{escape(str(entry["cover_photo_url"]))}" alt="{escape(entry["name_zh"])}" loading="lazy">'
-            "</div>"
-        )
+    cover = _render_preview_media(
+        entry,
+        container_class="style-venue-media",
+        image_class="style-venue-image",
+        alt_text=entry["name_zh"],
+    )
     return (
         '<article class="style-venue-card">'
         f"{cover}"
@@ -4010,13 +4080,12 @@ def _render_card(entry: dict[str, Any]) -> str:
         _badge(entry["accommodation_label"]),
         _badge(entry["photo_value_label"], tone="badge"),
     ]
-    cover = ""
-    if entry.get("cover_photo_url"):
-        cover = (
-            '<div class="card-media">'
-            f'<img class="card-image" src="{escape(str(entry["cover_photo_url"]))}" alt="{escape(entry["name_zh"])}" loading="lazy">'
-            "</div>"
-        )
+    cover = _render_preview_media(
+        entry,
+        container_class="card-media",
+        image_class="card-image",
+        alt_text=entry["name_zh"],
+    )
     return (
         '<article class="venue-card">'
         f"{cover}"
@@ -4199,6 +4268,62 @@ def _index_cover_photo_url(
         if preview_urls:
             return preview_urls[0].removeprefix("../")
     return None
+
+
+def _index_preview_source(
+    photo_entries: list[dict[str, Any]],
+    photo_assets_by_entry: dict[str, list[str]],
+    source_lookup: dict[str, dict[str, Any]],
+) -> tuple[str | None, str | None]:
+    for entry in _visible_photo_entries(photo_entries, photo_assets_by_entry, source_lookup):
+        source = source_lookup.get(entry["source_id"], {})
+        return str(entry["page_url"]), str(source.get("source_name", "照片來源"))
+    for source in source_lookup.values():
+        return str(source["source_url"]), str(source.get("source_name", "來源頁"))
+    return None, None
+
+
+def _render_preview_media(
+    entry: dict[str, Any],
+    *,
+    container_class: str,
+    image_class: str,
+    placeholder_class: str = "",
+    alt_text: str,
+) -> str:
+    classes = " ".join(
+        part for part in [container_class, placeholder_class, "preview-media-fallback"] if part
+    )
+    if entry.get("cover_photo_url"):
+        return (
+            f'<div class="{escape(container_class)}">'
+            f'<img class="{escape(image_class)}" src="{escape(str(entry["cover_photo_url"]))}" alt="{escape(alt_text)}" loading="lazy">'
+            "</div>"
+        )
+    actions = []
+    if entry.get("preview_source_url"):
+        actions.append(
+            f'<a class="preview-media-link" href="{escape(str(entry["preview_source_url"]))}" target="_blank" rel="noreferrer">照片來源</a>'
+        )
+    if entry.get("official_website"):
+        actions.append(
+            f'<a class="preview-media-link" href="{escape(str(entry["official_website"]))}" target="_blank" rel="noreferrer">官方網站</a>'
+        )
+    if not actions:
+        return f'<div class="{escape(" ".join(part for part in [container_class, placeholder_class] if part))}"></div>'
+    source_name = entry.get("preview_source_name")
+    note = "目前沒有快取照片，可先看來源頁或官方網站。"
+    if source_name:
+        note = f"目前沒有快取照片，可先看 {source_name} 或官方網站。"
+    return (
+        f'<div class="{escape(classes)}">'
+        '<div class="preview-media-content">'
+        '<p class="preview-media-kicker">Preview</p>'
+        f'<p class="preview-media-note">{escape(note)}</p>'
+        f'<div class="preview-media-actions">{"".join(actions)}</div>'
+        "</div>"
+        "</div>"
+    )
 
 
 def _photo_gallery_items(
@@ -4620,6 +4745,7 @@ def _index_entry(
         "id": venue["id"],
         "name_zh": venue["name_zh"],
         "name_en_official": venue["name_en_official"],
+        "official_website": venue["official_website"],
         "region": venue["region"],
         "subarea": venue["subarea"],
         "venue_types": venue["venue_types"],
@@ -4671,6 +4797,8 @@ def _index_entry(
         "curated_rank": curated_rank,
         "search_text": search_text,
         "cover_photo_url": None,
+        "preview_source_url": None,
+        "preview_source_name": None,
     }
 
 
@@ -4734,6 +4862,14 @@ def _attach_cover_photo_urls(
         }
         updated = dict(entry)
         updated["cover_photo_url"] = _index_cover_photo_url(
+            photos_by_venue.get(entry["id"], []),
+            photo_assets_by_entry,
+            source_lookup,
+        )
+        (
+            updated["preview_source_url"],
+            updated["preview_source_name"],
+        ) = _index_preview_source(
             photos_by_venue.get(entry["id"], []),
             photo_assets_by_entry,
             source_lookup,
