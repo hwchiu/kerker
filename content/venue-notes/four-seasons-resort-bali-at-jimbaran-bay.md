@@ -1,36 +1,38 @@
 # 峇里島金巴蘭灣四季度假酒店 (Four Seasons Resort Bali at Jimbaran Bay)
 
 ## 快速判讀
-- 地區：Jimbaran
-- 場地型態：beach, garden, water-platform, villa-buyout, lawn
-- 價格狀態：public_price_available
-- 價位帶：luxury
-- 雨備強度：medium
-- 住宿整合：one_stop
-- 交通風險：medium
-- 照片參考價值：high
+| 項目 | 內容 |
+| --- | --- |
+| 地區 | Jimbaran |
+| 場地型態 | beach, garden, water-platform, villa-buyout, lawn |
+| 價格狀態 | public_price_available |
+| 價位帶 | luxury |
+| 雨備強度 | medium |
+| 住宿整合 | one_stop |
+| 交通風險 | medium |
+| 照片參考價值 | high |
 
 ## 適合誰
-- Couples who want a beach-and-villa Bali feel without losing hotel-grade logistics
-- Families prioritizing easy airport access and one-property guest coordination
-- Destination weddings that want symbolic ceremony and dinner in a warm sunset resort setting
+- 想享受峇里島海灘別墅的情侶又不失飯店級後勤服務
+- 家庭優先考慮便捷的機場交通和一處房產的賓客協調
+- 想要在溫暖的日落度假村環境中舉行象徵性儀式和晚餐的目的地婚禮
 
 ## 不適合誰
-- Couples who insist on a dedicated glass chapel or ballroom-scale rain backup
-- Budgets that need a low-entry Bali resort wedding
-- Weddings that want the most private cliff-estate atmosphere instead of a polished resort
+- 堅持使用專用玻璃教堂或宴會廳規模防雨設施的情侶
+- 需要低門檻峇里島度假村婚禮的預算
+- 想要最私密的懸崖莊園氛圍而不是豪華度假村的婚禮
 
 ## 主要優勢
-- Airport access is materially easier than deeper Uluwatu venues
-- All-villa accommodation keeps the guest stay experience aligned with the wedding
-- The visual range spans water-aisle, beach, sunset terrace, and restaurant-led receptions
+- 與更深的烏魯瓦圖場館相比，前往機場要容易得多
+- 全別墅住宿讓賓客入住體驗與婚禮保持一致
+- 視覺範圍涵蓋水道、海灘、日落露台和餐廳主導的接待處
 
 ## 主要風險
-- Signature ceremony looks are still weather-exposed
-- The best package for a couple can change completely depending on which Jimbaran sub-venue you actually use
-- Outdoor timing, music cutoff, and beach logistics need explicit confirmation
+- 簽名儀式造型仍暴露在外
+- 最適合情侶的套餐可能會完全改變，具體取決於您實際使用的金巴蘭分會場
+- 戶外計時、音樂截止、海灘後勤需明確確認
 
 ## 待確認
-- Confirm the current rain-plan mapping for the water-aisle and beach ceremony formats.
-- Confirm present-day outside-vendor and entertainment rules at Sundara and the beachfront spaces.
-- Confirm which current formats can still host weddings above 120 guests without broader buyout conditions.
+- 確認水道和海灘儀式形式的當前降雨計劃圖。
+- 確認 Sundara 和海濱空間目前的外部供應商和娛樂規則。
+- 確認目前哪些形式仍可在沒有更廣泛買斷條件的情況下舉辦 120 人以上的婚禮。

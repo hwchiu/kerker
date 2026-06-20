@@ -42,6 +42,8 @@ class NotesTest(unittest.TestCase):
 
         self.assertIn("# 範例懸崖度假村 (Example Cliffside Resort)", note)
         self.assertIn("## 快速判讀", note)
+        self.assertIn("| 項目 | 內容 |", note)
+        self.assertIn("| 地區 | Uluwatu |", note)
         self.assertIn("## 適合誰", note)
         self.assertIn("## 主要風險", note)
 
@@ -79,8 +81,8 @@ class NotesTest(unittest.TestCase):
 
         note = render_venue_note(venue, derived)
 
-        self.assertIn("- 價位帶：待詢價", note)
-        self.assertNotIn("- 價位帶：None", note)
+        self.assertIn("| 價位帶 | 待詢價 |", note)
+        self.assertNotIn("| 價位帶 | None |", note)
 
     def test_write_all_venue_notes_creates_markdown_file(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:

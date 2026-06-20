@@ -185,13 +185,27 @@ a {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
+.index-layout {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  align-items: start;
+}
+
+.index-main {
+  min-width: 0;
+}
+
+.index-sidebar {
+  min-width: 0;
+}
+
 .page-toc {
   position: sticky;
   top: 14px;
   z-index: 16;
   display: grid;
   gap: 18px;
-  margin-bottom: 24px;
   padding: 22px 24px;
   background:
     linear-gradient(180deg, rgba(255, 252, 247, 0.96), rgba(250, 244, 236, 0.92));
@@ -238,8 +252,7 @@ a {
 }
 
 .page-toc-nav {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   gap: 10px;
 }
 
@@ -812,10 +825,20 @@ a {
   white-space: nowrap;
 }
 
-.gallery-preview-grid {
+.photo-gallery-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.photo-gallery-item {
   display: grid;
   gap: 12px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 14px;
+  border: 1px solid rgba(29, 42, 45, 0.08);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: var(--shadow-sm);
 }
 
 .gallery-preview-button {
@@ -832,7 +855,7 @@ a {
 .gallery-preview {
   display: block;
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
   border-radius: var(--radius-sm);
   border: 1px solid rgba(29, 42, 45, 0.08);
@@ -871,6 +894,57 @@ a {
   border-radius: var(--radius-sm);
   color: var(--muted);
   background: rgba(255, 255, 255, 0.56);
+}
+
+.photo-gallery-meta {
+  display: grid;
+  gap: 6px;
+}
+
+.photo-gallery-title {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.photo-gallery-summary-text {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.photo-gallery-details {
+  display: grid;
+  gap: 10px;
+  border-top: 1px solid rgba(29, 42, 45, 0.08);
+  padding-top: 10px;
+}
+
+.photo-gallery-summary {
+  cursor: pointer;
+  color: var(--teal);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  list-style: none;
+}
+
+.photo-gallery-summary::-webkit-details-marker {
+  display: none;
+}
+
+.photo-gallery-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--teal);
+  text-decoration: none;
+}
+
+.photo-gallery-link:hover,
+.photo-gallery-link:focus-visible {
+  text-decoration: underline;
 }
 
 .gallery-card h3,
@@ -1514,6 +1588,10 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .index-layout {
+    grid-template-columns: 1fr;
+  }
+
   .control-grid,
   .advanced-grid,
   .results-grid,
@@ -1661,6 +1739,11 @@ a {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .photo-gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
   .gallery-card-header {
     flex-direction: column;
   }
@@ -1738,6 +1821,10 @@ a {
   .lightbox-dialog {
     width: min(100vw - 4px, 100%);
     gap: 12px;
+  }
+
+  .lightbox-image {
+    max-height: min(64vh, 560px);
   }
 
   .lightbox-nav {
@@ -2981,19 +3068,6 @@ def _render_style_nav(entries: list[dict[str, Any]]) -> str:
 
 def _render_index_toc(entries: list[dict[str, Any]]) -> str:
     grouped = _entries_by_style(entries)
-    primary_links = [
-        ("style-overview", "場地類型總覽"),
-        ("filter-panel", "條件篩選"),
-        ("compare-section", "全部比較"),
-        ("card-section", "飯店卡片"),
-    ]
-    primary_nav = "".join(
-        '<a class="page-toc-link" '
-        f'href="#{escape(section_id)}" '
-        f'data-section-link="{escape(section_id)}" '
-        f'data-section-label="{escape(label)}">{escape(label)}</a>'
-        for section_id, label in primary_links
-    )
     style_nav = "".join(
         '<a class="page-toc-link" '
         f'href="#style-{escape(definition["key"])}" '
@@ -3007,23 +3081,19 @@ def _render_index_toc(entries: list[dict[str, Any]]) -> str:
         '<section class="surface page-toc" id="page-toc">'
         '<div class="page-toc-head">'
         '<div class="page-toc-title">'
-        '<p class="eyebrow">首頁目錄</p>'
-        "<h2>先定錨，再往下看</h2>"
-        '<p class="summary">這一頁資料很多，但不需要線性讀完；先跳到你要比較的段落，再決定要不要進單一飯店頁。</p>'
+        '<p class="eyebrow">Wedding Types</p>'
+        "<h2>右側類型導覽</h2>"
+        '<p class="summary">先用教堂、叢林、懸崖、水上平台、沙灘等類型定方向，再回頭比價格、雨備與交通。</p>'
         "</div>"
         '<div class="toc-current">'
         '<span class="toc-current-label">目前區塊</span>'
-        '<strong id="tocCurrentLabel">場地類型總覽</strong>'
+        '<strong id="tocCurrentLabel">教堂</strong>'
         "</div>"
         "</div>"
         '<div class="page-toc-groups">'
         '<div class="toc-group">'
-        '<p class="subtle">主章節</p>'
-        f'<nav class="page-toc-nav" aria-label="首頁內容目錄">{primary_nav}</nav>'
-        "</div>"
-        '<div class="toc-group">'
-        '<p class="subtle">場地類型</p>'
-        f'<nav class="page-toc-nav" aria-label="場地類型錨點">{style_nav}</nav>'
+        '<p class="subtle">婚禮類型</p>'
+        f'<nav class="page-toc-nav" aria-label="首頁內容目錄">{style_nav}</nav>'
         "</div>"
         "</div>"
         "</section>"
@@ -3491,62 +3561,99 @@ def _index_cover_photo_url(
     return None
 
 
+def _photo_gallery_items(
+    photo_entries: list[dict[str, Any]],
+    photo_assets_by_entry: dict[str, list[str]],
+    source_lookup: dict[str, dict[str, Any]],
+) -> list[dict[str, str]]:
+    items: list[dict[str, str]] = []
+    for entry in _visible_photo_entries(photo_entries, photo_assets_by_entry, source_lookup):
+        preview_urls = _photo_preview_urls(entry, photo_assets_by_entry)
+        if not preview_urls:
+            continue
+        source = source_lookup.get(entry["source_id"], {})
+        source_name = str(source.get("source_name", entry["photo_entry_id"]))
+        source_type_label = SOURCE_TYPE_LABELS.get(
+            str(source.get("source_type", "")),
+            "來源類型待確認",
+        )
+        authenticity_label = PHOTO_AUTHENTICITY_LABELS.get(
+            entry["authenticity"],
+            entry["authenticity"],
+        )
+        image_type_label = IMAGE_TYPE_LABELS.get(entry["image_type"], entry["image_type"])
+        decision_label = DECISION_VALUE_LABELS.get(
+            entry["decision_value"],
+            entry["decision_value"],
+        )
+        scene_labels = [_tag_label(tag) for tag in entry["scene_tags"][:3]]
+        title = " · ".join(scene_labels[:2]) if scene_labels else source_name
+        summary = scene_labels[2] if len(scene_labels) > 2 else image_type_label
+        badges = [
+            _badge(authenticity_label),
+            _badge(image_type_label),
+            _badge(source_type_label),
+            _badge(decision_label, tone="badge"),
+        ] + [_badge(label) for label in scene_labels]
+        for index, url in enumerate(preview_urls, start=1):
+            items.append(
+                {
+                    "url": url,
+                    "title": title,
+                    "summary": summary,
+                    "meta": f"{authenticity_label} · {image_type_label} · {source_name}",
+                    "details": str(entry["decision_notes"]),
+                    "badges_html": "".join(badges),
+                    "source_link": str(entry["page_url"]),
+                    "source_name": source_name,
+                    "aria_label": (
+                        f"{title}，第 {index} 張照片，來源 {source_name}，點擊放大"
+                    ),
+                }
+            )
+    return items
+
+
 def _render_photo_cards(
     photo_entries: list[dict[str, Any]],
     photo_assets_by_entry: dict[str, list[str]],
     source_lookup: dict[str, dict[str, Any]],
 ) -> str:
-    visible_entries = _visible_photo_entries(photo_entries, photo_assets_by_entry, source_lookup)
-    if not visible_entries:
+    gallery_items = _photo_gallery_items(photo_entries, photo_assets_by_entry, source_lookup)
+    if not gallery_items:
         return '<div class="empty-state">目前還沒有整理到可參考的照片來源。</div>'
     cards = []
-    for entry in visible_entries:
-        source = source_lookup.get(entry["source_id"], {})
-        preview_urls = _photo_preview_urls(entry, photo_assets_by_entry)
-        source_name = source.get("source_name", entry["photo_entry_id"])
-        preview_total = min(len(preview_urls), 6)
-        preview_html = (
-            '<div class="gallery-preview-grid">'
-            + "".join(
-                '<button type="button" class="gallery-preview-button" '
-                f'data-lightbox-image="{escape(url)}" '
-                f'data-lightbox-group="{escape(entry["photo_entry_id"])}" '
-                f'data-lightbox-caption="{escape(source_name)}" '
-                f'data-lightbox-caption-title="{escape(source_name)}" '
-                f'data-lightbox-caption-meta="{escape(f"第 {index} 張 / {preview_total} 張 · {PHOTO_AUTHENTICITY_LABELS.get(entry["authenticity"], entry["authenticity"])} · {IMAGE_TYPE_LABELS.get(entry["image_type"], entry["image_type"])}")}" '
-                f'data-lightbox-caption-body="{escape(entry["decision_notes"])}" '
-                f'aria-label="{escape(f"{source_name} 第 {index} 張，共 {preview_total} 張，點擊放大")}" >'
-                f'<img class="gallery-preview" src="{escape(url)}" alt="{escape(source_name)}" loading="lazy">'
-                '<span class="gallery-preview-overlay">查看大圖</span>'
-                "</button>"
-                for index, url in enumerate(preview_urls[:6], start=1)
-            )
-            + "</div>"
-        )
-        if not preview_urls:
-            preview_html = '<div class="gallery-empty">這個來源目前還沒成功抓到可直接顯示的圖片。</div>'
+    for item in gallery_items:
         cards.append(
-            '<article class="gallery-card card-panel">'
-            '<div class="gallery-card-header">'
-            '<div>'
-            f'<h3>{escape(source_name)}</h3>'
-            f'<p class="gallery-source-meta">{escape(SOURCE_TYPE_LABELS.get(source.get("source_type", ""), "來源類型待確認"))} / {escape(PHOTO_AUTHENTICITY_LABELS.get(entry["authenticity"], entry["authenticity"]))}</p>'
+            '<article class="photo-gallery-item">'
+            '<button type="button" class="gallery-preview-button" '
+            f'data-lightbox-image="{escape(item["url"])}" '
+            'data-lightbox-group="venue-gallery" '
+            f'data-lightbox-caption="{escape(item["details"])}" '
+            f'data-lightbox-caption-title="{escape(item["title"])}" '
+            f'data-lightbox-caption-meta="{escape(item["meta"])}" '
+            f'data-lightbox-caption-body="{escape(item["details"])}" '
+            f'aria-label="{escape(item["aria_label"])}">'
+            f'<img class="gallery-preview" src="{escape(item["url"])}" alt="{escape(item["title"])}" loading="lazy">'
+            '<span class="gallery-preview-overlay">查看大圖</span>'
+            "</button>"
+            '<div class="photo-gallery-meta">'
+            f'<h3 class="photo-gallery-title">{escape(item["title"])}</h3>'
+            f'<p class="photo-gallery-summary-text">{escape(item["summary"])}</p>'
             "</div>"
-            f'<span class="gallery-source-count">{preview_total} 張可看</span>'
-            "</div>"
-            f"{preview_html}"
-            '<p class="gallery-preview-hint">點圖可放大；lightbox 內可左右滑動、用方向鍵切換。</p>'
-            f'<div class="chip-row">{_badge(SOURCE_TYPE_LABELS.get(source.get("source_type", ""), "來源類型待確認"))}'
-            f'{_badge(IMAGE_TYPE_LABELS.get(entry["image_type"], entry["image_type"]))}'
-            f'{_badge(PHOTO_AUTHENTICITY_LABELS.get(entry["authenticity"], entry["authenticity"]))}'
-            f'{_badge(DECISION_VALUE_LABELS.get(entry["decision_value"], entry["decision_value"]), tone="badge")}'
-            + "".join(_badge(_tag_label(tag)) for tag in entry["scene_tags"][:4])
-            + "</div>"
-            f'<p>{escape(entry["decision_notes"])}</p>'
-            f'<p class="hint">來源頁：{escape(entry["page_url"])}</p>'
+            '<details class="photo-gallery-details">'
+            '<summary class="photo-gallery-summary">查看照片資訊</summary>'
+            f'<div class="chip-row">{item["badges_html"]}</div>'
+            f'<p>{escape(item["details"])}</p>'
+            f'<a class="photo-gallery-link" href="{escape(item["source_link"])}" target="_blank" rel="noreferrer">來源：{escape(item["source_name"])}</a>'
+            "</details>"
             "</article>"
         )
-    return f'<div class="gallery-grid">{"".join(cards)}</div>'
+    return (
+        '<div class="photo-gallery-grid">'
+        + "".join(cards)
+        + '</div><p class="gallery-preview-hint">點圖可放大；全部照片會放在同一個 lightbox 內左右切換。</p>'
+    )
 
 
 def _render_photo_insights(
@@ -4025,7 +4132,8 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         "</div>"
         f'<p class="hint hero-rate-note">{escape(FX_NOTE_TEXT)}</p>'
         "</section>"
-        f"{_render_index_toc(entries)}"
+        '<div class="index-layout">'
+        '<div class="index-main">'
         f"{_render_style_nav(entries)}"
         '<section class="surface" id="filter-panel">'
         '<div class="section-head">'
@@ -4083,6 +4191,11 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         '<div id="emptyState" class="empty-state" hidden>目前沒有場地符合這組篩選條件。</div>'
         "</section>"
         f"{_render_style_sections(entries)}"
+        "</div>"
+        '<aside class="index-sidebar">'
+        f"{_render_index_toc(entries)}"
+        "</aside>"
+        "</div>"
         f'<script id="venue-data" type="application/json">{_safe_json(entries)}</script>'
         '<script src="assets/site.js"></script>'
         "</main>"

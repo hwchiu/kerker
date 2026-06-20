@@ -1,36 +1,38 @@
 # 曼達帕麗思卡爾頓隱世酒店 (Mandapa, a Ritz-Carlton Reserve)
 
 ## 快速判讀
-- 地區：Ubud
-- 場地型態：jungle, garden, lawn, villa-buyout
-- 價格狀態：public_price_available
-- 價位帶：luxury
-- 雨備強度：medium
-- 住宿整合：workable_with_shuttles
-- 交通風險：high
-- 照片參考價值：medium
+| 項目 | 內容 |
+| --- | --- |
+| 地區 | Ubud |
+| 場地型態 | jungle, garden, lawn, villa-buyout |
+| 價格狀態 | public_price_available |
+| 價位帶 | luxury |
+| 雨備強度 | medium |
+| 住宿整合 | workable_with_shuttles |
+| 交通風險 | high |
+| 照片參考價值 | high |
 
 ## 適合誰
-- Couples who want a deeply Ubud, jungle-and-river wedding identity
-- Intimate destination weddings where privacy and atmosphere matter more than sheer scale
-- Groups that want villa-led luxury with a more soulful reserve feel than a standard five-star hotel
+- 想要一場深入烏布、叢林和河流婚禮的情侶
+- 隱私和氣氛比規模更重要的私人目的地婚禮
+- 想要以別墅為主導的奢華體驗，且比標準五星級飯店更具深情的保留感的團體
 
 ## 不適合誰
-- Large weddings that need ballroom-grade rain insurance
-- Guests who need the fastest airport arrival and simplest mobility
-- Couples who want a beach, chapel, or classic south-Bali luxury mood
+- 需要舞廳級雨險的大型婚禮
+- 需要最快到達機場和最簡單交通的客人
+- 想要海灘、教堂或經典的峇里島南部奢華氛圍的情侶
 
 ## 主要優勢
-- One of the strongest river-valley luxury identities in Bali
-- Chinese-language travel coverage is rich, which helps room and guest-experience research
-- Temple Garden and riverside formats feel distinctive rather than interchangeable
+- 峇里島最強大的河谷奢華品牌之一
+- 中文旅遊報道豐富，有助於客房及賓客體驗研究
+- 寺廟花園和河濱格式給人一種獨特的感覺，而不是可以互換的
 
 ## 主要風險
-- Airport transfer and Ubud traffic are materially heavier than Jimbaran or Nusa Dua
-- Weather, steps, and terrain affect execution more than at flatter venues
-- Room inventory is strong for a reserve but not enough to house every large wedding guest group
+- 機場接送和烏布交通比金巴蘭或努沙杜瓦嚴重得多
+- 天氣、階梯和地形對執行力的影響比在平坦的場地更大
+- 對於預訂來說，房間庫存充足，但不足以容納每個大型婚禮賓客團體
 
 ## 待確認
-- Confirm the current rain-plan flow for Temple Garden, Ayung Riverside, and Wantilan events.
-- Confirm present outside-vendor, corkage, and drone policies.
-- Confirm which current packages require reserve-villa or room-night commitments.
+- 確認Temple Garden、Ayung Riverside 和Wantilan 活動目前的降雨計劃流程​​。
+- 確認目前的外部供應商、開瓶費和無人機政策。
+- 確認哪些當前套餐需要預訂別墅或間夜承諾。

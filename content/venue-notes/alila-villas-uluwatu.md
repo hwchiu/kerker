@@ -1,36 +1,38 @@
 # 阿麗拉烏魯瓦圖別墅 (Alila Villas Uluwatu)
 
 ## 快速判讀
-- 地區：Uluwatu
-- 場地型態：cliffside, garden, villa-buyout
-- 價格狀態：public_price_available
-- 價位帶：ultra_luxury
-- 雨備強度：medium
-- 住宿整合：one_stop
-- 交通風險：high
-- 照片參考價值：high
+| 項目 | 內容 |
+| --- | --- |
+| 地區 | Uluwatu |
+| 場地型態 | cliffside, garden, villa-buyout |
+| 價格狀態 | public_price_available |
+| 價位帶 | ultra_luxury |
+| 雨備強度 | medium |
+| 住宿整合 | one_stop |
+| 交通風險 | high |
+| 照片參考價值 | high |
 
 ## 適合誰
-- Couples who want a design-led all-villa resort rather than a giant estate
-- Weddings prioritizing modern architecture, ocean views, and a high-end stay experience
-- Mid-size guest counts that still want ceremony and dinner on one polished property
+- 想要一個以設計為主導的全別墅度假村而不是一個巨大莊園的夫婦
+- 婚禮優先考慮現代建築、海景和高端入住體驗
+- 中型賓客數量仍希望在一處豪華酒店舉行儀式和晚宴
 
 ## 不適合誰
-- Budget-sensitive destination weddings
-- Mega-weddings that need ballroom-scale rain resilience
-- Guests who prefer the simplest airport transfer and flattest movement
+- 對預算敏感的目的地婚禮
+- 大型婚禮需要宴會廳規模的防雨能力
+- 喜歡最簡單的機場接送和最平坦運動的客人
 
 ## 主要優勢
-- Very strong design identity and cliffside visual payoff
-- Villa-based stay experience feels coherent with the wedding itself
-- Public pricing exists across multiple formats, helping early-stage budget comparison
+- 非常強烈的設計特徵和懸崖邊的視覺回報
+- 別墅住宿體驗與婚禮本身融為一體
+- 公開定價存在多種形式，有助於早期預算比較
 
 ## 主要風險
-- Headline prices vary a lot by sub-venue and guest count
-- Weather and wind exposure are real on the signature cliffside spaces
-- Large guest counts still need careful room-block and transport planning
+- 整體價格因分會場和賓客人數而異
+- 標誌性的懸崖邊空間真實存在天氣和風的影響
+- 大量客人仍需要仔細的房間分區和交通規劃
 
 ## 待確認
-- Confirm the exact rain-plan locations used for Cliff Edge Cabana and the outer lawns.
-- Confirm current outside-vendor approval fees and production rules.
-- Confirm which current venue combinations can handle 100-plus dinner guests without a broader buyout.
+- 確認懸崖邊緣小屋和外部草坪的確切降雨計畫位置。
+- 確認目前的外部供應商審批費用和生產規則。
+- 確認目前哪些場地組合可以在不進行更廣泛買斷的情況下容納 100 多名晚餐客人。

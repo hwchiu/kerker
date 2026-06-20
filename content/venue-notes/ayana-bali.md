@@ -1,37 +1,39 @@
-# AYANA Bali (AYANA Bali)
+# 峇里島阿雅娜度假村 (AYANA Bali)
 
 ## 快速判讀
-- 地區：Jimbaran
-- 場地型態：cliffside, chapel, garden, ballroom, water-platform, villa-buyout, beach
-- 價格狀態：public_price_available
-- 價位帶：未知
-- 雨備強度：strong
-- 住宿整合：one_stop
-- 交通風險：medium
-- 照片參考價值：high
+| 項目 | 內容 |
+| --- | --- |
+| 地區 | Jimbaran |
+| 場地型態 | cliffside, chapel, garden, ballroom, water-platform, villa-buyout, beach |
+| 價格狀態 | public_price_available |
+| 價位帶 | 未知 |
+| 雨備強度 | strong |
+| 住宿整合 | one_stop |
+| 交通風險 | medium |
+| 照片參考價值 | high |
 
 ## 適合誰
-- Couples who want the widest venue range without changing hotels
-- Weddings that need serious on-site room inventory and internal logistics support
-- Groups wanting a one-stop resort with dining, spa, and after-party depth
+- 想要在不更換酒店的情況下獲得最廣泛場地選擇的情侶
+- 需要大量現場房間庫存和內部後勤支援的婚禮
+- 想要擁有餐飲、水療中心和派對深度的一站式度假村的團體
 
 ## 不適合誰
-- Couples seeking the quietest boutique-only atmosphere
-- Budgets that need simple apples-to-apples public pricing
-- Guests who dislike moving around a very large resort estate
+- 尋求最安靜的精品店氛圍的情侶
+- 需要簡單比較公開定價的預算
+- 不喜歡在大型度假村內走動的客人
 
 ## 主要優勢
-- Huge venue variety from SKY and chapels to gardens and ballrooms
-- Very strong on-site accommodation base across four hotels and villas
-- Better rain backup than most Bali outdoor wedding resorts
-- Can scale from intimate ceremonies to very large-format weddings
+- 從 SKY 和教堂到花園和舞廳，場地種類繁多
+- 擁有四間飯店和別墅的強大現場住宿基地
+- 比大多數峇里島戶外婚禮度假村更好的防雨設施
+- 可以舉辦從私人儀式到大型婚禮的各種活動
 
 ## 主要風險
-- Package pricing is hard to compare across AYANA's many sub-venues
-- The estate is large enough that internal transport planning matters
-- Top sunset venues and prime dates fill quickly
+- 阿雅娜眾多分會場的套餐定價很難比較
+- 該地產夠大，內部交通規劃很重要
+- 頂級日落場地和黃金日期很快就滿了
 
 ## 待確認
-- Confirm current official pricing for smaller ceremony-only formats like Tresna, KISIK, and Asmara.
-- Confirm outside-vendor approval fees, corkage, and updated AV policy.
-- Confirm the latest outdoor music curfew and best on-estate after-party alternatives.
+- 確認 Tresna、KISIK 和 Asmara 等小型儀式專用形式的當前官方定價。
+- 確認外部供應商審批費用、開瓶費和更新的 AV 政策。
+- 確認最新的戶外音樂宵禁和最佳的莊園內派對替代方案。
