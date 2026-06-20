@@ -587,8 +587,8 @@ def copy_photo_assets_for_site(root: Path, output_dir: Path) -> dict[str, list[s
 
     photo_assets_root = workspace_paths(root)["photo_assets"]
     site_assets_root = output_dir / "assets" / "photos"
-    if site_assets_root.exists():
-        rmtree(site_assets_root)
+    expected_targets: set[Path] = set()
+    candidates: list[tuple[str, Path, Path]] = []
     mapping: dict[str, list[str]] = {}
 
     for item in items:
@@ -598,21 +598,35 @@ def copy_photo_assets_for_site(root: Path, output_dir: Path) -> dict[str, list[s
         asset_paths = item.get("asset_paths")
         if not isinstance(photo_entry_id, str) or not isinstance(asset_paths, list):
             continue
-        site_urls: list[str] = []
         for asset_path in asset_paths:
             if not isinstance(asset_path, str):
                 continue
             source_path = (root / asset_path).resolve()
-            if not source_path.exists():
-                continue
             try:
                 relative_inside_assets = source_path.relative_to(photo_assets_root)
             except ValueError:
                 continue
             target_path = site_assets_root / relative_inside_assets
+            expected_targets.add(target_path)
+            candidates.append((photo_entry_id, source_path, target_path))
+
+    if site_assets_root.exists():
+        for existing in sorted(site_assets_root.rglob("*"), reverse=True):
+            if existing.is_file() and existing not in expected_targets:
+                existing.unlink()
+            elif existing.is_dir():
+                try:
+                    existing.rmdir()
+                except OSError:
+                    pass
+
+    for photo_entry_id, source_path, target_path in candidates:
+        if source_path.exists():
             target_path.parent.mkdir(parents=True, exist_ok=True)
             copy2(source_path, target_path)
-            site_urls.append(f"../assets/photos/{relative_inside_assets.as_posix()}")
-        if site_urls:
-            mapping[photo_entry_id] = site_urls
+        if not target_path.exists():
+            continue
+        relative_inside_assets = target_path.relative_to(site_assets_root)
+        site_urls = mapping.setdefault(photo_entry_id, [])
+        site_urls.append(f"../assets/photos/{relative_inside_assets.as_posix()}")
     return mapping
