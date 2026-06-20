@@ -110,16 +110,16 @@ class StaticSiteTest(unittest.TestCase):
 
             self.assertIn("範例懸崖度假村", index_html)
             self.assertIn("Example Cliffside Resort", index_html)
-            self.assertIn("依婚禮風格開始挑", index_html)
+            self.assertIn("依場地類型開始挑", index_html)
             self.assertIn('href="#style-chapel"', index_html)
             self.assertIn("教堂", index_html)
             self.assertIn("公開價格已統一換算為台幣", index_html)
             self.assertIn("公開方案約 NT$269,068 起", index_html)
             self.assertNotIn("Public ceremony package starts at USD 8,500", index_html)
-            self.assertIn("快速初篩路線", index_html)
             self.assertIn("全部場地比較", index_html)
+            self.assertIn("交叉篩選飯店", index_html)
             self.assertIn("sortSelect", index_html)
-            self.assertLess(index_html.index("快速初篩路線"), index_html.index("先篩選再深看"))
+            self.assertNotIn("近期營運現況", index_html)
             self.assertLess(index_html.index("場地卡片"), index_html.index('id="style-chapel"'))
             self.assertIn("Example Cliffside Weddings", detail_html)
             self.assertIn("https://example.com/cliffside/gallery/1", detail_html)
@@ -202,9 +202,10 @@ class StaticSiteTest(unittest.TestCase):
             site_css = (output_dir / "assets" / "site.css").read_text(encoding="utf-8")
             site_js = (output_dir / "assets" / "site.js").read_text(encoding="utf-8")
 
-            self.assertIn('class="filter-guide"', index_html)
+            self.assertIn('class="hero-layout"', index_html)
+            self.assertIn('class="hero-panel"', index_html)
             self.assertIn('class="style-card-count"', index_html)
-            self.assertIn('class="shortlist-item"', index_html)
+            self.assertIn('class="style-card-media"', index_html)
             self.assertIn('class="compare-row"', index_html)
             self.assertIn('class="compare-detail-link"', index_html)
             self.assertIn('class="detail-anchor-nav"', detail_html)
@@ -214,13 +215,39 @@ class StaticSiteTest(unittest.TestCase):
             self.assertIn('class="gallery-preview-hint"', detail_html)
             self.assertIn('data-lightbox-target="meta"', detail_html)
             self.assertIn('data-lightbox-target="hint"', detail_html)
-            self.assertIn(".filter-guide", site_css)
+            self.assertIn(".hero-layout", site_css)
+            self.assertIn(".hero-panel", site_css)
             self.assertIn(".style-card-count", site_css)
+            self.assertIn(".style-card-media", site_css)
             self.assertIn(".compare-row", site_css)
             self.assertIn(".detail-anchor-nav", site_css)
             self.assertIn(".gallery-preview-hint", site_css)
             self.assertIn("touchstart", site_js)
             self.assertIn("touchend", site_js)
+
+    def test_write_static_site_emits_homepage_toc_and_section_tracking_hooks(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            self._write_workspace_with_similar_venue(root)
+            output_dir = root / "site"
+
+            write_static_site(root, output_dir)
+
+            index_html = (output_dir / "index.html").read_text(encoding="utf-8")
+            site_css = (output_dir / "assets" / "site.css").read_text(encoding="utf-8")
+            site_js = (output_dir / "assets" / "site.js").read_text(encoding="utf-8")
+
+            self.assertIn('class="surface page-toc"', index_html)
+            self.assertIn('id="tocCurrentLabel"', index_html)
+            self.assertIn('data-section-link="style-overview"', index_html)
+            self.assertIn('data-section-link="style-chapel"', index_html)
+            self.assertIn('aria-label="首頁內容目錄"', index_html)
+            self.assertIn(".page-toc", site_css)
+            self.assertIn(".page-toc-link.is-active", site_css)
+            self.assertIn(".toc-current", site_css)
+            self.assertIn("IntersectionObserver", site_js)
+            self.assertIn("tocCurrentLabel", site_js)
+            self.assertIn("data-section-link", site_js)
 
     def test_write_static_site_renders_current_status_alerts(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -262,11 +289,9 @@ class StaticSiteTest(unittest.TestCase):
                 output_dir / "venues" / "example-cliffside-resort.html"
             ).read_text(encoding="utf-8")
 
-            self.assertIn("現況", index_html)
-            self.assertIn("近期營運現況", index_html)
-            self.assertIn("暫停營運", index_html)
-            self.assertIn("官方頁面顯示自 2026-02-01 起暫時關閉", index_html)
-            self.assertIn('href="#status-overview"', index_html)
+            self.assertNotIn("近期營運現況", index_html)
+            self.assertNotIn("看現況提醒", index_html)
+            self.assertNotIn('href="#status-overview"', index_html)
             self.assertIn('href="#current-status"', detail_html)
             self.assertIn('id="current-status"', detail_html)
             self.assertIn("營運現況", detail_html)

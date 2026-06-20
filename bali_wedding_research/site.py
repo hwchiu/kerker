@@ -15,26 +15,27 @@ from .derive import build_derived_indexes
 from .io import load_workspace_records
 from .photo_assets import copy_photo_assets_for_site
 
-SITE_CSS = """@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+SITE_CSS = """@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
 
 :root {
-  --bg: #f7f1ea;
-  --bg-glow: rgba(244, 160, 124, 0.18);
-  --ink: #1f2a2d;
-  --muted: #677578;
-  --panel: rgba(255, 249, 244, 0.78);
-  --panel-strong: rgba(255, 252, 249, 0.94);
-  --line: rgba(29, 42, 45, 0.1);
-  --line-strong: rgba(29, 42, 45, 0.16);
-  --teal: #1f6b68;
-  --teal-soft: rgba(31, 107, 104, 0.08);
-  --coral: #cb6c51;
-  --gold: #c29d4d;
-  --shadow-sm: 0 12px 30px rgba(39, 45, 49, 0.06);
-  --shadow-md: 0 18px 44px rgba(39, 45, 49, 0.08);
-  --shadow-lg: 0 26px 62px rgba(39, 45, 49, 0.1);
-  --radius-xl: 28px;
-  --radius-lg: 20px;
+  --bg: #f1eadf;
+  --bg-glow: rgba(181, 147, 98, 0.18);
+  --ink: #1e2924;
+  --muted: #5f695f;
+  --panel: rgba(255, 250, 244, 0.92);
+  --panel-strong: rgba(255, 253, 249, 0.98);
+  --line: rgba(30, 41, 36, 0.1);
+  --line-strong: rgba(30, 41, 36, 0.18);
+  --teal: #27473f;
+  --teal-soft: rgba(39, 71, 63, 0.08);
+  --coral: #9a5b46;
+  --gold: #ac8d5f;
+  --hero-ink: #f7f1e7;
+  --shadow-sm: 0 18px 40px rgba(27, 33, 29, 0.08);
+  --shadow-md: 0 24px 56px rgba(27, 33, 29, 0.12);
+  --shadow-lg: 0 32px 80px rgba(27, 33, 29, 0.16);
+  --radius-xl: 30px;
+  --radius-lg: 22px;
   --radius-sm: 12px;
 }
 
@@ -49,12 +50,12 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "Manrope", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at top left, var(--bg-glow), transparent 34%),
-    radial-gradient(circle at 90% 10%, rgba(31, 107, 104, 0.1), transparent 22%),
-    linear-gradient(180deg, #fbf7f2 0%, #f6efe7 38%, #f1e9df 100%);
+    radial-gradient(circle at top left, var(--bg-glow), transparent 32%),
+    radial-gradient(circle at 88% 8%, rgba(39, 71, 63, 0.12), transparent 20%),
+    linear-gradient(180deg, #f6f0e7 0%, #eee5d8 42%, #e7ddd0 100%);
 }
 
 body.lightbox-open {
@@ -67,9 +68,9 @@ body::before {
   inset: 0;
   pointer-events: none;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.28), transparent 24%),
-    radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.3), transparent 18%);
-  opacity: 0.35;
+    linear-gradient(180deg, rgba(255, 255, 255, 0.24), transparent 24%),
+    radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.26), transparent 18%);
+  opacity: 0.45;
 }
 
 a {
@@ -86,20 +87,25 @@ a {
 .surface {
   position: relative;
   overflow: hidden;
-  background: rgba(255, 252, 248, 0.82);
-  border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: var(--radius-xl);
+}
+
+.surface {
+  background: var(--panel);
+  border: 1px solid rgba(255, 255, 255, 0.56);
   box-shadow: var(--shadow-sm);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px);
 }
 
 .hero {
   padding: 48px;
   margin-bottom: 24px;
   background:
-    linear-gradient(180deg, rgba(255, 251, 247, 0.9), rgba(255, 247, 240, 0.86)),
-    radial-gradient(circle at 100% 0%, rgba(31, 107, 104, 0.06), transparent 20%);
-  box-shadow: var(--shadow-md);
+    linear-gradient(135deg, rgba(32, 57, 50, 0.98), rgba(26, 44, 38, 0.98)),
+    radial-gradient(circle at 100% 0%, rgba(172, 141, 95, 0.24), transparent 24%);
+  border: 1px solid rgba(202, 183, 149, 0.22);
+  box-shadow: var(--shadow-lg);
+  color: var(--hero-ink);
 }
 
 .hero::after,
@@ -110,7 +116,7 @@ a {
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(31, 107, 104, 0.12), transparent 70%);
+  background: radial-gradient(circle, rgba(172, 141, 95, 0.18), transparent 70%);
 }
 
 .eyebrow {
@@ -127,9 +133,9 @@ a {
 .venue-card h2,
 .section-head h2 {
   margin: 0;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Fraunces", serif;
   letter-spacing: -0.02em;
-  line-height: 0.92;
+  line-height: 0.96;
 }
 
 .hero h1,
@@ -140,9 +146,171 @@ a {
 .lede {
   max-width: 760px;
   margin: 18px 0 0;
-  font-size: 1.02rem;
+  font-size: 1.04rem;
   line-height: 1.8;
   color: var(--muted);
+}
+
+.hero .eyebrow,
+.hero .card-kicker,
+.hero .detail-kicker {
+  color: rgba(247, 241, 231, 0.76);
+}
+
+.hero .lede,
+.hero .hint,
+.hero .subtle {
+  color: rgba(247, 241, 231, 0.8);
+}
+
+.hero-layout {
+  display: grid;
+  gap: 28px;
+  grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.75fr);
+  align-items: end;
+}
+
+.hero-copy {
+  display: grid;
+  gap: 0;
+}
+
+.hero-panel {
+  display: grid;
+  gap: 16px;
+  padding: 22px;
+  background: rgba(255, 249, 238, 0.08);
+  border: 1px solid rgba(255, 240, 220, 0.14);
+  border-radius: var(--radius-lg);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.page-toc {
+  position: sticky;
+  top: 14px;
+  z-index: 16;
+  display: grid;
+  gap: 18px;
+  margin-bottom: 24px;
+  padding: 22px 24px;
+  background:
+    linear-gradient(180deg, rgba(255, 252, 247, 0.96), rgba(250, 244, 236, 0.92));
+  border: 1px solid rgba(255, 255, 255, 0.62);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(10px);
+}
+
+.page-toc-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.page-toc-title {
+  display: grid;
+  gap: 8px;
+}
+
+.page-toc-title h2 {
+  margin: 0;
+  font-family: "Fraunces", serif;
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  letter-spacing: -0.03em;
+}
+
+.page-toc-groups {
+  display: grid;
+  gap: 14px;
+}
+
+.toc-group {
+  display: grid;
+  gap: 10px;
+}
+
+.toc-group .subtle {
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.page-toc-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.page-toc-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(39, 71, 63, 0.12);
+  background: rgba(39, 71, 63, 0.05);
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1;
+  transition:
+    transform 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.page-toc-link:hover,
+.page-toc-link:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(39, 71, 63, 0.2);
+  background: rgba(39, 71, 63, 0.08);
+}
+
+.page-toc-link.is-active {
+  background: var(--teal);
+  border-color: var(--teal);
+  color: var(--hero-ink);
+  box-shadow: 0 10px 24px rgba(39, 71, 63, 0.22);
+}
+
+.toc-current {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 18px;
+  border: 1px solid rgba(39, 71, 63, 0.12);
+  background: rgba(39, 71, 63, 0.06);
+}
+
+.toc-current-label {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.toc-current strong {
+  font-size: 0.98rem;
+  color: var(--teal);
+}
+
+.hero-list {
+  margin: 0;
+  padding-left: 18px;
+  line-height: 1.8;
+}
+
+.hero-list li + li {
+  margin-top: 6px;
 }
 
 .hero-actions,
@@ -161,9 +329,9 @@ a {
   min-height: 40px;
   padding: 0 15px;
   border-radius: 999px;
-  border: 1px solid rgba(31, 107, 104, 0.14);
-  background: rgba(255, 255, 255, 0.58);
-  color: var(--teal);
+  border: 1px solid rgba(255, 246, 230, 0.14);
+  background: rgba(255, 249, 238, 0.08);
+  color: var(--hero-ink);
   text-decoration: none;
   font-size: 0.88rem;
   font-weight: 700;
@@ -176,8 +344,8 @@ a {
 .detail-anchor-link:hover,
 .detail-anchor-link:focus-visible {
   transform: translateY(-1px);
-  background: rgba(255, 255, 255, 0.86);
-  border-color: rgba(31, 107, 104, 0.24);
+  background: rgba(255, 249, 238, 0.16);
+  border-color: rgba(255, 240, 220, 0.22);
 }
 
 .hero-grid,
@@ -203,6 +371,12 @@ a {
   padding: 22px;
 }
 
+.hero .stat {
+  background: rgba(255, 249, 238, 0.1);
+  border: 1px solid rgba(255, 240, 220, 0.12);
+  color: var(--hero-ink);
+}
+
 .stat strong,
 .quick-fact strong {
   display: block;
@@ -217,6 +391,14 @@ a {
   margin-top: 8px;
   font-size: 0.84rem;
   color: var(--muted);
+}
+
+.hero .stat span {
+  color: rgba(247, 241, 231, 0.72);
+}
+
+.hero-rate-note {
+  margin-top: 18px;
 }
 
 .surface {
@@ -339,11 +521,12 @@ a {
   width: 100%;
   appearance: none;
   border: 1px solid var(--line-strong);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.92);
   padding: 14px 18px;
   font: inherit;
   color: var(--ink);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
 }
 
 .control input:focus,
@@ -375,12 +558,11 @@ a {
   gap: 18px;
   min-height: 100%;
   padding: 24px;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(255, 249, 245, 0.96)),
-    linear-gradient(140deg, rgba(207, 111, 83, 0.03), rgba(31, 107, 104, 0.015));
-  border: 1px solid rgba(29, 42, 45, 0.08);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(255, 250, 244, 0.98));
+  border: 1px solid rgba(30, 41, 36, 0.08);
+  border-top: 4px solid rgba(172, 141, 95, 0.5);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 16px 38px rgba(32, 37, 34, 0.08);
   animation: rise 560ms ease both;
 }
 
@@ -396,7 +578,7 @@ a {
 .card-image {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 9.4;
+  aspect-ratio: 16 / 10;
   object-fit: cover;
 }
 
@@ -436,15 +618,15 @@ a {
   min-height: 32px;
   padding: 7px 12px;
   border-radius: 999px;
-  background: var(--teal-soft);
+  background: rgba(39, 71, 63, 0.08);
   color: var(--teal);
   font-size: 0.78rem;
   font-weight: 700;
 }
 
 .badge {
-  background: rgba(194, 157, 77, 0.15);
-  color: #8f702a;
+  background: rgba(172, 141, 95, 0.16);
+  color: #7f6131;
 }
 
 .summary {
@@ -508,19 +690,20 @@ a {
   min-height: 44px;
   padding: 0 18px;
   border-radius: 999px;
-  background: linear-gradient(135deg, var(--teal), #2f8d89);
+  background: linear-gradient(135deg, var(--teal), #3d5e55);
   color: #fff;
   text-decoration: none;
   font-weight: 800;
   letter-spacing: 0.02em;
-  box-shadow: 0 10px 24px rgba(31, 107, 104, 0.16);
+  box-shadow: 0 12px 28px rgba(39, 71, 63, 0.18);
   transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
 }
 
 .link-button.secondary {
-  background: rgba(31, 107, 104, 0.08);
+  background: rgba(39, 71, 63, 0.08);
   color: var(--teal);
   box-shadow: none;
+  border: 1px solid rgba(39, 71, 63, 0.12);
 }
 
 .link-button:hover,
@@ -839,17 +1022,52 @@ a {
 .style-grid {
   display: grid;
   gap: 14px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .style-card {
   display: grid;
-  gap: 14px;
-  padding: 20px;
-  background: var(--panel-strong);
-  border: 1px solid var(--line);
+  gap: 0;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(34, 55, 48, 0.98), rgba(26, 43, 38, 0.98));
+  border: 1px solid rgba(26, 43, 38, 0.18);
   border-radius: var(--radius-lg);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.44);
+  box-shadow: 0 18px 34px rgba(28, 35, 32, 0.12);
+  color: var(--hero-ink);
+}
+
+.style-card-media {
+  position: relative;
+  min-height: 180px;
+  background: linear-gradient(135deg, rgba(172, 141, 95, 0.24), rgba(39, 71, 63, 0.48));
+}
+
+.style-card-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(19, 34, 30, 0.06), rgba(19, 34, 30, 0.62));
+}
+
+.style-card-media-placeholder::before {
+  content: "";
+  position: absolute;
+  inset: 18px;
+  border: 1px solid rgba(255, 241, 220, 0.16);
+  border-radius: 18px;
+}
+
+.style-card-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.style-card-body {
+  display: grid;
+  gap: 14px;
+  padding: 22px;
 }
 
 .style-card-top {
@@ -861,7 +1079,11 @@ a {
 
 .style-card h3 {
   margin: 0 0 8px;
-  font-size: 1.15rem;
+  font-size: 1.5rem;
+}
+
+.style-card .summary {
+  color: rgba(247, 241, 231, 0.82);
 }
 
 .style-meta {
@@ -870,7 +1092,23 @@ a {
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--teal);
+  color: rgba(247, 241, 231, 0.62);
+}
+
+.style-card .eyebrow {
+  color: rgba(247, 241, 231, 0.72);
+}
+
+.style-card-count {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: rgba(255, 249, 238, 0.1);
+  color: rgba(247, 241, 231, 0.78);
+  font-size: 0.75rem;
+  font-weight: 800;
 }
 
 .style-card-examples {
@@ -885,8 +1123,8 @@ a {
 .style-card-examples li {
   padding: 6px 10px;
   border-radius: 999px;
-  background: rgba(31, 107, 104, 0.06);
-  color: var(--ink);
+  background: rgba(255, 249, 238, 0.08);
+  color: var(--hero-ink);
   font-size: 0.82rem;
   line-height: 1.35;
 }
@@ -900,11 +1138,11 @@ a {
 .style-venue-card {
   display: grid;
   grid-template-columns: minmax(220px, 0.9fr) minmax(0, 1.1fr);
-  border: 1px solid var(--line);
+  border: 1px solid rgba(30, 41, 36, 0.08);
   border-radius: var(--radius-lg);
-  background: var(--panel-strong);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(255, 250, 244, 0.99));
   overflow: hidden;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 16px 36px rgba(28, 35, 32, 0.08);
 }
 
 .style-venue-media {
@@ -1048,11 +1286,14 @@ a {
   margin-top: 18px;
   overflow-x: auto;
   padding-bottom: 4px;
+  border: 1px solid rgba(30, 41, 36, 0.08);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .compare-table {
   width: 100%;
-  min-width: 820px;
+  min-width: 760px;
   border-collapse: collapse;
 }
 
@@ -1062,7 +1303,7 @@ a {
   border-bottom: 1px solid var(--line);
   text-align: left;
   vertical-align: top;
-  background: rgba(255, 255, 255, 0.36);
+  background: transparent;
 }
 
 .compare-table th {
@@ -1071,7 +1312,7 @@ a {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
-  background: rgba(255, 255, 255, 0.58);
+  background: rgba(255, 250, 244, 0.92);
 }
 
 .compare-table td strong {
@@ -1269,6 +1510,10 @@ a {
     padding: 24px;
   }
 
+  .hero-layout {
+    grid-template-columns: 1fr;
+  }
+
   .control-grid,
   .advanced-grid,
   .results-grid,
@@ -1312,6 +1557,19 @@ a {
     align-items: start;
   }
 
+  .hero-panel {
+    padding: 18px;
+  }
+
+  .page-toc {
+    top: 10px;
+    padding: 18px 20px;
+  }
+
+  .page-toc-head {
+    align-items: start;
+  }
+
   .lightbox-close {
     top: 12px;
     right: 12px;
@@ -1337,7 +1595,8 @@ a {
   }
 
   .hero-actions,
-  .detail-anchor-nav {
+  .detail-anchor-nav,
+  .page-toc-nav {
     flex-wrap: nowrap;
     overflow-x: auto;
     padding-bottom: 4px;
@@ -1346,16 +1605,36 @@ a {
   }
 
   .quick-link,
-  .detail-anchor-link {
+  .detail-anchor-link,
+  .page-toc-link {
     flex: 0 0 auto;
     scroll-snap-align: start;
+  }
+
+  .page-toc {
+    top: 8px;
+    padding: 16px;
+    gap: 14px;
+  }
+
+  .page-toc-head {
+    display: grid;
+    gap: 12px;
+  }
+
+  .page-toc-title h2 {
+    font-size: 1.3rem;
+  }
+
+  .toc-current {
+    width: 100%;
+    justify-content: space-between;
   }
 
   .venue-card {
     padding: 20px;
   }
 
-  .filter-guide,
   .style-grid,
   .shortlist-grid,
   .status-overview-grid {
@@ -1367,7 +1646,6 @@ a {
     scroll-snap-type: x proximity;
   }
 
-  .filter-guide-card,
   .style-card,
   .shortlist-card,
   .status-overview-card {
@@ -1624,6 +1902,93 @@ SITE_JS = """(function () {
 
   initPhotoLightbox();
 
+  function initHomepageToc() {
+    const tocNode = document.querySelector(".page-toc");
+    if (!tocNode) {
+      return;
+    }
+
+    const tocCurrentLabel = document.getElementById("tocCurrentLabel");
+    const linkNodes = Array.from(tocNode.querySelectorAll("[data-section-link]"));
+    const sections = linkNodes.map((linkNode) => {
+      const sectionId = linkNode.dataset.sectionLink || "";
+      const targetNode = document.getElementById(sectionId);
+      if (!sectionId || !targetNode) {
+        return null;
+      }
+      return {
+        id: sectionId,
+        label: linkNode.dataset.sectionLabel || linkNode.textContent.trim(),
+        linkNode,
+        targetNode,
+      };
+    }).filter(Boolean);
+
+    if (!sections.length) {
+      return;
+    }
+
+    let activeSectionId = "";
+
+    function setActiveSection(sectionId) {
+      if (!sectionId) {
+        return;
+      }
+      activeSectionId = sectionId;
+      sections.forEach((section) => {
+        const isActive = section.id === sectionId;
+        section.linkNode.classList.toggle("is-active", isActive);
+        if (isActive && tocCurrentLabel) {
+          tocCurrentLabel.textContent = section.label;
+        }
+      });
+    }
+
+    const hashedSectionId = window.location.hash.replace(/^#/, "");
+    setActiveSection(
+      sections.some((section) => section.id === hashedSectionId)
+        ? hashedSectionId
+        : sections[0].id
+    );
+
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver((entries) => {
+        const visibleEntries = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((left, right) => {
+            const topDelta = Math.abs(left.boundingClientRect.top) - Math.abs(right.boundingClientRect.top);
+            if (topDelta !== 0) {
+              return topDelta;
+            }
+            return right.intersectionRatio - left.intersectionRatio;
+          });
+        const nextEntry = visibleEntries[0];
+        if (nextEntry?.target?.id && nextEntry.target.id !== activeSectionId) {
+          setActiveSection(nextEntry.target.id);
+        }
+      }, {
+        rootMargin: "-18% 0px -60% 0px",
+        threshold: [0.12, 0.35, 0.7],
+      });
+      sections.forEach((section) => observer.observe(section.targetNode));
+    }
+
+    sections.forEach((section) => {
+      section.linkNode.addEventListener("click", () => {
+        setActiveSection(section.id);
+      });
+    });
+
+    window.addEventListener("hashchange", () => {
+      const nextId = window.location.hash.replace(/^#/, "");
+      if (sections.some((section) => section.id === nextId)) {
+        setActiveSection(nextId);
+      }
+    });
+  }
+
+  initHomepageToc();
+
   const dataNode = document.getElementById("venue-data");
   if (!dataNode) {
     return;
@@ -1717,7 +2082,6 @@ SITE_JS = """(function () {
           <h2>${escapeHtml(venue.name_zh)}</h2>
           <p class="card-subtitle">${escapeHtml(venue.name_en_official)}<br>${escapeHtml(venue.primary_visual_identity)}</p>
         </div>
-        ${renderStatusNotice(venue)}
         <div class="chip-row">
           ${chips.map((chip) => `<span class="chip">${escapeHtml(chip)}</span>`).join("")}
         </div>
@@ -1756,14 +2120,6 @@ SITE_JS = """(function () {
   }
 
   function renderCompareRow(venue) {
-    const statusCell = venue.current_status_headline && venue.current_status_label
-      ? `
-        <div class="compare-status">
-          ${renderStatusPill(venue)}
-          <span class="subtle">${escapeHtml(venue.current_status_headline)}</span>
-        </div>
-      `
-      : '<span class="subtle">未見現況警示</span>';
     return `
       <tr class="compare-row">
         <td class="compare-cell compare-cell-venue" data-column-label="場地">
@@ -1775,7 +2131,6 @@ SITE_JS = """(function () {
         <td class="compare-cell compare-cell-price" data-column-label="公開入門價">${escapeHtml(venue.public_price_anchor_label)}</td>
         <td class="compare-cell" data-column-label="容量">${escapeHtml(venue.capacity_summary)}</td>
         <td class="compare-cell" data-column-label="雨備">${escapeHtml(venue.rain_backup_label)}</td>
-        <td class="compare-cell" data-column-label="現況">${statusCell}</td>
         <td class="compare-cell" data-column-label="交通">${escapeHtml(venue.transport_summary)}</td>
         <td class="compare-cell" data-column-label="住宿">${escapeHtml(venue.accommodation_label)}</td>
         <td class="compare-cell compare-cell-detail" data-column-label="明細"><a class="compare-detail-link" href="venues/${escapeHtml(venue.id)}.html">查看完整檔案</a></td>
@@ -2586,12 +2941,23 @@ def _render_style_nav(entries: list[dict[str, Any]]) -> str:
     cards = []
     for definition in WEDDING_STYLE_DEFINITIONS:
         style_entries = grouped.get(definition["key"], [])
+        cover = ""
+        if style_entries and style_entries[0].get("cover_photo_url"):
+            cover = (
+                '<div class="style-card-media">'
+                f'<img class="style-card-image" src="{escape(str(style_entries[0]["cover_photo_url"]))}" alt="{escape(definition["label"])}代表場地照片" loading="lazy">'
+                "</div>"
+            )
+        else:
+            cover = '<div class="style-card-media style-card-media-placeholder"></div>'
         example_items = "".join(
             f"<li>{escape(entry['name_zh'])}</li>"
             for entry in style_entries[:3]
         ) or "<li>目前尚未歸類到這一型</li>"
         cards.append(
             '<article class="style-card">'
+            f"{cover}"
+            '<div class="style-card-body">'
             '<div class="style-card-top">'
             f'<p class="eyebrow">{escape(definition["label"])}</p>'
             f'<span class="style-card-count">{len(style_entries)} 個場地</span>'
@@ -2600,14 +2966,66 @@ def _render_style_nav(entries: list[dict[str, Any]]) -> str:
             f'<p class="summary">{escape(definition["description"])}</p>'
             '<p class="style-meta">代表場地</p>'
             f'<ul class="style-card-examples">{example_items}</ul>'
-            f'<a class="link-button secondary" href="#style-{escape(definition["key"])}">查看這一類</a>'
+            f'<a class="link-button secondary" href="#style-{escape(definition["key"])}">直接看這一類</a>'
+            "</div>"
             "</article>"
         )
     return (
         '<section class="surface" id="style-overview">'
-        '<div class="section-head"><h2>依婚禮風格開始挑</h2>'
-        '<p>同一個場地可能同時出現在多種風格裡，先從你們最在意的畫面語言開始縮小範圍。</p></div>'
+        '<div class="section-head"><h2>依場地類型開始挑</h2>'
+        '<p>首頁先只回答一件事：你們要的是哪一種畫面。先選類型，再進單一飯店頁看價格、雨備、交通與真實照片。</p></div>'
         f'<div class="style-grid">{"".join(cards)}</div>'
+        "</section>"
+    )
+
+
+def _render_index_toc(entries: list[dict[str, Any]]) -> str:
+    grouped = _entries_by_style(entries)
+    primary_links = [
+        ("style-overview", "場地類型總覽"),
+        ("filter-panel", "條件篩選"),
+        ("compare-section", "全部比較"),
+        ("card-section", "飯店卡片"),
+    ]
+    primary_nav = "".join(
+        '<a class="page-toc-link" '
+        f'href="#{escape(section_id)}" '
+        f'data-section-link="{escape(section_id)}" '
+        f'data-section-label="{escape(label)}">{escape(label)}</a>'
+        for section_id, label in primary_links
+    )
+    style_nav = "".join(
+        '<a class="page-toc-link" '
+        f'href="#style-{escape(definition["key"])}" '
+        f'data-section-link="style-{escape(definition["key"])}" '
+        f'data-section-label="{escape(definition["label"])}">'
+        f'{escape(definition["label"])} · {len(grouped.get(definition["key"], []))}'
+        "</a>"
+        for definition in WEDDING_STYLE_DEFINITIONS
+    )
+    return (
+        '<section class="surface page-toc" id="page-toc">'
+        '<div class="page-toc-head">'
+        '<div class="page-toc-title">'
+        '<p class="eyebrow">首頁目錄</p>'
+        "<h2>先定錨，再往下看</h2>"
+        '<p class="summary">這一頁資料很多，但不需要線性讀完；先跳到你要比較的段落，再決定要不要進單一飯店頁。</p>'
+        "</div>"
+        '<div class="toc-current">'
+        '<span class="toc-current-label">目前區塊</span>'
+        '<strong id="tocCurrentLabel">場地類型總覽</strong>'
+        "</div>"
+        "</div>"
+        '<div class="page-toc-groups">'
+        '<div class="toc-group">'
+        '<p class="subtle">主章節</p>'
+        f'<nav class="page-toc-nav" aria-label="首頁內容目錄">{primary_nav}</nav>'
+        "</div>"
+        '<div class="toc-group">'
+        '<p class="subtle">場地類型</p>'
+        f'<nav class="page-toc-nav" aria-label="場地類型錨點">{style_nav}</nav>'
+        "</div>"
+        "</div>"
         "</section>"
     )
 
@@ -2620,7 +3038,6 @@ def _render_style_spotlight(entry: dict[str, Any]) -> str:
             f'<img class="style-venue-image" src="{escape(str(entry["cover_photo_url"]))}" alt="{escape(entry["name_zh"])}" loading="lazy">'
             "</div>"
         )
-    status_notice = _render_entry_status_notice(entry)
     return (
         '<article class="style-venue-card">'
         f"{cover}"
@@ -2628,7 +3045,6 @@ def _render_style_spotlight(entry: dict[str, Any]) -> str:
         f'<p class="card-kicker">{escape(entry["region"])} / {escape(entry["recommended_guest_size_band"])}</p>'
         f'<h3>{escape(entry["name_zh"])}</h3>'
         f'<p class="subtle">{escape(entry["name_en_official"])}</p>'
-        f"{status_notice}"
         f'<p class="summary">{escape(entry["primary_visual_identity"])}</p>'
         f'<div class="chip-row">{_badge(entry["public_price_anchor_label"], tone="badge")}{_badge(entry["rain_backup_label"])}{_badge(entry["accommodation_label"])}</div>'
         '<dl class="style-summary-list">'
@@ -2669,15 +3085,6 @@ def _render_style_sections(entries: list[dict[str, Any]]) -> str:
 def _render_compare_rows(entries: list[dict[str, Any]]) -> str:
     rows = []
     for entry in entries:
-        if entry.get("current_status_headline") and entry.get("current_status_label"):
-            status_cell = (
-                '<div class="compare-status">'
-                f'{_render_status_pill(entry["current_status_label"], entry["current_status_tone"])}'
-                f'<span class="subtle">{escape(entry["current_status_headline"])}</span>'
-                "</div>"
-            )
-        else:
-            status_cell = '<span class="subtle">未見現況警示</span>'
         rows.append(
             '<tr class="compare-row">'
             '<td class="compare-cell compare-cell-venue" data-column-label="場地">'
@@ -2689,7 +3096,6 @@ def _render_compare_rows(entries: list[dict[str, Any]]) -> str:
             f'<td class="compare-cell compare-cell-price" data-column-label="公開入門價">{escape(entry["public_price_anchor_label"])}</td>'
             f'<td class="compare-cell" data-column-label="容量">{escape(entry["capacity_summary"])}</td>'
             f'<td class="compare-cell" data-column-label="雨備">{escape(entry["rain_backup_label"])}</td>'
-            f'<td class="compare-cell" data-column-label="現況">{status_cell}</td>'
             f'<td class="compare-cell" data-column-label="交通">{escape(entry["transport_summary"])}</td>'
             f'<td class="compare-cell" data-column-label="住宿">{escape(entry["accommodation_label"])}</td>'
             f'<td class="compare-cell compare-cell-detail" data-column-label="明細"><a class="compare-detail-link" href="venues/{escape(entry["id"])}.html">查看完整檔案</a></td>'
@@ -2901,7 +3307,6 @@ def _render_card(entry: dict[str, Any]) -> str:
             f'<img class="card-image" src="{escape(str(entry["cover_photo_url"]))}" alt="{escape(entry["name_zh"])}" loading="lazy">'
             "</div>"
         )
-    status_notice = _render_entry_status_notice(entry)
     return (
         '<article class="venue-card">'
         f"{cover}"
@@ -2911,7 +3316,6 @@ def _render_card(entry: dict[str, Any]) -> str:
         f'<p class="card-subtitle">{escape(entry["name_en_official"])}<br>'
         f'{escape(entry["primary_visual_identity"])}</p>'
         "</div>"
-        f"{status_notice}"
         f'<div class="chip-row">{"".join(chips)}</div>'
         f'<p class="summary">{escape(entry["price_summary_text"])}</p>'
         '<dl class="metric-grid">'
@@ -3564,12 +3968,6 @@ def _attach_cover_photo_urls(
 def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) -> str:
     card_html = "".join(_render_card(entry) for entry in entries)
     compare_rows = _render_compare_rows(entries)
-    status_overview_html = _render_status_overview(entries)
-    status_quick_link = (
-        '<a class="quick-link" href="#status-overview">看現況提醒</a>'
-        if status_overview_html
-        else ""
-    )
     region_values = sorted({entry["region"] for entry in entries})
     style_values = [definition["key"] for definition in WEDDING_STYLE_DEFINITIONS]
     guest_values = sorted({entry["recommended_guest_size_band"] for entry in entries})
@@ -3589,17 +3987,28 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         "<body>"
         '<main class="page-shell">'
         '<section class="hero">'
+        '<div class="hero-layout">'
+        '<div class="hero-copy">'
         '<p class="eyebrow">Bali Wedding Research</p>'
-        "<h1>峇里島婚禮場地索引</h1>"
-        '<p class="lede">先用場地、雨備、交通與住宿快速淘汰，再點進單一場地檔案看價格、容量、非官方照片線索與限制。</p>'
+        "<h1>先從場地類型選，再決定要深挖哪一間飯店</h1>"
+        '<p class="lede">首頁先把峇里島婚禮場地拆成教堂、叢林、水上平台、懸崖、沙灘與室內，再進飯店頁看價格、雨備、交通、住宿與真實照片。</p>'
         '<nav class="hero-actions" aria-label="首頁快速跳轉">'
-        f"{status_quick_link}"
-        '<a class="quick-link" href="#style-overview">看風格分類</a>'
-        '<a class="quick-link" href="#shortlist-section">看 shortlist</a>'
-        '<a class="quick-link" href="#filter-panel">開條件篩選</a>'
+        '<a class="quick-link" href="#style-overview">看場地類型</a>'
+        '<a class="quick-link" href="#filter-panel">用條件篩選</a>'
         '<a class="quick-link" href="#compare-section">看全部比較</a>'
-        '<a class="quick-link" href="#card-section">看場地卡片</a>'
+        '<a class="quick-link" href="#card-section">看飯店卡片</a>'
         "</nav>"
+        "</div>"
+        '<aside class="hero-panel">'
+        '<p class="eyebrow">首頁使用方式</p>'
+        '<ol class="hero-list">'
+        '<li>先從場地類型找畫面方向。</li>'
+        '<li>再用交通、雨備、住宿與人數條件過濾。</li>'
+        '<li>最後進單一飯店頁看空間差異、價格與真實照片。</li>'
+        "</ol>"
+        '<p class="hint">近期維修與營運提醒會收在各飯店頁，不在首頁另外拉成獨立章節。</p>'
+        "</aside>"
+        "</div>"
         '<div class="hero-grid">'
         '<div class="stat">'
         f"<strong>{totals['venue_count']}</strong><span>已整理場地</span>"
@@ -3614,27 +4023,21 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         f"<strong>{totals['source_count']}</strong><span>來源頁數</span>"
         "</div>"
         "</div>"
-        f'<p class="hint" style="margin-top:16px;">{escape(FX_NOTE_TEXT)}</p>'
+        f'<p class="hint hero-rate-note">{escape(FX_NOTE_TEXT)}</p>'
         "</section>"
-        f"{status_overview_html}"
+        f"{_render_index_toc(entries)}"
         f"{_render_style_nav(entries)}"
-        f"{_render_shortlist_section(entries)}"
         '<section class="surface" id="filter-panel">'
         '<div class="section-head">'
-        "<h2>先篩選再深看</h2>"
-        '<p>可用名稱、區域、風格或結構化條件，先把 shortlist 快速收斂。</p>'
-        "</div>"
-        '<div class="filter-guide">'
-        '<article class="filter-guide-card"><p class="eyebrow">Step 1</p><h3>先限縮區域與風格</h3><p class="hint">先把畫面語言與地理條件縮小，剩下的結果會好讀很多。</p></article>'
-        '<article class="filter-guide-card"><p class="eyebrow">Step 2</p><h3>再開進階條件</h3><p class="hint">雨備、住宿整合與排序通常最能快速淘汰不適合的場地。</p></article>'
-        '<article class="filter-guide-card"><p class="eyebrow">Step 3</p><h3>最後切到 compare</h3><p class="hint">表格區在手機會自動變成卡片視圖，適合做最後 shortlist。</p></article>'
+        "<h2>交叉篩選飯店</h2>"
+        '<p>先按場地類型選方向，再用區域、人數、雨備與住宿條件交叉過濾，首頁不要一次塞太多判斷。</p>'
         "</div>"
         '<div class="control-grid">'
         '<div class="control"><label for="searchInput">搜尋</label>'
-        '<input id="searchInput" type="search" placeholder="可搜名稱、區域、風格與適合對象"></div>'
+        '<input id="searchInput" type="search" placeholder="可搜飯店名稱、區域、場地類型與適合對象"></div>'
         '<div class="control"><label for="regionFilter">區域</label>'
         f'<select id="regionFilter">{_render_select_options(region_values)}</select></div>'
-        '<div class="control"><label for="typeFilter">婚禮風格</label>'
+        '<div class="control"><label for="typeFilter">場地類型</label>'
         f'<select id="typeFilter">{_render_select_options(style_values, labels=WEDDING_STYLE_LABELS)}</select></div>'
         '<div class="control"><label for="guestFilter">適合人數帶</label>'
         f'<select id="guestFilter">{_render_select_options(guest_values)}</select></div>'
@@ -3666,14 +4069,14 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         '</section>'
         '<section class="surface" id="compare-section">'
         '<div class="section-head"><h2>全部場地比較</h2>'
-        '<p>先橫向掃描最影響決策的條件，再決定哪些值得點開看完整檔案。</p></div>'
-        '<div class="compare-scroll"><table class="compare-table"><thead><tr><th>場地</th><th>公開入門價</th><th>容量</th><th>雨備</th><th>現況</th><th>交通</th><th>住宿</th><th>明細</th></tr></thead><tbody id="compareBody">'
+        '<p>這裡只保留最影響 shortlist 的橫向條件，近期現況改放各飯店頁內文專注描述。</p></div>'
+        '<div class="compare-scroll"><table class="compare-table"><thead><tr><th>場地</th><th>公開入門價</th><th>容量</th><th>雨備</th><th>交通</th><th>住宿</th><th>明細</th></tr></thead><tbody id="compareBody">'
         f"{compare_rows}"
         '</tbody></table></div>'
         "</section>"
         '<section class="surface" id="card-section">'
         '<div class="section-head"><h2>場地卡片</h2>'
-        '<p>如果你要看適合對象、優勢風險與資料密度，這裡比表格更直觀。</p></div>'
+        '<p>這裡再看每間飯店的定位、適合對象與資料密度；真正的維修、限制與空間差異，請進單一飯店頁深看。</p></div>'
         '<div id="results" class="results-grid">'
         f"{card_html}"
         "</div>"

@@ -141,6 +141,93 @@
 
   initPhotoLightbox();
 
+  function initHomepageToc() {
+    const tocNode = document.querySelector(".page-toc");
+    if (!tocNode) {
+      return;
+    }
+
+    const tocCurrentLabel = document.getElementById("tocCurrentLabel");
+    const linkNodes = Array.from(tocNode.querySelectorAll("[data-section-link]"));
+    const sections = linkNodes.map((linkNode) => {
+      const sectionId = linkNode.dataset.sectionLink || "";
+      const targetNode = document.getElementById(sectionId);
+      if (!sectionId || !targetNode) {
+        return null;
+      }
+      return {
+        id: sectionId,
+        label: linkNode.dataset.sectionLabel || linkNode.textContent.trim(),
+        linkNode,
+        targetNode,
+      };
+    }).filter(Boolean);
+
+    if (!sections.length) {
+      return;
+    }
+
+    let activeSectionId = "";
+
+    function setActiveSection(sectionId) {
+      if (!sectionId) {
+        return;
+      }
+      activeSectionId = sectionId;
+      sections.forEach((section) => {
+        const isActive = section.id === sectionId;
+        section.linkNode.classList.toggle("is-active", isActive);
+        if (isActive && tocCurrentLabel) {
+          tocCurrentLabel.textContent = section.label;
+        }
+      });
+    }
+
+    const hashedSectionId = window.location.hash.replace(/^#/, "");
+    setActiveSection(
+      sections.some((section) => section.id === hashedSectionId)
+        ? hashedSectionId
+        : sections[0].id
+    );
+
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver((entries) => {
+        const visibleEntries = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((left, right) => {
+            const topDelta = Math.abs(left.boundingClientRect.top) - Math.abs(right.boundingClientRect.top);
+            if (topDelta !== 0) {
+              return topDelta;
+            }
+            return right.intersectionRatio - left.intersectionRatio;
+          });
+        const nextEntry = visibleEntries[0];
+        if (nextEntry?.target?.id && nextEntry.target.id !== activeSectionId) {
+          setActiveSection(nextEntry.target.id);
+        }
+      }, {
+        rootMargin: "-18% 0px -60% 0px",
+        threshold: [0.12, 0.35, 0.7],
+      });
+      sections.forEach((section) => observer.observe(section.targetNode));
+    }
+
+    sections.forEach((section) => {
+      section.linkNode.addEventListener("click", () => {
+        setActiveSection(section.id);
+      });
+    });
+
+    window.addEventListener("hashchange", () => {
+      const nextId = window.location.hash.replace(/^#/, "");
+      if (sections.some((section) => section.id === nextId)) {
+        setActiveSection(nextId);
+      }
+    });
+  }
+
+  initHomepageToc();
+
   const dataNode = document.getElementById("venue-data");
   if (!dataNode) {
     return;
@@ -234,7 +321,6 @@
           <h2>${escapeHtml(venue.name_zh)}</h2>
           <p class="card-subtitle">${escapeHtml(venue.name_en_official)}<br>${escapeHtml(venue.primary_visual_identity)}</p>
         </div>
-        ${renderStatusNotice(venue)}
         <div class="chip-row">
           ${chips.map((chip) => `<span class="chip">${escapeHtml(chip)}</span>`).join("")}
         </div>
@@ -273,14 +359,6 @@
   }
 
   function renderCompareRow(venue) {
-    const statusCell = venue.current_status_headline && venue.current_status_label
-      ? `
-        <div class="compare-status">
-          ${renderStatusPill(venue)}
-          <span class="subtle">${escapeHtml(venue.current_status_headline)}</span>
-        </div>
-      `
-      : '<span class="subtle">未見現況警示</span>';
     return `
       <tr class="compare-row">
         <td class="compare-cell compare-cell-venue" data-column-label="場地">
@@ -292,7 +370,6 @@
         <td class="compare-cell compare-cell-price" data-column-label="公開入門價">${escapeHtml(venue.public_price_anchor_label)}</td>
         <td class="compare-cell" data-column-label="容量">${escapeHtml(venue.capacity_summary)}</td>
         <td class="compare-cell" data-column-label="雨備">${escapeHtml(venue.rain_backup_label)}</td>
-        <td class="compare-cell" data-column-label="現況">${statusCell}</td>
         <td class="compare-cell" data-column-label="交通">${escapeHtml(venue.transport_summary)}</td>
         <td class="compare-cell" data-column-label="住宿">${escapeHtml(venue.accommodation_label)}</td>
         <td class="compare-cell compare-cell-detail" data-column-label="明細"><a class="compare-detail-link" href="venues/${escapeHtml(venue.id)}.html">查看完整檔案</a></td>
