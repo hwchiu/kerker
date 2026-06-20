@@ -1,36 +1,38 @@
 # 峇里島希爾頓度假酒店 (Hilton Bali Resort)
 
 ## 快速判讀
-- 地區：Nusa Dua
-- 場地型態：chapel, water-platform, beach, garden, ballroom, cliffside
-- 價格狀態：public_price_available
-- 價位帶：luxury
-- 雨備強度：strong
-- 住宿整合：one_stop
-- 交通風險：medium
-- 照片參考價值：high
+| 項目 | 內容 |
+| --- | --- |
+| 地區 | Nusa Dua |
+| 場地型態 | chapel, water-platform, beach, garden, ballroom, cliffside |
+| 價格狀態 | public_price_available |
+| 價位帶 | luxury |
+| 雨備強度 | strong |
+| 住宿整合 | one_stop |
+| 交通風險 | medium |
+| 照片參考價值 | high |
 
 ## 適合誰
-- Couples who want a classic Bali chapel or water wedding without ultra-luxury pricing
-- Family-heavy destination weddings that need room inventory and practical logistics
-- Events that need credible rain backup or ballroom scaling
+- 想要舉辦經典峇里島教堂或水上婚禮但又不想享受超豪華價格的情侶
+- 家庭成員較多的目的地婚禮需要房間庫存和實用的物流
+- 需要可靠的雨水備份或宴會廳規模的活動
 
 ## 不適合誰
-- Couples who want a tiny private-estate feel
-- Design purists seeking the most editorial architecture in Bali
-- Weddings that want an ultra-exclusive boutique atmosphere
+- 想要小型私人莊園感覺的夫婦
+- 設計純粹主義者尋求峇里島最具編輯性的建築
+- 想要超獨特精品氛圍的婚禮
 
 ## 主要優勢
-- Public package visibility is better than at many comparable resorts
-- Strong venue spread from chapel and water ceremony to ballroom and beach dinner
-- Large room inventory makes guest housing and shuttle planning easier
+- 公共套餐的知名度比許多同類度假村更好
+- 強大的場地從教堂和潑水儀式到舞廳和海灘晚宴
+- 大量房間庫存使賓客住宿和接駁車規劃變得更加容易
 
 ## 主要風險
-- It is a bigger, more conventional resort experience rather than a secluded estate
-- Large-property guest flow still needs careful transport and buggy coordination
-- Venue-specific conditions can change materially between Wiwaha formats and ballroom options
+- 這是一個更大、更傳統的度假體驗，而不是一個僻靜的莊園
+- 大物業客流仍需精心運輸和馬車協調
+- Wiwaha 格式和宴會廳選項之間的特定場地條件可能會發生重大變化
 
 ## 待確認
-- Confirm the current food-and-beverage minimums tied to sunset Wiwaha Chapel and Wiwaha Water slots.
-- Confirm present outside-vendor, band, and drone rules across the beach and ballroom formats.
-- Confirm which current indoor rooms are used as rain backup for the larger outdoor dinner layouts.
+- 確認目前與日落 Wiwaha 禮拜堂和 Wiwaha Water 老虎機相關的最低食品和飲料標準。
+- 確認目前的外部供應商、樂隊和無人機在海灘和舞廳形式中的規則。
+- 確認目前的室內房間用作較大的戶外晚餐佈局的防雨備用房間。

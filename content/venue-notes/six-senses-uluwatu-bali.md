@@ -1,36 +1,39 @@
 # 峇里島烏魯瓦圖六善酒店 (Six Senses Uluwatu, Bali)
 
 ## 快速判讀
-- 地區：Uluwatu
-- 場地型態：cliffside, lawn, ballroom, villa-buyout, rooftop
-- 價格狀態：public_price_available
-- 價位帶：ultra_luxury
-- 雨備強度：strong
-- 住宿整合：one_stop
-- 交通風險：high
-- 照片參考價值：high
+| 項目 | 內容 |
+| --- | --- |
+| 地區 | Uluwatu |
+| 場地型態 | cliffside, lawn, ballroom, villa-buyout, rooftop |
+| 價格狀態 | public_price_available |
+| 價位帶 | ultra_luxury |
+| 雨備強度 | strong |
+| 住宿整合 | one_stop |
+| 交通風險 | high |
+| 照片參考價值 | high |
 
 ## 適合誰
-- Couples who want a high-design Uluwatu cliff wedding with stronger rain backup than most peers
-- Groups that value staying together in suites and cliff villas rather than splitting across different hotels
-- Weddings that may scale from intimate to mid-large while keeping a luxury wellness tone
+- 想要一場高設計的烏魯瓦圖懸崖婚禮且比大多數同齡人擁有更強防雨能力的夫婦
+- 重視住在套房和懸崖別墅而不是分散在不同飯店的團體
+- 婚禮規模可以從小到中大型，同時保持奢華健康的基調
 
 ## 不適合誰
-- Couples who need an operationally certain venue right now without reopening ambiguity
-- Guests who want the flattest, easiest resort mobility
-- Budgets that need a lower-entry Uluwatu wedding
+- 現在需要一個可操作的特定場所的夫婦，而不需要重新開放歧義
+- 想要最平坦、最方便的度假村交通的客人
+- 需要低門檻烏魯瓦圖婚禮的預算
 
 ## 主要優勢
-- Strong combination of dramatic cliff aesthetics and ballroom-capable backup
-- Good on-site accommodation depth for keeping the core guest group together
-- Distinctive sub-venues let the same property support intimate and larger event formats
+- 戲劇性的懸崖美學和宴會廳功能的備份的強大結合
+- 良好的現場住宿深度，可將核心客人群體聚集在一起
+- 各具特色的分會場讓同一場地支持私密且大型的活動形式
 
 ## 主要風險
-- The resort is currently in a publicly stated temporary closure period for transformation work
-- Uluwatu transfer times and traffic are materially worse than Jimbaran or Nusa Dua
-- Cliffside signature spaces remain highly weather-exposed despite the ballroom backup
+- 該度假村目前正處於公開宣布的臨時關閉期，以進行改造工作
+- 烏魯瓦圖的接送時間和交通狀況比金巴蘭或努沙杜瓦差得多
+- 儘管有宴會廳備用，但懸崖邊的標誌性空間仍然高度暴露在天氣中
 
 ## 待確認
-- Confirm the current reopening timeline and whether weddings are being accepted for your target period.
-- Confirm present outside-vendor and production rules once the transformation work is complete.
-- Confirm which venue combinations can host ceremony and dinner for more than 100 guests without a broader buyout.
+- 確認目前重新開放的時間表以及您的目標期間是否接受婚禮。
+- 改造工作完成後，確認目前的外部供應商和生產規則。
+- 確認哪些場地組合可以在不進行更廣泛買斷的情況下為 100 名以上賓客舉辦儀式和晚宴。
+- 確認官方婚禮頁公開上限與 Grand Destiny / Owner's Villa 方案頁之間的大型容量差異，目前是否仍成立。

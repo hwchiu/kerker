@@ -1,36 +1,38 @@
-# Hanging Gardens of Bali (Hanging Gardens of Bali)
+# 峇里島空中花園 (Hanging Gardens of Bali)
 
 ## 快速判讀
-- 地區：Payangan
-- 場地型態：jungle, water-platform, villa-buyout, garden
-- 價格狀態：public_price_available
-- 價位帶：未知
-- 雨備強度：medium
-- 住宿整合：one_stop
-- 交通風險：medium
-- 照片參考價值：high
+| 項目 | 內容 |
+| --- | --- |
+| 地區 | Payangan |
+| 場地型態 | jungle, water-platform, villa-buyout, garden |
+| 價格狀態 | public_price_available |
+| 價位帶 | 未知 |
+| 雨備強度 | medium |
+| 住宿整合 | one_stop |
+| 交通風險 | medium |
+| 照片參考價值 | high |
 
 ## 適合誰
-- Couples who want unmistakable jungle-and-water visuals rather than a standard chapel
-- Intimate to mid-size destination weddings with strong retreat energy
-- Buyout-style celebrations that can use Hidden Palace as a private estate
+- 想要明顯的叢林和水域視覺效果而不是標準教堂的情侶
+- 具有強大靜修能量的私人至中型目的地婚禮
+- 可以使用隱宮作為私人莊園的買斷式慶祝活動
 
 ## 不適合誰
-- Large elderly guest groups needing flat movement and simple logistics
-- Couples who want the strongest weather-proof ceremony flow
-- Guests who want the shortest airport transfer
+- 大型老年客人群體，需要平坦的移動和簡單的物流
+- 想要最強防風雨婚禮流程的情侶
+- 想要最短機場接送服務的客人
 
 ## 主要優勢
-- One of Bali's most distinctive jungle wedding backdrops
-- Very strong photo value from the pool-stage and Hidden Palace
-- Villa-based resort feel works well for immersive intimate stays
+- 峇里島最具特色的叢林婚禮背景之一
+- 撞球舞台和隱藏宮殿的照片價值非常高
+- 別墅式度假村的感覺非常適合沉浸式的親密住宿
 
 ## 主要風險
-- Long transfer from airport
-- Weather and terrain matter more than at flatter cliff resorts
-- Public pricing is still mostly package-led and IDR-based
+- 從機場長途接送
+- 天氣和地形比平坦的懸崖度假村更重要
+- 公開定價仍主要以一攬子計劃為主導，並以 IDR 為基礎
 
 ## 待確認
-- Confirm the current indoor rain-plan flow for pool-stage ceremonies and dinner setups.
-- Confirm how many guest rooms can realistically be blocked on site for a 30 to 50 guest wedding.
-- Confirm whether Hidden Palace weddings require a multi-night estate buyout and what the current sound cutoff is.
+- 確認目前泳池舞台儀式和晚宴佈置的室內防雨計畫流程。
+- 確認舉辦 30 至 50 人的婚禮時，現場實際上可預留多少間客房。
+- 確認隱藏宮殿婚禮是否需要多晚地產買斷以及當前的合理限制是多少。

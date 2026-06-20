@@ -1,36 +1,39 @@
-# 峇里島 The edge 懸崖別墅 (The edge Bali)
+# 峇里島 The Edge 懸崖別墅 (The Edge Bali)
 
 ## 快速判讀
-- 地區：Uluwatu
-- 場地型態：cliffside, villa-buyout, lawn
-- 價格狀態：public_price_available
-- 價位帶：premium
-- 雨備強度：medium
-- 住宿整合：workable_with_shuttles
-- 交通風險：high
-- 照片參考價值：high
+| 項目 | 內容 |
+| --- | --- |
+| 地區 | Uluwatu |
+| 場地型態 | cliffside, villa-buyout, lawn |
+| 價格狀態 | public_price_available |
+| 價位帶 | premium |
+| 雨備強度 | medium |
+| 住宿整合 | workable_with_shuttles |
+| 交通風險 | high |
+| 照片參考價值 | high |
 
 ## 適合誰
-- Couples who want a dramatic private-villa cliff experience rather than a classic hotel wedding
-- Small to mid-size luxury weddings that treat accommodation as part of the event story
-- Buyout-style celebrations with a strong visual statement
+- 想要戲劇性的私人別墅懸崖體驗而不是經典的酒店婚禮的情侶
+- 將住宿視為活動故事一部分的中小型豪華婚禮
+- 具有強烈視覺效果的買斷式慶祝活動
 
 ## 不適合誰
-- Families needing a simple one-stop solution for a large guest count
-- Couples who need formal ballroom-grade rain backup
-- Guests with limited mobility unless flow is tightly managed
+- 需要為大量客人提供簡單的一站式解決方案的家庭
+- 需要正式舞廳級防雨備份的情侶
+- 除非嚴格管理流量，否則行動不便的客人
 
 ## 主要優勢
-- Outstanding cliffside visual identity with multiple wedding package moods
-- Strong private-villa luxury experience for the couple and VIP guests
-- Public package prices are easier to find than many other ultra-luxury villa estates
+- 出色的懸崖邊視覺形象和多種婚禮套餐氛圍
+- 為情侶和 VIP 客人提供豐富的私人別墅奢華體驗
+- 公共套餐價格比許多其他超豪華別墅莊園更容易找到
 
 ## 主要風險
-- Overflow accommodation and guest shuttles become a major planning line item as numbers grow
-- Weather exposure remains high on the signature spaces
-- Operational rules around sound, drones, and outside vendors need early confirmation
+- 隨著人數的增長，超額住宿和賓客班車成為主要的規劃項目
+- 簽名空間的天氣暴露仍然很高
+- 圍繞聲音、無人機和外部供應商的營運規則需要儘早確認
 
 ## 待確認
-- Confirm the formal rain backup plan for each package family, especially The Sky and The Edge Wedding.
-- Confirm current music, drone, and outside-vendor rules plus any late-night restrictions.
-- Confirm the estate's latest effective overnight sleeping capacity across its current villa mix.
+- 確認每個套餐系列的正式防雨計劃，尤其是 The Sky 和 The Edge Wedding。
+- 確認當前的音樂、無人機和外部供應商規則以及任何深夜限制。
+- 確認莊園目前別墅組合的最新有效隔夜睡眠容量。
+- 確認官方頁公開上限與婚顧 package page 提到的 200 至 250 位 celebration 差異，目前是否仍成立。

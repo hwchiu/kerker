@@ -1,36 +1,38 @@
-# Tirtha Bali (Tirtha Bali)
+# Tirtha Bali 水之教堂 (Tirtha Bali)
 
 ## 快速判讀
-- 地區：Uluwatu
-- 場地型態：cliffside, chapel, garden
-- 價格狀態：public_price_available
-- 價位帶：luxury
-- 雨備強度：strong
-- 住宿整合：fragmented
-- 交通風險：high
-- 照片參考價值：high
+| 項目 | 內容 |
+| --- | --- |
+| 地區 | Uluwatu |
+| 場地型態 | cliffside, chapel, garden |
+| 價格狀態 | public_price_available |
+| 價位帶 | luxury |
+| 雨備強度 | strong |
+| 住宿整合 | fragmented |
+| 交通風險 | high |
+| 照片參考價值 | high |
 
 ## 適合誰
-- Couples who want both cliff-ocean ceremony and lush garden reception in one wedding story
-- Design-forward weddings that value purpose-built architecture over a generic hotel ballroom
-- Guests comfortable with coordinated shuttle logistics between ceremony and dinner
+- 想要同時在婚禮故事中舉辦懸崖海洋儀式和鬱鬱蔥蔥的花園招待會的夫婦
+- 設計前衛的婚禮重視專門建造的建築而不是普通的飯店宴會廳
+- 賓客對儀式和晚宴之間協調一致的班車物流感到滿意
 
 ## 不適合誰
-- Groups wanting everyone to sleep on the same estate
-- Couples who want the simplest single-site wedding flow
-- Weddings that need hotel-scale room inventory on site
+- 希望每個人都睡在同一片土地上的團體
+- 想要最簡單的單場地婚禮流程的夫婦
+- 需要現場酒店規模房間庫存的婚禮
 
 ## 主要優勢
-- Very strong rain backup without losing the event aesthetic
-- Distinct cliffside and garden personalities under one operator
-- Purpose-built wedding expertise rather than standard hotel event management
+- 非常強大的雨備份，同時又不失賽事美感
+- 一位經營者管理下的懸崖邊和花園的獨特個性
+- 專門打造的婚禮專業知識而非標準的飯店活動管理
 
 ## 主要風險
-- On-site accommodation is limited
-- Split-venue movement adds guest-flow complexity
-- Public pricing still varies by package and venue combination
+- 現場住宿有限
+- 分場地流動增加了客流的複雜性
+- 公開定價仍因套餐和場地組合而異
 
 ## 待確認
-- Confirm current outside-vendor, corkage, and production fees.
-- Confirm which current all-inclusive packages include any guest-room component beyond bridal preparation use.
-- Confirm current music curfew and after-party options separately for Tirtha Uluwatu and Glass House.
+- 確認目前的外部供應商、開瓶費和生產費。
+- 確認目前的全包套餐包括新娘準備用途以外的任何客房組件。
+- 分別確認 Tirtha Uluwatu 和 Glass House 目前的音樂宵禁和餘興派對選項。

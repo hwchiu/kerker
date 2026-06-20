@@ -1,36 +1,38 @@
 # 峇里島阿普爾瓦凱賓斯基飯店 (The Apurva Kempinski Bali)
 
 ## 快速判讀
-- 地區：Nusa Dua
-- 場地型態：chapel, cliffside, lawn, ballroom, villa-buyout
-- 價格狀態：public_price_available
-- 價位帶：ultra_luxury
-- 雨備強度：strong
-- 住宿整合：one_stop
-- 交通風險：medium
-- 照片參考價值：high
+| 項目 | 內容 |
+| --- | --- |
+| 地區 | Nusa Dua |
+| 場地型態 | chapel, cliffside, lawn, ballroom, villa-buyout |
+| 價格狀態 | public_price_available |
+| 價位帶 | ultra_luxury |
+| 雨備強度 | strong |
+| 住宿整合 | one_stop |
+| 交通風險 | medium |
+| 照片參考價值 | high |
 
 ## 適合誰
-- Couples who want a luxury resort that can handle both intimate and large-format weddings
-- Families needing heavy room inventory and smoother airport access
-- Weddings where rain backup quality is a non-negotiable filter
+- 想要一個可以舉辦親密婚禮和大型婚禮的豪華度假村的夫婦
+- 需要大量房間庫存和更順暢的機場通道的家庭
+- 在婚禮上，防雨品質是不容忽視的因素
 
 ## 不適合誰
-- Couples seeking a tiny boutique or private-villa feel
-- Budgets that need a simple low-entry cliff wedding
-- People who dislike the more polished grand-hotel atmosphere
+- 尋求小型精品店或私人別墅感覺的情侶
+- 需要一場簡單的低門檻懸崖婚禮的預算
+- 不喜歡豪華大飯店氛圍的人
 
 ## 主要優勢
-- Very strong room inventory and logistics base for destination weddings
-- Micro-wedding chapels and large-format ballroom backup on one property
-- Public package examples make early budget filtering easier than quote-only luxury hotels
+- 非常強大的目的地婚禮房間庫存和物流基礎
+- 一處房產內設有微型婚禮教堂和大型宴會廳
+- 公共套餐範例比僅報價的豪華飯店更容易進行早期預算過濾
 
 ## 主要風險
-- Package comparisons can become confusing because the venue mix ranges from intimate chapels to ballroom-scale events
-- Large-property logistics still need timeline and buggy planning
-- Filming and professional-photo permissions must be managed rather than assumed
+- 套餐比較可能會變得令人困惑，因為場地組合範圍從私密的教堂到宴會廳規模的活動
+- 大型物業物流仍需要時間表和錯誤的規劃
+- 拍攝和專業照片的許可必須管理，而不是假設
 
 ## 待確認
-- Confirm the latest direct package grid across Amala, Kimaya, Ocean Front Apurva Chapel, and Ocean Front Lawn.
-- Confirm present-day outside-vendor, corkage, and production access rules.
-- Confirm whether the most current room inventory figure is still 475 or has been reclassified in official booking inventory.
+- 確認 Amala、Kimaya、Ocean Front Apurva Chapel 和 Ocean Front Lawn 的最新直達套餐網格。
+- 確認目前的外部供應商、開瓶費和生產准入規則。
+- 確認最新的客房庫存數字是否仍為 475 間或已在正式預訂庫存中重新分類。

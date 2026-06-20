@@ -1,36 +1,38 @@
 # 峇里島麗思卡爾頓酒店 (The Ritz-Carlton, Bali)
 
 ## 快速判讀
-- 地區：Nusa Dua
-- 場地型態：chapel, cliffside, beach, lawn, ballroom, villa-buyout
-- 價格狀態：public_price_available
-- 價位帶：ultra_luxury
-- 雨備強度：strong
-- 住宿整合：one_stop
-- 交通風險：medium
-- 照片參考價值：high
+| 項目 | 內容 |
+| --- | --- |
+| 地區 | Nusa Dua |
+| 場地型態 | chapel, cliffside, beach, lawn, ballroom, villa-buyout |
+| 價格狀態 | public_price_available |
+| 價位帶 | ultra_luxury |
+| 雨備強度 | strong |
+| 住宿整合 | one_stop |
+| 交通風險 | medium |
+| 照片參考價值 | high |
 
 ## 適合誰
-- Couples who want a classic Bali glass-chapel wedding with stronger large-event logistics
-- Families needing major on-site room inventory and easier south-Bali arrivals
-- Weddings that may scale from intimate chapel moments to 100-plus guest cliff receptions
+- 想要舉辦經典峇里島玻璃教堂婚禮並擁有更強大的大型活動後勤服務的情侶
+- 需要大量現場房間庫存並更輕鬆抵達峇里島南部的家庭
+- 婚禮規模可以從親密的教堂時刻到 100 多位賓客的懸崖招待會
 
 ## 不適合誰
-- Couples chasing a tiny boutique-estate atmosphere
-- Budgets that need a lower-entry Nusa Dua luxury wedding
-- People who want the most design-experimental cliff architecture rather than classic polished luxury
+- 追求小型精品莊園氛圍的情侶
+- 需要較低門檻的努沙杜瓦豪華婚禮的預算
+- 想要最具設計實驗性的懸崖建築而不是經典的拋光奢華的人們
 
 ## 主要優勢
-- Very strong room inventory for keeping guests together on one property
-- Majestic Chapel plus lawn and ballroom combinations create real planning flexibility
-- Chinese-language travel and review coverage is deep, making visual and stay research easier
+- 非常強大的客房庫存，可讓客人集中在一處房產上
+- 雄偉的教堂加上草坪和宴會廳的組合創造了真正的規劃靈活性
+- 中文旅行和評論覆蓋範圍廣，讓視覺和住宿研究變得更容易
 
 ## 主要風險
-- It is a large luxury resort, so intimacy has to be designed rather than assumed
-- Venue choice changes cost and atmosphere materially across the same property
-- Outdoor signature looks still remain weather-exposed despite strong backup options
+- 這是一個大型豪華度假村，因此必須設計而不是假設的親密感
+- 場地選擇極大地改變了同一物業的成本和氛圍
+- 儘管有強大的備份選項，戶外標誌性外觀仍然暴露在天氣中
 
 ## 待確認
-- Confirm the latest direct capacity and minimum-spend grid across Majestic Chapel, Chapel Lawn, Cliff Lawn, and beach formats.
-- Confirm present-day outside-vendor, corkage, and drone rules.
-- Confirm the current ballroom fallback flow for large outdoor dinner layouts.
+- 確認 Majestic Chapel、Chapel Lawn、Cliff Lawn 和海灘格式的最新直接容量和最低支出網格。
+- 確認目前的外部供應商、開瓶費和無人機規則。
+- 確認大型戶外晚宴佈置的現行宴會廳後備流程。
