@@ -306,5 +306,20 @@
     ],
     "reliability_notes": "Real-wedding planner feature; visually useful for ceremony and reception scale.",
     "raw_excerpt_summary": "真實婚禮案例，補足 Apurva 教堂與大型接待在實際賓客規模下的畫面。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-xhs-post-6",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 6",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
   }
 ]

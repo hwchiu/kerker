@@ -116,7 +116,7 @@
   ],
   "data_completeness": "comparable_core_complete",
   "research_status": "needs_price_followup",
-  "last_verified_at": "2026-06-18",
+  "last_verified_at": "2026-06-21",
   "data_freshness": "recent",
   "open_questions": [
     "確認 Tresna、KISIK 和 Asmara 等小型儀式專用形式的當前官方定價。",
@@ -124,23 +124,26 @@
     "確認最新的戶外音樂宵禁和最佳的莊園內派對替代方案。"
   ],
   "source_ids": [
-    "ayana-bali-official-estate",
-    "ayana-bali-official-weddings",
-    "ayana-bali-official-sky",
-    "ayana-bali-official-tresna",
-    "ayana-bali-official-hotels",
-    "ayana-bali-bridestory-sky-package",
+    "ayana-bali-balifortwo-summer-nicholas",
     "ayana-bali-bridestory-sky-gallery",
+    "ayana-bali-bridestory-sky-package",
     "ayana-bali-bridestory-tresna-gallery",
     "ayana-bali-bridestory-villa-gallery",
-    "ayana-bali-tripcom-hk-hotel",
     "ayana-bali-ctrip-hotel",
-    "ayana-bali-balifortwo-summer-nicholas",
     "ayana-bali-neverneverland-zh",
+    "ayana-bali-official-estate",
+    "ayana-bali-official-hotels",
+    "ayana-bali-official-sky",
+    "ayana-bali-official-tresna",
+    "ayana-bali-official-weddings",
+    "ayana-bali-sweetday-tresna-zh",
+    "ayana-bali-tripcom-hk-hotel",
     "ayana-bali-weddingku-bella-ken",
     "ayana-bali-weddingku-hendri-winna",
     "ayana-bali-weddings-com-tw-zh",
-    "ayana-bali-sweetday-tresna-zh"
+    "ayana-bali-xhs-post-2",
+    "ayana-bali-xhs-post-3",
+    "ayana-bali-xhs-post-7"
   ],
   "photo_index_id": "ayana-bali"
 }

@@ -229,5 +229,50 @@
     ],
     "reliability_notes": "Chinese wedding-agency page; useful for package framing and translated venue context, but should not replace direct confirmation.",
     "raw_excerpt_summary": "中文頁整理麗思卡爾頓套房住宿、教堂婚禮流程與接待安排，方便快速理解整體玩法。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-xhs-post-5",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 5",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "VIVARA 草坪婚禮 - 費用明細，晚宴約17萬，海鮮燒烤"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-xhs-post-6",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 6",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-xhs-post-9",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 9",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "重要警告 - 退潮後是海草而非金色沙灘，晚宴不推薦，風很大"
   }
 ]

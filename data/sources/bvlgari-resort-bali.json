@@ -285,5 +285,50 @@
     ],
     "reliability_notes": "小型婚禮策劃頁，對 La Terrazza 這種較公開、較輕量的海景露台玩法特別有比較價值，但不是官方價格保證。",
     "raw_excerpt_summary": "以 12 位賓客的海景微型婚禮為主軸，能快速看出 La Terrazza 與別墅 / 豪宅買斷型在私密度與規模上的差異。"
+  },
+  {
+    "source_id": "bvlgari-resort-bali-xhs-post-4",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 4",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "比較文章 - Bvlgari vs Pandawa 20+人小型婚禮"
+  },
+  {
+    "source_id": "bvlgari-resort-bali-xhs-post-6",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 6",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
+  },
+  {
+    "source_id": "bvlgari-resort-bali-xhs-post-8",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 8",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "58人婚禮 - 總統別墅婚禮+Pavilion Terrace晚宴+艾斯別墅住宿"
   }
 ]

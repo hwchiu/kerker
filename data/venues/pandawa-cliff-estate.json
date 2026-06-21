@@ -1,0 +1,107 @@
+{
+  "id": "pandawa-cliff-estate",
+  "name_zh": "潘達瓦懸崖莊園",
+  "name_en_official": "Pandawa Cliff Estate",
+  "brand_or_group": "Independent Villa Estate",
+  "venue_operator_type": "villa_estate",
+  "is_standalone": true,
+  "region": "Bali",
+  "subarea": "Clifftop",
+  "official_website": "https://pandawacliffestate.com",
+  "maps_url": "https://www.google.com/maps/search/Pandawa+Cliff+Estate+Bali",
+  "address_text": "Pandawa Cliff Estate, Bali, Indonesia",
+  "venue_types": [
+    "cliffside",
+    "villa-buyout",
+    "garden",
+    "water-platform"
+  ],
+  "primary_visual_identity": "峇里島懸崖邊私人莊園，以晚宴布置、仙女燈飾和露台海景聞名。",
+  "ceremony_space_types": [
+    "cliffside-deck",
+    "garden-lawn",
+    "villa-deck"
+  ],
+  "reception_space_types": [
+    "cliffside-deck",
+    "garden-lawn",
+    "private-dining"
+  ],
+  "supports_ceremony_only": true,
+  "supports_ceremony_and_dinner": true,
+  "supports_buyout": true,
+  "supports_micro_wedding": true,
+  "guest_capacity_ceremony_min": 20,
+  "guest_capacity_ceremony_max": 150,
+  "guest_capacity_dinner_min": 20,
+  "guest_capacity_dinner_max": 150,
+  "recommended_guest_size_band": "21-50",
+  "pricing_status": "quote_required",
+  "price_entries": [],
+  "price_summary_text": "需要詢問莊園以獲取定價；實際成本取決於日期、人數和定制級別。",
+  "price_risk_level": "high",
+  "rain_backup_status": "weak",
+  "has_indoor_backup": false,
+  "has_covered_backup": false,
+  "backup_space_description": "沒有已知的室內備用方案；戶外暴露於風雨。",
+  "backup_quality_notes": "作為獨立莊園，Pandawa 沒有像大型度假村那樣的雨天備用計畫。",
+  "weather_exposure_notes": "懸崖邊緣場地容易受到風吹雨淋，特別是在季風季節。",
+  "airport_drive_time_minutes_estimate": 45,
+  "transport_notes": "距離伍拉賴機場約 45 分鐘車程；客人需要從主路由接駁車前往莊園。",
+  "traffic_risk_level": "medium",
+  "onsite_accommodation_available": false,
+  "onsite_room_inventory_notes": "沒有現場住宿；客人需要在其他地方預訂酒店。",
+  "nearby_accommodation_notes": "距離烏鲁瓦图和库塔酒店約 15-20 分鐘車程。",
+  "accommodation_fit": "fragmented",
+  "guest_mobility_notes": "莊園有楼梯通往不同的場地；年長的客人可能會發現導航有挑戰。",
+  "restriction_level": "medium",
+  "noise_cutoff_notes": "仅占地莊園；需要確認當地噪音法規和派對時間限制。",
+  "external_vendor_policy": "需要確認是否允許外部供應商和現場規劃者。",
+  "minimum_stay_requirement_notes": "沒有最小住宿要求，因為沒有現場住宿。",
+  "minimum_spend_notes": "需要確認最小消費要求和定價結構。",
+  "drone_policy_notes": "需要確認無人機政策；可能因地方法規而異。",
+  "family_child_notes": "懸崖邊場地對兒童來說可能存在安全問題。",
+  "religious_or_space_use_notes": "大多數儀式設置都是象徵性的；需要確認宗教格式的支持。",
+  "operational_constraints_notes": "獨立莊園的規模意味著需要最少的人員進行場地轉換。",
+  "style_tags": [
+    "ocean-view",
+    "cliffside",
+    "intimate",
+    "sunset"
+  ],
+  "price_band_normalized": "midrange",
+  "best_for": [
+    "想要親密山崖邊婚禮的小型婚禮小組",
+    "尋求獨特和獨家場地的情侶",
+    "喜歡精心設計的晚宴裝飾和氛圍感的新人"
+  ],
+  "not_ideal_for": [
+    "尋求大型有蓋備用選項的夫婦",
+    "需要現場住宿便利的婚禮",
+    "喜歡集成度假村的所有便利設施的客人"
+  ],
+  "key_strengths": [
+    "懸崖邊私人莊園，具有獨特的地中海海景",
+    "精心的晚宴裝飾和氛圍設置",
+    "親密小型婚禮的理想場地"
+  ],
+  "key_risks": [
+    "沒有室內備用計畫以防下雨",
+    "沒有現場住宿，需要協調客人運輸",
+    "獨立莊園需要自帶花藝、美食等所有供應商"
+  ],
+  "data_completeness": "initial_capture_only",
+  "research_status": "record_created",
+  "last_verified_at": "2026-06-21",
+  "data_freshness": "recent",
+  "open_questions": [
+    "確認 Pandawa 的實際地址和聯繫方式",
+    "確認為晚宴設置提供的具體定制選項",
+    "確認雨天備用計畫和天氣相關的取消政策",
+    "確認外部供應商政策和額外費用"
+  ],
+  "source_ids": [
+    "pandawa-cliff-estate-xhs-post-1"
+  ],
+  "photo_index_id": "pandawa-cliff-estate"
+}

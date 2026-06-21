@@ -272,5 +272,20 @@
     ],
     "reliability_notes": "Chinese wedding-agency page; useful for translated venue summary and visuals.",
     "raw_excerpt_summary": "中文頁概述康萊德 Infinity Chapel、水台與花園場地，適合快速理解場地分布與住宿量體。"
+  },
+  {
+    "source_id": "conrad-bali-xhs-post-6",
+    "venue_id": "conrad-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 6",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
   }
 ]

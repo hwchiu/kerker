@@ -256,5 +256,35 @@
     ],
     "reliability_notes": "Real-wedding planner feature; good for understanding how Alila reads outside official imagery.",
     "raw_excerpt_summary": "真實婚禮案例，可看 Cliff Edge 與 Cabana 類型在實際婚禮中的佈置與海景比例。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-xhs-post-6",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 6",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-xhs-post-10",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 10",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "潘玮柏同款婚禮酒店 - 一卧室別墅，無邊泳池，海景，真實評論"
   }
 ]

@@ -169,5 +169,221 @@
     "coverage_type": "large_gallery",
     "decision_value": "medium",
     "decision_notes": "中文頁補足麗思卡爾頓教堂、草坪與公共空間的實際感，便於和 Ritz 官方圖做落差比較。"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-1",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-xhs-post-5",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7196.JPG",
+    "image_type": "social_post",
+    "scene_tags": [
+      "beach-ceremony",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-2",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-xhs-post-5",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7197.JPG",
+    "image_type": "social_post",
+    "scene_tags": [
+      "beach-ceremony",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-3",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-xhs-post-5",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7195.JPG",
+    "image_type": "social_post",
+    "scene_tags": [
+      "beach-ceremony",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-4",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-xhs-post-5",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7194.JPG",
+    "image_type": "social_post",
+    "scene_tags": [
+      "beach-ceremony",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-5",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-xhs-post-5",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7193.JPG",
+    "image_type": "social_post",
+    "scene_tags": [
+      "beach-ceremony",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-6",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-xhs-post-5",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7192.JPG",
+    "image_type": "social_post",
+    "scene_tags": [
+      "beach-ceremony",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-7",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-xhs-post-5",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7199.JPG",
+    "image_type": "social_post",
+    "scene_tags": [
+      "beach-ceremony",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-8",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-xhs-post-5",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7198.JPG",
+    "image_type": "social_post",
+    "scene_tags": [
+      "beach-ceremony",
+      "guest-seating",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-xhs-9-photo-1",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-xhs-post-9",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/the-ritz-carlton-bali/xhs-9-IMG_7237.JPG",
+    "image_type": "social_post",
+    "scene_tags": [
+      "beach-ceremony",
+      "rain-backup-space"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "真實用戶警告 - 退潮時沙灘問題和風況"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-xhs-9-photo-2",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-xhs-post-9",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/the-ritz-carlton-bali/xhs-9-IMG_7243.JPG",
+    "image_type": "social_post",
+    "scene_tags": [
+      "beach-ceremony",
+      "rain-backup-space"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "真實用戶警告 - 退潮時沙灘問題和風況"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-xhs-9-photo-3",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-xhs-post-9",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/the-ritz-carlton-bali/xhs-9-IMG_7242.JPG",
+    "image_type": "social_post",
+    "scene_tags": [
+      "beach-ceremony",
+      "rain-backup-space"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "真實用戶警告 - 退潮時沙灘問題和風況"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-xhs-9-photo-4",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-xhs-post-9",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/the-ritz-carlton-bali/xhs-9-IMG_7238.JPG",
+    "image_type": "social_post",
+    "scene_tags": [
+      "beach-ceremony",
+      "rain-backup-space"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "真實用戶警告 - 退潮時沙灘問題和風況"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-xhs-9-photo-5",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-xhs-post-9",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/the-ritz-carlton-bali/xhs-9-IMG_7239.JPG",
+    "image_type": "social_post",
+    "scene_tags": [
+      "beach-ceremony",
+      "rain-backup-space"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "真實用戶警告 - 退潮時沙灘問題和風況"
   }
 ]

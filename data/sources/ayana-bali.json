@@ -214,5 +214,50 @@
     ],
     "reliability_notes": "Chinese wedding-agency page; translated venue context and gallery support, but still not a contract source.",
     "raw_excerpt_summary": "中文頁集中整理 AYANA SKY、Tresna 等婚禮場地與度假村設施，方便快速比較玩法。"
+  },
+  {
+    "source_id": "ayana-bali-xhs-post-2",
+    "venue_id": "ayana-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 2",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "水台婚禮 - 海之禮堂，倒影，日落場"
+  },
+  {
+    "source_id": "ayana-bali-xhs-post-3",
+    "venue_id": "ayana-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 3",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "總統別墅晚宴 - 50人，粉白色主題"
+  },
+  {
+    "source_id": "ayana-bali-xhs-post-7",
+    "venue_id": "ayana-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 7",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "SKY 場地 - 專屬婚禮區域，4個大草坪"
   }
 ]
