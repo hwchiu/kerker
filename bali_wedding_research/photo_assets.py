@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from datetime import date
+from hashlib import md5
 from html import unescape
 from pathlib import Path
 import re
@@ -622,12 +623,19 @@ def copy_photo_assets_for_site(root: Path, output_dir: Path) -> dict[str, list[s
                     # Non-empty directories are expected when preserved assets remain in place.
                     continue
 
+    seen_hashes: dict[str, set[str]] = {}  # venue_id -> set of md5 hashes already copied
     for photo_entry_id, source_path, target_path in asset_copy_tasks:
-        if source_path.exists():
-            target_path.parent.mkdir(parents=True, exist_ok=True)
-            copy2(source_path, target_path)
-        if not target_path.exists():
+        if not source_path.exists():
             continue
+        venue_id = target_path.parent.name
+        content = source_path.read_bytes()
+        content_hash = md5(content).hexdigest()
+        venue_seen = seen_hashes.setdefault(venue_id, set())
+        if content_hash in venue_seen:
+            continue
+        venue_seen.add(content_hash)
+        target_path.parent.mkdir(parents=True, exist_ok=True)
+        copy2(source_path, target_path)
         relative_inside_assets = target_path.relative_to(site_assets_root)
         site_urls = mapping.setdefault(photo_entry_id, [])
         site_urls.append(f"../assets/photos/{relative_inside_assets.as_posix()}")

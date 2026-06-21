@@ -826,23 +826,13 @@ a {
   white-space: nowrap;
 }
 
-.photo-gallery-grid {
+.photo-mosaic {
   display: grid;
-  gap: 14px;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
 }
 
-.photo-gallery-item {
-  display: grid;
-  gap: 12px;
-  padding: 14px;
-  border: 1px solid rgba(29, 42, 45, 0.08);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.72);
-  box-shadow: var(--shadow-sm);
-}
-
-.gallery-preview-button {
+.gallery-thumb {
   display: block;
   position: relative;
   padding: 0;
@@ -853,64 +843,80 @@ a {
   overflow: hidden;
 }
 
-.gallery-preview {
+.gallery-thumb-img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: var(--radius-sm);
   border: 1px solid rgba(29, 42, 45, 0.08);
   background: rgba(255, 255, 255, 0.8);
-  transition: transform 220ms ease;
+  transition: transform 240ms ease;
 }
 
-.gallery-preview-button:hover .gallery-preview,
-.gallery-preview-button:focus-visible .gallery-preview {
-  transform: scale(1.03);
+.gallery-thumb:hover .gallery-thumb-img,
+.gallery-thumb:focus-visible .gallery-thumb-img {
+  transform: scale(1.04);
 }
 
-.gallery-preview-overlay {
+.gallery-thumb-badge {
   position: absolute;
-  left: 10px;
-  bottom: 10px;
-  padding: 6px 10px;
+  left: 7px;
+  bottom: 7px;
+  padding: 3px 8px;
   border-radius: 999px;
-  background: rgba(18, 25, 27, 0.7);
-  color: rgba(255, 255, 255, 0.92);
-  font-size: 0.74rem;
+  background: rgba(8, 12, 24, 0.72);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.68rem;
   font-weight: 800;
   letter-spacing: 0.04em;
+  pointer-events: none;
 }
 
-.gallery-preview-fallback {
-  display: grid;
-  gap: 10px;
-  align-content: end;
-  min-height: 220px;
-  padding: 18px;
-  border: 1px dashed rgba(171, 191, 255, 0.28);
+.gallery-fallback-sources {
+  margin-top: 18px;
+  padding: 16px 20px;
+  border: 1px dashed rgba(29, 42, 45, 0.16);
   border-radius: var(--radius-sm);
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(143, 180, 255, 0.08)),
-    radial-gradient(circle at top right, rgba(255, 210, 143, 0.18), transparent 28%);
-  color: var(--hero-ink);
+}
+
+.gallery-fallback-sources p {
+  margin: 0 0 10px;
+  font-size: 0.84rem;
+  color: var(--muted);
+}
+
+.gallery-fallback-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-fallback-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(29, 42, 45, 0.14);
+  background: rgba(255, 255, 255, 0.56);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--teal);
   text-decoration: none;
+  transition: background 160ms ease, border-color 160ms ease;
 }
 
-.gallery-preview-fallback strong {
-  font-size: 1.05rem;
-}
-
-.gallery-preview-fallback-kicker {
-  font-size: 0.76rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: rgba(224, 233, 255, 0.74);
+.gallery-fallback-link:hover,
+.gallery-fallback-link:focus-visible {
+  background: rgba(255, 255, 255, 0.88);
+  border-color: rgba(29, 42, 45, 0.28);
 }
 
 .gallery-preview-hint {
-  margin: -4px 0 0;
+  margin: 12px 0 0;
   color: var(--muted);
   font-size: 0.84rem;
   line-height: 1.6;
@@ -922,43 +928,6 @@ a {
   border-radius: var(--radius-sm);
   color: var(--muted);
   background: rgba(255, 255, 255, 0.56);
-}
-
-.photo-gallery-meta {
-  display: grid;
-  gap: 6px;
-}
-
-.photo-gallery-title {
-  margin: 0;
-  font-size: 1rem;
-}
-
-.photo-gallery-summary-text {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.88rem;
-  line-height: 1.5;
-}
-
-.photo-gallery-details {
-  display: grid;
-  gap: 10px;
-  border-top: 1px solid rgba(29, 42, 45, 0.08);
-  padding-top: 10px;
-}
-
-.photo-gallery-summary {
-  cursor: pointer;
-  color: var(--teal);
-  font-size: 0.82rem;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  list-style: none;
-}
-
-.photo-gallery-summary::-webkit-details-marker {
-  display: none;
 }
 
 .photo-gallery-link {
@@ -986,6 +955,34 @@ a {
   margin: 0;
   color: var(--muted);
   line-height: 1.7;
+}
+
+.sources-disclosure {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.sources-disclosure-summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 16px 20px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: var(--teal);
+  user-select: none;
+}
+
+.sources-disclosure-summary::-webkit-details-marker {
+  display: none;
+}
+
+.sources-disclosure[open] .sources-disclosure-summary {
+  border-bottom: 1px solid var(--line);
+}
+
+.sources-disclosure-body {
+  padding: 16px 20px 20px;
 }
 
 .advanced-filters {
@@ -2473,6 +2470,40 @@ body::after {
 .empty-state,
 .gallery-empty {
   background: rgba(255, 255, 255, 0.04);
+}
+
+.gallery-thumb-img {
+  border-color: rgba(171, 191, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.gallery-fallback-sources {
+  border-color: rgba(171, 191, 255, 0.14);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.gallery-fallback-link {
+  border-color: rgba(171, 191, 255, 0.18);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--teal);
+}
+
+.gallery-fallback-link:hover,
+.gallery-fallback-link:focus-visible {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(171, 191, 255, 0.3);
+}
+
+.sources-disclosure {
+  border-color: rgba(171, 191, 255, 0.14);
+}
+
+.sources-disclosure-summary {
+  color: var(--teal);
+}
+
+.sources-disclosure[open] .sources-disclosure-summary {
+  border-bottom-color: rgba(171, 191, 255, 0.14);
 }
 
 .gallery-preview,
@@ -4406,55 +4437,52 @@ def _render_photo_cards(
     gallery_items = _photo_gallery_items(photo_entries, photo_assets_by_entry, source_lookup)
     if not gallery_items:
         return '<div class="empty-state">目前還沒有整理到可參考的照片來源。</div>'
-    has_preview = any(item["url"] for item in gallery_items)
-    cards = []
+
+    thumbs = []
+    fallbacks: list[dict[str, str]] = []
+    seen_fallback_links: set[str] = set()
+
     for item in gallery_items:
         if item["url"]:
-            preview = (
-                '<button type="button" class="gallery-preview-button" '
+            badge = item["meta"].split(" · ")[0] if item["meta"] else ""
+            thumbs.append(
+                '<button type="button" class="gallery-thumb" '
                 f'data-lightbox-image="{escape(item["url"])}" '
                 'data-lightbox-group="venue-gallery" '
-                f'data-lightbox-caption="{escape(item["details"])}" '
                 f'data-lightbox-caption-title="{escape(item["title"])}" '
                 f'data-lightbox-caption-meta="{escape(item["meta"])}" '
                 f'data-lightbox-caption-body="{escape(item["details"])}" '
                 f'aria-label="{escape(item["aria_label"])}">'
-                f'<img class="gallery-preview" src="{escape(item["url"])}" alt="{escape(item["title"])}" loading="lazy">'
-                '<span class="gallery-preview-overlay">查看大圖</span>'
-                "</button>"
+                f'<img class="gallery-thumb-img" src="{escape(item["url"])}" alt="{escape(item["title"])}" loading="lazy">'
+                + (f'<span class="gallery-thumb-badge">{escape(badge)}</span>' if badge else "")
+                + "</button>"
             )
         else:
-            preview = (
-                f'<a class="gallery-preview-fallback" href="{escape(item["source_link"])}" target="_blank" rel="noreferrer">'
-                '<span class="gallery-preview-fallback-kicker">暫無本地預覽</span>'
-                '<strong>開啟來源相簿</strong>'
-                f'<span>{escape(item["source_name"])}</span>'
-                "</a>"
-            )
-        cards.append(
-            '<article class="photo-gallery-item">'
-            + preview
-            + '<div class="photo-gallery-meta">'
-            f'<h3 class="photo-gallery-title">{escape(item["title"])}</h3>'
-            f'<p class="photo-gallery-summary-text">{escape(item["summary"])}</p>'
+            link = item["source_link"]
+            if link not in seen_fallback_links:
+                seen_fallback_links.add(link)
+                fallbacks.append({"name": item["source_name"], "link": link})
+
+    parts: list[str] = []
+    if thumbs:
+        parts.append(
+            '<div class="photo-mosaic">' + "".join(thumbs) + "</div>"
+            '<p class="gallery-preview-hint">點擊照片可放大，左右切換瀏覽全部。</p>'
+        )
+    if fallbacks:
+        links_html = "".join(
+            f'<li><a class="gallery-fallback-link" href="{escape(f["link"])}" target="_blank" rel="noreferrer">{escape(f["name"])}</a></li>'
+            for f in fallbacks
+        )
+        parts.append(
+            '<div class="gallery-fallback-sources">'
+            '<p>以下來源缺少本地圖片，點擊直接開啟相簿：</p>'
+            f'<ul class="gallery-fallback-list">{links_html}</ul>'
             "</div>"
-            '<details class="photo-gallery-details">'
-            '<summary class="photo-gallery-summary">查看照片資訊</summary>'
-            f'<div class="chip-row">{item["badges_html"]}</div>'
-            f'<p>{escape(item["details"])}</p>'
-            f'<a class="photo-gallery-link" href="{escape(item["source_link"])}" target="_blank" rel="noreferrer">來源：{escape(item["source_name"])}</a>'
-            "</details>"
-            "</article>"
         )
-    return (
-        '<div class="photo-gallery-grid">'
-        + "".join(cards)
-        + (
-            '</div><p class="gallery-preview-hint">點圖可放大；全部照片會放在同一個 lightbox 內左右切換。沒有本地快取圖的來源會直接連到原始相簿。</p>'
-            if has_preview
-            else '</div><p class="gallery-preview-hint">目前缺少本地快取圖，請直接開啟來源相簿查看照片。</p>'
-        )
-    )
+    if not parts:
+        return '<div class="empty-state">目前還沒有整理到可參考的照片來源。</div>'
+    return "".join(parts)
 
 
 def _render_photo_insights(
@@ -4526,7 +4554,13 @@ def _render_sources(source_entries: list[dict[str, Any]]) -> str:
             "</div>"
             "</article>"
         )
-    return f'<div class="stack">{"".join(cards)}</div>'
+    count = len(source_entries)
+    return (
+        f'<details class="sources-disclosure">'
+        f'<summary class="sources-disclosure-summary">展開查看全部 {count} 筆來源紀錄</summary>'
+        f'<div class="stack sources-disclosure-body">{"".join(cards)}</div>'
+        f'</details>'
+    )
 
 
 def _render_detail_page(
