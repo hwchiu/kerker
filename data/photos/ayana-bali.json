@@ -1,871 +1,890 @@
 [
-  {
-    "photo_entry_id": "ayana-bali-photo-weddings-overview",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-official-weddings",
-    "page_url": "https://www.ayana.com/bali/weddings/",
-    "image_url_or_gallery_url": "https://www.ayana.com/bali/weddings/",
-    "image_type": "official_wedding_gallery",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "chapel-exterior",
-      "guest-seating"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "用於比較阿雅娜截然不同的場地外觀的最佳單一官方頁面。"
-  },
-  {
-    "photo_entry_id": "ayana-bali-photo-sky-official",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-official-sky",
-    "page_url": "https://www.ayana.com/bali/weddings/sky/",
-    "image_url_or_gallery_url": "https://www.ayana.com/bali/weddings/sky/",
-    "image_type": "official_wedding_gallery",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "guest-seating",
-      "night-view"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "展現阿雅娜標誌性的浮崖儀式和日落招待會特色。"
-  },
-  {
-    "photo_entry_id": "ayana-bali-photo-tresna-official",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-official-tresna",
-    "page_url": "https://www.ayana.com/bali/weddings/packages/tresnadream-wedding/",
-    "image_url_or_gallery_url": "https://www.ayana.com/bali/weddings/packages/tresnadream-wedding/",
-    "image_type": "official_wedding_gallery",
-    "scene_tags": [
-      "chapel-interior",
-      "rain-backup-space",
-      "floral-setup"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "重要的證據證明阿雅娜擁有一個室內防雨教堂，仍然讓人感覺很高級。"
-  },
-  {
-    "photo_entry_id": "ayana-bali-photo-villa-official",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-bridestory-villa-gallery",
-    "page_url": "https://www.bridestory.com/ayana-bali/projects/ayana-villa",
-    "image_url_or_gallery_url": "https://www.bridestory.com/ayana-bali/projects/ayana-villa",
-    "image_type": "platform_listing_gallery",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "guest-seating",
-      "night-view"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "適用於別墅買斷規模的晚宴和私人甲板造型。"
-  },
-  {
-    "photo_entry_id": "ayana-bali-photo-rooms-official",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-official-hotels",
-    "page_url": "https://www.ayana.com/bali/hotels/",
-    "image_url_or_gallery_url": "https://www.ayana.com/bali/hotels/",
-    "image_type": "official_hotel_gallery",
-    "scene_tags": [
-      "room",
-      "public-area",
-      "arrival-flow"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "large_gallery",
-    "decision_value": "medium",
-    "decision_notes": "有助於判斷客人的住宿品質和綜合莊園的感覺。"
-  },
-  {
-    "photo_entry_id": "ayana-bali-photo-sky-bridestory",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-bridestory-sky-gallery",
-    "page_url": "https://www.bridestory.com/ayana-bali/projects/sky",
-    "image_url_or_gallery_url": "https://www.bridestory.com/ayana-bali/projects/sky",
-    "image_type": "platform_listing_gallery",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "floral-setup",
-      "guest-seating"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "添加阿雅娜自己的官方照片之外的造型參考。"
-  },
-  {
-    "photo_entry_id": "ayana-bali-photo-tresna-bridestory",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-bridestory-tresna-gallery",
-    "page_url": "https://www.bridestory.com/ayana-bali/projects/tresna-chapel",
-    "image_url_or_gallery_url": "https://www.bridestory.com/ayana-bali/projects/tresna-chapel",
-    "image_type": "platform_listing_gallery",
-    "scene_tags": [
-      "chapel-interior",
-      "chapel-exterior",
-      "floral-setup"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "對室內教堂的實際過道和祭壇外觀有很強的參考作用。"
-  },
-  {
-    "photo_entry_id": "ayana-bali-photo-tripcom-hk",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-tripcom-hk-hotel",
-    "page_url": "https://hk.trip.com/hotels/bali-hotel-detail-711373/ayana-resort-and-spa-bali/",
-    "image_url_or_gallery_url": "https://hk.trip.com/hotels/bali-hotel-detail-711373/ayana-resort-and-spa-bali/",
-    "image_type": "platform_listing_gallery",
-    "scene_tags": [
-      "room",
-      "public-area",
-      "night-view"
-    ],
-    "authenticity": "unknown",
-    "coverage_type": "large_gallery",
-    "decision_value": "medium",
-    "decision_notes": "中文平台圖集對檢查 AYANA 客房、泳池與園區實際氛圍很有用，能補足大型度假村真實感。"
-  },
-  {
-    "photo_entry_id": "ayana-bali-photo-ctrip-hotel",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-ctrip-hotel",
-    "page_url": "https://hotels.ctrip.com/hotels/711373.html",
-    "image_url_or_gallery_url": "https://hotels.ctrip.com/hotels/711373.html",
-    "image_type": "platform_listing_gallery",
-    "scene_tags": [
-      "room",
-      "public-area",
-      "arrival-flow"
-    ],
-    "authenticity": "unknown",
-    "coverage_type": "large_gallery",
-    "decision_value": "medium",
-    "decision_notes": "攜程頁面可快速確認 AYANA 的房型、公共空間與動線規模感，方便判斷一站式住宿是否真的成立。"
-  },
-  {
-    "photo_entry_id": "ayana-bali-balifortwo-summer-nicholas",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-balifortwo-summer-nicholas",
-    "page_url": "https://balifortwo2.com/summer-nicholass-wedding-at-ayana-tresna-chapel/",
-    "image_url_or_gallery_url": "https://balifortwo2.com/summer-nicholass-wedding-at-ayana-tresna-chapel/",
-    "image_type": "real_wedding_feature",
-    "scene_tags": [
-      "chapel-exterior",
-      "chapel-interior",
-      "entrance-procession",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "能直接看 Tresna Chapel 新人出場、撒花與婚禮當天的實際氛圍。"
-  },
-  {
-    "photo_entry_id": "ayana-bali-neverneverland-zh",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-neverneverland-zh",
-    "page_url": "https://neverneverlandinbali.com/wedding/17780-2/",
-    "image_url_or_gallery_url": "https://neverneverlandinbali.com/wedding/17780-2/",
-    "image_type": "blog_feature",
-    "scene_tags": [
-      "chapel-exterior",
-      "cliffside-ceremony",
-      "public-area",
-      "night-view"
-    ],
-    "authenticity": "unknown",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "中文頁可快速看 AYANA SKY、教堂與度假村公共空間的整體視覺。"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-1",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7155.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-2",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7154.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-3",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7156.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-4",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7157.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-5",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7147.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-6",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7153.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-7",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7152.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-8",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7150.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-9",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7151.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-10",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7148.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-11",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7160.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-12",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7161.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-13",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7149.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-14",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7163.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-15",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7162.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-2-photo-16",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-2",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7159.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "water-platform",
-      "cliffside-ceremony",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-3-photo-1",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-3",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7169.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "garden-reception",
-      "floral-setup",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-3-photo-2",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-3",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7168.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "garden-reception",
-      "floral-setup",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-3-photo-3",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-3",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7180.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "garden-reception",
-      "floral-setup",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-3-photo-4",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-3",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7178.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "garden-reception",
-      "floral-setup",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-3-photo-5",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-3",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7179.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "garden-reception",
-      "floral-setup",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-3-photo-6",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-3",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7174.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "garden-reception",
-      "floral-setup",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-3-photo-7",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-3",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7175.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "garden-reception",
-      "floral-setup",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-3-photo-8",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-3",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7177.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "garden-reception",
-      "floral-setup",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-3-photo-9",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-3",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7176.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "garden-reception",
-      "floral-setup",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-3-photo-10",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-3",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7172.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "garden-reception",
-      "floral-setup",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-3-photo-11",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-3",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7173.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "garden-reception",
-      "floral-setup",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-3-photo-12",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-3",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7167.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "garden-reception",
-      "floral-setup",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-3-photo-13",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-3",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7171.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "garden-reception",
-      "floral-setup",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-3-photo-14",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-3",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7170.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "garden-reception",
-      "floral-setup",
-      "night-view"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-7-photo-1",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-7",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7220.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "guest-seating",
-      "garden-reception"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-7-photo-2",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-7",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7219.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "guest-seating",
-      "garden-reception"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-7-photo-3",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-7",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7218.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "guest-seating",
-      "garden-reception"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-7-photo-4",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-7",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7216.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "guest-seating",
-      "garden-reception"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-7-photo-5",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-7",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7217.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "guest-seating",
-      "garden-reception"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-7-photo-6",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-7",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7215.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "guest-seating",
-      "garden-reception"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-7-photo-7",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-7",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7214.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "guest-seating",
-      "garden-reception"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-7-photo-8",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-7",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7211.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "guest-seating",
-      "garden-reception"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-7-photo-9",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-7",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7213.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "guest-seating",
-      "garden-reception"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "ayana-bali-xhs-7-photo-10",
-    "venue_id": "ayana-bali",
-    "source_id": "ayana-bali-xhs-post-7",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7212.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "guest-seating",
-      "garden-reception"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  }
+    {
+        "photo_entry_id": "ayana-bali-photo-weddings-overview",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-official-weddings",
+        "page_url": "https://www.ayana.com/bali/weddings/",
+        "image_url_or_gallery_url": "https://www.ayana.com/bali/weddings/",
+        "image_type": "official_wedding_gallery",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "chapel-exterior",
+            "guest-seating"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "用於比較阿雅娜截然不同的場地外觀的最佳單一官方頁面。"
+    },
+    {
+        "photo_entry_id": "ayana-bali-photo-sky-official",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-official-sky",
+        "page_url": "https://www.ayana.com/bali/weddings/sky/",
+        "image_url_or_gallery_url": "https://www.ayana.com/bali/weddings/sky/",
+        "image_type": "official_wedding_gallery",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "guest-seating",
+            "night-view"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "展現阿雅娜標誌性的浮崖儀式和日落招待會特色。"
+    },
+    {
+        "photo_entry_id": "ayana-bali-photo-tresna-official",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-official-tresna",
+        "page_url": "https://www.ayana.com/bali/weddings/packages/tresnadream-wedding/",
+        "image_url_or_gallery_url": "https://www.ayana.com/bali/weddings/packages/tresnadream-wedding/",
+        "image_type": "official_wedding_gallery",
+        "scene_tags": [
+            "chapel-interior",
+            "rain-backup-space",
+            "floral-setup"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "重要的證據證明阿雅娜擁有一個室內防雨教堂，仍然讓人感覺很高級。"
+    },
+    {
+        "photo_entry_id": "ayana-bali-photo-villa-official",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-bridestory-villa-gallery",
+        "page_url": "https://www.bridestory.com/ayana-bali/projects/ayana-villa",
+        "image_url_or_gallery_url": "https://www.bridestory.com/ayana-bali/projects/ayana-villa",
+        "image_type": "platform_listing_gallery",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "guest-seating",
+            "night-view"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "適用於別墅買斷規模的晚宴和私人甲板造型。"
+    },
+    {
+        "photo_entry_id": "ayana-bali-photo-rooms-official",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-official-hotels",
+        "page_url": "https://www.ayana.com/bali/hotels/",
+        "image_url_or_gallery_url": "https://www.ayana.com/bali/hotels/",
+        "image_type": "official_hotel_gallery",
+        "scene_tags": [
+            "room",
+            "public-area",
+            "arrival-flow"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "large_gallery",
+        "decision_value": "medium",
+        "decision_notes": "有助於判斷客人的住宿品質和綜合莊園的感覺。"
+    },
+    {
+        "photo_entry_id": "ayana-bali-photo-sky-bridestory",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-bridestory-sky-gallery",
+        "page_url": "https://www.bridestory.com/ayana-bali/projects/sky",
+        "image_url_or_gallery_url": "https://www.bridestory.com/ayana-bali/projects/sky",
+        "image_type": "platform_listing_gallery",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "floral-setup",
+            "guest-seating"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "添加阿雅娜自己的官方照片之外的造型參考。"
+    },
+    {
+        "photo_entry_id": "ayana-bali-photo-tresna-bridestory",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-bridestory-tresna-gallery",
+        "page_url": "https://www.bridestory.com/ayana-bali/projects/tresna-chapel",
+        "image_url_or_gallery_url": "https://www.bridestory.com/ayana-bali/projects/tresna-chapel",
+        "image_type": "platform_listing_gallery",
+        "scene_tags": [
+            "chapel-interior",
+            "chapel-exterior",
+            "floral-setup"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "對室內教堂的實際過道和祭壇外觀有很強的參考作用。"
+    },
+    {
+        "photo_entry_id": "ayana-bali-photo-tripcom-hk",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-tripcom-hk-hotel",
+        "page_url": "https://hk.trip.com/hotels/bali-hotel-detail-711373/ayana-resort-and-spa-bali/",
+        "image_url_or_gallery_url": "https://hk.trip.com/hotels/bali-hotel-detail-711373/ayana-resort-and-spa-bali/",
+        "image_type": "platform_listing_gallery",
+        "scene_tags": [
+            "room",
+            "public-area",
+            "night-view"
+        ],
+        "authenticity": "unknown",
+        "coverage_type": "large_gallery",
+        "decision_value": "medium",
+        "decision_notes": "中文平台圖集對檢查 AYANA 客房、泳池與園區實際氛圍很有用，能補足大型度假村真實感。"
+    },
+    {
+        "photo_entry_id": "ayana-bali-photo-ctrip-hotel",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-ctrip-hotel",
+        "page_url": "https://hotels.ctrip.com/hotels/711373.html",
+        "image_url_or_gallery_url": "https://hotels.ctrip.com/hotels/711373.html",
+        "image_type": "platform_listing_gallery",
+        "scene_tags": [
+            "room",
+            "public-area",
+            "arrival-flow"
+        ],
+        "authenticity": "unknown",
+        "coverage_type": "large_gallery",
+        "decision_value": "medium",
+        "decision_notes": "攜程頁面可快速確認 AYANA 的房型、公共空間與動線規模感，方便判斷一站式住宿是否真的成立。"
+    },
+    {
+        "photo_entry_id": "ayana-bali-balifortwo-summer-nicholas",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-balifortwo-summer-nicholas",
+        "page_url": "https://balifortwo2.com/summer-nicholass-wedding-at-ayana-tresna-chapel/",
+        "image_url_or_gallery_url": "https://balifortwo2.com/summer-nicholass-wedding-at-ayana-tresna-chapel/",
+        "image_type": "real_wedding_feature",
+        "scene_tags": [
+            "chapel-exterior",
+            "chapel-interior",
+            "entrance-procession",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "能直接看 Tresna Chapel 新人出場、撒花與婚禮當天的實際氛圍。"
+    },
+    {
+        "photo_entry_id": "ayana-bali-neverneverland-zh",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-neverneverland-zh",
+        "page_url": "https://neverneverlandinbali.com/wedding/17780-2/",
+        "image_url_or_gallery_url": "https://neverneverlandinbali.com/wedding/17780-2/",
+        "image_type": "blog_feature",
+        "scene_tags": [
+            "chapel-exterior",
+            "cliffside-ceremony",
+            "public-area",
+            "night-view"
+        ],
+        "authenticity": "unknown",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "中文頁可快速看 AYANA SKY、教堂與度假村公共空間的整體視覺。"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-1",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7155.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-2",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7154.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-3",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7156.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-4",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7157.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-5",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7147.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-6",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7153.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-7",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7152.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-8",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7150.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-9",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7151.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-10",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7148.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-11",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7160.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-12",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7161.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-13",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7149.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-14",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7163.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-15",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7162.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-2-photo-16",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-2",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-2-IMG_7159.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "water-platform",
+            "cliffside-ceremony",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-3-photo-1",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-3",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7169.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "garden-reception",
+            "floral-setup",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-3-photo-2",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-3",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7168.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "garden-reception",
+            "floral-setup",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-3-photo-3",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-3",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7180.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "garden-reception",
+            "floral-setup",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-3-photo-4",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-3",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7178.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "garden-reception",
+            "floral-setup",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-3-photo-5",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-3",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7179.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "garden-reception",
+            "floral-setup",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-3-photo-6",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-3",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7174.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "garden-reception",
+            "floral-setup",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-3-photo-7",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-3",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7175.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "garden-reception",
+            "floral-setup",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-3-photo-8",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-3",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7177.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "garden-reception",
+            "floral-setup",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-3-photo-9",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-3",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7176.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "garden-reception",
+            "floral-setup",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-3-photo-10",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-3",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7172.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "garden-reception",
+            "floral-setup",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-3-photo-11",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-3",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7173.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "garden-reception",
+            "floral-setup",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-3-photo-12",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-3",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7167.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "garden-reception",
+            "floral-setup",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-3-photo-13",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-3",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7171.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "garden-reception",
+            "floral-setup",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-3-photo-14",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-3",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-3-IMG_7170.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "garden-reception",
+            "floral-setup",
+            "night-view"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-7-photo-1",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-7",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7220.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "guest-seating",
+            "garden-reception"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-7-photo-2",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-7",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7219.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "guest-seating",
+            "garden-reception"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-7-photo-3",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-7",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7218.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "guest-seating",
+            "garden-reception"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-7-photo-4",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-7",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7216.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "guest-seating",
+            "garden-reception"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-7-photo-5",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-7",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7217.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "guest-seating",
+            "garden-reception"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-7-photo-6",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-7",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7215.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "guest-seating",
+            "garden-reception"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-7-photo-7",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-7",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7214.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "guest-seating",
+            "garden-reception"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-7-photo-8",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-7",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7211.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "guest-seating",
+            "garden-reception"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-7-photo-9",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-7",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7213.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "guest-seating",
+            "garden-reception"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-7-photo-10",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-7",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-7-IMG_7212.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "guest-seating",
+            "garden-reception"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "ayana-bali-xhs-11-photo-gallery",
+        "venue_id": "ayana-bali",
+        "source_id": "ayana-bali-xhs-post-11",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/ayana-bali/xhs-11-IMG_7273.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "chapel-interior",
+            "chapel-exterior",
+            "floral-setup",
+            "guest-seating",
+            "entrance-procession"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "婚禮策劃師 Jenny 拍攝的真實婚禮現場照片，共15張，包含教堂儀式、花藝布置、迎賓等場景。"
+    }
 ]

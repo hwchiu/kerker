@@ -1,263 +1,278 @@
 [
-  {
-    "source_id": "ayana-bali-official-estate",
-    "venue_id": "ayana-bali",
-    "source_type": "official",
-    "source_name": "峇里島阿雅娜官方莊園概覽",
-    "source_url": "https://www.ayana.com/bali/",
-    "captured_at": "2026-06-18",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "accommodation",
-      "transport",
-      "photos"
-    ],
-    "reliability_notes": "Official resort overview with current estate-level accommodation and access context.",
-    "raw_excerpt_summary": "阿雅娜酒店佔地 90 公頃，擁有四家飯店，距離峇里島機場約 20 分鐘車程。"
-  },
-  {
-    "source_id": "ayana-bali-official-weddings",
-    "venue_id": "ayana-bali",
-    "source_type": "official",
-    "source_name": "峇里島阿雅娜婚禮中心",
-    "source_url": "https://www.ayana.com/bali/weddings/",
-    "captured_at": "2026-06-18",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "capacity",
-      "photos",
-      "restrictions",
-      "rain_backup"
-    ],
-    "reliability_notes": "Official wedding page listing current venue mix and headline capacities.",
-    "raw_excerpt_summary": "展示阿雅娜的場地組合，從天空和教堂到花園和宴會廳，包括儀式和接待能力。"
-  },
-  {
-    "source_id": "ayana-bali-official-sky",
-    "venue_id": "ayana-bali",
-    "source_type": "official",
-    "source_name": "阿雅娜天空婚禮場地",
-    "source_url": "https://www.ayana.com/bali/weddings/sky/",
-    "captured_at": "2026-06-18",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "capacity",
-      "photos",
-      "restrictions"
-    ],
-    "reliability_notes": "Official venue page for SKY, useful for the resort's most iconic cliff-edge platform.",
-    "raw_excerpt_summary": "States SKY 位於印度洋上方 35 公尺處，面積 7,500 平方米，專為私人懸崖邊緣活動而設計。"
-  },
-  {
-    "source_id": "ayana-bali-official-tresna",
-    "venue_id": "ayana-bali",
-    "source_type": "official",
-    "source_name": "阿雅娜特雷斯納禮拜堂套餐頁面",
-    "source_url": "https://www.ayana.com/bali/weddings/packages/tresnadream-wedding/",
-    "captured_at": "2026-06-18",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "capacity",
-      "rain_backup",
-      "photos"
-    ],
-    "reliability_notes": "Official package page proving AYANA has a fully indoor chapel option.",
-    "raw_excerpt_summary": "將特雷斯納教堂描述為室內場所，並宣傳儀式裝飾最多可容納 50 人。"
-  },
-  {
-    "source_id": "ayana-bali-official-hotels",
-    "venue_id": "ayana-bali",
-    "source_type": "official",
-    "source_name": "峇里島阿雅娜飯店概覽",
-    "source_url": "https://www.ayana.com/bali/hotels/",
-    "captured_at": "2026-06-18",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "accommodation",
-      "photos"
-    ],
-    "reliability_notes": "Official hotel grouping page used for accommodation-fit assessment.",
-    "raw_excerpt_summary": "顯示峇里島阿雅娜的四家飯店結構，有助於一站式住宿分析。"
-  },
-  {
-    "source_id": "ayana-bali-bridestory-sky-package",
-    "venue_id": "ayana-bali",
-    "source_type": "platform_agency",
-    "source_name": "Bridestory SKY Is The Limit 完整套裝",
-    "source_url": "https://www.bridestory.com/id/store/sky-is-the-limit-complete-package-100-guests-a2ad",
-    "captured_at": "2026-06-18",
-    "content_date_if_known": null,
-    "language": "id",
-    "evidence_categories": [
-      "pricing",
-      "capacity",
-      "accommodation"
-    ],
-    "reliability_notes": "Marketplace listing tied to AYANA Bali; useful for current public package visibility but still requires direct confirmation.",
-    "raw_excerpt_summary": "列出了 SKY 完整套餐，價格為 410,800,000 印尼盾，可供 100 名客人使用，包括場地使用、住宿和接待組件。"
-  },
-  {
-    "source_id": "ayana-bali-bridestory-sky-gallery",
-    "venue_id": "ayana-bali",
-    "source_type": "platform_agency",
-    "source_name": "峇里島阿雅娜的新娘故事天空",
-    "source_url": "https://www.bridestory.com/ayana-bali/projects/sky",
-    "captured_at": "2026-06-18",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "photos"
-    ],
-    "reliability_notes": "Bridestory venue project page used as an image reference rather than a contractual source.",
-    "raw_excerpt_summary": "為峇里島阿雅娜的 SKY 提供婚禮圖像和造型範例。"
-  },
-  {
-    "source_id": "ayana-bali-bridestory-tresna-gallery",
-    "venue_id": "ayana-bali",
-    "source_type": "platform_agency",
-    "source_name": "峇里島阿雅娜新娘故事特雷斯納教堂",
-    "source_url": "https://www.bridestory.com/ayana-bali/projects/tresna-chapel",
-    "captured_at": "2026-06-18",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "photos",
-      "rain_backup"
-    ],
-    "reliability_notes": "Bridestory venue project page showing the indoor chapel look and layout.",
-    "raw_excerpt_summary": "顯示特雷斯納教堂照明的室內走道和祭壇順序，以供雨天規劃視覺參考。"
-  },
-  {
-    "source_id": "ayana-bali-bridestory-villa-gallery",
-    "venue_id": "ayana-bali",
-    "source_type": "platform_agency",
-    "source_name": "新娘故事阿雅娜別墅",
-    "source_url": "https://www.bridestory.com/ayana-bali/projects/ayana-villa",
-    "captured_at": "2026-06-18",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "capacity",
-      "photos"
-    ],
-    "reliability_notes": "Useful supplemental source for AYANA Villa's seated dinner capacity and layout.",
-    "raw_excerpt_summary": "阿雅娜別墅最多可容納 180 人舉行坐式晚宴，最多可容納 500 人舉行站立活動。"
-  },
-  {
-    "source_id": "ayana-bali-tripcom-hk-hotel",
-    "venue_id": "ayana-bali",
-    "source_type": "platform_agency",
-    "source_name": "Trip.com 香港 峇里島阿雅娜度假村飯店頁",
-    "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-711373/ayana-resort-and-spa-bali/",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "zh",
-    "evidence_categories": [
-      "photos",
-      "accommodation",
-      "transport"
-    ],
-    "reliability_notes": "中文平台頁面，適合補足 AYANA 四大飯店群的整體住宿與公共空間真實感。",
-    "raw_excerpt_summary": "提供房型、公共設施與實拍照片，能快速判斷大型一站式度假村的實際氛圍與住宿尺度。"
-  },
-  {
-    "source_id": "ayana-bali-ctrip-hotel",
-    "venue_id": "ayana-bali",
-    "source_type": "platform_agency",
-    "source_name": "攜程 峇里島阿雅娜度假村飯店頁",
-    "source_url": "https://hotels.ctrip.com/hotels/711373.html",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "zh",
-    "evidence_categories": [
-      "photos",
-      "accommodation",
-      "transport"
-    ],
-    "reliability_notes": "中文訂房頁面，可補充 AYANA 住宿、泳池與園區體量的非官方視覺印象。",
-    "raw_excerpt_summary": "適合先看 AYANA 公共區域、房型與度假村規模感，再回頭判斷婚禮賓客住宿是否真正夠一站式。"
-  },
-  {
-    "source_id": "ayana-bali-balifortwo-summer-nicholas",
-    "venue_id": "ayana-bali",
-    "source_type": "editorial_case_study",
-    "source_name": "Bali For Two Summer & Nicholas 在 AYANA Tresna Chapel 的真實婚禮",
-    "source_url": "https://balifortwo2.com/summer-nicholass-wedding-at-ayana-tresna-chapel/",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "photos",
-      "capacity"
-    ],
-    "reliability_notes": "Real-wedding planner feature; useful for checking processional flow and chapel exit visuals.",
-    "raw_excerpt_summary": "真實婚禮案例，可看 Tresna Chapel 出場動線、撒花與戶外晚宴氛圍。"
-  },
-  {
-    "source_id": "ayana-bali-neverneverland-zh",
-    "venue_id": "ayana-bali",
-    "source_type": "platform_agency",
-    "source_name": "NeverNeverLand AYANA Bali 婚禮中文頁",
-    "source_url": "https://neverneverlandinbali.com/wedding/17780-2/",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "zh",
-    "evidence_categories": [
-      "pricing",
-      "photos",
-      "accommodation"
-    ],
-    "reliability_notes": "Chinese wedding-agency page; translated venue context and gallery support, but still not a contract source.",
-    "raw_excerpt_summary": "中文頁集中整理 AYANA SKY、Tresna 等婚禮場地與度假村設施，方便快速比較玩法。"
-  },
-  {
-    "source_id": "ayana-bali-xhs-post-2",
-    "venue_id": "ayana-bali",
-    "source_type": "social_inspiration",
-    "source_name": "小紅書婚禮分享 - 文件夾 2",
-    "source_url": "https://www.xiaohongshu.com",
-    "captured_at": "2026-06-21",
-    "content_date_if_known": null,
-    "language": "zh",
-    "evidence_categories": [
-      "photos"
-    ],
-    "reliability_notes": "真實婚禮評論來自小紅書用戶",
-    "raw_excerpt_summary": "水台婚禮 - 海之禮堂，倒影，日落場"
-  },
-  {
-    "source_id": "ayana-bali-xhs-post-3",
-    "venue_id": "ayana-bali",
-    "source_type": "social_inspiration",
-    "source_name": "小紅書婚禮分享 - 文件夾 3",
-    "source_url": "https://www.xiaohongshu.com",
-    "captured_at": "2026-06-21",
-    "content_date_if_known": null,
-    "language": "zh",
-    "evidence_categories": [
-      "photos"
-    ],
-    "reliability_notes": "真實婚禮評論來自小紅書用戶",
-    "raw_excerpt_summary": "總統別墅晚宴 - 50人，粉白色主題"
-  },
-  {
-    "source_id": "ayana-bali-xhs-post-7",
-    "venue_id": "ayana-bali",
-    "source_type": "social_inspiration",
-    "source_name": "小紅書婚禮分享 - 文件夾 7",
-    "source_url": "https://www.xiaohongshu.com",
-    "captured_at": "2026-06-21",
-    "content_date_if_known": null,
-    "language": "zh",
-    "evidence_categories": [
-      "photos"
-    ],
-    "reliability_notes": "真實婚禮評論來自小紅書用戶",
-    "raw_excerpt_summary": "SKY 場地 - 專屬婚禮區域，4個大草坪"
-  }
+    {
+        "source_id": "ayana-bali-official-estate",
+        "venue_id": "ayana-bali",
+        "source_type": "official",
+        "source_name": "峇里島阿雅娜官方莊園概覽",
+        "source_url": "https://www.ayana.com/bali/",
+        "captured_at": "2026-06-18",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "accommodation",
+            "transport",
+            "photos"
+        ],
+        "reliability_notes": "Official resort overview with current estate-level accommodation and access context.",
+        "raw_excerpt_summary": "阿雅娜酒店佔地 90 公頃，擁有四家飯店，距離峇里島機場約 20 分鐘車程。"
+    },
+    {
+        "source_id": "ayana-bali-official-weddings",
+        "venue_id": "ayana-bali",
+        "source_type": "official",
+        "source_name": "峇里島阿雅娜婚禮中心",
+        "source_url": "https://www.ayana.com/bali/weddings/",
+        "captured_at": "2026-06-18",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "capacity",
+            "photos",
+            "restrictions",
+            "rain_backup"
+        ],
+        "reliability_notes": "Official wedding page listing current venue mix and headline capacities.",
+        "raw_excerpt_summary": "展示阿雅娜的場地組合，從天空和教堂到花園和宴會廳，包括儀式和接待能力。"
+    },
+    {
+        "source_id": "ayana-bali-official-sky",
+        "venue_id": "ayana-bali",
+        "source_type": "official",
+        "source_name": "阿雅娜天空婚禮場地",
+        "source_url": "https://www.ayana.com/bali/weddings/sky/",
+        "captured_at": "2026-06-18",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "capacity",
+            "photos",
+            "restrictions"
+        ],
+        "reliability_notes": "Official venue page for SKY, useful for the resort's most iconic cliff-edge platform.",
+        "raw_excerpt_summary": "States SKY 位於印度洋上方 35 公尺處，面積 7,500 平方米，專為私人懸崖邊緣活動而設計。"
+    },
+    {
+        "source_id": "ayana-bali-official-tresna",
+        "venue_id": "ayana-bali",
+        "source_type": "official",
+        "source_name": "阿雅娜特雷斯納禮拜堂套餐頁面",
+        "source_url": "https://www.ayana.com/bali/weddings/packages/tresnadream-wedding/",
+        "captured_at": "2026-06-18",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "capacity",
+            "rain_backup",
+            "photos"
+        ],
+        "reliability_notes": "Official package page proving AYANA has a fully indoor chapel option.",
+        "raw_excerpt_summary": "將特雷斯納教堂描述為室內場所，並宣傳儀式裝飾最多可容納 50 人。"
+    },
+    {
+        "source_id": "ayana-bali-official-hotels",
+        "venue_id": "ayana-bali",
+        "source_type": "official",
+        "source_name": "峇里島阿雅娜飯店概覽",
+        "source_url": "https://www.ayana.com/bali/hotels/",
+        "captured_at": "2026-06-18",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "accommodation",
+            "photos"
+        ],
+        "reliability_notes": "Official hotel grouping page used for accommodation-fit assessment.",
+        "raw_excerpt_summary": "顯示峇里島阿雅娜的四家飯店結構，有助於一站式住宿分析。"
+    },
+    {
+        "source_id": "ayana-bali-bridestory-sky-package",
+        "venue_id": "ayana-bali",
+        "source_type": "platform_agency",
+        "source_name": "Bridestory SKY Is The Limit 完整套裝",
+        "source_url": "https://www.bridestory.com/id/store/sky-is-the-limit-complete-package-100-guests-a2ad",
+        "captured_at": "2026-06-18",
+        "content_date_if_known": null,
+        "language": "id",
+        "evidence_categories": [
+            "pricing",
+            "capacity",
+            "accommodation"
+        ],
+        "reliability_notes": "Marketplace listing tied to AYANA Bali; useful for current public package visibility but still requires direct confirmation.",
+        "raw_excerpt_summary": "列出了 SKY 完整套餐，價格為 410,800,000 印尼盾，可供 100 名客人使用，包括場地使用、住宿和接待組件。"
+    },
+    {
+        "source_id": "ayana-bali-bridestory-sky-gallery",
+        "venue_id": "ayana-bali",
+        "source_type": "platform_agency",
+        "source_name": "峇里島阿雅娜的新娘故事天空",
+        "source_url": "https://www.bridestory.com/ayana-bali/projects/sky",
+        "captured_at": "2026-06-18",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "photos"
+        ],
+        "reliability_notes": "Bridestory venue project page used as an image reference rather than a contractual source.",
+        "raw_excerpt_summary": "為峇里島阿雅娜的 SKY 提供婚禮圖像和造型範例。"
+    },
+    {
+        "source_id": "ayana-bali-bridestory-tresna-gallery",
+        "venue_id": "ayana-bali",
+        "source_type": "platform_agency",
+        "source_name": "峇里島阿雅娜新娘故事特雷斯納教堂",
+        "source_url": "https://www.bridestory.com/ayana-bali/projects/tresna-chapel",
+        "captured_at": "2026-06-18",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "photos",
+            "rain_backup"
+        ],
+        "reliability_notes": "Bridestory venue project page showing the indoor chapel look and layout.",
+        "raw_excerpt_summary": "顯示特雷斯納教堂照明的室內走道和祭壇順序，以供雨天規劃視覺參考。"
+    },
+    {
+        "source_id": "ayana-bali-bridestory-villa-gallery",
+        "venue_id": "ayana-bali",
+        "source_type": "platform_agency",
+        "source_name": "新娘故事阿雅娜別墅",
+        "source_url": "https://www.bridestory.com/ayana-bali/projects/ayana-villa",
+        "captured_at": "2026-06-18",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "capacity",
+            "photos"
+        ],
+        "reliability_notes": "Useful supplemental source for AYANA Villa's seated dinner capacity and layout.",
+        "raw_excerpt_summary": "阿雅娜別墅最多可容納 180 人舉行坐式晚宴，最多可容納 500 人舉行站立活動。"
+    },
+    {
+        "source_id": "ayana-bali-tripcom-hk-hotel",
+        "venue_id": "ayana-bali",
+        "source_type": "platform_agency",
+        "source_name": "Trip.com 香港 峇里島阿雅娜度假村飯店頁",
+        "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-711373/ayana-resort-and-spa-bali/",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "photos",
+            "accommodation",
+            "transport"
+        ],
+        "reliability_notes": "中文平台頁面，適合補足 AYANA 四大飯店群的整體住宿與公共空間真實感。",
+        "raw_excerpt_summary": "提供房型、公共設施與實拍照片，能快速判斷大型一站式度假村的實際氛圍與住宿尺度。"
+    },
+    {
+        "source_id": "ayana-bali-ctrip-hotel",
+        "venue_id": "ayana-bali",
+        "source_type": "platform_agency",
+        "source_name": "攜程 峇里島阿雅娜度假村飯店頁",
+        "source_url": "https://hotels.ctrip.com/hotels/711373.html",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "photos",
+            "accommodation",
+            "transport"
+        ],
+        "reliability_notes": "中文訂房頁面，可補充 AYANA 住宿、泳池與園區體量的非官方視覺印象。",
+        "raw_excerpt_summary": "適合先看 AYANA 公共區域、房型與度假村規模感，再回頭判斷婚禮賓客住宿是否真正夠一站式。"
+    },
+    {
+        "source_id": "ayana-bali-balifortwo-summer-nicholas",
+        "venue_id": "ayana-bali",
+        "source_type": "editorial_case_study",
+        "source_name": "Bali For Two Summer & Nicholas 在 AYANA Tresna Chapel 的真實婚禮",
+        "source_url": "https://balifortwo2.com/summer-nicholass-wedding-at-ayana-tresna-chapel/",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "photos",
+            "capacity"
+        ],
+        "reliability_notes": "Real-wedding planner feature; useful for checking processional flow and chapel exit visuals.",
+        "raw_excerpt_summary": "真實婚禮案例，可看 Tresna Chapel 出場動線、撒花與戶外晚宴氛圍。"
+    },
+    {
+        "source_id": "ayana-bali-neverneverland-zh",
+        "venue_id": "ayana-bali",
+        "source_type": "platform_agency",
+        "source_name": "NeverNeverLand AYANA Bali 婚禮中文頁",
+        "source_url": "https://neverneverlandinbali.com/wedding/17780-2/",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "pricing",
+            "photos",
+            "accommodation"
+        ],
+        "reliability_notes": "Chinese wedding-agency page; translated venue context and gallery support, but still not a contract source.",
+        "raw_excerpt_summary": "中文頁集中整理 AYANA SKY、Tresna 等婚禮場地與度假村設施，方便快速比較玩法。"
+    },
+    {
+        "source_id": "ayana-bali-xhs-post-2",
+        "venue_id": "ayana-bali",
+        "source_type": "social_inspiration",
+        "source_name": "小紅書婚禮分享 - 文件夾 2",
+        "source_url": "https://www.xiaohongshu.com",
+        "captured_at": "2026-06-21",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "photos"
+        ],
+        "reliability_notes": "真實婚禮評論來自小紅書用戶",
+        "raw_excerpt_summary": "水台婚禮 - 海之禮堂，倒影，日落場"
+    },
+    {
+        "source_id": "ayana-bali-xhs-post-3",
+        "venue_id": "ayana-bali",
+        "source_type": "social_inspiration",
+        "source_name": "小紅書婚禮分享 - 文件夾 3",
+        "source_url": "https://www.xiaohongshu.com",
+        "captured_at": "2026-06-21",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "photos"
+        ],
+        "reliability_notes": "真實婚禮評論來自小紅書用戶",
+        "raw_excerpt_summary": "總統別墅晚宴 - 50人，粉白色主題"
+    },
+    {
+        "source_id": "ayana-bali-xhs-post-7",
+        "venue_id": "ayana-bali",
+        "source_type": "social_inspiration",
+        "source_name": "小紅書婚禮分享 - 文件夾 7",
+        "source_url": "https://www.xiaohongshu.com",
+        "captured_at": "2026-06-21",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "photos"
+        ],
+        "reliability_notes": "真實婚禮評論來自小紅書用戶",
+        "raw_excerpt_summary": "SKY 場地 - 專屬婚禮區域，4個大草坪"
+    },
+    {
+        "source_id": "ayana-bali-xhs-post-11",
+        "venue_id": "ayana-bali",
+        "source_type": "social_inspiration",
+        "source_name": "小紅書婚禮策劃師分享 - Jenny 婚禮案例",
+        "source_url": "https://www.xiaohongshu.com",
+        "captured_at": "2026-06-21",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "photos"
+        ],
+        "reliability_notes": "小紅書婚禮策劃師 Jenny 分享的婚禮案例照片，帖子涉及教堂婚禮 hashtag，與阿雅娜的場地風格相符。",
+        "raw_excerpt_summary": "婚禮策劃師 Jenny 的服務套餐廣告，包含婚紗、攝影、化妝、主持人等全套服務。照片展示了峇里島奢華酒店的真實婚禮場景，hashtag 包含 #教堂婚禮。"
+    }
 ]
