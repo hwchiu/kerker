@@ -1,17 +1,33 @@
 [
-  {
-    "source_id": "pandawa-cliff-estate-xhs-post-1",
-    "venue_id": "pandawa-cliff-estate",
-    "source_type": "social_inspiration",
-    "source_name": "小紅書婚禮分享 - 文件夾 1",
-    "source_url": "https://www.xiaohongshu.com",
-    "captured_at": "2026-06-21",
-    "content_date_if_known": null,
-    "language": "zh",
-    "evidence_categories": [
-      "photos"
-    ],
-    "reliability_notes": "真實婚禮評論來自小紅書用戶",
-    "raw_excerpt_summary": "晚宴布置細節 - 仙女燈、配件盒、菜單設計、DJ 台、開放式酒吧"
-  }
+    {
+        "source_id": "pandawa-cliff-estate-xhs-post-1",
+        "venue_id": "pandawa-cliff-estate",
+        "source_type": "social_inspiration",
+        "source_name": "小紅書婚禮分享 - 文件夾 1",
+        "source_url": "https://www.xiaohongshu.com",
+        "captured_at": "2026-06-21",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "photos"
+        ],
+        "reliability_notes": "真實婚禮評論來自小紅書用戶",
+        "raw_excerpt_summary": "晚宴布置細節 - 仙女燈、配件盒、菜單設計、DJ 台、開放式酒吧"
+    },
+    {
+        "source_id": "pandawa-cliff-estate-xhs-post-4",
+        "venue_id": "pandawa-cliff-estate",
+        "source_type": "social_inspiration",
+        "source_name": "小紅書比較文 - Pandawa vs 宝格里小型婚礼对比",
+        "source_url": "https://www.xiaohongshu.com",
+        "captured_at": "2026-06-21",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "pricing",
+            "capacity"
+        ],
+        "reliability_notes": "小紅書用戶將 Pandawa Cliff Estate 與宝格里作為 20+ 人小型婚禮的比較對象，提供兩場地的優缺點。",
+        "raw_excerpt_summary": "比較文：Pandawa Cliff Estate 與宝格里作為20人以上小型婚禮的比較。Pandawa 的懸崖莊園性價比高、私密性好；宝格里則為頂奢品牌，更具知名度。"
+    }
 ]

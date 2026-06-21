@@ -1,307 +1,307 @@
 [
-  {
-    "source_id": "conrad-bali-official-resort",
-    "venue_id": "conrad-bali",
-    "source_type": "official",
-    "source_name": "峇里島康萊德度假村概覽",
-    "source_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "photos",
-      "accommodation"
-    ],
-    "reliability_notes": "Primary official resort page for Conrad's beachfront positioning and overall luxury-resort identity.",
-    "raw_excerpt_summary": "確認峇里島康萊德酒店是位於南灣努沙杜瓦海岸的屢獲殊榮的熱帶海灘度假酒店。"
-  },
-  {
-    "source_id": "conrad-bali-official-weddings",
-    "venue_id": "conrad-bali",
-    "source_type": "official",
-    "source_name": "峇里島康萊德飯店婚禮頁面",
-    "source_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/weddings/",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "capacity",
-      "photos",
-      "restrictions"
-    ],
-    "reliability_notes": "Best official wedding hub for the property's wedding positioning and venue mix.",
-    "raw_excerpt_summary": "峇里島康萊德酒店位於其屢獲殊榮的海濱教堂和專門建造的婚禮場地周圍。"
-  },
-  {
-    "source_id": "conrad-bali-official-wedding-packages",
-    "venue_id": "conrad-bali",
-    "source_type": "official",
-    "source_name": "峇里島康萊德飯店婚禮方案頁面",
-    "source_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/weddings/wedding-packages/",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "capacity",
-      "photos",
-      "rain_backup"
-    ],
-    "reliability_notes": "Official source for the signature Infinity Chapel description and venue framing.",
-    "raw_excerpt_summary": "將無限教堂描述為一個建築獨特的場所，漂浮在海拔兩米處，可欣賞海景。"
-  },
-  {
-    "source_id": "conrad-bali-official-location",
-    "venue_id": "conrad-bali",
-    "source_type": "official",
-    "source_name": "峇里島康萊德飯店位置頁面",
-    "source_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/hotel-location/",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "transport"
-    ],
-    "reliability_notes": "Official route-planning source with airport distance and time.",
-    "raw_excerpt_summary": "據介紹，距離機場10公里，車程約半小時。"
-  },
-  {
-    "source_id": "conrad-bali-official-rooms",
-    "venue_id": "conrad-bali",
-    "source_type": "official",
-    "source_name": "峇里島康萊德飯店客房和套房頁面",
-    "source_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/rooms/",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "accommodation",
-      "photos"
-    ],
-    "reliability_notes": "Official accommodation source for room and suite coverage.",
-    "raw_excerpt_summary": "顯示度假村可用於目的地婚禮房區的客房和套房範圍。"
-  },
-  {
-    "source_id": "conrad-bali-official-gallery",
-    "venue_id": "conrad-bali",
-    "source_type": "official",
-    "source_name": "峇里島康萊德畫廊",
-    "source_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/gallery/",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "photos",
-      "accommodation"
-    ],
-    "reliability_notes": "Official gallery for rooms, public areas, and overall resort visuals.",
-    "raw_excerpt_summary": "提供度假村及其公共區域的官方照片。"
-  },
-  {
-    "source_id": "conrad-bali-official-indonesian-weddings",
-    "venue_id": "conrad-bali",
-    "source_type": "official",
-    "source_name": "峇里島康萊德印尼婚禮頁面",
-    "source_url": "https://www.hilton.com/id/hotels/bpncici-conrad-bali/weddings/",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "id",
-    "evidence_categories": [
-      "capacity",
-      "rain_backup"
-    ],
-    "reliability_notes": "Official localized wedding page with a clearer all-up guest limit than the English hub.",
-    "raw_excerpt_summary": "峇里島康萊德飯店可舉辦婚禮，從親密誓言到慶祝活動，最多可容納 300 位賓客。"
-  },
-  {
-    "source_id": "conrad-bali-hilton-stories-anniversary",
-    "venue_id": "conrad-bali",
-    "source_type": "official",
-    "source_name": "峇里島康萊德希爾頓飯店 20 週年紀念文章",
-    "source_url": "https://stories.hilton.com/releases/conrad-bali-celebrates-20-years-with-20-inspiring-and-purposeful-moments",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "accommodation"
-    ],
-    "reliability_notes": "Corporate Hilton story used for the room inventory figure.",
-    "raw_excerpt_summary": "度假村擁有 368 間客房和套房。"
-  },
-  {
-    "source_id": "conrad-bali-bridestory-venue",
-    "venue_id": "conrad-bali",
-    "source_type": "platform_agency",
-    "source_name": "Bridestory 峇里島康萊德飯店場地列表",
-    "source_url": "https://www.bridestory.com/conrad-bali",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "photos"
-    ],
-    "reliability_notes": "Useful umbrella page connecting Conrad's public packages and project galleries.",
-    "raw_excerpt_summary": "作為峇里島康萊德酒店的主要 Bridestory 畫廊和套餐索引。"
-  },
-  {
-    "source_id": "conrad-bali-bridestory-ceremony-reception-package",
-    "venue_id": "conrad-bali",
-    "source_type": "platform_agency",
-    "source_name": "Bridestory 康萊德儀式與招待會套餐",
-    "source_url": "https://www.bridestory.com/store/conrad-bali-wedding-ceremony-reception-package-d93b",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "pricing",
-      "capacity",
-      "accommodation"
-    ],
-    "reliability_notes": "Public package page with clear 50- and 100-guest pricing plus accommodation inclusions.",
-    "raw_excerpt_summary": "顯示 50 位客人的價格為 380,000,000 印尼盾，100 位客人的價格為 555,000,000 印尼盾，包含場地使用、晚餐和住宿。"
-  },
-  {
-    "source_id": "conrad-bali-bridestory-infinity-chapel",
-    "venue_id": "conrad-bali",
-    "source_type": "platform_agency",
-    "source_name": "Bridestory Infinity Chapel 20 人套餐",
-    "source_url": "https://www.bridestory.com/store/infinity-chapel-20-pax-nusa-dua-3538",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "pricing",
-      "capacity",
-      "photos"
-    ],
-    "reliability_notes": "Useful for a small-format ceremony price anchor and a descriptive visual summary of the chapel.",
-    "raw_excerpt_summary": "列出了無邊教堂儀式的價格為 76,895,000 印尼盾，並描述教堂建在海拔兩米的無邊泳池頂上。"
-  },
-  {
-    "source_id": "conrad-bali-bridestory-bale",
-    "venue_id": "conrad-bali",
-    "source_type": "platform_agency",
-    "source_name": "Bridestory 婚禮場地 - Bale by Conrad Bali",
-    "source_url": "https://www.bridestory.com/conrad-bali/projects/wedding-venue-bale",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": "2017-11-21",
-    "language": "en",
-    "evidence_categories": [
-      "photos"
-    ],
-    "reliability_notes": "Useful project page for beachside and lawn-style ceremony visuals.",
-    "raw_excerpt_summary": "為康萊德的貝爾儀式場景添加聚焦影像。"
-  },
-  {
-    "source_id": "conrad-bali-bridestory-ocean-garden",
-    "venue_id": "conrad-bali",
-    "source_type": "platform_agency",
-    "source_name": "Bridestory 場地 - 峇里島康萊德海洋花園酒店",
-    "source_url": "https://www.bridestory.com/conrad-bali/projects/venue-ocean-garden",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "photos"
-    ],
-    "reliability_notes": "Useful project page for Conrad's dinner and reception atmosphere outdoors.",
-    "raw_excerpt_summary": "為海洋花園接待設置提供視覺參考。"
-  },
-  {
-    "source_id": "conrad-bali-tripcom-hk-hotel",
-    "venue_id": "conrad-bali",
-    "source_type": "platform_agency",
-    "source_name": "Trip.com 香港 峇里康萊德度假村飯店頁",
-    "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-926122/conrad-bali?locale=en-HK",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "zh",
-    "evidence_categories": [
-      "photos",
-      "accommodation",
-      "transport"
-    ],
-    "reliability_notes": "中文訂房平台頁面，適合補看房型、泳池、公共區域與度假村整體真實感。",
-    "raw_excerpt_summary": "可用來快速比對康萊德峇里在住宿品質、泳池尺度與公共空間氛圍上是否符合婚禮賓客入住期待。"
-  },
-  {
-    "source_id": "conrad-bali-ctrip-hotel",
-    "venue_id": "conrad-bali",
-    "source_type": "platform_agency",
-    "source_name": "攜程 峇里康萊德度假村飯店頁",
-    "source_url": "https://hotels.ctrip.com/hotels/926122.html",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "zh",
-    "evidence_categories": [
-      "photos",
-      "accommodation",
-      "transport"
-    ],
-    "reliability_notes": "中文訂房平台來源，可補充康萊德的房型實景、公共空間與交通住宿資訊。",
-    "raw_excerpt_summary": "適合先看飯店實拍與住客視角，再決定康萊德是否同時滿足婚禮場地與大批賓客住宿需求。"
-  },
-  {
-    "source_id": "conrad-bali-balifortwo-kaedi-dylan",
-    "venue_id": "conrad-bali",
-    "source_type": "editorial_case_study",
-    "source_name": "Bali For Two Kaedi & Dylan 在康萊德的真實婚禮",
-    "source_url": "https://balifortwo2.com/kaedi-dylans-wedding-at-conrad/",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "en",
-    "evidence_categories": [
-      "photos",
-      "capacity"
-    ],
-    "reliability_notes": "Real-wedding planner feature; good for visual validation of scale and setup.",
-    "raw_excerpt_summary": "真實婚禮案例，可直接看 Infinity Chapel 的白花佈置、通道寬度與海邊晚宴氛圍。"
-  },
-  {
-    "source_id": "conrad-bali-neverneverland-zh",
-    "venue_id": "conrad-bali",
-    "source_type": "platform_agency",
-    "source_name": "NeverNeverLand 康萊德峇里島婚禮中文頁",
-    "source_url": "https://neverneverlandinbali.com/16585-2/",
-    "captured_at": "2026-06-19",
-    "content_date_if_known": null,
-    "language": "zh",
-    "evidence_categories": [
-      "pricing",
-      "photos",
-      "accommodation"
-    ],
-    "reliability_notes": "Chinese wedding-agency page; useful for translated venue summary and visuals.",
-    "raw_excerpt_summary": "中文頁概述康萊德 Infinity Chapel、水台與花園場地，適合快速理解場地分布與住宿量體。"
-  },
-  {
-    "source_id": "conrad-bali-xhs-post-6",
-    "venue_id": "conrad-bali",
-    "source_type": "social_inspiration",
-    "source_name": "小紅書婚禮分享 - 文件夾 6",
-    "source_url": "https://www.xiaohongshu.com",
-    "captured_at": "2026-06-21",
-    "content_date_if_known": null,
-    "language": "zh",
-    "evidence_categories": [
-      "photos"
-    ],
-    "reliability_notes": "真實婚禮評論來自小紅書用戶",
-    "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
-  },
-  {
-    "source_id": "conrad-bali-xhs-post-18",
-    "venue_id": "conrad-bali",
-    "source_type": "social_inspiration",
-    "source_name": "Chapel comparison - Conrad Bali",
-    "source_url": "https://www.xiaohongshu.com",
-    "captured_at": "2026-06-21",
-    "content_date_if_known": null,
-    "language": "zh",
-    "evidence_categories": [
-      "pricing",
-      "capacity"
-    ],
-    "reliability_notes": "Chapel comparison post across 6 Bali venues with pricing tiers",
-    "raw_excerpt_summary": "Chapel comparison - Conrad Bali。价格: 3.6-4.6万。特点: Water pool chapel with renovated dressing room, multiple dinner options。容量: Limited"
-  }
+    {
+        "source_id": "conrad-bali-official-resort",
+        "venue_id": "conrad-bali",
+        "source_type": "official",
+        "source_name": "峇里島康萊德度假村概覽",
+        "source_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "photos",
+            "accommodation"
+        ],
+        "reliability_notes": "Primary official resort page for Conrad's beachfront positioning and overall luxury-resort identity.",
+        "raw_excerpt_summary": "確認峇里島康萊德酒店是位於南灣努沙杜瓦海岸的屢獲殊榮的熱帶海灘度假酒店。"
+    },
+    {
+        "source_id": "conrad-bali-official-weddings",
+        "venue_id": "conrad-bali",
+        "source_type": "official",
+        "source_name": "峇里島康萊德飯店婚禮頁面",
+        "source_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/weddings/",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "capacity",
+            "photos",
+            "restrictions"
+        ],
+        "reliability_notes": "Best official wedding hub for the property's wedding positioning and venue mix.",
+        "raw_excerpt_summary": "峇里島康萊德酒店位於其屢獲殊榮的海濱教堂和專門建造的婚禮場地周圍。"
+    },
+    {
+        "source_id": "conrad-bali-official-wedding-packages",
+        "venue_id": "conrad-bali",
+        "source_type": "official",
+        "source_name": "峇里島康萊德飯店婚禮方案頁面",
+        "source_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/weddings/wedding-packages/",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "capacity",
+            "photos",
+            "rain_backup"
+        ],
+        "reliability_notes": "Official source for the signature Infinity Chapel description and venue framing.",
+        "raw_excerpt_summary": "將無限教堂描述為一個建築獨特的場所，漂浮在海拔兩米處，可欣賞海景。"
+    },
+    {
+        "source_id": "conrad-bali-official-location",
+        "venue_id": "conrad-bali",
+        "source_type": "official",
+        "source_name": "峇里島康萊德飯店位置頁面",
+        "source_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/hotel-location/",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "transport"
+        ],
+        "reliability_notes": "Official route-planning source with airport distance and time.",
+        "raw_excerpt_summary": "據介紹，距離機場10公里，車程約半小時。"
+    },
+    {
+        "source_id": "conrad-bali-official-rooms",
+        "venue_id": "conrad-bali",
+        "source_type": "official",
+        "source_name": "峇里島康萊德飯店客房和套房頁面",
+        "source_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/rooms/",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "accommodation",
+            "photos"
+        ],
+        "reliability_notes": "Official accommodation source for room and suite coverage.",
+        "raw_excerpt_summary": "顯示度假村可用於目的地婚禮房區的客房和套房範圍。"
+    },
+    {
+        "source_id": "conrad-bali-official-gallery",
+        "venue_id": "conrad-bali",
+        "source_type": "official",
+        "source_name": "峇里島康萊德畫廊",
+        "source_url": "https://www.hilton.com/en/hotels/bpncici-conrad-bali/gallery/",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "photos",
+            "accommodation"
+        ],
+        "reliability_notes": "Official gallery for rooms, public areas, and overall resort visuals.",
+        "raw_excerpt_summary": "提供度假村及其公共區域的官方照片。"
+    },
+    {
+        "source_id": "conrad-bali-official-indonesian-weddings",
+        "venue_id": "conrad-bali",
+        "source_type": "official",
+        "source_name": "峇里島康萊德印尼婚禮頁面",
+        "source_url": "https://www.hilton.com/id/hotels/bpncici-conrad-bali/weddings/",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "id",
+        "evidence_categories": [
+            "capacity",
+            "rain_backup"
+        ],
+        "reliability_notes": "Official localized wedding page with a clearer all-up guest limit than the English hub.",
+        "raw_excerpt_summary": "峇里島康萊德飯店可舉辦婚禮，從親密誓言到慶祝活動，最多可容納 300 位賓客。"
+    },
+    {
+        "source_id": "conrad-bali-hilton-stories-anniversary",
+        "venue_id": "conrad-bali",
+        "source_type": "official",
+        "source_name": "峇里島康萊德希爾頓飯店 20 週年紀念文章",
+        "source_url": "https://stories.hilton.com/releases/conrad-bali-celebrates-20-years-with-20-inspiring-and-purposeful-moments",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "accommodation"
+        ],
+        "reliability_notes": "Corporate Hilton story used for the room inventory figure.",
+        "raw_excerpt_summary": "度假村擁有 368 間客房和套房。"
+    },
+    {
+        "source_id": "conrad-bali-bridestory-venue",
+        "venue_id": "conrad-bali",
+        "source_type": "platform_agency",
+        "source_name": "Bridestory 峇里島康萊德飯店場地列表",
+        "source_url": "https://www.bridestory.com/conrad-bali",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "photos"
+        ],
+        "reliability_notes": "Useful umbrella page connecting Conrad's public packages and project galleries.",
+        "raw_excerpt_summary": "作為峇里島康萊德酒店的主要 Bridestory 畫廊和套餐索引。"
+    },
+    {
+        "source_id": "conrad-bali-bridestory-ceremony-reception-package",
+        "venue_id": "conrad-bali",
+        "source_type": "platform_agency",
+        "source_name": "Bridestory 康萊德儀式與招待會套餐",
+        "source_url": "https://www.bridestory.com/store/conrad-bali-wedding-ceremony-reception-package-d93b",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "pricing",
+            "capacity",
+            "accommodation"
+        ],
+        "reliability_notes": "Public package page with clear 50- and 100-guest pricing plus accommodation inclusions.",
+        "raw_excerpt_summary": "顯示 50 位客人的價格為 380,000,000 印尼盾，100 位客人的價格為 555,000,000 印尼盾，包含場地使用、晚餐和住宿。"
+    },
+    {
+        "source_id": "conrad-bali-bridestory-infinity-chapel",
+        "venue_id": "conrad-bali",
+        "source_type": "platform_agency",
+        "source_name": "Bridestory Infinity Chapel 20 人套餐",
+        "source_url": "https://www.bridestory.com/store/infinity-chapel-20-pax-nusa-dua-3538",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "pricing",
+            "capacity",
+            "photos"
+        ],
+        "reliability_notes": "Useful for a small-format ceremony price anchor and a descriptive visual summary of the chapel.",
+        "raw_excerpt_summary": "列出了無邊教堂儀式的價格為 76,895,000 印尼盾，並描述教堂建在海拔兩米的無邊泳池頂上。"
+    },
+    {
+        "source_id": "conrad-bali-bridestory-bale",
+        "venue_id": "conrad-bali",
+        "source_type": "platform_agency",
+        "source_name": "Bridestory 婚禮場地 - Bale by Conrad Bali",
+        "source_url": "https://www.bridestory.com/conrad-bali/projects/wedding-venue-bale",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": "2017-11-21",
+        "language": "en",
+        "evidence_categories": [
+            "photos"
+        ],
+        "reliability_notes": "Useful project page for beachside and lawn-style ceremony visuals.",
+        "raw_excerpt_summary": "為康萊德的貝爾儀式場景添加聚焦影像。"
+    },
+    {
+        "source_id": "conrad-bali-bridestory-ocean-garden",
+        "venue_id": "conrad-bali",
+        "source_type": "platform_agency",
+        "source_name": "Bridestory 場地 - 峇里島康萊德海洋花園酒店",
+        "source_url": "https://www.bridestory.com/conrad-bali/projects/venue-ocean-garden",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "photos"
+        ],
+        "reliability_notes": "Useful project page for Conrad's dinner and reception atmosphere outdoors.",
+        "raw_excerpt_summary": "為海洋花園接待設置提供視覺參考。"
+    },
+    {
+        "source_id": "conrad-bali-tripcom-hk-hotel",
+        "venue_id": "conrad-bali",
+        "source_type": "platform_agency",
+        "source_name": "Trip.com 香港 峇里康萊德度假村飯店頁",
+        "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-926122/conrad-bali?locale=en-HK",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "photos",
+            "accommodation",
+            "transport"
+        ],
+        "reliability_notes": "中文訂房平台頁面，適合補看房型、泳池、公共區域與度假村整體真實感。",
+        "raw_excerpt_summary": "可用來快速比對康萊德峇里在住宿品質、泳池尺度與公共空間氛圍上是否符合婚禮賓客入住期待。"
+    },
+    {
+        "source_id": "conrad-bali-ctrip-hotel",
+        "venue_id": "conrad-bali",
+        "source_type": "platform_agency",
+        "source_name": "攜程 峇里康萊德度假村飯店頁",
+        "source_url": "https://hotels.ctrip.com/hotels/926122.html",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "photos",
+            "accommodation",
+            "transport"
+        ],
+        "reliability_notes": "中文訂房平台來源，可補充康萊德的房型實景、公共空間與交通住宿資訊。",
+        "raw_excerpt_summary": "適合先看飯店實拍與住客視角，再決定康萊德是否同時滿足婚禮場地與大批賓客住宿需求。"
+    },
+    {
+        "source_id": "conrad-bali-balifortwo-kaedi-dylan",
+        "venue_id": "conrad-bali",
+        "source_type": "editorial_case_study",
+        "source_name": "Bali For Two Kaedi & Dylan 在康萊德的真實婚禮",
+        "source_url": "https://balifortwo2.com/kaedi-dylans-wedding-at-conrad/",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "en",
+        "evidence_categories": [
+            "photos",
+            "capacity"
+        ],
+        "reliability_notes": "Real-wedding planner feature; good for visual validation of scale and setup.",
+        "raw_excerpt_summary": "真實婚禮案例，可直接看 Infinity Chapel 的白花佈置、通道寬度與海邊晚宴氛圍。"
+    },
+    {
+        "source_id": "conrad-bali-neverneverland-zh",
+        "venue_id": "conrad-bali",
+        "source_type": "platform_agency",
+        "source_name": "NeverNeverLand 康萊德峇里島婚禮中文頁",
+        "source_url": "https://neverneverlandinbali.com/16585-2/",
+        "captured_at": "2026-06-19",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "pricing",
+            "photos",
+            "accommodation"
+        ],
+        "reliability_notes": "Chinese wedding-agency page; useful for translated venue summary and visuals.",
+        "raw_excerpt_summary": "中文頁概述康萊德 Infinity Chapel、水台與花園場地，適合快速理解場地分布與住宿量體。"
+    },
+    {
+        "source_id": "conrad-bali-xhs-post-6",
+        "venue_id": "conrad-bali",
+        "source_type": "social_inspiration",
+        "source_name": "小紅書婚禮分享 - 文件夾 6",
+        "source_url": "https://www.xiaohongshu.com",
+        "captured_at": "2026-06-21",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "photos"
+        ],
+        "reliability_notes": "真實婚禮評論來自小紅書用戶",
+        "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
+    },
+    {
+        "source_id": "conrad-bali-xhs-post-18",
+        "venue_id": "conrad-bali",
+        "source_type": "social_inspiration",
+        "source_name": "小紅書教堂比較 - 康萊德 (巴厘岛TOP教堂场地)",
+        "source_url": "https://www.xiaohongshu.com",
+        "captured_at": "2026-06-21",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "pricing",
+            "capacity"
+        ],
+        "reliability_notes": "Chapel comparison post across 6 Bali venues with pricing tiers",
+        "raw_excerpt_summary": "教堂場地比較文章。康萊德教堂：套餐3.6-4.6萬人民幣（依時段分檔），教堂建於水池之上、長水道走道儀式感強，視野開闊，沙灘鄰近方便婚後拍照，化妝室剛完成翻修（品質高、顏值佳），晚宴場地選擇多、低消可接受。"
+    }
 ]
