@@ -3,3 +3,4 @@ worktrees/
 __pycache__/
 site/
 data/photo-assets/
+.DS_Store

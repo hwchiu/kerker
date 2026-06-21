@@ -3,6 +3,7 @@ from __future__ import annotations
 from datetime import date
 from hashlib import md5
 from html import unescape
+import io
 from pathlib import Path
 import re
 from shutil import copy2, rmtree
@@ -574,6 +575,53 @@ def write_photo_assets(
     return manifest_path
 
 
+def _is_venue_photo(image_bytes: bytes) -> bool:
+    """Return False for images that are clearly not venue/ceremony photos.
+
+    Filters out:
+    - Tiny images (thumbnails, icons, badges scraped by accident)
+    - Mostly-transparent images (logos, watermarks, copy-protection overlays)
+    - Nearly-blank white/near-white images with very low visual complexity
+      (product detail shots on white backgrounds — dress on hanger, shoes, bags)
+    """
+    try:
+        from PIL import Image
+
+        img = Image.open(io.BytesIO(image_bytes))
+        w, h = img.size
+        if min(w, h) < 200:
+            return False
+
+        if img.mode in ("RGBA", "LA", "PA"):
+            rgba = img.convert("RGBA")
+            pixels = list(rgba.getdata())
+            transparent_count = sum(1 for p in pixels if p[3] < 128)
+            if transparent_count / len(pixels) > 0.5:
+                return False
+
+        rgb = img.convert("RGB").resize((64, 64))
+        pixels_rgb = list(rgb.getdata())
+        n = len(pixels_rgb)
+        near_white = sum(
+            1 for r, g, b in pixels_rgb if r > 215 and g > 215 and b > 215
+        )
+        if near_white / n > 0.85:
+            mean_r = sum(r for r, g, b in pixels_rgb) / n
+            mean_g = sum(g for r, g, b in pixels_rgb) / n
+            mean_b = sum(b for r, g, b in pixels_rgb) / n
+            variance = sum(
+                (r - mean_r) ** 2 + (g - mean_g) ** 2 + (b - mean_b) ** 2
+                for r, g, b in pixels_rgb
+            ) / (n * 3)
+            std = variance ** 0.5
+            if std < 30:
+                return False
+
+        return True
+    except Exception:
+        return True
+
+
 def copy_photo_assets_for_site(root: Path, output_dir: Path) -> dict[str, list[str]]:
     root = root.resolve()
     manifest_path = workspace_paths(root)["derived"] / "photo-assets.json"
@@ -608,6 +656,8 @@ def copy_photo_assets_for_site(root: Path, output_dir: Path) -> dict[str, list[s
             except ValueError:
                 continue
             target_path = site_assets_root / relative_inside_assets
+            if source_path.exists() and not _is_venue_photo(source_path.read_bytes()):
+                continue
             expected_targets.add(target_path)
             asset_copy_tasks.append((photo_entry_id, source_path, target_path))
 
