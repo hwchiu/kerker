@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20",
+  "generated_at": "2026-06-21",
   "items": [
     {
       "photo_entry_id": "the-ritz-carlton-bali-photo-sweetday-majestic-zh",
@@ -362,7 +362,7 @@
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-intimate-package-01.jpg",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-intimate-package-02.jpg",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-intimate-package-03.jpg",
-        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-intimate-package-04.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-intimate-package-04.webp",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-intimate-package-05.jpg",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-intimate-package-06.jpg"
       ]
@@ -765,7 +765,8 @@
       "asset_paths": [
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balivibes-overview-01.jpeg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balivibes-overview-02.jpeg",
-        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balivibes-overview-03.jpeg"
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balivibes-overview-03.jpeg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balivibes-overview-04.jpeg"
       ]
     },
     {
@@ -777,7 +778,7 @@
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-02.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-03.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-04.jpg",
-        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-05.jpeg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-05.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-06.jpg"
       ]
     },
@@ -790,7 +791,7 @@
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-02.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-03.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-04.jpg",
-        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-05.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-05.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-06.jpg"
       ]
     },
@@ -1138,7 +1139,7 @@
         "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-01.jpg",
         "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-02.jpg",
         "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-03.jpg",
-        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-04.jpg",
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-04.png",
         "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-05.jpg",
         "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-06.jpg"
       ]
@@ -1281,8 +1282,8 @@
         "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-01.webp",
         "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-02.webp",
         "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-03.webp",
-        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-04.jpeg",
-        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-05.webp",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-04.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-05.jpg",
         "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-06.jpg"
       ]
     },
@@ -1322,7 +1323,7 @@
         "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-03.jpg",
         "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-04.jpg",
         "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-05.jpg",
-        "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-06.jpg"
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-06.webp"
       ]
     },
     {

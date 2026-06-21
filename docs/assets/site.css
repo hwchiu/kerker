@@ -2304,12 +2304,18 @@ body::after {
 .alt-card,
 .status-overview-card,
 .snapshot-card,
+.summary-card,
 .space-card,
 .detail-block,
 .card-panel,
 .metric,
 .shortlist-item {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(143, 180, 255, 0.02));
+}
+
+.summary-card-emphasis {
+  background: linear-gradient(180deg, rgba(143, 180, 255, 0.15), rgba(255, 255, 255, 0.04));
+  border-color: rgba(143, 180, 255, 0.22);
 }
 
 .style-card-count,
