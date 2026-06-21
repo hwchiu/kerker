@@ -129,6 +129,34 @@
       "includes_tax_service": false,
       "conditions_text": "Bali For Two package page 的 published rate，對應 2 晚 10 間房與大型 cliff-front celebration。",
       "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Standing Reception: 10 to 150 pax（from IDR 2,718,000 / pax，35人起）",
+      "currency": "IDR",
+      "amount_min": 95130000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 2,718,000/人，最少 35 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "the-edge-bali-weddingku-vendor",
+      "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Standing Reception: 50 to 250 pax（from IDR 2,718,000 / pax，200人起）",
+      "currency": "IDR",
+      "amount_min": 543600000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 2,718,000/人，最少 200 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "the-edge-bali-weddingku-vendor",
+      "confidence": "medium"
     }
   ],
   "price_summary_text": "The Edge 的公開價格帶已能看到從 micro wedding 到大型 cliff package 的階梯：小型 Intimate 約 IDR 68,000,000 起，30 人級 cliff wedding 約 IDR 132,000,000，50 人 Sea Wedding 約 IDR 326,000,000，100 人 Sky Wedding 約 IDR 492,000,000，而大型 The Edge Wedding published rate 約 IDR 725,000,000。",
@@ -281,7 +309,8 @@
     "the-edge-bali-weddingku-kelsey-aneesh",
     "the-edge-bali-weddingku-ocean-view-blog",
     "the-edge-bali-weddingku-viola-fry",
-    "the-edge-bali-weddings-com-tw-zh"
+    "the-edge-bali-weddings-com-tw-zh",
+    "the-edge-bali-weddingku-vendor"
   ],
   "photo_index_id": "the-edge-bali"
 }

@@ -1,0 +1,56 @@
+{
+  "venue_id": "bvlgari-resort-bali",
+  "rating": 4.8,
+  "review_count": 2,
+  "packages": [
+    {
+      "name": "La Terrazza",
+      "type": "Garden Wedding",
+      "capacity_pax": 60,
+      "price_per_pax_idr": "IDR 2,178,000"
+    },
+    {
+      "name": "The Bvlgari Mansion",
+      "type": "Private Villa",
+      "capacity_pax": 50,
+      "price_per_pax_idr": "IDR 2,178,000"
+    },
+    {
+      "name": "The Bvlgari Villa",
+      "type": "Private Villa",
+      "capacity_pax": 50,
+      "price_per_pax_idr": "IDR 2,178,000"
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "Veni Dwijayanti Tan",
+      "rating": "5/5.0",
+      "date": "22/12/2015",
+      "service": "Wedding Venue & FnB",
+      "title": "No comment! The best hotel for wedding in Bali!",
+      "text": "Menurut gw Bvlgari memiliki pelayanan yang sangat memuaskan banget jadi emang ga Olivia Dipto 5 Review 4.5/5.0 | 30/6/2011 | Service: Hotel Wedding Venue"
+    }
+  ],
+  "real_weddings": [
+    {
+      "couple": "EVENT & PROMO",
+      "venue": "home  wedding vendors  hotel wedding venue  bvlgari resort bali"
+    },
+    {
+      "couple": "DARREN & CHALIX",
+      "venue": "Bvlgari Resort Bali"
+    },
+    {
+      "couple": "JUSTIAN & VANIA",
+      "venue": "Bvlgari Resort Bali"
+    },
+    {
+      "title": "WEDDING OF KEIZAR & LEVANIA AT THE CHAPEL"
+    },
+    {
+      "title": "WEDDING OF WILLY & PAMELA AT THE CHAPEL"
+    }
+  ],
+  "about": "The Bvlgari Resort Bali is located in one of the most exclusive destinations in the world, a veritable emblem of the tropical exoticism of the Orient, combining the breathtaking beauty of unspoiled nature of Bali beach resorts with a sophisticated contemporary design born from the encounter between traditional Balinese forms and high Italian style.\n\nThe quality of the services along with the views of the Indian Ocean offered by its magnificent position 150 meters over the sea are the perfect introduction to the second luxury hotels from Bvlgari Hotels & Resorts."
+}

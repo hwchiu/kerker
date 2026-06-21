@@ -337,5 +337,26 @@
     ],
     "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
     "raw_excerpt_summary": "希尔顿叶子草坪3.38万，努沙杜瓦地区叶子教堂下面，私密性佳，可放彩烟，海景无遮挡。"
+  },
+  {
+    "source_id": "hilton-bali-resort-weddingku-vendor",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "platform_agency",
+    "source_name": "WeddingKu 婚禮平台",
+    "source_url": "https://www.weddingku.com/wedding-vendors/destination-wedding-venue/hilton-bali-resort",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos",
+      "capacity",
+      "pricing"
+    ],
+    "reliability_notes": "印尼婚禮媒合平台，提供場地套餐報價與真實新人評論。評論以印尼語為主。",
+    "raw_excerpt_summary": "套餐：Beachfront Garden（50人起，IDR 1,350,360/人）；Graha Paruman（450人起，IDR 1,350,360/人）；Graha Sawangan（300人起，IDR 1,350,360/人）；Real Wedding 案例：Lina & Carl、Edward & Eugenia",
+    "real_wedding_couples": [
+      "Lina & Carl",
+      "Edward & Eugenia"
+    ]
   }
 ]

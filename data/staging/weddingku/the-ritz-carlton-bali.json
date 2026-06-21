@@ -1,0 +1,41 @@
+{
+  "venue_id": "the-ritz-carlton-bali",
+  "rating": 0.0,
+  "review_count": 0,
+  "packages": [
+    {
+      "name": "Chapel Lawn",
+      "type": "Garden Wedding",
+      "capacity_pax": 40,
+      "price_per_pax_idr": "IDR 2,178,000"
+    },
+    {
+      "name": "Cliff Lawn",
+      "type": "Garden Wedding",
+      "capacity_pax": 400,
+      "price_per_pax_idr": "IDR 2,178,000"
+    },
+    {
+      "name": "Senses Lawn",
+      "type": "Garden Wedding",
+      "capacity_pax": 150,
+      "price_per_pax_idr": "IDR 2,178,000"
+    }
+  ],
+  "reviews": [],
+  "real_weddings": [
+    {
+      "couple": "EVENT & PROMO",
+      "venue": "home  wedding vendors  destination wedding venue  the ritz-carlton bali"
+    },
+    {
+      "couple": "CHRISTIAN & CLARICE",
+      "venue": "The Ritz-Carlton Bali"
+    },
+    {
+      "couple": "HANS & COHRI",
+      "venue": "The Ritz-Carlton Bali"
+    }
+  ],
+  "about": "Spend your wedding day creating lasting memories, and leave all the details to us.\nOur wedding team at The Ritz-Carlton, Bali specializes in crafting enchanting wedding packages – for both your reception and honeymoon – that ensure the most captivating experience imaginable."
+}

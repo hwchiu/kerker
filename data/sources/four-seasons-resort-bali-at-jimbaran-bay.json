@@ -310,5 +310,21 @@
     ],
     "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
     "raw_excerpt_summary": "四季金巴兰，最美落日的金巴兰地区，是四季酒店异形草坪，可办小型到中型婚礼，夕阳优美。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-weddingku-vendor",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "platform_agency",
+    "source_name": "WeddingKu 婚禮平台",
+    "source_url": "https://www.weddingku.com/wedding-vendors/destination-wedding-venue/four-seasons-resort-bali-jimbaran-bay",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "印尼婚禮媒合平台，提供場地套餐報價與真實新人評論。評論以印尼語為主。",
+    "raw_excerpt_summary": "four-seasons-resort-bali-at-jimbaran-bay WeddingKu 場地資訊"
   }
 ]

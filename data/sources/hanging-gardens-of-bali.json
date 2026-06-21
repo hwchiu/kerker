@@ -238,5 +238,21 @@
     ],
     "reliability_notes": "Non-official venue page; visually helpful, though not a contract source.",
     "raw_excerpt_summary": "非官方場地頁集中呈現 Hidden Palace 與 Hanging Gardens 的叢林婚禮視覺與住宿氛圍。"
+  },
+  {
+    "source_id": "hanging-gardens-of-bali-weddingku-vendor",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "platform_agency",
+    "source_name": "WeddingKu 婚禮平台",
+    "source_url": "https://www.weddingku.com/wedding-vendors/destination-wedding-venue/hanging-gardens-of-bali",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "印尼婚禮媒合平台，提供場地套餐報價與真實新人評論。評論以印尼語為主。",
+    "raw_excerpt_summary": "hanging-gardens-of-bali WeddingKu 場地資訊"
   }
 ]

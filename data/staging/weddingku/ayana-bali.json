@@ -1,0 +1,93 @@
+{
+  "venue_id": "ayana-bali",
+  "rating": 4.9,
+  "review_count": 9,
+  "packages": [
+    {
+      "name": "Asmara Secret Garden",
+      "type": "Garden Wedding",
+      "capacity_pax": 50,
+      "price_per_pax_idr": "IDR 1,519,155"
+    },
+    {
+      "name": "Ayana Villa",
+      "type": "Private Villa",
+      "capacity_pax": 200,
+      "price_per_pax_idr": "IDR 1,519,155"
+    },
+    {
+      "name": "SKY",
+      "type": "Garden Wedding",
+      "capacity_pax": 400,
+      "price_per_pax_idr": "IDR 1,519,155"
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "Eka Devi Cynthia",
+      "rating": "5/5.0",
+      "date": "19/3/2018",
+      "service": "Hotel Wedding Venue",
+      "title": "Tresna Wedding Chappel - Perfect Place to Say I DO (Donald & Devi Wedding)",
+      "text": "The place is breathtakingly beautiful, what a perfect place to say I DO. The sta Enda faulisa 5 Review 5/5.0 | 2/11/2017 | Service: Hotel Wedding Venue"
+    },
+    {
+      "reviewer": "Enda faulisa",
+      "rating": "5/5.0",
+      "date": "2/11/2017",
+      "service": "Hotel Wedding Venue",
+      "title": "Honeymoon",
+      "text": "Luar biasa tempat,suasana nya fasilitasnyaaa The best bgttt Blm lg makananny yg Veni Dwijayanti Tan 11 Review"
+    },
+    {
+      "reviewer": "Veni Dwijayanti Tan",
+      "rating": "5/5.0",
+      "date": "15/12/2015",
+      "service": "Hotel Wedding Venue",
+      "title": "Unforgettable moment!",
+      "text": "Overall ngadain wedding di Ayana pasti gak terlupakan.. Setiap venue yg di tawar Prisca Puspita 16 Review 5/5.0 | 3/11/2015 | Service: Beach Wedding Venue"
+    },
+    {
+      "reviewer": "Prisca Puspita",
+      "rating": "5/5.0",
+      "date": "3/11/2015",
+      "service": "Beach Wedding Venue",
+      "title": "perfect place for ur honeymoon",
+      "text": "ayana resort n spa ini bagus banget suasana nya kalau kalian suka liat view laut Desi 1 Review 5/5.0 | 9/5/2012 | Service: Wedding Venue & FnB"
+    },
+    {
+      "reviewer": "Desi",
+      "rating": "5/5.0",
+      "date": "9/5/2012",
+      "service": "Wedding Venue & FnB",
+      "title": "tropical n friendly",
+      "text": "It`s dream come true.... Sungguh suatu keajaiban buat kami untuk mempersiapkan"
+    }
+  ],
+  "real_weddings": [
+    {
+      "couple": "EVENT & PROMO",
+      "venue": "home  wedding vendors  destination wedding venue  ayana resort and spa, bali"
+    },
+    {
+      "couple": "MAXIME & YVETTE",
+      "venue": "AYANA Resort and Spa, BALI"
+    },
+    {
+      "couple": "STEVEN & EVELYN",
+      "venue": "AYANA Resort and Spa, BALI"
+    },
+    {
+      "couple": "ARYA & RIVVY",
+      "venue": "AYANA Resort and Spa, BALI"
+    },
+    {
+      "couple": "MATT & TESSA",
+      "venue": "AYANA Resort and Spa, BALI"
+    },
+    {
+      "title": "TERINSPIRASI FILM 'IN THE MOOD FOR LOVE', INILAH PERNIKAHAN ARTSY ALA GRATANNIA DAN STEVEN DI BALI"
+    }
+  ],
+  "about": "Located on 90-hectares of cliff-top land perched above Jimbaran Bay, AYANA Resort and Spa, BALI, The Villas at AYANA, and RIMBA Jimbaran BALI by AYANA offer a truly romantic destination wedding experience surrounded with unmatched sunset views of the Indian Ocean. From intimate family celebrations to galas for up to 3,000 guests, AYANA’s certified Wedding Consultants will maximize your wedding’s potential and personalize your special occasion to perfection. AYANA’s enchanting Bali wedding venues range from stunning air-conditioned chapels and magnificent wedding decks stretching out over the ocean, to white-sand beach, ballroom, and garden weddings. And with a brigade of chefs from around the globe, AYANA is one of the island’s only destinations able to provide an extensive choice of top-shelf menus including Mediterranean, Indian and Chinese, as well as Mexican, Japanese, Western, and Indonesian cuisine, plus bespoke dining requests.\n\n \n\nThe wedding party have the additional benefit of over 775 rooms, suites and villas to choose from before, during and after the ceremony. The resort also features a host of convenient facilities such as wedding boutiques, private beach, tennis and golf putting, and 2 award-winning spas.\n\n \n\nPlease contact us for further information on AYANA wedding packages and start planning your dream destination wedding."
+}

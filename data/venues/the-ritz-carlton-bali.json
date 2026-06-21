@@ -95,6 +95,48 @@
       "conditions_text": "含海鮮燒烤",
       "source_id": "xhs-folder-9",
       "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Chapel Lawn（Garden Wedding，40人起）",
+      "currency": "IDR",
+      "amount_min": 87120000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 2,178,000/人，最少 40 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "the-ritz-carlton-bali-weddingku-vendor",
+      "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Cliff Lawn（Garden Wedding，400人起）",
+      "currency": "IDR",
+      "amount_min": 871200000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 2,178,000/人，最少 400 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "the-ritz-carlton-bali-weddingku-vendor",
+      "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Senses Lawn（Garden Wedding，150人起）",
+      "currency": "IDR",
+      "amount_min": 326700000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 2,178,000/人，最少 150 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "the-ritz-carlton-bali-weddingku-vendor",
+      "confidence": "medium"
     }
   ],
   "price_summary_text": "目前「我的海外婚禮」的公開定價為 18,800 美元（30 位賓客）左右，而較早的 Bridestory 套餐頁面仍然顯示 30 位賓客的 Majestic Chapel 和 Chapel Lawn 格式，價格為 260,000,000 印尼盾，包含住宿費用。",
@@ -246,7 +288,8 @@
     "the-ritz-carlton-bali-xhs-post-6",
     "the-ritz-carlton-bali-xhs-post-9",
     "the-ritz-carlton-bali-xhs-post-14",
-    "the-ritz-carlton-bali-xhs-post-18"
+    "the-ritz-carlton-bali-xhs-post-18",
+    "the-ritz-carlton-bali-weddingku-vendor"
   ],
   "photo_index_id": "the-ritz-carlton-bali",
   "last_updated": "2026-06-21T16:53:06.909090"

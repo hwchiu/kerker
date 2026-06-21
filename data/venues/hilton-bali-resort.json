@@ -67,6 +67,48 @@
       "includes_tax_service": false,
       "conditions_text": "Wiwaha Chapel 的公共 Bridestory 商店可容納 40 位客人；核實目前的稅金、服務和情侶房的包含內容是否有變更。",
       "confidence": "high"
+    },
+    {
+      "label": "WeddingKu・Beachfront Garden（Garden Wedding，50人起）",
+      "currency": "IDR",
+      "amount_min": 67518000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 1,350,360/人，最少 50 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "hilton-bali-resort-weddingku-vendor",
+      "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Graha Paruman（Ballroom，450人起）",
+      "currency": "IDR",
+      "amount_min": 607662000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 1,350,360/人，最少 450 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "hilton-bali-resort-weddingku-vendor",
+      "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Graha Sawangan（Ballroom，300人起）",
+      "currency": "IDR",
+      "amount_min": 405108000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 1,350,360/人，最少 300 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "hilton-bali-resort-weddingku-vendor",
+      "confidence": "medium"
     }
   ],
   "price_summary_text": "峇里島希爾頓酒店是峇里島南部較為透明的教堂度假村之一：目前的公開定價為 30 位客人的 11,100 美元左右，2025 年 Wiwaha Chapel 套餐的價格為 48,000,000 印尼盾，可供 40 位客人。",
@@ -153,7 +195,8 @@
     "hilton-bali-resort-official-zh-weddings",
     "hilton-bali-resort-tripadvisor-cn-hotel",
     "hilton-bali-resort-tripcom-hk-hotel",
-    "hilton-bali-resort-xhs-post-12"
+    "hilton-bali-resort-xhs-post-12",
+    "hilton-bali-resort-weddingku-vendor"
   ],
   "photo_index_id": "hilton-bali-resort",
   "last_updated": "2026-06-21T16:37:38.708382"

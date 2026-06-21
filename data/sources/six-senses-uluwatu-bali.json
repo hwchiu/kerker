@@ -324,5 +324,27 @@
     ],
     "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
     "raw_excerpt_summary": "六善别墅悬崖草坪，乌鲁瓦图网红别墅，获Travel + Leisure杂志认可，有教堂和悬崖草坪，草坪圆形航拍出情。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-weddingku-vendor",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "platform_agency",
+    "source_name": "WeddingKu 婚禮平台",
+    "source_url": "https://www.weddingku.com/wedding-vendors/destination-wedding-venue/six-senses-uluwatu",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos",
+      "capacity",
+      "pricing"
+    ],
+    "reliability_notes": "印尼婚禮媒合平台，提供場地套餐報價與真實新人評論。評論以印尼語為主。",
+    "raw_excerpt_summary": "套餐：Andakara Lawn（70人起，IDR 1,815,000/人）；Cinema Paradiso（30人起，IDR 1,815,000/人）；Standing Reception: 80 to 200 pax（150人起，IDR 1,815,000/人）；Real Wedding 案例：Linda & Frank、Darren & Jessica、Hermanto & Janet",
+    "real_wedding_couples": [
+      "Linda & Frank",
+      "Darren & Jessica",
+      "Hermanto & Janet"
+    ]
   }
 ]

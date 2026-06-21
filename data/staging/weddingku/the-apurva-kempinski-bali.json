@@ -1,0 +1,52 @@
+{
+  "venue_id": "the-apurva-kempinski-bali",
+  "rating": 0.0,
+  "review_count": 0,
+  "packages": [
+    {
+      "name": "Amara Or Kimaya Cliff Chapel",
+      "type": "Chapel",
+      "capacity_pax": 30,
+      "price_per_pax_idr": "IDR 2,299,000"
+    },
+    {
+      "name": "Nusantara Presidential",
+      "type": "Private Villa",
+      "capacity_pax": 150,
+      "price_per_pax_idr": "IDR 2,299,000"
+    },
+    {
+      "name": "Ocean Front Lawn",
+      "type": "Garden Wedding",
+      "capacity_pax": 300,
+      "price_per_pax_idr": "IDR 2,299,000"
+    }
+  ],
+  "reviews": [],
+  "real_weddings": [
+    {
+      "couple": "EVENT & PROMO",
+      "venue": "home  wedding vendors  hotel wedding venue  the apurva kempinski bali"
+    },
+    {
+      "couple": "ROSE & CHAI",
+      "venue": "The Apurva Kempinski Bali"
+    },
+    {
+      "title": "PESONA INDAHNYA KONSEP GIANT SHELLS DALAM PERNIKAHAN KENNY & FIYONA YANG ROMANTIS"
+    },
+    {
+      "couple": "BRIAN & EZRA",
+      "venue": "The Apurva Kempinski Bali"
+    },
+    {
+      "couple": "VIAN & ZILLAH",
+      "venue": "The Apurva Kempinski Bali"
+    },
+    {
+      "couple": "ROOM & FACILITY",
+      "venue": ""
+    }
+  ],
+  "about": "Standing atop the majestic cliff of Nusa Dua, with breathtaking views of the Indian Ocean and a tropical garden, The Apurva Kempinski Bali offers the epitome of beachfront luxury. This grand property presents itself as a majestic open-air theatre, an embodiment of Indonesian elegance. Award-winning architect Budiman Hendropurnomo of Denton Corker Marshall and highly-aclaimed interior designer Rudy Dodo of Trivium Design Group worked together in creating a curated design masterpiece. From the unmistakeable characteristic of Balinese architecture, landscape and guiding principle, to the Indonesian-inspired interior design aesthetics, the nation’s heritage and meticulous craftsmanship are thoroughly reflected throughout the hotel. Honouring the nation’s belief of unity in diversity, the hotel establishes its distinctiveness as a tribute to the richness of Indonesian cultural heritage."
+}

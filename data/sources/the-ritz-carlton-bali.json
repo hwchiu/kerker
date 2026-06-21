@@ -1,311 +1,332 @@
 [
-    {
-        "source_id": "the-ritz-carlton-bali-official-zh-overview",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "official",
-        "source_name": "峇里島麗思卡爾頓酒店中文概覽頁面",
-        "source_url": "https://www.ritzcarlton.com/zh-cn/hotels/dpssw-the-ritz-carlton-bali/overview/",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "accommodation",
-            "photos"
-        ],
-        "reliability_notes": "Chinese-language official overview with the most useful public summary of room inventory and site identity.",
-        "raw_excerpt_summary": "度假村位於努沙杜瓦的懸崖頂和海濱，擁有 313 間寬敞的套房和別墅。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-official-zh-weddings",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "official",
-        "source_name": "峇里島麗思卡爾頓中文婚禮頁面",
-        "source_url": "https://www.ritzcarlton.com/zh-cn/hotels/dpssw-the-ritz-carlton-bali/weddings/",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "capacity",
-            "photos",
-            "rain_backup"
-        ],
-        "reliability_notes": "Chinese-language official wedding page used for overall wedding positioning and venue family confirmation.",
-        "raw_excerpt_summary": "將度假村打造成努沙杜瓦的婚禮目的地，擁有玻璃照明的教堂、海景和多個精緻的慶祝空間。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-tripadvisor-tw-hotel",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "social_inspiration",
-        "source_name": "Tripadvisor 台灣峇里島麗思卡爾頓飯店頁面",
-        "source_url": "https://www.tripadvisor.com.tw/Hotel_Review-g297698-d6820858-Reviews-The_Ritz_Carlton_Bali-Nusa_Dua_Benoa_South_Kuta_Bali.html",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos",
-            "accommodation",
-            "transport"
-        ],
-        "reliability_notes": "Useful Chinese-language traveler source for large photo volume and practical location details, but not authoritative for wedding operations.",
-        "raw_excerpt_summary": "顯示7,447張旅客照片，度假村距離峇里島伍拉賴國際機場僅 10.5 公里。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-tripadvisor-cn-hotel",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "social_inspiration",
-        "source_name": "Tripadvisor 中國 峇里島麗思卡爾頓飯店頁面",
-        "source_url": "https://www.tripadvisor.cn/Hotel_Review-g297698-d6820858-Reviews",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos",
-            "accommodation"
-        ],
-        "reliability_notes": "Useful Chinese-language traveler reference with a high photo count and practical stay information.",
-        "raw_excerpt_summary": "顯示數千張關於 努沙杜瓦 峇里島麗思卡爾頓酒店 的遊客照片和評論。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-tripcom-hk-hotel",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "platform_agency",
-        "source_name": "Trip.com 香港峇里島麗思卡爾頓飯店頁面",
-        "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-1716859/the-ritz-carlton-bali/",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos",
-            "accommodation",
-            "transport"
-        ],
-        "reliability_notes": "Chinese-language booking platform source with practical address and stay framing; useful for image browsing and basic logistics.",
-        "raw_excerpt_summary": "定位度假村位於努沙杜瓦 Sawangan，並總結了其到當地海灘和高爾夫設施的距離。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-ctrip-hotel",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "platform_agency",
-        "source_name": "攜程 峇里島麗思卡爾頓飯店頁",
-        "source_url": "https://hotels.ctrip.com/hotels/1716859.html",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "accommodation",
-            "transport",
-            "photos"
-        ],
-        "reliability_notes": "Chinese-language booking source useful for summarized transport context and room-product browsing.",
-        "raw_excerpt_summary": "將度假村概括為靠近努沙杜瓦地標的 Sawangan 海濱酒店，並重點介紹了水療中心和度假村設施。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-myoverseas-overview",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "platform_agency",
-        "source_name": "我的海外婚禮 峇里島麗思卡爾頓酒店概覽",
-        "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-ritz-carlton-bali",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "pricing",
-            "capacity",
-            "photos"
-        ],
-        "reliability_notes": "Current public wedding-venue comparison source; strong for package baselines, though direct resort confirmation still matters.",
-        "raw_excerpt_summary": "將峇里島麗思卡爾頓酒店定位為主要的婚禮目的地，擁有多個儀式和接待空間。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-myoverseas-ceremony",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "platform_agency",
-        "source_name": "我的海外婚禮 峇里島麗思卡爾頓酒店儀式場地",
-        "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-ritz-carlton-bali/ceremony-venues",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "capacity",
-            "photos",
-            "rain_backup"
-        ],
-        "reliability_notes": "Useful for comparing Ritz ceremony spaces and understanding their practical scale differences.",
-        "raw_excerpt_summary": "展示麗茲酒店的儀式空間，從教堂到海灘和草坪。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-myoverseas-reception",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "platform_agency",
-        "source_name": "我的海外婚禮 峇里島麗思卡爾頓酒店接待場所",
-        "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-ritz-carlton-bali/reception-venues",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "capacity",
-            "pricing",
-            "rain_backup"
-        ],
-        "reliability_notes": "Strong public source for the practical top-end reception capacity, especially Cliff Lawn.",
-        "raw_excerpt_summary": "據稱 Cliff Lawn 可以舉辦最多 400 人的大型招待會。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-myoverseas-drink-packages",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "platform_agency",
-        "source_name": "我的海外婚禮峇里島麗思卡爾頓酒店飲品套餐",
-        "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-ritz-carlton-bali/drink-packages",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "pricing"
-        ],
-        "reliability_notes": "Most explicit currently visible public USD baseline for early budget comparison.",
-        "raw_excerpt_summary": "顯示 30 位賓客的基本婚禮套餐，起價為 18,800 美元。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-bridestory-weddings",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "platform_agency",
-        "source_name": "Bridestory 峇里島麗思卡爾頓婚禮項目",
-        "source_url": "https://www.bridestory.com/ritz-carlton-bali/projects/ritz-carlton-bali-weddings",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "photos"
-        ],
-        "reliability_notes": "Useful wedding-gallery source that shows the venue in a wedding-shopping context rather than only hotel marketing.",
-        "raw_excerpt_summary": "為峇里島麗思卡爾頓酒店提供婚禮視覺效果，並強化教堂和草坪的特色。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-bridestory-package",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "platform_agency",
-        "source_name": "Bridestory 峇里島麗思卡爾頓酒店婚禮及招待會套餐",
-        "source_url": "https://www.bridestory.com/store/the-ritz-carlton-bali-wedding-ceremony-reception-ac27",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "pricing",
-            "capacity"
-        ],
-        "reliability_notes": "Older package page, useful as a historical public reference but not as a substitute for current direct pricing.",
-        "raw_excerpt_summary": "提供可容納 30 位客人的 Majestic Chapel 和 Chapel Lawn 套餐，價格為 260,000,000 印尼盾，包含客房費用。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-balifortwo-seaside-chapel",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "platform_agency",
-        "source_name": "Bali For Two 麗思卡爾頓 Seaside Chapel Lawn 30 人方案",
-        "source_url": "https://balifortwo2.com/the-ritz-carlton-bali-seaside-chapel-lawn-wedding-for-30-guests/",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "pricing",
-            "photos",
-            "capacity"
-        ],
-        "reliability_notes": "Planner package page; useful for public package framing and venue visuals, but should be reconfirmed directly.",
-        "raw_excerpt_summary": "非官方方案頁，直接展示 30 人教堂加草坪形式的畫面與入門規模。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-neverneverland-zh",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "platform_agency",
-        "source_name": "NeverNeverLand 麗思卡爾頓峇里島婚禮中文頁",
-        "source_url": "https://neverneverlandinbali.com/wedding/16720-2/",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "pricing",
-            "photos",
-            "accommodation"
-        ],
-        "reliability_notes": "Chinese wedding-agency page; useful for package framing and translated venue context, but should not replace direct confirmation.",
-        "raw_excerpt_summary": "中文頁整理麗思卡爾頓套房住宿、教堂婚禮流程與接待安排，方便快速理解整體玩法。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-xhs-post-5",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "social_inspiration",
-        "source_name": "小紅書婚禮分享 - 文件夾 5",
-        "source_url": "https://www.xiaohongshu.com",
-        "captured_at": "2026-06-21",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos"
-        ],
-        "reliability_notes": "真實婚禮評論來自小紅書用戶",
-        "raw_excerpt_summary": "VIVARA 草坪婚禮 - 費用明細，晚宴約17萬，海鮮燒烤"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-xhs-post-6",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "social_inspiration",
-        "source_name": "小紅書婚禮分享 - 文件夾 6",
-        "source_url": "https://www.xiaohongshu.com",
-        "captured_at": "2026-06-21",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos"
-        ],
-        "reliability_notes": "真實婚禮評論來自小紅書用戶",
-        "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-xhs-post-9",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "social_inspiration",
-        "source_name": "小紅書婚禮分享 - 文件夾 9",
-        "source_url": "https://www.xiaohongshu.com",
-        "captured_at": "2026-06-21",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos"
-        ],
-        "reliability_notes": "真實婚禮評論來自小紅書用戶",
-        "raw_excerpt_summary": "重要警告 - 退潮後是海草而非金色沙灘，晚宴不推薦，風很大"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-xhs-post-14",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "social_inspiration",
-        "source_name": "Ritz-Carlton Bali 20-person wedding by Jenny planner",
-        "source_url": "https://www.xiaohongshu.com",
-        "captured_at": "2026-06-21",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos",
-            "pricing",
-            "capacity"
-        ],
-        "reliability_notes": "Professional wedding planner case study with package details",
-        "raw_excerpt_summary": "Jenny策划的丽思卡尔顿20人婚礼实例。丽思可容纳2-60人，白色教堂外观如同少女般浪漫优雅。新人2位包含2晚婚礼酒店住宿（含双早）、20人晚宴、婚礼策划、婚纱西装、当天所有布置等。"
-    },
-    {
-        "source_id": "the-ritz-carlton-bali-xhs-post-18",
-        "venue_id": "the-ritz-carlton-bali",
-        "source_type": "social_inspiration",
-        "source_name": "Chapel comparison - Ritz-Carlton",
-        "source_url": "https://www.xiaohongshu.com",
-        "captured_at": "2026-06-21",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "pricing",
-            "capacity"
-        ],
-        "reliability_notes": "Chapel comparison post across 6 Bali venues with pricing tiers",
-        "raw_excerpt_summary": "教堂場地比較文章。麗思卡爾頓教堂：套餐5-5.6萬人民幣，经典教堂設計，婚禮後可去沙灘拍照，缺點是多場次排班時間緊湊（前後場布置僅數十分鐘），週末加成高，晚宴低消偏貴。"
-    }
+  {
+    "source_id": "the-ritz-carlton-bali-official-zh-overview",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "official",
+    "source_name": "峇里島麗思卡爾頓酒店中文概覽頁面",
+    "source_url": "https://www.ritzcarlton.com/zh-cn/hotels/dpssw-the-ritz-carlton-bali/overview/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "Chinese-language official overview with the most useful public summary of room inventory and site identity.",
+    "raw_excerpt_summary": "度假村位於努沙杜瓦的懸崖頂和海濱，擁有 313 間寬敞的套房和別墅。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-official-zh-weddings",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "official",
+    "source_name": "峇里島麗思卡爾頓中文婚禮頁面",
+    "source_url": "https://www.ritzcarlton.com/zh-cn/hotels/dpssw-the-ritz-carlton-bali/weddings/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "Chinese-language official wedding page used for overall wedding positioning and venue family confirmation.",
+    "raw_excerpt_summary": "將度假村打造成努沙杜瓦的婚禮目的地，擁有玻璃照明的教堂、海景和多個精緻的慶祝空間。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-tripadvisor-tw-hotel",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "social_inspiration",
+    "source_name": "Tripadvisor 台灣峇里島麗思卡爾頓飯店頁面",
+    "source_url": "https://www.tripadvisor.com.tw/Hotel_Review-g297698-d6820858-Reviews-The_Ritz_Carlton_Bali-Nusa_Dua_Benoa_South_Kuta_Bali.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Useful Chinese-language traveler source for large photo volume and practical location details, but not authoritative for wedding operations.",
+    "raw_excerpt_summary": "顯示7,447張旅客照片，度假村距離峇里島伍拉賴國際機場僅 10.5 公里。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-tripadvisor-cn-hotel",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "social_inspiration",
+    "source_name": "Tripadvisor 中國 峇里島麗思卡爾頓飯店頁面",
+    "source_url": "https://www.tripadvisor.cn/Hotel_Review-g297698-d6820858-Reviews",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful Chinese-language traveler reference with a high photo count and practical stay information.",
+    "raw_excerpt_summary": "顯示數千張關於 努沙杜瓦 峇里島麗思卡爾頓酒店 的遊客照片和評論。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-tripcom-hk-hotel",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "platform_agency",
+    "source_name": "Trip.com 香港峇里島麗思卡爾頓飯店頁面",
+    "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-1716859/the-ritz-carlton-bali/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Chinese-language booking platform source with practical address and stay framing; useful for image browsing and basic logistics.",
+    "raw_excerpt_summary": "定位度假村位於努沙杜瓦 Sawangan，並總結了其到當地海灘和高爾夫設施的距離。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-ctrip-hotel",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "platform_agency",
+    "source_name": "攜程 峇里島麗思卡爾頓飯店頁",
+    "source_url": "https://hotels.ctrip.com/hotels/1716859.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "accommodation",
+      "transport",
+      "photos"
+    ],
+    "reliability_notes": "Chinese-language booking source useful for summarized transport context and room-product browsing.",
+    "raw_excerpt_summary": "將度假村概括為靠近努沙杜瓦地標的 Sawangan 海濱酒店，並重點介紹了水療中心和度假村設施。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-myoverseas-overview",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 峇里島麗思卡爾頓酒店概覽",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-ritz-carlton-bali",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "photos"
+    ],
+    "reliability_notes": "Current public wedding-venue comparison source; strong for package baselines, though direct resort confirmation still matters.",
+    "raw_excerpt_summary": "將峇里島麗思卡爾頓酒店定位為主要的婚禮目的地，擁有多個儀式和接待空間。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-myoverseas-ceremony",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 峇里島麗思卡爾頓酒店儀式場地",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-ritz-carlton-bali/ceremony-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "Useful for comparing Ritz ceremony spaces and understanding their practical scale differences.",
+    "raw_excerpt_summary": "展示麗茲酒店的儀式空間，從教堂到海灘和草坪。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-myoverseas-reception",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 峇里島麗思卡爾頓酒店接待場所",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-ritz-carlton-bali/reception-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "pricing",
+      "rain_backup"
+    ],
+    "reliability_notes": "Strong public source for the practical top-end reception capacity, especially Cliff Lawn.",
+    "raw_excerpt_summary": "據稱 Cliff Lawn 可以舉辦最多 400 人的大型招待會。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-myoverseas-drink-packages",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮峇里島麗思卡爾頓酒店飲品套餐",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-ritz-carlton-bali/drink-packages",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing"
+    ],
+    "reliability_notes": "Most explicit currently visible public USD baseline for early budget comparison.",
+    "raw_excerpt_summary": "顯示 30 位賓客的基本婚禮套餐，起價為 18,800 美元。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-bridestory-weddings",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 峇里島麗思卡爾頓婚禮項目",
+    "source_url": "https://www.bridestory.com/ritz-carlton-bali/projects/ritz-carlton-bali-weddings",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Useful wedding-gallery source that shows the venue in a wedding-shopping context rather than only hotel marketing.",
+    "raw_excerpt_summary": "為峇里島麗思卡爾頓酒店提供婚禮視覺效果，並強化教堂和草坪的特色。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-bridestory-package",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 峇里島麗思卡爾頓酒店婚禮及招待會套餐",
+    "source_url": "https://www.bridestory.com/store/the-ritz-carlton-bali-wedding-ceremony-reception-ac27",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "Older package page, useful as a historical public reference but not as a substitute for current direct pricing.",
+    "raw_excerpt_summary": "提供可容納 30 位客人的 Majestic Chapel 和 Chapel Lawn 套餐，價格為 260,000,000 印尼盾，包含客房費用。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-balifortwo-seaside-chapel",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bali For Two 麗思卡爾頓 Seaside Chapel Lawn 30 人方案",
+    "source_url": "https://balifortwo2.com/the-ritz-carlton-bali-seaside-chapel-lawn-wedding-for-30-guests/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Planner package page; useful for public package framing and venue visuals, but should be reconfirmed directly.",
+    "raw_excerpt_summary": "非官方方案頁，直接展示 30 人教堂加草坪形式的畫面與入門規模。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-neverneverland-zh",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "platform_agency",
+    "source_name": "NeverNeverLand 麗思卡爾頓峇里島婚禮中文頁",
+    "source_url": "https://neverneverlandinbali.com/wedding/16720-2/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Chinese wedding-agency page; useful for package framing and translated venue context, but should not replace direct confirmation.",
+    "raw_excerpt_summary": "中文頁整理麗思卡爾頓套房住宿、教堂婚禮流程與接待安排，方便快速理解整體玩法。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-xhs-post-5",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 5",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "VIVARA 草坪婚禮 - 費用明細，晚宴約17萬，海鮮燒烤"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-xhs-post-6",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 6",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-xhs-post-9",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 9",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "重要警告 - 退潮後是海草而非金色沙灘，晚宴不推薦，風很大"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-xhs-post-14",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "social_inspiration",
+    "source_name": "Ritz-Carlton Bali 20-person wedding by Jenny planner",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "Professional wedding planner case study with package details",
+    "raw_excerpt_summary": "Jenny策划的丽思卡尔顿20人婚礼实例。丽思可容纳2-60人，白色教堂外观如同少女般浪漫优雅。新人2位包含2晚婚礼酒店住宿（含双早）、20人晚宴、婚礼策划、婚纱西装、当天所有布置等。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-xhs-post-18",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "social_inspiration",
+    "source_name": "Chapel comparison - Ritz-Carlton",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "Chapel comparison post across 6 Bali venues with pricing tiers",
+    "raw_excerpt_summary": "教堂場地比較文章。麗思卡爾頓教堂：套餐5-5.6萬人民幣，经典教堂設計，婚禮後可去沙灘拍照，缺點是多場次排班時間緊湊（前後場布置僅數十分鐘），週末加成高，晚宴低消偏貴。"
+  },
+  {
+    "source_id": "the-ritz-carlton-bali-weddingku-vendor",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_type": "platform_agency",
+    "source_name": "WeddingKu 婚禮平台",
+    "source_url": "https://www.weddingku.com/wedding-vendors/destination-wedding-venue/the-ritz-carlton-bali",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos",
+      "capacity",
+      "pricing"
+    ],
+    "reliability_notes": "印尼婚禮媒合平台，提供場地套餐報價與真實新人評論。評論以印尼語為主。",
+    "raw_excerpt_summary": "套餐：Chapel Lawn（40人起，IDR 2,178,000/人）；Cliff Lawn（400人起，IDR 2,178,000/人）；Senses Lawn（150人起，IDR 2,178,000/人）；Real Wedding 案例：Christian & Clarice、Hans & Cohri",
+    "real_wedding_couples": [
+      "Christian & Clarice",
+      "Hans & Cohri"
+    ]
+  }
 ]

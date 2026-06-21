@@ -92,6 +92,48 @@
       "conditions_text": "頂級奢華環境、海天一線景觀，適合親密小型婚禮",
       "source_id": "xhs-folder-12",
       "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・La Terrazza（Garden Wedding，60人起）",
+      "currency": "IDR",
+      "amount_min": 130680000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 2,178,000/人，最少 60 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "bvlgari-resort-bali-weddingku-vendor",
+      "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・The Bvlgari Mansion（Private Villa，50人起）",
+      "currency": "IDR",
+      "amount_min": 108900000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 2,178,000/人，最少 50 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "bvlgari-resort-bali-weddingku-vendor",
+      "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・The Bvlgari Villa（Private Villa，50人起）",
+      "currency": "IDR",
+      "amount_min": 108900000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 2,178,000/人，最少 50 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "bvlgari-resort-bali-weddingku-vendor",
+      "confidence": "medium"
     }
   ],
   "price_summary_text": "Bvlgari 是第一批中公開門檻最高的企業之一：目前的即時報價頁面起價約為 23,200 美元（可供 30 名賓客使用），而公開的 2024 年 Bvlgari Villa 和 Mansion 頁面仍分別顯示淨價 398,000,000 印尼盾和 500,000,000 印尼盾。",
@@ -143,7 +185,8 @@
     "明確教堂、別墅和豪宅格式的公共容量錨點",
     "透過教堂和室內替代方案，為親密婚禮提供強大的雨水靈活性",
     "（小紅書用戶實測）服務高度客製化，能根據新人性格（年輕、時尚、愛花藝）量身打造",
-    "（小紅書用戶實測）可承辦小型精緻婚禮（58人）且兼具奢華感"
+    "（小紅書用戶實測）可承辦小型精緻婚禮（58人）且兼具奢華感",
+    "WeddingKu 評分 4.8/5.0（2 則評論）（WeddingKu 平台資料）"
   ],
   "key_risks": [
     "非常高的入門價格和別墅之夜承諾",
@@ -256,7 +299,8 @@
     "bvlgari-tripcom-hk-hotel",
     "bvlgari-resort-bali-xhs-post-15",
     "bvlgari-resort-bali-xhs-post-12",
-    "bvlgari-resort-bali-xhs-post-19"
+    "bvlgari-resort-bali-xhs-post-19",
+    "bvlgari-resort-bali-weddingku-vendor"
   ],
   "photo_index_id": "bvlgari-resort-bali",
   "last_updated": "2026-06-21T16:53:06.908352"

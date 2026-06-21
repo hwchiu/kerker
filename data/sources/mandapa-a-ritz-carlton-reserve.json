@@ -228,5 +228,21 @@
     ],
     "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
     "raw_excerpt_summary": "乌布丽思卡尔顿曼达帕河畔草坪5.88万，以森林为主在曼达帕酒店湖边，私密性不高但酒店环保一流，全球顶奢级。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-weddingku-vendor",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "platform_agency",
+    "source_name": "WeddingKu 婚禮平台",
+    "source_url": "https://www.weddingku.com/wedding-vendors/destination-wedding-venue/mandapa-a-ritz-carlton-reserve",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "印尼婚禮媒合平台，提供場地套餐報價與真實新人評論。評論以印尼語為主。",
+    "raw_excerpt_summary": "mandapa-a-ritz-carlton-reserve WeddingKu 場地資訊"
   }
 ]

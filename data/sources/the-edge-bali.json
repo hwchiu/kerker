@@ -292,5 +292,28 @@
     ],
     "reliability_notes": "Real-wedding planner feature; very useful for understanding guest scale at The Edge.",
     "raw_excerpt_summary": "真實婚禮案例，直接看懸崖邊大型賓客規模、進場動線與夜間派對氛圍。"
+  },
+  {
+    "source_id": "the-edge-bali-weddingku-vendor",
+    "venue_id": "the-edge-bali",
+    "source_type": "platform_agency",
+    "source_name": "WeddingKu 婚禮平台",
+    "source_url": "https://www.weddingku.com/wedding-vendors/destination-wedding-venue/the-edge",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos",
+      "capacity",
+      "pricing"
+    ],
+    "reliability_notes": "印尼婚禮媒合平台，提供場地套餐報價與真實新人評論。評論以印尼語為主。",
+    "raw_excerpt_summary": "套餐：Standing Reception: 10 to 150 pax（35人起，IDR 2,718,000/人）；Standing Reception: 50 to 250 pax（200人起，IDR 2,718,000/人）；Real Wedding 案例：Kelsey & Aneesh、Venus & Reuben、Renee & Liegh、Rooms & Facilities",
+    "real_wedding_couples": [
+      "Kelsey & Aneesh",
+      "Venus & Reuben",
+      "Renee & Liegh",
+      "Rooms & Facilities"
+    ]
   }
 ]

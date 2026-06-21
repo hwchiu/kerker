@@ -92,6 +92,48 @@
       "conditions_text": "按日期/時段分級定價",
       "source_id": "xhs-folder-18",
       "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Floating Garden（Garden Wedding，60人起）",
+      "currency": "IDR",
+      "amount_min": 96000000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 1,600,000/人，最少 60 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "conrad-bali-weddingku-vendor",
+      "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Infinity Garden（Garden Wedding，80人起）",
+      "currency": "IDR",
+      "amount_min": 128000000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 1,600,000/人，最少 80 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "conrad-bali-weddingku-vendor",
+      "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Ocean Garden（Garden Wedding，250人起）",
+      "currency": "IDR",
+      "amount_min": 400000000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 1,600,000/人，最少 250 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "conrad-bali-weddingku-vendor",
+      "confidence": "medium"
     }
   ],
   "price_summary_text": "康萊德酒店的公共套餐定價相對直觀，以印尼盾計：小型無限教堂儀式套餐的價格約為 76,895,000 印尼盾（可供 20 位賓客入住），而可見的儀式加招待會形式的價格約為 380,000,000 印尼盾（可供 50 位賓客入住 50,050 50,050 印尼盾）可供 50,050 印尼盾入住。",
@@ -144,7 +186,8 @@
     "公包知名度比許多豪華酒店好",
     "（小紅書用戶實測）水池教堂特色：長水棧道、開闊視野、儀式感強烈",
     "（小紅書用戶實測）化妝室新裝修（1年前剛竣工），精緻且上鏡",
-    "（小紅書用戶實測）場地靈活、適合精緻裝飾，晚宴選項多元且最低消費可接受"
+    "（小紅書用戶實測）場地靈活、適合精緻裝飾，晚宴選項多元且最低消費可接受",
+    "WeddingKu 評分 4.8/5.0（2 則評論）（WeddingKu 平台資料）"
   ],
   "key_risks": [
     "大多數可見公開價格均以 IDR 表示，這使得跨場所標準化變得更加困難",
@@ -180,7 +223,8 @@
     "conrad-bali-tripcom-hk-hotel",
     "conrad-bali-watabe-ja",
     "conrad-bali-xhs-post-6",
-    "conrad-bali-xhs-post-18"
+    "conrad-bali-xhs-post-18",
+    "conrad-bali-weddingku-vendor"
   ],
   "photo_index_id": "conrad-bali",
   "last_updated": "2026-06-21T16:53:06.910167"

@@ -1,341 +1,364 @@
 [
-    {
-        "source_id": "the-apurva-kempinski-bali-official-resort",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "official",
-        "source_name": "峇里島阿普爾瓦凱賓斯基度假村概覽",
-        "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "capacity",
-            "photos",
-            "accommodation"
-        ],
-        "reliability_notes": "Primary official resort page for positioning, architecture, and overall venue scale.",
-        "raw_excerpt_summary": "證實峇里島阿普爾瓦凱賓斯基酒店是一家可舉辦大型活動的五星級努沙杜瓦懸崖度假村。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-official-weddings",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "official",
-        "source_name": "峇里島阿普爾瓦凱賓斯基婚禮頁面",
-        "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/weddings",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "capacity",
-            "photos",
-            "restrictions"
-        ],
-        "reliability_notes": "Best official wedding hub for venue overview and inquiry flow.",
-        "raw_excerpt_summary": "確認度假村積極行銷婚禮，提供專用場地和套餐選擇。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-official-why-stay",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "official",
-        "source_name": "峇里島阿普爾瓦凱賓斯基酒店為什麼選擇我們頁面",
-        "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/destination/why-stay-with-us",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "transport",
-            "accommodation"
-        ],
-        "reliability_notes": "Useful official source for airport timing and room inventory language.",
-        "raw_excerpt_summary": "度假村距離機場約 15 分鐘路程，擁有 475 間客房、套房和別墅。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-official-amala-chapel",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "official",
-        "source_name": "峇里島阿普爾瓦凱賓斯基飯店的阿瑪拉禮拜堂",
-        "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/weddings/venues/amala-chapel",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "capacity",
-            "photos",
-            "rain_backup"
-        ],
-        "reliability_notes": "Official micro-wedding chapel page with a clear guest cap.",
-        "raw_excerpt_summary": "確認海景阿瑪拉教堂最多可舒適容納 20 人。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-official-kimaya-chapel",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "official",
-        "source_name": "峇里島 Apurva 凱賓斯基飯店的 Kimaya 禮拜堂",
-        "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/weddings/venues/kimaya-chapel",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "capacity",
-            "photos",
-            "rain_backup"
-        ],
-        "reliability_notes": "Official micro-wedding chapel page confirming a second intimate indoor-capable option.",
-        "raw_excerpt_summary": "確認玻璃 Kimaya 禮拜堂最多可容納 20 人。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-official-apurva-chapel",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "official",
-        "source_name": "海濱阿普爾瓦教堂頁面",
-        "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/weddings/venues/ocean-front-apurva-chapel",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "capacity",
-            "photos"
-        ],
-        "reliability_notes": "Official signature chapel page with a clear large-ceremony cap.",
-        "raw_excerpt_summary": "據稱，海濱 Apurva 教堂最多可容納 100 位客人。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-official-candi-ballroom",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "official",
-        "source_name": "峇里島阿普爾瓦凱賓斯基飯店的 Candi 宴會廳",
-        "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/meetings-events/venues/candi-ballroom",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "capacity",
-            "rain_backup"
-        ],
-        "reliability_notes": "Official ballroom-capacity reference that is useful for rain backup and large-format dinners.",
-        "raw_excerpt_summary": "據稱 Candi 宴會廳最多可容納 900 位客人。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-official-faq",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "official",
-        "source_name": "峇里島阿普爾瓦凱賓斯基飯店常見問題及解答",
-        "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/hotel-information/frequently-asked-questions",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "restrictions"
-        ],
-        "reliability_notes": "Official operational-policy source, especially useful for filming and pre-wedding permits.",
-        "raw_excerpt_summary": "解釋說專業拍攝、攝影和婚紗照需要許可證。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-myoverseas-overview",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "platform_agency",
-        "source_name": "我的海外婚禮 峇里島 Apurva 凱賓斯基酒店概覽",
-        "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-apurva-kempinski-bali",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "pricing",
-            "capacity",
-            "accommodation"
-        ],
-        "reliability_notes": "Current instant-quote platform with useful public pricing and room inventory wording.",
-        "raw_excerpt_summary": "顯示 30 人基本婚禮套餐價格為 20,200 美元，並提及六個婚禮場地以及 475 間客房、套房和別墅。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-myoverseas-reception",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "platform_agency",
-        "source_name": "我的海外婚禮 Apurva 接待場地",
-        "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-apurva-kempinski-bali/reception-venues",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "capacity",
-            "rain_backup",
-            "restrictions"
-        ],
-        "reliability_notes": "Useful for revealing large-format reception capacities and after-party notes that are harder to see on official marketing pages.",
-        "raw_excerpt_summary": "Nusantara 總統別墅可舉辦 150 個座位晚宴和 400 個站立招待會，另外 Candi 宴會廳最多可容納 550 個座位或 1,000 個站位，以及室內派對直至凌晨 1 點。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-bridestory-venue",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "platform_agency",
-        "source_name": "Bridestory 峇里島阿普爾瓦凱賓斯基酒店場地列表",
-        "source_url": "https://www.bridestory.com/the-apurva-kempinski-bali",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "photos"
-        ],
-        "reliability_notes": "Useful umbrella gallery and project index for visual comparison.",
-        "raw_excerpt_summary": "作為主要的 Bridestory 場地頁面，將 Apurva 的公共套餐和照片項目結合在一起。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-bridestory-oceanfront-chapel",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "platform_agency",
-        "source_name": "Bridestory Apurva 海濱教堂",
-        "source_url": "https://www.bridestory.com/the-apurva-kempinski-bali/projects/the-apurva-ocean-front-chapel1542188169",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "photos"
-        ],
-        "reliability_notes": "Useful focused gallery for the signature larger chapel format.",
-        "raw_excerpt_summary": "提供以海濱阿普爾瓦教堂為中心的視覺參考。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-bridestory-project",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "platform_agency",
-        "source_name": "新娘故事項目 峇里島阿普爾瓦凱賓斯基酒店",
-        "source_url": "https://www.bridestory.com/the-apurva-kempinski-bali/projects/project-the-apurva-kempinski-bali",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": "2024-06-14",
-        "language": "en",
-        "evidence_categories": [
-            "photos"
-        ],
-        "reliability_notes": "Recent project page useful for checking how the venue photographs in a newer visual context.",
-        "raw_excerpt_summary": "為酒店添加更多最新的以婚禮為中心的圖像。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-bridestory-package",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "platform_agency",
-        "source_name": "Bridestory Apurva 婚禮與招待會套餐",
-        "source_url": "https://www.bridestory.com/store/the-apurva-kempinski-bali-wedding-ceremony-reception-package-55c8",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "pricing",
-            "capacity",
-            "accommodation"
-        ],
-        "reliability_notes": "Public package page with large-format pricing and room-block inclusions.",
-        "raw_excerpt_summary": "提供 780,000,000 印尼盾的 100 位賓客套餐，包括 Apurva 教堂儀式、海濱草坪或 Candi 宴會廳招待會以及兩晚的多種房型。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-tripcom-hk-hotel",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "platform_agency",
-        "source_name": "Trip.com 香港峇里島阿普爾瓦凱賓斯基飯店頁面",
-        "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-25195229/the-apurva-kempinski-bali/",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos",
-            "accommodation"
-        ],
-        "reliability_notes": "Chinese-language hotel-booking page useful for gallery browsing, room-product comparison, and broad resort orientation.",
-        "raw_excerpt_summary": "Trip.com 的香港列表提供峇里島阿普爾瓦凱賓斯基酒店的飯店照片、評論和預訂式住宿環境。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-ctrip-hotel",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "platform_agency",
-        "source_name": "攜程峇里島阿普爾瓦凱賓斯基飯店頁面",
-        "source_url": "https://hotels.ctrip.com/hotels/25195229.html",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos",
-            "accommodation",
-            "transport"
-        ],
-        "reliability_notes": "Chinese-language booking source useful for practical district context and stay-product browsing.",
-        "raw_excerpt_summary": "將度假村置於中國預訂流程中，靠近努沙杜瓦海灘和峇里島國家高爾夫俱樂部。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-tripadvisor-tw-hotel",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "social_inspiration",
-        "source_name": "TripAdvisor 台灣 峇里島阿普爾瓦凱賓斯基飯店頁面",
-        "source_url": "https://www.tripadvisor.com.tw/Hotel_Review-g297698-d15243516-Reviews-The_Apurva_Kempinski_Bali-Nusa_Dua_Benoa_South_Kuta_Bali.html",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos",
-            "accommodation"
-        ],
-        "reliability_notes": "Useful Chinese-language traveler-photo source for checking how the resort looks beyond official promotional imagery.",
-        "raw_excerpt_summary": "Tripadvisor 台灣列出了峇里島阿普爾瓦凱賓斯基酒店的 3,025 則旅客評論和 7,939 張照片。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-tripadvisor-cn-hotel",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "social_inspiration",
-        "source_name": "TripAdvisor 中國 峇里島阿普爾瓦凱賓斯基飯店頁面",
-        "source_url": "https://www.tripadvisor.cn/Hotel_Review-g297698-d15243516-Reviews-The_Apurva_Kempinski_Bali-Nusa_Dua_Benoa_South_Kuta_Bali.html",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos",
-            "accommodation"
-        ],
-        "reliability_notes": "Useful Chinese-language traveler source that adds a second large photo bank and guest-review perspective.",
-        "raw_excerpt_summary": "Tripadvisor 中國列出了 3,010 峇里島阿普爾瓦凱賓斯基酒店的旅客評論和 4,915 張照片。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-balifortwo-joanne-tien-ho",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "editorial_case_study",
-        "source_name": "Bali For Two Joanne & Tien Ho 在 Apurva Kempinski 的真實婚禮",
-        "source_url": "https://balifortwo2.com/joanne-tien-hos-wedding-at-the-apurva-kempinski/",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "photos",
-            "capacity"
-        ],
-        "reliability_notes": "Real-wedding planner feature; visually useful for ceremony and reception scale.",
-        "raw_excerpt_summary": "真實婚禮案例，補足 Apurva 教堂與大型接待在實際賓客規模下的畫面。"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-xhs-post-6",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "social_inspiration",
-        "source_name": "小紅書婚禮分享 - 文件夾 6",
-        "source_url": "https://www.xiaohongshu.com",
-        "captured_at": "2026-06-21",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos"
-        ],
-        "reliability_notes": "真實婚禮評論來自小紅書用戶",
-        "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
-    },
-    {
-        "source_id": "the-apurva-kempinski-bali-xhs-post-18",
-        "venue_id": "the-apurva-kempinski-bali",
-        "source_type": "social_inspiration",
-        "source_name": "小紅書教堂比較 - 凱賓斯基 (巴厘岛TOP教堂场地)",
-        "source_url": "https://www.xiaohongshu.com",
-        "captured_at": "2026-06-21",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "pricing",
-            "capacity"
-        ],
-        "reliability_notes": "Chapel comparison post across 6 Bali venues with pricing tiers",
-        "raw_excerpt_summary": "教堂場地比較文章。凱賓斯基大教堂：套餐4.2-4.8萬人民幣，設計風格爭議性大（喜歡與不喜歡各佔50%，有人稱「擱淺的鯨魚」），位於麗思卡爾頓旁邊沙灘，相距數百米。酒店大廳震撼壯觀（全峇里島第一），但植被稀疏、戶外日曬強烈，也設有一個小型室內儀式空間（非獨立建築，不臨海）。"
-    }
+  {
+    "source_id": "the-apurva-kempinski-bali-official-resort",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "official",
+    "source_name": "峇里島阿普爾瓦凱賓斯基度假村概覽",
+    "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Primary official resort page for positioning, architecture, and overall venue scale.",
+    "raw_excerpt_summary": "證實峇里島阿普爾瓦凱賓斯基酒店是一家可舉辦大型活動的五星級努沙杜瓦懸崖度假村。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-official-weddings",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "official",
+    "source_name": "峇里島阿普爾瓦凱賓斯基婚禮頁面",
+    "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/weddings",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "restrictions"
+    ],
+    "reliability_notes": "Best official wedding hub for venue overview and inquiry flow.",
+    "raw_excerpt_summary": "確認度假村積極行銷婚禮，提供專用場地和套餐選擇。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-official-why-stay",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "official",
+    "source_name": "峇里島阿普爾瓦凱賓斯基酒店為什麼選擇我們頁面",
+    "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/destination/why-stay-with-us",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "transport",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful official source for airport timing and room inventory language.",
+    "raw_excerpt_summary": "度假村距離機場約 15 分鐘路程，擁有 475 間客房、套房和別墅。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-official-amala-chapel",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "official",
+    "source_name": "峇里島阿普爾瓦凱賓斯基飯店的阿瑪拉禮拜堂",
+    "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/weddings/venues/amala-chapel",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "Official micro-wedding chapel page with a clear guest cap.",
+    "raw_excerpt_summary": "確認海景阿瑪拉教堂最多可舒適容納 20 人。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-official-kimaya-chapel",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "official",
+    "source_name": "峇里島 Apurva 凱賓斯基飯店的 Kimaya 禮拜堂",
+    "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/weddings/venues/kimaya-chapel",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "rain_backup"
+    ],
+    "reliability_notes": "Official micro-wedding chapel page confirming a second intimate indoor-capable option.",
+    "raw_excerpt_summary": "確認玻璃 Kimaya 禮拜堂最多可容納 20 人。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-official-apurva-chapel",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "official",
+    "source_name": "海濱阿普爾瓦教堂頁面",
+    "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/weddings/venues/ocean-front-apurva-chapel",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos"
+    ],
+    "reliability_notes": "Official signature chapel page with a clear large-ceremony cap.",
+    "raw_excerpt_summary": "據稱，海濱 Apurva 教堂最多可容納 100 位客人。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-official-candi-ballroom",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "official",
+    "source_name": "峇里島阿普爾瓦凱賓斯基飯店的 Candi 宴會廳",
+    "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/meetings-events/venues/candi-ballroom",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "rain_backup"
+    ],
+    "reliability_notes": "Official ballroom-capacity reference that is useful for rain backup and large-format dinners.",
+    "raw_excerpt_summary": "據稱 Candi 宴會廳最多可容納 900 位客人。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-official-faq",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "official",
+    "source_name": "峇里島阿普爾瓦凱賓斯基飯店常見問題及解答",
+    "source_url": "https://www.kempinski.com/en/the-apurva-kempinski-bali/overview/hotel-information/frequently-asked-questions",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "restrictions"
+    ],
+    "reliability_notes": "Official operational-policy source, especially useful for filming and pre-wedding permits.",
+    "raw_excerpt_summary": "解釋說專業拍攝、攝影和婚紗照需要許可證。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-myoverseas-overview",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 峇里島 Apurva 凱賓斯基酒店概覽",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-apurva-kempinski-bali",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "accommodation"
+    ],
+    "reliability_notes": "Current instant-quote platform with useful public pricing and room inventory wording.",
+    "raw_excerpt_summary": "顯示 30 人基本婚禮套餐價格為 20,200 美元，並提及六個婚禮場地以及 475 間客房、套房和別墅。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-myoverseas-reception",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 Apurva 接待場地",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/the-apurva-kempinski-bali/reception-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "rain_backup",
+      "restrictions"
+    ],
+    "reliability_notes": "Useful for revealing large-format reception capacities and after-party notes that are harder to see on official marketing pages.",
+    "raw_excerpt_summary": "Nusantara 總統別墅可舉辦 150 個座位晚宴和 400 個站立招待會，另外 Candi 宴會廳最多可容納 550 個座位或 1,000 個站位，以及室內派對直至凌晨 1 點。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-bridestory-venue",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 峇里島阿普爾瓦凱賓斯基酒店場地列表",
+    "source_url": "https://www.bridestory.com/the-apurva-kempinski-bali",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Useful umbrella gallery and project index for visual comparison.",
+    "raw_excerpt_summary": "作為主要的 Bridestory 場地頁面，將 Apurva 的公共套餐和照片項目結合在一起。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-bridestory-oceanfront-chapel",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory Apurva 海濱教堂",
+    "source_url": "https://www.bridestory.com/the-apurva-kempinski-bali/projects/the-apurva-ocean-front-chapel1542188169",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Useful focused gallery for the signature larger chapel format.",
+    "raw_excerpt_summary": "提供以海濱阿普爾瓦教堂為中心的視覺參考。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-bridestory-project",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "platform_agency",
+    "source_name": "新娘故事項目 峇里島阿普爾瓦凱賓斯基酒店",
+    "source_url": "https://www.bridestory.com/the-apurva-kempinski-bali/projects/project-the-apurva-kempinski-bali",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": "2024-06-14",
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Recent project page useful for checking how the venue photographs in a newer visual context.",
+    "raw_excerpt_summary": "為酒店添加更多最新的以婚禮為中心的圖像。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-bridestory-package",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory Apurva 婚禮與招待會套餐",
+    "source_url": "https://www.bridestory.com/store/the-apurva-kempinski-bali-wedding-ceremony-reception-package-55c8",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "accommodation"
+    ],
+    "reliability_notes": "Public package page with large-format pricing and room-block inclusions.",
+    "raw_excerpt_summary": "提供 780,000,000 印尼盾的 100 位賓客套餐，包括 Apurva 教堂儀式、海濱草坪或 Candi 宴會廳招待會以及兩晚的多種房型。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-tripcom-hk-hotel",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "platform_agency",
+    "source_name": "Trip.com 香港峇里島阿普爾瓦凱賓斯基飯店頁面",
+    "source_url": "https://hk.trip.com/hotels/bali-hotel-detail-25195229/the-apurva-kempinski-bali/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Chinese-language hotel-booking page useful for gallery browsing, room-product comparison, and broad resort orientation.",
+    "raw_excerpt_summary": "Trip.com 的香港列表提供峇里島阿普爾瓦凱賓斯基酒店的飯店照片、評論和預訂式住宿環境。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-ctrip-hotel",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "platform_agency",
+    "source_name": "攜程峇里島阿普爾瓦凱賓斯基飯店頁面",
+    "source_url": "https://hotels.ctrip.com/hotels/25195229.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Chinese-language booking source useful for practical district context and stay-product browsing.",
+    "raw_excerpt_summary": "將度假村置於中國預訂流程中，靠近努沙杜瓦海灘和峇里島國家高爾夫俱樂部。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-tripadvisor-tw-hotel",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "social_inspiration",
+    "source_name": "TripAdvisor 台灣 峇里島阿普爾瓦凱賓斯基飯店頁面",
+    "source_url": "https://www.tripadvisor.com.tw/Hotel_Review-g297698-d15243516-Reviews-The_Apurva_Kempinski_Bali-Nusa_Dua_Benoa_South_Kuta_Bali.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful Chinese-language traveler-photo source for checking how the resort looks beyond official promotional imagery.",
+    "raw_excerpt_summary": "Tripadvisor 台灣列出了峇里島阿普爾瓦凱賓斯基酒店的 3,025 則旅客評論和 7,939 張照片。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-tripadvisor-cn-hotel",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "social_inspiration",
+    "source_name": "TripAdvisor 中國 峇里島阿普爾瓦凱賓斯基飯店頁面",
+    "source_url": "https://www.tripadvisor.cn/Hotel_Review-g297698-d15243516-Reviews-The_Apurva_Kempinski_Bali-Nusa_Dua_Benoa_South_Kuta_Bali.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful Chinese-language traveler source that adds a second large photo bank and guest-review perspective.",
+    "raw_excerpt_summary": "Tripadvisor 中國列出了 3,010 峇里島阿普爾瓦凱賓斯基酒店的旅客評論和 4,915 張照片。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-balifortwo-joanne-tien-ho",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Bali For Two Joanne & Tien Ho 在 Apurva Kempinski 的真實婚禮",
+    "source_url": "https://balifortwo2.com/joanne-tien-hos-wedding-at-the-apurva-kempinski/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Real-wedding planner feature; visually useful for ceremony and reception scale.",
+    "raw_excerpt_summary": "真實婚禮案例，補足 Apurva 教堂與大型接待在實際賓客規模下的畫面。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-xhs-post-6",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 6",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-xhs-post-18",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書教堂比較 - 凱賓斯基 (巴厘岛TOP教堂场地)",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "Chapel comparison post across 6 Bali venues with pricing tiers",
+    "raw_excerpt_summary": "教堂場地比較文章。凱賓斯基大教堂：套餐4.2-4.8萬人民幣，設計風格爭議性大（喜歡與不喜歡各佔50%，有人稱「擱淺的鯨魚」），位於麗思卡爾頓旁邊沙灘，相距數百米。酒店大廳震撼壯觀（全峇里島第一），但植被稀疏、戶外日曬強烈，也設有一個小型室內儀式空間（非獨立建築，不臨海）。"
+  },
+  {
+    "source_id": "the-apurva-kempinski-bali-weddingku-vendor",
+    "venue_id": "the-apurva-kempinski-bali",
+    "source_type": "platform_agency",
+    "source_name": "WeddingKu 婚禮平台",
+    "source_url": "https://www.weddingku.com/wedding-vendors/destination-wedding-venue/the-apurva-kempinski-bali",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos",
+      "capacity",
+      "pricing"
+    ],
+    "reliability_notes": "印尼婚禮媒合平台，提供場地套餐報價與真實新人評論。評論以印尼語為主。",
+    "raw_excerpt_summary": "套餐：Amara Or Kimaya Cliff Chapel（30人起，IDR 2,299,000/人）；Nusantara Presidential（150人起，IDR 2,299,000/人）；Ocean Front Lawn（300人起，IDR 2,299,000/人）；Real Wedding 案例：Rose & Chai、Brian & Ezra、Vian & Zillah、Room & Facility",
+    "real_wedding_couples": [
+      "Rose & Chai",
+      "Brian & Ezra",
+      "Vian & Zillah",
+      "Room & Facility"
+    ]
+  }
 ]

@@ -1,0 +1,43 @@
+{
+  "venue_id": "the-edge-bali",
+  "rating": 0.0,
+  "review_count": 0,
+  "packages": [
+    {
+      "name": "Standing Reception: 10 to 150 pax",
+      "type": "from IDR 2,718,000 / pax",
+      "capacity_pax": 35,
+      "price_per_pax_idr": "IDR 2,718,000"
+    },
+    {
+      "name": "Standing Reception: 50 to 250 pax",
+      "type": "from IDR 2,718,000 / pax",
+      "capacity_pax": 200,
+      "price_per_pax_idr": "IDR 2,718,000"
+    }
+  ],
+  "reviews": [],
+  "real_weddings": [
+    {
+      "couple": "EVENT & PROMO",
+      "venue": "home  wedding vendors  hotel wedding venue  the edge"
+    },
+    {
+      "couple": "KELSEY & ANEESH",
+      "venue": "The Edge"
+    },
+    {
+      "couple": "VENUS & REUBEN",
+      "venue": "The Edge"
+    },
+    {
+      "couple": "RENEE & LIEGH",
+      "venue": "The Edge"
+    },
+    {
+      "couple": "ROOMS & FACILITIES",
+      "venue": ""
+    }
+  ],
+  "about": "Weddings, Events & Celebrations\n\nWith breathtaking views of the Indian Ocean at the pinnacle cliff of Bali, The edge is an exceptional venue for every occasion. Whether you are planning a lavish wedding, private party, anniversary or a private Board of Directors Meeting, our professional team will ensure every little detail is taken care of and it will be the occasion to remember."
+}

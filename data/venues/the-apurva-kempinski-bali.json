@@ -93,6 +93,48 @@
       "conditions_text": "價格已穩定至合理區間",
       "source_id": "xhs-folder-18",
       "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Amara Or Kimaya Cliff Chapel（Chapel，30人起）",
+      "currency": "IDR",
+      "amount_min": 68970000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 2,299,000/人，最少 30 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "the-apurva-kempinski-bali-weddingku-vendor",
+      "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Nusantara Presidential（Private Villa，150人起）",
+      "currency": "IDR",
+      "amount_min": 344850000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 2,299,000/人，最少 150 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "the-apurva-kempinski-bali-weddingku-vendor",
+      "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Ocean Front Lawn（Garden Wedding，300人起）",
+      "currency": "IDR",
+      "amount_min": 689700000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 2,299,000/人，最少 300 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "the-apurva-kempinski-bali-weddingku-vendor",
+      "confidence": "medium"
     }
   ],
   "price_summary_text": "Apurva 屬於超豪華級別：目前的公共基準價格為 20,200 美元（可容納 30 名賓客），可見的套餐示例範圍從小型 Apurva 禮拜堂儀式的 98,600,000 印尼盾，到可容納 100 名賓客的儀式和招待會（帶房間）的 780,000,000,000,000 印尼盾（含房間）的 780,000,000,000 印尼盾（印尼盾）。",
@@ -187,7 +229,8 @@
     "the-apurva-kempinski-bali-weddingku-felix-debby",
     "the-apurva-kempinski-bali-weddingku-martin-clarissa",
     "the-apurva-kempinski-bali-xhs-post-6",
-    "the-apurva-kempinski-bali-xhs-post-18"
+    "the-apurva-kempinski-bali-xhs-post-18",
+    "the-apurva-kempinski-bali-weddingku-vendor"
   ],
   "photo_index_id": "the-apurva-kempinski-bali",
   "last_updated": "2026-06-21T16:53:06.911258"

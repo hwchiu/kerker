@@ -91,6 +91,48 @@
       "conditions_text": "教堂價格4.6-5萬",
       "source_id": "xhs-folder-18",
       "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・3 Bedroom Cliff Villa（Private Villa，60人起）",
+      "currency": "IDR",
+      "amount_min": 114000000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 1,900,000/人，最少 60 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "alila-villas-uluwatu-weddingku-vendor",
+      "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Cliff Edge Cabana Lawn（Garden Wedding，200人起）",
+      "currency": "IDR",
+      "amount_min": 380000000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 1,900,000/人，最少 200 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "alila-villas-uluwatu-weddingku-vendor",
+      "confidence": "medium"
+    },
+    {
+      "label": "WeddingKu・Cliff Top Lawn（Garden Wedding，50人起）",
+      "currency": "IDR",
+      "amount_min": 95000000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "WeddingKu 標示 IDR 1,900,000/人，最少 50 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "source_id": "alila-villas-uluwatu-weddingku-vendor",
+      "confidence": "medium"
     }
   ],
   "price_summary_text": "Alila 的定價是公開可見的，但不同分會場的套餐價格變化很大：當前的即時報價頁面為 30 位客人 21,300 美元起，而公開的 Bridestory 頁面顯示 Cliff Edge Cabana 的 30 位客人淨價為 200,000,000 印尼盾，100 印尼盾，1099,999 為印尼盾的特別優惠。",
@@ -144,7 +186,8 @@
     "（小紅書用戶實測）與潘玮柏名人同款婚禮場地",
     "（小紅書用戶實測）懸崖露天設計感十足，海景視野全巴厘最佳「教堂」體驗",
     "（小紅書用戶實測）景觀、海景、隱私、舒適度皆優秀——「作為婚禮場地真的絕美」",
-    "（小紅書用戶實測）印尼餐廳海鮮炒麵+燒烤肉非常好吃，平價實惠"
+    "（小紅書用戶實測）印尼餐廳海鮮炒麵+燒烤肉非常好吃，平價實惠",
+    "WeddingKu 評分 5.0/5.0（1 則評論）（WeddingKu 平台資料）"
   ],
   "key_risks": [
     "整體價格因分會場和賓客人數而異",
@@ -192,7 +235,8 @@
     "alila-villas-uluwatu-xhs-post-10",
     "alila-villas-uluwatu-xhs-post-6",
     "alila-villas-uluwatu-xhs-post-17",
-    "alila-villas-uluwatu-xhs-post-18"
+    "alila-villas-uluwatu-xhs-post-18",
+    "alila-villas-uluwatu-weddingku-vendor"
   ],
   "photo_index_id": "alila-villas-uluwatu",
   "last_updated": "2026-06-21T16:53:06.909607"

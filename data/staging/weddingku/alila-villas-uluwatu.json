@@ -1,0 +1,57 @@
+{
+  "venue_id": "alila-villas-uluwatu",
+  "rating": 5.0,
+  "review_count": 1,
+  "packages": [
+    {
+      "name": "3 Bedroom Cliff Villa",
+      "type": "Private Villa",
+      "capacity_pax": 60,
+      "price_per_pax_idr": "IDR 1,900,000"
+    },
+    {
+      "name": "Cliff Edge Cabana Lawn",
+      "type": "Garden Wedding",
+      "capacity_pax": 200,
+      "price_per_pax_idr": "IDR 1,900,000"
+    },
+    {
+      "name": "Cliff Top Lawn",
+      "type": "Garden Wedding",
+      "capacity_pax": 50,
+      "price_per_pax_idr": "IDR 1,900,000"
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "fadia aftika putri",
+      "rating": "5/5.0",
+      "date": "6/2/2017",
+      "service": "Hotel Wedding Venue",
+      "title": "suka banget",
+      "text": "suka banget dengan alila villas uluwatu karena pemilihan tempat view nya keren b"
+    }
+  ],
+  "real_weddings": [
+    {
+      "couple": "EVENT & PROMO",
+      "venue": "home  wedding vendors  hotel wedding venue  alila villas uluwatu"
+    },
+    {
+      "couple": "ANDY & ARIA",
+      "venue": "Alila Villas Uluwatu"
+    },
+    {
+      "couple": "KIM & JAKOB",
+      "venue": "Alila Villas Uluwatu"
+    },
+    {
+      "title": "PERNIKAHAN KIM & JAKOB BERTEMA TROPICAL & COLORFUL MEMADUKAN DEKORASI WARNA CERAH & PENJOR AGUNG TRADISI BALI"
+    },
+    {
+      "couple": "SHAUN & ABIGAIL",
+      "venue": "Alila Villas Uluwatu"
+    }
+  ],
+  "about": "Poised on an elevated plateau that meets with limestone cliffs sweeping down to the ocean, the view from the Alila Villas Uluwatu is nothing less than picture-perfect. Re-discover the joy of pure relaxation in unparalleled comfort and space in each of our exquisitely designed Bali luxury villas. Surrender yourself to the enchantment of Bali's beauty & serenity in the luxury of flawless perfection"
+}

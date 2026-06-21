@@ -1,0 +1,45 @@
+{
+  "venue_id": "six-senses-uluwatu-bali",
+  "rating": 0.0,
+  "review_count": 0,
+  "packages": [
+    {
+      "name": "Andakara Lawn",
+      "type": "Garden Wedding",
+      "capacity_pax": 70,
+      "price_per_pax_idr": "IDR 1,815,000"
+    },
+    {
+      "name": "Cinema Paradiso",
+      "type": "Poolside/Water Wedding",
+      "capacity_pax": 30,
+      "price_per_pax_idr": "IDR 1,815,000"
+    },
+    {
+      "name": "Standing Reception: 80 to 200 pax",
+      "type": "from IDR 1,815,000 / pax",
+      "capacity_pax": 150,
+      "price_per_pax_idr": "IDR 1,815,000"
+    }
+  ],
+  "reviews": [],
+  "real_weddings": [
+    {
+      "couple": "EVENT & PROMO",
+      "venue": "home  wedding vendors  destination wedding venue  six senses uluwatu"
+    },
+    {
+      "couple": "LINDA & FRANK",
+      "venue": "Six Senses Uluwatu"
+    },
+    {
+      "couple": "DARREN & JESSICA",
+      "venue": "Six Senses Uluwatu"
+    },
+    {
+      "couple": "HERMANTO & JANET",
+      "venue": "Six Senses Uluwatu"
+    }
+  ],
+  "about": "A toast to love, laughter and happy ever after. Who doesn’t love a wedding? But this isn’t any old wedding; it’s your wedding so everything has to be just how you have dreamed it.\n\nWith this in mind, we bring together your own dream team to help you orchestrate every stage at each resort. Your only difficulty will be choosing which Six Senses backdrop is right for your perfect day."
+}

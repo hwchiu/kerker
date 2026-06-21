@@ -1,323 +1,355 @@
 [
-    {
-        "source_id": "alila-villas-uluwatu-official-resort",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "official",
-        "source_name": "阿麗拉別墅烏魯瓦圖度假村概覽",
-        "source_url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsav-alila-villas-uluwatu",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "photos",
-            "accommodation"
-        ],
-        "reliability_notes": "Primary official resort page for the clifftop positioning and all-villa stay concept.",
-        "raw_excerpt_summary": "阿麗拉 (Alila) 是峇里島武吉半島 (Bukit Peninsula) 懸崖邊的豪華度假村，享有海景，提供私人別墅住宿形式。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-official-weddings",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "official",
-        "source_name": "阿麗拉別墅烏魯瓦圖婚禮頁面",
-        "source_url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsav-alila-villas-uluwatu/weddings",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "capacity",
-            "photos",
-            "restrictions"
-        ],
-        "reliability_notes": "Best official wedding-specific source for Alila's cliffside ceremony positioning.",
-        "raw_excerpt_summary": "將阿麗拉定位為懸崖邊的婚禮場地，提供專門的規劃支援並享有印度洋的美景。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-official-rooms",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "official",
-        "source_name": "阿麗拉別墅烏魯瓦圖客房頁面",
-        "source_url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsav-alila-villas-uluwatu/rooms",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "accommodation",
-            "photos"
-        ],
-        "reliability_notes": "Official accommodation source showing the one- to three-bedroom villa inventory concept.",
-        "raw_excerpt_summary": "確認可欣賞印度洋美景的私人泳池別墅，並支持入住婚禮體驗。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-official-transport",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "official",
-        "source_name": "阿麗拉別墅烏魯瓦圖停車和交通",
-        "source_url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsav-alila-villas-uluwatu/parking-and-transportation",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "transport"
-        ],
-        "reliability_notes": "Official transport reference for airport routing and transfer planning.",
-        "raw_excerpt_summary": "提供從伍拉賴國際機場到達度假村的官方交通指南。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-official-gallery",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "official",
-        "source_name": "阿麗拉別墅烏魯瓦圖畫廊",
-        "source_url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsav-alila-villas-uluwatu/gallery",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "photos",
-            "accommodation"
-        ],
-        "reliability_notes": "Official gallery covering rooms, restaurants, and public spaces useful for visual orientation.",
-        "raw_excerpt_summary": "提供別墅、餐飲區和公共度假村空間的官方形象報告。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-myoverseas-overview",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "platform_agency",
-        "source_name": "我的海外婚禮 烏魯瓦圖阿麗拉別墅概覽",
-        "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/alila-villas-uluwatu",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "pricing",
-            "capacity",
-            "transport"
-        ],
-        "reliability_notes": "Current instant-quote platform useful for public price baselines and venue count, but direct confirmation is still required.",
-        "raw_excerpt_summary": "列出了 5 個婚禮場地，當前基本婚禮套餐價格為 21,300 美元（可容納 30 位賓客）。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-myoverseas-ceremony",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "platform_agency",
-        "source_name": "我的海外婚禮阿麗拉儀式場地",
-        "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/alila-villas-uluwatu/ceremony-venues",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "pricing",
-            "capacity",
-            "photos"
-        ],
-        "reliability_notes": "Useful for confirming current ceremony venue count and a comparable public price anchor.",
-        "raw_excerpt_summary": "重複 5 個婚禮場地計數和 30 位賓客 21,300 美元的基本套餐基準。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-bridestory-venue",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "platform_agency",
-        "source_name": "新娘故事阿麗拉烏魯瓦圖別墅場地列表",
-        "source_url": "https://www.bridestory.com/alila-villas-uluwatu",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "photos",
-            "capacity"
-        ],
-        "reliability_notes": "Useful visual directory page with public package and project references.",
-        "raw_excerpt_summary": "顯示阿麗拉作為峇里島婚禮場地並參考公共婚禮套餐和項目頁面。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-bridestory-modern-elegant",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "platform_agency",
-        "source_name": "Bridestory Alila 現代優雅外觀項目",
-        "source_url": "https://www.bridestory.com/alila-villas-uluwatu/projects/alila-villas-uluwatu-wedding-of-b-y",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "photos"
-        ],
-        "reliability_notes": "Useful project page for ceremony and reception styling references.",
-        "raw_excerpt_summary": "為阿麗拉現代優雅的婚禮佈置提供視覺參考。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-bridestory-gallery",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "platform_agency",
-        "source_name": "Bridestory 阿麗拉別墅烏魯瓦圖畫廊項目",
-        "source_url": "https://www.bridestory.com/alila-villas-uluwatu/projects/alila-villas-uluwatu-1",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "photos"
-        ],
-        "reliability_notes": "Additional venue-run project page that helps cross-check overall atmosphere and setup range.",
-        "raw_excerpt_summary": "為阿麗拉的儀式和接待空間添加更多視覺參考。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-bridestory-package",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "platform_agency",
-        "source_name": "Bridestory 阿麗拉婚禮及招待會套餐",
-        "source_url": "https://www.bridestory.com/store/alila-villas-uluwatu-wedding-ceremony-reception-1f78",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "pricing",
-            "capacity",
-            "restrictions"
-        ],
-        "reliability_notes": "Public package page that exposes IDR package tiers across 30, 50, and 100 guests.",
-        "raw_excerpt_summary": "顯示的公共套餐等級為：30 位客人 280,000,000 印尼盾，50 位客人 465,000,000 印尼盾，100 位客人 750,000,000 印尼盾。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-ctrip-hotel",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "platform_agency",
-        "source_name": "攜程網阿麗拉別墅烏魯瓦圖飯店頁面",
-        "source_url": "https://hotels.ctrip.com/hotels/926202.html",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos",
-            "accommodation",
-            "transport"
-        ],
-        "reliability_notes": "Chinese-language booking source useful for design context, airport timing, and room-product browsing.",
-        "raw_excerpt_summary": "阿麗拉坐落在石灰岩懸崖上，距離機場約 30 分鐘路程，採用 WOHA 設計，設有 25 公尺長的無邊際泳池。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-tripadvisor-tw-hotel",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "social_inspiration",
-        "source_name": "Tripadvisor 台灣 阿麗拉別墅烏魯瓦圖飯店頁面",
-        "source_url": "https://www.tripadvisor.com.tw/Hotel_Review-g1380108-d1238730-Reviews-Alila_Villas_Uluwatu-Pecatu_Bukit_Peninsula_Bali.html",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos",
-            "accommodation"
-        ],
-        "reliability_notes": "Useful Chinese-language traveler-photo source for checking the property outside official promotional photography.",
-        "raw_excerpt_summary": "Tripadvisor 台灣列出了阿麗拉別墅烏魯瓦圖的 1,972 則旅客評論和 3,764 張照片。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-tripadvisor-cn-hotel",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "social_inspiration",
-        "source_name": "Tripadvisor 中國 阿麗拉別墅烏魯瓦圖飯店頁面",
-        "source_url": "https://www.tripadvisor.cn/Hotel_Review-g1380108-d1238730-Reviews-Alila_Villas_Uluwatu-Pecatu_Bukit_Peninsula_Bali.html",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos",
-            "accommodation",
-            "transport"
-        ],
-        "reliability_notes": "Useful Chinese-language traveler source for design identity, route context, and additional gallery depth.",
-        "raw_excerpt_summary": "將阿麗拉概括為 WOHA 設計的石灰岩懸崖度假村，距離機場約 30 分鐘路程。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-tripcom-moments",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "social_inspiration",
-        "source_name": "Trip.com 時刻 阿麗拉別墅烏魯瓦圖特色",
-        "source_url": "https://hk.trip.com/moments/detail/bali-438-134128352/",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos"
-        ],
-        "reliability_notes": "Chinese-language inspiration post useful for atmosphere, architecture, and visual storytelling, but not for operational rules.",
-        "raw_excerpt_summary": "將阿麗拉描述為懸崖頂的烏托邦，擁有 270 度海景和電影般的「天空之城」氛圍。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-balifortwo-charles-stella",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "editorial_case_study",
-        "source_name": "Bali For Two Charles & Stella 在 Alila Uluwatu 的真實婚禮",
-        "source_url": "https://balifortwo2.com/charles-stellas-wedding-at-alila-uluwatu/",
-        "captured_at": "2026-06-19",
-        "content_date_if_known": null,
-        "language": "en",
-        "evidence_categories": [
-            "photos",
-            "capacity"
-        ],
-        "reliability_notes": "Real-wedding planner feature; good for understanding how Alila reads outside official imagery.",
-        "raw_excerpt_summary": "真實婚禮案例，可看 Cliff Edge 與 Cabana 類型在實際婚禮中的佈置與海景比例。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-xhs-post-6",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "social_inspiration",
-        "source_name": "小紅書婚禮分享 - 文件夾 6",
-        "source_url": "https://www.xiaohongshu.com",
-        "captured_at": "2026-06-21",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos"
-        ],
-        "reliability_notes": "真實婚禮評論來自小紅書用戶",
-        "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-xhs-post-10",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "social_inspiration",
-        "source_name": "小紅書婚禮分享 - 文件夾 10",
-        "source_url": "https://www.xiaohongshu.com",
-        "captured_at": "2026-06-21",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos"
-        ],
-        "reliability_notes": "真實婚禮評論來自小紅書用戶",
-        "raw_excerpt_summary": "潘玮柏同款婚禮酒店 - 一卧室別墅，無邊泳池，海景，真實評論"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-xhs-post-17",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "social_inspiration",
-        "source_name": "Alila Villas Uluwatu 3-day real wedding review (同款潘玮柏)",
-        "source_url": "https://www.xiaohongshu.com",
-        "captured_at": "2026-06-21",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos",
-            "restrictions",
-            "pricing"
-        ],
-        "reliability_notes": "First-hand detailed review with pros/cons analysis from real guest experience",
-        "raw_excerpt_summary": "潘玮柏同款婚礼酒店。3天2晚真实体验测评。优点：极简高级风格、断崖无边泳池、无边泳池直面印度洋视野绝。缺点：地理位置极其偏远、摄影加价费用高（600+RMB数字文件，摄影师要求更多小费）、猴子问题（不要在泳池边留食物）、空调过冷、隔音差、西餐厅价格过高（5道菜1200+ RMB）。整体适合婚礼仪式但需要了解缺点。"
-    },
-    {
-        "source_id": "alila-villas-uluwatu-xhs-post-18",
-        "venue_id": "alila-villas-uluwatu",
-        "source_type": "social_inspiration",
-        "source_name": "Chapel comparison - Alila Uluwatu",
-        "source_url": "https://www.xiaohongshu.com",
-        "captured_at": "2026-06-21",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "pricing",
-            "capacity"
-        ],
-        "reliability_notes": "Chapel comparison post across 6 Bali venues with pricing tiers",
-        "raw_excerpt_summary": "教堂場地比較文章。阿麗拉：套餐4.6-5萬人民幣，嚴格而言非教堂（四面+頂部全開敞），雨季漏雨風險為真實（銷售說不漏雨是謊言），但擁有全峇里島最壯觀的懸崖海景，含裝飾極少需另備預算。"
-    }
+  {
+    "source_id": "alila-villas-uluwatu-official-resort",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "official",
+    "source_name": "阿麗拉別墅烏魯瓦圖度假村概覽",
+    "source_url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsav-alila-villas-uluwatu",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Primary official resort page for the clifftop positioning and all-villa stay concept.",
+    "raw_excerpt_summary": "阿麗拉 (Alila) 是峇里島武吉半島 (Bukit Peninsula) 懸崖邊的豪華度假村，享有海景，提供私人別墅住宿形式。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-official-weddings",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "official",
+    "source_name": "阿麗拉別墅烏魯瓦圖婚禮頁面",
+    "source_url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsav-alila-villas-uluwatu/weddings",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "capacity",
+      "photos",
+      "restrictions"
+    ],
+    "reliability_notes": "Best official wedding-specific source for Alila's cliffside ceremony positioning.",
+    "raw_excerpt_summary": "將阿麗拉定位為懸崖邊的婚禮場地，提供專門的規劃支援並享有印度洋的美景。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-official-rooms",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "official",
+    "source_name": "阿麗拉別墅烏魯瓦圖客房頁面",
+    "source_url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsav-alila-villas-uluwatu/rooms",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "accommodation",
+      "photos"
+    ],
+    "reliability_notes": "Official accommodation source showing the one- to three-bedroom villa inventory concept.",
+    "raw_excerpt_summary": "確認可欣賞印度洋美景的私人泳池別墅，並支持入住婚禮體驗。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-official-transport",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "official",
+    "source_name": "阿麗拉別墅烏魯瓦圖停車和交通",
+    "source_url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsav-alila-villas-uluwatu/parking-and-transportation",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "transport"
+    ],
+    "reliability_notes": "Official transport reference for airport routing and transfer planning.",
+    "raw_excerpt_summary": "提供從伍拉賴國際機場到達度假村的官方交通指南。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-official-gallery",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "official",
+    "source_name": "阿麗拉別墅烏魯瓦圖畫廊",
+    "source_url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsav-alila-villas-uluwatu/gallery",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Official gallery covering rooms, restaurants, and public spaces useful for visual orientation.",
+    "raw_excerpt_summary": "提供別墅、餐飲區和公共度假村空間的官方形象報告。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-myoverseas-overview",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮 烏魯瓦圖阿麗拉別墅概覽",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/alila-villas-uluwatu",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "transport"
+    ],
+    "reliability_notes": "Current instant-quote platform useful for public price baselines and venue count, but direct confirmation is still required.",
+    "raw_excerpt_summary": "列出了 5 個婚禮場地，當前基本婚禮套餐價格為 21,300 美元（可容納 30 位賓客）。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-myoverseas-ceremony",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "platform_agency",
+    "source_name": "我的海外婚禮阿麗拉儀式場地",
+    "source_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/alila-villas-uluwatu/ceremony-venues",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "photos"
+    ],
+    "reliability_notes": "Useful for confirming current ceremony venue count and a comparable public price anchor.",
+    "raw_excerpt_summary": "重複 5 個婚禮場地計數和 30 位賓客 21,300 美元的基本套餐基準。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-bridestory-venue",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "platform_agency",
+    "source_name": "新娘故事阿麗拉烏魯瓦圖別墅場地列表",
+    "source_url": "https://www.bridestory.com/alila-villas-uluwatu",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Useful visual directory page with public package and project references.",
+    "raw_excerpt_summary": "顯示阿麗拉作為峇里島婚禮場地並參考公共婚禮套餐和項目頁面。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-bridestory-modern-elegant",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory Alila 現代優雅外觀項目",
+    "source_url": "https://www.bridestory.com/alila-villas-uluwatu/projects/alila-villas-uluwatu-wedding-of-b-y",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Useful project page for ceremony and reception styling references.",
+    "raw_excerpt_summary": "為阿麗拉現代優雅的婚禮佈置提供視覺參考。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-bridestory-gallery",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 阿麗拉別墅烏魯瓦圖畫廊項目",
+    "source_url": "https://www.bridestory.com/alila-villas-uluwatu/projects/alila-villas-uluwatu-1",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Additional venue-run project page that helps cross-check overall atmosphere and setup range.",
+    "raw_excerpt_summary": "為阿麗拉的儀式和接待空間添加更多視覺參考。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-bridestory-package",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "platform_agency",
+    "source_name": "Bridestory 阿麗拉婚禮及招待會套餐",
+    "source_url": "https://www.bridestory.com/store/alila-villas-uluwatu-wedding-ceremony-reception-1f78",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity",
+      "restrictions"
+    ],
+    "reliability_notes": "Public package page that exposes IDR package tiers across 30, 50, and 100 guests.",
+    "raw_excerpt_summary": "顯示的公共套餐等級為：30 位客人 280,000,000 印尼盾，50 位客人 465,000,000 印尼盾，100 位客人 750,000,000 印尼盾。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-ctrip-hotel",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "platform_agency",
+    "source_name": "攜程網阿麗拉別墅烏魯瓦圖飯店頁面",
+    "source_url": "https://hotels.ctrip.com/hotels/926202.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Chinese-language booking source useful for design context, airport timing, and room-product browsing.",
+    "raw_excerpt_summary": "阿麗拉坐落在石灰岩懸崖上，距離機場約 30 分鐘路程，採用 WOHA 設計，設有 25 公尺長的無邊際泳池。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-tripadvisor-tw-hotel",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "social_inspiration",
+    "source_name": "Tripadvisor 台灣 阿麗拉別墅烏魯瓦圖飯店頁面",
+    "source_url": "https://www.tripadvisor.com.tw/Hotel_Review-g1380108-d1238730-Reviews-Alila_Villas_Uluwatu-Pecatu_Bukit_Peninsula_Bali.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Useful Chinese-language traveler-photo source for checking the property outside official promotional photography.",
+    "raw_excerpt_summary": "Tripadvisor 台灣列出了阿麗拉別墅烏魯瓦圖的 1,972 則旅客評論和 3,764 張照片。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-tripadvisor-cn-hotel",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "social_inspiration",
+    "source_name": "Tripadvisor 中國 阿麗拉別墅烏魯瓦圖飯店頁面",
+    "source_url": "https://www.tripadvisor.cn/Hotel_Review-g1380108-d1238730-Reviews-Alila_Villas_Uluwatu-Pecatu_Bukit_Peninsula_Bali.html",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Useful Chinese-language traveler source for design identity, route context, and additional gallery depth.",
+    "raw_excerpt_summary": "將阿麗拉概括為 WOHA 設計的石灰岩懸崖度假村，距離機場約 30 分鐘路程。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-tripcom-moments",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "social_inspiration",
+    "source_name": "Trip.com 時刻 阿麗拉別墅烏魯瓦圖特色",
+    "source_url": "https://hk.trip.com/moments/detail/bali-438-134128352/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Chinese-language inspiration post useful for atmosphere, architecture, and visual storytelling, but not for operational rules.",
+    "raw_excerpt_summary": "將阿麗拉描述為懸崖頂的烏托邦，擁有 270 度海景和電影般的「天空之城」氛圍。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-balifortwo-charles-stella",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "editorial_case_study",
+    "source_name": "Bali For Two Charles & Stella 在 Alila Uluwatu 的真實婚禮",
+    "source_url": "https://balifortwo2.com/charles-stellas-wedding-at-alila-uluwatu/",
+    "captured_at": "2026-06-19",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Real-wedding planner feature; good for understanding how Alila reads outside official imagery.",
+    "raw_excerpt_summary": "真實婚禮案例，可看 Cliff Edge 與 Cabana 類型在實際婚禮中的佈置與海景比例。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-xhs-post-6",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 6",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-xhs-post-10",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "social_inspiration",
+    "source_name": "小紅書婚禮分享 - 文件夾 10",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "真實婚禮評論來自小紅書用戶",
+    "raw_excerpt_summary": "潘玮柏同款婚禮酒店 - 一卧室別墅，無邊泳池，海景，真實評論"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-xhs-post-17",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "social_inspiration",
+    "source_name": "Alila Villas Uluwatu 3-day real wedding review (同款潘玮柏)",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "restrictions",
+      "pricing"
+    ],
+    "reliability_notes": "First-hand detailed review with pros/cons analysis from real guest experience",
+    "raw_excerpt_summary": "潘玮柏同款婚礼酒店。3天2晚真实体验测评。优点：极简高级风格、断崖无边泳池、无边泳池直面印度洋视野绝。缺点：地理位置极其偏远、摄影加价费用高（600+RMB数字文件，摄影师要求更多小费）、猴子问题（不要在泳池边留食物）、空调过冷、隔音差、西餐厅价格过高（5道菜1200+ RMB）。整体适合婚礼仪式但需要了解缺点。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-xhs-post-18",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "social_inspiration",
+    "source_name": "Chapel comparison - Alila Uluwatu",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "Chapel comparison post across 6 Bali venues with pricing tiers",
+    "raw_excerpt_summary": "教堂場地比較文章。阿麗拉：套餐4.6-5萬人民幣，嚴格而言非教堂（四面+頂部全開敞），雨季漏雨風險為真實（銷售說不漏雨是謊言），但擁有全峇里島最壯觀的懸崖海景，含裝飾極少需另備預算。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-weddingku-vendor",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "platform_agency",
+    "source_name": "WeddingKu 婚禮平台",
+    "source_url": "https://www.weddingku.com/wedding-vendors/destination-wedding-venue/alila-villas-uluwatu",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "id",
+    "evidence_categories": [
+      "photos",
+      "capacity",
+      "pricing"
+    ],
+    "reliability_notes": "印尼婚禮媒合平台，提供場地套餐報價與真實新人評論。評論以印尼語為主。",
+    "raw_excerpt_summary": "WeddingKu 評分 5.0/5.0（1 則評論）；套餐：3 Bedroom Cliff Villa（60人起，IDR 1,900,000/人）；Cliff Edge Cabana Lawn（200人起，IDR 1,900,000/人）；Cliff Top Lawn（50人起，IDR 1,900,000/人）；Real Wedding 案例：Andy & Aria、Kim & Jakob、Shaun & Abigail",
+    "reviews_sample": [
+      {
+        "reviewer": "fadia aftika putri",
+        "rating": "5/5.0",
+        "date": "6/2/2017",
+        "service": "Hotel Wedding Venue",
+        "title": "suka banget",
+        "text": "suka banget dengan alila villas uluwatu karena pemilihan tempat view nya keren b"
+      }
+    ],
+    "real_wedding_couples": [
+      "Andy & Aria",
+      "Kim & Jakob",
+      "Shaun & Abigail"
+    ]
+  }
 ]
