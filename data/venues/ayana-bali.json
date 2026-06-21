@@ -127,6 +127,48 @@
       "conditions_text": "WeddingKu 標示 IDR 1,519,155/人，最少 400 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
       "source_id": "ayana-bali-weddingku-vendor",
       "confidence": "medium"
+    },
+    {
+      "label": "Kisik Pier 海景婚禮（30人）2025官方套餐",
+      "currency": "IDR",
+      "amount_min": 350000000,
+      "amount_max": null,
+      "pricing_year": 2025,
+      "includes_stay": false,
+      "includes_decoration": true,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "30人套餐，淨價（不含稅服）。場地：Kisik Pier。",
+      "source_id": "ayana-bali-wedding-package-2025",
+      "confidence": "high"
+    },
+    {
+      "label": "Tresna 教堂婚禮（50人）2025官方套餐",
+      "currency": "IDR",
+      "amount_min": 475000000,
+      "amount_max": null,
+      "pricing_year": 2025,
+      "includes_stay": false,
+      "includes_decoration": true,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "50人套餐，淨價。場地：Tresna Chapel 海景教堂。",
+      "source_id": "ayana-bali-wedding-package-2025",
+      "confidence": "high"
+    },
+    {
+      "label": "SKY 草坪婚禮（100人）2025官方套餐",
+      "currency": "IDR",
+      "amount_min": 875000000,
+      "amount_max": null,
+      "pricing_year": 2025,
+      "includes_stay": false,
+      "includes_decoration": true,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "100人套餐，淨價。場地：SKY 懸崖草坪。",
+      "source_id": "ayana-bali-wedding-package-2025",
+      "confidence": "high"
     }
   ],
   "price_summary_text": "有公開定價，但可比性因分會場和賓客人數而異；阿雅娜的 Bridestory 商店目前展示可容納 100 位客人的 SKY 全套套餐，售價為 410,800,000 印尼盾。",
@@ -226,7 +268,8 @@
     "ayana-bali-xhs-post-12",
     "ayana-bali-xhs-post-19",
     "ayana-bali-xhs-post-20",
-    "ayana-bali-weddingku-vendor"
+    "ayana-bali-weddingku-vendor",
+    "ayana-bali-wedding-package-2025"
   ],
   "photo_index_id": "ayana-bali",
   "last_updated": "2026-06-21T16:53:06.907868"

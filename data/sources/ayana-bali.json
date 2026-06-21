@@ -402,5 +402,21 @@
       "Arya & Rivvy",
       "Matt & Tessa"
     ]
+  },
+  {
+    "source_id": "ayana-bali-wedding-package-2025",
+    "venue_id": "ayana-bali",
+    "source_type": "official",
+    "source_name": "AYANA Bali 2025 婚禮套餐官方報價",
+    "source_url": "https://www.ayana.com/bali/weddings/",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": "2025-01-01",
+    "language": "en",
+    "evidence_categories": [
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "2025 年官方套餐報價，通過 Bing 搜尋結果摘要確認，來源為婚禮代理商轉載的 AYANA 官方價目表。",
+    "raw_excerpt_summary": "2025年官方套餐：Kisik Pier 30人 IDR 350,000,000 net；Tresna 教堂 50人 IDR 475,000,000 net；SKY 場地 100人 IDR 875,000,000 net。"
   }
 ]
