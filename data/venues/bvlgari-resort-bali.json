@@ -78,6 +78,20 @@
       "includes_tax_service": true,
       "conditions_text": "2024 年 3 月公開 Mansion 專案頁面；包括兩晚五臥室豪宅住宿、機場接送和最多 10 人的私人晚宴，需額外支付出席費用和不適用日期。",
       "confidence": "high"
+    },
+    {
+      "label": "草坪婚禮小型套餐",
+      "currency": "CNY",
+      "amount_min": 83800,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": true,
+      "includes_decoration": true,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "頂級奢華環境、海天一線景觀，適合親密小型婚禮",
+      "source_id": "xhs-folder-12",
+      "confidence": "medium"
     }
   ],
   "price_summary_text": "Bvlgari 是第一批中公開門檻最高的企業之一：目前的即時報價頁面起價約為 23,200 美元（可供 30 名賓客使用），而公開的 2024 年 Bvlgari Villa 和 Mansion 頁面仍分別顯示淨價 398,000,000 印尼盾和 500,000,000 印尼盾。",
@@ -127,7 +141,9 @@
   "key_strengths": [
     "以別墅為基礎的住宿，具有強烈的豪華定位",
     "明確教堂、別墅和豪宅格式的公共容量錨點",
-    "透過教堂和室內替代方案，為親密婚禮提供強大的雨水靈活性"
+    "透過教堂和室內替代方案，為親密婚禮提供強大的雨水靈活性",
+    "（小紅書用戶實測）服務高度客製化，能根據新人性格（年輕、時尚、愛花藝）量身打造",
+    "（小紅書用戶實測）可承辦小型精緻婚禮（58人）且兼具奢華感"
   ],
   "key_risks": [
     "非常高的入門價格和別墅之夜承諾",
@@ -237,7 +253,11 @@
     "bvlgari-resort-bali-xhs-post-4",
     "bvlgari-resort-bali-xhs-post-6",
     "bvlgari-resort-bali-xhs-post-8",
-    "bvlgari-tripcom-hk-hotel"
+    "bvlgari-tripcom-hk-hotel",
+    "bvlgari-resort-bali-xhs-post-15",
+    "bvlgari-resort-bali-xhs-post-12",
+    "bvlgari-resort-bali-xhs-post-19"
   ],
-  "photo_index_id": "bvlgari-resort-bali"
+  "photo_index_id": "bvlgari-resort-bali",
+  "last_updated": "2026-06-21T16:53:06.908352"
 }

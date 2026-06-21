@@ -385,5 +385,24 @@
     "coverage_type": "small_gallery",
     "decision_value": "high",
     "decision_notes": "真實用戶警告 - 退潮時沙灘問題和風況"
+  },
+  {
+    "photo_entry_id": "the-ritz-carlton-bali-xhs-14-photo-gallery",
+    "venue_id": "the-ritz-carlton-bali",
+    "source_id": "the-ritz-carlton-bali-xhs-post-14",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/the-ritz-carlton-bali/xhs-14-gallery",
+    "image_type": "social_post",
+    "scene_tags": [
+      "chapel-exterior",
+      "chapel-interior",
+      "beach-ceremony",
+      "garden-reception",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "Classic chapel venue with comprehensive wedding package for 20-person celebration"
   }
 ]

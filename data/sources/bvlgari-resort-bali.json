@@ -330,5 +330,51 @@
     ],
     "reliability_notes": "真實婚禮評論來自小紅書用戶",
     "raw_excerpt_summary": "58人婚禮 - 總統別墅婚禮+Pavilion Terrace晚宴+艾斯別墅住宿"
+  },
+  {
+    "source_id": "bvlgari-resort-bali-xhs-post-15",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "social_inspiration",
+    "source_name": "Bvlgari Bali real wedding behind-the-scenes",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Real wedding gallery with backstage photography coverage",
+    "raw_excerpt_summary": "宝格丽度假村真实婚礼幕后照片。位于乌鲁瓦图（Uluwatu），提供豪华度假村婚礼体验。"
+  },
+  {
+    "source_id": "bvlgari-resort-bali-xhs-post-12",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "social_inspiration",
+    "source_name": "Multi-venue comparison - Bvlgari terrace lawn (8.38万)",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
+    "raw_excerpt_summary": "宝格丽露台草坪8.38万，乌鲁瓦图悬崖地区，全球顶奢环保，能看海天一色，适合小型婚礼。"
+  },
+  {
+    "source_id": "bvlgari-resort-bali-xhs-post-19",
+    "venue_id": "bvlgari-resort-bali",
+    "source_type": "social_inspiration",
+    "source_name": "Cliff lawn comparison - Bvlgari cliff lawn",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
+    "raw_excerpt_summary": "宝格丽悬崖草坪，乌鲁瓦图悬崖，顶奢酒店，海天一色景色优美。"
   }
 ]

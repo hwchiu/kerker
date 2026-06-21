@@ -78,6 +78,20 @@
       "includes_tax_service": false,
       "conditions_text": "適合 100 位賓客的公共新娘故事套餐，包括儀式、招待會、晚宴和住宿。",
       "confidence": "high"
+    },
+    {
+      "label": "教堂儀式套餐",
+      "currency": "CNY",
+      "amount_min": 36000,
+      "amount_max": 46000,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": false,
+      "includes_tax_service": false,
+      "conditions_text": "按日期/時段分級定價",
+      "source_id": "xhs-folder-18",
+      "confidence": "medium"
     }
   ],
   "price_summary_text": "康萊德酒店的公共套餐定價相對直觀，以印尼盾計：小型無限教堂儀式套餐的價格約為 76,895,000 印尼盾（可供 20 位賓客入住），而可見的儀式加招待會形式的價格約為 380,000,000 印尼盾（可供 50 位賓客入住 50,050 50,050 印尼盾）可供 50,050 印尼盾入住。",
@@ -127,7 +141,10 @@
   "key_strengths": [
     "無限教堂仍然是峇里島最清晰的標誌性儀式視覺效果之一",
     "房間庫存、交通便利性和家庭友善的度假村基礎設施之間的良好平衡",
-    "公包知名度比許多豪華酒店好"
+    "公包知名度比許多豪華酒店好",
+    "（小紅書用戶實測）水池教堂特色：長水棧道、開闊視野、儀式感強烈",
+    "（小紅書用戶實測）化妝室新裝修（1年前剛竣工），精緻且上鏡",
+    "（小紅書用戶實測）場地靈活、適合精緻裝飾，晚宴選項多元且最低消費可接受"
   ],
   "key_risks": [
     "大多數可見公開價格均以 IDR 表示，這使得跨場所標準化變得更加困難",
@@ -162,7 +179,9 @@
     "conrad-bali-official-weddings",
     "conrad-bali-tripcom-hk-hotel",
     "conrad-bali-watabe-ja",
-    "conrad-bali-xhs-post-6"
+    "conrad-bali-xhs-post-6",
+    "conrad-bali-xhs-post-18"
   ],
-  "photo_index_id": "conrad-bali"
+  "photo_index_id": "conrad-bali",
+  "last_updated": "2026-06-21T16:53:06.910167"
 }

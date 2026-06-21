@@ -77,15 +77,29 @@
       "includes_tax_service": false,
       "conditions_text": "適合 100 位賓客的 Bridestory 特別優惠套裝頁面，其中包含住宿和餐飲內容。",
       "confidence": "low"
+    },
+    {
+      "label": "教堂儀式套餐",
+      "currency": "CNY",
+      "amount_min": 46000,
+      "amount_max": 50000,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": false,
+      "includes_tax_service": false,
+      "conditions_text": "教堂價格4.6-5萬",
+      "source_id": "xhs-folder-18",
+      "confidence": "medium"
     }
   ],
   "price_summary_text": "Alila 的定價是公開可見的，但不同分會場的套餐價格變化很大：當前的即時報價頁面為 30 位客人 21,300 美元起，而公開的 Bridestory 頁面顯示 Cliff Edge Cabana 的 30 位客人淨價為 200,000,000 印尼盾，100 印尼盾，1099,999 為印尼盾的特別優惠。",
   "price_risk_level": "low",
-  "rain_backup_status": "medium",
+  "rain_backup_status": "weak",
   "has_indoor_backup": true,
   "has_covered_backup": true,
   "backup_space_description": "備份似乎來自有頂棚的用餐空間、私人別墅內部和室內功能區，而不是專門的婚禮教堂。",
-  "backup_quality_notes": "阿麗拉比純粹的草坪場館更能適應天氣變化，但其標誌性的小屋和海濱草坪仍然依賴您選擇的佈局的明確記錄的 B 計劃。",
+  "backup_quality_notes": "教堂無頂部遮蔽，四面開敞，雨季真的會漏雨。銷售人員否認漏雨是虛假聲明，需預留雨天備案",
   "weather_exposure_notes": "懸崖邊小屋和外部草坪嚴重暴露在風、熱和烏魯瓦圖快速變化的天氣之下。",
   "airport_drive_time_minutes_estimate": 30,
   "transport_notes": "凱悅的交通指南和公共旅行清單顯示，在交通暢通的情況下，阿麗拉距離機場約 30 分鐘路程，但日落時段烏魯瓦圖的交通狀況可能會大大延長交通時間。",
@@ -126,12 +140,23 @@
   "key_strengths": [
     "非常強烈的設計特徵和懸崖邊的視覺回報",
     "別墅住宿體驗與婚禮本身融為一體",
-    "公開定價存在多種形式，有助於早期預算比較"
+    "公開定價存在多種形式，有助於早期預算比較",
+    "（小紅書用戶實測）與潘玮柏名人同款婚禮場地",
+    "（小紅書用戶實測）懸崖露天設計感十足，海景視野全巴厘最佳「教堂」體驗",
+    "（小紅書用戶實測）景觀、海景、隱私、舒適度皆優秀——「作為婚禮場地真的絕美」",
+    "（小紅書用戶實測）印尼餐廳海鮮炒麵+燒烤肉非常好吃，平價實惠"
   ],
   "key_risks": [
     "整體價格因分會場和賓客人數而異",
     "標誌性的懸崖邊空間真實存在天氣和風的影響",
-    "大量客人仍需要仔細的房間分區和交通規劃"
+    "大量客人仍需要仔細的房間分區和交通規劃",
+    "（小紅書用戶實測）極其偏遠——建議全程住在度假村，不適合出遊",
+    "（小紅書用戶實測）空調過冷（設施bug），隔音差（雨天雷聲非常吵）",
+    "（小紅書用戶實測）野生猴子滿地——勿將食物放室外",
+    "（小紅書用戶實測）攝影全套數位檔案600+人民幣，性價比不高；攝影師小費投訴：2萬盧比被嫌少",
+    "（小紅書用戶實測）西餐廳5菜1200+人民幣，CP值低，沙拉和意麵不推薦",
+    "（小紅書用戶實測）教堂嚴格意義上不是教堂——四面開敞、頂部也開敞，雨季真的會漏雨（銷售說不漏雨是謊言）",
+    "（小紅書用戶實測）內含裝飾極簡，需預算額外裝飾+晚宴費用"
   ],
   "data_completeness": "comparable_core_complete",
   "research_status": "needs_price_followup",
@@ -165,7 +190,10 @@
     "alila-villas-uluwatu-weddingku-utah-rex",
     "alila-villas-uluwatu-weddings-com-tw-zh",
     "alila-villas-uluwatu-xhs-post-10",
-    "alila-villas-uluwatu-xhs-post-6"
+    "alila-villas-uluwatu-xhs-post-6",
+    "alila-villas-uluwatu-xhs-post-17",
+    "alila-villas-uluwatu-xhs-post-18"
   ],
-  "photo_index_id": "alila-villas-uluwatu"
+  "photo_index_id": "alila-villas-uluwatu",
+  "last_updated": "2026-06-21T16:53:06.909607"
 }

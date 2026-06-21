@@ -257,5 +257,21 @@
     ],
     "reliability_notes": "真實婚禮評論來自小紅書用戶",
     "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
+  },
+  {
+    "source_id": "tirtha-bali-xhs-post-18",
+    "venue_id": "tirtha-bali",
+    "source_type": "social_inspiration",
+    "source_name": "Chapel comparison - Tirtha",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "Chapel comparison post across 6 Bali venues with pricing tiers",
+    "raw_excerpt_summary": "Chapel comparison - Tirtha。价格: 3.6-4.8万。特点: Japanese style chapel, strict no-silk-flowers policy, limited capacity。容量: ~40 pax max"
   }
 ]

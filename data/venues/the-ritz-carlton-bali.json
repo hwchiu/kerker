@@ -67,6 +67,34 @@
       "includes_tax_service": false,
       "conditions_text": "較舊的 Bridestory 套餐頁面顯示了 Majestic Chapel 儀式和 Chapel Lawn 招待會，可容納 30 位客人，並包含房間內容；視為歷史參考而非當前報價權威。",
       "confidence": "low"
+    },
+    {
+      "label": "教堂儀式套餐",
+      "currency": "CNY",
+      "amount_min": 50000,
+      "amount_max": 56000,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": false,
+      "includes_tax_service": false,
+      "conditions_text": "教堂價格5-5.6萬，週末價格溢價明顯",
+      "source_id": "xhs-folder-18",
+      "confidence": "medium"
+    },
+    {
+      "label": "晚宴",
+      "currency": "CNY",
+      "amount_min": 170000,
+      "amount_max": null,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": true,
+      "includes_tax_service": false,
+      "conditions_text": "含海鮮燒烤",
+      "source_id": "xhs-folder-9",
+      "confidence": "medium"
     }
   ],
   "price_summary_text": "目前「我的海外婚禮」的公開定價為 18,800 美元（30 位賓客）左右，而較早的 Bridestory 套餐頁面仍然顯示 30 位賓客的 Majestic Chapel 和 Chapel Lawn 格式，價格為 260,000,000 印尼盾，包含住宿費用。",
@@ -75,7 +103,7 @@
   "has_indoor_backup": true,
   "has_covered_backup": true,
   "backup_space_description": "麗思卡爾頓酒店可以退回到雄偉教堂、宴會廳主導的活動空間和其他室內多功能廳，而不僅僅是依賴餐廳掩護。",
-  "backup_quality_notes": "與大多數懸崖和海灘場所相比，麗思卡爾頓酒店的天氣適應能力要強得多，因為它擁有標誌性的教堂產品和嚴格的室內活動基礎設施。",
+  "backup_quality_notes": "海灘儀式場地受退潮影響，需謹慎選擇儀式時間。室內教堂備選質量高",
   "weather_exposure_notes": "海濱、懸崖草坪和大型戶外晚餐仍然依賴風和雨季的穩定性來獲得最乾淨的視覺效果。",
   "airport_drive_time_minutes_estimate": 30,
   "transport_notes": "中國旅遊清單和 Tripadvisor 將度假村定位為距離機場約 10.5 公里，比更深的烏魯瓦圖場所更容易到達，但仍面臨峇里島南部交通波動的影響。",
@@ -173,12 +201,17 @@
   "key_strengths": [
     "非常強大的客房庫存，可讓客人集中在一處房產上",
     "雄偉的教堂加上草坪和宴會廳的組合創造了真正的規劃靈活性",
-    "中文旅行和評論覆蓋範圍廣，讓視覺和住宿研究變得更容易"
+    "中文旅行和評論覆蓋範圍廣，讓視覺和住宿研究變得更容易",
+    "（小紅書用戶實測）20人小型婚禮套餐配置完整：新人2晚+18位賓客各2晚（含早餐）",
+    "（小紅書用戶實測）教堂建築風格「少女感、浪漫優雅」，適合小型婚禮",
+    "（小紅書用戶實測）教堂與海灘相近，適合儀式後補拍照"
   ],
   "key_risks": [
     "這是一個大型豪華度假村，因此必須設計而不是假設的親密感",
     "場地選擇極大地改變了同一物業的成本和氛圍",
-    "儘管有強大的備份選項，戶外標誌性外觀仍然暴露在天氣中"
+    "儘管有強大的備份選項，戶外標誌性外觀仍然暴露在天氣中",
+    "（小紅書用戶實測）退潮後沙灘非黃金沙灘而是海草泥地，外觀醜陋——選擇漲潮或正午時段至關重要",
+    "（小紅書用戶實測）海邊風力強勁，應提前規劃主持稿風險和賓客舒適度"
   ],
   "data_completeness": "comparable_core_complete",
   "research_status": "needs_price_followup",
@@ -211,7 +244,10 @@
     "the-ritz-carlton-bali-weddings-com-tw-zh",
     "the-ritz-carlton-bali-xhs-post-5",
     "the-ritz-carlton-bali-xhs-post-6",
-    "the-ritz-carlton-bali-xhs-post-9"
+    "the-ritz-carlton-bali-xhs-post-9",
+    "the-ritz-carlton-bali-xhs-post-14",
+    "the-ritz-carlton-bali-xhs-post-18"
   ],
-  "photo_index_id": "the-ritz-carlton-bali"
+  "photo_index_id": "the-ritz-carlton-bali",
+  "last_updated": "2026-06-21T16:53:06.909090"
 }

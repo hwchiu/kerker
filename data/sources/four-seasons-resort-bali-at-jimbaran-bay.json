@@ -278,5 +278,37 @@
     ],
     "reliability_notes": "Chinese wedding-agency page; useful for translated package framing and resort imagery.",
     "raw_excerpt_summary": "中文婚禮頁整理金巴蘭四季的水上走道、Sundara 與別墅住宿畫面，適合補足婚禮與住宿整合感。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-xhs-post-12",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "social_inspiration",
+    "source_name": "Multi-venue comparison - Four Seasons Jimbaran lawn (4.08万)",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
+    "raw_excerpt_summary": "金巴兰四季酒店草坪4.08万，夕阳绝佳，场地临海，距机场近，酒店环保好但价格小贵。"
+  },
+  {
+    "source_id": "four-seasons-resort-bali-at-jimbaran-bay-xhs-post-19",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "social_inspiration",
+    "source_name": "Cliff lawn comparison - Four Seasons Jimbaran (四季金巴兰)",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "pricing"
+    ],
+    "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
+    "raw_excerpt_summary": "四季金巴兰，最美落日的金巴兰地区，是四季酒店异形草坪，可办小型到中型婚礼，夕阳优美。"
   }
 ]

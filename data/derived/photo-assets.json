@@ -375,7 +375,7 @@
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-01.jpg",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-02.jpg",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-03.jpg",
-        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-04.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-04.png",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-05.jpg",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-06.jpg"
       ]
@@ -388,9 +388,9 @@
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-01.jpg",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-02.jpg",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-03.jpg",
-        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-04.jpg",
-        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-05.jpg",
-        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-06.jpg"
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-04.png",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-05.jpeg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-06.jpeg"
       ]
     },
     {
@@ -777,7 +777,7 @@
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-01.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-02.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-03.jpg",
-        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-04.jpeg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-05.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-villa-06.jpg"
       ]
@@ -790,7 +790,7 @@
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-01.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-02.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-03.jpg",
-        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-04.webp",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-05.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-06.jpg"
       ]
@@ -1279,10 +1279,10 @@
       "venue_id": "the-ritz-carlton-bali",
       "source_id": "the-ritz-carlton-bali-balifortwo-seaside-chapel",
       "asset_paths": [
-        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-01.webp",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-01.jpg",
         "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-02.webp",
         "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-03.webp",
-        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-04.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-04.webp",
         "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-05.jpg",
         "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-06.jpg"
       ]
@@ -1318,7 +1318,7 @@
       "venue_id": "tirtha-bali",
       "source_id": "tirtha-bali-balifortwo-eve",
       "asset_paths": [
-        "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-01.webp",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-01.jpg",
         "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-02.jpg",
         "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-03.jpg",
         "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-04.jpg",

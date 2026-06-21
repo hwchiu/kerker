@@ -212,5 +212,21 @@
     ],
     "reliability_notes": "Chinese hotel-agency page; useful for accommodation and atmosphere checks, but not wedding-specific.",
     "raw_excerpt_summary": "中文飯店頁整理 Mandapa 河谷度假村空間與房型，適合補住宿體驗與叢林氛圍判斷。"
+  },
+  {
+    "source_id": "mandapa-a-ritz-carlton-reserve-xhs-post-12",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "social_inspiration",
+    "source_name": "Multi-venue comparison - Mandapa lakeside lawn (5.88万)",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
+    "raw_excerpt_summary": "乌布丽思卡尔顿曼达帕河畔草坪5.88万，以森林为主在曼达帕酒店湖边，私密性不高但酒店环保一流，全球顶奢级。"
   }
 ]

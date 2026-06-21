@@ -79,6 +79,20 @@
       "includes_tax_service": false,
       "conditions_text": "以阿普爾瓦教堂為中心的公共第三方套餐，提供親密的儀式形式。",
       "confidence": "medium"
+    },
+    {
+      "label": "教堂儀式套餐",
+      "currency": "CNY",
+      "amount_min": 42000,
+      "amount_max": 48000,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": false,
+      "includes_tax_service": false,
+      "conditions_text": "價格已穩定至合理區間",
+      "source_id": "xhs-folder-18",
+      "confidence": "medium"
     }
   ],
   "price_summary_text": "Apurva 屬於超豪華級別：目前的公共基準價格為 20,200 美元（可容納 30 名賓客），可見的套餐示例範圍從小型 Apurva 禮拜堂儀式的 98,600,000 印尼盾，到可容納 100 名賓客的儀式和招待會（帶房間）的 780,000,000,000,000 印尼盾（含房間）的 780,000,000,000 印尼盾（印尼盾）。",
@@ -128,12 +142,16 @@
   "key_strengths": [
     "非常強大的目的地婚禮房間庫存和物流基礎",
     "一處房產內設有微型婚禮教堂和大型宴會廳",
-    "公共套餐範例比僅報價的豪華飯店更容易進行早期預算過濾"
+    "公共套餐範例比僅報價的豪華飯店更容易進行早期預算過濾",
+    "（小紅書用戶實測）酒店大廳驚豔「全巴厘島第一」——寺廟般磅礡感",
+    "（小紅書用戶實測）有次級儀式空間可備選（位在主樓內）"
   ],
   "key_risks": [
     "套餐比較可能會變得令人困惑，因為場地組合範圍從私密的教堂到宴會廳規模的活動",
     "大型物業物流仍需要時間表和錯誤的規劃",
-    "拍攝和專業照片的許可必須管理，而不是假設"
+    "拍攝和專業照片的許可必須管理，而不是假設",
+    "（小紅書用戶實測）建築設計爭議性大：「像擱淺的鯨魚」 vs 「東西方融合禪意設計」（褒貶各佔50%）",
+    "（小紅書用戶實測）植被年輕未成熟、不夠蒼翠，室外區域日曬強烈"
   ],
   "data_completeness": "comparable_core_complete",
   "research_status": "needs_price_followup",
@@ -168,7 +186,9 @@
     "the-apurva-kempinski-bali-watabe-ja",
     "the-apurva-kempinski-bali-weddingku-felix-debby",
     "the-apurva-kempinski-bali-weddingku-martin-clarissa",
-    "the-apurva-kempinski-bali-xhs-post-6"
+    "the-apurva-kempinski-bali-xhs-post-6",
+    "the-apurva-kempinski-bali-xhs-post-18"
   ],
-  "photo_index_id": "the-apurva-kempinski-bali"
+  "photo_index_id": "the-apurva-kempinski-bali",
+  "last_updated": "2026-06-21T16:53:06.911258"
 }

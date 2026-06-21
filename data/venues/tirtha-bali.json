@@ -64,6 +64,20 @@
       "includes_tax_service": false,
       "conditions_text": "Tirtha Uluwatu 和玻璃屋合併格式的規劃清單；確認當前稅費和確切的包含內容。",
       "confidence": "medium"
+    },
+    {
+      "label": "教堂儀式套餐",
+      "currency": "CNY",
+      "amount_min": 36000,
+      "amount_max": 48000,
+      "pricing_year": 2026,
+      "includes_stay": false,
+      "includes_decoration": false,
+      "includes_dinner": false,
+      "includes_tax_service": false,
+      "conditions_text": "按日期/時段分級",
+      "source_id": "xhs-folder-18",
+      "confidence": "medium"
     }
   ],
   "price_summary_text": "目前公開資料顯示，Tirtha 的起點約為 11,300 美元（30 位賓客），若採教堂加 Glass House 接待的組合，30 位賓客的整體方案約為 14,500 美元。",
@@ -82,7 +96,7 @@
   "nearby_accommodation_notes": "大多數客房仍需安排在附近的烏魯瓦圖、培卡圖或金巴蘭酒店，並有專車接送。",
   "accommodation_fit": "fragmented",
   "guest_mobility_notes": "分場形式要求客人在懸崖場館和玻璃屋之間換乘，因此不應讓老人和兒童自行管理交通。",
-  "restriction_level": "medium",
+  "restriction_level": "high",
   "noise_cutoff_notes": "公共第三方場地頁面顯示，Glass House 的放大音樂通常會在 22:00 左右減少，派對後的延期需要單獨的房間和費用；直接確認當前規則。",
   "external_vendor_policy": "Tirtha 是一家精心策劃的婚禮經營者；確認可以引進哪些外部策劃師、造型師、樂隊和 AV 團隊以及適用的場地費用。",
   "minimum_stay_requirement_notes": "公開的酒店式最低入住時間並沒有明確規定，但一些組合套餐仍然依賴特定的房間使用或場地組合；透過包裹確認。",
@@ -112,12 +126,18 @@
   "key_strengths": [
     "非常強大的雨備份，同時又不失賽事美感",
     "一位經營者管理下的懸崖邊和花園的獨特個性",
-    "專門打造的婚禮專業知識而非標準的飯店活動管理"
+    "專門打造的婚禮專業知識而非標準的飯店活動管理",
+    "（小紅書用戶實測）容納舒適度約40人左右",
+    "（小紅書用戶實測）內含裝飾品味高雅，設計精緻",
+    "（小紅書用戶實測）配套設施完善：化妝室、等候區品質良好"
   ],
   "key_risks": [
     "現場住宿有限",
     "分場地流動增加了客流的複雜性",
-    "公開定價仍因套餐和場地組合而異"
+    "公開定價仍因套餐和場地組合而異",
+    "（小紅書用戶實測）日本管理風格，規則和限制眾多",
+    "（小紅書用戶實測）嚴格禁止絲綢/人工花政策（酒店認為會降低教堂格調）",
+    "（小紅書用戶實測）限制多：工作日/週末定價差異、晚宴最低消費、場地進場費、特定品項只能向酒店採購"
   ],
   "data_completeness": "comparable_core_complete",
   "research_status": "deep_research_complete",
@@ -145,7 +165,9 @@
     "tirtha-bali-official-reception-only",
     "tirtha-bali-official-venues",
     "tirtha-bali-sweetday-uluwatu-zh",
-    "tirtha-bali-xhs-post-6"
+    "tirtha-bali-xhs-post-6",
+    "tirtha-bali-xhs-post-18"
   ],
-  "photo_index_id": "tirtha-bali"
+  "photo_index_id": "tirtha-bali",
+  "last_updated": "2026-06-21T16:53:06.910793"
 }

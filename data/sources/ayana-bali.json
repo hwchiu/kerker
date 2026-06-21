@@ -274,5 +274,100 @@
         ],
         "reliability_notes": "小紅書婚禮策劃師 Jenny 分享的婚禮案例照片，帖子涉及教堂婚禮 hashtag，與阿雅娜的場地風格相符。",
         "raw_excerpt_summary": "婚禮策劃師 Jenny 的服務套餐廣告，包含婚紗、攝影、化妝、主持人等全套服務。照片展示了峇里島奢華酒店的真實婚禮場景，hashtag 包含 #教堂婚禮。"
+    },
+    {
+        "source_id": "ayana-bali-xhs-post-21",
+        "venue_id": "ayana-bali",
+        "source_type": "social_inspiration",
+        "source_name": "AYANA SKY 300-person large-scale wedding by FloraWedding",
+        "source_url": "https://www.xiaohongshu.com",
+        "captured_at": "2026-06-21",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "photos"
+        ],
+        "reliability_notes": "Professional wedding planner showcase with large-scale production (7 events)",
+        "raw_excerpt_summary": "FloraWedding策划的AYANA SKY300人大型海外婚礼。主仪式在AYANA SKY进行，花艺以粉白渐变花海为核心，展示新人高级感审美。以仪式台为中心向外辐射层层错落的花带。白色步道两侧花卉高低错落设计，未刻意修剪规整。含夕阳仪式、晚宴等7场活动。"
+    },
+    {
+        "source_id": "ayana-bali-xhs-post-18",
+        "venue_id": "ayana-bali",
+        "source_type": "social_inspiration",
+        "source_name": "Chapel comparison - AYANA",
+        "source_url": "https://www.xiaohongshu.com",
+        "captured_at": "2026-06-21",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "pricing",
+            "capacity"
+        ],
+        "reliability_notes": "Chapel comparison post across 6 Bali venues with pricing tiers",
+        "raw_excerpt_summary": "教堂場地比較文章。阿雅娜 Tresna 教堂：套餐5.4-5.8萬人民幣，受歡迎但對婚慶代理商不友善，價格可一年漲2次且訂金無法鎖價，裝飾嚴格限定由酒店執行，自由度受限。"
+    },
+    {
+        "source_id": "ayana-bali-xhs-post-12",
+        "venue_id": "ayana-bali",
+        "source_type": "social_inspiration",
+        "source_name": "Multi-venue comparison - AYANA WiFi lawn (15.8万+)",
+        "source_url": "https://www.xiaohongshu.com",
+        "captured_at": "2026-06-21",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "pricing",
+            "capacity"
+        ],
+        "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
+        "raw_excerpt_summary": "AYANA WiFi草坪婚礼15.8万起，金巴兰和乌鲁瓦图交界，阿雅娜是巴厘岛最大度假村，吴奇隆婚礼同款，最少30人起订。"
+    },
+    {
+        "source_id": "ayana-bali-xhs-post-13",
+        "venue_id": "ayana-bali",
+        "source_type": "social_inspiration",
+        "source_name": "Sea-view venue comparison - AYANA",
+        "source_url": "https://www.xiaohongshu.com",
+        "captured_at": "2026-06-21",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "photos",
+            "capacity"
+        ],
+        "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
+        "raw_excerpt_summary": "AYANA海景婚礼场地，乌鲁瓦图悬崖海景，适合大型海景婚礼。"
+    },
+    {
+        "source_id": "ayana-bali-xhs-post-19",
+        "venue_id": "ayana-bali",
+        "source_type": "social_inspiration",
+        "source_name": "Cliff lawn comparison - AYANA cliff lawn",
+        "source_url": "https://www.xiaohongshu.com",
+        "captured_at": "2026-06-21",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "photos",
+            "capacity"
+        ],
+        "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
+        "raw_excerpt_summary": "AYANA悬崖草坪，金巴兰地区，顶流轻奢婚礼场地，无遮挡印度洋海景，私密高级感出月率高。"
+    },
+    {
+        "source_id": "ayana-bali-xhs-post-20",
+        "venue_id": "ayana-bali",
+        "source_type": "social_inspiration",
+        "source_name": "Detailed cliff lawn guide - AYANA WiFi full ceremony+dinner guide",
+        "source_url": "https://www.xiaohongshu.com",
+        "captured_at": "2026-06-21",
+        "content_date_if_known": null,
+        "language": "zh",
+        "evidence_categories": [
+            "photos",
+            "capacity"
+        ],
+        "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
+        "raw_excerpt_summary": "AYANA WiFi悬崖草坪详细攻略，顶流轻奢场地，仪式+晚宴分区，日落仪式+夜景晚宴，全程流程时间规划，私密性极佳。"
     }
 ]

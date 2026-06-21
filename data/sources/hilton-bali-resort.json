@@ -321,5 +321,21 @@
     ],
     "reliability_notes": "Real-wedding planner feature; useful for visual cross-checks of chapel and evening setup.",
     "raw_excerpt_summary": "真實婚禮案例，可看 Wiwaha 教堂、新人出場與晚間佈置在真實婚禮中的感覺。"
+  },
+  {
+    "source_id": "hilton-bali-resort-xhs-post-12",
+    "venue_id": "hilton-bali-resort",
+    "source_type": "social_inspiration",
+    "source_name": "Multi-venue comparison - Hilton leaf lawn (3.38万)",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
+    "raw_excerpt_summary": "希尔顿叶子草坪3.38万，努沙杜瓦地区叶子教堂下面，私密性佳，可放彩烟，海景无遮挡。"
   }
 ]

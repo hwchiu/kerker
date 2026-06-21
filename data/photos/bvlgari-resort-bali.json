@@ -476,5 +476,23 @@
     "coverage_type": "small_gallery",
     "decision_value": "high",
     "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+  },
+  {
+    "photo_entry_id": "bvlgari-resort-bali-xhs-15-photo-gallery",
+    "venue_id": "bvlgari-resort-bali",
+    "source_id": "bvlgari-resort-bali-xhs-post-15",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-15-gallery",
+    "image_type": "social_post",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "garden-reception",
+      "floral-setup",
+      "entrance-procession"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "Premium resort wedding photography documenting real event"
   }
 ]

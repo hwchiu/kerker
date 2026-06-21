@@ -1,0 +1,120 @@
+{
+    "id": "airis-luxury-villas",
+    "name_zh": "艾瑞斯奢华别墅",
+    "name_en_official": "Airis Luxury Villas",
+    "brand_or_group": "Boutique independent",
+    "venue_operator_type": "villa_estate",
+    "is_standalone": true,
+    "region": "Uluwatu",
+    "subarea": "Clifftop area near Pecatu",
+    "official_website": "https://www.airis-luxury-villas.com",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Airis+Luxury+Villas+Uluwatu+Bali",
+    "address_text": "Jl. Clifftop Area, Uluwatu, Pecatu, Badung, Bali, Indonesia (Exact address to be confirmed)",
+    "venue_types": [
+        "cliffside",
+        "villa-buyout"
+    ],
+    "primary_visual_identity": "Boutique villa resort with infinity pool villas, coconut and frangipani trees, private cliff-side setting",
+    "ceremony_space_types": [
+        "villa-deck",
+        "garden-lawn",
+        "open-air"
+    ],
+    "reception_space_types": [
+        "villa-dining",
+        "garden-lawn",
+        "pool-deck"
+    ],
+    "supports_ceremony_only": false,
+    "supports_ceremony_and_dinner": true,
+    "supports_buyout": true,
+    "supports_micro_wedding": false,
+    "guest_capacity_ceremony_min": 20,
+    "guest_capacity_ceremony_max": 50,
+    "guest_capacity_dinner_min": 20,
+    "guest_capacity_dinner_max": 50,
+    "recommended_guest_size_band": "21-50",
+    "pricing_status": "quote_required",
+    "price_entries": [],
+    "price_summary_text": "Estimated ~1000 CNY per room based on real event. Pricing varies by villa type and season. Must book entire villa minimum.",
+    "price_risk_level": "high",
+    "rain_backup_status": "weak",
+    "has_indoor_backup": false,
+    "has_covered_backup": false,
+    "backup_space_description": "Open-air settings with limited indoor alternatives. Interior villa spaces available but not designed for events.",
+    "backup_quality_notes": "Limited rain backup infrastructure. Most dining/ceremony is outdoor. Weather contingency planning essential.",
+    "weather_exposure_notes": "Open-air villas and poolside settings fully exposed to Bali weather including wind and rain from cliff location.",
+    "airport_drive_time_minutes_estimate": 60,
+    "transport_notes": "Approximately 15 minutes drive from Alila, Bvlgari, and Six Senses. 1 hour from airport. Remote cliff location requires shuttle coordination.",
+    "traffic_risk_level": "medium",
+    "onsite_accommodation_available": true,
+    "onsite_room_inventory_notes": "17 villas total, 30 rooms. Private villa accommodations with pool. Can accommodate group buyouts.",
+    "nearby_accommodation_notes": "Limited nearby alternatives. Most guests stay on-site. Nearby: Alila, Bvlgari, Six Senses.",
+    "accommodation_fit": "one_stop",
+    "guest_mobility_notes": "Villa locations on cliff with stairs and varied terrain. May challenge elderly guests. Multi-level buildings.",
+    "restriction_level": "high",
+    "noise_cutoff_notes": "Dinner events conclude by 10 PM. Music/party activities likely restricted to villa areas.",
+    "external_vendor_policy": "Unknown - confirm decoration, catering, and vendor approval policies separately",
+    "minimum_stay_requirement_notes": "Villa buyout requires minimum stay commitment for all rooms",
+    "minimum_spend_notes": "Full villa buyout required, no partial room bookings for events",
+    "drone_policy_notes": "Cliff location and privacy - drone policy unknown, should confirm in advance",
+    "family_child_notes": "Private villa setting suitable for family groups. Cliff and pool areas require supervision.",
+    "religious_or_space_use_notes": "No dedicated ceremony space mentioned. Event spaces are villa and pool areas.",
+    "operational_constraints_notes": "Remote location, full villa buyout requirement, limited backup plans. Suitable for committed group events.",
+    "style_tags": [
+        "modern",
+        "tropical",
+        "clifftop",
+        "villa-resort",
+        "boutique",
+        "pool-centric"
+    ],
+    "price_band_normalized": null,
+    "best_for": [
+        "Group events 20-50 people wanting private villa experience",
+        "Dinner celebrations with accommodation at pool villas",
+        "Events prioritizing privacy and intimate group atmosphere"
+    ],
+    "not_ideal_for": [
+        "Couples seeking traditional ceremony + grand reception",
+        "Large weddings (100+ guests)",
+        "Events requiring extensive indoor backup due to weather",
+        "Guests requiring flat, easily accessible terrain"
+    ],
+    "key_strengths": [
+        "Private villa setting with pool infrastructure",
+        "Boutique intimate atmosphere",
+        "Coconut and frangipani tree landscaping",
+        "Close to other major venues for guest options",
+        "Suitable for group buyouts",
+        "（小紅書用戶實測）位置：烏魯瓦圖懸崖區，距Alila、Six Senses、The Edge、酒莊均在15分鐘車程內",
+        "（小紅書用戶實測）無邊泳池面海、椰樹和黃花夾竹桃（招牌視覺）環繞",
+        "（小紅書用戶實測）盲盒預訂大成功（隨機選房型效果驚喜）",
+        "（小紅書用戶實測）賓客對場地大為驚豔"
+    ],
+    "key_risks": [
+        "（小紅書用戶實測）完全包棟制度，彈性較低，適合確定人數的小型婚禮",
+        "偏遠懸崖位置，交通需事先安排",
+        "戶外場地，缺乏完整室內備用方案，雨季需謹慎評估",
+        "對外供應商政策尚不明確，建議直接向酒店確認",
+        "定價資訊主要來自社群媒體，需向酒店索取正式報價"
+    ],
+    "data_completeness": "initial_capture_only",
+    "research_status": "record_created",
+    "last_verified_at": "2026-06-21",
+    "data_freshness": "recent",
+    "open_questions": [
+        "Exact physical address and precise location relative to other venues",
+        "Complete pricing structure and package options",
+        "Rain backup plan and indoor alternatives",
+        "External vendor policies (decoration, catering, music, photographers)",
+        "Drone photography policies",
+        "Official website or booking platform",
+        "Day-of coordination and planning requirements"
+    ],
+    "source_ids": [
+        "airis-luxury-villas-xhs-post-16"
+    ],
+    "photo_index_id": "airis-luxury-villas",
+    "last_updated": "2026-06-21T16:53:06.913477"
+}

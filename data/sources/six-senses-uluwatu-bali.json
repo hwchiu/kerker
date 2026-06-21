@@ -293,5 +293,36 @@
     ],
     "reliability_notes": "真實婚禮評論來自小紅書用戶",
     "raw_excerpt_summary": "多場地排名 - 按價格等級排名的7個婚禮場地"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-xhs-post-13",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "social_inspiration",
+    "source_name": "Sea-view venue comparison - Six Senses",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos",
+      "capacity"
+    ],
+    "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
+    "raw_excerpt_summary": "六善是巴厘岛热门婚礼场地，乌鲁瓦图悬崖海景，2-100人婚礼可办，烟花彩烟可放。"
+  },
+  {
+    "source_id": "six-senses-uluwatu-bali-xhs-post-20",
+    "venue_id": "six-senses-uluwatu-bali",
+    "source_type": "social_inspiration",
+    "source_name": "Cliff lawn comparison - Six Senses villa cliff lawn (六善别墅)",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Multi-venue comparison post with pricing and feature analysis",
+    "raw_excerpt_summary": "六善别墅悬崖草坪，乌鲁瓦图网红别墅，获Travel + Leisure杂志认可，有教堂和悬崖草坪，草坪圆形航拍出情。"
   }
 ]

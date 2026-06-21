@@ -25,8 +25,8 @@
     "image_type": "official_hotel_gallery",
     "scene_tags": [
       "room",
-      "public-area",
-      "arrival-flow"
+      "arrival-flow",
+      "public-area"
     ],
     "authenticity": "official_promotional",
     "coverage_type": "large_gallery",
@@ -41,9 +41,9 @@
     "image_url_or_gallery_url": "https://www.myoverseaswedding.com/wedding-destinations/bali/alila-villas-uluwatu",
     "image_type": "platform_listing_gallery",
     "scene_tags": [
+      "night-view",
       "cliffside-ceremony",
-      "guest-seating",
-      "night-view"
+      "guest-seating"
     ],
     "authenticity": "official_promotional",
     "coverage_type": "large_gallery",
@@ -59,8 +59,8 @@
     "image_type": "platform_listing_gallery",
     "scene_tags": [
       "cliffside-ceremony",
-      "floral-setup",
-      "guest-seating"
+      "guest-seating",
+      "floral-setup"
     ],
     "authenticity": "official_promotional",
     "coverage_type": "large_gallery",
@@ -75,8 +75,8 @@
     "image_url_or_gallery_url": "https://www.bridestory.com/alila-villas-uluwatu/projects/alila-villas-uluwatu-wedding-of-b-y",
     "image_type": "platform_listing_gallery",
     "scene_tags": [
-      "cliffside-ceremony",
       "garden-reception",
+      "cliffside-ceremony",
       "floral-setup"
     ],
     "authenticity": "unknown",
@@ -109,8 +109,8 @@
     "image_url_or_gallery_url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsav-alila-villas-uluwatu",
     "image_type": "official_hotel_gallery",
     "scene_tags": [
-      "public-area",
       "arrival-flow",
+      "public-area",
       "night-view"
     ],
     "authenticity": "official_promotional",
@@ -127,8 +127,8 @@
     "image_type": "platform_listing_gallery",
     "scene_tags": [
       "room",
-      "public-area",
-      "arrival-flow"
+      "arrival-flow",
+      "public-area"
     ],
     "authenticity": "unknown",
     "coverage_type": "large_gallery",
@@ -161,8 +161,8 @@
     "image_type": "social_post",
     "scene_tags": [
       "room",
-      "public-area",
-      "arrival-flow"
+      "arrival-flow",
+      "public-area"
     ],
     "authenticity": "unknown",
     "coverage_type": "large_gallery",
@@ -177,9 +177,9 @@
     "image_url_or_gallery_url": "https://hk.trip.com/moments/detail/bali-438-134128352/",
     "image_type": "social_post",
     "scene_tags": [
+      "arrival-flow",
       "public-area",
-      "night-view",
-      "arrival-flow"
+      "night-view"
     ],
     "authenticity": "unknown",
     "coverage_type": "large_gallery",
@@ -194,10 +194,10 @@
     "image_url_or_gallery_url": "https://balifortwo2.com/charles-stellas-wedding-at-alila-uluwatu/",
     "image_type": "real_wedding_feature",
     "scene_tags": [
+      "night-view",
       "cliffside-ceremony",
       "guest-seating",
-      "floral-setup",
-      "night-view"
+      "floral-setup"
     ],
     "authenticity": "real_wedding",
     "coverage_type": "large_gallery",
@@ -475,5 +475,24 @@
     "coverage_type": "small_gallery",
     "decision_value": "high",
     "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+  },
+  {
+    "photo_entry_id": "alila-villas-uluwatu-xhs-17-photo-gallery",
+    "venue_id": "alila-villas-uluwatu",
+    "source_id": "alila-villas-uluwatu-xhs-post-17",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/alila-villas-uluwatu/xhs-17-gallery",
+    "image_type": "social_post",
+    "scene_tags": [
+      "beach-ceremony",
+      "water-platform",
+      "public-area",
+      "cliffside-ceremony",
+      "night-view"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "Luxury venue with detailed real-user insights on location, pricing, photography extras, and operational details"
   }
 ]

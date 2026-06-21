@@ -1,0 +1,20 @@
+[
+  {
+    "photo_entry_id": "airis-luxury-villas-xhs-16-photo-gallery",
+    "venue_id": "airis-luxury-villas",
+    "source_id": "airis-luxury-villas-xhs-post-16",
+    "page_url": "https://www.xiaohongshu.com",
+    "image_url_or_gallery_url": "data/photo-assets/airis-luxury-villas/xhs-16-gallery",
+    "image_type": "social_post",
+    "scene_tags": [
+      "garden-reception",
+      "public-area",
+      "room",
+      "entrance-procession"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "Real 36-person group event with detailed villa and pool photography"
+  }
+]
