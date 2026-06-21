@@ -4,3 +4,5 @@ __pycache__/
 site/
 data/photo-assets/
 .DS_Store
+external_data/
+data/staging/
