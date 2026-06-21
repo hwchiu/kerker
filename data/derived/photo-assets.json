@@ -375,7 +375,7 @@
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-01.jpg",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-02.jpg",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-03.jpg",
-        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-04.png",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-04.jpg",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-05.jpg",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sea-package-06.jpg"
       ]
@@ -388,9 +388,9 @@
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-01.jpg",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-02.jpg",
         "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-03.jpg",
-        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-04.png",
-        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-05.jpeg",
-        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-06.jpeg"
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-04.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-05.jpg",
+        "data/photo-assets/the-edge-bali/the-edge-bali-photo-balifortwo-sky-package-06.jpg"
       ]
     },
     {
@@ -791,7 +791,7 @@
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-02.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-03.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-04.webp",
-        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-05.webp",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-balifortwo-la-terrazza-06.jpg"
       ]
     },
@@ -1141,7 +1141,7 @@
         "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-03.jpg",
         "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-04.jpg",
         "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-05.jpg",
-        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-06.jpg"
+        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-balifortwo-aarunya-50-06.jpeg"
       ]
     },
     {
@@ -1279,12 +1279,12 @@
       "venue_id": "the-ritz-carlton-bali",
       "source_id": "the-ritz-carlton-bali-balifortwo-seaside-chapel",
       "asset_paths": [
-        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-01.jpg",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-01.webp",
         "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-02.webp",
         "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-03.webp",
-        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-04.webp",
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-04.jpg",
         "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-05.jpg",
-        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-06.jpg"
+        "data/photo-assets/the-ritz-carlton-bali/the-ritz-carlton-bali-balifortwo-seaside-chapel-06.webp"
       ]
     },
     {
@@ -1318,12 +1318,12 @@
       "venue_id": "tirtha-bali",
       "source_id": "tirtha-bali-balifortwo-eve",
       "asset_paths": [
-        "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-01.jpg",
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-01.webp",
         "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-02.jpg",
         "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-03.jpg",
         "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-04.jpg",
         "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-05.jpg",
-        "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-06.jpg"
+        "data/photo-assets/tirtha-bali/tirtha-bali-photo-balifortwo-eve-06.jpeg"
       ]
     },
     {
@@ -1350,6 +1350,804 @@
         "data/photo-assets/tirtha-bali/tirtha-bali-neverneverland-zh-04.jpg",
         "data/photo-assets/tirtha-bali/tirtha-bali-neverneverland-zh-05.jpg",
         "data/photo-assets/tirtha-bali/tirtha-bali-neverneverland-zh-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-1",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7155.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-2",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7154.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-3",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7156.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-4",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7157.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-5",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7147.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-6",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7153.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-7",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7152.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-8",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7150.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-9",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7151.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-10",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7148.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-11",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7160.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-12",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7161.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-13",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7149.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-14",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7163.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-15",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7162.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-2-photo-16",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-2",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-2-IMG_7159.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-3-photo-1",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-3",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-3-IMG_7169.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-3-photo-2",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-3",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-3-IMG_7168.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-3-photo-3",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-3",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-3-IMG_7180.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-3-photo-4",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-3",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-3-IMG_7178.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-3-photo-5",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-3",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-3-IMG_7179.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-3-photo-6",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-3",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-3-IMG_7174.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-3-photo-7",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-3",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-3-IMG_7175.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-3-photo-8",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-3",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-3-IMG_7177.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-3-photo-9",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-3",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-3-IMG_7176.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-3-photo-10",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-3",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-3-IMG_7172.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-3-photo-11",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-3",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-3-IMG_7173.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-3-photo-12",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-3",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-3-IMG_7167.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-3-photo-13",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-3",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-3-IMG_7171.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-3-photo-14",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-3",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-3-IMG_7170.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-7-photo-1",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-7",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-7-IMG_7220.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-7-photo-2",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-7",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-7-IMG_7219.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-7-photo-3",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-7",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-7-IMG_7218.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-7-photo-4",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-7",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-7-IMG_7216.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-7-photo-5",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-7",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-7-IMG_7217.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-7-photo-6",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-7",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-7-IMG_7215.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-7-photo-7",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-7",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-7-IMG_7214.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-7-photo-8",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-7",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-7-IMG_7211.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-7-photo-9",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-7",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-7-IMG_7213.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-7-photo-10",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-7",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-7-IMG_7212.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-11-photo-gallery",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-11",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-11-IMG_7273.JPG",
+        "data/photo-assets/ayana-bali/xhs-11-IMG_7274.JPG",
+        "data/photo-assets/ayana-bali/xhs-11-IMG_7275.JPG",
+        "data/photo-assets/ayana-bali/xhs-11-IMG_7276.JPG",
+        "data/photo-assets/ayana-bali/xhs-11-IMG_7277.JPG",
+        "data/photo-assets/ayana-bali/xhs-11-IMG_7278.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "ayana-bali-xhs-21-photo-gallery",
+      "venue_id": "ayana-bali",
+      "source_id": "ayana-bali-xhs-post-21",
+      "asset_paths": [
+        "data/photo-assets/ayana-bali/xhs-21-IMG_7445.JPG",
+        "data/photo-assets/ayana-bali/xhs-21-IMG_7446.JPG",
+        "data/photo-assets/ayana-bali/xhs-21-IMG_7447.JPG",
+        "data/photo-assets/ayana-bali/xhs-21-IMG_7448.JPG",
+        "data/photo-assets/ayana-bali/xhs-21-IMG_7449.JPG",
+        "data/photo-assets/ayana-bali/xhs-21-IMG_7450.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "airis-luxury-villas-xhs-16-photo-gallery",
+      "venue_id": "airis-luxury-villas",
+      "source_id": "airis-luxury-villas-xhs-post-16",
+      "asset_paths": [
+        "data/photo-assets/airis-luxury-villas/xhs-16-1782028827651.JPG",
+        "data/photo-assets/airis-luxury-villas/xhs-16-1782028884023.JPG",
+        "data/photo-assets/airis-luxury-villas/xhs-16-1782028885715.JPG",
+        "data/photo-assets/airis-luxury-villas/xhs-16-1782028887174.JPG",
+        "data/photo-assets/airis-luxury-villas/xhs-16-1782028888748.JPG",
+        "data/photo-assets/airis-luxury-villas/xhs-16-IMG_7362.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-1",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-xhs-post-5",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7196.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-2",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-xhs-post-5",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7197.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-3",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-xhs-post-5",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7195.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-4",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-xhs-post-5",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7194.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-5",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-xhs-post-5",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7193.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-6",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-xhs-post-5",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7192.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-7",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-xhs-post-5",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7199.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-xhs-5-photo-8",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-xhs-post-5",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/xhs-5-IMG_7198.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-xhs-9-photo-1",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-xhs-post-9",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/xhs-9-IMG_7237.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-xhs-9-photo-2",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-xhs-post-9",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/xhs-9-IMG_7243.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-xhs-9-photo-3",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-xhs-post-9",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/xhs-9-IMG_7242.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-xhs-9-photo-4",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-xhs-post-9",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/xhs-9-IMG_7238.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-xhs-9-photo-5",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-xhs-post-9",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/xhs-9-IMG_7239.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "the-ritz-carlton-bali-xhs-14-photo-gallery",
+      "venue_id": "the-ritz-carlton-bali",
+      "source_id": "the-ritz-carlton-bali-xhs-post-14",
+      "asset_paths": [
+        "data/photo-assets/the-ritz-carlton-bali/xhs-14-IMG_7277.JPG",
+        "data/photo-assets/the-ritz-carlton-bali/xhs-14-IMG_7278.JPG",
+        "data/photo-assets/the-ritz-carlton-bali/xhs-14-IMG_7279.JPG",
+        "data/photo-assets/the-ritz-carlton-bali/xhs-14-IMG_7280.JPG",
+        "data/photo-assets/the-ritz-carlton-bali/xhs-14-IMG_7281.JPG",
+        "data/photo-assets/the-ritz-carlton-bali/xhs-14-IMG_7282.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-1",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-1782026854625.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-2",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-1782026834261.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-3",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-1782026824702.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-4",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-IMG_7247.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-5",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-1782026836602.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-6",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-1782026854317.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-7",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-1782026855805.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-8",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-IMG_7267.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-9",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-1782026828781.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-10",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-1782026827458.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-11",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-1782026832137.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-12",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-IMG_7271.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-13",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-1782026825941.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-14",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-1782026830194.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-15",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-IMG_7247 2.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-16",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-10",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-10-1782026855720.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "alila-villas-uluwatu-xhs-17-photo-gallery",
+      "venue_id": "alila-villas-uluwatu",
+      "source_id": "alila-villas-uluwatu-xhs-post-17",
+      "asset_paths": [
+        "data/photo-assets/alila-villas-uluwatu/xhs-17-1782029247981.JPG",
+        "data/photo-assets/alila-villas-uluwatu/xhs-17-1782029248624.JPG",
+        "data/photo-assets/alila-villas-uluwatu/xhs-17-1782029249709.JPG",
+        "data/photo-assets/alila-villas-uluwatu/xhs-17-1782029250575.JPG",
+        "data/photo-assets/alila-villas-uluwatu/xhs-17-1782029251519.JPG",
+        "data/photo-assets/alila-villas-uluwatu/xhs-17-1782029252735.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-1",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-xhs-post-8",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7223.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-2",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-xhs-post-8",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7234.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-3",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-xhs-post-8",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7231.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-4",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-xhs-post-8",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7225.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-5",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-xhs-post-8",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7224.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-6",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-xhs-post-8",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7230.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-7",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-xhs-post-8",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7226.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-8",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-xhs-post-8",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7232.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-9",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-xhs-post-8",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7233.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-10",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-xhs-post-8",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7227.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-11",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-xhs-post-8",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7229.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-12",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-xhs-post-8",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7228.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-resort-bali-xhs-15-photo-gallery",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-resort-bali-xhs-post-15",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/xhs-15-1782028823870.JPG",
+        "data/photo-assets/bvlgari-resort-bali/xhs-15-1782028825754.JPG",
+        "data/photo-assets/bvlgari-resort-bali/xhs-15-IMG_7284.JPG",
+        "data/photo-assets/bvlgari-resort-bali/xhs-15-IMG_7349.JPG",
+        "data/photo-assets/bvlgari-resort-bali/xhs-15-IMG_7350.JPG",
+        "data/photo-assets/bvlgari-resort-bali/xhs-15-IMG_7351.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-1",
+      "venue_id": "pandawa-cliff-estate",
+      "source_id": "pandawa-cliff-estate-xhs-post-1",
+      "asset_paths": [
+        "data/photo-assets/pandawa-cliff-estate/xhs-1-IMG_7141.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-2",
+      "venue_id": "pandawa-cliff-estate",
+      "source_id": "pandawa-cliff-estate-xhs-post-1",
+      "asset_paths": [
+        "data/photo-assets/pandawa-cliff-estate/xhs-1-IMG_7140.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-3",
+      "venue_id": "pandawa-cliff-estate",
+      "source_id": "pandawa-cliff-estate-xhs-post-1",
+      "asset_paths": [
+        "data/photo-assets/pandawa-cliff-estate/xhs-1-IMG_7142.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-4",
+      "venue_id": "pandawa-cliff-estate",
+      "source_id": "pandawa-cliff-estate-xhs-post-1",
+      "asset_paths": [
+        "data/photo-assets/pandawa-cliff-estate/xhs-1-IMG_7143.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-5",
+      "venue_id": "pandawa-cliff-estate",
+      "source_id": "pandawa-cliff-estate-xhs-post-1",
+      "asset_paths": [
+        "data/photo-assets/pandawa-cliff-estate/xhs-1-IMG_7146.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-6",
+      "venue_id": "pandawa-cliff-estate",
+      "source_id": "pandawa-cliff-estate-xhs-post-1",
+      "asset_paths": [
+        "data/photo-assets/pandawa-cliff-estate/xhs-1-IMG_7144.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-7",
+      "venue_id": "pandawa-cliff-estate",
+      "source_id": "pandawa-cliff-estate-xhs-post-1",
+      "asset_paths": [
+        "data/photo-assets/pandawa-cliff-estate/xhs-1-IMG_7145.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-8",
+      "venue_id": "pandawa-cliff-estate",
+      "source_id": "pandawa-cliff-estate-xhs-post-1",
+      "asset_paths": [
+        "data/photo-assets/pandawa-cliff-estate/xhs-1-IMG_7139.JPG"
+      ]
+    },
+    {
+      "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-9",
+      "venue_id": "pandawa-cliff-estate",
+      "source_id": "pandawa-cliff-estate-xhs-post-1",
+      "asset_paths": [
+        "data/photo-assets/pandawa-cliff-estate/xhs-1-IMG_7138.JPG"
       ]
     }
   ]

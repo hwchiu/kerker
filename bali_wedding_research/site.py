@@ -4240,8 +4240,12 @@ def _sort_photo_entries(
             "source_type",
             "platform_agency",
         )
+        scene_tags = entry.get("scene_tags", [])
+        # Deprioritise non-venue scenes (rooms, product shots) for cover selection
+        non_venue_scene = 1 if all(t in {"room", "public-area", "arrival-flow"} for t in scene_tags) and scene_tags else 0
         return (
             0 if preview_urls else 1,
+            non_venue_scene,
             0 if entry["authenticity"] == "real_wedding" else 1,
             PHOTO_DECISION_RANKS.get(entry["decision_value"], 99),
             PHOTO_IMAGE_TYPE_RANKS.get(entry["image_type"], 99),

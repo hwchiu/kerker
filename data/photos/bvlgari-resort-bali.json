@@ -1,498 +1,498 @@
 [
-  {
-    "photo_entry_id": "bvlgari-photo-chapel-official",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-official-chapel",
-    "page_url": "https://www.bulgarihotels.com/en_US/bali/wedding/bulgari-chapel",
-    "image_url_or_gallery_url": "https://www.bulgarihotels.com/en_US/bali/wedding/bulgari-chapel",
-    "image_type": "official_wedding_gallery",
-    "scene_tags": [
-      "chapel-interior",
-      "chapel-exterior",
-      "rain-backup-space"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "寶格麗室內儀式特色和天氣適應性的最佳官方來源。"
-  },
-  {
-    "photo_entry_id": "bvlgari-photo-villa-official",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-official-villa",
-    "page_url": "https://www.bulgarihotels.com/en_US/bali/wedding/the-bulgari-villa",
-    "image_url_or_gallery_url": "https://www.bulgarihotels.com/en_US/bali/wedding/the-bulgari-villa",
-    "image_type": "official_wedding_gallery",
-    "scene_tags": [
-      "water-platform",
-      "guest-seating",
-      "floral-setup"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "展現了別墅式泳池儀式和私人豪華接待的特色。"
-  },
-  {
-    "photo_entry_id": "bvlgari-photo-mansion-official",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-official-mansion",
-    "page_url": "https://www.bulgarihotels.com/en_US/bali/wedding/the-bvlgari-mansion-wedding",
-    "image_url_or_gallery_url": "https://www.bulgarihotels.com/en_US/bali/wedding/the-bvlgari-mansion-wedding",
-    "image_type": "official_wedding_gallery",
-    "scene_tags": [
-      "water-platform",
-      "night-view",
-      "guest-seating"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "私人豪宅買斷形式及其浮動祭壇外觀的重要參考。"
-  },
-  {
-    "photo_entry_id": "bvlgari-photo-overview-official",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-official-overview",
-    "page_url": "https://www.bulgarihotels.com/en_US/bali/the-resort/overview",
-    "image_url_or_gallery_url": "https://www.bulgarihotels.com/en_US/bali/the-resort/overview",
-    "image_type": "official_hotel_gallery",
-    "scene_tags": [
-      "public-area",
-      "arrival-flow",
-      "jungle-view"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "large_gallery",
-    "decision_value": "medium",
-    "decision_notes": "幫助判斷度假村的整體氛圍和公共區域基調。"
-  },
-  {
-    "photo_entry_id": "bvlgari-photo-ocean-view-villa",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-official-ocean-view-villa",
-    "page_url": "https://www.bulgarihotels.com/en_US/bali/villas-and-mansions/One-bedrooms/ocean-view-villa",
-    "image_url_or_gallery_url": "https://www.bulgarihotels.com/en_US/bali/villas-and-mansions/One-bedrooms/ocean-view-villa",
-    "image_type": "official_hotel_gallery",
-    "scene_tags": [
-      "room",
-      "public-area",
-      "arrival-flow"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "large_gallery",
-    "decision_value": "medium",
-    "decision_notes": "高價值的住宿參考，因為別墅品質是婚禮主張的一部分。"
-  },
-  {
-    "photo_entry_id": "bvlgari-photo-chapel-bridestory",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-bridestory-chapel",
-    "page_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/bvlgari-chapel-wedding",
-    "image_url_or_gallery_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/bvlgari-chapel-wedding",
-    "image_type": "platform_listing_gallery",
-    "scene_tags": [
-      "chapel-interior",
-      "guest-seating",
-      "floral-setup"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "教堂佈置和實際婚禮造型的良好補充視圖。"
-  },
-  {
-    "photo_entry_id": "bvlgari-photo-villa-bridestory",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-bridestory-villa",
-    "page_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/bulgari-villa-wedding",
-    "image_url_or_gallery_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/bulgari-villa-wedding",
-    "image_type": "platform_listing_gallery",
-    "scene_tags": [
-      "water-platform",
-      "guest-seating",
-      "night-view"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "適用於別墅泳池舞台儀式和私人晚宴流程。"
-  },
-  {
-    "photo_entry_id": "bvlgari-photo-mansion-bridestory",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-bridestory-mansion",
-    "page_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/the-bulgari-mansion-wedding",
-    "image_url_or_gallery_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/the-bulgari-mansion-wedding",
-    "image_type": "platform_listing_gallery",
-    "scene_tags": [
-      "water-platform",
-      "guest-seating",
-      "night-view"
-    ],
-    "authenticity": "official_promotional",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "以官方頁面無法完全比較的方式顯示最私密的買斷式格式。"
-  },
-  {
-    "photo_entry_id": "bvlgari-photo-tripcom-hk",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-tripcom-hk-hotel",
-    "page_url": "https://hk.trip.com/hotels/bali-hotel-detail-926153/bvlgari-resort-bali?locale=en-HK",
-    "image_url_or_gallery_url": "https://hk.trip.com/hotels/bali-hotel-detail-926153/bvlgari-resort-bali?locale=en-HK",
-    "image_type": "platform_listing_gallery",
-    "scene_tags": [
-      "room",
-      "public-area",
-      "night-view"
-    ],
-    "authenticity": "unknown",
-    "coverage_type": "large_gallery",
-    "decision_value": "medium",
-    "decision_notes": "中文平台圖集可補看客房、泳池和公共空間，幫助判斷寶格麗的奢華感是否接近真實入住感受。"
-  },
-  {
-    "photo_entry_id": "bvlgari-photo-ctrip-hotel",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-ctrip-hotel",
-    "page_url": "https://hotels.ctrip.com/hotels/926153.html",
-    "image_url_or_gallery_url": "https://hotels.ctrip.com/hotels/926153.html",
-    "image_type": "platform_listing_gallery",
-    "scene_tags": [
-      "room",
-      "public-area",
-      "arrival-flow"
-    ],
-    "authenticity": "unknown",
-    "coverage_type": "large_gallery",
-    "decision_value": "medium",
-    "decision_notes": "攜程飯店頁常能看到大量房型與公共區域實拍，適合補強寶格麗住宿與動線的真實參考。"
-  },
-  {
-    "photo_entry_id": "bvlgari-balifortwo-jeffrey-mag",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-balifortwo-jeffrey-mag",
-    "page_url": "https://balifortwo2.com/jeffrey-mags-wedding-at-bulgari-resort/",
-    "image_url_or_gallery_url": "https://balifortwo2.com/jeffrey-mags-wedding-at-bulgari-resort/",
-    "image_type": "real_wedding_feature",
-    "scene_tags": [
-      "chapel-exterior",
-      "cliffside-ceremony",
-      "guest-seating",
-      "floral-setup"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "高價值真實婚禮圖集，可看寶格麗教堂儀式、花藝密度與賓客席次尺度。"
-  },
-  {
-    "photo_entry_id": "bvlgari-neverneverland-zh",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-neverneverland-zh",
-    "page_url": "https://neverneverlandinbali.com/wedding/18087-2/",
-    "image_url_or_gallery_url": "https://neverneverlandinbali.com/wedding/18087-2/",
-    "image_type": "blog_feature",
-    "scene_tags": [
-      "chapel-exterior",
-      "water-platform",
-      "garden-reception"
-    ],
-    "authenticity": "unknown",
-    "coverage_type": "large_gallery",
-    "decision_value": "medium",
-    "decision_notes": "中文頁照片量多，適合快速比對寶格麗水台、教堂與 Mansion 晚宴視覺。"
-  },
-  {
-    "photo_entry_id": "bvlgari-photo-balivibes-overview",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-balivibes-overview",
-    "page_url": "https://balivibesweddings.com/bvlgari-resort-bali/",
-    "image_url_or_gallery_url": "https://balivibesweddings.com/bvlgari-resort-bali/",
-    "image_type": "blog_feature",
-    "scene_tags": [
-      "water-platform",
-      "chapel-exterior",
-      "guest-seating",
-      "public-area"
-    ],
-    "authenticity": "unknown",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "同一頁就能切換看教堂、Villa、Mansion 與 La Terrazza，是建立寶格麗空間差異最快的非官方視覺入口。"
-  },
-  {
-    "photo_entry_id": "bvlgari-photo-balifortwo-villa",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-balifortwo-villa",
-    "page_url": "https://balifortwo2.com/bvlgari-resort-bali-the-bvlgari-villa-wedding/",
-    "image_url_or_gallery_url": "https://balifortwo2.com/bvlgari-resort-bali-the-bvlgari-villa-wedding/",
-    "image_type": "blog_feature",
-    "scene_tags": [
-      "water-platform",
-      "guest-seating",
-      "night-view"
-    ],
-    "authenticity": "unknown",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "可直接看私人別墅水台、長桌晚宴與上下層動線，是判斷 Villa 玩法值不值得買斷的重要補充。"
-  },
-  {
-    "photo_entry_id": "bvlgari-photo-balifortwo-la-terrazza",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-balifortwo-la-terrazza",
-    "page_url": "https://balifortwo2.com/bvlgari-resort-bali-la-terrazza-wedding-for-12-guests/",
-    "image_url_or_gallery_url": "https://balifortwo2.com/bvlgari-resort-bali-la-terrazza-wedding-for-12-guests/",
-    "image_type": "blog_feature",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "guest-seating",
-      "night-view"
-    ],
-    "authenticity": "unknown",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "適合拿來對照 La Terrazza 這種少人數海景露台婚禮與別墅 / 豪宅買斷型在私密度上的差別。"
-  },
-  {
-    "photo_entry_id": "bvlgari-photo-suka-zh",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-resort-bali-suka-zh",
-    "page_url": "https://www.sukawedding.com/Wedding_Venue_Detail.asp?ViD=75786C6EA39F36913801B160D0B95D1A",
-    "image_url_or_gallery_url": "https://www.sukawedding.com/Wedding_Venue_Detail.asp?ViD=75786C6EA39F36913801B160D0B95D1A",
-    "image_type": "platform_listing_gallery",
-    "scene_tags": [
-      "water-platform",
-      "chapel-exterior",
-      "night-view"
-    ],
-    "authenticity": "unknown",
-    "coverage_type": "small_gallery",
-    "decision_value": "medium",
-    "decision_notes": "中文頁能快速補看寶格麗水中婚禮、教堂與夜景畫面，適合做初步中文比對。"
-  },
-  {
-    "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-1",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-resort-bali-xhs-post-8",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7223.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "water-platform",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-2",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-resort-bali-xhs-post-8",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7234.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "water-platform",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-3",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-resort-bali-xhs-post-8",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7231.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "water-platform",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-4",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-resort-bali-xhs-post-8",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7225.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "water-platform",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-5",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-resort-bali-xhs-post-8",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7224.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "water-platform",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-6",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-resort-bali-xhs-post-8",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7230.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "water-platform",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-7",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-resort-bali-xhs-post-8",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7226.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "water-platform",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-8",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-resort-bali-xhs-post-8",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7232.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "water-platform",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-9",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-resort-bali-xhs-post-8",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7233.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "water-platform",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-10",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-resort-bali-xhs-post-8",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7227.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "water-platform",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-11",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-resort-bali-xhs-post-8",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7229.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "water-platform",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-12",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-resort-bali-xhs-post-8",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7228.JPG",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "water-platform",
-      "guest-seating"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "small_gallery",
-    "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
-  },
-  {
-    "photo_entry_id": "bvlgari-resort-bali-xhs-15-photo-gallery",
-    "venue_id": "bvlgari-resort-bali",
-    "source_id": "bvlgari-resort-bali-xhs-post-15",
-    "page_url": "https://www.xiaohongshu.com",
-    "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-15-gallery",
-    "image_type": "social_post",
-    "scene_tags": [
-      "cliffside-ceremony",
-      "garden-reception",
-      "floral-setup",
-      "entrance-procession"
-    ],
-    "authenticity": "real_wedding",
-    "coverage_type": "large_gallery",
-    "decision_value": "high",
-    "decision_notes": "Premium resort wedding photography documenting real event"
-  }
+    {
+        "photo_entry_id": "bvlgari-photo-chapel-official",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-official-chapel",
+        "page_url": "https://www.bulgarihotels.com/en_US/bali/wedding/bulgari-chapel",
+        "image_url_or_gallery_url": "https://www.bulgarihotels.com/en_US/bali/wedding/bulgari-chapel",
+        "image_type": "official_wedding_gallery",
+        "scene_tags": [
+            "chapel-interior",
+            "chapel-exterior",
+            "rain-backup-space"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "寶格麗室內儀式特色和天氣適應性的最佳官方來源。"
+    },
+    {
+        "photo_entry_id": "bvlgari-photo-villa-official",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-official-villa",
+        "page_url": "https://www.bulgarihotels.com/en_US/bali/wedding/the-bulgari-villa",
+        "image_url_or_gallery_url": "https://www.bulgarihotels.com/en_US/bali/wedding/the-bulgari-villa",
+        "image_type": "official_wedding_gallery",
+        "scene_tags": [
+            "water-platform",
+            "guest-seating",
+            "floral-setup"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "展現了別墅式泳池儀式和私人豪華接待的特色。"
+    },
+    {
+        "photo_entry_id": "bvlgari-photo-mansion-official",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-official-mansion",
+        "page_url": "https://www.bulgarihotels.com/en_US/bali/wedding/the-bvlgari-mansion-wedding",
+        "image_url_or_gallery_url": "https://www.bulgarihotels.com/en_US/bali/wedding/the-bvlgari-mansion-wedding",
+        "image_type": "official_wedding_gallery",
+        "scene_tags": [
+            "water-platform",
+            "night-view",
+            "guest-seating"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "私人豪宅買斷形式及其浮動祭壇外觀的重要參考。"
+    },
+    {
+        "photo_entry_id": "bvlgari-photo-overview-official",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-official-overview",
+        "page_url": "https://www.bulgarihotels.com/en_US/bali/the-resort/overview",
+        "image_url_or_gallery_url": "https://www.bulgarihotels.com/en_US/bali/the-resort/overview",
+        "image_type": "official_hotel_gallery",
+        "scene_tags": [
+            "public-area",
+            "arrival-flow",
+            "jungle-view"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "large_gallery",
+        "decision_value": "medium",
+        "decision_notes": "幫助判斷度假村的整體氛圍和公共區域基調。"
+    },
+    {
+        "photo_entry_id": "bvlgari-photo-ocean-view-villa",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-official-ocean-view-villa",
+        "page_url": "https://www.bulgarihotels.com/en_US/bali/villas-and-mansions/One-bedrooms/ocean-view-villa",
+        "image_url_or_gallery_url": "https://www.bulgarihotels.com/en_US/bali/villas-and-mansions/One-bedrooms/ocean-view-villa",
+        "image_type": "official_hotel_gallery",
+        "scene_tags": [
+            "room",
+            "public-area",
+            "arrival-flow"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "large_gallery",
+        "decision_value": "medium",
+        "decision_notes": "高價值的住宿參考，因為別墅品質是婚禮主張的一部分。"
+    },
+    {
+        "photo_entry_id": "bvlgari-photo-chapel-bridestory",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-bridestory-chapel",
+        "page_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/bvlgari-chapel-wedding",
+        "image_url_or_gallery_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/bvlgari-chapel-wedding",
+        "image_type": "platform_listing_gallery",
+        "scene_tags": [
+            "chapel-interior",
+            "guest-seating",
+            "floral-setup"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "教堂佈置和實際婚禮造型的良好補充視圖。"
+    },
+    {
+        "photo_entry_id": "bvlgari-photo-villa-bridestory",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-bridestory-villa",
+        "page_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/bulgari-villa-wedding",
+        "image_url_or_gallery_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/bulgari-villa-wedding",
+        "image_type": "platform_listing_gallery",
+        "scene_tags": [
+            "water-platform",
+            "guest-seating",
+            "night-view"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "適用於別墅泳池舞台儀式和私人晚宴流程。"
+    },
+    {
+        "photo_entry_id": "bvlgari-photo-mansion-bridestory",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-bridestory-mansion",
+        "page_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/the-bulgari-mansion-wedding",
+        "image_url_or_gallery_url": "https://www.bridestory.com/bvlgari-resort-bali/projects/the-bulgari-mansion-wedding",
+        "image_type": "platform_listing_gallery",
+        "scene_tags": [
+            "water-platform",
+            "guest-seating",
+            "night-view"
+        ],
+        "authenticity": "official_promotional",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "以官方頁面無法完全比較的方式顯示最私密的買斷式格式。"
+    },
+    {
+        "photo_entry_id": "bvlgari-photo-tripcom-hk",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-tripcom-hk-hotel",
+        "page_url": "https://hk.trip.com/hotels/bali-hotel-detail-926153/bvlgari-resort-bali?locale=en-HK",
+        "image_url_or_gallery_url": "https://hk.trip.com/hotels/bali-hotel-detail-926153/bvlgari-resort-bali?locale=en-HK",
+        "image_type": "platform_listing_gallery",
+        "scene_tags": [
+            "room",
+            "public-area",
+            "night-view"
+        ],
+        "authenticity": "unknown",
+        "coverage_type": "large_gallery",
+        "decision_value": "medium",
+        "decision_notes": "中文平台圖集可補看客房、泳池和公共空間，幫助判斷寶格麗的奢華感是否接近真實入住感受。"
+    },
+    {
+        "photo_entry_id": "bvlgari-photo-ctrip-hotel",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-ctrip-hotel",
+        "page_url": "https://hotels.ctrip.com/hotels/926153.html",
+        "image_url_or_gallery_url": "https://hotels.ctrip.com/hotels/926153.html",
+        "image_type": "platform_listing_gallery",
+        "scene_tags": [
+            "room",
+            "public-area",
+            "arrival-flow"
+        ],
+        "authenticity": "unknown",
+        "coverage_type": "large_gallery",
+        "decision_value": "medium",
+        "decision_notes": "攜程飯店頁常能看到大量房型與公共區域實拍，適合補強寶格麗住宿與動線的真實參考。"
+    },
+    {
+        "photo_entry_id": "bvlgari-balifortwo-jeffrey-mag",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-balifortwo-jeffrey-mag",
+        "page_url": "https://balifortwo2.com/jeffrey-mags-wedding-at-bulgari-resort/",
+        "image_url_or_gallery_url": "https://balifortwo2.com/jeffrey-mags-wedding-at-bulgari-resort/",
+        "image_type": "real_wedding_feature",
+        "scene_tags": [
+            "chapel-exterior",
+            "cliffside-ceremony",
+            "guest-seating",
+            "floral-setup"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "高價值真實婚禮圖集，可看寶格麗教堂儀式、花藝密度與賓客席次尺度。"
+    },
+    {
+        "photo_entry_id": "bvlgari-neverneverland-zh",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-neverneverland-zh",
+        "page_url": "https://neverneverlandinbali.com/wedding/18087-2/",
+        "image_url_or_gallery_url": "https://neverneverlandinbali.com/wedding/18087-2/",
+        "image_type": "blog_feature",
+        "scene_tags": [
+            "chapel-exterior",
+            "water-platform",
+            "garden-reception"
+        ],
+        "authenticity": "unknown",
+        "coverage_type": "large_gallery",
+        "decision_value": "medium",
+        "decision_notes": "中文頁照片量多，適合快速比對寶格麗水台、教堂與 Mansion 晚宴視覺。"
+    },
+    {
+        "photo_entry_id": "bvlgari-photo-balivibes-overview",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-balivibes-overview",
+        "page_url": "https://balivibesweddings.com/bvlgari-resort-bali/",
+        "image_url_or_gallery_url": "https://balivibesweddings.com/bvlgari-resort-bali/",
+        "image_type": "blog_feature",
+        "scene_tags": [
+            "water-platform",
+            "chapel-exterior",
+            "guest-seating",
+            "public-area"
+        ],
+        "authenticity": "unknown",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "同一頁就能切換看教堂、Villa、Mansion 與 La Terrazza，是建立寶格麗空間差異最快的非官方視覺入口。"
+    },
+    {
+        "photo_entry_id": "bvlgari-photo-balifortwo-villa",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-balifortwo-villa",
+        "page_url": "https://balifortwo2.com/bvlgari-resort-bali-the-bvlgari-villa-wedding/",
+        "image_url_or_gallery_url": "https://balifortwo2.com/bvlgari-resort-bali-the-bvlgari-villa-wedding/",
+        "image_type": "blog_feature",
+        "scene_tags": [
+            "water-platform",
+            "guest-seating",
+            "night-view"
+        ],
+        "authenticity": "unknown",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "可直接看私人別墅水台、長桌晚宴與上下層動線，是判斷 Villa 玩法值不值得買斷的重要補充。"
+    },
+    {
+        "photo_entry_id": "bvlgari-photo-balifortwo-la-terrazza",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-balifortwo-la-terrazza",
+        "page_url": "https://balifortwo2.com/bvlgari-resort-bali-la-terrazza-wedding-for-12-guests/",
+        "image_url_or_gallery_url": "https://balifortwo2.com/bvlgari-resort-bali-la-terrazza-wedding-for-12-guests/",
+        "image_type": "blog_feature",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "guest-seating",
+            "night-view"
+        ],
+        "authenticity": "unknown",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "適合拿來對照 La Terrazza 這種少人數海景露台婚禮與別墅 / 豪宅買斷型在私密度上的差別。"
+    },
+    {
+        "photo_entry_id": "bvlgari-photo-suka-zh",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-resort-bali-suka-zh",
+        "page_url": "https://www.sukawedding.com/Wedding_Venue_Detail.asp?ViD=75786C6EA39F36913801B160D0B95D1A",
+        "image_url_or_gallery_url": "https://www.sukawedding.com/Wedding_Venue_Detail.asp?ViD=75786C6EA39F36913801B160D0B95D1A",
+        "image_type": "platform_listing_gallery",
+        "scene_tags": [
+            "water-platform",
+            "chapel-exterior",
+            "night-view"
+        ],
+        "authenticity": "unknown",
+        "coverage_type": "small_gallery",
+        "decision_value": "medium",
+        "decision_notes": "中文頁能快速補看寶格麗水中婚禮、教堂與夜景畫面，適合做初步中文比對。"
+    },
+    {
+        "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-1",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-resort-bali-xhs-post-8",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7223.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "water-platform",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-2",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-resort-bali-xhs-post-8",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7234.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "water-platform",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-3",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-resort-bali-xhs-post-8",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7231.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "water-platform",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-4",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-resort-bali-xhs-post-8",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7225.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "water-platform",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-5",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-resort-bali-xhs-post-8",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7224.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "water-platform",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-6",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-resort-bali-xhs-post-8",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7230.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "water-platform",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-7",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-resort-bali-xhs-post-8",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7226.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "water-platform",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-8",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-resort-bali-xhs-post-8",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7232.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "water-platform",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-9",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-resort-bali-xhs-post-8",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7233.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "water-platform",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-10",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-resort-bali-xhs-post-8",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7227.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "water-platform",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-11",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-resort-bali-xhs-post-8",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7229.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "water-platform",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "bvlgari-resort-bali-xhs-8-photo-12",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-resort-bali-xhs-post-8",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-8-IMG_7228.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "water-platform",
+            "guest-seating"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "small_gallery",
+        "decision_value": "high",
+        "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    },
+    {
+        "photo_entry_id": "bvlgari-resort-bali-xhs-15-photo-gallery",
+        "venue_id": "bvlgari-resort-bali",
+        "source_id": "bvlgari-resort-bali-xhs-post-15",
+        "page_url": "https://www.xiaohongshu.com",
+        "image_url_or_gallery_url": "data/photo-assets/bvlgari-resort-bali/xhs-15-1782028823870.JPG",
+        "image_type": "social_post",
+        "scene_tags": [
+            "cliffside-ceremony",
+            "garden-reception",
+            "floral-setup",
+            "entrance-procession"
+        ],
+        "authenticity": "real_wedding",
+        "coverage_type": "large_gallery",
+        "decision_value": "high",
+        "decision_notes": "Premium resort wedding photography documenting real event"
+    }
 ]
