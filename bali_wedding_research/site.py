@@ -4240,12 +4240,31 @@ def _sort_photo_entries(
             "source_type",
             "platform_agency",
         )
-        scene_tags = entry.get("scene_tags", [])
-        # Deprioritise non-venue scenes (rooms, product shots) for cover selection
-        non_venue_scene = 1 if all(t in {"room", "public-area", "arrival-flow"} for t in scene_tags) and scene_tags else 0
+        scene_tags = set(entry.get("scene_tags", []))
+        # Whitelist approach: prioritise entries with strong ceremony/venue tags and no room tag
+        # Priority 0 = clear venue scene (ceremony, chapel, garden, cliff, beach, water, ballroom)
+        # Priority 1 = has good tag but also has room/arrival (bulk-tagged XHS posts)
+        # Priority 2 = only floral/night/public-area — decorative but not venue
+        # Priority 3 = only room/public-area/arrival-flow — non-venue
+        GOOD_VENUE_TAGS = {
+            "cliffside-ceremony", "garden-reception", "beach-ceremony",
+            "chapel-exterior", "chapel-interior", "water-platform",
+            "ballroom-reception", "entrance-procession",
+        }
+        BAD_TAGS = {"room", "public-area", "arrival-flow"}
+        has_good = bool(scene_tags & GOOD_VENUE_TAGS)
+        has_bad = bool(scene_tags & BAD_TAGS)
+        if has_good and not has_bad:
+            venue_priority = 0
+        elif has_good and has_bad:
+            venue_priority = 1
+        elif scene_tags and scene_tags.issubset(BAD_TAGS):
+            venue_priority = 3
+        else:
+            venue_priority = 2
         return (
             0 if preview_urls else 1,
-            non_venue_scene,
+            venue_priority,
             0 if entry["authenticity"] == "real_wedding" else 1,
             PHOTO_DECISION_RANKS.get(entry["decision_value"], 99),
             PHOTO_IMAGE_TYPE_RANKS.get(entry["image_type"], 99),
