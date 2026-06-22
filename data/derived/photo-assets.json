@@ -2067,6 +2067,24 @@
       "asset_paths": [
         "data/photo-assets/pandawa-cliff-estate/xhs-1-IMG_7138.JPG"
       ]
+    },
+    {
+      "photo_entry_id": "bvlgari-photo-theweddingnotebook-silent-songs",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-theweddingnotebook-silent-songs",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-theweddingnotebook-silent-songs-01.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-theweddingnotebook-silent-songs-02.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-theweddingnotebook-silent-songs-03.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-theweddingnotebook-silent-songs-04.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-theweddingnotebook-silent-songs-05.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-theweddingnotebook-silent-songs-06.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-theweddingnotebook-silent-songs-07.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-theweddingnotebook-silent-songs-08.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-theweddingnotebook-silent-songs-09.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-theweddingnotebook-silent-songs-10.webp",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-theweddingnotebook-silent-songs-11.webp"
+      ]
     }
   ]
 }
