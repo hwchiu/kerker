@@ -1,33 +1,163 @@
 [
-    {
-        "source_id": "pandawa-cliff-estate-xhs-post-1",
-        "venue_id": "pandawa-cliff-estate",
-        "source_type": "social_inspiration",
-        "source_name": "小紅書婚禮分享 - 文件夾 1",
-        "source_url": "https://www.xiaohongshu.com",
-        "captured_at": "2026-06-21",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "photos"
-        ],
-        "reliability_notes": "真實婚禮評論來自小紅書用戶",
-        "raw_excerpt_summary": "晚宴布置細節 - 仙女燈、配件盒、菜單設計、DJ 台、開放式酒吧"
-    },
-    {
-        "source_id": "pandawa-cliff-estate-xhs-post-4",
-        "venue_id": "pandawa-cliff-estate",
-        "source_type": "social_inspiration",
-        "source_name": "小紅書比較文 - Pandawa vs 宝格里小型婚礼对比",
-        "source_url": "https://www.xiaohongshu.com",
-        "captured_at": "2026-06-21",
-        "content_date_if_known": null,
-        "language": "zh",
-        "evidence_categories": [
-            "pricing",
-            "capacity"
-        ],
-        "reliability_notes": "小紅書用戶將 Pandawa Cliff Estate 與宝格里作為 20+ 人小型婚禮的比較對象，提供兩場地的優缺點。",
-        "raw_excerpt_summary": "比較文：Pandawa Cliff Estate 與宝格里作為20人以上小型婚禮的比較。Pandawa 的懸崖莊園性價比高、私密性好；宝格里則為頂奢品牌，更具知名度。"
-    }
+  {
+    "source_id": "pandawa-cliff-estate-xhs-post-1",
+    "venue_id": "pandawa-cliff-estate",
+    "source_type": "social_inspiration",
+    "source_name": "\u5c0f\u7d05\u66f8\u5a5a\u79ae\u5206\u4eab - \u6587\u4ef6\u593e 1",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "\u771f\u5be6\u5a5a\u79ae\u8a55\u8ad6\u4f86\u81ea\u5c0f\u7d05\u66f8\u7528\u6236",
+    "raw_excerpt_summary": "\u665a\u5bb4\u5e03\u7f6e\u7d30\u7bc0 - \u4ed9\u5973\u71c8\u3001\u914d\u4ef6\u76d2\u3001\u83dc\u55ae\u8a2d\u8a08\u3001DJ \u53f0\u3001\u958b\u653e\u5f0f\u9152\u5427"
+  },
+  {
+    "source_id": "pandawa-cliff-estate-xhs-post-4",
+    "venue_id": "pandawa-cliff-estate",
+    "source_type": "social_inspiration",
+    "source_name": "\u5c0f\u7d05\u66f8\u6bd4\u8f03\u6587 - Pandawa vs \u5b9d\u683c\u91cc\u5c0f\u578b\u5a5a\u793c\u5bf9\u6bd4",
+    "source_url": "https://www.xiaohongshu.com",
+    "captured_at": "2026-06-21",
+    "content_date_if_known": null,
+    "language": "zh",
+    "evidence_categories": [
+      "pricing",
+      "capacity"
+    ],
+    "reliability_notes": "\u5c0f\u7d05\u66f8\u7528\u6236\u5c07 Pandawa Cliff Estate \u8207\u5b9d\u683c\u91cc\u4f5c\u70ba 20+ \u4eba\u5c0f\u578b\u5a5a\u79ae\u7684\u6bd4\u8f03\u5c0d\u8c61\uff0c\u63d0\u4f9b\u5169\u5834\u5730\u7684\u512a\u7f3a\u9ede\u3002",
+    "raw_excerpt_summary": "\u6bd4\u8f03\u6587\uff1aPandawa Cliff Estate \u8207\u5b9d\u683c\u91cc\u4f5c\u70ba20\u4eba\u4ee5\u4e0a\u5c0f\u578b\u5a5a\u79ae\u7684\u6bd4\u8f03\u3002Pandawa \u7684\u61f8\u5d16\u838a\u5712\u6027\u50f9\u6bd4\u9ad8\u3001\u79c1\u5bc6\u6027\u597d\uff1b\u5b9d\u683c\u91cc\u5247\u70ba\u9802\u5962\u54c1\u724c\uff0c\u66f4\u5177\u77e5\u540d\u5ea6\u3002"
+  },
+  {
+    "source_id": "pandawa-cliff-estate-balifortwo-erika-stephen",
+    "source_type": "editorial_case_study",
+    "source_name": "Bali For Two - Erika Stephen Wedding",
+    "source_url": "https://balifortwo2.com/",
+    "source_description": "Real wedding feature: Erika Stephen at Pandawa Cliff Estate",
+    "editorial_date": "2026-06-22T23:55:06.536390",
+    "content_url": "https://balifortwo2.com/erika-stephens-wedding-at-pandawa-cliff-estate/",
+    "featured_photos_count": 4,
+    "featured_photo_paths": [
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-erika-stephen-1.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-erika-stephen-2.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-erika-stephen-3.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-erika-stephen-5.png"
+    ],
+    "notes": "Real wedding case study from Bali For Two",
+    "venue_id": "pandawa-cliff-estate",
+    "captured_at": "2026-06-22",
+    "content_date_if_known": "2026-06-22",
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Real wedding case study from balifortwo.com",
+    "raw_excerpt_summary": "Real wedding at Pandawa Cliff Estate featuring Erika Stephen"
+  },
+  {
+    "source_id": "pandawa-cliff-estate-balifortwo-trimelia-jl",
+    "source_type": "editorial_case_study",
+    "source_name": "Bali For Two - Trimelia Jl Wedding",
+    "source_url": "https://balifortwo2.com/",
+    "source_description": "Real wedding feature: Trimelia Jl at Pandawa Cliff Estate",
+    "editorial_date": "2026-06-22T23:55:06.536398",
+    "content_url": "https://balifortwo2.com/trimelia-jls-wedding-at-pandawa-cliff-estate/",
+    "featured_photos_count": 4,
+    "featured_photo_paths": [
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-trimelia-jl-1.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-trimelia-jl-2.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-trimelia-jl-3.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-trimelia-jl-5.png"
+    ],
+    "notes": "Real wedding case study from Bali For Two",
+    "venue_id": "pandawa-cliff-estate",
+    "captured_at": "2026-06-22",
+    "content_date_if_known": "2026-06-22",
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Real wedding case study from balifortwo.com",
+    "raw_excerpt_summary": "Real wedding at Pandawa Cliff Estate featuring Trimelia Jl"
+  },
+  {
+    "source_id": "pandawa-cliff-estate-balifortwo-eve-yuichi",
+    "source_type": "editorial_case_study",
+    "source_name": "Bali For Two - Eve Yuichi Wedding",
+    "source_url": "https://balifortwo2.com/",
+    "source_description": "Real wedding feature: Eve Yuichi at Pandawa Cliff Estate",
+    "editorial_date": "2026-06-22T23:55:06.536402",
+    "content_url": "https://balifortwo2.com/eve-yuichis-wedding-at-pandawa-cliff-estate/",
+    "featured_photos_count": 4,
+    "featured_photo_paths": [
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-eve-yuichi-1.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-eve-yuichi-2.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-eve-yuichi-3.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-eve-yuichi-5.png"
+    ],
+    "notes": "Real wedding case study from Bali For Two",
+    "venue_id": "pandawa-cliff-estate",
+    "captured_at": "2026-06-22",
+    "content_date_if_known": "2026-06-22",
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Real wedding case study from balifortwo.com",
+    "raw_excerpt_summary": "Real wedding at Pandawa Cliff Estate featuring Eve Yuichi"
+  },
+  {
+    "source_id": "pandawa-cliff-estate-balifortwo-paula-andrew",
+    "source_type": "editorial_case_study",
+    "source_name": "Bali For Two - Paula Andrew Wedding",
+    "source_url": "https://balifortwo2.com/",
+    "source_description": "Real wedding feature: Paula Andrew at Pandawa Cliff Estate",
+    "editorial_date": "2026-06-22T23:55:06.536406",
+    "content_url": "https://balifortwo2.com/paula-andrews-wedding-at-pandawa-cliff-estate/",
+    "featured_photos_count": 4,
+    "featured_photo_paths": [
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-paula-andrew-1.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-paula-andrew-2.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-paula-andrew-3.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-paula-andrew-5.png"
+    ],
+    "notes": "Real wedding case study from Bali For Two",
+    "venue_id": "pandawa-cliff-estate",
+    "captured_at": "2026-06-22",
+    "content_date_if_known": "2026-06-22",
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Real wedding case study from balifortwo.com",
+    "raw_excerpt_summary": "Real wedding at Pandawa Cliff Estate featuring Paula Andrew"
+  },
+  {
+    "source_id": "pandawa-cliff-estate-balifortwo-dyan-daniel",
+    "source_type": "editorial_case_study",
+    "source_name": "Bali For Two - Dyan Daniel Wedding",
+    "source_url": "https://balifortwo2.com/",
+    "source_description": "Real wedding feature: Dyan Daniel at Pandawa Cliff Estate",
+    "editorial_date": "2026-06-22T23:55:06.536413",
+    "content_url": "https://balifortwo2.com/dyan-daniels-wedding-at-pandawa-cliff-estate/",
+    "featured_photos_count": 4,
+    "featured_photo_paths": [
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-dyan-daniel-1.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-dyan-daniel-2.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-dyan-daniel-3.png",
+      "data/photo-assets/pandawa-cliff-estate/balifortwo-dyan-daniel-5.png"
+    ],
+    "notes": "Real wedding case study from Bali For Two",
+    "venue_id": "pandawa-cliff-estate",
+    "captured_at": "2026-06-22",
+    "content_date_if_known": "2026-06-22",
+    "language": "en",
+    "evidence_categories": [
+      "photos"
+    ],
+    "reliability_notes": "Real wedding case study from balifortwo.com",
+    "raw_excerpt_summary": "Real wedding at Pandawa Cliff Estate featuring Dyan Daniel"
+  }
 ]

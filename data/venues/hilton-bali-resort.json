@@ -1,6 +1,6 @@
 {
   "id": "hilton-bali-resort",
-  "name_zh": "峇里島希爾頓度假酒店",
+  "name_zh": "\u5cc7\u91cc\u5cf6\u5e0c\u723e\u9813\u5ea6\u5047\u9152\u5e97",
   "name_en_official": "Hilton Bali Resort",
   "brand_or_group": "Hilton Hotels & Resorts",
   "venue_operator_type": "resort",
@@ -18,7 +18,7 @@
     "ballroom",
     "cliffside"
   ],
-  "primary_visual_identity": "薩萬安 (Sawangan) 懸崖邊的大型度假村以 Wiwaha 教堂、Wiwaha 水、海濱晚餐和真正的宴會廳而聞名，價格比超豪華同行更實惠。",
+  "primary_visual_identity": "\u85a9\u842c\u5b89 (Sawangan) \u61f8\u5d16\u908a\u7684\u5927\u578b\u5ea6\u5047\u6751\u4ee5 Wiwaha \u6559\u5802\u3001Wiwaha \u6c34\u3001\u6d77\u6ff1\u665a\u9910\u548c\u771f\u6b63\u7684\u5bb4\u6703\u5ef3\u800c\u805e\u540d\uff0c\u50f9\u683c\u6bd4\u8d85\u8c6a\u83ef\u540c\u884c\u66f4\u5be6\u60e0\u3002",
   "ceremony_space_types": [
     "glass-chapel",
     "water-platform",
@@ -43,7 +43,7 @@
   "pricing_status": "public_price_available",
   "price_entries": [
     {
-      "label": "30 位賓客的基本婚禮套餐",
+      "label": "30 \u4f4d\u8cd3\u5ba2\u7684\u57fa\u672c\u5a5a\u79ae\u5957\u9910",
       "currency": "USD",
       "amount_min": 11100,
       "amount_max": null,
@@ -52,11 +52,11 @@
       "includes_decoration": true,
       "includes_dinner": true,
       "includes_tax_service": false,
-      "conditions_text": "目前我的海外婚禮即時報價基準為 30 位賓客在峇里島希爾頓度假村；確認度假村的稅務、服務和特定場地要求的直接數學計算。",
+      "conditions_text": "\u76ee\u524d\u6211\u7684\u6d77\u5916\u5a5a\u79ae\u5373\u6642\u5831\u50f9\u57fa\u6e96\u70ba 30 \u4f4d\u8cd3\u5ba2\u5728\u5cc7\u91cc\u5cf6\u5e0c\u723e\u9813\u5ea6\u5047\u6751\uff1b\u78ba\u8a8d\u5ea6\u5047\u6751\u7684\u7a05\u52d9\u3001\u670d\u52d9\u548c\u7279\u5b9a\u5834\u5730\u8981\u6c42\u7684\u76f4\u63a5\u6578\u5b78\u8a08\u7b97\u3002",
       "confidence": "medium"
     },
     {
-      "label": "2025 年 Wiwaha 教堂婚禮套餐，可容納 40 位賓客",
+      "label": "2025 \u5e74 Wiwaha \u6559\u5802\u5a5a\u79ae\u5957\u9910\uff0c\u53ef\u5bb9\u7d0d 40 \u4f4d\u8cd3\u5ba2",
       "currency": "IDR",
       "amount_min": 48000000,
       "amount_max": null,
@@ -65,11 +65,11 @@
       "includes_decoration": true,
       "includes_dinner": false,
       "includes_tax_service": false,
-      "conditions_text": "Wiwaha Chapel 的公共 Bridestory 商店可容納 40 位客人；核實目前的稅金、服務和情侶房的包含內容是否有變更。",
+      "conditions_text": "Wiwaha Chapel \u7684\u516c\u5171 Bridestory \u5546\u5e97\u53ef\u5bb9\u7d0d 40 \u4f4d\u5ba2\u4eba\uff1b\u6838\u5be6\u76ee\u524d\u7684\u7a05\u91d1\u3001\u670d\u52d9\u548c\u60c5\u4fb6\u623f\u7684\u5305\u542b\u5167\u5bb9\u662f\u5426\u6709\u8b8a\u66f4\u3002",
       "confidence": "high"
     },
     {
-      "label": "WeddingKu・Beachfront Garden（Garden Wedding，50人起）",
+      "label": "WeddingKu\u30fbBeachfront Garden\uff08Garden Wedding\uff0c50\u4eba\u8d77\uff09",
       "currency": "IDR",
       "amount_min": 67518000,
       "amount_max": null,
@@ -78,12 +78,12 @@
       "includes_decoration": false,
       "includes_dinner": true,
       "includes_tax_service": false,
-      "conditions_text": "WeddingKu 標示 IDR 1,350,360/人，最少 50 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "conditions_text": "WeddingKu \u6a19\u793a IDR 1,350,360/\u4eba\uff0c\u6700\u5c11 50 \u4eba\uff0c\u9910\u98f2\u8cbb\u7528\u57fa\u6e96\uff1b\u4e0d\u542b\u5100\u5f0f\u8cbb\u3001\u4f48\u7f6e\u3001\u4f4f\u5bbf\u53ca\u7a05\u670d\u8cbb\u3002",
       "source_id": "hilton-bali-resort-weddingku-vendor",
       "confidence": "medium"
     },
     {
-      "label": "WeddingKu・Graha Paruman（Ballroom，450人起）",
+      "label": "WeddingKu\u30fbGraha Paruman\uff08Ballroom\uff0c450\u4eba\u8d77\uff09",
       "currency": "IDR",
       "amount_min": 607662000,
       "amount_max": null,
@@ -92,12 +92,12 @@
       "includes_decoration": false,
       "includes_dinner": true,
       "includes_tax_service": false,
-      "conditions_text": "WeddingKu 標示 IDR 1,350,360/人，最少 450 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "conditions_text": "WeddingKu \u6a19\u793a IDR 1,350,360/\u4eba\uff0c\u6700\u5c11 450 \u4eba\uff0c\u9910\u98f2\u8cbb\u7528\u57fa\u6e96\uff1b\u4e0d\u542b\u5100\u5f0f\u8cbb\u3001\u4f48\u7f6e\u3001\u4f4f\u5bbf\u53ca\u7a05\u670d\u8cbb\u3002",
       "source_id": "hilton-bali-resort-weddingku-vendor",
       "confidence": "medium"
     },
     {
-      "label": "WeddingKu・Graha Sawangan（Ballroom，300人起）",
+      "label": "WeddingKu\u30fbGraha Sawangan\uff08Ballroom\uff0c300\u4eba\u8d77\uff09",
       "currency": "IDR",
       "amount_min": 405108000,
       "amount_max": null,
@@ -106,36 +106,36 @@
       "includes_decoration": false,
       "includes_dinner": true,
       "includes_tax_service": false,
-      "conditions_text": "WeddingKu 標示 IDR 1,350,360/人，最少 300 人，餐飲費用基準；不含儀式費、佈置、住宿及稅服費。",
+      "conditions_text": "WeddingKu \u6a19\u793a IDR 1,350,360/\u4eba\uff0c\u6700\u5c11 300 \u4eba\uff0c\u9910\u98f2\u8cbb\u7528\u57fa\u6e96\uff1b\u4e0d\u542b\u5100\u5f0f\u8cbb\u3001\u4f48\u7f6e\u3001\u4f4f\u5bbf\u53ca\u7a05\u670d\u8cbb\u3002",
       "source_id": "hilton-bali-resort-weddingku-vendor",
       "confidence": "medium"
     }
   ],
-  "price_summary_text": "峇里島希爾頓酒店是峇里島南部較為透明的教堂度假村之一：目前的公開定價為 30 位客人的 11,100 美元左右，2025 年 Wiwaha Chapel 套餐的價格為 48,000,000 印尼盾，可供 40 位客人。",
+  "price_summary_text": "\u5cc7\u91cc\u5cf6\u5e0c\u723e\u9813\u9152\u5e97\u662f\u5cc7\u91cc\u5cf6\u5357\u90e8\u8f03\u70ba\u900f\u660e\u7684\u6559\u5802\u5ea6\u5047\u6751\u4e4b\u4e00\uff1a\u76ee\u524d\u7684\u516c\u958b\u5b9a\u50f9\u70ba 30 \u4f4d\u5ba2\u4eba\u7684 11,100 \u7f8e\u5143\u5de6\u53f3\uff0c2025 \u5e74 Wiwaha Chapel \u5957\u9910\u7684\u50f9\u683c\u70ba 48,000,000 \u5370\u5c3c\u76fe\uff0c\u53ef\u4f9b 40 \u4f4d\u5ba2\u4eba\u3002",
   "price_risk_level": "low",
   "rain_backup_status": "strong",
   "has_indoor_backup": true,
   "has_covered_backup": true,
-  "backup_space_description": "希爾頓的後備力量來自 Wiwaha Chapel 以及多個室內多功能廳和宴會廳，而不是單一的臨時餐廳後備。",
-  "backup_quality_notes": "對於想要舉行水上或海灘儀式但需要可靠的室內替代方案的夫婦來說，希爾頓在物質上比精品露天場地更強大。",
-  "weather_exposure_notes": "Wiwaha Water、海灘晚餐和草坪導向的設置仍然取決於風和雨條件，儘管度假村整體上有更強大的備用選項。",
+  "backup_space_description": "\u5e0c\u723e\u9813\u7684\u5f8c\u5099\u529b\u91cf\u4f86\u81ea Wiwaha Chapel \u4ee5\u53ca\u591a\u500b\u5ba4\u5167\u591a\u529f\u80fd\u5ef3\u548c\u5bb4\u6703\u5ef3\uff0c\u800c\u4e0d\u662f\u55ae\u4e00\u7684\u81e8\u6642\u9910\u5ef3\u5f8c\u5099\u3002",
+  "backup_quality_notes": "\u5c0d\u65bc\u60f3\u8981\u8209\u884c\u6c34\u4e0a\u6216\u6d77\u7058\u5100\u5f0f\u4f46\u9700\u8981\u53ef\u9760\u7684\u5ba4\u5167\u66ff\u4ee3\u65b9\u6848\u7684\u592b\u5a66\u4f86\u8aaa\uff0c\u5e0c\u723e\u9813\u5728\u7269\u8cea\u4e0a\u6bd4\u7cbe\u54c1\u9732\u5929\u5834\u5730\u66f4\u5f37\u5927\u3002",
+  "weather_exposure_notes": "Wiwaha Water\u3001\u6d77\u7058\u665a\u9910\u548c\u8349\u576a\u5c0e\u5411\u7684\u8a2d\u7f6e\u4ecd\u7136\u53d6\u6c7a\u65bc\u98a8\u548c\u96e8\u689d\u4ef6\uff0c\u5118\u7ba1\u5ea6\u5047\u6751\u6574\u9ad4\u4e0a\u6709\u66f4\u5f37\u5927\u7684\u5099\u7528\u9078\u9805\u3002",
   "airport_drive_time_minutes_estimate": 30,
-  "transport_notes": "希爾頓將度假村設在距離薩萬安機場 16 公里處，該機場適合國際客人入住，但仍容易受到努沙杜瓦和烏魯瓦圖走廊周圍峇里島南部交通波動的影響。",
+  "transport_notes": "\u5e0c\u723e\u9813\u5c07\u5ea6\u5047\u6751\u8a2d\u5728\u8ddd\u96e2\u85a9\u842c\u5b89\u6a5f\u5834 16 \u516c\u91cc\u8655\uff0c\u8a72\u6a5f\u5834\u9069\u5408\u570b\u969b\u5ba2\u4eba\u5165\u4f4f\uff0c\u4f46\u4ecd\u5bb9\u6613\u53d7\u5230\u52aa\u6c99\u675c\u74e6\u548c\u70cf\u9b6f\u74e6\u5716\u8d70\u5eca\u5468\u570d\u5cc7\u91cc\u5cf6\u5357\u90e8\u4ea4\u901a\u6ce2\u52d5\u7684\u5f71\u97ff\u3002",
   "traffic_risk_level": "medium",
   "onsite_accommodation_available": true,
-  "onsite_room_inventory_notes": "這是一個擁有客房、套房和別墅的綜合度假村，因此與精品懸崖場所相比，更容易在一個酒店內留住大量客人。",
-  "nearby_accommodation_notes": "努沙杜瓦 (Nusa Dua) 和薩萬安 (Sawangan) 周圍的選擇非常豐富，使希爾頓成為混合預算賓客團體更容易入住的場所之一。",
+  "onsite_room_inventory_notes": "\u9019\u662f\u4e00\u500b\u64c1\u6709\u5ba2\u623f\u3001\u5957\u623f\u548c\u5225\u5885\u7684\u7d9c\u5408\u5ea6\u5047\u6751\uff0c\u56e0\u6b64\u8207\u7cbe\u54c1\u61f8\u5d16\u5834\u6240\u76f8\u6bd4\uff0c\u66f4\u5bb9\u6613\u5728\u4e00\u500b\u9152\u5e97\u5167\u7559\u4f4f\u5927\u91cf\u5ba2\u4eba\u3002",
+  "nearby_accommodation_notes": "\u52aa\u6c99\u675c\u74e6 (Nusa Dua) \u548c\u85a9\u842c\u5b89 (Sawangan) \u5468\u570d\u7684\u9078\u64c7\u975e\u5e38\u8c50\u5bcc\uff0c\u4f7f\u5e0c\u723e\u9813\u6210\u70ba\u6df7\u5408\u9810\u7b97\u8cd3\u5ba2\u5718\u9ad4\u66f4\u5bb9\u6613\u5165\u4f4f\u7684\u5834\u6240\u4e4b\u4e00\u3002",
   "accommodation_fit": "one_stop",
-  "guest_mobility_notes": "該物業很大，沿著懸崖分層，因此年長的客人和漫長的婚禮仍然需要提前計劃好嬰兒車和電梯的時間。",
+  "guest_mobility_notes": "\u8a72\u7269\u696d\u5f88\u5927\uff0c\u6cbf\u8457\u61f8\u5d16\u5206\u5c64\uff0c\u56e0\u6b64\u5e74\u9577\u7684\u5ba2\u4eba\u548c\u6f2b\u9577\u7684\u5a5a\u79ae\u4ecd\u7136\u9700\u8981\u63d0\u524d\u8a08\u5283\u597d\u5b30\u5152\u8eca\u548c\u96fb\u68af\u7684\u6642\u9593\u3002",
   "restriction_level": "medium",
-  "noise_cutoff_notes": "確認目前的戶外音樂截止時間以及深夜部分是否必須移至室內多功能廳或舞廳。",
-  "external_vendor_policy": "希爾頓婚禮是結構化而非非正式的，因此請確認外部策劃者、裝飾師、樂隊和無人機工作人員的批准要求和訪問窗口。",
-  "minimum_stay_requirement_notes": "小型公共套餐並不意味著擁有完整的客房區，但儀式和招待會組合仍應根據任何房晚或特定時段的條件進行標準化。",
-  "minimum_spend_notes": "Wiwaha 禮拜堂、Wiwaha 水池、海灘設施和宴會廳招待會之間的場地成本變化顯著，因此請希爾頓按確切位置和時間段繪製當前最低費用。",
-  "drone_policy_notes": "無人機飛行應預先獲得批准，因為懸崖邊空域、客人隱私和活躍的度假村運作都會影響訪問。",
-  "family_child_notes": "這是一個非常可行的家庭度假村，因為它結合了海灘通道、游泳池和更大的房間庫存以及婚禮基礎設施，不會迫使每個人都進入一個小型的精品場地。",
-  "religious_or_space_use_notes": "希爾頓公開強調了全玻璃教堂和峇里島寺廟，但法律和特定信仰儀式的使用仍應直接確認。",
-  "operational_constraints_notes": "希爾頓的主要優勢在於它可以舉辦私密的大型活動；規劃陷阱是假設所有 Wiwaha、海灘和宴會廳形式在營運或財務上表現相同。",
+  "noise_cutoff_notes": "\u78ba\u8a8d\u76ee\u524d\u7684\u6236\u5916\u97f3\u6a02\u622a\u6b62\u6642\u9593\u4ee5\u53ca\u6df1\u591c\u90e8\u5206\u662f\u5426\u5fc5\u9808\u79fb\u81f3\u5ba4\u5167\u591a\u529f\u80fd\u5ef3\u6216\u821e\u5ef3\u3002",
+  "external_vendor_policy": "\u5e0c\u723e\u9813\u5a5a\u79ae\u662f\u7d50\u69cb\u5316\u800c\u975e\u975e\u6b63\u5f0f\u7684\uff0c\u56e0\u6b64\u8acb\u78ba\u8a8d\u5916\u90e8\u7b56\u5283\u8005\u3001\u88dd\u98fe\u5e2b\u3001\u6a02\u968a\u548c\u7121\u4eba\u6a5f\u5de5\u4f5c\u4eba\u54e1\u7684\u6279\u51c6\u8981\u6c42\u548c\u8a2a\u554f\u7a97\u53e3\u3002",
+  "minimum_stay_requirement_notes": "\u5c0f\u578b\u516c\u5171\u5957\u9910\u4e26\u4e0d\u610f\u5473\u8457\u64c1\u6709\u5b8c\u6574\u7684\u5ba2\u623f\u5340\uff0c\u4f46\u5100\u5f0f\u548c\u62db\u5f85\u6703\u7d44\u5408\u4ecd\u61c9\u6839\u64da\u4efb\u4f55\u623f\u665a\u6216\u7279\u5b9a\u6642\u6bb5\u7684\u689d\u4ef6\u9032\u884c\u6a19\u6e96\u5316\u3002",
+  "minimum_spend_notes": "Wiwaha \u79ae\u62dc\u5802\u3001Wiwaha \u6c34\u6c60\u3001\u6d77\u7058\u8a2d\u65bd\u548c\u5bb4\u6703\u5ef3\u62db\u5f85\u6703\u4e4b\u9593\u7684\u5834\u5730\u6210\u672c\u8b8a\u5316\u986f\u8457\uff0c\u56e0\u6b64\u8acb\u5e0c\u723e\u9813\u6309\u78ba\u5207\u4f4d\u7f6e\u548c\u6642\u9593\u6bb5\u7e6a\u88fd\u7576\u524d\u6700\u4f4e\u8cbb\u7528\u3002",
+  "drone_policy_notes": "\u7121\u4eba\u6a5f\u98db\u884c\u61c9\u9810\u5148\u7372\u5f97\u6279\u51c6\uff0c\u56e0\u70ba\u61f8\u5d16\u908a\u7a7a\u57df\u3001\u5ba2\u4eba\u96b1\u79c1\u548c\u6d3b\u8e8d\u7684\u5ea6\u5047\u6751\u904b\u4f5c\u90fd\u6703\u5f71\u97ff\u8a2a\u554f\u3002",
+  "family_child_notes": "\u9019\u662f\u4e00\u500b\u975e\u5e38\u53ef\u884c\u7684\u5bb6\u5ead\u5ea6\u5047\u6751\uff0c\u56e0\u70ba\u5b83\u7d50\u5408\u4e86\u6d77\u7058\u901a\u9053\u3001\u6e38\u6cf3\u6c60\u548c\u66f4\u5927\u7684\u623f\u9593\u5eab\u5b58\u4ee5\u53ca\u5a5a\u79ae\u57fa\u790e\u8a2d\u65bd\uff0c\u4e0d\u6703\u8feb\u4f7f\u6bcf\u500b\u4eba\u90fd\u9032\u5165\u4e00\u500b\u5c0f\u578b\u7684\u7cbe\u54c1\u5834\u5730\u3002",
+  "religious_or_space_use_notes": "\u5e0c\u723e\u9813\u516c\u958b\u5f37\u8abf\u4e86\u5168\u73bb\u7483\u6559\u5802\u548c\u5cc7\u91cc\u5cf6\u5bfa\u5edf\uff0c\u4f46\u6cd5\u5f8b\u548c\u7279\u5b9a\u4fe1\u4ef0\u5100\u5f0f\u7684\u4f7f\u7528\u4ecd\u61c9\u76f4\u63a5\u78ba\u8a8d\u3002",
+  "operational_constraints_notes": "\u5e0c\u723e\u9813\u7684\u4e3b\u8981\u512a\u52e2\u5728\u65bc\u5b83\u53ef\u4ee5\u8209\u8fa6\u79c1\u5bc6\u7684\u5927\u578b\u6d3b\u52d5\uff1b\u898f\u5283\u9677\u9631\u662f\u5047\u8a2d\u6240\u6709 Wiwaha\u3001\u6d77\u7058\u548c\u5bb4\u6703\u5ef3\u5f62\u5f0f\u5728\u71df\u904b\u6216\u8ca1\u52d9\u4e0a\u8868\u73fe\u76f8\u540c\u3002",
   "style_tags": [
     "glass-chapel",
     "water-wedding",
@@ -146,33 +146,33 @@
   ],
   "price_band_normalized": null,
   "best_for": [
-    "想要舉辦經典峇里島教堂或水上婚禮但又不想享受超豪華價格的情侶",
-    "家庭成員較多的目的地婚禮需要房間庫存和實用的物流",
-    "需要可靠的雨水備份或宴會廳規模的活動"
+    "\u60f3\u8981\u8209\u8fa6\u7d93\u5178\u5cc7\u91cc\u5cf6\u6559\u5802\u6216\u6c34\u4e0a\u5a5a\u79ae\u4f46\u53c8\u4e0d\u60f3\u4eab\u53d7\u8d85\u8c6a\u83ef\u50f9\u683c\u7684\u60c5\u4fb6",
+    "\u5bb6\u5ead\u6210\u54e1\u8f03\u591a\u7684\u76ee\u7684\u5730\u5a5a\u79ae\u9700\u8981\u623f\u9593\u5eab\u5b58\u548c\u5be6\u7528\u7684\u7269\u6d41",
+    "\u9700\u8981\u53ef\u9760\u7684\u96e8\u6c34\u5099\u4efd\u6216\u5bb4\u6703\u5ef3\u898f\u6a21\u7684\u6d3b\u52d5"
   ],
   "not_ideal_for": [
-    "想要小型私人莊園感覺的夫婦",
-    "設計純粹主義者尋求峇里島最具編輯性的建築",
-    "想要超獨特精品氛圍的婚禮"
+    "\u60f3\u8981\u5c0f\u578b\u79c1\u4eba\u838a\u5712\u611f\u89ba\u7684\u592b\u5a66",
+    "\u8a2d\u8a08\u7d14\u7cb9\u4e3b\u7fa9\u8005\u5c0b\u6c42\u5cc7\u91cc\u5cf6\u6700\u5177\u7de8\u8f2f\u6027\u7684\u5efa\u7bc9",
+    "\u60f3\u8981\u8d85\u7368\u7279\u7cbe\u54c1\u6c1b\u570d\u7684\u5a5a\u79ae"
   ],
   "key_strengths": [
-    "公共套餐的知名度比許多同類度假村更好",
-    "強大的場地從教堂和潑水儀式到舞廳和海灘晚宴",
-    "大量房間庫存使賓客住宿和接駁車規劃變得更加容易"
+    "\u516c\u5171\u5957\u9910\u7684\u77e5\u540d\u5ea6\u6bd4\u8a31\u591a\u540c\u985e\u5ea6\u5047\u6751\u66f4\u597d",
+    "\u5f37\u5927\u7684\u5834\u5730\u5f9e\u6559\u5802\u548c\u6f51\u6c34\u5100\u5f0f\u5230\u821e\u5ef3\u548c\u6d77\u7058\u665a\u5bb4",
+    "\u5927\u91cf\u623f\u9593\u5eab\u5b58\u4f7f\u8cd3\u5ba2\u4f4f\u5bbf\u548c\u63a5\u99c1\u8eca\u898f\u5283\u8b8a\u5f97\u66f4\u52a0\u5bb9\u6613"
   ],
   "key_risks": [
-    "這是一個更大、更傳統的度假體驗，而不是一個僻靜的莊園",
-    "大物業客流仍需精心運輸和馬車協調",
-    "Wiwaha 格式和宴會廳選項之間的特定場地條件可能會發生重大變化"
+    "\u9019\u662f\u4e00\u500b\u66f4\u5927\u3001\u66f4\u50b3\u7d71\u7684\u5ea6\u5047\u9ad4\u9a57\uff0c\u800c\u4e0d\u662f\u4e00\u500b\u50fb\u975c\u7684\u838a\u5712",
+    "\u5927\u7269\u696d\u5ba2\u6d41\u4ecd\u9700\u7cbe\u5fc3\u904b\u8f38\u548c\u99ac\u8eca\u5354\u8abf",
+    "Wiwaha \u683c\u5f0f\u548c\u5bb4\u6703\u5ef3\u9078\u9805\u4e4b\u9593\u7684\u7279\u5b9a\u5834\u5730\u689d\u4ef6\u53ef\u80fd\u6703\u767c\u751f\u91cd\u5927\u8b8a\u5316"
   ],
   "data_completeness": "comparable_core_complete",
   "research_status": "needs_price_followup",
   "last_verified_at": "2026-06-19",
   "data_freshness": "recent",
   "open_questions": [
-    "確認目前與日落 Wiwaha 禮拜堂和 Wiwaha Water 老虎機相關的最低食品和飲料標準。",
-    "確認目前的外部供應商、樂隊和無人機在海灘和舞廳形式中的規則。",
-    "確認目前的室內房間用作較大的戶外晚餐佈局的防雨備用房間。"
+    "\u78ba\u8a8d\u76ee\u524d\u8207\u65e5\u843d Wiwaha \u79ae\u62dc\u5802\u548c Wiwaha Water \u8001\u864e\u6a5f\u76f8\u95dc\u7684\u6700\u4f4e\u98df\u54c1\u548c\u98f2\u6599\u6a19\u6e96\u3002",
+    "\u78ba\u8a8d\u76ee\u524d\u7684\u5916\u90e8\u4f9b\u61c9\u5546\u3001\u6a02\u968a\u548c\u7121\u4eba\u6a5f\u5728\u6d77\u7058\u548c\u821e\u5ef3\u5f62\u5f0f\u4e2d\u7684\u898f\u5247\u3002",
+    "\u78ba\u8a8d\u76ee\u524d\u7684\u5ba4\u5167\u623f\u9593\u7528\u4f5c\u8f03\u5927\u7684\u6236\u5916\u665a\u9910\u4f48\u5c40\u7684\u9632\u96e8\u5099\u7528\u623f\u9593\u3002"
   ],
   "source_ids": [
     "hilton-bali-resort-balifortwo-jess-henning",
@@ -196,7 +196,8 @@
     "hilton-bali-resort-tripadvisor-cn-hotel",
     "hilton-bali-resort-tripcom-hk-hotel",
     "hilton-bali-resort-xhs-post-12",
-    "hilton-bali-resort-weddingku-vendor"
+    "hilton-bali-resort-weddingku-vendor",
+    "hilton-bali-resort-balifortwo-hestia-chapel"
   ],
   "photo_index_id": "hilton-bali-resort",
   "last_updated": "2026-06-21T16:37:38.708382"

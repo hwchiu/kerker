@@ -1,110 +1,115 @@
 {
-    "id": "pandawa-cliff-estate",
-    "name_zh": "潘達瓦懸崖莊園",
-    "name_en_official": "Pandawa Cliff Estate",
-    "brand_or_group": "Independent Villa Estate",
-    "venue_operator_type": "villa_estate",
-    "is_standalone": true,
-    "region": "Bali",
-    "subarea": "Clifftop",
-    "official_website": "https://pandawacliffestate.com",
-    "maps_url": "https://www.google.com/maps/search/Pandawa+Cliff+Estate+Bali",
-    "address_text": "Pandawa Cliff Estate, Bali, Indonesia",
-    "venue_types": [
-        "cliffside",
-        "villa-buyout",
-        "garden",
-        "water-platform"
-    ],
-    "primary_visual_identity": "峇里島懸崖邊私人莊園，以晚宴布置、仙女燈飾和露台海景聞名。",
-    "ceremony_space_types": [
-        "cliffside-deck",
-        "garden-lawn",
-        "villa-deck"
-    ],
-    "reception_space_types": [
-        "cliffside-deck",
-        "garden-lawn",
-        "private-dining"
-    ],
-    "supports_ceremony_only": true,
-    "supports_ceremony_and_dinner": true,
-    "supports_buyout": true,
-    "supports_micro_wedding": true,
-    "guest_capacity_ceremony_min": 20,
-    "guest_capacity_ceremony_max": 150,
-    "guest_capacity_dinner_min": 20,
-    "guest_capacity_dinner_max": 150,
-    "recommended_guest_size_band": "21-50",
-    "pricing_status": "quote_required",
-    "price_entries": [],
-    "price_summary_text": "需要詢問莊園以獲取定價；實際成本取決於日期、人數和定制級別。",
-    "price_risk_level": "high",
-    "rain_backup_status": "weak",
-    "has_indoor_backup": false,
-    "has_covered_backup": false,
-    "backup_space_description": "沒有已知的室內備用方案；戶外暴露於風雨。",
-    "backup_quality_notes": "作為獨立莊園，Pandawa 沒有像大型度假村那樣的雨天備用計畫。",
-    "weather_exposure_notes": "懸崖邊緣場地容易受到風吹雨淋，特別是在季風季節。",
-    "airport_drive_time_minutes_estimate": 45,
-    "transport_notes": "距離伍拉賴機場約 45 分鐘車程；客人需要從主路由接駁車前往莊園。",
-    "traffic_risk_level": "medium",
-    "onsite_accommodation_available": false,
-    "onsite_room_inventory_notes": "沒有現場住宿；客人需要在其他地方預訂酒店。",
-    "nearby_accommodation_notes": "距離烏鲁瓦图和库塔酒店約 15-20 分鐘車程。",
-    "accommodation_fit": "fragmented",
-    "guest_mobility_notes": "莊園有楼梯通往不同的場地；年長的客人可能會發現導航有挑戰。",
-    "restriction_level": "medium",
-    "noise_cutoff_notes": "仅占地莊園；需要確認當地噪音法規和派對時間限制。",
-    "external_vendor_policy": "需要確認是否允許外部供應商和現場規劃者。",
-    "minimum_stay_requirement_notes": "沒有最小住宿要求，因為沒有現場住宿。",
-    "minimum_spend_notes": "需要確認最小消費要求和定價結構。",
-    "drone_policy_notes": "需要確認無人機政策；可能因地方法規而異。",
-    "family_child_notes": "懸崖邊場地對兒童來說可能存在安全問題。",
-    "religious_or_space_use_notes": "大多數儀式設置都是象徵性的；需要確認宗教格式的支持。",
-    "operational_constraints_notes": "獨立莊園的規模意味著需要最少的人員進行場地轉換。",
-    "style_tags": [
-        "ocean-view",
-        "cliffside",
-        "intimate",
-        "sunset"
-    ],
-    "price_band_normalized": "midrange",
-    "best_for": [
-        "想要親密山崖邊婚禮的小型婚禮小組",
-        "尋求獨特和獨家場地的情侶",
-        "喜歡精心設計的晚宴裝飾和氛圍感的新人"
-    ],
-    "not_ideal_for": [
-        "尋求大型有蓋備用選項的夫婦",
-        "需要現場住宿便利的婚禮",
-        "喜歡集成度假村的所有便利設施的客人"
-    ],
-    "key_strengths": [
-        "懸崖邊私人莊園，具有獨特的地中海海景",
-        "精心的晚宴裝飾和氛圍設置",
-        "親密小型婚禮的理想場地",
-        "（小紅書用戶實測）晚宴布置細節豐富：精美自拍鏡、珠子盒伴手禮（巴厘島特色香皂、巧克力、泡澡球）、客製化菜單設計、Dance Floor字母logo、open bar調酒、DJ舞台標語"
-    ],
-    "key_risks": [
-        "沒有室內備用計畫以防下雨",
-        "沒有現場住宿，需要協調客人運輸",
-        "獨立莊園需要自帶花藝、美食等所有供應商"
-    ],
-    "data_completeness": "initial_capture_only",
-    "research_status": "record_created",
-    "last_verified_at": "2026-06-21",
-    "data_freshness": "recent",
-    "open_questions": [
-        "確認 Pandawa 的實際地址和聯繫方式",
-        "確認為晚宴設置提供的具體定制選項",
-        "確認雨天備用計畫和天氣相關的取消政策",
-        "確認外部供應商政策和額外費用"
-    ],
-    "source_ids": [
-        "pandawa-cliff-estate-xhs-post-1",
-        "pandawa-cliff-estate-xhs-post-4"
-    ],
-    "photo_index_id": "pandawa-cliff-estate",
-    "last_updated": "2026-06-21T16:53:06.913010"
+  "id": "pandawa-cliff-estate",
+  "name_zh": "\u6f58\u9054\u74e6\u61f8\u5d16\u838a\u5712",
+  "name_en_official": "Pandawa Cliff Estate",
+  "brand_or_group": "Independent Villa Estate",
+  "venue_operator_type": "villa_estate",
+  "is_standalone": true,
+  "region": "Bali",
+  "subarea": "Clifftop",
+  "official_website": "https://pandawacliffestate.com",
+  "maps_url": "https://www.google.com/maps/search/Pandawa+Cliff+Estate+Bali",
+  "address_text": "Pandawa Cliff Estate, Bali, Indonesia",
+  "venue_types": [
+    "cliffside",
+    "villa-buyout",
+    "garden",
+    "water-platform"
+  ],
+  "primary_visual_identity": "\u5cc7\u91cc\u5cf6\u61f8\u5d16\u908a\u79c1\u4eba\u838a\u5712\uff0c\u4ee5\u665a\u5bb4\u5e03\u7f6e\u3001\u4ed9\u5973\u71c8\u98fe\u548c\u9732\u53f0\u6d77\u666f\u805e\u540d\u3002",
+  "ceremony_space_types": [
+    "cliffside-deck",
+    "garden-lawn",
+    "villa-deck"
+  ],
+  "reception_space_types": [
+    "cliffside-deck",
+    "garden-lawn",
+    "private-dining"
+  ],
+  "supports_ceremony_only": true,
+  "supports_ceremony_and_dinner": true,
+  "supports_buyout": true,
+  "supports_micro_wedding": true,
+  "guest_capacity_ceremony_min": 20,
+  "guest_capacity_ceremony_max": 150,
+  "guest_capacity_dinner_min": 20,
+  "guest_capacity_dinner_max": 150,
+  "recommended_guest_size_band": "21-50",
+  "pricing_status": "quote_required",
+  "price_entries": [],
+  "price_summary_text": "\u9700\u8981\u8a62\u554f\u838a\u5712\u4ee5\u7372\u53d6\u5b9a\u50f9\uff1b\u5be6\u969b\u6210\u672c\u53d6\u6c7a\u65bc\u65e5\u671f\u3001\u4eba\u6578\u548c\u5b9a\u5236\u7d1a\u5225\u3002",
+  "price_risk_level": "high",
+  "rain_backup_status": "weak",
+  "has_indoor_backup": false,
+  "has_covered_backup": false,
+  "backup_space_description": "\u6c92\u6709\u5df2\u77e5\u7684\u5ba4\u5167\u5099\u7528\u65b9\u6848\uff1b\u6236\u5916\u66b4\u9732\u65bc\u98a8\u96e8\u3002",
+  "backup_quality_notes": "\u4f5c\u70ba\u7368\u7acb\u838a\u5712\uff0cPandawa \u6c92\u6709\u50cf\u5927\u578b\u5ea6\u5047\u6751\u90a3\u6a23\u7684\u96e8\u5929\u5099\u7528\u8a08\u756b\u3002",
+  "weather_exposure_notes": "\u61f8\u5d16\u908a\u7de3\u5834\u5730\u5bb9\u6613\u53d7\u5230\u98a8\u5439\u96e8\u6dcb\uff0c\u7279\u5225\u662f\u5728\u5b63\u98a8\u5b63\u7bc0\u3002",
+  "airport_drive_time_minutes_estimate": 45,
+  "transport_notes": "\u8ddd\u96e2\u4f0d\u62c9\u8cf4\u6a5f\u5834\u7d04 45 \u5206\u9418\u8eca\u7a0b\uff1b\u5ba2\u4eba\u9700\u8981\u5f9e\u4e3b\u8def\u7531\u63a5\u99c1\u8eca\u524d\u5f80\u838a\u5712\u3002",
+  "traffic_risk_level": "medium",
+  "onsite_accommodation_available": false,
+  "onsite_room_inventory_notes": "\u6c92\u6709\u73fe\u5834\u4f4f\u5bbf\uff1b\u5ba2\u4eba\u9700\u8981\u5728\u5176\u4ed6\u5730\u65b9\u9810\u8a02\u9152\u5e97\u3002",
+  "nearby_accommodation_notes": "\u8ddd\u96e2\u70cf\u9c81\u74e6\u56fe\u548c\u5e93\u5854\u9152\u5e97\u7d04 15-20 \u5206\u9418\u8eca\u7a0b\u3002",
+  "accommodation_fit": "fragmented",
+  "guest_mobility_notes": "\u838a\u5712\u6709\u697c\u68af\u901a\u5f80\u4e0d\u540c\u7684\u5834\u5730\uff1b\u5e74\u9577\u7684\u5ba2\u4eba\u53ef\u80fd\u6703\u767c\u73fe\u5c0e\u822a\u6709\u6311\u6230\u3002",
+  "restriction_level": "medium",
+  "noise_cutoff_notes": "\u4ec5\u5360\u5730\u838a\u5712\uff1b\u9700\u8981\u78ba\u8a8d\u7576\u5730\u566a\u97f3\u6cd5\u898f\u548c\u6d3e\u5c0d\u6642\u9593\u9650\u5236\u3002",
+  "external_vendor_policy": "\u9700\u8981\u78ba\u8a8d\u662f\u5426\u5141\u8a31\u5916\u90e8\u4f9b\u61c9\u5546\u548c\u73fe\u5834\u898f\u5283\u8005\u3002",
+  "minimum_stay_requirement_notes": "\u6c92\u6709\u6700\u5c0f\u4f4f\u5bbf\u8981\u6c42\uff0c\u56e0\u70ba\u6c92\u6709\u73fe\u5834\u4f4f\u5bbf\u3002",
+  "minimum_spend_notes": "\u9700\u8981\u78ba\u8a8d\u6700\u5c0f\u6d88\u8cbb\u8981\u6c42\u548c\u5b9a\u50f9\u7d50\u69cb\u3002",
+  "drone_policy_notes": "\u9700\u8981\u78ba\u8a8d\u7121\u4eba\u6a5f\u653f\u7b56\uff1b\u53ef\u80fd\u56e0\u5730\u65b9\u6cd5\u898f\u800c\u7570\u3002",
+  "family_child_notes": "\u61f8\u5d16\u908a\u5834\u5730\u5c0d\u5152\u7ae5\u4f86\u8aaa\u53ef\u80fd\u5b58\u5728\u5b89\u5168\u554f\u984c\u3002",
+  "religious_or_space_use_notes": "\u5927\u591a\u6578\u5100\u5f0f\u8a2d\u7f6e\u90fd\u662f\u8c61\u5fb5\u6027\u7684\uff1b\u9700\u8981\u78ba\u8a8d\u5b97\u6559\u683c\u5f0f\u7684\u652f\u6301\u3002",
+  "operational_constraints_notes": "\u7368\u7acb\u838a\u5712\u7684\u898f\u6a21\u610f\u5473\u8457\u9700\u8981\u6700\u5c11\u7684\u4eba\u54e1\u9032\u884c\u5834\u5730\u8f49\u63db\u3002",
+  "style_tags": [
+    "ocean-view",
+    "cliffside",
+    "intimate",
+    "sunset"
+  ],
+  "price_band_normalized": "midrange",
+  "best_for": [
+    "\u60f3\u8981\u89aa\u5bc6\u5c71\u5d16\u908a\u5a5a\u79ae\u7684\u5c0f\u578b\u5a5a\u79ae\u5c0f\u7d44",
+    "\u5c0b\u6c42\u7368\u7279\u548c\u7368\u5bb6\u5834\u5730\u7684\u60c5\u4fb6",
+    "\u559c\u6b61\u7cbe\u5fc3\u8a2d\u8a08\u7684\u665a\u5bb4\u88dd\u98fe\u548c\u6c1b\u570d\u611f\u7684\u65b0\u4eba"
+  ],
+  "not_ideal_for": [
+    "\u5c0b\u6c42\u5927\u578b\u6709\u84cb\u5099\u7528\u9078\u9805\u7684\u592b\u5a66",
+    "\u9700\u8981\u73fe\u5834\u4f4f\u5bbf\u4fbf\u5229\u7684\u5a5a\u79ae",
+    "\u559c\u6b61\u96c6\u6210\u5ea6\u5047\u6751\u7684\u6240\u6709\u4fbf\u5229\u8a2d\u65bd\u7684\u5ba2\u4eba"
+  ],
+  "key_strengths": [
+    "\u61f8\u5d16\u908a\u79c1\u4eba\u838a\u5712\uff0c\u5177\u6709\u7368\u7279\u7684\u5730\u4e2d\u6d77\u6d77\u666f",
+    "\u7cbe\u5fc3\u7684\u665a\u5bb4\u88dd\u98fe\u548c\u6c1b\u570d\u8a2d\u7f6e",
+    "\u89aa\u5bc6\u5c0f\u578b\u5a5a\u79ae\u7684\u7406\u60f3\u5834\u5730",
+    "\uff08\u5c0f\u7d05\u66f8\u7528\u6236\u5be6\u6e2c\uff09\u665a\u5bb4\u5e03\u7f6e\u7d30\u7bc0\u8c50\u5bcc\uff1a\u7cbe\u7f8e\u81ea\u62cd\u93e1\u3001\u73e0\u5b50\u76d2\u4f34\u624b\u79ae\uff08\u5df4\u5398\u5cf6\u7279\u8272\u9999\u7682\u3001\u5de7\u514b\u529b\u3001\u6ce1\u6fa1\u7403\uff09\u3001\u5ba2\u88fd\u5316\u83dc\u55ae\u8a2d\u8a08\u3001Dance Floor\u5b57\u6bcdlogo\u3001open bar\u8abf\u9152\u3001DJ\u821e\u53f0\u6a19\u8a9e"
+  ],
+  "key_risks": [
+    "\u6c92\u6709\u5ba4\u5167\u5099\u7528\u8a08\u756b\u4ee5\u9632\u4e0b\u96e8",
+    "\u6c92\u6709\u73fe\u5834\u4f4f\u5bbf\uff0c\u9700\u8981\u5354\u8abf\u5ba2\u4eba\u904b\u8f38",
+    "\u7368\u7acb\u838a\u5712\u9700\u8981\u81ea\u5e36\u82b1\u85dd\u3001\u7f8e\u98df\u7b49\u6240\u6709\u4f9b\u61c9\u5546"
+  ],
+  "data_completeness": "initial_capture_only",
+  "research_status": "record_created",
+  "last_verified_at": "2026-06-21",
+  "data_freshness": "recent",
+  "open_questions": [
+    "\u78ba\u8a8d Pandawa \u7684\u5be6\u969b\u5730\u5740\u548c\u806f\u7e6b\u65b9\u5f0f",
+    "\u78ba\u8a8d\u70ba\u665a\u5bb4\u8a2d\u7f6e\u63d0\u4f9b\u7684\u5177\u9ad4\u5b9a\u5236\u9078\u9805",
+    "\u78ba\u8a8d\u96e8\u5929\u5099\u7528\u8a08\u756b\u548c\u5929\u6c23\u76f8\u95dc\u7684\u53d6\u6d88\u653f\u7b56",
+    "\u78ba\u8a8d\u5916\u90e8\u4f9b\u61c9\u5546\u653f\u7b56\u548c\u984d\u5916\u8cbb\u7528"
+  ],
+  "source_ids": [
+    "pandawa-cliff-estate-xhs-post-1",
+    "pandawa-cliff-estate-xhs-post-4",
+    "pandawa-cliff-estate-balifortwo-erika-stephen",
+    "pandawa-cliff-estate-balifortwo-trimelia-jl",
+    "pandawa-cliff-estate-balifortwo-eve-yuichi",
+    "pandawa-cliff-estate-balifortwo-paula-andrew",
+    "pandawa-cliff-estate-balifortwo-dyan-daniel"
+  ],
+  "photo_index_id": "pandawa-cliff-estate",
+  "last_updated": "2026-06-21T16:53:06.913010"
 }

@@ -1,6 +1,6 @@
 {
   "id": "four-seasons-resort-bali-at-jimbaran-bay",
-  "name_zh": "峇里島金巴蘭灣四季度假酒店",
+  "name_zh": "\u5cc7\u91cc\u5cf6\u91d1\u5df4\u862d\u7063\u56db\u5b63\u5ea6\u5047\u9152\u5e97",
   "name_en_official": "Four Seasons Resort Bali at Jimbaran Bay",
   "brand_or_group": "Four Seasons Hotels and Resorts",
   "venue_operator_type": "resort",
@@ -17,7 +17,7 @@
     "villa-buyout",
     "lawn"
   ],
-  "primary_visual_identity": "金巴蘭灣上的全別墅峇里島村莊，設有水道儀式平台、日落露台、海濱餐廳和適合家庭的度假村物流。",
+  "primary_visual_identity": "\u91d1\u5df4\u862d\u7063\u4e0a\u7684\u5168\u5225\u5885\u5cc7\u91cc\u5cf6\u6751\u838a\uff0c\u8a2d\u6709\u6c34\u9053\u5100\u5f0f\u5e73\u53f0\u3001\u65e5\u843d\u9732\u53f0\u3001\u6d77\u6ff1\u9910\u5ef3\u548c\u9069\u5408\u5bb6\u5ead\u7684\u5ea6\u5047\u6751\u7269\u6d41\u3002",
   "ceremony_space_types": [
     "water-aisle-platform",
     "beach-ceremony",
@@ -42,7 +42,7 @@
   "pricing_status": "public_price_available",
   "price_entries": [
     {
-      "label": "30 位賓客的基本婚禮套餐",
+      "label": "30 \u4f4d\u8cd3\u5ba2\u7684\u57fa\u672c\u5a5a\u79ae\u5957\u9910",
       "currency": "USD",
       "amount_min": 14200,
       "amount_max": null,
@@ -51,11 +51,11 @@
       "includes_decoration": true,
       "includes_dinner": true,
       "includes_tax_service": false,
-      "conditions_text": "目前我的海外婚禮即時報價基準為 30 位賓客在金巴蘭灣四季酒店；最終的稅收、服務和分會場數學應直接確認。",
+      "conditions_text": "\u76ee\u524d\u6211\u7684\u6d77\u5916\u5a5a\u79ae\u5373\u6642\u5831\u50f9\u57fa\u6e96\u70ba 30 \u4f4d\u8cd3\u5ba2\u5728\u91d1\u5df4\u862d\u7063\u56db\u5b63\u9152\u5e97\uff1b\u6700\u7d42\u7684\u7a05\u6536\u3001\u670d\u52d9\u548c\u5206\u6703\u5834\u6578\u5b78\u61c9\u76f4\u63a5\u78ba\u8a8d\u3002",
       "confidence": "medium"
     },
     {
-      "label": "30 位客人的接待套餐基準",
+      "label": "30 \u4f4d\u5ba2\u4eba\u7684\u63a5\u5f85\u5957\u9910\u57fa\u6e96",
       "currency": "USD",
       "amount_min": 14600,
       "amount_max": null,
@@ -64,35 +64,35 @@
       "includes_decoration": true,
       "includes_dinner": true,
       "includes_tax_service": false,
-      "conditions_text": "目前「我的海外婚禮」招待會-場地頁面基線為 30 位賓客；對於將 Sundara 和更大的接待區與其他峇里島度假村進行比較非常有用。",
+      "conditions_text": "\u76ee\u524d\u300c\u6211\u7684\u6d77\u5916\u5a5a\u79ae\u300d\u62db\u5f85\u6703-\u5834\u5730\u9801\u9762\u57fa\u7dda\u70ba 30 \u4f4d\u8cd3\u5ba2\uff1b\u5c0d\u65bc\u5c07 Sundara \u548c\u66f4\u5927\u7684\u63a5\u5f85\u5340\u8207\u5176\u4ed6\u5cc7\u91cc\u5cf6\u5ea6\u5047\u6751\u9032\u884c\u6bd4\u8f03\u975e\u5e38\u6709\u7528\u3002",
       "confidence": "medium"
     }
   ],
-  "price_summary_text": "公開定價可透過目前的第三方即時報價頁面查看，金巴蘭灣起價約為 14,200 美元（30 名客人），在直接簽約細節正常化之前，接待處主導的比較價格約為 14,600 美元（30 名客人）。",
+  "price_summary_text": "\u516c\u958b\u5b9a\u50f9\u53ef\u900f\u904e\u76ee\u524d\u7684\u7b2c\u4e09\u65b9\u5373\u6642\u5831\u50f9\u9801\u9762\u67e5\u770b\uff0c\u91d1\u5df4\u862d\u7063\u8d77\u50f9\u7d04\u70ba 14,200 \u7f8e\u5143\uff0830 \u540d\u5ba2\u4eba\uff09\uff0c\u5728\u76f4\u63a5\u7c3d\u7d04\u7d30\u7bc0\u6b63\u5e38\u5316\u4e4b\u524d\uff0c\u63a5\u5f85\u8655\u4e3b\u5c0e\u7684\u6bd4\u8f03\u50f9\u683c\u7d04\u70ba 14,600 \u7f8e\u5143\uff0830 \u540d\u5ba2\u4eba\uff09\u3002",
   "price_risk_level": "low",
   "rain_backup_status": "medium",
   "has_indoor_backup": true,
   "has_covered_backup": true,
-  "backup_space_description": "雨水的補給似乎來自 Sundara 的室內餐廳空間、有頂棚的露台和私人別墅內部，而不是專門建造的教堂。",
-  "backup_quality_notes": "金巴蘭比純粹的草坪或海灘場地更能適應天氣變化，但標誌性的水上平台和海灘設置仍然取決於特定場地的後備計劃。",
-  "weather_exposure_notes": "海灘、海風和麵向日落的露臺是體驗的核心，因此風和雨季的變化會對最上鏡的佈局產生重大影響。",
+  "backup_space_description": "\u96e8\u6c34\u7684\u88dc\u7d66\u4f3c\u4e4e\u4f86\u81ea Sundara \u7684\u5ba4\u5167\u9910\u5ef3\u7a7a\u9593\u3001\u6709\u9802\u68da\u7684\u9732\u53f0\u548c\u79c1\u4eba\u5225\u5885\u5167\u90e8\uff0c\u800c\u4e0d\u662f\u5c08\u9580\u5efa\u9020\u7684\u6559\u5802\u3002",
+  "backup_quality_notes": "\u91d1\u5df4\u862d\u6bd4\u7d14\u7cb9\u7684\u8349\u576a\u6216\u6d77\u7058\u5834\u5730\u66f4\u80fd\u9069\u61c9\u5929\u6c23\u8b8a\u5316\uff0c\u4f46\u6a19\u8a8c\u6027\u7684\u6c34\u4e0a\u5e73\u53f0\u548c\u6d77\u7058\u8a2d\u7f6e\u4ecd\u7136\u53d6\u6c7a\u65bc\u7279\u5b9a\u5834\u5730\u7684\u5f8c\u5099\u8a08\u5283\u3002",
+  "weather_exposure_notes": "\u6d77\u7058\u3001\u6d77\u98a8\u548c\u9eb5\u5411\u65e5\u843d\u7684\u9732\u81fa\u662f\u9ad4\u9a57\u7684\u6838\u5fc3\uff0c\u56e0\u6b64\u98a8\u548c\u96e8\u5b63\u7684\u8b8a\u5316\u6703\u5c0d\u6700\u4e0a\u93e1\u7684\u4f48\u5c40\u7522\u751f\u91cd\u5927\u5f71\u97ff\u3002",
   "airport_drive_time_minutes_estimate": 20,
-  "transport_notes": "在交通暢通的情況下，四季酒店距離機場約 20 分鐘路程，這對於國際抵達和當日旅客流動來說是一個主要優勢。",
+  "transport_notes": "\u5728\u4ea4\u901a\u66a2\u901a\u7684\u60c5\u6cc1\u4e0b\uff0c\u56db\u5b63\u9152\u5e97\u8ddd\u96e2\u6a5f\u5834\u7d04 20 \u5206\u9418\u8def\u7a0b\uff0c\u9019\u5c0d\u65bc\u570b\u969b\u62b5\u9054\u548c\u7576\u65e5\u65c5\u5ba2\u6d41\u52d5\u4f86\u8aaa\u662f\u4e00\u500b\u4e3b\u8981\u512a\u52e2\u3002",
   "traffic_risk_level": "medium",
   "onsite_accommodation_available": true,
-  "onsite_room_inventory_notes": "這是一個真正的全別墅度假村，因此 VIP 家庭可以在儀式和晚宴上使用相同的設計語言，而不是分別入住不同的飯店大樓。",
-  "nearby_accommodation_notes": "如果您無法滿足現場別墅的需求或希望為客人提供更廣泛的預算範圍，金巴蘭、克冬迦南和機場走廊可提供充足的庫存。",
+  "onsite_room_inventory_notes": "\u9019\u662f\u4e00\u500b\u771f\u6b63\u7684\u5168\u5225\u5885\u5ea6\u5047\u6751\uff0c\u56e0\u6b64 VIP \u5bb6\u5ead\u53ef\u4ee5\u5728\u5100\u5f0f\u548c\u665a\u5bb4\u4e0a\u4f7f\u7528\u76f8\u540c\u7684\u8a2d\u8a08\u8a9e\u8a00\uff0c\u800c\u4e0d\u662f\u5206\u5225\u5165\u4f4f\u4e0d\u540c\u7684\u98ef\u5e97\u5927\u6a13\u3002",
+  "nearby_accommodation_notes": "\u5982\u679c\u60a8\u7121\u6cd5\u6eff\u8db3\u73fe\u5834\u5225\u5885\u7684\u9700\u6c42\u6216\u5e0c\u671b\u70ba\u5ba2\u4eba\u63d0\u4f9b\u66f4\u5ee3\u6cdb\u7684\u9810\u7b97\u7bc4\u570d\uff0c\u91d1\u5df4\u862d\u3001\u514b\u51ac\u8fe6\u5357\u548c\u6a5f\u5834\u8d70\u5eca\u53ef\u63d0\u4f9b\u5145\u8db3\u7684\u5eab\u5b58\u3002",
   "accommodation_fit": "one_stop",
-  "guest_mobility_notes": "度假村沿著山坡村莊的佈局層疊，因此越野車的流動對於老年客人以及在別墅、儀式和晚宴之間移動而不會產生熱疲勞非常重要。",
+  "guest_mobility_notes": "\u5ea6\u5047\u6751\u6cbf\u8457\u5c71\u5761\u6751\u838a\u7684\u4f48\u5c40\u5c64\u758a\uff0c\u56e0\u6b64\u8d8a\u91ce\u8eca\u7684\u6d41\u52d5\u5c0d\u65bc\u8001\u5e74\u5ba2\u4eba\u4ee5\u53ca\u5728\u5225\u5885\u3001\u5100\u5f0f\u548c\u665a\u5bb4\u4e4b\u9593\u79fb\u52d5\u800c\u4e0d\u6703\u7522\u751f\u71b1\u75b2\u52de\u975e\u5e38\u91cd\u8981\u3002",
   "restriction_level": "medium",
-  "noise_cutoff_notes": "確認當前的海灘和戶外音樂宵禁，特別是如果您想在正式招待會後在 Sundara 或其他餐廳主導的場所舉辦餘興派對。",
-  "external_vendor_policy": "四季酒店在內部舉辦目的地婚禮，具有強大的營運控制能力，因此請確認當前的批准要求以及外部策劃者、音樂家、裝飾師和製作團隊的任何使用費用。",
-  "minimum_stay_requirement_notes": "不同子空間的房晚邏輯差很多：Gili Jimbaran 常見會綁一晚 Garden Villa，Pool Terrace Water Wedding 常見會連動三間 One Bedroom Garden Villa，因此一定要把房晚和場地費拆開看。",
-  "minimum_spend_notes": "場地選擇會大大改變消費情況，因為水道、海濱、桑德拉和私人別墅格式各自表現得像不同的產品。",
-  "drone_policy_notes": "無人機活動應預先批准；中文婚顧頁甚至直接把禁空拍與禁放氣球列成限制，因此不要假設金巴蘭四季能自由飛無人機。",
-  "family_child_notes": "非常適合家庭成員較多的目的地婚禮，因為海灘度假村的形式、別墅住宿和機場便利性減少了兒童和年長親戚的摩擦。",
-  "religious_or_space_use_notes": "象徵性的慶祝活動是預設的公共形式；直接與度假村團隊確認任何合法婚姻或特定信仰儀式的要求。",
-  "operational_constraints_notes": "旺季日落需求和分場地差異是這裡的主要規劃陷阱：如果您沒有確定確切的儀式和晚宴組合，很容易比較錯誤的金巴蘭灣套餐。",
+  "noise_cutoff_notes": "\u78ba\u8a8d\u7576\u524d\u7684\u6d77\u7058\u548c\u6236\u5916\u97f3\u6a02\u5bb5\u7981\uff0c\u7279\u5225\u662f\u5982\u679c\u60a8\u60f3\u5728\u6b63\u5f0f\u62db\u5f85\u6703\u5f8c\u5728 Sundara \u6216\u5176\u4ed6\u9910\u5ef3\u4e3b\u5c0e\u7684\u5834\u6240\u8209\u8fa6\u9918\u8208\u6d3e\u5c0d\u3002",
+  "external_vendor_policy": "\u56db\u5b63\u9152\u5e97\u5728\u5167\u90e8\u8209\u8fa6\u76ee\u7684\u5730\u5a5a\u79ae\uff0c\u5177\u6709\u5f37\u5927\u7684\u71df\u904b\u63a7\u5236\u80fd\u529b\uff0c\u56e0\u6b64\u8acb\u78ba\u8a8d\u7576\u524d\u7684\u6279\u51c6\u8981\u6c42\u4ee5\u53ca\u5916\u90e8\u7b56\u5283\u8005\u3001\u97f3\u6a02\u5bb6\u3001\u88dd\u98fe\u5e2b\u548c\u88fd\u4f5c\u5718\u968a\u7684\u4efb\u4f55\u4f7f\u7528\u8cbb\u7528\u3002",
+  "minimum_stay_requirement_notes": "\u4e0d\u540c\u5b50\u7a7a\u9593\u7684\u623f\u665a\u908f\u8f2f\u5dee\u5f88\u591a\uff1aGili Jimbaran \u5e38\u898b\u6703\u7d81\u4e00\u665a Garden Villa\uff0cPool Terrace Water Wedding \u5e38\u898b\u6703\u9023\u52d5\u4e09\u9593 One Bedroom Garden Villa\uff0c\u56e0\u6b64\u4e00\u5b9a\u8981\u628a\u623f\u665a\u548c\u5834\u5730\u8cbb\u62c6\u958b\u770b\u3002",
+  "minimum_spend_notes": "\u5834\u5730\u9078\u64c7\u6703\u5927\u5927\u6539\u8b8a\u6d88\u8cbb\u60c5\u6cc1\uff0c\u56e0\u70ba\u6c34\u9053\u3001\u6d77\u6ff1\u3001\u6851\u5fb7\u62c9\u548c\u79c1\u4eba\u5225\u5885\u683c\u5f0f\u5404\u81ea\u8868\u73fe\u5f97\u50cf\u4e0d\u540c\u7684\u7522\u54c1\u3002",
+  "drone_policy_notes": "\u7121\u4eba\u6a5f\u6d3b\u52d5\u61c9\u9810\u5148\u6279\u51c6\uff1b\u4e2d\u6587\u5a5a\u9867\u9801\u751a\u81f3\u76f4\u63a5\u628a\u7981\u7a7a\u62cd\u8207\u7981\u653e\u6c23\u7403\u5217\u6210\u9650\u5236\uff0c\u56e0\u6b64\u4e0d\u8981\u5047\u8a2d\u91d1\u5df4\u862d\u56db\u5b63\u80fd\u81ea\u7531\u98db\u7121\u4eba\u6a5f\u3002",
+  "family_child_notes": "\u975e\u5e38\u9069\u5408\u5bb6\u5ead\u6210\u54e1\u8f03\u591a\u7684\u76ee\u7684\u5730\u5a5a\u79ae\uff0c\u56e0\u70ba\u6d77\u7058\u5ea6\u5047\u6751\u7684\u5f62\u5f0f\u3001\u5225\u5885\u4f4f\u5bbf\u548c\u6a5f\u5834\u4fbf\u5229\u6027\u6e1b\u5c11\u4e86\u5152\u7ae5\u548c\u5e74\u9577\u89aa\u621a\u7684\u6469\u64e6\u3002",
+  "religious_or_space_use_notes": "\u8c61\u5fb5\u6027\u7684\u6176\u795d\u6d3b\u52d5\u662f\u9810\u8a2d\u7684\u516c\u5171\u5f62\u5f0f\uff1b\u76f4\u63a5\u8207\u5ea6\u5047\u6751\u5718\u968a\u78ba\u8a8d\u4efb\u4f55\u5408\u6cd5\u5a5a\u59fb\u6216\u7279\u5b9a\u4fe1\u4ef0\u5100\u5f0f\u7684\u8981\u6c42\u3002",
+  "operational_constraints_notes": "\u65fa\u5b63\u65e5\u843d\u9700\u6c42\u548c\u5206\u5834\u5730\u5dee\u7570\u662f\u9019\u88e1\u7684\u4e3b\u8981\u898f\u5283\u9677\u9631\uff1a\u5982\u679c\u60a8\u6c92\u6709\u78ba\u5b9a\u78ba\u5207\u7684\u5100\u5f0f\u548c\u665a\u5bb4\u7d44\u5408\uff0c\u5f88\u5bb9\u6613\u6bd4\u8f03\u932f\u8aa4\u7684\u91d1\u5df4\u862d\u7063\u5957\u9910\u3002",
   "style_tags": [
     "balinese-village",
     "beachfront",
@@ -104,117 +104,117 @@
   "wedding_spaces": [
     {
       "space_id": "gili-jimbaran",
-      "label": "Gili Jimbaran 海灣草坪",
+      "label": "Gili Jimbaran \u6d77\u7063\u8349\u576a",
       "space_types": [
         "beach-lawn",
         "cove-lawn"
       ],
       "privacy_level": "semi-private",
       "event_scope": "ceremony_and_dinner",
-      "capacity_summary_text": "英文婚顧頁寫可到約 50 人；更舒服的人數帶落在 elopement 到 30 人。",
-      "price_summary_text": "常見會連動一晚 Garden Villa，比大型 reception line 更像高質感小型海邊婚禮產品。",
-      "backup_summary_text": "遇雨通常要改到 Gazebo、Sundara 室內區或其他 covered dining space，無法保留同樣的貼海視覺。",
-      "decision_notes": "離海最近、最有巴厘島感，適合把 sunset vows 與 intimate dinner 當核心。"
+      "capacity_summary_text": "\u82f1\u6587\u5a5a\u9867\u9801\u5beb\u53ef\u5230\u7d04 50 \u4eba\uff1b\u66f4\u8212\u670d\u7684\u4eba\u6578\u5e36\u843d\u5728 elopement \u5230 30 \u4eba\u3002",
+      "price_summary_text": "\u5e38\u898b\u6703\u9023\u52d5\u4e00\u665a Garden Villa\uff0c\u6bd4\u5927\u578b reception line \u66f4\u50cf\u9ad8\u8cea\u611f\u5c0f\u578b\u6d77\u908a\u5a5a\u79ae\u7522\u54c1\u3002",
+      "backup_summary_text": "\u9047\u96e8\u901a\u5e38\u8981\u6539\u5230 Gazebo\u3001Sundara \u5ba4\u5167\u5340\u6216\u5176\u4ed6 covered dining space\uff0c\u7121\u6cd5\u4fdd\u7559\u540c\u6a23\u7684\u8cbc\u6d77\u8996\u89ba\u3002",
+      "decision_notes": "\u96e2\u6d77\u6700\u8fd1\u3001\u6700\u6709\u5df4\u5398\u5cf6\u611f\uff0c\u9069\u5408\u628a sunset vows \u8207 intimate dinner \u7576\u6838\u5fc3\u3002"
     },
     {
       "space_id": "pool-terrace-water-wedding",
-      "label": "Pool Terrace Water Wedding 水上台",
+      "label": "Pool Terrace Water Wedding \u6c34\u4e0a\u53f0",
       "space_types": [
         "water-platform",
         "pool-terrace"
       ],
       "privacy_level": "shared",
       "event_scope": "ceremony_and_dinner",
-      "capacity_summary_text": "常見可做 30 位 seated dinner，並以 10:00 或 17:00 檔次操作。",
-      "price_summary_text": "是金巴蘭四季最有辨識度的水上台產品，通常會綁三間 One Bedroom Garden Villa。",
-      "backup_summary_text": "遇雨需退到 covered dining 或 villa 室內，水上台的透明延伸視覺不會完整保留。",
-      "decision_notes": "如果你要把 Jimbaran 拿來正面對打 Bvlgari、Alila 的水上台，這個就是主戰場。"
+      "capacity_summary_text": "\u5e38\u898b\u53ef\u505a 30 \u4f4d seated dinner\uff0c\u4e26\u4ee5 10:00 \u6216 17:00 \u6a94\u6b21\u64cd\u4f5c\u3002",
+      "price_summary_text": "\u662f\u91d1\u5df4\u862d\u56db\u5b63\u6700\u6709\u8fa8\u8b58\u5ea6\u7684\u6c34\u4e0a\u53f0\u7522\u54c1\uff0c\u901a\u5e38\u6703\u7d81\u4e09\u9593 One Bedroom Garden Villa\u3002",
+      "backup_summary_text": "\u9047\u96e8\u9700\u9000\u5230 covered dining \u6216 villa \u5ba4\u5167\uff0c\u6c34\u4e0a\u53f0\u7684\u900f\u660e\u5ef6\u4f38\u8996\u89ba\u4e0d\u6703\u5b8c\u6574\u4fdd\u7559\u3002",
+      "decision_notes": "\u5982\u679c\u4f60\u8981\u628a Jimbaran \u62ff\u4f86\u6b63\u9762\u5c0d\u6253 Bvlgari\u3001Alila \u7684\u6c34\u4e0a\u53f0\uff0c\u9019\u500b\u5c31\u662f\u4e3b\u6230\u5834\u3002"
     },
     {
       "space_id": "jimbaran-garden",
-      "label": "Jimbaran Garden 草坪",
+      "label": "Jimbaran Garden \u8349\u576a",
       "space_types": [
         "garden-lawn"
       ],
       "privacy_level": "shared",
       "event_scope": "ceremony_and_dinner",
-      "capacity_summary_text": "Bless Bali 資料寫 ceremony 約 60 人，party 約 4 至 30 人。",
-      "price_summary_text": "比水上台更彈性，通常更適合 ceremony 加小型 dinner 的 garden flow。",
-      "backup_summary_text": "雨季多半要改到 Gazebo、Sundara 室內區或其他有頂棚晚宴空間。",
-      "decision_notes": "綠意較重、節奏較柔和，對長輩與家庭群體通常比純海邊形式更友善。"
+      "capacity_summary_text": "Bless Bali \u8cc7\u6599\u5beb ceremony \u7d04 60 \u4eba\uff0cparty \u7d04 4 \u81f3 30 \u4eba\u3002",
+      "price_summary_text": "\u6bd4\u6c34\u4e0a\u53f0\u66f4\u5f48\u6027\uff0c\u901a\u5e38\u66f4\u9069\u5408 ceremony \u52a0\u5c0f\u578b dinner \u7684 garden flow\u3002",
+      "backup_summary_text": "\u96e8\u5b63\u591a\u534a\u8981\u6539\u5230 Gazebo\u3001Sundara \u5ba4\u5167\u5340\u6216\u5176\u4ed6\u6709\u9802\u68da\u665a\u5bb4\u7a7a\u9593\u3002",
+      "decision_notes": "\u7da0\u610f\u8f03\u91cd\u3001\u7bc0\u594f\u8f03\u67d4\u548c\uff0c\u5c0d\u9577\u8f29\u8207\u5bb6\u5ead\u7fa4\u9ad4\u901a\u5e38\u6bd4\u7d14\u6d77\u908a\u5f62\u5f0f\u66f4\u53cb\u5584\u3002"
     },
     {
       "space_id": "coconut-grove",
-      "label": "Coconut Grove 椰林草坪",
+      "label": "Coconut Grove \u6930\u6797\u8349\u576a",
       "space_types": [
         "garden",
         "lawn"
       ],
       "privacy_level": "shared",
       "event_scope": "ceremony_and_dinner",
-      "capacity_summary_text": "日文婚顧頁寫可承接約 20 至 210 人，偏大型戶外 party format。",
-      "price_summary_text": "和 Gili Jimbaran、Pool Terrace 不是同一種產品，通常是中大型晚宴和派對線。",
-      "backup_summary_text": "大雨時必須明確確認是否改 Sundara 或其他室內空間，不能只假設臨時搭棚。",
-      "decision_notes": "如果人數來到 80+，這裡通常比小型海邊形式更現實。"
+      "capacity_summary_text": "\u65e5\u6587\u5a5a\u9867\u9801\u5beb\u53ef\u627f\u63a5\u7d04 20 \u81f3 210 \u4eba\uff0c\u504f\u5927\u578b\u6236\u5916 party format\u3002",
+      "price_summary_text": "\u548c Gili Jimbaran\u3001Pool Terrace \u4e0d\u662f\u540c\u4e00\u7a2e\u7522\u54c1\uff0c\u901a\u5e38\u662f\u4e2d\u5927\u578b\u665a\u5bb4\u548c\u6d3e\u5c0d\u7dda\u3002",
+      "backup_summary_text": "\u5927\u96e8\u6642\u5fc5\u9808\u660e\u78ba\u78ba\u8a8d\u662f\u5426\u6539 Sundara \u6216\u5176\u4ed6\u5ba4\u5167\u7a7a\u9593\uff0c\u4e0d\u80fd\u53ea\u5047\u8a2d\u81e8\u6642\u642d\u68da\u3002",
+      "decision_notes": "\u5982\u679c\u4eba\u6578\u4f86\u5230 80+\uff0c\u9019\u88e1\u901a\u5e38\u6bd4\u5c0f\u578b\u6d77\u908a\u5f62\u5f0f\u66f4\u73fe\u5be6\u3002"
     },
     {
       "space_id": "sundara-private-room",
-      "label": "Sundara 2F Private Room 私人包廂",
+      "label": "Sundara 2F Private Room \u79c1\u4eba\u5305\u5ec2",
       "space_types": [
         "private-dining",
         "indoor-dining"
       ],
       "privacy_level": "private",
       "event_scope": "reception_only",
-      "capacity_summary_text": "約 10 至 16 人，適合 family dinner、after-party 或超小型宴席。",
-      "price_summary_text": "不是主 ceremony 英雄場，但對追求精緻晚宴與天候穩定的人很有價值。",
-      "backup_summary_text": "室內包廂，是金巴蘭四季最務實的天候保險選項之一。",
-      "decision_notes": "如果你在意雨季可執行性，這個空間的存在會大幅提高 Jimbaran 的穩定分。"
+      "capacity_summary_text": "\u7d04 10 \u81f3 16 \u4eba\uff0c\u9069\u5408 family dinner\u3001after-party \u6216\u8d85\u5c0f\u578b\u5bb4\u5e2d\u3002",
+      "price_summary_text": "\u4e0d\u662f\u4e3b ceremony \u82f1\u96c4\u5834\uff0c\u4f46\u5c0d\u8ffd\u6c42\u7cbe\u7dfb\u665a\u5bb4\u8207\u5929\u5019\u7a69\u5b9a\u7684\u4eba\u5f88\u6709\u50f9\u503c\u3002",
+      "backup_summary_text": "\u5ba4\u5167\u5305\u5ec2\uff0c\u662f\u91d1\u5df4\u862d\u56db\u5b63\u6700\u52d9\u5be6\u7684\u5929\u5019\u4fdd\u96aa\u9078\u9805\u4e4b\u4e00\u3002",
+      "decision_notes": "\u5982\u679c\u4f60\u5728\u610f\u96e8\u5b63\u53ef\u57f7\u884c\u6027\uff0c\u9019\u500b\u7a7a\u9593\u7684\u5b58\u5728\u6703\u5927\u5e45\u63d0\u9ad8 Jimbaran \u7684\u7a69\u5b9a\u5206\u3002"
     },
     {
       "space_id": "fore-shore-gazebo",
-      "label": "Fore-shore Gazebo 海邊涼亭",
+      "label": "Fore-shore Gazebo \u6d77\u908a\u6dbc\u4ead",
       "space_types": [
         "gazebo",
         "romantic-dinner"
       ],
       "privacy_level": "private",
       "event_scope": "reception_only",
-      "capacity_summary_text": "約 2 至 4 人，偏兩人浪漫晚餐或拍照重點，不是正式 reception 空間。",
-      "price_summary_text": "更像婚禮週的加值體驗，而不是用來撐大型宴席的主場。",
-      "backup_summary_text": "日文頁面明寫目前無屋頂，不應視為真正雨備；若要有頂版本要另確認其他 gazebo。",
-      "decision_notes": "適合兩人 sunset dinner 或婚禮後延伸體驗，但不適合拿來誤認成可容納親友的晚宴場地。"
+      "capacity_summary_text": "\u7d04 2 \u81f3 4 \u4eba\uff0c\u504f\u5169\u4eba\u6d6a\u6f2b\u665a\u9910\u6216\u62cd\u7167\u91cd\u9ede\uff0c\u4e0d\u662f\u6b63\u5f0f reception \u7a7a\u9593\u3002",
+      "price_summary_text": "\u66f4\u50cf\u5a5a\u79ae\u9031\u7684\u52a0\u503c\u9ad4\u9a57\uff0c\u800c\u4e0d\u662f\u7528\u4f86\u6490\u5927\u578b\u5bb4\u5e2d\u7684\u4e3b\u5834\u3002",
+      "backup_summary_text": "\u65e5\u6587\u9801\u9762\u660e\u5beb\u76ee\u524d\u7121\u5c4b\u9802\uff0c\u4e0d\u61c9\u8996\u70ba\u771f\u6b63\u96e8\u5099\uff1b\u82e5\u8981\u6709\u9802\u7248\u672c\u8981\u53e6\u78ba\u8a8d\u5176\u4ed6 gazebo\u3002",
+      "decision_notes": "\u9069\u5408\u5169\u4eba sunset dinner \u6216\u5a5a\u79ae\u5f8c\u5ef6\u4f38\u9ad4\u9a57\uff0c\u4f46\u4e0d\u9069\u5408\u62ff\u4f86\u8aa4\u8a8d\u6210\u53ef\u5bb9\u7d0d\u89aa\u53cb\u7684\u665a\u5bb4\u5834\u5730\u3002"
     }
   ],
   "price_band_normalized": null,
   "best_for": [
-    "想享受峇里島海灘別墅的情侶又不失飯店級後勤服務",
-    "家庭優先考慮便捷的機場交通和一處房產的賓客協調",
-    "想要在溫暖的日落度假村環境中舉行象徵性儀式和晚餐的目的地婚禮"
+    "\u60f3\u4eab\u53d7\u5cc7\u91cc\u5cf6\u6d77\u7058\u5225\u5885\u7684\u60c5\u4fb6\u53c8\u4e0d\u5931\u98ef\u5e97\u7d1a\u5f8c\u52e4\u670d\u52d9",
+    "\u5bb6\u5ead\u512a\u5148\u8003\u616e\u4fbf\u6377\u7684\u6a5f\u5834\u4ea4\u901a\u548c\u4e00\u8655\u623f\u7522\u7684\u8cd3\u5ba2\u5354\u8abf",
+    "\u60f3\u8981\u5728\u6eab\u6696\u7684\u65e5\u843d\u5ea6\u5047\u6751\u74b0\u5883\u4e2d\u8209\u884c\u8c61\u5fb5\u6027\u5100\u5f0f\u548c\u665a\u9910\u7684\u76ee\u7684\u5730\u5a5a\u79ae"
   ],
   "not_ideal_for": [
-    "堅持使用專用玻璃教堂或宴會廳規模防雨設施的情侶",
-    "需要低門檻峇里島度假村婚禮的預算",
-    "想要最私密的懸崖莊園氛圍而不是豪華度假村的婚禮"
+    "\u5805\u6301\u4f7f\u7528\u5c08\u7528\u73bb\u7483\u6559\u5802\u6216\u5bb4\u6703\u5ef3\u898f\u6a21\u9632\u96e8\u8a2d\u65bd\u7684\u60c5\u4fb6",
+    "\u9700\u8981\u4f4e\u9580\u6abb\u5cc7\u91cc\u5cf6\u5ea6\u5047\u6751\u5a5a\u79ae\u7684\u9810\u7b97",
+    "\u60f3\u8981\u6700\u79c1\u5bc6\u7684\u61f8\u5d16\u838a\u5712\u6c1b\u570d\u800c\u4e0d\u662f\u8c6a\u83ef\u5ea6\u5047\u6751\u7684\u5a5a\u79ae"
   ],
   "key_strengths": [
-    "與更深的烏魯瓦圖場館相比，前往機場要容易得多",
-    "全別墅住宿讓賓客入住體驗與婚禮保持一致",
-    "視覺範圍涵蓋水道、海灘、日落露台和餐廳主導的接待處"
+    "\u8207\u66f4\u6df1\u7684\u70cf\u9b6f\u74e6\u5716\u5834\u9928\u76f8\u6bd4\uff0c\u524d\u5f80\u6a5f\u5834\u8981\u5bb9\u6613\u5f97\u591a",
+    "\u5168\u5225\u5885\u4f4f\u5bbf\u8b93\u8cd3\u5ba2\u5165\u4f4f\u9ad4\u9a57\u8207\u5a5a\u79ae\u4fdd\u6301\u4e00\u81f4",
+    "\u8996\u89ba\u7bc4\u570d\u6db5\u84cb\u6c34\u9053\u3001\u6d77\u7058\u3001\u65e5\u843d\u9732\u53f0\u548c\u9910\u5ef3\u4e3b\u5c0e\u7684\u63a5\u5f85\u8655"
   ],
   "key_risks": [
-    "簽名儀式造型仍暴露在外",
-    "最適合情侶的套餐可能會完全改變，具體取決於您實際使用的金巴蘭分會場",
-    "戶外計時、音樂截止、海灘後勤需明確確認"
+    "\u7c3d\u540d\u5100\u5f0f\u9020\u578b\u4ecd\u66b4\u9732\u5728\u5916",
+    "\u6700\u9069\u5408\u60c5\u4fb6\u7684\u5957\u9910\u53ef\u80fd\u6703\u5b8c\u5168\u6539\u8b8a\uff0c\u5177\u9ad4\u53d6\u6c7a\u65bc\u60a8\u5be6\u969b\u4f7f\u7528\u7684\u91d1\u5df4\u862d\u5206\u6703\u5834",
+    "\u6236\u5916\u8a08\u6642\u3001\u97f3\u6a02\u622a\u6b62\u3001\u6d77\u7058\u5f8c\u52e4\u9700\u660e\u78ba\u78ba\u8a8d"
   ],
   "data_completeness": "comparable_core_complete",
   "research_status": "needs_price_followup",
   "last_verified_at": "2026-06-19",
   "data_freshness": "recent",
   "open_questions": [
-    "確認水道和海灘儀式形式的當前降雨計劃圖。",
-    "確認 Sundara 和海濱空間目前的外部供應商和娛樂規則。",
-    "確認目前哪些形式仍可在沒有更廣泛買斷條件的情況下舉辦 120 人以上的婚禮。"
+    "\u78ba\u8a8d\u6c34\u9053\u548c\u6d77\u7058\u5100\u5f0f\u5f62\u5f0f\u7684\u7576\u524d\u964d\u96e8\u8a08\u5283\u5716\u3002",
+    "\u78ba\u8a8d Sundara \u548c\u6d77\u6ff1\u7a7a\u9593\u76ee\u524d\u7684\u5916\u90e8\u4f9b\u61c9\u5546\u548c\u5a1b\u6a02\u898f\u5247\u3002",
+    "\u78ba\u8a8d\u76ee\u524d\u54ea\u4e9b\u5f62\u5f0f\u4ecd\u53ef\u5728\u6c92\u6709\u66f4\u5ee3\u6cdb\u8cb7\u65b7\u689d\u4ef6\u7684\u60c5\u6cc1\u4e0b\u8209\u8fa6 120 \u4eba\u4ee5\u4e0a\u7684\u5a5a\u79ae\u3002"
   ],
   "source_ids": [
     "four-seasons-resort-bali-at-jimbaran-bay-bless-bali-overview-ja",
@@ -247,7 +247,9 @@
     "four-seasons-resort-bali-at-jimbaran-bay-weddings-com-tw-zh",
     "four-seasons-resort-bali-at-jimbaran-bay-xhs-post-12",
     "four-seasons-resort-bali-at-jimbaran-bay-xhs-post-19",
-    "four-seasons-resort-bali-at-jimbaran-bay-weddingku-vendor"
+    "four-seasons-resort-bali-at-jimbaran-bay-weddingku-vendor",
+    "four-seasons-resort-bali-at-jimbaran-bay-balifortwo-shane-adeline",
+    "four-seasons-resort-bali-at-jimbaran-bay-balifortwo-giselle-xavier"
   ],
   "photo_index_id": "four-seasons-resort-bali-at-jimbaran-bay",
   "last_updated": "2026-06-21T16:37:38.710762"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21",
+  "generated_at": "2026-06-22",
   "items": [
     {
       "photo_entry_id": "the-ritz-carlton-bali-photo-sweetday-majestic-zh",
@@ -2227,6 +2227,94 @@
         "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-dyan-daniel-04.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-dyan-daniel-05.jpg",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-dyan-daniel-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-balifortwo-shane-adeline-photo-asset",
+      "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+      "source_id": "four-seasons-resort-bali-at-jimbaran-bay-balifortwo-shane-adeline",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/balifortwo-shane-adeline-1.png",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/balifortwo-shane-adeline-2.png",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/balifortwo-shane-adeline-3.png",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/balifortwo-shane-adeline-5.png"
+      ]
+    },
+    {
+      "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-balifortwo-giselle-xavier-photo-asset",
+      "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+      "source_id": "four-seasons-resort-bali-at-jimbaran-bay-balifortwo-giselle-xavier",
+      "asset_paths": [
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/balifortwo-giselle-xavier-1.png",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/balifortwo-giselle-xavier-2.png",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/balifortwo-giselle-xavier-3.png",
+        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/balifortwo-giselle-xavier-5.png"
+      ]
+    },
+    {
+      "photo_entry_id": "pandawa-cliff-estate-balifortwo-erika-stephen-photo-asset",
+      "venue_id": "pandawa-cliff-estate",
+      "source_id": "pandawa-cliff-estate-balifortwo-erika-stephen",
+      "asset_paths": [
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-erika-stephen-1.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-erika-stephen-2.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-erika-stephen-3.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-erika-stephen-5.png"
+      ]
+    },
+    {
+      "photo_entry_id": "pandawa-cliff-estate-balifortwo-trimelia-jl-photo-asset",
+      "venue_id": "pandawa-cliff-estate",
+      "source_id": "pandawa-cliff-estate-balifortwo-trimelia-jl",
+      "asset_paths": [
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-trimelia-jl-1.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-trimelia-jl-2.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-trimelia-jl-3.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-trimelia-jl-5.png"
+      ]
+    },
+    {
+      "photo_entry_id": "pandawa-cliff-estate-balifortwo-eve-yuichi-photo-asset",
+      "venue_id": "pandawa-cliff-estate",
+      "source_id": "pandawa-cliff-estate-balifortwo-eve-yuichi",
+      "asset_paths": [
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-eve-yuichi-1.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-eve-yuichi-2.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-eve-yuichi-3.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-eve-yuichi-5.png"
+      ]
+    },
+    {
+      "photo_entry_id": "pandawa-cliff-estate-balifortwo-paula-andrew-photo-asset",
+      "venue_id": "pandawa-cliff-estate",
+      "source_id": "pandawa-cliff-estate-balifortwo-paula-andrew",
+      "asset_paths": [
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-paula-andrew-1.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-paula-andrew-2.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-paula-andrew-3.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-paula-andrew-5.png"
+      ]
+    },
+    {
+      "photo_entry_id": "pandawa-cliff-estate-balifortwo-dyan-daniel-photo-asset",
+      "venue_id": "pandawa-cliff-estate",
+      "source_id": "pandawa-cliff-estate-balifortwo-dyan-daniel",
+      "asset_paths": [
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-dyan-daniel-1.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-dyan-daniel-2.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-dyan-daniel-3.png",
+        "data/photo-assets/pandawa-cliff-estate/balifortwo-dyan-daniel-5.png"
+      ]
+    },
+    {
+      "photo_entry_id": "hilton-bali-resort-balifortwo-hestia-chapel-photo-asset",
+      "venue_id": "hilton-bali-resort",
+      "source_id": "hilton-bali-resort-balifortwo-hestia-chapel",
+      "asset_paths": [
+        "data/photo-assets/hilton-bali-resort/balifortwo-hestia-chapel-1.png",
+        "data/photo-assets/hilton-bali-resort/balifortwo-hestia-chapel-2.png",
+        "data/photo-assets/hilton-bali-resort/balifortwo-hestia-chapel-3.png",
+        "data/photo-assets/hilton-bali-resort/balifortwo-hestia-chapel-5.png"
       ]
     }
   ]

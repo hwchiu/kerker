@@ -14,7 +14,7 @@
     "authenticity": "real_wedding",
     "coverage_type": "small_gallery",
     "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    "decision_notes": "\u5c0f\u7d05\u66f8\u7528\u6236\u7684\u771f\u5be6\u5a5a\u79ae\u7167\u7247\u548c\u5834\u5730\u8a55\u8ad6"
   },
   {
     "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-2",
@@ -31,7 +31,7 @@
     "authenticity": "real_wedding",
     "coverage_type": "small_gallery",
     "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    "decision_notes": "\u5c0f\u7d05\u66f8\u7528\u6236\u7684\u771f\u5be6\u5a5a\u79ae\u7167\u7247\u548c\u5834\u5730\u8a55\u8ad6"
   },
   {
     "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-3",
@@ -48,7 +48,7 @@
     "authenticity": "real_wedding",
     "coverage_type": "small_gallery",
     "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    "decision_notes": "\u5c0f\u7d05\u66f8\u7528\u6236\u7684\u771f\u5be6\u5a5a\u79ae\u7167\u7247\u548c\u5834\u5730\u8a55\u8ad6"
   },
   {
     "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-4",
@@ -65,7 +65,7 @@
     "authenticity": "real_wedding",
     "coverage_type": "small_gallery",
     "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    "decision_notes": "\u5c0f\u7d05\u66f8\u7528\u6236\u7684\u771f\u5be6\u5a5a\u79ae\u7167\u7247\u548c\u5834\u5730\u8a55\u8ad6"
   },
   {
     "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-5",
@@ -82,7 +82,7 @@
     "authenticity": "real_wedding",
     "coverage_type": "small_gallery",
     "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    "decision_notes": "\u5c0f\u7d05\u66f8\u7528\u6236\u7684\u771f\u5be6\u5a5a\u79ae\u7167\u7247\u548c\u5834\u5730\u8a55\u8ad6"
   },
   {
     "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-6",
@@ -99,7 +99,7 @@
     "authenticity": "real_wedding",
     "coverage_type": "small_gallery",
     "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    "decision_notes": "\u5c0f\u7d05\u66f8\u7528\u6236\u7684\u771f\u5be6\u5a5a\u79ae\u7167\u7247\u548c\u5834\u5730\u8a55\u8ad6"
   },
   {
     "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-7",
@@ -116,7 +116,7 @@
     "authenticity": "real_wedding",
     "coverage_type": "small_gallery",
     "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    "decision_notes": "\u5c0f\u7d05\u66f8\u7528\u6236\u7684\u771f\u5be6\u5a5a\u79ae\u7167\u7247\u548c\u5834\u5730\u8a55\u8ad6"
   },
   {
     "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-8",
@@ -133,7 +133,7 @@
     "authenticity": "real_wedding",
     "coverage_type": "small_gallery",
     "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    "decision_notes": "\u5c0f\u7d05\u66f8\u7528\u6236\u7684\u771f\u5be6\u5a5a\u79ae\u7167\u7247\u548c\u5834\u5730\u8a55\u8ad6"
   },
   {
     "photo_entry_id": "pandawa-cliff-estate-xhs-1-photo-9",
@@ -150,6 +150,86 @@
     "authenticity": "real_wedding",
     "coverage_type": "small_gallery",
     "decision_value": "high",
-    "decision_notes": "小紅書用戶的真實婚禮照片和場地評論"
+    "decision_notes": "\u5c0f\u7d05\u66f8\u7528\u6236\u7684\u771f\u5be6\u5a5a\u79ae\u7167\u7247\u548c\u5834\u5730\u8a55\u8ad6"
+  },
+  {
+    "photo_entry_id": "pandawa-cliff-estate-balifortwo-erika-stephen-photo-1",
+    "venue_id": "pandawa-cliff-estate",
+    "source_id": "pandawa-cliff-estate-balifortwo-erika-stephen",
+    "page_url": "https://balifortwo2.com/erika-stephens-wedding-at-pandawa-cliff-estate/",
+    "image_url_or_gallery_url": "https://balifortwo2.com/erika-stephens-wedding-at-pandawa-cliff-estate/",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "garden-reception"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "Real wedding feature from balifortwo.com at Pandawa Cliff Estate"
+  },
+  {
+    "photo_entry_id": "pandawa-cliff-estate-balifortwo-trimelia-jl-photo-1",
+    "venue_id": "pandawa-cliff-estate",
+    "source_id": "pandawa-cliff-estate-balifortwo-trimelia-jl",
+    "page_url": "https://balifortwo2.com/trimelia-jls-wedding-at-pandawa-cliff-estate/",
+    "image_url_or_gallery_url": "https://balifortwo2.com/trimelia-jls-wedding-at-pandawa-cliff-estate/",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "garden-reception"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "Real wedding feature from balifortwo.com at Pandawa Cliff Estate"
+  },
+  {
+    "photo_entry_id": "pandawa-cliff-estate-balifortwo-eve-yuichi-photo-1",
+    "venue_id": "pandawa-cliff-estate",
+    "source_id": "pandawa-cliff-estate-balifortwo-eve-yuichi",
+    "page_url": "https://balifortwo2.com/eve-yuichis-wedding-at-pandawa-cliff-estate/",
+    "image_url_or_gallery_url": "https://balifortwo2.com/eve-yuichis-wedding-at-pandawa-cliff-estate/",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "garden-reception"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "Real wedding feature from balifortwo.com at Pandawa Cliff Estate"
+  },
+  {
+    "photo_entry_id": "pandawa-cliff-estate-balifortwo-paula-andrew-photo-1",
+    "venue_id": "pandawa-cliff-estate",
+    "source_id": "pandawa-cliff-estate-balifortwo-paula-andrew",
+    "page_url": "https://balifortwo2.com/paula-andrews-wedding-at-pandawa-cliff-estate/",
+    "image_url_or_gallery_url": "https://balifortwo2.com/paula-andrews-wedding-at-pandawa-cliff-estate/",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "garden-reception"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "Real wedding feature from balifortwo.com at Pandawa Cliff Estate"
+  },
+  {
+    "photo_entry_id": "pandawa-cliff-estate-balifortwo-dyan-daniel-photo-1",
+    "venue_id": "pandawa-cliff-estate",
+    "source_id": "pandawa-cliff-estate-balifortwo-dyan-daniel",
+    "page_url": "https://balifortwo2.com/dyan-daniels-wedding-at-pandawa-cliff-estate/",
+    "image_url_or_gallery_url": "https://balifortwo2.com/dyan-daniels-wedding-at-pandawa-cliff-estate/",
+    "image_type": "real_wedding_feature",
+    "scene_tags": [
+      "cliffside-ceremony",
+      "garden-reception"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "Real wedding feature from balifortwo.com at Pandawa Cliff Estate"
   }
 ]
