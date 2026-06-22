@@ -153,23 +153,6 @@
     "decision_notes": "有用的中文飯店圖集，用於了解 Apurva 的規模、到達順序和房間基調。"
   },
   {
-    "photo_entry_id": "the-apurva-kempinski-bali-photo-ctrip",
-    "venue_id": "the-apurva-kempinski-bali",
-    "source_id": "the-apurva-kempinski-bali-ctrip-hotel",
-    "page_url": "https://hotels.ctrip.com/hotels/25195229.html",
-    "image_url_or_gallery_url": "https://hotels.ctrip.com/hotels/25195229.html",
-    "image_type": "platform_listing_gallery",
-    "scene_tags": [
-      "public-area",
-      "room",
-      "arrival-flow"
-    ],
-    "authenticity": "unknown",
-    "coverage_type": "large_gallery",
-    "decision_value": "medium",
-    "decision_notes": "有用的中文預訂庫，適用於公共空間、房間和實用的度假村定位。"
-  },
-  {
     "photo_entry_id": "the-apurva-kempinski-bali-photo-tripadvisor-tw",
     "venue_id": "the-apurva-kempinski-bali",
     "source_id": "the-apurva-kempinski-bali-tripadvisor-tw-hotel",

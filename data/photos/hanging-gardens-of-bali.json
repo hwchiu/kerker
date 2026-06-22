@@ -153,23 +153,6 @@
     "decision_notes": "中文平台圖集能補看空中花園客房、雙層泳池與山谷景觀，幫助判斷叢林婚禮住宿體驗是否夠強。"
   },
   {
-    "photo_entry_id": "hanging-gardens-photo-ctrip-hotel",
-    "venue_id": "hanging-gardens-of-bali",
-    "source_id": "hanging-gardens-ctrip-hotel",
-    "page_url": "https://hotels.ctrip.com/hotels/992131.html",
-    "image_url_or_gallery_url": "https://hotels.ctrip.com/hotels/992131.html",
-    "image_type": "platform_listing_gallery",
-    "scene_tags": [
-      "room",
-      "public-area",
-      "arrival-flow"
-    ],
-    "authenticity": "unknown",
-    "coverage_type": "large_gallery",
-    "decision_value": "medium",
-    "decision_notes": "攜程頁面可補強房型、動線與公共區域實拍，讓空中花園不只剩官方叢林宣傳感。"
-  },
-  {
     "photo_entry_id": "hanging-gardens-of-bali-balifortwo-hidden-palace",
     "venue_id": "hanging-gardens-of-bali",
     "source_id": "hanging-gardens-of-bali-balifortwo-hidden-palace",

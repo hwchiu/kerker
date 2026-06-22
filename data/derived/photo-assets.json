@@ -126,19 +126,6 @@
       ]
     },
     {
-      "photo_entry_id": "four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-water-zh",
-      "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
-      "source_id": "four-seasons-resort-bali-at-jimbaran-bay-sweetday-water-zh",
-      "asset_paths": [
-        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-water-zh-01.jpeg",
-        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-water-zh-02.jpeg",
-        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-water-zh-03.jpeg",
-        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-water-zh-04.jpeg",
-        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-water-zh-05.jpeg",
-        "data/photo-assets/four-seasons-resort-bali-at-jimbaran-bay/four-seasons-resort-bali-at-jimbaran-bay-photo-sweetday-water-zh-06.jpeg"
-      ]
-    },
-    {
       "photo_entry_id": "tirtha-bali-photo-sweetday-uluwatu-zh",
       "venue_id": "tirtha-bali",
       "source_id": "tirtha-bali-sweetday-uluwatu-zh",
@@ -300,19 +287,6 @@
         "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-eastern-palace-04.jpg",
         "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-eastern-palace-05.jpg",
         "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-eastern-palace-06.jpg"
-      ]
-    },
-    {
-      "photo_entry_id": "six-senses-uluwatu-bali-photo-balifortwo-grand-destiny",
-      "venue_id": "six-senses-uluwatu-bali",
-      "source_id": "six-senses-uluwatu-bali-balifortwo-grand-destiny",
-      "asset_paths": [
-        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-grand-destiny-01.gif",
-        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-grand-destiny-02.jpg",
-        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-grand-destiny-03.jpg",
-        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-grand-destiny-04.jpg",
-        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-grand-destiny-05.jpg",
-        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-balifortwo-grand-destiny-06.jpg"
       ]
     },
     {
@@ -565,15 +539,6 @@
         "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-devy-stephanie-04.jpg",
         "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-devy-stephanie-05.jpg",
         "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-devy-stephanie-06.jpg"
-      ]
-    },
-    {
-      "photo_entry_id": "six-senses-uluwatu-bali-photo-weddingku-eastern-palace",
-      "venue_id": "six-senses-uluwatu-bali",
-      "source_id": "six-senses-uluwatu-bali-weddingku-eastern-palace",
-      "asset_paths": [
-        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-eastern-palace-01.jpg",
-        "data/photo-assets/six-senses-uluwatu-bali/six-senses-uluwatu-bali-photo-weddingku-eastern-palace-02.jpg"
       ]
     },
     {
@@ -952,19 +917,6 @@
       ]
     },
     {
-      "photo_entry_id": "four-seasons-resort-bali-at-sayan-florasay-zh",
-      "venue_id": "four-seasons-resort-bali-at-sayan",
-      "source_id": "four-seasons-resort-bali-at-sayan-florasay-zh",
-      "asset_paths": [
-        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-florasay-zh-01.jpg",
-        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-florasay-zh-02.jpg",
-        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-florasay-zh-03.jpg",
-        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-florasay-zh-04.jpg",
-        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-florasay-zh-05.jpg",
-        "data/photo-assets/four-seasons-resort-bali-at-sayan/four-seasons-resort-bali-at-sayan-florasay-zh-06.jpg"
-      ]
-    },
-    {
       "photo_entry_id": "hanging-gardens-photo-tripcom-hk",
       "venue_id": "hanging-gardens-of-bali",
       "source_id": "hanging-gardens-tripcom-hk-hotel",
@@ -975,19 +927,6 @@
         "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-tripcom-hk-04.jpg",
         "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-tripcom-hk-05.jpg",
         "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-tripcom-hk-06.jpg"
-      ]
-    },
-    {
-      "photo_entry_id": "hanging-gardens-photo-ctrip-hotel",
-      "venue_id": "hanging-gardens-of-bali",
-      "source_id": "hanging-gardens-ctrip-hotel",
-      "asset_paths": [
-        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-ctrip-hotel-01.jpg",
-        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-ctrip-hotel-02.jpg",
-        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-ctrip-hotel-03.jpg",
-        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-ctrip-hotel-04.jpg",
-        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-ctrip-hotel-05.jpg",
-        "data/photo-assets/hanging-gardens-of-bali/hanging-gardens-photo-ctrip-hotel-06.jpg"
       ]
     },
     {
@@ -1181,19 +1120,6 @@
         "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-tripcom-hk-04.jpg",
         "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-tripcom-hk-05.jpg",
         "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-tripcom-hk-06.jpg"
-      ]
-    },
-    {
-      "photo_entry_id": "the-apurva-kempinski-bali-photo-ctrip",
-      "venue_id": "the-apurva-kempinski-bali",
-      "source_id": "the-apurva-kempinski-bali-ctrip-hotel",
-      "asset_paths": [
-        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-ctrip-01.jpg",
-        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-ctrip-02.jpg",
-        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-ctrip-03.jpg",
-        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-ctrip-04.jpg",
-        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-ctrip-05.jpg",
-        "data/photo-assets/the-apurva-kempinski-bali/the-apurva-kempinski-bali-photo-ctrip-06.jpg"
       ]
     },
     {
@@ -1938,14 +1864,6 @@
       "source_id": "alila-villas-uluwatu-xhs-post-10",
       "asset_paths": [
         "data/photo-assets/alila-villas-uluwatu/xhs-10-1782026830194.JPG"
-      ]
-    },
-    {
-      "photo_entry_id": "alila-villas-uluwatu-xhs-10-photo-15",
-      "venue_id": "alila-villas-uluwatu",
-      "source_id": "alila-villas-uluwatu-xhs-post-10",
-      "asset_paths": [
-        "data/photo-assets/alila-villas-uluwatu/xhs-10-IMG_7247 2.JPG"
       ]
     },
     {
