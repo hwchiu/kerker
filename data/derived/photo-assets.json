@@ -2085,6 +2085,149 @@
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-theweddingnotebook-silent-songs-10.webp",
         "data/photo-assets/bvlgari-resort-bali/bvlgari-photo-theweddingnotebook-silent-songs-11.webp"
       ]
+    },
+    {
+      "photo_entry_id": "bvlgari-balifortwo-tony-beixi",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balifortwo-tony-beixi",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-tony-beixi-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-tony-beixi-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-tony-beixi-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-tony-beixi-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-tony-beixi-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-tony-beixi-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-balifortwo-daniel-gisela",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balifortwo-daniel-gisela",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-daniel-gisela-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-daniel-gisela-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-daniel-gisela-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-daniel-gisela-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-daniel-gisela-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-daniel-gisela-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-balifortwo-apoorva-nahin",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balifortwo-apoorva-nahin",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-apoorva-nahin-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-apoorva-nahin-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-apoorva-nahin-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-apoorva-nahin-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-apoorva-nahin-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-apoorva-nahin-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-balifortwo-emmanuel-jocelyn",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balifortwo-emmanuel-jocelyn",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-emmanuel-jocelyn-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-emmanuel-jocelyn-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-emmanuel-jocelyn-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-emmanuel-jocelyn-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-emmanuel-jocelyn-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-emmanuel-jocelyn-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-balifortwo-ze-dany",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balifortwo-ze-dany",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-ze-dany-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-ze-dany-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-ze-dany-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-ze-dany-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-ze-dany-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-ze-dany-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-balifortwo-julian-joan",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balifortwo-julian-joan",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-julian-joan-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-julian-joan-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-julian-joan-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-julian-joan-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-julian-joan-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-julian-joan-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-balifortwo-erika-stephen",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balifortwo-erika-stephen",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-erika-stephen-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-erika-stephen-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-erika-stephen-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-erika-stephen-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-erika-stephen-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-erika-stephen-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-balifortwo-vanessa-daniel",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balifortwo-vanessa-daniel",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-vanessa-daniel-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-vanessa-daniel-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-vanessa-daniel-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-vanessa-daniel-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-vanessa-daniel-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-vanessa-daniel-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-balifortwo-mandy-michael",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balifortwo-mandy-michael",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-mandy-michael-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-mandy-michael-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-mandy-michael-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-mandy-michael-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-mandy-michael-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-mandy-michael-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-balifortwo-gaby-colton",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balifortwo-gaby-colton",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-gaby-colton-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-gaby-colton-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-gaby-colton-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-gaby-colton-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-gaby-colton-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-gaby-colton-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "bvlgari-balifortwo-dyan-daniel",
+      "venue_id": "bvlgari-resort-bali",
+      "source_id": "bvlgari-balifortwo-dyan-daniel",
+      "asset_paths": [
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-dyan-daniel-01.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-dyan-daniel-02.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-dyan-daniel-03.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-dyan-daniel-04.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-dyan-daniel-05.jpg",
+        "data/photo-assets/bvlgari-resort-bali/bvlgari-balifortwo-dyan-daniel-06.jpg"
+      ]
     }
   ]
 }
