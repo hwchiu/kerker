@@ -2316,6 +2316,1241 @@
         "data/photo-assets/hilton-bali-resort/balifortwo-hestia-chapel-3.png",
         "data/photo-assets/hilton-bali-resort/balifortwo-hestia-chapel-5.png"
       ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-vanishaa-justin",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-vanishaa-justin",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vanishaa-justin-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vanishaa-justin-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vanishaa-justin-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vanishaa-justin-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vanishaa-justin-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vanishaa-justin-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-ruben-danee",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-ruben-danee",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ruben-danee-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ruben-danee-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ruben-danee-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ruben-danee-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ruben-danee-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ruben-danee-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-jason-alison",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-jason-alison",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-alison-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-alison-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-alison-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-alison-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-alison-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-alison-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-chloe-richard",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-chloe-richard",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chloe-richard-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chloe-richard-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chloe-richard-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chloe-richard-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chloe-richard-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chloe-richard-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-ian-vanessa",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-ian-vanessa",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ian-vanessa-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ian-vanessa-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ian-vanessa-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ian-vanessa-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ian-vanessa-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ian-vanessa-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-albert-anna",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-albert-anna",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-albert-anna-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-albert-anna-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-albert-anna-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-albert-anna-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-albert-anna-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-albert-anna-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-vanessa-daniel",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-vanessa-daniel",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vanessa-daniel-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vanessa-daniel-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vanessa-daniel-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vanessa-daniel-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vanessa-daniel-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vanessa-daniel-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-nicole-jeremy",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-nicole-jeremy",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-nicole-jeremy-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-nicole-jeremy-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-nicole-jeremy-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-nicole-jeremy-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-nicole-jeremy-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-nicole-jeremy-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-yavor-bianka",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-yavor-bianka",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yavor-bianka-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yavor-bianka-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yavor-bianka-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yavor-bianka-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yavor-bianka-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yavor-bianka-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-apoorva-nahin",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-apoorva-nahin",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-apoorva-nahin-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-apoorva-nahin-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-apoorva-nahin-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-apoorva-nahin-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-apoorva-nahin-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-apoorva-nahin-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-william-pooi",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-william-pooi",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-william-pooi-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-william-pooi-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-william-pooi-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-william-pooi-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-william-pooi-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-william-pooi-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-ajayy-rukshini",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-ajayy-rukshini",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ajayy-rukshini-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ajayy-rukshini-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ajayy-rukshini-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ajayy-rukshini-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ajayy-rukshini-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ajayy-rukshini-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-dyan-daniel",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-dyan-daniel",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-dyan-daniel-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-dyan-daniel-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-dyan-daniel-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-dyan-daniel-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-dyan-daniel-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-dyan-daniel-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-carol-brent",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-carol-brent",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-carol-brent-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-carol-brent-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-carol-brent-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-carol-brent-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-carol-brent-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-carol-brent-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-eve-yuichi",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-eve-yuichi",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-eve-yuichi-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-eve-yuichi-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-eve-yuichi-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-eve-yuichi-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-eve-yuichi-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-eve-yuichi-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-ze-dany",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-ze-dany",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ze-dany-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ze-dany-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ze-dany-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ze-dany-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ze-dany-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ze-dany-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-daniel-gisela",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-daniel-gisela",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-gisela-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-gisela-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-gisela-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-gisela-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-gisela-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-gisela-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-wentian-jinglong",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-wentian-jinglong",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-wentian-jinglong-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-wentian-jinglong-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-wentian-jinglong-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-wentian-jinglong-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-wentian-jinglong-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-wentian-jinglong-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-elijah-morgan",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-elijah-morgan",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-elijah-morgan-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-elijah-morgan-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-elijah-morgan-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-elijah-morgan-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-elijah-morgan-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-elijah-morgan-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-emmanuel-jocelyn",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-emmanuel-jocelyn",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-emmanuel-jocelyn-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-emmanuel-jocelyn-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-emmanuel-jocelyn-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-emmanuel-jocelyn-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-emmanuel-jocelyn-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-emmanuel-jocelyn-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-andrew-georgia",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-andrew-georgia",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-andrew-georgia-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-andrew-georgia-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-andrew-georgia-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-andrew-georgia-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-andrew-georgia-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-andrew-georgia-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-peter-rasha",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-peter-rasha",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-peter-rasha-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-peter-rasha-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-peter-rasha-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-peter-rasha-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-peter-rasha-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-peter-rasha-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-daniel-roxy",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-daniel-roxy",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-roxy-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-roxy-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-roxy-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-roxy-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-roxy-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-roxy-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-luke-charlotte",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-luke-charlotte",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-luke-charlotte-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-luke-charlotte-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-luke-charlotte-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-luke-charlotte-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-luke-charlotte-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-luke-charlotte-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-bonnie-vincent",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-bonnie-vincent",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-bonnie-vincent-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-bonnie-vincent-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-bonnie-vincent-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-bonnie-vincent-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-bonnie-vincent-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-bonnie-vincent-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-kyle-sandi",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-kyle-sandi",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kyle-sandi-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kyle-sandi-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kyle-sandi-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kyle-sandi-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kyle-sandi-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kyle-sandi-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-jason-claudia",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-jason-claudia",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-claudia-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-claudia-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-claudia-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-claudia-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-claudia-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-claudia-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-michelle-prene",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-michelle-prene",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-michelle-prene-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-michelle-prene-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-michelle-prene-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-michelle-prene-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-michelle-prene-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-michelle-prene-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-tamara-jaron",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-tamara-jaron",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tamara-jaron-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tamara-jaron-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tamara-jaron-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tamara-jaron-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tamara-jaron-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tamara-jaron-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-eleni-dimitri",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-eleni-dimitri",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-eleni-dimitri-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-eleni-dimitri-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-eleni-dimitri-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-eleni-dimitri-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-eleni-dimitri-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-eleni-dimitri-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-mandy-michael",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-mandy-michael",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mandy-michael-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mandy-michael-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mandy-michael-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mandy-michael-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mandy-michael-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mandy-michael-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-christy-adam",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-christy-adam",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-christy-adam-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-christy-adam-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-christy-adam-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-christy-adam-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-christy-adam-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-christy-adam-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-vivian-ben",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-vivian-ben",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vivian-ben-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vivian-ben-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vivian-ben-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vivian-ben-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vivian-ben-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vivian-ben-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-vivien-derrick",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-vivien-derrick",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vivien-derrick-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vivien-derrick-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vivien-derrick-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vivien-derrick-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vivien-derrick-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vivien-derrick-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-jil-zach",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-jil-zach",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jil-zach-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jil-zach-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jil-zach-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jil-zach-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jil-zach-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jil-zach-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-felicia-ken",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-felicia-ken",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-felicia-ken-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-felicia-ken-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-felicia-ken-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-felicia-ken-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-felicia-ken-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-felicia-ken-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-lauren-brett",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-lauren-brett",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-lauren-brett-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-lauren-brett-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-lauren-brett-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-lauren-brett-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-lauren-brett-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-lauren-brett-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-sarah-engels",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-sarah-engels",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sarah-engels-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sarah-engels-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sarah-engels-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sarah-engels-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sarah-engels-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sarah-engels-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-toriana-parham",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-toriana-parham",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-toriana-parham-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-toriana-parham-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-toriana-parham-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-toriana-parham-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-toriana-parham-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-toriana-parham-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-chris-sue",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-chris-sue",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chris-sue-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chris-sue-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chris-sue-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chris-sue-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chris-sue-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chris-sue-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-alex-fan",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-alex-fan",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-alex-fan-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-alex-fan-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-alex-fan-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-alex-fan-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-alex-fan-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-alex-fan-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-gaby-colton",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-gaby-colton",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gaby-colton-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gaby-colton-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gaby-colton-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gaby-colton-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gaby-colton-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gaby-colton-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-sri-vicka",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-sri-vicka",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sri-vicka-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sri-vicka-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sri-vicka-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sri-vicka-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sri-vicka-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sri-vicka-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-mary-george",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-mary-george",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mary-george-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mary-george-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mary-george-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mary-george-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mary-george-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mary-george-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-flo-eric",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-flo-eric",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-flo-eric-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-flo-eric-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-flo-eric-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-flo-eric-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-flo-eric-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-flo-eric-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-miyuki-ludovic",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-miyuki-ludovic",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-miyuki-ludovic-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-miyuki-ludovic-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-miyuki-ludovic-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-miyuki-ludovic-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-miyuki-ludovic-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-miyuki-ludovic-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-charles-stella",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-charles-stella",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-charles-stella-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-charles-stella-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-charles-stella-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-charles-stella-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-charles-stella-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-charles-stella-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-gianna-robert",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-gianna-robert",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gianna-robert-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gianna-robert-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gianna-robert-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gianna-robert-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gianna-robert-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gianna-robert-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-jenna-andrew",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-jenna-andrew",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jenna-andrew-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jenna-andrew-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jenna-andrew-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jenna-andrew-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jenna-andrew-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jenna-andrew-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-paula-andrew",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-paula-andrew",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-paula-andrew-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-paula-andrew-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-paula-andrew-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-paula-andrew-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-paula-andrew-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-paula-andrew-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-melissa-puttakhun",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-melissa-puttakhun",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-melissa-puttakhun-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-melissa-puttakhun-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-melissa-puttakhun-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-melissa-puttakhun-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-melissa-puttakhun-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-melissa-puttakhun-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-jessica-goran",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-jessica-goran",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jessica-goran-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jessica-goran-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jessica-goran-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jessica-goran-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jessica-goran-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jessica-goran-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-jeffrey-mag",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-jeffrey-mag",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jeffrey-mag-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jeffrey-mag-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jeffrey-mag-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jeffrey-mag-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jeffrey-mag-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jeffrey-mag-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-rachel-mitt",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-rachel-mitt",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rachel-mitt-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rachel-mitt-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rachel-mitt-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rachel-mitt-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rachel-mitt-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rachel-mitt-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-jess-henning",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-jess-henning",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jess-henning-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jess-henning-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jess-henning-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jess-henning-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jess-henning-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jess-henning-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-tanya-hugo",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-tanya-hugo",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tanya-hugo-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tanya-hugo-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tanya-hugo-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tanya-hugo-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tanya-hugo-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tanya-hugo-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-jason-julynn",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-jason-julynn",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-julynn-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-julynn-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-julynn-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-julynn-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-julynn-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-julynn-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-ryan-michelle",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-ryan-michelle",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ryan-michelle-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ryan-michelle-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ryan-michelle-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ryan-michelle-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ryan-michelle-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ryan-michelle-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-julian-joan",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-julian-joan",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-julian-joan-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-julian-joan-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-julian-joan-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-julian-joan-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-julian-joan-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-julian-joan-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-sean-serena",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-sean-serena",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sean-serena-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sean-serena-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sean-serena-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sean-serena-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sean-serena-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sean-serena-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-zoe-luke",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-zoe-luke",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-zoe-luke-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-zoe-luke-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-zoe-luke-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-zoe-luke-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-zoe-luke-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-zoe-luke-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-yvonne-jack",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-yvonne-jack",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yvonne-jack-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yvonne-jack-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yvonne-jack-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yvonne-jack-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yvonne-jack-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yvonne-jack-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-kayla-beau",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-kayla-beau",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kayla-beau-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kayla-beau-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kayla-beau-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kayla-beau-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kayla-beau-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kayla-beau-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-cassandra-kendrick",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-cassandra-kendrick",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-cassandra-kendrick-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-cassandra-kendrick-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-cassandra-kendrick-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-cassandra-kendrick-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-cassandra-kendrick-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-cassandra-kendrick-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-luke-yichwen",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-luke-yichwen",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-luke-yichwen-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-luke-yichwen-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-luke-yichwen-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-luke-yichwen-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-luke-yichwen-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-luke-yichwen-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-kim-amanda",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-kim-amanda",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kim-amanda-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kim-amanda-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kim-amanda-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kim-amanda-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kim-amanda-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-kim-amanda-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-tony-khye",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-tony-khye",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tony-khye-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tony-khye-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tony-khye-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tony-khye-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tony-khye-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tony-khye-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-iyia-jordan",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-iyia-jordan",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-iyia-jordan-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-iyia-jordan-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-iyia-jordan-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-iyia-jordan-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-iyia-jordan-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-iyia-jordan-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-daniel-natalia",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-daniel-natalia",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-natalia-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-natalia-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-natalia-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-natalia-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-natalia-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-daniel-natalia-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-nadhirah-andrew",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-nadhirah-andrew",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-nadhirah-andrew-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-nadhirah-andrew-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-nadhirah-andrew-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-nadhirah-andrew-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-nadhirah-andrew-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-nadhirah-andrew-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-rahul-simran",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-rahul-simran",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rahul-simran-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rahul-simran-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rahul-simran-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rahul-simran-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rahul-simran-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rahul-simran-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-gina-james",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-gina-james",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gina-james-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gina-james-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gina-james-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gina-james-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gina-james-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-gina-james-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-erika-stephen",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-erika-stephen",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-erika-stephen-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-erika-stephen-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-erika-stephen-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-erika-stephen-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-erika-stephen-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-erika-stephen-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-carolina-turgay",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-carolina-turgay",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-carolina-turgay-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-carolina-turgay-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-carolina-turgay-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-carolina-turgay-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-carolina-turgay-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-carolina-turgay-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-emma-sam",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-emma-sam",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-emma-sam-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-emma-sam-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-emma-sam-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-emma-sam-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-emma-sam-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-emma-sam-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-bella-marcus",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-bella-marcus",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-bella-marcus-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-bella-marcus-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-bella-marcus-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-bella-marcus-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-bella-marcus-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-bella-marcus-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-abhy-shweta",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-abhy-shweta",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-abhy-shweta-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-abhy-shweta-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-abhy-shweta-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-abhy-shweta-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-abhy-shweta-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-abhy-shweta-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-james-kelli",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-james-kelli",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-james-kelli-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-james-kelli-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-james-kelli-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-james-kelli-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-james-kelli-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-james-kelli-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-ika-devjit",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-ika-devjit",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ika-devjit-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ika-devjit-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ika-devjit-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ika-devjit-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ika-devjit-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-ika-devjit-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-yaelle-and-mikael",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-yaelle-and-mikael",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yaelle-and-mikael-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yaelle-and-mikael-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yaelle-and-mikael-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yaelle-and-mikael-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yaelle-and-mikael-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-yaelle-and-mikael-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-vijay-and-priya",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-vijay-and-priya",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vijay-and-priya-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vijay-and-priya-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vijay-and-priya-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vijay-and-priya-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vijay-and-priya-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-vijay-and-priya-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-lawrence-may",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-lawrence-may",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-lawrence-may-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-lawrence-may-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-lawrence-may-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-lawrence-may-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-lawrence-may-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-lawrence-may-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-helen-fabien",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-helen-fabien",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-helen-fabien-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-helen-fabien-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-helen-fabien-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-helen-fabien-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-helen-fabien-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-helen-fabien-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-adeline-kai",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-adeline-kai",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-adeline-kai-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-adeline-kai-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-adeline-kai-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-adeline-kai-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-adeline-kai-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-adeline-kai-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-rali-manami",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-rali-manami",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rali-manami-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rali-manami-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rali-manami-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rali-manami-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rali-manami-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-rali-manami-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-tony-beixi",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-tony-beixi",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tony-beixi-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tony-beixi-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tony-beixi-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tony-beixi-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tony-beixi-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-tony-beixi-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-jess-kenneth",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-jess-kenneth",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jess-kenneth-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jess-kenneth-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jess-kenneth-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jess-kenneth-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jess-kenneth-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jess-kenneth-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-shiofra-oisin",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-shiofra-oisin",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-shiofra-oisin-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-shiofra-oisin-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-shiofra-oisin-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-shiofra-oisin-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-shiofra-oisin-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-shiofra-oisin-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-chris-joan",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-chris-joan",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chris-joan-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chris-joan-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chris-joan-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chris-joan-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chris-joan-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-chris-joan-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-jason-grace",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-jason-grace",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-grace-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-grace-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-grace-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-grace-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-grace-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jason-grace-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-barrett-kay",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-barrett-kay",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-barrett-kay-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-barrett-kay-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-barrett-kay-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-barrett-kay-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-barrett-kay-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-barrett-kay-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-jasmine-victor",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-jasmine-victor",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jasmine-victor-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jasmine-victor-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jasmine-victor-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jasmine-victor-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jasmine-victor-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-jasmine-victor-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-janine-jun",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-janine-jun",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-janine-jun-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-janine-jun-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-janine-jun-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-janine-jun-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-janine-jun-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-janine-jun-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-mok-desiree",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-mok-desiree",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mok-desiree-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mok-desiree-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mok-desiree-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mok-desiree-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mok-desiree-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-mok-desiree-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-bali-balifortwo-sophie-vincent",
+      "venue_id": "conrad-bali",
+      "source_id": "conrad-bali-balifortwo-sophie-vincent",
+      "asset_paths": [
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sophie-vincent-01.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sophie-vincent-02.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sophie-vincent-03.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sophie-vincent-04.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sophie-vincent-05.jpg",
+        "data/photo-assets/conrad-bali/conrad-bali-balifortwo-sophie-vincent-06.jpg"
+      ]
     }
   ]
 }
