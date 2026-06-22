@@ -727,6 +727,15 @@ a {
   transform: translateY(-1px);
 }
 
+/* Stretched link: make entire card clickable */
+.venue-card .card-primary-link::after,
+.style-venue-card .card-primary-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
 .detail-hero {
   padding: 40px;
 }
@@ -1293,6 +1302,7 @@ a {
 }
 
 .style-venue-card {
+  position: relative;
   display: grid;
   grid-template-columns: minmax(220px, 0.9fr) minmax(0, 1.1fr);
   border: 1px solid rgba(30, 41, 36, 0.08);
@@ -2946,7 +2956,7 @@ SITE_JS = """(function () {
         </div>
         <div class="card-footer">
           <span class="subtle">${escapeHtml(venue.source_summary)}</span>
-          <a class="link-button" href="venues/${escapeHtml(venue.id)}.html">查看場地檔案</a>
+          <a class="link-button card-primary-link" href="venues/${escapeHtml(venue.id)}.html">查看場地檔案</a>
         </div>
       </article>
     `;
@@ -3870,7 +3880,7 @@ def _render_style_spotlight(entry: dict[str, Any]) -> str:
         "</dl>"
         '<div class="card-footer">'
         f'<span class="subtle">{escape(entry["price_summary_text"])}</span>'
-        f'<a class="link-button" href="venues/{escape(entry["id"])}.html">查看場地檔案</a>'
+        f'<a class="link-button card-primary-link" href="venues/{escape(entry["id"])}.html">查看場地檔案</a>'
         "</div>"
         "</div>"
         "</article>"

@@ -352,7 +352,7 @@
         </div>
         <div class="card-footer">
           <span class="subtle">${escapeHtml(venue.source_summary)}</span>
-          <a class="link-button" href="venues/${escapeHtml(venue.id)}.html">查看場地檔案</a>
+          <a class="link-button card-primary-link" href="venues/${escapeHtml(venue.id)}.html">查看場地檔案</a>
         </div>
       </article>
     `;

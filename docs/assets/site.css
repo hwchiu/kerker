@@ -710,6 +710,15 @@ a {
   transform: translateY(-1px);
 }
 
+/* Stretched link: make entire card clickable */
+.venue-card .card-primary-link::after,
+.style-venue-card .card-primary-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
 .detail-hero {
   padding: 40px;
 }
@@ -1276,6 +1285,7 @@ a {
 }
 
 .style-venue-card {
+  position: relative;
   display: grid;
   grid-template-columns: minmax(220px, 0.9fr) minmax(0, 1.1fr);
   border: 1px solid rgba(30, 41, 36, 0.08);
