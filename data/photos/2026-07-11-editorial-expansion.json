@@ -1,0 +1,134 @@
+[
+  {
+    "photo_entry_id": "ayana-bali-vogue-rei-matthew-wedding",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-vogue-rei-matthew-wedding",
+    "page_url": "https://www.vogue.com/slideshow/rei-kawano-and-matthew-yoder-wedding",
+    "image_url_or_gallery_url": "https://www.vogue.com/slideshow/rei-kawano-and-matthew-yoder-wedding",
+    "image_type": "press_feature",
+    "scene_tags": [
+      "garden-reception",
+      "floral-setup",
+      "guest-seating"
+    ],
+    "authenticity": "real_wedding",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "Vogue 真實婚禮圖集可補 AYANA Champa Garden 花園晚宴、花藝、賓客桌面與歡迎晚宴動線。"
+  },
+  {
+    "photo_entry_id": "ayana-bali-vogue-dreamiest-pools",
+    "venue_id": "ayana-bali",
+    "source_id": "ayana-bali-vogue-dreamiest-pools",
+    "page_url": "https://www.vogue.com/article/most-beautiful-pools-in-bali",
+    "image_url_or_gallery_url": "https://www.vogue.com/article/most-beautiful-pools-in-bali",
+    "image_type": "press_feature",
+    "scene_tags": [
+      "public-area",
+      "water-platform"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "補充 AYANA 度假村泳池與水景尺度，適合判斷水台、歡迎活動和非儀式時段的海島氛圍。"
+  },
+  {
+    "photo_entry_id": "hanging-gardens-of-bali-vogue-dreamiest-pools",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_id": "hanging-gardens-of-bali-vogue-dreamiest-pools",
+    "page_url": "https://www.vogue.com/article/most-beautiful-pools-in-bali",
+    "image_url_or_gallery_url": "https://www.vogue.com/article/most-beautiful-pools-in-bali",
+    "image_type": "press_feature",
+    "scene_tags": [
+      "jungle-view",
+      "public-area"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "補強 Hanging Gardens 的叢林河谷與無邊泳池視覺，適合使用者判斷叢林型婚禮的背景質感。"
+  },
+  {
+    "photo_entry_id": "four-seasons-jimbaran-vogue-dreamiest-pools",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_id": "four-seasons-jimbaran-vogue-dreamiest-pools",
+    "page_url": "https://www.vogue.com/article/most-beautiful-pools-in-bali",
+    "image_url_or_gallery_url": "https://www.vogue.com/article/most-beautiful-pools-in-bali",
+    "image_type": "press_feature",
+    "scene_tags": [
+      "public-area",
+      "beach-ceremony"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "補充 Four Seasons Jimbaran 的海濱度假村、水景與 Jimbaran Bay 度假感，不作為婚禮方案依據。"
+  },
+  {
+    "photo_entry_id": "alila-villas-uluwatu-vogue-dreamiest-pools",
+    "venue_id": "alila-villas-uluwatu",
+    "source_id": "alila-villas-uluwatu-vogue-dreamiest-pools",
+    "page_url": "https://www.vogue.com/article/most-beautiful-pools-in-bali",
+    "image_url_or_gallery_url": "https://www.vogue.com/article/most-beautiful-pools-in-bali",
+    "image_type": "press_feature",
+    "scene_tags": [
+      "public-area",
+      "cliffside-ceremony"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "補強 Alila 懸崖高度、泳池和設計型場景感，適合首頁與場地頁的風格判斷。"
+  },
+  {
+    "photo_entry_id": "alila-villas-uluwatu-times-review-2025",
+    "venue_id": "alila-villas-uluwatu",
+    "source_id": "alila-villas-uluwatu-times-review-2025",
+    "page_url": "https://www.thetimes.co.uk/article/alila-villas-uluwatu-bali-hotel-review-pftq30hhd",
+    "image_url_or_gallery_url": "https://www.thetimes.co.uk/article/alila-villas-uluwatu-bali-hotel-review-pftq30hhd",
+    "image_type": "press_feature",
+    "scene_tags": [
+      "room",
+      "public-area",
+      "arrival-flow"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "近期住宿評測有助於判斷 Alila villa 房型、公共空間與下海灘動線，屬賓客體驗參考。"
+  },
+  {
+    "photo_entry_id": "four-seasons-sayan-times-review-2024",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_id": "four-seasons-sayan-times-review-2024",
+    "page_url": "https://www.thetimes.co.uk/article/four-seasons-resort-bali-at-sayan-review-20fshtm5l",
+    "image_url_or_gallery_url": "https://www.thetimes.co.uk/article/four-seasons-resort-bali-at-sayan-review-20fshtm5l",
+    "image_type": "press_feature",
+    "scene_tags": [
+      "jungle-view",
+      "public-area",
+      "arrival-flow"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "補足 Four Seasons Sayan 的橋上抵達、河谷叢林與 spa/住宿體驗，屬賓客動線與氛圍參考。"
+  },
+  {
+    "photo_entry_id": "mandapa-vogue-spa-guide-2026",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_id": "mandapa-vogue-spa-guide-2026",
+    "page_url": "https://www.vogue.com/article/mandapa-spa-at-mandapa-a-ritz-carlton-reserve",
+    "image_url_or_gallery_url": "https://www.vogue.com/article/mandapa-spa-at-mandapa-a-ritz-carlton-reserve",
+    "image_type": "press_feature",
+    "scene_tags": [
+      "jungle-view",
+      "public-area",
+      "room"
+    ],
+    "authenticity": "unknown",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "2026 Vogue spa guide 可補 Mandapa 河谷、wellness 與住宿體驗，適合判斷烏布叢林型婚禮的賓客感受。"
+  }
+]

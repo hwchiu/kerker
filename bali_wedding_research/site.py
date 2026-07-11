@@ -1939,668 +1939,6 @@ a {
   }
 }
 
-/* 2026 redesign overrides */
-:root {
-  --bg: #08111f;
-  --bg-glow: rgba(105, 139, 255, 0.22);
-  --ink: #eef2ff;
-  --muted: #a6b4d3;
-  --panel: rgba(10, 18, 36, 0.82);
-  --panel-strong: rgba(14, 24, 48, 0.94);
-  --line: rgba(150, 173, 255, 0.14);
-  --line-strong: rgba(173, 195, 255, 0.28);
-  --teal: #8fb4ff;
-  --teal-soft: rgba(143, 180, 255, 0.12);
-  --coral: #ffb5b7;
-  --gold: #ffd28f;
-  --hero-ink: #f7f8ff;
-  --shadow-sm: 0 22px 48px rgba(3, 8, 20, 0.32);
-  --shadow-md: 0 30px 70px rgba(2, 6, 18, 0.42);
-  --shadow-lg: 0 40px 110px rgba(2, 6, 18, 0.56);
-  --radius-xl: 36px;
-  --radius-lg: 28px;
-  --radius-sm: 18px;
-}
-
-html {
-  color-scheme: dark;
-}
-
-body {
-  color: var(--ink);
-  background:
-    radial-gradient(circle at 12% 10%, rgba(110, 147, 255, 0.32), transparent 22%),
-    radial-gradient(circle at 88% 6%, rgba(255, 135, 187, 0.2), transparent 24%),
-    radial-gradient(circle at 76% 78%, rgba(101, 231, 203, 0.16), transparent 26%),
-    linear-gradient(180deg, #060c18 0%, #091224 34%, #0d1830 100%);
-}
-
-body::before {
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 24%),
-    radial-gradient(circle at 20% 14%, rgba(255, 255, 255, 0.1), transparent 18%),
-    radial-gradient(circle at 82% 22%, rgba(144, 182, 255, 0.14), transparent 18%);
-  opacity: 1;
-}
-
-body::after {
-  content: "";
-  position: fixed;
-  inset: auto auto 6% 6%;
-  width: 320px;
-  height: 320px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(114, 241, 214, 0.14), transparent 68%);
-  filter: blur(16px);
-  pointer-events: none;
-}
-
-.page-shell {
-  width: min(1360px, calc(100vw - 40px));
-  padding: 36px 0 120px;
-}
-
-.hero,
-.detail-hero,
-.surface,
-.page-toc,
-.style-card,
-.venue-card,
-.style-venue-card,
-.gallery-card,
-.source-card,
-.photo-gallery-item,
-.shortlist-card,
-.fit-card,
-.alt-card,
-.status-overview-card,
-.snapshot-card,
-.space-card,
-.card-panel,
-.metric,
-.quick-fact,
-.detail-block,
-.shortlist-item,
-.hero .stat {
-  border-color: rgba(150, 173, 255, 0.14);
-  box-shadow: var(--shadow-sm);
-}
-
-.hero,
-.detail-hero {
-  padding: 56px;
-  background:
-    linear-gradient(135deg, rgba(13, 22, 46, 0.96), rgba(19, 14, 44, 0.92) 58%, rgba(8, 52, 71, 0.9) 100%),
-    radial-gradient(circle at top right, rgba(255, 210, 143, 0.18), transparent 26%);
-  border: 1px solid rgba(171, 191, 255, 0.18);
-  box-shadow: var(--shadow-lg);
-}
-
-.hero::before,
-.detail-hero::before,
-.surface::before {
-  content: "";
-  position: absolute;
-  inset: 1px;
-  border-radius: inherit;
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  pointer-events: none;
-}
-
-.hero::after,
-.surface::after,
-.detail-hero::after {
-  inset: auto 5% -72px auto;
-  width: 260px;
-  height: 260px;
-  background: radial-gradient(circle, rgba(143, 180, 255, 0.2), transparent 70%);
-}
-
-.surface {
-  margin-top: 28px;
-  padding: 32px;
-  background:
-    linear-gradient(180deg, rgba(13, 21, 41, 0.88), rgba(9, 17, 34, 0.94)),
-    rgba(10, 18, 36, 0.9);
-  border: 1px solid rgba(150, 173, 255, 0.14);
-  backdrop-filter: blur(18px);
-}
-
-.surface + .surface {
-  margin-top: 24px;
-}
-
-.hero-layout {
-  gap: 36px;
-  grid-template-columns: minmax(0, 1.6fr) minmax(320px, 0.8fr);
-  align-items: stretch;
-}
-
-.hero-copy {
-  gap: 8px;
-}
-
-.hero h1,
-.detail-hero h1,
-.section-head h2,
-.venue-card h2,
-.style-card h3 {
-  letter-spacing: -0.04em;
-}
-
-.hero h1,
-.detail-hero h1 {
-  max-width: 10ch;
-  line-height: 0.9;
-}
-
-.hero-panel {
-  align-content: start;
-  padding: 28px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(143, 180, 255, 0.04));
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
-}
-
-.hero-grid,
-.detail-grid {
-  gap: 16px;
-  margin-top: 32px;
-}
-
-.hero .stat,
-.quick-fact {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(143, 180, 255, 0.04));
-}
-
-.hero .stat strong,
-.quick-fact strong {
-  font-size: 2.1rem;
-}
-
-.eyebrow,
-.card-kicker,
-.detail-kicker,
-.metric dt,
-.control label,
-.style-meta,
-.price-table th,
-.source-table th,
-.compare-table th,
-.toc-current-label {
-  color: rgba(205, 217, 255, 0.78);
-}
-
-.lede,
-.section-head p,
-.hint,
-.subtle,
-.card-subtitle,
-.detail-subtitle,
-.gallery-source-meta,
-.photo-gallery-summary-text,
-.gallery-preview-hint,
-.results-meta,
-.status-meta,
-.gallery-card p,
-.source-card p,
-.summary,
-.style-summary-list dd,
-.metric dd,
-.compare-table td,
-.price-table td,
-.source-table td,
-.photo-gallery-link,
-.empty-state,
-.gallery-empty {
-  color: var(--muted);
-}
-
-.hero .lede,
-.hero .hint,
-.hero .subtle,
-.hero .card-kicker,
-.hero .detail-kicker,
-.hero .eyebrow,
-.hero-rate-note {
-  color: rgba(233, 239, 255, 0.78);
-}
-
-.section-head {
-  align-items: start;
-  margin-bottom: 24px;
-}
-
-.section-head h2 {
-  font-size: clamp(2.3rem, 3.6vw, 3.8rem);
-}
-
-.index-layout {
-  gap: 28px;
-  grid-template-columns: minmax(0, 1fr) 320px;
-}
-
-.page-toc {
-  top: 20px;
-  gap: 22px;
-  padding: 24px;
-  background:
-    linear-gradient(180deg, rgba(17, 27, 52, 0.92), rgba(11, 18, 35, 0.98));
-  border: 1px solid rgba(171, 191, 255, 0.18);
-  box-shadow: var(--shadow-md);
-}
-
-.page-toc-link,
-.quick-link,
-.detail-anchor-link,
-.toggle-chip,
-.compare-detail-link,
-.photo-gallery-link {
-  border-color: rgba(171, 191, 255, 0.18);
-  background: rgba(143, 180, 255, 0.08);
-  color: var(--hero-ink);
-}
-
-.page-toc-link:hover,
-.page-toc-link:focus-visible,
-.quick-link:hover,
-.quick-link:focus-visible,
-.detail-anchor-link:hover,
-.detail-anchor-link:focus-visible,
-.toggle-chip:hover,
-.compare-detail-link:hover,
-.compare-detail-link:focus-visible {
-  background: rgba(143, 180, 255, 0.16);
-  border-color: rgba(201, 214, 255, 0.28);
-}
-
-.page-toc-link.is-active {
-  background: linear-gradient(135deg, #99b9ff, #c4b0ff);
-  border-color: transparent;
-  color: #111a32;
-  box-shadow: 0 14px 30px rgba(111, 144, 255, 0.32);
-}
-
-.toc-current {
-  border-color: rgba(171, 191, 255, 0.16);
-  background: rgba(255, 255, 255, 0.05);
-}
-
-.toc-current strong {
-  color: var(--hero-ink);
-}
-
-.control input,
-.control select {
-  border-color: rgba(171, 191, 255, 0.18);
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--hero-ink);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
-}
-
-.control input::placeholder {
-  color: rgba(198, 210, 246, 0.6);
-}
-
-.control input:focus,
-.control select:focus {
-  outline: 2px solid rgba(153, 185, 255, 0.46);
-}
-
-.advanced-filters,
-.compare-scroll {
-  border-color: rgba(171, 191, 255, 0.18);
-  background: rgba(255, 255, 255, 0.03);
-}
-
-.advanced-filters summary {
-  color: var(--hero-ink);
-}
-
-.results-meta {
-  padding-top: 4px;
-}
-
-.style-grid {
-  gap: 18px;
-}
-
-.style-card {
-  position: relative;
-  background:
-    linear-gradient(180deg, rgba(20, 31, 59, 0.94), rgba(13, 22, 42, 0.98));
-  border: 1px solid rgba(171, 191, 255, 0.16);
-}
-
-.style-card::before,
-.venue-card::before,
-.style-venue-card::before {
-  content: "";
-  position: absolute;
-  inset: 0 0 auto 0;
-  height: 4px;
-  background: linear-gradient(90deg, #9cc0ff, #ffcda0, #8ff2df);
-  pointer-events: none;
-}
-
-.style-card:nth-child(2n)::before,
-.venue-card:nth-child(2n)::before {
-  background: linear-gradient(90deg, #8ff2df, #9cc0ff, #c8b3ff);
-}
-
-.style-card:nth-child(3n)::before,
-.venue-card:nth-child(3n)::before {
-  background: linear-gradient(90deg, #ffcda0, #ffb6d9, #9cc0ff);
-}
-
-.style-card-media {
-  min-height: 200px;
-  background:
-    radial-gradient(circle at top right, rgba(255, 205, 160, 0.28), transparent 26%),
-    linear-gradient(135deg, rgba(99, 132, 255, 0.34), rgba(25, 93, 110, 0.52));
-}
-
-.style-card-media::after {
-  background: linear-gradient(180deg, rgba(8, 12, 24, 0.02), rgba(8, 12, 24, 0.76));
-}
-
-.style-card-media-placeholder::before {
-  inset: 20px;
-  border-color: rgba(255, 255, 255, 0.14);
-}
-
-.style-card-media.preview-media-fallback {
-  min-height: 200px;
-}
-
-.style-venue-media.preview-media-fallback,
-.card-media.preview-media-fallback {
-  min-height: 220px;
-}
-
-.style-card-body,
-.style-venue-body,
-.gallery-card,
-.source-card,
-.photo-gallery-item,
-.shortlist-card,
-.fit-card,
-.alt-card,
-.status-overview-card,
-.snapshot-card,
-.summary-card,
-.space-card,
-.detail-block,
-.card-panel,
-.metric,
-.shortlist-item {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(143, 180, 255, 0.02));
-}
-
-.summary-card-emphasis {
-  background: linear-gradient(180deg, rgba(143, 180, 255, 0.15), rgba(255, 255, 255, 0.04));
-  border-color: rgba(143, 180, 255, 0.22);
-}
-
-.style-card-count,
-.gallery-source-count,
-.chip,
-.badge,
-.shortlist-index,
-.status-pill {
-  background: rgba(255, 255, 255, 0.08);
-  color: var(--hero-ink);
-}
-
-.badge {
-  background: rgba(255, 210, 143, 0.16);
-  color: #ffe6c4;
-}
-
-.results-grid {
-  gap: 22px;
-}
-
-.venue-card {
-  overflow: hidden;
-  gap: 20px;
-  padding: 0;
-  background:
-    linear-gradient(180deg, rgba(14, 24, 48, 0.98), rgba(10, 18, 36, 0.98));
-  border: 1px solid rgba(171, 191, 255, 0.14);
-  border-top: 0;
-  box-shadow: var(--shadow-md);
-  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
-}
-
-.venue-card > div,
-.venue-card > p,
-.venue-card > dl,
-.venue-card > article {
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
-.venue-card > :first-child {
-  padding-top: 0;
-}
-
-.venue-card > :last-child {
-  padding-bottom: 24px;
-}
-
-.venue-card:hover,
-.venue-card:focus-within,
-.style-venue-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(201, 214, 255, 0.24);
-  box-shadow: 0 34px 82px rgba(2, 7, 18, 0.55);
-}
-
-.card-media {
-  border: 0;
-  border-radius: calc(var(--radius-lg) - 2px) calc(var(--radius-lg) - 2px) 0 0;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0));
-}
-
-.card-image {
-  aspect-ratio: 16 / 9;
-  filter: saturate(1.04) contrast(1.02);
-}
-
-.venue-card h2 {
-  font-size: clamp(2rem, 3vw, 2.6rem);
-}
-
-.metric-grid,
-.filter-guide,
-.photo-insight-grid,
-.shortlist-grid,
-.fit-grid,
-.alt-grid {
-  gap: 14px;
-}
-
-.link-button {
-  background: linear-gradient(135deg, #97b8ff, #c7b5ff 54%, #86ecd8);
-  color: #111a32;
-  box-shadow: 0 16px 34px rgba(111, 144, 255, 0.26);
-}
-
-.link-button.secondary {
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--hero-ink);
-  border-color: rgba(171, 191, 255, 0.18);
-}
-
-.compare-table th {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  background: rgba(18, 28, 55, 0.96);
-  color: rgba(224, 233, 255, 0.84);
-}
-
-.compare-table td {
-  border-bottom-color: rgba(171, 191, 255, 0.1);
-}
-
-.compare-cell-price,
-.decision-value,
-.photo-gallery-summary,
-.photo-gallery-link,
-.compare-detail-link,
-.toc-current strong {
-  color: var(--hero-ink);
-}
-
-.compare-row:nth-child(2n) td {
-  background: rgba(255, 255, 255, 0.025);
-}
-
-.style-venue-card {
-  position: relative;
-  background: linear-gradient(180deg, rgba(14, 24, 48, 0.98), rgba(10, 18, 36, 0.98));
-  border-color: rgba(171, 191, 255, 0.14);
-}
-
-.gallery-card,
-.source-card,
-.photo-gallery-item,
-.advanced-filters,
-.compare-scroll,
-.shortlist-item,
-.empty-state,
-.gallery-empty {
-  border-color: rgba(171, 191, 255, 0.14);
-}
-
-.photo-gallery-item,
-.shortlist-item,
-.empty-state,
-.gallery-empty {
-  background: rgba(255, 255, 255, 0.04);
-}
-
-.gallery-thumb-img {
-  border-color: rgba(171, 191, 255, 0.14);
-  background: rgba(255, 255, 255, 0.06);
-}
-
-.gallery-fallback-sources {
-  border-color: rgba(171, 191, 255, 0.14);
-  background: rgba(255, 255, 255, 0.03);
-}
-
-.gallery-fallback-link {
-  border-color: rgba(171, 191, 255, 0.18);
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--teal);
-}
-
-.gallery-fallback-link:hover,
-.gallery-fallback-link:focus-visible {
-  background: rgba(255, 255, 255, 0.12);
-  border-color: rgba(171, 191, 255, 0.3);
-}
-
-.sources-disclosure {
-  border-color: rgba(171, 191, 255, 0.14);
-}
-
-.sources-disclosure-summary {
-  color: var(--teal);
-}
-
-.sources-disclosure[open] .sources-disclosure-summary {
-  border-bottom-color: rgba(171, 191, 255, 0.14);
-}
-
-.gallery-preview,
-.style-venue-image {
-  border-color: rgba(171, 191, 255, 0.14);
-}
-
-.lightbox {
-  background: rgba(4, 8, 18, 0.92);
-}
-
-.lightbox-frame {
-  background: rgba(9, 15, 29, 0.96);
-  border-color: rgba(255, 255, 255, 0.08);
-}
-
-@media (max-width: 980px) {
-  .page-shell {
-    width: min(100vw - 24px, 100%);
-    padding-bottom: 96px;
-  }
-
-  .hero,
-  .detail-hero,
-  .surface {
-    padding: 24px;
-  }
-
-  .index-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .page-toc {
-    top: 12px;
-  }
-
-  .style-grid,
-  .results-grid,
-  .style-section-grid,
-  .shortlist-grid,
-  .fit-grid,
-  .alt-grid,
-  .filter-guide,
-  .photo-insight-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 640px) {
-  .page-shell {
-    width: min(100vw - 16px, 100%);
-    padding-top: 16px;
-  }
-
-  .hero,
-  .detail-hero,
-  .surface {
-    padding: 20px;
-    border-radius: 26px;
-  }
-
-  .hero h1,
-  .detail-hero h1 {
-    max-width: none;
-  }
-
-  .venue-card > div,
-  .venue-card > p,
-  .venue-card > dl,
-  .venue-card > article {
-    padding-left: 18px;
-    padding-right: 18px;
-  }
-
-  .venue-card > :last-child {
-    padding-bottom: 18px;
-  }
-
-  .page-toc,
-  .hero-actions,
-  .detail-anchor-nav,
-  .page-toc-nav,
-  .style-grid {
-    scrollbar-width: none;
-  }
-}
-
 /* Lookbook redesign: keep the data model, replace the research-index feel. */
 :root {
   --bg: #f4efe5;
@@ -3222,6 +2560,603 @@ body::before {
     grid-column: auto;
   }
 }
+
+/* Senior UX pass: wide-screen destination board, not a narrow research log. */
+@media (min-width: 1181px) {
+  .page-shell {
+    width: min(1760px, calc(100vw - 32px));
+    padding-top: 24px;
+  }
+
+  .home-hero {
+    min-height: min(780px, calc(100vh - 48px));
+  }
+
+  .hero {
+    padding: clamp(48px, 5vw, 86px);
+  }
+
+  .hero-layout {
+    grid-template-columns: minmax(620px, 0.95fr) minmax(620px, 1.05fr);
+    gap: clamp(44px, 5vw, 92px);
+  }
+
+  .hero h1 {
+    max-width: 8.8ch;
+    font-size: clamp(5.4rem, 8.8vw, 11rem);
+  }
+
+  .hero-look-stack {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+  }
+
+  .hero-look-card {
+    min-height: 270px;
+    transform: none;
+  }
+
+  .hero-look-card:nth-child(1) {
+    grid-row: span 2;
+    min-height: 560px;
+  }
+
+  .hero-look-card:nth-child(2),
+  .hero-look-card:nth-child(3) {
+    transform: none;
+  }
+
+  .hero-look-card img {
+    min-height: 100%;
+  }
+
+  .hero-grid {
+    max-width: none;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .style-grid {
+    grid-template-columns: repeat(7, minmax(190px, 1fr));
+    overflow: visible;
+  }
+
+  .style-card {
+    min-width: 0;
+  }
+
+  .index-layout {
+    grid-template-columns: 300px minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  .index-sidebar {
+    order: -1;
+  }
+
+  .page-toc {
+    top: 16px;
+    max-height: calc(100vh - 32px);
+    overflow: auto;
+  }
+
+  .control-grid {
+    grid-template-columns: minmax(360px, 2fr) repeat(3, minmax(180px, 1fr));
+  }
+
+  .advanced-grid {
+    grid-template-columns: repeat(4, minmax(180px, 1fr));
+  }
+
+  .results-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: clamp(18px, 1.4vw, 28px);
+  }
+
+  .venue-card {
+    min-height: 100%;
+  }
+
+  .card-image,
+  .style-venue-image {
+    aspect-ratio: 16 / 11;
+  }
+
+  .venue-card h2 {
+    font-size: clamp(1.95rem, 2.2vw, 3rem);
+  }
+
+  .metric-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .style-section-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .style-venue-card {
+    display: grid;
+    grid-template-columns: 0.95fr 1.05fr;
+  }
+
+  .style-venue-image {
+    min-height: 100%;
+  }
+
+  .compare-table {
+    min-width: 1180px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .results-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .surface {
+    padding: clamp(34px, 2.6vw, 52px);
+  }
+}
+
+@media (min-width: 1181px) and (max-width: 1450px) {
+  .results-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .hero-layout {
+    grid-template-columns: minmax(500px, 0.95fr) minmax(500px, 1.05fr);
+  }
+}
+
+.style-card-photo {
+  position: relative;
+}
+
+.style-card-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(7, 24, 24, 0.04), rgba(7, 24, 24, 0.74));
+}
+
+.style-card-photo-label {
+  position: absolute;
+  inset: auto 18px 18px;
+  z-index: 1;
+  display: grid;
+  gap: 6px;
+  color: var(--hero-ink);
+}
+
+.style-card-photo-label small {
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.82;
+}
+
+.style-card-photo-label strong {
+  font-family: "Fraunces", serif;
+  font-size: 1.45rem;
+  line-height: 0.95;
+}
+
+.card-chip-row {
+  margin-top: auto;
+}
+
+.venue-card .card-subtitle {
+  display: -webkit-box;
+  min-height: 3.4em;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.venue-card .card-footer {
+  align-items: stretch;
+}
+
+.venue-card .card-footer .subtle {
+  display: flex;
+  align-items: center;
+  max-width: 58%;
+  font-size: 0.86rem;
+}
+
+.photo-first-section .photo-mosaic {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.photo-first-section .gallery-thumb:first-child {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.photo-first-section .gallery-thumb:first-child .gallery-thumb-img {
+  height: 100%;
+}
+
+@media (min-width: 1024px) and (max-width: 1180px) {
+  .page-shell {
+    width: min(100vw - 24px, 100%);
+  }
+
+  .hero-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(390px, 0.85fr);
+    gap: 28px;
+  }
+
+  .hero h1 {
+    font-size: clamp(4.2rem, 8.8vw, 6.8rem);
+  }
+
+  .hero-look-stack {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-look-card,
+  .hero-look-card:nth-child(2),
+  .hero-look-card:nth-child(3) {
+    min-height: 190px;
+    transform: none;
+  }
+
+  .index-layout {
+    grid-template-columns: 240px minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  .index-sidebar {
+    order: -1;
+  }
+
+  .page-toc {
+    position: sticky;
+    top: 12px;
+    padding: 18px;
+  }
+
+  .results-grid,
+  .style-section-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .style-grid {
+    grid-template-columns: repeat(7, minmax(190px, 1fr));
+    overflow-x: auto;
+  }
+
+  .control-grid,
+  .advanced-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .detail-hero-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(340px, 0.78fr);
+  }
+
+  .photo-first-section .photo-mosaic {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1023px) {
+  .photo-first-section .photo-mosaic {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .photo-first-section .gallery-thumb:first-child {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .venue-card .card-footer .subtle {
+    max-width: none;
+  }
+}
+
+/* Flow reset: homepage works as a visual decision journey. */
+.journey-section {
+  padding-top: clamp(30px, 3vw, 52px);
+}
+
+.journey-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.journey-card {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 260px;
+  padding: 24px;
+  overflow: hidden;
+  border-radius: 32px;
+  background:
+    radial-gradient(circle at 78% 14%, rgba(255, 255, 255, 0.34), transparent 24%),
+    linear-gradient(135deg, rgba(18, 63, 61, 0.96), rgba(199, 157, 85, 0.86));
+  color: var(--hero-ink);
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.journey-card:nth-child(2) {
+  background:
+    radial-gradient(circle at 80% 18%, rgba(255, 255, 255, 0.3), transparent 24%),
+    linear-gradient(135deg, #1e5551, #b86f4d);
+}
+
+.journey-card:nth-child(3) {
+  background:
+    radial-gradient(circle at 80% 18%, rgba(255, 255, 255, 0.3), transparent 24%),
+    linear-gradient(135deg, #274d68, #c79d55);
+}
+
+.journey-card:nth-child(4) {
+  background:
+    radial-gradient(circle at 80% 18%, rgba(255, 255, 255, 0.3), transparent 24%),
+    linear-gradient(135deg, #563b2c, #2f7c75);
+}
+
+.journey-card:hover,
+.journey-card:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.journey-index {
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  opacity: 0.72;
+}
+
+.journey-body {
+  display: grid;
+  align-content: end;
+  gap: 12px;
+}
+
+.journey-body strong {
+  font-family: "Fraunces", serif;
+  font-size: clamp(2rem, 3.4vw, 3.6rem);
+  line-height: 0.88;
+}
+
+.journey-body span {
+  max-width: 34ch;
+  color: rgba(255, 247, 232, 0.82);
+  line-height: 1.65;
+}
+
+.journey-card em {
+  width: fit-content;
+  margin-top: 22px;
+  padding: 9px 12px;
+  border-radius: 999px;
+  background: rgba(255, 247, 232, 0.15);
+  font-size: 0.78rem;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.venue-board-section {
+  display: grid;
+  gap: 24px;
+}
+
+.venue-board-section .section-head {
+  margin-bottom: 0;
+}
+
+.venue-board-meta {
+  order: 1;
+  margin-top: 0;
+}
+
+.venue-board-section .results-grid {
+  order: 2;
+  margin-top: 0;
+}
+
+.finder-panel {
+  order: 3;
+  margin-top: 4px;
+  padding: 0;
+  border: 1px solid rgba(18, 63, 61, 0.14);
+  border-radius: 28px;
+  background: rgba(18, 63, 61, 0.055);
+  overflow: hidden;
+}
+
+.finder-summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 20px 24px;
+  font-weight: 900;
+  color: var(--teal);
+}
+
+.finder-summary::-webkit-details-marker {
+  display: none;
+}
+
+.finder-panel > .hint,
+.finder-panel > .control-grid,
+.finder-panel > .advanced-filters,
+.finder-panel > .toggle-grid {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.finder-panel > .control-grid {
+  margin-top: 18px;
+}
+
+.finder-panel > .toggle-grid {
+  margin-bottom: 24px;
+}
+
+.shortlist-link {
+  color: var(--ink);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.shortlist-link:hover,
+.shortlist-link:focus-visible {
+  color: var(--teal);
+  text-decoration: underline;
+}
+
+.shortlist-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.shortlist-card-body {
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+}
+
+.shortlist-card-body h3 {
+  margin-bottom: 0;
+  font-family: "Fraunces", serif;
+  font-size: clamp(1.6rem, 2.2vw, 2.45rem);
+  line-height: 0.95;
+}
+
+.shortlist-hero {
+  position: relative;
+  display: block;
+  min-height: 220px;
+  overflow: hidden;
+  color: var(--hero-ink);
+  text-decoration: none;
+  background: linear-gradient(135deg, var(--teal), var(--gold));
+}
+
+.shortlist-hero img {
+  display: block;
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  transition: transform 240ms ease;
+}
+
+.shortlist-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(7, 24, 24, 0.02), rgba(7, 24, 24, 0.72));
+}
+
+.shortlist-hero span {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1;
+  display: grid;
+  gap: 6px;
+}
+
+.shortlist-hero small {
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.82;
+}
+
+.shortlist-hero strong {
+  font-family: "Fraunces", serif;
+  font-size: clamp(1.7rem, 2.8vw, 2.8rem);
+  line-height: 0.92;
+}
+
+.shortlist-hero:hover img,
+.shortlist-hero:focus-visible img {
+  transform: scale(1.04);
+}
+
+.style-card .summary {
+  display: block;
+}
+
+.style-meta {
+  display: block;
+}
+
+.style-card-examples {
+  display: flex;
+}
+
+.style-card {
+  min-height: 100%;
+}
+
+.style-card-photo .style-card-image {
+  transform: scale(1.01);
+}
+
+@media (min-width: 1181px) {
+  .venue-board-section .results-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .venue-board-section .venue-card:nth-child(1),
+  .venue-board-section .venue-card:nth-child(6),
+  .venue-board-section .venue-card:nth-child(11) {
+    grid-column: span 2;
+  }
+
+  .venue-board-section .venue-card:nth-child(1) .card-image,
+  .venue-board-section .venue-card:nth-child(6) .card-image,
+  .venue-board-section .venue-card:nth-child(11) .card-image {
+    aspect-ratio: 16 / 8;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1180px) {
+  .journey-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .venue-board-section .results-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .journey-grid {
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(260px, 82vw);
+    grid-template-columns: none;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    scroll-snap-type: x proximity;
+  }
+
+  .journey-card {
+    min-height: 230px;
+    scroll-snap-align: start;
+  }
+
+  .finder-panel > .hint,
+  .finder-panel > .control-grid,
+  .finder-panel > .advanced-filters,
+  .finder-panel > .toggle-grid {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
 """
 
 SITE_JS = """(function () {
@@ -3529,7 +3464,6 @@ SITE_JS = """(function () {
     const chips = [
       venue.public_price_anchor_label,
       venue.rain_backup_label,
-      venue.accommodation_label,
       ...venue.style_labels.slice(0, 2),
     ];
     const cover = venue.cover_photo_url
@@ -3547,19 +3481,11 @@ SITE_JS = """(function () {
           <h2>${escapeHtml(venue.name_zh)}</h2>
           <p class="card-subtitle">${escapeHtml(venue.name_en_official)}<br>${escapeHtml(venue.primary_visual_identity)}</p>
         </div>
-        <div class="chip-row">
+        <div class="chip-row card-chip-row">
           ${chips.map((chip) => `<span class="chip">${escapeHtml(chip)}</span>`).join("")}
         </div>
-        <p class="summary">${escapeHtml(venue.best_for[0] || venue.price_summary_text)}</p>
-        <dl class="metric-grid">
-          <div class="metric"><dt>儀式／晚宴</dt><dd>${escapeHtml(venue.capacity_summary)}</dd></div>
-          <div class="metric"><dt>交通感受</dt><dd>${escapeHtml(venue.transport_summary)}</dd></div>
-        </dl>
-        <div class="chip-row">
-          ${venue.decision_fit_labels.map((label) => `<span class="badge">${escapeHtml(label)}</span>`).join("")}
-        </div>
         <div class="card-footer">
-          <span class="subtle">${escapeHtml(venue.price_summary_text)}</span>
+          <span class="subtle">${escapeHtml(venue.capacity_summary)}</span>
           <a class="link-button card-primary-link" href="venues/${escapeHtml(venue.id)}.html">看照片與場地</a>
         </div>
       </article>
@@ -4226,6 +4152,30 @@ def _decision_fit_lines(venue: dict[str, Any], photo_value_key: str) -> list[tup
 
 def _render_shortlist_track(title: str, description: str, entries: list[dict[str, Any]]) -> str:
     items = []
+    lead = entries[0] if entries else None
+    lead_media = ""
+    if lead:
+        if lead.get("cover_photo_url"):
+            lead_media = (
+                '<a class="shortlist-hero" '
+                f'href="venues/{escape(lead["id"])}.html">'
+                f'<img src="{escape(str(lead["cover_photo_url"]))}" alt="{escape(lead["name_zh"])} 婚禮場景" loading="lazy">'
+                '<span>'
+                f'<small>{escape(title)}首選</small>'
+                f'<strong>{escape(lead["name_zh"])}</strong>'
+                "</span>"
+                "</a>"
+            )
+        else:
+            lead_media = (
+                '<a class="shortlist-hero shortlist-hero-fallback" '
+                f'href="venues/{escape(lead["id"])}.html">'
+                '<span>'
+                f'<small>{escape(title)}首選</small>'
+                f'<strong>{escape(lead["name_zh"])}</strong>'
+                "</span>"
+                "</a>"
+            )
     for index, entry in enumerate(entries, start=1):
         status_suffix = ""
         if entry.get("current_status_headline") and entry.get("current_status_label"):
@@ -4234,7 +4184,7 @@ def _render_shortlist_track(title: str, description: str, entries: list[dict[str
             '<li class="shortlist-item">'
             f'<span class="shortlist-index">{index:02d}</span>'
             '<div class="shortlist-item-body">'
-            f"<strong>{escape(entry['name_zh'])}</strong>"
+            f'<a class="shortlist-link" href="venues/{escape(entry["id"])}.html">{escape(entry["name_zh"])}</a>'
             f"<span class=\"subtle\">{escape(entry['public_price_anchor_label'])} / "
             f"{escape(entry['rain_backup_label'])} / {escape(entry['transport_summary'])}"
             f"{escape(status_suffix)}</span>"
@@ -4243,9 +4193,12 @@ def _render_shortlist_track(title: str, description: str, entries: list[dict[str
         )
     return (
         '<article class="shortlist-card">'
+        f"{lead_media}"
+        '<div class="shortlist-card-body">'
         f"<h3>{escape(title)}</h3>"
-        f'<p class="subtle">{escape(description)}</p>'
+        f'<p class="summary">{escape(description)}</p>'
         f'<ol class="shortlist-list">{"".join(items)}</ol>'
+        "</div>"
         "</article>"
     )
 
@@ -4309,8 +4262,8 @@ def _render_shortlist_section(entries: list[dict[str, Any]]) -> str:
     return (
         '<section class="surface" id="shortlist-section">'
         '<div class="section-head">'
-        "<h2>快速初篩路線</h2>"
-        '<p>先用最常見的淘汰條件做第一輪：交通、雨備、桌數與公開入門價。</p>'
+        "<h2>不知道從哪間開始，就走這幾條路線</h2>"
+        '<p>不用先讀全部場地。先用最常見的決策情境切入：交通、雨備、桌數與公開入門價。</p>'
         "</div>"
         f'<div class="shortlist-grid">{cards}</div>'
         "</section>"
@@ -4388,12 +4341,25 @@ def _render_style_nav(entries: list[dict[str, Any]]) -> str:
     cards = []
     for definition in WEDDING_STYLE_DEFINITIONS:
         style_entries = grouped.get(definition["key"], [])
-        cover = (
-            '<div class="style-card-media style-card-tone '
-            f'style-card-tone-{escape(definition["key"])}">'
-            f'<span>{escape(definition["label"])}</span>'
-            "</div>"
-        )
+        cover_entry = next((entry for entry in style_entries if entry.get("cover_photo_url")), None)
+        if cover_entry:
+            cover = (
+                '<div class="style-card-media style-card-photo">'
+                f'<img class="style-card-image" src="{escape(str(cover_entry["cover_photo_url"]))}" '
+                f'alt="{escape(definition["label"])}海島婚禮風格" loading="lazy">'
+                '<span class="style-card-photo-label">'
+                f'<small>{escape(definition["label"])}</small>'
+                f'<strong>{escape(cover_entry["name_zh"])}</strong>'
+                "</span>"
+                "</div>"
+            )
+        else:
+            cover = (
+                '<div class="style-card-media style-card-tone '
+                f'style-card-tone-{escape(definition["key"])}">'
+                f'<span>{escape(definition["label"])}</span>'
+                "</div>"
+            )
         example_items = "".join(
             f"<li>{escape(entry['name_zh'])}</li>"
             for entry in style_entries[:3]
@@ -4506,6 +4472,58 @@ def _render_style_sections(entries: list[dict[str, Any]]) -> str:
             "</section>"
         )
     return "".join(sections)
+
+
+def _render_journey_paths(entries: list[dict[str, Any]]) -> str:
+    visual_count = sum(1 for entry in entries if entry.get("cover_photo_url"))
+    paths = [
+        (
+            "先看畫面",
+            "從教堂、叢林、水台、懸崖、沙灘開始選，不用先懂飯店名稱。",
+            "#style-overview",
+            f"{len(WEDDING_STYLE_DEFINITIONS)} 種風格",
+        ),
+        (
+            "先縮小名單",
+            "如果時間很少，直接用交通、雨備、桌數和預算切出候選組合。",
+            "#shortlist-section",
+            "4 條推薦路線",
+        ),
+        (
+            "直接逛場地",
+            "像逛 lookbook 一樣看全部場地卡；需要時再打開進階篩選。",
+            "#venue-board",
+            f"{len(entries)} 個場地",
+        ),
+        (
+            "只看有照片的",
+            "優先從已整理照片的場地開始，避免被無關縮圖或文件來源干擾。",
+            "#venue-board",
+            f"{visual_count} 個有封面",
+        ),
+    ]
+    cards = []
+    for index, (title, copy, href, meta) in enumerate(paths, start=1):
+        cards.append(
+            '<a class="journey-card" '
+            f'href="{escape(href)}">'
+            f'<span class="journey-index">{index:02d}</span>'
+            '<span class="journey-body">'
+            f'<strong>{escape(title)}</strong>'
+            f'<span>{escape(copy)}</span>'
+            "</span>"
+            f'<em>{escape(meta)}</em>'
+            "</a>"
+        )
+    return (
+        '<section class="surface journey-section" id="journey-section">'
+        '<div class="section-head">'
+        "<h2>先決定你要怎麼挑</h2>"
+        '<p>這個網站不是資料記錄簿。主要流程改成先看畫面與情境，再進場地頁看條件，最後才展開表格與來源。</p>'
+        "</div>"
+        f'<div class="journey-grid">{"".join(cards)}</div>'
+        "</section>"
+    )
 
 
 def _render_compare_rows(entries: list[dict[str, Any]]) -> str:
@@ -4723,7 +4741,6 @@ def _render_card(entry: dict[str, Any]) -> str:
     chips = [
         _badge(entry["public_price_anchor_label"], tone="badge"),
         _badge(entry["rain_backup_label"]),
-        _badge(entry["accommodation_label"]),
         *(_badge(label) for label in entry["style_labels"][:2]),
     ]
     cover = _render_preview_media(
@@ -4741,22 +4758,9 @@ def _render_card(entry: dict[str, Any]) -> str:
         f'<p class="card-subtitle">{escape(entry["name_en_official"])}<br>'
         f'{escape(entry["primary_visual_identity"])}</p>'
         "</div>"
-        f'<div class="chip-row">{"".join(chips)}</div>'
-        f'<p class="summary">{escape(entry["best_for"][0] if entry["best_for"] else entry["price_summary_text"])}</p>'
-        '<dl class="metric-grid">'
-        '<div class="metric"><dt>儀式／晚宴</dt>'
-        f'<dd>{escape(entry["capacity_summary"])}</dd></div>'
-        '<div class="metric"><dt>交通感受</dt>'
-        f'<dd>{escape(entry["transport_summary"])}</dd></div>'
-        "</dl>"
-        '<div class="chip-row">'
-        + "".join(
-            _badge(label, tone="badge")
-            for label in entry["decision_fit_labels"]
-        )
-        + "</div>"
+        f'<div class="chip-row card-chip-row">{"".join(chips)}</div>'
         '<div class="card-footer">'
-        f'<span class="subtle">{escape(entry["price_summary_text"])}</span>'
+        f'<span class="subtle">{escape(entry["capacity_summary"])}</span>'
         f'<a class="link-button card-primary-link" href="venues/{escape(entry["id"])}.html">看照片與場地</a>'
         "</div>"
         "</article>"
@@ -5252,11 +5256,10 @@ def _render_detail_page(
         f'<p class="detail-subtitle">{escape(venue["name_en_official"])}<br>{escape(venue["primary_visual_identity"])}</p>'
         '<nav class="detail-anchor-nav" aria-label="場地檔案快速跳轉">'
         f"{status_nav_link}"
+        '<a class="detail-anchor-link" href="#photo-gallery">照片參考</a>'
         '<a class="detail-anchor-link" href="#decision-summary">決策摘要</a>'
-        '<a class="detail-anchor-link" href="#decision-fit">決策適配</a>'
         '<a class="detail-anchor-link" href="#detail-scan">快速掃描</a>'
         '<a class="detail-anchor-link" href="#price-breakdown">價格條目</a>'
-        '<a class="detail-anchor-link" href="#photo-gallery">照片參考</a>'
         '<a class="detail-anchor-link" href="#restrictions">限制事項</a>'
         "</nav>"
         '<div class="detail-grid">'
@@ -5267,6 +5270,12 @@ def _render_detail_page(
         "</div>"
         "</section>"
         f"{_render_current_status_section(venue)}"
+        '<section class="surface photo-first-section" id="photo-gallery">'
+        '<div class="section-head"><h2>先看場景</h2>'
+        '<p>直接看真實分享、旅客照片與平台頁面，比對儀式感、雨備、晚宴空間和賓客動線；點照片可放大查看。</p></div>'
+        f"{_render_photo_insights(photos, photo_assets_by_entry, source_lookup)}"
+        f"{_render_photo_cards(photos, photo_assets_by_entry, source_lookup)}"
+        "</section>"
         f"{_render_detail_snapshot(venue, str(photo_stats['photo_value_key']))}"
         f"{_render_decision_fit(venue, str(photo_stats['photo_value_key']))}"
         '<section class="surface" id="detail-scan">'
@@ -5343,12 +5352,6 @@ def _render_detail_page(
         f'{escape(venue["operational_constraints_notes"])}</p></div>'
         "</div>"
         "</div>"
-        "</section>"
-        '<section class="surface" id="photo-gallery">'
-        '<div class="section-head"><h2>照片參考</h2>'
-        '<p>直接看真實分享、旅客照片與平台頁面，比對儀式感、雨備、晚宴空間和賓客動線；點照片可放大查看。</p></div>'
-        f"{_render_photo_insights(photos, photo_assets_by_entry, source_lookup)}"
-        f"{_render_photo_cards(photos, photo_assets_by_entry, source_lookup)}"
         "</section>"
         '<section class="surface source-audit-section">'
         '<div class="section-head"><h2>查核來源</h2>'
@@ -5616,9 +5619,9 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         "<h1>先看你想要哪一種海島婚禮畫面</h1>"
         '<p class="lede">把峇里島婚禮拆成教堂、叢林、水台、懸崖、沙灘與室內宴會。首頁先讓你看風格與場景，真的有興趣再進飯店頁看價格、雨備、交通與照片。</p>'
         '<nav class="hero-actions" aria-label="首頁快速跳轉">'
-        '<a class="quick-link" href="#style-overview">先看風格</a>'
-        '<a class="quick-link" href="#card-section">瀏覽場地</a>'
-        '<a class="quick-link" href="#filter-panel">快速篩選</a>'
+        '<a class="quick-link" href="#style-overview">先看婚禮畫面</a>'
+        '<a class="quick-link" href="#shortlist-section">看推薦路線</a>'
+        '<a class="quick-link" href="#venue-board">逛全部場地</a>'
         "</nav>"
         "</div>"
         f"{_render_home_hero_gallery(entries)}"
@@ -5638,14 +5641,27 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         "</div>"
         "</div>"
         "</section>"
+        f"{_render_journey_paths(entries)}"
         f"{_render_style_nav(entries)}"
-        '<div class="index-layout">'
-        '<div class="index-main">'
-        '<section class="surface" id="filter-panel">'
+        f"{_render_shortlist_section(entries)}"
+        '<section class="surface venue-board-section" id="venue-board">'
         '<div class="section-head">'
-        "<h2>找到適合你們的場地</h2>"
-        '<p>搜尋與條件篩選只保留決策需要的項目：區域、風格、人數、雨備、住宿與價格。</p>'
+        "<h2>全部場地畫廊</h2>"
+        '<p>先像看 lookbook 一樣掃過所有場地；真的需要精準條件時，再打開篩選器，不讓表單主導瀏覽體驗。</p>'
         "</div>"
+        '<div class="results-meta venue-board-meta">'
+        '<span id="resultCount">'
+        f"{len(entries)} / {len(entries)} 個場地顯示中"
+        "</span>"
+        f'<span>{escape(", ".join(totals["regions"]))}</span>'
+        "</div>"
+        '<div id="results" class="results-grid">'
+        f"{card_html}"
+        "</div>"
+        '<div id="emptyState" class="empty-state" hidden>目前沒有場地符合這組篩選條件。</div>'
+        '<details class="finder-panel" id="filter-panel">'
+        '<summary class="finder-summary">需要更精準時，再開啟篩選與排序</summary>'
+        '<p class="hint">篩選器是輔助工具，不再是首頁第一屏的主角。</p>'
         '<div class="control-grid">'
         '<div class="control"><label for="searchInput">搜尋</label>'
         '<input id="searchInput" type="search" placeholder="可搜飯店名稱、區域、場地類型與適合對象"></div>'
@@ -5674,20 +5690,7 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         '<label class="toggle-chip" for="microFilter"><input id="microFilter" type="checkbox">只看適合小型婚禮</label>'
         "</div>"
         "</details>"
-        '<div class="results-meta">'
-        '<span id="resultCount">'
-        f"{len(entries)} / {len(entries)} 個場地顯示中"
-        "</span>"
-        f'<span>{escape(", ".join(totals["regions"]))}</span>'
-        "</div>"
-        '</section>'
-        '<section class="surface" id="card-section">'
-        '<div class="section-head"><h2>場地瀏覽</h2>'
-        '<p>每張卡片只保留畫面感、適合對象與關鍵條件；點進去再看完整照片與決策細節。</p></div>'
-        '<div id="results" class="results-grid">'
-        f"{card_html}"
-        "</div>"
-        '<div id="emptyState" class="empty-state" hidden>目前沒有場地符合這組篩選條件。</div>'
+        "</details>"
         "</section>"
         f"{_render_style_sections(entries)}"
         '<details class="surface compare-disclosure" id="compare-section">'
@@ -5698,11 +5701,6 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         f"{compare_rows}"
         '</tbody></table></div>'
         "</details>"
-        "</div>"
-        '<aside class="index-sidebar">'
-        f"{_render_index_toc(entries)}"
-        "</aside>"
-        "</div>"
         f'<script id="venue-data" type="application/json">{_safe_json(entries)}</script>'
         '<script src="assets/site.js"></script>'
         "</main>"

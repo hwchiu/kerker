@@ -1,0 +1,152 @@
+[
+  {
+    "source_id": "ayana-bali-vogue-rei-matthew-wedding",
+    "venue_id": "ayana-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Vogue｜Rei Kawano 與 Matthew Yoder 的 AYANA Bali 花園婚禮",
+    "source_url": "https://www.vogue.com/slideshow/rei-kawano-and-matthew-yoder-wedding",
+    "captured_at": "2026-07-11",
+    "content_date_if_known": "2023-03-27",
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "capacity",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "High-quality editorial real-wedding feature; useful for visual flow, cultural program, AYANA Villa preparation, private pier welcome dinner, and Champa Garden reception context.",
+    "raw_excerpt_summary": "Vogue 記錄一場 2022 年 9 月在 AYANA Bali 舉辦的目的地婚禮，包含 Uluwatu Temple 清晨祝福、玻璃屋茶禮、私人碼頭歡迎晚宴、AYANA Villa 梳化準備，以及 Champa Garden 的花園晚宴。"
+  },
+  {
+    "source_id": "ayana-bali-vogue-destination-weddings-roundup",
+    "venue_id": "ayana-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Vogue｜Best Destination Weddings 中的 AYANA Bali 案例",
+    "source_url": "https://www.vogue.com/article/best-destination-weddings-in-vogue",
+    "captured_at": "2026-07-11",
+    "content_date_if_known": "2023-11-01",
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "transport",
+      "accommodation"
+    ],
+    "reliability_notes": "Editorial roundup that re-contextualizes the AYANA wedding as a destination-wedding reference; not a contractual venue source.",
+    "raw_excerpt_summary": "Vogue 的目的地婚禮精選將 AYANA Bali 案例放進全球 destination wedding 脈絡，特別提到印度洋碼頭歡迎晚宴與 Champa Garden 花園婚禮。"
+  },
+  {
+    "source_id": "ayana-bali-vogue-dreamiest-pools",
+    "venue_id": "ayana-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Vogue｜The 12 Dreamiest Pools in Bali - AYANA Resort & Spa",
+    "source_url": "https://www.vogue.com/article/most-beautiful-pools-in-bali",
+    "captured_at": "2026-07-11",
+    "content_date_if_known": "2017-04-30",
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Travel editorial source for estate-scale visual atmosphere and pool landscape; not wedding-package evidence.",
+    "raw_excerpt_summary": "Vogue 將 AYANA 放入峇里島夢幻泳池清單，描述其大型度假村尺度、Ocean Beach saltwater infinity pool 與 River Pool 的強烈視覺辨識度。"
+  },
+  {
+    "source_id": "hanging-gardens-of-bali-vogue-dreamiest-pools",
+    "venue_id": "hanging-gardens-of-bali",
+    "source_type": "editorial_case_study",
+    "source_name": "Vogue｜The 12 Dreamiest Pools in Bali - Hanging Gardens of Bali",
+    "source_url": "https://www.vogue.com/article/most-beautiful-pools-in-bali",
+    "captured_at": "2026-07-11",
+    "content_date_if_known": "2017-04-30",
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Travel editorial source supporting the resort's jungle-pool visual identity; not wedding pricing or capacity evidence.",
+    "raw_excerpt_summary": "Vogue 描述 Hanging Gardens of Bali 的雙層無邊泳池懸浮在 Ubud / Ayung 河谷叢林之上，可補強叢林婚禮視覺與住宿氛圍判斷。"
+  },
+  {
+    "source_id": "four-seasons-jimbaran-vogue-dreamiest-pools",
+    "venue_id": "four-seasons-resort-bali-at-jimbaran-bay",
+    "source_type": "editorial_case_study",
+    "source_name": "Vogue｜The 12 Dreamiest Pools in Bali - Four Seasons Jimbaran Bay",
+    "source_url": "https://www.vogue.com/article/most-beautiful-pools-in-bali",
+    "captured_at": "2026-07-11",
+    "content_date_if_known": "2017-04-30",
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Travel editorial source for beachfront resort atmosphere and Sundara-side guest experience; not a wedding-package source.",
+    "raw_excerpt_summary": "Vogue 提到 Four Seasons Jimbaran Bay 的海濱長泳池與 villa private pool 視覺，適合補充海灘別墅型婚禮的度假感判斷。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-vogue-dreamiest-pools",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "editorial_case_study",
+    "source_name": "Vogue｜The 12 Dreamiest Pools in Bali - Alila Villas Uluwatu",
+    "source_url": "https://www.vogue.com/article/most-beautiful-pools-in-bali",
+    "captured_at": "2026-07-11",
+    "content_date_if_known": "2017-04-30",
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation"
+    ],
+    "reliability_notes": "Travel editorial source for cliffside design atmosphere; useful as visual-context evidence only.",
+    "raw_excerpt_summary": "Vogue 描述 Alila Villas Uluwatu 位於南部海岸懸崖，50 米泳池在海浪上方數百英尺，能補強懸崖設計型婚禮的場景感。"
+  },
+  {
+    "source_id": "alila-villas-uluwatu-times-review-2025",
+    "venue_id": "alila-villas-uluwatu",
+    "source_type": "editorial_case_study",
+    "source_name": "The Times｜Alila Villas Uluwatu hotel review",
+    "source_url": "https://www.thetimes.co.uk/article/alila-villas-uluwatu-bali-hotel-review-pftq30hhd",
+    "captured_at": "2026-07-11",
+    "content_date_if_known": "2025-07-09",
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Recent travel review; useful for guest-stay atmosphere, cliffside design, beach-access friction, and Uluwatu location context. Not wedding-package evidence.",
+    "raw_excerpt_summary": "The Times 2025 評測補充 Alila 的現代懸崖建築、villa private pool、Sunset Cabana Bar、下海灘需走階梯、鄰近 Uluwatu Temple 與 Padang Padang 的動線資訊。"
+  },
+  {
+    "source_id": "four-seasons-sayan-times-review-2024",
+    "venue_id": "four-seasons-resort-bali-at-sayan",
+    "source_type": "editorial_case_study",
+    "source_name": "The Times｜Four Seasons Resort Bali at Sayan review",
+    "source_url": "https://www.thetimes.co.uk/article/four-seasons-resort-bali-at-sayan-review-20fshtm5l",
+    "captured_at": "2026-07-11",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Travel review source for arrival bridge, valley setting, spa, villas, and Ubud activity context; not wedding-package evidence.",
+    "raw_excerpt_summary": "The Times 對 Four Seasons Sayan 的評測可補充橋上抵達、河谷平台、套房與 villas、Sacred River Spa、Ayung River 活動等賓客體驗。"
+  },
+  {
+    "source_id": "mandapa-vogue-spa-guide-2026",
+    "venue_id": "mandapa-a-ritz-carlton-reserve",
+    "source_type": "editorial_case_study",
+    "source_name": "Vogue｜Mandapa Spa at Mandapa, a Ritz-Carlton Reserve",
+    "source_url": "https://www.vogue.com/article/mandapa-spa-at-mandapa-a-ritz-carlton-reserve",
+    "captured_at": "2026-07-11",
+    "content_date_if_known": "2026-04-23",
+    "language": "en",
+    "evidence_categories": [
+      "photos",
+      "accommodation",
+      "transport"
+    ],
+    "reliability_notes": "Current 2026 Vogue spa-guide entry; useful for Mandapa's Ubud river-valley atmosphere, wellness programming, and guest-experience context. Not wedding pricing evidence.",
+    "raw_excerpt_summary": "Vogue 2026 spa guide 描述 Mandapa 位於 Ubud Ayung River 叢林河谷，提供 wellness programming、river-side spa、local healing ritual 與 zero-waste dining 脈絡。"
+  }
+]

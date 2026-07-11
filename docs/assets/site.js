@@ -303,7 +303,6 @@
     const chips = [
       venue.public_price_anchor_label,
       venue.rain_backup_label,
-      venue.accommodation_label,
       ...venue.style_labels.slice(0, 2),
     ];
     const cover = venue.cover_photo_url
@@ -321,19 +320,11 @@
           <h2>${escapeHtml(venue.name_zh)}</h2>
           <p class="card-subtitle">${escapeHtml(venue.name_en_official)}<br>${escapeHtml(venue.primary_visual_identity)}</p>
         </div>
-        <div class="chip-row">
+        <div class="chip-row card-chip-row">
           ${chips.map((chip) => `<span class="chip">${escapeHtml(chip)}</span>`).join("")}
         </div>
-        <p class="summary">${escapeHtml(venue.best_for[0] || venue.price_summary_text)}</p>
-        <dl class="metric-grid">
-          <div class="metric"><dt>儀式／晚宴</dt><dd>${escapeHtml(venue.capacity_summary)}</dd></div>
-          <div class="metric"><dt>交通感受</dt><dd>${escapeHtml(venue.transport_summary)}</dd></div>
-        </dl>
-        <div class="chip-row">
-          ${venue.decision_fit_labels.map((label) => `<span class="badge">${escapeHtml(label)}</span>`).join("")}
-        </div>
         <div class="card-footer">
-          <span class="subtle">${escapeHtml(venue.price_summary_text)}</span>
+          <span class="subtle">${escapeHtml(venue.capacity_summary)}</span>
           <a class="link-button card-primary-link" href="venues/${escapeHtml(venue.id)}.html">看照片與場地</a>
         </div>
       </article>
