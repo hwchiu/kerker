@@ -64,6 +64,13 @@ SKIP_IMAGE_KEYWORDS = {
 }
 
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
+EXCLUDED_SITE_ASSET_FILENAMES = {
+    # Detail/prep shots are not useful for deciding venue style.
+    "alila-villas-uluwatu-balifortwo-charles-stella-01.webp",
+    "bvlgari-balifortwo-jeffrey-mag-01.webp",
+    "conrad-bali-balifortwo-kaedi-dylan-01.jpg",
+    "hilton-bali-resort-balifortwo-jess-henning-01.webp",
+}
 SUPPORTED_PAGE_HOSTS = {
     "hk.trip.com",
     "hotels.ctrip.com",
@@ -654,6 +661,8 @@ def copy_photo_assets_for_site(root: Path, output_dir: Path) -> dict[str, list[s
             try:
                 relative_inside_assets = source_path.relative_to(photo_assets_root)
             except ValueError:
+                continue
+            if source_path.name in EXCLUDED_SITE_ASSET_FILENAMES:
                 continue
             target_path = site_assets_root / relative_inside_assets
             if source_path.exists() and not _is_venue_photo(source_path.read_bytes()):

@@ -3874,6 +3874,29 @@ ACCOMMODATION_RANKS = {
 }
 
 HIDDEN_PHOTO_IMAGE_TYPES = {"official_hotel_gallery", "official_wedding_gallery"}
+DISPLAY_VENUE_SCENE_TAGS = {
+    "ballroom-reception",
+    "beach-ceremony",
+    "chapel-exterior",
+    "chapel-interior",
+    "cliffside-ceremony",
+    "entrance-procession",
+    "floral-setup",
+    "garden-reception",
+    "guest-seating",
+    "jungle-view",
+    "night-view",
+    "rain-backup-space",
+    "water-platform",
+}
+NON_VENUE_SCENE_TAGS = {"room", "public-area", "arrival-flow"}
+EXCLUDED_PHOTO_ASSET_FILENAMES = {
+    # Detail/prep shots stay in the archive, but never in the venue lookbook UI.
+    "alila-villas-uluwatu-balifortwo-charles-stella-01.webp",
+    "bvlgari-balifortwo-jeffrey-mag-01.webp",
+    "conrad-bali-balifortwo-kaedi-dylan-01.jpg",
+    "hilton-bali-resort-balifortwo-jess-henning-01.webp",
+}
 PHOTO_DECISION_RANKS = {"high": 0, "medium": 1, "low": 2}
 PHOTO_IMAGE_TYPE_RANKS = {
     "real_wedding_feature": 0,
@@ -4147,7 +4170,16 @@ def _is_visible_photo_entry(
     if entry["authenticity"] == "official_promotional":
         return False
     source = source_lookup.get(entry["source_id"], {})
-    return source.get("source_type") != "official"
+    if source.get("source_type") == "official":
+        return False
+    scene_tags = set(entry.get("scene_tags", []))
+    if not scene_tags & DISPLAY_VENUE_SCENE_TAGS:
+        return False
+    if "room" in scene_tags:
+        return False
+    if scene_tags and scene_tags.issubset(NON_VENUE_SCENE_TAGS):
+        return False
+    return True
 
 
 def _decision_fit_labels(venue: dict[str, Any]) -> list[str]:
@@ -4880,11 +4912,17 @@ def _photo_preview_urls(
     entry: dict[str, Any],
     photo_assets_by_entry: dict[str, list[str]],
 ) -> list[str]:
-    preview_urls = photo_assets_by_entry.get(entry["photo_entry_id"], [])
+    preview_urls = [
+        url
+        for url in photo_assets_by_entry.get(entry["photo_entry_id"], [])
+        if Path(urlparse(url).path).name not in EXCLUDED_PHOTO_ASSET_FILENAMES
+    ]
     if preview_urls:
         return preview_urls
     fallback = entry["image_url_or_gallery_url"]
     if _looks_like_image_url(fallback):
+        if Path(urlparse(fallback).path).name in EXCLUDED_PHOTO_ASSET_FILENAMES:
+            return []
         return [fallback]
     return []
 
@@ -4906,19 +4944,13 @@ def _sort_photo_entries(
         # Priority 1 = has good tag but also has room/arrival (bulk-tagged XHS posts)
         # Priority 2 = only floral/night/public-area — decorative but not venue
         # Priority 3 = only room/public-area/arrival-flow — non-venue
-        GOOD_VENUE_TAGS = {
-            "cliffside-ceremony", "garden-reception", "beach-ceremony",
-            "chapel-exterior", "chapel-interior", "water-platform",
-            "ballroom-reception", "entrance-procession",
-        }
-        BAD_TAGS = {"room", "public-area", "arrival-flow"}
-        has_good = bool(scene_tags & GOOD_VENUE_TAGS)
-        has_bad = bool(scene_tags & BAD_TAGS)
+        has_good = bool(scene_tags & DISPLAY_VENUE_SCENE_TAGS)
+        has_bad = bool(scene_tags & NON_VENUE_SCENE_TAGS)
         if has_good and not has_bad:
             venue_priority = 0
         elif has_good and has_bad:
             venue_priority = 1
-        elif scene_tags and scene_tags.issubset(BAD_TAGS):
+        elif scene_tags and scene_tags.issubset(NON_VENUE_SCENE_TAGS):
             venue_priority = 3
         else:
             venue_priority = 2
