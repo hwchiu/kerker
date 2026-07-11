@@ -40,8 +40,11 @@ def build_derived_venue_entry(
     }
 
 
-def build_derived_indexes(root: Path) -> dict[str, list[dict[str, Any]]]:
-    venues, _, photos = load_workspace_records(root)
+def build_derived_indexes(
+    root: Path,
+    destination_id: str | None = None,
+) -> dict[str, list[dict[str, Any]]]:
+    venues, _, photos = load_workspace_records(root, destination_id)
     photos_by_venue: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for photo in photos:
         photos_by_venue[photo["venue_id"]].append(photo)
@@ -63,9 +66,9 @@ def build_derived_indexes(root: Path) -> dict[str, list[dict[str, Any]]]:
     return {"venues": derived_venues, "open_questions": open_questions}
 
 
-def write_derived_indexes(root: Path) -> list[Path]:
-    paths = workspace_paths(root)
-    derived = build_derived_indexes(root)
+def write_derived_indexes(root: Path, destination_id: str | None = None) -> list[Path]:
+    paths = workspace_paths(root, destination_id)
+    derived = build_derived_indexes(root, destination_id)
     generated_at = date.today().isoformat()
 
     venues_path = paths["derived"] / "venues-index.json"

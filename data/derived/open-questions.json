@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-06-19",
+  "generated_at": "2026-07-11",
   "items": [
+    {
+      "venue_id": "airis-luxury-villas",
+      "name_zh": "艾瑞斯奢华别墅",
+      "name_en_official": "Airis Luxury Villas",
+      "open_questions": [
+        "Exact physical address and precise location relative to other venues",
+        "Complete pricing structure and package options",
+        "Rain backup plan and indoor alternatives",
+        "External vendor policies (decoration, catering, music, photographers)",
+        "Drone photography policies",
+        "Official website or booking platform",
+        "Day-of coordination and planning requirements"
+      ]
+    },
     {
       "venue_id": "alila-villas-uluwatu",
       "name_zh": "阿麗拉烏魯瓦圖別墅",
@@ -18,7 +32,8 @@
       "open_questions": [
         "確認 Tresna、KISIK 和 Asmara 等小型儀式專用形式的當前官方定價。",
         "確認外部供應商審批費用、開瓶費和更新的 AV 政策。",
-        "確認最新的戶外音樂宵禁和最佳的莊園內派對替代方案。"
+        "確認最新的戶外音樂宵禁和最佳的莊園內派對替代方案。",
+        "確認外部花藝師與樂隊的審批流程及額外費用"
       ]
     },
     {
@@ -92,13 +107,25 @@
       ]
     },
     {
+      "venue_id": "pandawa-cliff-estate",
+      "name_zh": "潘達瓦懸崖莊園",
+      "name_en_official": "Pandawa Cliff Estate",
+      "open_questions": [
+        "確認 Pandawa 的實際地址和聯繫方式",
+        "確認為晚宴設置提供的具體定制選項",
+        "確認雨天備用計畫和天氣相關的取消政策",
+        "確認外部供應商政策和額外費用"
+      ]
+    },
+    {
       "venue_id": "six-senses-uluwatu-bali",
       "name_zh": "峇里島烏魯瓦圖六善酒店",
       "name_en_official": "Six Senses Uluwatu, Bali",
       "open_questions": [
         "確認目前重新開放的時間表以及您的目標期間是否接受婚禮。",
         "改造工作完成後，確認目前的外部供應商和生產規則。",
-        "確認哪些場地組合可以在不進行更廣泛買斷的情況下為 100 名以上賓客舉辦儀式和晚宴。"
+        "確認哪些場地組合可以在不進行更廣泛買斷的情況下為 100 名以上賓客舉辦儀式和晚宴。",
+        "確認官方婚禮頁公開上限與 Grand Destiny / Owner's Villa 方案頁之間的大型容量差異，目前是否仍成立。"
       ]
     },
     {
@@ -116,9 +143,10 @@
       "name_zh": "峇里島 The Edge 懸崖別墅",
       "name_en_official": "The Edge Bali",
       "open_questions": [
-        "確認每個套餐系列的正式防雨計劃，尤其是 The Sky 和 ​​The Edge Wedding。",
+        "確認每個套餐系列的正式防雨計劃，尤其是 The Sky 和 The Edge Wedding。",
         "確認當前的音樂、無人機和外部供應商規則以及任何深夜限制。",
-        "確認莊園目前別墅組合的最新有效隔夜睡眠容量。"
+        "確認莊園目前別墅組合的最新有效隔夜睡眠容量。",
+        "確認官方頁公開上限與婚顧 package page 提到的 200 至 250 位 celebration 差異，目前是否仍成立。"
       ]
     },
     {

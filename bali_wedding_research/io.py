@@ -53,9 +53,10 @@ def _index_unique_records(
 
 def load_workspace_records(
     root: Path,
+    destination_id: str | None = None,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
-    ensure_workspace_layout(root)
-    paths = workspace_paths(root)
+    ensure_workspace_layout(root, destination_id)
+    paths = workspace_paths(root, destination_id)
     venues = load_validated_records(paths["venues"], validate_venue_record)
     sources = load_validated_records(paths["sources"], validate_source_record)
     photos = load_validated_records(paths["photos"], validate_photo_record)
@@ -113,8 +114,8 @@ def load_workspace_records(
     return venues, sources, photos
 
 
-def validate_workspace(root: Path) -> dict[str, int]:
-    venues, sources, photos = load_workspace_records(root)
+def validate_workspace(root: Path, destination_id: str | None = None) -> dict[str, int]:
+    venues, sources, photos = load_workspace_records(root, destination_id)
     return {
         "venues": len(venues),
         "sources": len(sources),

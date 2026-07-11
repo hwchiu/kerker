@@ -152,19 +152,26 @@ class CliTest(unittest.TestCase):
             self.assertEqual(
                 stdout.splitlines(),
                 [
-                    str(docs_root / "index.html"),
-                    str(docs_root / "assets" / "site.css"),
-                    str(docs_root / "assets" / "site.js"),
-                    str(docs_root / "venues" / "example-cliffside-resort.html"),
+                    str(docs_root / "bali" / "index.html"),
+                    str(docs_root / "bali" / "assets" / "site.css"),
+                    str(docs_root / "bali" / "assets" / "site.js"),
+                    str(docs_root / "bali" / "venues" / "example-cliffside-resort.html"),
+                    str(docs_root / "maldives" / "index.html"),
+                    str(docs_root / "maldives" / "assets" / "site.css"),
+                    str(docs_root / "maldives" / "assets" / "site.js"),
                     str(docs_root / ".nojekyll"),
+                    str(docs_root / "index.html"),
                     str(docs_root / "docs" / "index.html"),
                     str(docs_root / "docs" / "venues" / "example-cliffside-resort.html"),
+                    str(docs_root / "venues" / "example-cliffside-resort.html"),
                     str(root / "index.html"),
                     str(root / ".nojekyll"),
                 ],
             )
             self.assertEqual(stderr, "")
             self.assertTrue((docs_root / "index.html").exists())
+            self.assertTrue((docs_root / "bali" / "index.html").exists())
+            self.assertTrue((docs_root / "maldives" / "index.html").exists())
             self.assertTrue((docs_root / ".nojekyll").exists())
             self.assertTrue((docs_root / "docs" / "index.html").exists())
             self.assertTrue((docs_root / "docs" / "venues" / "example-cliffside-resort.html").exists())

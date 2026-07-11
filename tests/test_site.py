@@ -113,29 +113,29 @@ class StaticSiteTest(unittest.TestCase):
             self.assertIn("依場地類型開始挑", index_html)
             self.assertIn('href="#style-chapel"', index_html)
             self.assertIn("教堂", index_html)
-            self.assertIn("公開價格已統一換算為台幣", index_html)
             self.assertIn("公開方案約 NT$269,068 起", index_html)
             self.assertNotIn("Public ceremony package starts at USD 8,500", index_html)
-            self.assertIn("全部場地比較", index_html)
-            self.assertIn("交叉篩選飯店", index_html)
+            self.assertIn("全部場地畫廊", index_html)
+            self.assertIn("需要更精準時，再開啟篩選與排序", index_html)
             self.assertIn("sortSelect", index_html)
             self.assertNotIn("近期營運現況", index_html)
-            self.assertLess(index_html.index("場地卡片"), index_html.index('id="style-chapel"'))
+            self.assertLess(index_html.index("全部場地畫廊"), index_html.index('id="style-chapel"'))
             self.assertIn("Example Cliffside Weddings", detail_html)
-            self.assertIn("https://example.com/cliffside/gallery/1", detail_html)
+            self.assertIn('data-lightbox-image="https://example.com/images/1.jpg"', detail_html)
             self.assertIn("Confirm corkage fees for external alcohol", detail_html)
             self.assertIn("決策摘要", detail_html)
             self.assertIn("決策適配", detail_html)
             self.assertIn("相近替代場地", detail_html)
             self.assertIn("Example Garden Resort", detail_html)
-            self.assertIn('class="gallery-preview"', detail_html)
+            self.assertIn('class="photo-mosaic"', detail_html)
+            self.assertIn('class="gallery-thumb"', detail_html)
             self.assertIn('data-lightbox-image="https://example.com/images/1.jpg"', detail_html)
             self.assertIn('data-lightbox-group="venue-gallery"', detail_html)
             self.assertIn('id="photoLightbox"', detail_html)
             self.assertIn('data-lightbox-target="status"', detail_html)
             self.assertIn('src="https://example.com/images/1.jpg"', detail_html)
-            self.assertIn('class="photo-gallery-details"', detail_html)
-            self.assertIn("來源：Example Cliffside Weddings", detail_html)
+            self.assertIn('class="gallery-thumb-badge"', detail_html)
+            self.assertIn("來源 Example Cliffside Weddings", detail_html)
             self.assertIn("NT$269,068", detail_html)
             self.assertIn("NT$461,500", detail_html)
             self.assertIn("約原幣 USD 8,500", detail_html)
@@ -205,16 +205,16 @@ class StaticSiteTest(unittest.TestCase):
             site_js = (output_dir / "assets" / "site.js").read_text(encoding="utf-8")
 
             self.assertIn('class="hero-layout"', index_html)
-            self.assertIn('class="hero-panel"', index_html)
+            self.assertIn('class="hero-panel hero-panel-visual"', index_html)
             self.assertIn('class="style-card-count"', index_html)
-            self.assertIn('class="style-card-media"', index_html)
+            self.assertIn('class="style-card-media style-card-photo"', index_html)
             self.assertIn('class="compare-row"', index_html)
             self.assertIn('class="compare-detail-link"', index_html)
             self.assertIn('class="detail-anchor-nav"', detail_html)
             self.assertIn('href="#decision-summary"', detail_html)
             self.assertIn('id="photo-gallery"', detail_html)
-            self.assertIn('class="photo-gallery-grid"', detail_html)
-            self.assertIn('class="photo-gallery-summary"', detail_html)
+            self.assertIn('class="photo-mosaic"', detail_html)
+            self.assertIn('class="gallery-thumb"', detail_html)
             self.assertIn('class="gallery-preview-hint"', detail_html)
             self.assertIn('data-lightbox-target="meta"', detail_html)
             self.assertIn('data-lightbox-target="hint"', detail_html)
@@ -224,8 +224,8 @@ class StaticSiteTest(unittest.TestCase):
             self.assertIn(".style-card-media", site_css)
             self.assertIn(".compare-row", site_css)
             self.assertIn(".detail-anchor-nav", site_css)
-            self.assertIn(".photo-gallery-grid", site_css)
-            self.assertIn(".photo-gallery-details", site_css)
+            self.assertIn(".photo-mosaic", site_css)
+            self.assertIn(".gallery-thumb-badge", site_css)
             self.assertIn(".gallery-preview-hint", site_css)
             self.assertIn("touchstart", site_js)
             self.assertIn("touchend", site_js)
@@ -247,9 +247,9 @@ class StaticSiteTest(unittest.TestCase):
                 output_dir / "venues" / "example-cliffside-resort.html"
             ).read_text(encoding="utf-8")
 
-            self.assertIn("gallery-preview-fallback", detail_html)
-            self.assertIn("開啟來源相簿", detail_html)
-            self.assertIn("目前缺少本地快取圖", detail_html)
+            self.assertIn("gallery-fallback-sources", detail_html)
+            self.assertIn("點擊直接開啟相簿", detail_html)
+            self.assertIn("gallery-fallback-link", detail_html)
 
     def test_write_static_site_surfaces_preview_links_on_index_without_cached_images(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -285,19 +285,15 @@ class StaticSiteTest(unittest.TestCase):
             site_css = (output_dir / "assets" / "site.css").read_text(encoding="utf-8")
             site_js = (output_dir / "assets" / "site.js").read_text(encoding="utf-8")
 
-            self.assertIn('class="surface page-toc"', index_html)
-            self.assertIn('class="index-sidebar"', index_html)
-            self.assertIn('id="tocCurrentLabel"', index_html)
-            self.assertIn('data-section-link="style-chapel"', index_html)
-            self.assertIn('aria-label="首頁內容目錄"', index_html)
-            self.assertIn("右側類型導覽", index_html)
-            self.assertIn(".page-toc", site_css)
-            self.assertIn(".index-layout", site_css)
-            self.assertIn(".page-toc-link.is-active", site_css)
-            self.assertIn(".toc-current", site_css)
+            self.assertIn('id="journey-section"', index_html)
+            self.assertIn('id="style-overview"', index_html)
+            self.assertIn('id="shortlist-section"', index_html)
+            self.assertIn('id="venue-board"', index_html)
+            self.assertIn("這個網站不是資料記錄簿", index_html)
+            self.assertIn(".journey-grid", site_css)
+            self.assertIn(".shortlist-grid", site_css)
+            self.assertIn(".venue-board-section", site_css)
             self.assertIn("IntersectionObserver", site_js)
-            self.assertIn("tocCurrentLabel", site_js)
-            self.assertIn("data-section-link", site_js)
 
     def test_write_static_site_renders_current_status_alerts(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -513,27 +509,38 @@ class StaticSiteTest(unittest.TestCase):
             self.assertEqual(
                 written,
                 [
-                    docs_dir / "index.html",
-                    docs_dir / "assets" / "site.css",
-                    docs_dir / "assets" / "site.js",
-                    docs_dir / "venues" / "example-cliffside-resort.html",
+                    docs_dir / "bali" / "index.html",
+                    docs_dir / "bali" / "assets" / "site.css",
+                    docs_dir / "bali" / "assets" / "site.js",
+                    docs_dir / "bali" / "venues" / "example-cliffside-resort.html",
+                    docs_dir / "maldives" / "index.html",
+                    docs_dir / "maldives" / "assets" / "site.css",
+                    docs_dir / "maldives" / "assets" / "site.js",
                     docs_dir / ".nojekyll",
+                    docs_dir / "index.html",
                     docs_dir / "docs" / "index.html",
                     docs_dir / "docs" / "venues" / "example-cliffside-resort.html",
+                    docs_dir / "venues" / "example-cliffside-resort.html",
                     root / "index.html",
                     root / ".nojekyll",
                 ],
             )
             docs_index = (docs_dir / "index.html").read_text(encoding="utf-8")
+            bali_index = (docs_dir / "bali" / "index.html").read_text(encoding="utf-8")
+            maldives_index = (docs_dir / "maldives" / "index.html").read_text(encoding="utf-8")
             legacy_docs_index = (docs_dir / "docs" / "index.html").read_text(encoding="utf-8")
             legacy_venue_index = (
                 docs_dir / "docs" / "venues" / "example-cliffside-resort.html"
             ).read_text(encoding="utf-8")
             root_index = (root / "index.html").read_text(encoding="utf-8")
 
-            self.assertIn("範例懸崖度假村", docs_index)
+            self.assertIn("海島婚禮目的地入口", docs_index)
+            self.assertIn('href="bali/"', docs_index)
+            self.assertIn('href="maldives/"', docs_index)
+            self.assertIn("範例懸崖度假村", bali_index)
+            self.assertIn("馬爾地夫婚禮飯店索引", maldives_index)
             self.assertIn('content="0; url=../"', legacy_docs_index)
-            self.assertIn('content="0; url=../../venues/example-cliffside-resort.html"', legacy_venue_index)
+            self.assertIn('content="0; url=../../bali/venues/example-cliffside-resort.html"', legacy_venue_index)
             self.assertIn("window.location.pathname.endsWith", root_index)
             self.assertIn('window.location.replace(`${basePath}docs/`)', root_index)
             self.assertIn('href="docs/"', root_index)

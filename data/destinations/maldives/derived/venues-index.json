@@ -1,0 +1,307 @@
+{
+  "generated_at": "2026-07-11",
+  "venues": [
+    {
+      "id": "fs-landaa-giraavaru",
+      "name_zh": "蘭達吉拉瓦魯四季度假村",
+      "name_en_official": "Four Seasons Resort Maldives at Landaa Giraavaru",
+      "region": "Baa Atoll",
+      "venue_types": [
+        "water-platform",
+        "beach",
+        "garden",
+        "jungle"
+      ],
+      "recommended_guest_size_band": "21-50",
+      "pricing_status": "quote_required",
+      "price_band_normalized": null,
+      "price_summary_text": "官方婚禮頁展示場景與套裝方向，但未公開可直接比較的完整婚禮價格。",
+      "rain_backup_status": "medium",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "medium",
+      "best_for": [
+        "想要水上亭儀式但仍保留白沙灘與島嶼綠意選項",
+        "重視 Four Seasons 服務與私密島嶼感",
+        "21-50 人左右的精緻海外婚禮"
+      ],
+      "not_ideal_for": [
+        "需要完整公開價格再比較的人",
+        "不想搭水上飛機的長輩團",
+        "大型百人以上婚宴"
+      ],
+      "key_strengths": [
+        "水上亭、白沙灘、島嶼綠意三種馬爾地夫代表場景同島可選",
+        "官方婚禮頁與場地頁仍在線",
+        "住宿與活動集中，一站式程度高"
+      ],
+      "key_risks": [
+        "公開價格不足",
+        "水上飛機受天候與日照時間限制",
+        "大型雨備與外部廠商政策需確認"
+      ],
+      "open_questions": [
+        "確認 Wedding Pavilion、Blu Beach 與 jungle clearing 的實際儀式/晚宴容量。",
+        "索取 2026-2027 婚禮套裝價格與雨備 SOP。"
+      ],
+      "source_count": 3,
+      "photo_count": 1,
+      "photo_coverage_ceremony": "medium",
+      "photo_coverage_reception": "unknown",
+      "photo_coverage_rain_backup": "unknown",
+      "photo_coverage_accommodation": "unknown",
+      "photo_reference_value_overall": "medium"
+    },
+    {
+      "id": "fs-kuda-huraa",
+      "name_zh": "庫達呼拉四季度假村",
+      "name_en_official": "Four Seasons Resort Maldives at Kuda Huraa",
+      "region": "North Male Atoll",
+      "venue_types": [
+        "water-platform",
+        "beach",
+        "garden"
+      ],
+      "recommended_guest_size_band": "21-50",
+      "pricing_status": "quote_required",
+      "price_band_normalized": null,
+      "price_summary_text": "官方展示 curated packages 與 wedding specialist，但未公開完整價格表。",
+      "rain_backup_status": "medium",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "low",
+      "best_for": [
+        "想要馬爾地夫但不想水上飛機轉乘",
+        "重視快艇接駁與親友抵達便利",
+        "小型沙灘或水上 deck 儀式"
+      ],
+      "not_ideal_for": [
+        "追求極遠離世感的人",
+        "需要私人沙洲買斷感的人",
+        "需要公開價格細節的人"
+      ],
+      "key_strengths": [
+        "快艇接駁降低長輩與兒童交通負擔",
+        "官方婚禮頁有清楚的碼頭與沙灘婚禮圖像",
+        "Four Seasons 婚禮團隊支援完整"
+      ],
+      "key_risks": [
+        "價格與容量公開資訊不足",
+        "離馬累近的視覺私密感需確認",
+        "戶外雨備仍需飯店回覆"
+      ],
+      "open_questions": [
+        "確認快艇接駁時間與夜間抵達安排。",
+        "索取 wedding package 與各場地容量。"
+      ],
+      "source_count": 2,
+      "photo_count": 1,
+      "photo_coverage_ceremony": "medium",
+      "photo_coverage_reception": "medium",
+      "photo_coverage_rain_backup": "unknown",
+      "photo_coverage_accommodation": "unknown",
+      "photo_reference_value_overall": "medium"
+    },
+    {
+      "id": "conrad-rangali-island",
+      "name_zh": "港麗馬爾地夫倫格里島",
+      "name_en_official": "Conrad Maldives Rangali Island",
+      "region": "South Ari Atoll",
+      "venue_types": [
+        "beach",
+        "water-platform",
+        "ballroom"
+      ],
+      "recommended_guest_size_band": "21-50",
+      "pricing_status": "quote_required",
+      "price_band_normalized": null,
+      "price_summary_text": "官方婚禮頁列出場地與婚禮包含項目，但未公開完整套裝價格。",
+      "rain_backup_status": "medium",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "medium",
+      "best_for": [
+        "想要海底餐廳或高度話題性場景",
+        "重視住宿與餐飲選擇多元",
+        "小型高辨識度儀式與晚餐"
+      ],
+      "not_ideal_for": [
+        "只想要單純沙灘儀式且預算明確的人",
+        "不想處理水上飛機/內陸機接駁",
+        "大型賓客團"
+      ],
+      "key_strengths": [
+        "場景差異化強，Ithaa 與水上 deck 記憶點高",
+        "官方 wedding/event 頁可查",
+        "雙島度假村活動與餐飲選擇多"
+      ],
+      "key_risks": [
+        "特色空間容量有限",
+        "價格未公開",
+        "接駁選項與晚抵安排需提前確認"
+      ],
+      "open_questions": [
+        "確認 Ithaa、Overwater Spa Deck、Sunset Tip Beach 的婚禮容量與可包場費用。",
+        "確認雨天是否能保留同等質感的室內晚餐。"
+      ],
+      "source_count": 2,
+      "photo_count": 1,
+      "photo_coverage_ceremony": "medium",
+      "photo_coverage_reception": "unknown",
+      "photo_coverage_rain_backup": "medium",
+      "photo_coverage_accommodation": "unknown",
+      "photo_reference_value_overall": "medium"
+    },
+    {
+      "id": "oneonly-reethi-rah",
+      "name_zh": "唯逸瑞提拉",
+      "name_en_official": "One&Only Reethi Rah",
+      "region": "North Male Atoll",
+      "venue_types": [
+        "beach",
+        "water-platform",
+        "garden"
+      ],
+      "recommended_guest_size_band": "21-50",
+      "pricing_status": "quote_required",
+      "price_band_normalized": null,
+      "price_summary_text": "官方 events 頁展示婚禮與私人活動方向，但價格需詢價。",
+      "rain_backup_status": "medium",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "low",
+      "best_for": [
+        "追求高端私人島氛圍",
+        "想要沙灘、沙洲與水上餐廳小型婚禮",
+        "不想搭水上飛機但仍要奢華感"
+      ],
+      "not_ideal_for": [
+        "預算敏感或需要公開價格比較",
+        "大型婚宴",
+        "想要很多公開真實婚禮案例的人"
+      ],
+      "key_strengths": [
+        "快艇接駁友善",
+        "私人島視覺質感強",
+        "官方 events 頁與國際媒體案例可交叉參考"
+      ],
+      "key_risks": [
+        "價格透明度低",
+        "沙洲/沙灘受天候影響",
+        "外部供應商與包場條件需確認"
+      ],
+      "open_questions": [
+        "確認 Sunrise Beach、Tapasake 私人餐室與私人沙洲可辦婚禮條件。",
+        "索取快艇接駁費用與婚禮套裝內容。"
+      ],
+      "source_count": 3,
+      "photo_count": 1,
+      "photo_coverage_ceremony": "medium",
+      "photo_coverage_reception": "medium",
+      "photo_coverage_rain_backup": "unknown",
+      "photo_coverage_accommodation": "unknown",
+      "photo_reference_value_overall": "medium"
+    },
+    {
+      "id": "baros-maldives",
+      "name_zh": "巴羅斯馬爾地夫",
+      "name_en_official": "Baros Maldives",
+      "region": "North Male Atoll",
+      "venue_types": [
+        "beach",
+        "water-platform",
+        "garden"
+      ],
+      "recommended_guest_size_band": "2-20",
+      "pricing_status": "quote_required",
+      "price_band_normalized": null,
+      "price_summary_text": "官方浪漫/vow renewal 頁有場景資訊，但未公開完整婚禮價格。",
+      "rain_backup_status": "medium",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "low",
+      "best_for": [
+        "2-20 人極小型婚禮或誓言更新",
+        "想要短程快艇與私人沙洲",
+        "重視浪漫而非大型派對"
+      ],
+      "not_ideal_for": [
+        "大型賓客團",
+        "需要宴會廳級雨備",
+        "想要透明公開價格表"
+      ],
+      "key_strengths": [
+        "快艇 25 分鐘接駁",
+        "私人沙洲與 Piano Deck 辨識度高",
+        "小型婚禮決策成本低"
+      ],
+      "key_risks": [
+        "容量與價格需詢價",
+        "沙洲高度受天候與潮汐影響",
+        "大型雨備能力有限"
+      ],
+      "open_questions": [
+        "確認 Piano Deck 與 private sandbank 的婚禮容量、潮汐限制與費用。",
+        "確認雨天是否可轉至 Lighthouse 或其他 covered dining space。"
+      ],
+      "source_count": 2,
+      "photo_count": 1,
+      "photo_coverage_ceremony": "medium",
+      "photo_coverage_reception": "medium",
+      "photo_coverage_rain_backup": "unknown",
+      "photo_coverage_accommodation": "unknown",
+      "photo_reference_value_overall": "medium"
+    },
+    {
+      "id": "soneva-fushi",
+      "name_zh": "索尼娃富士",
+      "name_en_official": "Soneva Fushi",
+      "region": "Baa Atoll",
+      "venue_types": [
+        "beach",
+        "water-platform",
+        "garden",
+        "jungle"
+      ],
+      "recommended_guest_size_band": "21-50",
+      "pricing_status": "quote_required",
+      "price_band_normalized": null,
+      "price_summary_text": "官方 celebrations 頁描述婚禮與私人活動，但未公開完整婚禮價格。",
+      "rain_backup_status": "medium",
+      "accommodation_fit": "one_stop",
+      "restriction_level": "medium",
+      "traffic_risk_level": "medium",
+      "best_for": [
+        "重視赤腳奢華與自然感",
+        "想把婚禮、蜜月、家庭旅行合併成多日體驗",
+        "可接受客製化報價"
+      ],
+      "not_ideal_for": [
+        "只想快速比價",
+        "不想搭水上飛機",
+        "需要制式宴會廳婚禮"
+      ],
+      "key_strengths": [
+        "品牌 celebrations 頁可作婚禮研究起點",
+        "沙洲、沙灘、villa 與自然場景彈性高",
+        "Baa Atoll 海島體驗完整"
+      ],
+      "key_risks": [
+        "婚禮頁是品牌層級，單島細節需補問",
+        "價格透明度低",
+        "水上飛機與天候限制"
+      ],
+      "open_questions": [
+        "確認 Soneva Fushi 可用婚禮空間、容量與 2026-2027 套裝。",
+        "確認 sandbar setup 是否可辦儀式與天候備案。"
+      ],
+      "source_count": 2,
+      "photo_count": 1,
+      "photo_coverage_ceremony": "medium",
+      "photo_coverage_reception": "medium",
+      "photo_coverage_rain_backup": "unknown",
+      "photo_coverage_accommodation": "unknown",
+      "photo_reference_value_overall": "medium"
+    }
+  ]
+}

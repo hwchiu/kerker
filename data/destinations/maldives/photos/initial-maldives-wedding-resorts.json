@@ -1,0 +1,80 @@
+[
+  {
+    "photo_entry_id": "fs-landaa-official-wedding-pavilion",
+    "venue_id": "fs-landaa-giraavaru",
+    "source_id": "fs-landaa-official-weddings",
+    "page_url": "https://www.fourseasons.com/maldiveslg/weddings/",
+    "image_url_or_gallery_url": "https://www.fourseasons.com/maldiveslg/weddings/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": ["water-platform", "beach-ceremony", "entrance-procession"],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "官方婚禮頁展示水上 Wedding Pavilion、白沙灘與婚禮動線；作為場景確認，不直接當真實婚禮案例。"
+  },
+  {
+    "photo_entry_id": "fs-kuda-official-lagoon-dock",
+    "venue_id": "fs-kuda-huraa",
+    "source_id": "fs-kuda-official-weddings",
+    "page_url": "https://www.fourseasons.com/maldiveskh/weddings/",
+    "image_url_or_gallery_url": "https://www.fourseasons.com/maldiveskh/weddings/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": ["water-platform", "beach-ceremony", "guest-seating"],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "官方頁展示潟湖碼頭與白沙灘婚禮氛圍；需後續補真實婚禮或第三方照片。"
+  },
+  {
+    "photo_entry_id": "conrad-rangali-official-wedding-spaces",
+    "venue_id": "conrad-rangali-island",
+    "source_id": "conrad-rangali-official-weddings",
+    "page_url": "https://www.hilton.com/en/hotels/mlehici-conrad-maldives-rangali-island/events/weddings/",
+    "image_url_or_gallery_url": "https://www.hilton.com/en/hotels/mlehici-conrad-maldives-rangali-island/events/weddings/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": ["beach-ceremony", "water-platform", "rain-backup-space"],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "官方頁列出多個 wedding venues，可用於辨識海灘、水上 deck 與 Ithaa 特色場景。"
+  },
+  {
+    "photo_entry_id": "oneonly-reethi-vogue-scenes",
+    "venue_id": "oneonly-reethi-rah",
+    "source_id": "oneonly-reethi-vogue-elopement",
+    "page_url": "https://www.vogue.com/article/destination-wedding-elopement-private-island-maldives",
+    "image_url_or_gallery_url": "https://www.vogue.com/article/destination-wedding-elopement-private-island-maldives",
+    "image_type": "press_feature",
+    "scene_tags": ["beach-ceremony", "water-platform", "floral-setup"],
+    "authenticity": "unknown",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "Vogue 作為場景靈感與私人島婚禮描述來源；需避免把非官方照片誤認為實際可預訂空間。"
+  },
+  {
+    "photo_entry_id": "baros-official-piano-deck",
+    "venue_id": "baros-maldives",
+    "source_id": "baros-official-vows",
+    "page_url": "https://www.baros.com/romance/renewal-of-vows",
+    "image_url_or_gallery_url": "https://www.baros.com/romance/renewal-of-vows",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": ["water-platform", "beach-ceremony", "floral-setup"],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "官方 vow renewal 頁展示 private sandbank、Piano Deck 與白沙灘儀式方向。"
+  },
+  {
+    "photo_entry_id": "soneva-fushi-official-sandbar",
+    "venue_id": "soneva-fushi",
+    "source_id": "soneva-celebrations",
+    "page_url": "https://soneva.com/celebrations-and-events/",
+    "image_url_or_gallery_url": "https://soneva.com/celebrations-and-events/",
+    "image_type": "official_wedding_gallery",
+    "scene_tags": ["beach-ceremony", "water-platform", "garden-reception"],
+    "authenticity": "official_promotional",
+    "coverage_type": "large_gallery",
+    "decision_value": "medium",
+    "decision_notes": "官方 celebrations 頁展示 Soneva 的 barefoot ceremony 與 sandbar setup，仍需補單島真實照片。"
+  }
+]

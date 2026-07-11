@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-07-11",
+  "items": [
+    {
+      "venue_id": "fs-landaa-giraavaru",
+      "name_zh": "蘭達吉拉瓦魯四季度假村",
+      "name_en_official": "Four Seasons Resort Maldives at Landaa Giraavaru",
+      "open_questions": [
+        "確認 Wedding Pavilion、Blu Beach 與 jungle clearing 的實際儀式/晚宴容量。",
+        "索取 2026-2027 婚禮套裝價格與雨備 SOP。"
+      ]
+    },
+    {
+      "venue_id": "fs-kuda-huraa",
+      "name_zh": "庫達呼拉四季度假村",
+      "name_en_official": "Four Seasons Resort Maldives at Kuda Huraa",
+      "open_questions": [
+        "確認快艇接駁時間與夜間抵達安排。",
+        "索取 wedding package 與各場地容量。"
+      ]
+    },
+    {
+      "venue_id": "conrad-rangali-island",
+      "name_zh": "港麗馬爾地夫倫格里島",
+      "name_en_official": "Conrad Maldives Rangali Island",
+      "open_questions": [
+        "確認 Ithaa、Overwater Spa Deck、Sunset Tip Beach 的婚禮容量與可包場費用。",
+        "確認雨天是否能保留同等質感的室內晚餐。"
+      ]
+    },
+    {
+      "venue_id": "oneonly-reethi-rah",
+      "name_zh": "唯逸瑞提拉",
+      "name_en_official": "One&Only Reethi Rah",
+      "open_questions": [
+        "確認 Sunrise Beach、Tapasake 私人餐室與私人沙洲可辦婚禮條件。",
+        "索取快艇接駁費用與婚禮套裝內容。"
+      ]
+    },
+    {
+      "venue_id": "baros-maldives",
+      "name_zh": "巴羅斯馬爾地夫",
+      "name_en_official": "Baros Maldives",
+      "open_questions": [
+        "確認 Piano Deck 與 private sandbank 的婚禮容量、潮汐限制與費用。",
+        "確認雨天是否可轉至 Lighthouse 或其他 covered dining space。"
+      ]
+    },
+    {
+      "venue_id": "soneva-fushi",
+      "name_zh": "索尼娃富士",
+      "name_en_official": "Soneva Fushi",
+      "open_questions": [
+        "確認 Soneva Fushi 可用婚禮空間、容量與 2026-2027 套裝。",
+        "確認 sandbar setup 是否可辦儀式與天候備案。"
+      ]
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import argparse
 from pathlib import Path
 
 from .derive import write_derived_indexes
+from .destinations import destination_ids, get_destination_config
 from .io import load_json_file, validate_workspace, write_json_file
 from .notes import write_all_venue_notes
 from .paths import ensure_workspace_layout, workspace_paths
@@ -21,9 +22,11 @@ def build_parser() -> argparse.ArgumentParser:
 
     validate_parser = subparsers.add_parser("validate")
     validate_parser.add_argument("--root", default=".")
+    validate_parser.add_argument("--destination", default="bali")
 
     derived_parser = subparsers.add_parser("build-derived")
     derived_parser.add_argument("--root", default=".")
+    derived_parser.add_argument("--destination", default="bali")
 
     notes_parser = subparsers.add_parser("build-notes")
     notes_parser.add_argument("--root", default=".")
@@ -31,10 +34,12 @@ def build_parser() -> argparse.ArgumentParser:
     photo_assets_parser = subparsers.add_parser("build-photo-assets")
     photo_assets_parser.add_argument("--root", default=".")
     photo_assets_parser.add_argument("--max-images-per-photo", type=int, default=6)
+    photo_assets_parser.add_argument("--destination", default="bali")
 
     site_parser = subparsers.add_parser("build-site")
     site_parser.add_argument("--root", default=".")
     site_parser.add_argument("--output", default="site")
+    site_parser.add_argument("--destination", default="bali")
 
     pages_parser = subparsers.add_parser("build-pages-site")
     pages_parser.add_argument("--root", default=".")
@@ -50,6 +55,13 @@ def build_parser() -> argparse.ArgumentParser:
     seed_parser.add_argument("--input", action="append", required=True)
 
     return parser
+
+
+def _selected_destinations(value: str) -> list[str]:
+    if value == "all":
+        return destination_ids()
+    get_destination_config(value)
+    return [value]
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -70,18 +82,28 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.command == "validate":
-        counts = validate_workspace(root)
-        print(
-            f"validated venues={counts['venues']} "
-            f"sources={counts['sources']} "
-            f"photos={counts['photos']}"
-        )
+        for destination_id in _selected_destinations(args.destination):
+            counts = validate_workspace(root, destination_id)
+            if args.destination == "bali":
+                print(
+                    f"validated venues={counts['venues']} "
+                    f"sources={counts['sources']} "
+                    f"photos={counts['photos']}"
+                )
+            else:
+                print(
+                    f"validated destination={destination_id} "
+                    f"venues={counts['venues']} "
+                    f"sources={counts['sources']} "
+                    f"photos={counts['photos']}"
+                )
         return 0
 
     if args.command == "build-derived":
-        outputs = write_derived_indexes(root)
-        for path in outputs:
-            print(path)
+        for destination_id in _selected_destinations(args.destination):
+            outputs = write_derived_indexes(root, destination_id)
+            for path in outputs:
+                print(path)
         return 0
 
     if args.command == "build-notes":
@@ -91,15 +113,23 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.command == "build-photo-assets":
-        manifest_path = write_photo_assets(
-            root,
-            max_images_per_photo=args.max_images_per_photo,
-        )
-        print(manifest_path)
+        for destination_id in _selected_destinations(args.destination):
+            if args.destination == "bali":
+                manifest_path = write_photo_assets(
+                    root,
+                    max_images_per_photo=args.max_images_per_photo,
+                )
+            else:
+                manifest_path = write_photo_assets(
+                    root,
+                    max_images_per_photo=args.max_images_per_photo,
+                    destination_id=destination_id,
+                )
+            print(manifest_path)
         return 0
 
     if args.command == "build-site":
-        outputs = write_static_site(root, output_dir)
+        outputs = write_static_site(root, output_dir, get_destination_config(args.destination))
         for path in outputs:
             print(path)
         return 0

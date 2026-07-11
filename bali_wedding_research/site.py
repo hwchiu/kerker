@@ -12,6 +12,7 @@ from typing import Any
 from urllib.parse import urlparse
 
 from .derive import build_derived_indexes
+from .destinations import DESTINATIONS, DestinationConfig, destination_ids, get_destination_config
 from .io import load_workspace_records
 from .photo_assets import copy_photo_assets_for_site
 
@@ -3766,10 +3767,58 @@ WEDDING_STYLE_DEFINITIONS = [
         "description": "偏向花園、別墅包場或混合型玩法，不屬於上面主風格。",
     },
 ]
+
+DESTINATION_STYLE_DEFINITIONS = {
+    "maldives": [
+        {
+            "key": "jungle",
+            "label": "島嶼綠意",
+            "description": "適合想把私人島植栽、棕櫚步道、沙洲邊界與自然陰影放進婚禮動線的組合。",
+        },
+        {
+            "key": "water-platform",
+            "label": "水上平台",
+            "description": "主打水上亭、潟湖 deck、漂浮步道與海面倒影，是馬爾地夫辨識度最高的儀式畫面。",
+        },
+        {
+            "key": "beach",
+            "label": "白沙灘",
+            "description": "重視腳踩白沙、海浪背景、私人沙洲與日落海灘晚宴的度假感。",
+        },
+        {
+            "key": "indoor",
+            "label": "雨備室內",
+            "description": "優先看可轉入餐廳、宴會廳或遮蔽空間的飯店，降低海島天候變動風險。",
+        },
+        {
+            "key": "other",
+            "label": "其他島嶼場景",
+            "description": "偏向私人島包場、特色餐廳或混合型婚禮動線，不屬於主要水上與沙灘風格。",
+        },
+    ]
+}
+
 WEDDING_STYLE_LABELS = {
     definition["key"]: definition["label"]
     for definition in WEDDING_STYLE_DEFINITIONS
 }
+
+
+def _style_definitions(destination: DestinationConfig | None = None) -> list[dict[str, str]]:
+    if destination and destination.id in DESTINATION_STYLE_DEFINITIONS:
+        return DESTINATION_STYLE_DEFINITIONS[destination.id]
+    return WEDDING_STYLE_DEFINITIONS
+
+
+def _style_labels(destination: DestinationConfig | None = None) -> dict[str, str]:
+    labels = dict(WEDDING_STYLE_LABELS)
+    labels.update(
+        {
+            definition["key"]: definition["label"]
+            for definition in _style_definitions(destination)
+        }
+    )
+    return labels
 
 EVIDENCE_CATEGORY_LABELS = {
     "pricing": "價格",
@@ -3793,6 +3842,21 @@ VENUE_TYPE_LABELS = {
     "villa-buyout": "別墅包場",
     "water-platform": "水台",
 }
+
+DESTINATION_VENUE_TYPE_LABELS = {
+    "maldives": {
+        "beach": "白沙灘",
+        "jungle": "島嶼植栽",
+        "water-platform": "水上平台",
+    }
+}
+
+
+def _venue_type_labels(destination: DestinationConfig | None = None) -> dict[str, str]:
+    labels = dict(VENUE_TYPE_LABELS)
+    if destination:
+        labels.update(DESTINATION_VENUE_TYPE_LABELS.get(destination.id, {}))
+    return labels
 
 SOURCE_TYPE_LABELS = {
     "official": "官方頁",
@@ -4036,9 +4100,16 @@ def _capacity_summary(venue: dict[str, Any]) -> str:
     )
 
 
-def _transport_summary(venue: dict[str, Any]) -> str:
+def _transport_summary(
+    venue: dict[str, Any],
+    destination: DestinationConfig | None = None,
+) -> str:
+    destination = destination or get_destination_config("bali")
     minutes = venue["airport_drive_time_minutes_estimate"]
-    return f"距機場約 {minutes} 分鐘 | 交通風險 {RISK_LABELS[venue['traffic_risk_level']]}"
+    return (
+        f"{destination.transfer_summary_label} {minutes} 分鐘 | "
+        f"{destination.transport_risk_label} {RISK_LABELS[venue['traffic_risk_level']]}"
+    )
 
 
 def _photo_value_key_from_count(photo_count: int) -> str:
@@ -4385,8 +4456,11 @@ def _render_status_overview(entries: list[dict[str, Any]]) -> str:
     )
 
 
-def _entries_by_style(entries: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
-    grouped = {definition["key"]: [] for definition in WEDDING_STYLE_DEFINITIONS}
+def _entries_by_style(
+    entries: list[dict[str, Any]],
+    destination: DestinationConfig | None = None,
+) -> dict[str, list[dict[str, Any]]]:
+    grouped = {definition["key"]: [] for definition in _style_definitions(destination)}
     for entry in entries:
         for key in entry.get("style_keys", []):
             grouped.setdefault(key, []).append(entry)
@@ -4402,18 +4476,24 @@ def _entries_by_style(entries: list[dict[str, Any]]) -> dict[str, list[dict[str,
     return grouped
 
 
-def _active_style_definitions(entries: list[dict[str, Any]]) -> list[dict[str, str]]:
-    grouped = _entries_by_style(entries)
+def _active_style_definitions(
+    entries: list[dict[str, Any]],
+    destination: DestinationConfig | None = None,
+) -> list[dict[str, str]]:
+    grouped = _entries_by_style(entries, destination)
     return [
         definition
-        for definition in WEDDING_STYLE_DEFINITIONS
+        for definition in _style_definitions(destination)
         if grouped.get(definition["key"])
     ]
 
 
-def _render_style_nav(entries: list[dict[str, Any]]) -> str:
-    grouped = _entries_by_style(entries)
-    active_definitions = _active_style_definitions(entries)
+def _render_style_nav(
+    entries: list[dict[str, Any]],
+    destination: DestinationConfig | None = None,
+) -> str:
+    grouped = _entries_by_style(entries, destination)
+    active_definitions = _active_style_definitions(entries, destination)
     cards = []
     used_cover_ids: set[str] = set()
     for definition in active_definitions:
@@ -4477,8 +4557,11 @@ def _render_style_nav(entries: list[dict[str, Any]]) -> str:
     )
 
 
-def _render_index_toc(entries: list[dict[str, Any]]) -> str:
-    grouped = _entries_by_style(entries)
+def _render_index_toc(
+    entries: list[dict[str, Any]],
+    destination: DestinationConfig | None = None,
+) -> str:
+    grouped = _entries_by_style(entries, destination)
     style_nav = "".join(
         '<a class="page-toc-link" '
         f'href="#style-{escape(definition["key"])}" '
@@ -4486,8 +4569,10 @@ def _render_index_toc(entries: list[dict[str, Any]]) -> str:
         f'data-section-label="{escape(definition["label"])}">'
         f'{escape(definition["label"])} · {len(grouped.get(definition["key"], []))}'
         "</a>"
-        for definition in WEDDING_STYLE_DEFINITIONS
+        for definition in _style_definitions(destination)
     )
+    active_definitions = _active_style_definitions(entries, destination)
+    first_label = active_definitions[0]["label"] if active_definitions else "風格"
     return (
         '<section class="surface page-toc" id="page-toc">'
         '<div class="page-toc-head">'
@@ -4498,7 +4583,7 @@ def _render_index_toc(entries: list[dict[str, Any]]) -> str:
         "</div>"
         '<div class="toc-current">'
         '<span class="toc-current-label">目前區塊</span>'
-        '<strong id="tocCurrentLabel">教堂</strong>'
+        f'<strong id="tocCurrentLabel">{escape(first_label)}</strong>'
         "</div>"
         "</div>"
         '<div class="page-toc-groups">'
@@ -4540,9 +4625,12 @@ def _render_style_spotlight(entry: dict[str, Any]) -> str:
     )
 
 
-def _render_style_sections(entries: list[dict[str, Any]]) -> str:
-    grouped = _entries_by_style(entries)
-    active_definitions = _active_style_definitions(entries)
+def _render_style_sections(
+    entries: list[dict[str, Any]],
+    destination: DestinationConfig | None = None,
+) -> str:
+    grouped = _entries_by_style(entries, destination)
+    active_definitions = _active_style_definitions(entries, destination)
     sections = []
     for definition in active_definitions:
         style_entries = grouped.get(definition["key"], [])
@@ -4560,13 +4648,19 @@ def _render_style_sections(entries: list[dict[str, Any]]) -> str:
     return "".join(sections)
 
 
-def _render_journey_paths(entries: list[dict[str, Any]]) -> str:
+def _render_journey_paths(
+    entries: list[dict[str, Any]],
+    destination: DestinationConfig | None = None,
+) -> str:
     visual_count = sum(1 for entry in entries if entry.get("cover_photo_url"))
-    active_style_count = len(_active_style_definitions(entries))
+    active_style_count = len(_active_style_definitions(entries, destination))
+    visual_copy = "從教堂、叢林、水台、懸崖、沙灘開始選，不用先懂飯店名稱。"
+    if destination and destination.id == "maldives":
+        visual_copy = "從水上平台、白沙灘、潟湖晚宴、雨備室內與島嶼綠意開始選，不用先懂飯店名稱。"
     paths = [
         (
             "先看畫面",
-            "從教堂、叢林、水台、懸崖、沙灘開始選，不用先懂飯店名稱。",
+            visual_copy,
             "#style-overview",
             f"{active_style_count} 種風格",
         ),
@@ -4703,7 +4797,11 @@ def _render_decision_fit(venue: dict[str, Any], photo_value_key: str) -> str:
     )
 
 
-def _render_detail_snapshot(venue: dict[str, Any], photo_value_key: str) -> str:
+def _render_detail_snapshot(
+    venue: dict[str, Any],
+    photo_value_key: str,
+    destination: DestinationConfig | None = None,
+) -> str:
     public_price_anchor_label, _ = _public_price_anchor(venue)
     concern_text = (
         venue["open_questions"][0]
@@ -4714,7 +4812,7 @@ def _render_detail_snapshot(venue: dict[str, Any], photo_value_key: str) -> str:
         ("公開入門價", public_price_anchor_label),
         ("容量輪廓", _capacity_summary(venue)),
         ("雨備結論", f'{RAIN_BACKUP_LABELS[venue["rain_backup_status"]]}｜{venue["backup_space_description"]}'),
-        ("交通／住宿", f'{_transport_summary(venue)}｜{ACCOMMODATION_LABELS[venue["accommodation_fit"]]}'),
+        ("交通／住宿", f'{_transport_summary(venue, destination)}｜{ACCOMMODATION_LABELS[venue["accommodation_fit"]]}'),
     ]
     cards_html = "".join(
         '<article class="summary-card">'
@@ -5285,7 +5383,9 @@ def _render_detail_page(
     photos: list[dict[str, Any]],
     alternatives: list[dict[str, Any]],
     photo_assets_by_entry: dict[str, list[str]],
+    destination: DestinationConfig | None = None,
 ) -> str:
+    destination = destination or get_destination_config("bali")
     source_lookup = {source["source_id"]: source for source in sources}
     photo_stats = _photo_stats(photos, photo_assets_by_entry, source_lookup)
     detail_cover_url = None
@@ -5326,7 +5426,7 @@ def _render_detail_page(
         "<head>"
         '<meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width, initial-scale=1">'
-        f"<title>{escape(venue['name_zh'])} | 峇里島婚禮場地檔案</title>"
+        f"<title>{escape(venue['name_zh'])} | {escape(destination.detail_title_suffix)}</title>"
         '<link rel="stylesheet" href="../assets/site.css">'
         "</head>"
         "<body>"
@@ -5363,7 +5463,7 @@ def _render_detail_page(
         f"{_render_photo_insights(photos, photo_assets_by_entry, source_lookup)}"
         f"{_render_photo_cards(photos, photo_assets_by_entry, source_lookup)}"
         "</section>"
-        f"{_render_detail_snapshot(venue, str(photo_stats['photo_value_key']))}"
+        f"{_render_detail_snapshot(venue, str(photo_stats['photo_value_key']), destination)}"
         f"{_render_decision_fit(venue, str(photo_stats['photo_value_key']))}"
         '<section class="surface" id="detail-scan">'
         '<div class="section-head"><h2>快速掃描</h2>'
@@ -5469,10 +5569,14 @@ def _index_entry(
     photos: list[dict[str, Any]],
     *,
     curated_rank: int,
+    destination: DestinationConfig | None = None,
 ) -> dict[str, Any]:
+    destination = destination or get_destination_config("bali")
     price_band_key = venue["price_band_normalized"]
     public_price_anchor_label, public_price_sort_key = _public_price_anchor(venue)
     style_keys = _style_keys_for_venue(venue)
+    style_labels = _style_labels(destination)
+    venue_type_labels = _venue_type_labels(destination)
     source_lookup = {source["source_id"]: source for source in sources}
     current_status = venue.get("current_status")
     visible_photo_count = sum(
@@ -5491,7 +5595,7 @@ def _index_entry(
                 venue["subarea"],
                 venue["primary_visual_identity"],
                 *venue["venue_types"],
-                *(WEDDING_STYLE_LABELS[key] for key in style_keys),
+                *(style_labels[key] for key in style_keys),
                 *venue["style_tags"],
                 *venue["best_for"],
                 *venue["key_strengths"],
@@ -5518,9 +5622,9 @@ def _index_entry(
         "region": venue["region"],
         "subarea": venue["subarea"],
         "venue_types": venue["venue_types"],
-        "venue_type_labels": [VENUE_TYPE_LABELS.get(tag, tag) for tag in venue["venue_types"]],
+        "venue_type_labels": [venue_type_labels.get(tag, tag) for tag in venue["venue_types"]],
         "style_keys": style_keys,
-        "style_labels": [WEDDING_STYLE_LABELS[key] for key in style_keys],
+        "style_labels": [style_labels[key] for key in style_keys],
         "recommended_guest_size_band": venue["recommended_guest_size_band"],
         "price_band_key": price_band_key,
         "price_band_label": _price_band_label(venue),
@@ -5545,7 +5649,7 @@ def _index_entry(
         "source_count": len(sources),
         "photo_count": visible_photo_count,
         "capacity_summary": _capacity_summary(venue),
-        "transport_summary": _transport_summary(venue),
+        "transport_summary": _transport_summary(venue, destination),
         "photo_summary": _photo_summary(visible_photo_count),
         "best_for": venue["best_for"],
         "primary_visual_identity": venue["primary_visual_identity"],
@@ -5579,10 +5683,14 @@ def _render_select_options(values: list[str], *, labels: dict[str, str] | None =
     return "".join(options)
 
 
-def _build_site_payload(root: Path) -> tuple[list[dict[str, Any]], dict[str, Any]]:
-    venues, sources, photos = load_workspace_records(root)
+def _build_site_payload(
+    root: Path,
+    destination: DestinationConfig | None = None,
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    destination = destination or get_destination_config("bali")
+    venues, sources, photos = load_workspace_records(root, destination.id)
     derived_lookup = {
-        entry["id"]: entry for entry in build_derived_indexes(root)["venues"]
+        entry["id"]: entry for entry in build_derived_indexes(root, destination.id)["venues"]
     }
     sources_by_venue: dict[str, list[dict[str, Any]]] = defaultdict(list)
     photos_by_venue: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -5599,6 +5707,7 @@ def _build_site_payload(root: Path) -> tuple[list[dict[str, Any]], dict[str, Any
             sources_by_venue.get(venue["id"], []),
             photos_by_venue.get(venue["id"], []),
             curated_rank=index,
+            destination=destination,
         )
         for index, venue in enumerate(sorted_venues)
     ]
@@ -5678,12 +5787,19 @@ def _render_home_hero_gallery(entries: list[dict[str, Any]]) -> str:
     )
 
 
-def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) -> str:
+def _render_index_page(
+    entries: list[dict[str, Any]],
+    totals: dict[str, Any],
+    destination: DestinationConfig | None = None,
+) -> str:
+    destination = destination or get_destination_config("bali")
     card_html = "".join(_render_card(entry) for entry in entries)
     compare_rows = _render_compare_rows(entries)
-    active_style_count = len(_active_style_definitions(entries))
+    active_style_count = len(_active_style_definitions(entries, destination))
     region_values = sorted({entry["region"] for entry in entries})
-    style_values = [definition["key"] for definition in WEDDING_STYLE_DEFINITIONS]
+    style_definitions = _style_definitions(destination)
+    style_labels = _style_labels(destination)
+    style_values = [definition["key"] for definition in style_definitions]
     guest_values = sorted({entry["recommended_guest_size_band"] for entry in entries})
     price_values = sorted({entry["price_band_key"] for entry in entries if entry["price_band_key"]})
     rain_values = sorted({entry["rain_backup_status"] for entry in entries})
@@ -5695,7 +5811,7 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         "<head>"
         '<meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width, initial-scale=1">'
-        "<title>峇里島婚禮場地索引</title>"
+        f"<title>{escape(destination.index_title)}</title>"
         '<link rel="stylesheet" href="assets/site.css">'
         "</head>"
         "<body>"
@@ -5703,9 +5819,9 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         '<section class="hero home-hero">'
         '<div class="hero-layout">'
         '<div class="hero-copy">'
-        '<p class="eyebrow">Bali Island Wedding Lookbook</p>'
-        "<h1>先看你想要哪一種海島婚禮畫面</h1>"
-        '<p class="lede">把峇里島婚禮拆成教堂、叢林、水台、懸崖、沙灘與室內宴會。首頁先讓你看風格與場景，真的有興趣再進飯店頁看價格、雨備、交通與照片。</p>'
+        f'<p class="eyebrow">{escape(destination.eyebrow)}</p>'
+        f"<h1>{escape(destination.hero_title)}</h1>"
+        f'<p class="lede">{escape(destination.hero_lede)}</p>'
         '<nav class="hero-actions" aria-label="首頁快速跳轉">'
         '<a class="quick-link" href="#style-overview">先看婚禮畫面</a>'
         '<a class="quick-link" href="#shortlist-section">看推薦路線</a>'
@@ -5722,15 +5838,15 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         f"<strong>{active_style_count}</strong><span>婚禮風格</span>"
         "</div>"
         '<div class="stat">'
-        f"<strong>{len(totals['regions'])}</strong><span>峇里區域</span>"
+        f"<strong>{len(totals['regions'])}</strong><span>{escape(destination.region_stat_label)}</span>"
         "</div>"
         '<div class="stat">'
         f"<strong>{totals.get('asset_count', 0)}</strong><span>可瀏覽照片</span>"
         "</div>"
         "</div>"
         "</section>"
-        f"{_render_journey_paths(entries)}"
-        f"{_render_style_nav(entries)}"
+        f"{_render_journey_paths(entries, destination)}"
+        f"{_render_style_nav(entries, destination)}"
         f"{_render_shortlist_section(entries)}"
         '<section class="surface venue-board-section" id="venue-board">'
         '<div class="section-head">'
@@ -5756,7 +5872,7 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         '<div class="control"><label for="regionFilter">區域</label>'
         f'<select id="regionFilter">{_render_select_options(region_values)}</select></div>'
         '<div class="control"><label for="typeFilter">場地類型</label>'
-        f'<select id="typeFilter">{_render_select_options(style_values, labels=WEDDING_STYLE_LABELS)}</select></div>'
+        f'<select id="typeFilter">{_render_select_options(style_values, labels=style_labels)}</select></div>'
         '<div class="control"><label for="guestFilter">適合人數帶</label>'
         f'<select id="guestFilter">{_render_select_options(guest_values)}</select></div>'
         "</div>"
@@ -5769,7 +5885,9 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         '<div class="control"><label for="stayFilter">住宿整合</label>'
         f'<select id="stayFilter">{_render_select_options(stay_values, labels=ACCOMMODATION_LABELS)}</select></div>'
         '<div class="control"><label for="sortSelect">排序方式</label>'
-        '<select id="sortSelect"><option value="curated">編輯排序</option><option value="starting-price">公開入門價最低</option><option value="airport-time">距機場最短</option><option value="dinner-capacity">晚宴容量最大</option><option value="rain-readiness">雨備最強</option><option value="photo-depth">照片線索最多</option></select></div>'
+        '<select id="sortSelect"><option value="curated">編輯排序</option><option value="starting-price">公開入門價最低</option>'
+        f'<option value="airport-time">{escape(destination.transfer_sort_label)}</option>'
+        '<option value="dinner-capacity">晚宴容量最大</option><option value="rain-readiness">雨備最強</option><option value="photo-depth">照片線索最多</option></select></div>'
         "</div>"
         '<div class="toggle-grid advanced-toggle-grid">'
         '<label class="toggle-chip" for="dinnerFilter"><input id="dinnerFilter" type="checkbox">只看可辦儀式＋晚宴</label>'
@@ -5780,7 +5898,7 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         "</details>"
         "</details>"
         "</section>"
-        f"{_render_style_sections(entries)}"
+        f"{_render_style_sections(entries, destination)}"
         '<details class="surface compare-disclosure" id="compare-section">'
         '<summary class="compare-disclosure-summary">需要表格比較時再展開</summary>'
         '<div class="section-head"><h2>全部場地條件表</h2>'
@@ -5840,8 +5958,55 @@ def _render_pages_redirect_page() -> str:
     )
 
 
-def write_static_site(root: Path, output_dir: Path) -> list[Path]:
-    entries, payload = _build_site_payload(root)
+def _render_destination_selector() -> str:
+    cards = []
+    for destination in DESTINATIONS.values():
+        cards.append(
+            '<a class="journey-card destination-card" '
+            f'href="{escape(destination.slug)}/">'
+            f'<span class="card-kicker">{escape(destination.name_en)} Island Wedding</span>'
+            f"<strong>{escape(destination.name_zh)}婚禮</strong>"
+            f"<p>{escape(destination.root_card_copy)}</p>"
+            '<span class="link-button">進入目的地</span>'
+            "</a>"
+        )
+    return (
+        "<!doctype html>"
+        '<html lang="zh-Hant">'
+        "<head>"
+        '<meta charset="utf-8">'
+        '<meta name="viewport" content="width=device-width, initial-scale=1">'
+        "<title>海島婚禮目的地入口</title>"
+        '<link rel="stylesheet" href="bali/assets/site.css">'
+        "</head>"
+        "<body>"
+        '<main class="page-shell">'
+        '<section class="hero home-hero">'
+        '<div class="hero-layout">'
+        '<div class="hero-copy">'
+        '<p class="eyebrow">Island Wedding Atlas</p>'
+        "<h1>先選目的地，再看場地</h1>"
+        '<p class="lede">峇里島與馬爾地夫的婚禮邏輯完全不同。這裡先分流目的地，進入後再看各自的場景、交通、雨備、價格與照片線索。</p>'
+        "</div>"
+        '<aside class="hero-panel"><p class="card-kicker">使用流程</p><p class="summary">目的地 → 風格場景 → 飯店場地 → 價格雨備與接駁比較。</p></aside>'
+        "</div>"
+        "</section>"
+        '<section class="journey-grid destination-grid">'
+        f'{"".join(cards)}'
+        "</section>"
+        "</main>"
+        "</body>"
+        "</html>"
+    )
+
+
+def write_static_site(
+    root: Path,
+    output_dir: Path,
+    destination: DestinationConfig | None = None,
+) -> list[Path]:
+    destination = destination or get_destination_config("bali")
+    entries, payload = _build_site_payload(root, destination)
     output_dir.mkdir(parents=True, exist_ok=True)
     assets_dir = output_dir / "assets"
     venue_dir = output_dir / "venues"
@@ -5854,7 +6019,7 @@ def write_static_site(root: Path, output_dir: Path) -> list[Path]:
     index_path = output_dir / "index.html"
     css_path = assets_dir / "site.css"
     js_path = assets_dir / "site.js"
-    photo_assets_by_entry = copy_photo_assets_for_site(root, output_dir)
+    photo_assets_by_entry = copy_photo_assets_for_site(root, output_dir, destination.id)
     entries = _attach_cover_photo_urls(
         entries,
         payload["photos_by_venue"],
@@ -5866,7 +6031,7 @@ def write_static_site(root: Path, output_dir: Path) -> list[Path]:
     )
 
     index_path.write_text(
-        _render_index_page(entries, payload["totals"]),
+        _render_index_page(entries, payload["totals"], destination),
         encoding="utf-8",
     )
     css_path.write_text(SITE_CSS, encoding="utf-8")
@@ -5883,6 +6048,7 @@ def write_static_site(root: Path, output_dir: Path) -> list[Path]:
                 payload["photos_by_venue"].get(venue["id"], []),
                 _build_alternative_entries(venue["id"], entries),
                 photo_assets_by_entry,
+                destination,
             ),
             encoding="utf-8",
         )
@@ -5892,36 +6058,55 @@ def write_static_site(root: Path, output_dir: Path) -> list[Path]:
 
 def write_pages_site(root: Path, docs_dir: Path | None = None) -> list[Path]:
     target_docs_dir = docs_dir or root / "docs"
-    written = write_static_site(root, target_docs_dir)
+    written: list[Path] = []
+    for destination_id in destination_ids():
+        destination = get_destination_config(destination_id)
+        written.extend(write_static_site(root, target_docs_dir / destination.slug, destination))
 
     docs_nojekyll_path = target_docs_dir / ".nojekyll"
     legacy_docs_dir = target_docs_dir / "docs"
     legacy_venues_dir = legacy_docs_dir / "venues"
+    legacy_root_venues_dir = target_docs_dir / "venues"
     root_index_path = root / "index.html"
     root_nojekyll_path = root / ".nojekyll"
 
+    target_docs_dir.mkdir(parents=True, exist_ok=True)
     legacy_docs_dir.mkdir(parents=True, exist_ok=True)
     legacy_venues_dir.mkdir(parents=True, exist_ok=True)
+    legacy_root_venues_dir.mkdir(parents=True, exist_ok=True)
     for existing in legacy_venues_dir.glob("*.html"):
+        existing.unlink()
+    for existing in legacy_root_venues_dir.glob("*.html"):
         existing.unlink()
 
     docs_nojekyll_path.write_text("", encoding="utf-8")
+    destination_index_path = target_docs_dir / "index.html"
+    destination_index_path.write_text(_render_destination_selector(), encoding="utf-8")
     legacy_index_path = legacy_docs_dir / "index.html"
     legacy_index_path.write_text(
-        _render_static_redirect_page("../", title="峇里島婚禮場地索引"),
+        _render_static_redirect_page("../", title="海島婚禮目的地入口"),
         encoding="utf-8",
     )
-    legacy_written = [legacy_index_path]
-    for detail_page_path in sorted((target_docs_dir / "venues").glob("*.html")):
+    legacy_written = [destination_index_path, legacy_index_path]
+    for detail_page_path in sorted((target_docs_dir / "bali" / "venues").glob("*.html")):
         legacy_detail_path = legacy_venues_dir / detail_page_path.name
         legacy_detail_path.write_text(
             _render_static_redirect_page(
-                f"../../venues/{detail_page_path.name}",
+                f"../../bali/venues/{detail_page_path.name}",
                 title="峇里島婚禮場地檔案",
             ),
             encoding="utf-8",
         )
         legacy_written.append(legacy_detail_path)
+        legacy_root_detail_path = legacy_root_venues_dir / detail_page_path.name
+        legacy_root_detail_path.write_text(
+            _render_static_redirect_page(
+                f"../bali/venues/{detail_page_path.name}",
+                title="峇里島婚禮場地檔案",
+            ),
+            encoding="utf-8",
+        )
+        legacy_written.append(legacy_root_detail_path)
     root_index_path.write_text(_render_pages_redirect_page(), encoding="utf-8")
     root_nojekyll_path.write_text("", encoding="utf-8")
 

@@ -509,14 +509,16 @@ def write_photo_assets(
     *,
     max_images_per_photo: int = 6,
     fetcher: FetchBytes | None = None,
+    destination_id: str | None = None,
 ) -> Path:
     if fetcher is None:
         fetcher = _default_fetcher
-    paths = workspace_paths(root)
+    root = root.resolve()
+    paths = workspace_paths(root, destination_id)
     if paths["photo_assets"].exists():
         rmtree(paths["photo_assets"])
     paths["photo_assets"].mkdir(parents=True, exist_ok=True)
-    _, sources, photos = load_workspace_records(root)
+    _, sources, photos = load_workspace_records(root, destination_id)
     sources_by_id = {source["source_id"]: source for source in sources}
     page_candidates: dict[str, list[str]] = {}
     manifest_items: list[dict[str, object]] = []
@@ -551,13 +553,12 @@ def write_photo_assets(
                 continue
             extension = Path(urlparse(candidate_url).path).suffix.lower() or ".jpg"
             index = len(asset_paths) + 1
-            relative_path = (
-                Path("data")
-                / "photo-assets"
+            destination = (
+                paths["photo_assets"]
                 / photo["venue_id"]
                 / f"{photo['photo_entry_id']}-{index:02d}{extension}"
             )
-            destination = root / relative_path
+            relative_path = destination.relative_to(root)
             destination.parent.mkdir(parents=True, exist_ok=True)
             destination.write_bytes(image_bytes)
             asset_paths.append(relative_path.as_posix())
@@ -629,9 +630,14 @@ def _is_venue_photo(image_bytes: bytes) -> bool:
         return True
 
 
-def copy_photo_assets_for_site(root: Path, output_dir: Path) -> dict[str, list[str]]:
+def copy_photo_assets_for_site(
+    root: Path,
+    output_dir: Path,
+    destination_id: str | None = None,
+) -> dict[str, list[str]]:
     root = root.resolve()
-    manifest_path = workspace_paths(root)["derived"] / "photo-assets.json"
+    paths = workspace_paths(root, destination_id)
+    manifest_path = paths["derived"] / "photo-assets.json"
     if not manifest_path.exists():
         return {}
     payload = load_json_file(manifest_path)
@@ -641,7 +647,7 @@ def copy_photo_assets_for_site(root: Path, output_dir: Path) -> dict[str, list[s
     if not isinstance(items, list):
         return {}
 
-    photo_assets_root = workspace_paths(root)["photo_assets"]
+    photo_assets_root = paths["photo_assets"]
     site_assets_root = output_dir / "assets" / "photos"
     expected_targets: set[Path] = set()
     asset_copy_tasks: list[tuple[str, Path, Path]] = []
@@ -685,6 +691,10 @@ def copy_photo_assets_for_site(root: Path, output_dir: Path) -> dict[str, list[s
     seen_hashes: dict[str, set[str]] = {}  # venue_id -> set of md5 hashes already copied
     for photo_entry_id, source_path, target_path in asset_copy_tasks:
         if not source_path.exists():
+            if target_path.exists():
+                relative_inside_assets = target_path.relative_to(site_assets_root)
+                site_urls = mapping.setdefault(photo_entry_id, [])
+                site_urls.append(f"../assets/photos/{relative_inside_assets.as_posix()}")
             continue
         venue_id = target_path.parent.name
         content = source_path.read_bytes()
