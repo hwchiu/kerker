@@ -3100,6 +3100,40 @@ body::before {
 
 .style-card {
   min-height: 100%;
+  color: var(--ink);
+}
+
+.style-card-body {
+  color: var(--ink);
+}
+
+.style-card h3 {
+  color: var(--ink);
+}
+
+.style-card .eyebrow,
+.style-card .style-meta {
+  color: #7c5a2b;
+}
+
+.style-card .summary {
+  color: #4e5a54;
+}
+
+.style-card-count {
+  background: rgba(18, 63, 61, 0.1);
+  color: var(--teal);
+}
+
+.style-card-examples li {
+  background: rgba(18, 63, 61, 0.07);
+  color: var(--teal);
+}
+
+.style-card .link-button.secondary {
+  background: rgba(18, 63, 61, 0.09);
+  border-color: rgba(18, 63, 61, 0.16);
+  color: var(--teal);
 }
 
 .style-card-photo .style-card-image {
