@@ -4370,12 +4370,34 @@ def _entries_by_style(entries: list[dict[str, Any]]) -> dict[str, list[dict[str,
     return grouped
 
 
+def _active_style_definitions(entries: list[dict[str, Any]]) -> list[dict[str, str]]:
+    grouped = _entries_by_style(entries)
+    return [
+        definition
+        for definition in WEDDING_STYLE_DEFINITIONS
+        if grouped.get(definition["key"])
+    ]
+
+
 def _render_style_nav(entries: list[dict[str, Any]]) -> str:
     grouped = _entries_by_style(entries)
+    active_definitions = _active_style_definitions(entries)
     cards = []
-    for definition in WEDDING_STYLE_DEFINITIONS:
+    used_cover_ids: set[str] = set()
+    for definition in active_definitions:
         style_entries = grouped.get(definition["key"], [])
-        cover_entry = next((entry for entry in style_entries if entry.get("cover_photo_url")), None)
+        cover_entry = next(
+            (
+                entry
+                for entry in style_entries
+                if entry.get("cover_photo_url") and entry["id"] not in used_cover_ids
+            ),
+            None,
+        )
+        if cover_entry is None:
+            cover_entry = next((entry for entry in style_entries if entry.get("cover_photo_url")), None)
+        if cover_entry:
+            used_cover_ids.add(cover_entry["id"])
         if cover_entry:
             cover = (
                 '<div class="style-card-media style-card-photo">'
@@ -4488,13 +4510,11 @@ def _render_style_spotlight(entry: dict[str, Any]) -> str:
 
 def _render_style_sections(entries: list[dict[str, Any]]) -> str:
     grouped = _entries_by_style(entries)
+    active_definitions = _active_style_definitions(entries)
     sections = []
-    for definition in WEDDING_STYLE_DEFINITIONS:
+    for definition in active_definitions:
         style_entries = grouped.get(definition["key"], [])
-        if style_entries:
-            body = f'<div class="style-section-grid">{"".join(_render_style_spotlight(entry) for entry in style_entries)}</div>'
-        else:
-            body = '<div class="empty-state">這一類目前還沒有可用場地，後續補更多資料時會自動出現在這裡。</div>'
+        body = f'<div class="style-section-grid">{"".join(_render_style_spotlight(entry) for entry in style_entries)}</div>'
         sections.append(
             '<section class="surface style-section" '
             f'id="style-{escape(definition["key"])}">'
@@ -4510,12 +4530,13 @@ def _render_style_sections(entries: list[dict[str, Any]]) -> str:
 
 def _render_journey_paths(entries: list[dict[str, Any]]) -> str:
     visual_count = sum(1 for entry in entries if entry.get("cover_photo_url"))
+    active_style_count = len(_active_style_definitions(entries))
     paths = [
         (
             "先看畫面",
             "從教堂、叢林、水台、懸崖、沙灘開始選，不用先懂飯店名稱。",
             "#style-overview",
-            f"{len(WEDDING_STYLE_DEFINITIONS)} 種風格",
+            f"{active_style_count} 種風格",
         ),
         (
             "先縮小名單",
@@ -5628,6 +5649,7 @@ def _render_home_hero_gallery(entries: list[dict[str, Any]]) -> str:
 def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) -> str:
     card_html = "".join(_render_card(entry) for entry in entries)
     compare_rows = _render_compare_rows(entries)
+    active_style_count = len(_active_style_definitions(entries))
     region_values = sorted({entry["region"] for entry in entries})
     style_values = [definition["key"] for definition in WEDDING_STYLE_DEFINITIONS]
     guest_values = sorted({entry["recommended_guest_size_band"] for entry in entries})
@@ -5665,7 +5687,7 @@ def _render_index_page(entries: list[dict[str, Any]], totals: dict[str, Any]) ->
         f"<strong>{totals['venue_count']}</strong><span>精選場地</span>"
         "</div>"
         '<div class="stat">'
-        f"<strong>{len(WEDDING_STYLE_DEFINITIONS)}</strong><span>婚禮風格</span>"
+        f"<strong>{active_style_count}</strong><span>婚禮風格</span>"
         "</div>"
         '<div class="stat">'
         f"<strong>{len(totals['regions'])}</strong><span>峇里區域</span>"
