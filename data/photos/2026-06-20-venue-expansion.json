@@ -136,23 +136,6 @@
     "decision_notes": "印尼婚禮平台的真實圖庫能補本地市場視角下的 Mandapa 婚禮完成度。"
   },
   {
-    "photo_entry_id": "mandapa-a-ritz-carlton-reserve-photo-cinemotionphoto",
-    "venue_id": "mandapa-a-ritz-carlton-reserve",
-    "source_id": "mandapa-a-ritz-carlton-reserve-cinemotionphoto",
-    "page_url": "https://www.cinemotionphoto.com/mandapa-ritz-carlton-reserve-wedding-photographer",
-    "image_url_or_gallery_url": "https://www.cinemotionphoto.com/mandapa-ritz-carlton-reserve-wedding-photographer",
-    "image_type": "blog_feature",
-    "scene_tags": [
-      "jungle-view",
-      "public-area",
-      "night-view"
-    ],
-    "authenticity": "unknown",
-    "coverage_type": "large_gallery",
-    "decision_value": "medium",
-    "decision_notes": "場地文把 Mandapa 的河谷、稻田與 reserve villa 畫面整理得很直覺，適合做候選比較。"
-  },
-  {
     "photo_entry_id": "hanging-gardens-of-bali-photo-whiteroses-hidden-palace",
     "venue_id": "hanging-gardens-of-bali",
     "source_id": "hanging-gardens-of-bali-whiteroses-hidden-palace",
@@ -185,23 +168,6 @@
     "coverage_type": "large_gallery",
     "decision_value": "high",
     "decision_notes": "濕季真實婚禮最能幫你判斷 Hanging Gardens 的叢林婚禮是不是你能接受的天候風格。"
-  },
-  {
-    "photo_entry_id": "hanging-gardens-of-bali-photo-cinemotionphoto",
-    "venue_id": "hanging-gardens-of-bali",
-    "source_id": "hanging-gardens-of-bali-cinemotionphoto",
-    "page_url": "https://www.cinemotionphoto.com/hanging-gardens-of-bali-wedding-photographer",
-    "image_url_or_gallery_url": "https://www.cinemotionphoto.com/hanging-gardens-of-bali-wedding-photographer",
-    "image_type": "blog_feature",
-    "scene_tags": [
-      "jungle-view",
-      "night-view",
-      "public-area"
-    ],
-    "authenticity": "unknown",
-    "coverage_type": "large_gallery",
-    "decision_value": "medium",
-    "decision_notes": "把浮台、河谷與私人別墅幾個視覺語彙拆得很清楚，適合補場地風格判讀。"
   },
   {
     "photo_entry_id": "six-senses-uluwatu-bali-photo-weddingku-5-spots",

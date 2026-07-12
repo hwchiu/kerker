@@ -23,6 +23,7 @@ except ImportError:  # pragma: no cover
     certifi = None  # type: ignore[assignment]
 
 FetchBytes = Callable[[str], bytes]
+MAX_FETCH_BYTES = 8 * 1024 * 1024
 
 IMAGE_URL_PATTERN = re.compile(
     r'https?:\\?/\\?/[^"\'\s<>]+?\.(?:jpg|jpeg|png|webp|gif)(?:\?[^"\'\s<>]*)?',
@@ -71,6 +72,7 @@ SKIP_IMAGE_KEYWORDS = {
 }
 
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
+UNSUPPORTED_DOWNLOAD_IMAGE_EXTENSIONS = {".gif"}
 EXCLUDED_SITE_ASSET_FILENAMES = {
     # Detail/prep shots are not useful for deciding venue style.
     "alila-villas-uluwatu-balifortwo-charles-stella-01.webp",
@@ -150,8 +152,14 @@ def _default_fetcher(url: str) -> bytes:
         },
     )
     context = ssl.create_default_context(cafile=certifi.where()) if certifi else None
-    with urlopen(request, timeout=12, context=context) as response:
-        return response.read()
+    with urlopen(request, timeout=8, context=context) as response:
+        content_length = response.headers.get("Content-Length")
+        if content_length is not None and int(content_length) > MAX_FETCH_BYTES:
+            raise ValueError("remote asset is too large")
+        data = response.read(MAX_FETCH_BYTES + 1)
+        if len(data) > MAX_FETCH_BYTES:
+            raise ValueError("remote asset is too large")
+        return data
 
 
 def _is_supported_page_host(host: str) -> bool:
@@ -654,6 +662,10 @@ def write_photo_assets(
             if not image_bytes:
                 continue
             extension = Path(urlparse(candidate_url).path).suffix.lower() or ".jpg"
+            if extension in UNSUPPORTED_DOWNLOAD_IMAGE_EXTENSIONS:
+                continue
+            if not _is_venue_photo(image_bytes):
+                continue
             index = len(asset_paths) + 1
             destination = (
                 paths["photo_assets"]
@@ -710,7 +722,12 @@ def _is_venue_photo(image_bytes: bytes) -> bool:
                 return False
 
         rgb = img.convert("RGB").resize((64, 64))
-        pixels_rgb = list(rgb.getdata())
+        pixel_source = (
+            rgb.get_flattened_data()
+            if hasattr(rgb, "get_flattened_data")
+            else rgb.getdata()
+        )
+        pixels_rgb = list(pixel_source)
         n = len(pixels_rgb)
         near_white = sum(
             1 for r, g, b in pixels_rgb if r > 215 and g > 215 and b > 215
@@ -766,6 +783,8 @@ def copy_photo_assets_for_site(
             if not isinstance(asset_path, str):
                 continue
             source_path = (root / asset_path).resolve()
+            if source_path.suffix.lower() in UNSUPPORTED_DOWNLOAD_IMAGE_EXTENSIONS:
+                continue
             try:
                 relative_inside_assets = source_path.relative_to(photo_assets_root)
             except ValueError:
@@ -790,7 +809,7 @@ def copy_photo_assets_for_site(
                     # Non-empty directories are expected when preserved assets remain in place.
                     continue
 
-    seen_hashes: dict[str, set[str]] = {}  # venue_id -> set of md5 hashes already copied
+    seen_hashes: set[str] = set()
     for photo_entry_id, source_path, target_path in asset_copy_tasks:
         if not source_path.exists():
             if target_path.exists():
@@ -798,13 +817,13 @@ def copy_photo_assets_for_site(
                 site_urls = mapping.setdefault(photo_entry_id, [])
                 site_urls.append(f"../assets/photos/{relative_inside_assets.as_posix()}")
             continue
-        venue_id = target_path.parent.name
         content = source_path.read_bytes()
         content_hash = md5(content).hexdigest()
-        venue_seen = seen_hashes.setdefault(venue_id, set())
-        if content_hash in venue_seen:
+        if content_hash in seen_hashes:
+            if target_path.exists():
+                target_path.unlink()
             continue
-        venue_seen.add(content_hash)
+        seen_hashes.add(content_hash)
         target_path.parent.mkdir(parents=True, exist_ok=True)
         copy2(source_path, target_path)
         relative_inside_assets = target_path.relative_to(site_assets_root)
