@@ -1135,6 +1135,9 @@ a {
 
 .preview-media-fallback {
   display: grid;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(231, 196, 128, 0.32), transparent 30%),
+    linear-gradient(145deg, #29443d 0%, #17342f 48%, #0f2926 100%);
 }
 
 .style-card-media::after {
@@ -1167,20 +1170,23 @@ a {
   gap: 12px;
   min-height: 100%;
   padding: 22px;
+  color: #fff8ed;
+  text-shadow: 0 1px 2px rgba(10, 24, 22, 0.42);
 }
 
 .preview-media-kicker {
   margin: 0;
   font-size: 0.78rem;
   font-weight: 800;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: rgba(247, 241, 231, 0.78);
+  color: #f5c06f;
 }
 
 .preview-media-note {
   margin: 0;
-  color: rgba(247, 241, 231, 0.86);
+  color: #fff8ed;
+  font-weight: 650;
   line-height: 1.6;
 }
 
@@ -1197,20 +1203,23 @@ a {
   min-height: 40px;
   padding: 0 14px;
   border-radius: 999px;
-  border: 1px solid rgba(255, 244, 227, 0.24);
-  background: rgba(255, 255, 255, 0.08);
-  color: var(--hero-ink);
+  border: 1px solid rgba(255, 248, 237, 0.78);
+  background: rgba(255, 248, 237, 0.94);
+  color: #123b36;
   font-size: 0.88rem;
-  font-weight: 700;
+  font-weight: 850;
   text-decoration: none;
-  transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
+  text-shadow: none;
+  box-shadow: 0 8px 18px rgba(5, 20, 18, 0.24);
+  transition: transform 160ms ease, background 160ms ease, border-color 160ms ease, color 160ms ease;
 }
 
 .preview-media-link:hover,
 .preview-media-link:focus-visible {
   transform: translateY(-1px);
-  background: rgba(255, 255, 255, 0.14);
-  border-color: rgba(255, 244, 227, 0.42);
+  background: #f5c06f;
+  border-color: #f5c06f;
+  color: #102c29;
 }
 
 .style-card-body {
