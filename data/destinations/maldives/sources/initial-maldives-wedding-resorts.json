@@ -39,6 +39,32 @@
     "raw_excerpt_summary": "用於確認 Baa Atoll 水上飛機接駁邏輯與賓客抵達限制。"
   },
   {
+    "source_id": "fs-landaa-mynavi-overwater-chapel",
+    "venue_id": "fs-landaa-giraavaru",
+    "source_type": "platform_agency",
+    "source_name": "Mynavi Wedding Landaa Giraavaru Overwater Chapel",
+    "source_url": "https://wedding.mynavi.jp/wedding/abroad/chapel/123/",
+    "captured_at": "2026-07-12",
+    "content_date_if_known": null,
+    "language": "ja",
+    "evidence_categories": ["photos", "capacity", "transport"],
+    "reliability_notes": "Japanese overseas wedding listing; useful for ceremony photos and operational framing, not a direct contract source.",
+    "raw_excerpt_summary": "頁面展示 Landaa Giraavaru 水上儀式空間、玻璃走道、海景儀式與多組前輩新人報告連結。"
+  },
+  {
+    "source_id": "fs-landaa-elledecor-pavilion",
+    "venue_id": "fs-landaa-giraavaru",
+    "source_type": "editorial_case_study",
+    "source_name": "ELLE Decor Landaa Giraavaru Over-Water Wedding Pavilion",
+    "source_url": "https://www.elledecor.com/life-culture/travel/news/a8184/over-water-wedding-pavilion/",
+    "captured_at": "2026-07-12",
+    "content_date_if_known": "2016-01-23",
+    "language": "en",
+    "evidence_categories": ["photos", "capacity"],
+    "reliability_notes": "Editorial feature with Four Seasons courtesy imagery; use as visual reference only.",
+    "raw_excerpt_summary": "文章描述 Landaa Giraavaru 的 over-water wedding pavilion 距岸約 50 公尺、需搭船抵達，並提到最多約 16 位賓客的私密儀式設定。"
+  },
+  {
     "source_id": "fs-kuda-official-weddings",
     "venue_id": "fs-kuda-huraa",
     "source_type": "official",
@@ -91,6 +117,19 @@
     "raw_excerpt_summary": "用於核對水上飛機與內陸航班加快艇的接駁安排。"
   },
   {
+    "source_id": "conrad-rangali-mynavi-ithaa",
+    "venue_id": "conrad-rangali-island",
+    "source_type": "platform_agency",
+    "source_name": "Mynavi Wedding Conrad Maldives Ithaa",
+    "source_url": "https://wedding.mynavi.jp/wedding/abroad/chapel/107/",
+    "captured_at": "2026-07-12",
+    "content_date_if_known": null,
+    "language": "ja",
+    "evidence_categories": ["photos", "capacity", "pricing", "transport"],
+    "reliability_notes": "Japanese overseas wedding listing for Ithaa underwater ceremony; pricing and availability must be reconfirmed with arranger/resort.",
+    "raw_excerpt_summary": "頁面展示 Conrad Maldives Rangali Island 的 Ithaa 水中餐廳婚禮、熱帶魚環繞儀式、30 分鐘水上飛機接駁與多張場地照片。"
+  },
+  {
     "source_id": "oneonly-reethi-official-events",
     "venue_id": "oneonly-reethi-rah",
     "source_type": "official",
@@ -130,6 +169,19 @@
     "raw_excerpt_summary": "Vogue 以 One&Only Reethi Rah 為例描述私人海灘、sandbank、wedding pavilion 與高私密度海島婚禮想像。"
   },
   {
+    "source_id": "baros-traveltrade-piano-deck",
+    "venue_id": "baros-maldives",
+    "source_type": "editorial_case_study",
+    "source_name": "Travel Trade Maldives Baros Piano Deck Wedding",
+    "source_url": "https://www.traveltrademaldives.com/say-yes-on-the-piano-deck-at-baros-maldives/",
+    "captured_at": "2026-07-12",
+    "content_date_if_known": null,
+    "language": "en",
+    "evidence_categories": ["photos", "pricing", "capacity"],
+    "reliability_notes": "Maldives travel trade article; good visual source for the Piano Deck package, pricing should still be reconfirmed with Baros.",
+    "raw_excerpt_summary": "文章展示 Baros Piano Deck 婚禮與誓言更新場景，提到 Champagne、婚禮蛋糕、Master of Ceremony、象徵性植樹、日落巡航與 US$2,500 package add-on。"
+  },
+  {
     "source_id": "baros-official-vows",
     "venue_id": "baros-maldives",
     "source_type": "official",
@@ -167,6 +219,19 @@
     "evidence_categories": ["photos", "capacity", "rain_backup", "restrictions"],
     "reliability_notes": "Official brand-level celebrations page; single-resort details need follow-up.",
     "raw_excerpt_summary": "官方 celebrations 頁展示 weddings and vow renewals、barefoot ceremonies、private island moments 與 sandbar setup。"
+  },
+  {
+    "source_id": "soneva-beyondweddings-fushi",
+    "venue_id": "soneva-fushi",
+    "source_type": "platform_agency",
+    "source_name": "Beyond Weddings Soneva Fushi Maldives",
+    "source_url": "https://beyondweddings.com/maldives/weddings-at-soneva-fushi-maldives/",
+    "captured_at": "2026-07-12",
+    "content_date_if_known": "2025-10-09",
+    "language": "en",
+    "evidence_categories": ["photos", "capacity", "pricing", "rain_backup"],
+    "reliability_notes": "Destination wedding agency article; useful for Soneva Fushi sandbank and island-wedding visuals, package details need confirmation.",
+    "raw_excerpt_summary": "頁面描述 Soneva Fushi 私人沙洲儀式、beach/garden villa ceremony、Maldivian dhow arrival、Bodu Beru 與 wedding package inclusions。"
   },
   {
     "source_id": "soneva-fushi-official-resort",

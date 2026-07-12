@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11",
+  "generated_at": "2026-07-12",
   "venues": [
     {
       "id": "fs-landaa-giraavaru",
@@ -44,13 +44,13 @@
         "確認 Wedding Pavilion、Blu Beach 與 jungle clearing 的實際儀式/晚宴容量。",
         "索取 2026-2027 婚禮套裝價格與雨備 SOP。"
       ],
-      "source_count": 3,
-      "photo_count": 1,
-      "photo_coverage_ceremony": "medium",
-      "photo_coverage_reception": "unknown",
+      "source_count": 5,
+      "photo_count": 3,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
       "photo_coverage_rain_backup": "unknown",
       "photo_coverage_accommodation": "unknown",
-      "photo_reference_value_overall": "medium"
+      "photo_reference_value_overall": "high"
     },
     {
       "id": "fs-kuda-huraa",
@@ -144,11 +144,11 @@
         "確認 Ithaa、Overwater Spa Deck、Sunset Tip Beach 的婚禮容量與可包場費用。",
         "確認雨天是否能保留同等質感的室內晚餐。"
       ],
-      "source_count": 2,
-      "photo_count": 1,
+      "source_count": 3,
+      "photo_count": 2,
       "photo_coverage_ceremony": "medium",
-      "photo_coverage_reception": "unknown",
-      "photo_coverage_rain_backup": "medium",
+      "photo_coverage_reception": "medium",
+      "photo_coverage_rain_backup": "high",
       "photo_coverage_accommodation": "unknown",
       "photo_reference_value_overall": "medium"
     },
@@ -244,13 +244,13 @@
         "確認 Piano Deck 與 private sandbank 的婚禮容量、潮汐限制與費用。",
         "確認雨天是否可轉至 Lighthouse 或其他 covered dining space。"
       ],
-      "source_count": 2,
-      "photo_count": 1,
-      "photo_coverage_ceremony": "medium",
-      "photo_coverage_reception": "medium",
+      "source_count": 3,
+      "photo_count": 2,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
       "photo_coverage_rain_backup": "unknown",
       "photo_coverage_accommodation": "unknown",
-      "photo_reference_value_overall": "medium"
+      "photo_reference_value_overall": "high"
     },
     {
       "id": "soneva-fushi",
@@ -295,13 +295,13 @@
         "確認 Soneva Fushi 可用婚禮空間、容量與 2026-2027 套裝。",
         "確認 sandbar setup 是否可辦儀式與天候備案。"
       ],
-      "source_count": 2,
-      "photo_count": 1,
-      "photo_coverage_ceremony": "medium",
-      "photo_coverage_reception": "medium",
+      "source_count": 3,
+      "photo_count": 2,
+      "photo_coverage_ceremony": "high",
+      "photo_coverage_reception": "high",
       "photo_coverage_rain_backup": "unknown",
-      "photo_coverage_accommodation": "unknown",
-      "photo_reference_value_overall": "medium"
+      "photo_coverage_accommodation": "medium",
+      "photo_reference_value_overall": "high"
     }
   ]
 }

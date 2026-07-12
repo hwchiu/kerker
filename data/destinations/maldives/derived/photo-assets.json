@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-07-12",
+  "items": [
+    {
+      "photo_entry_id": "oneonly-reethi-vogue-scenes",
+      "venue_id": "oneonly-reethi-rah",
+      "source_id": "oneonly-reethi-vogue-elopement",
+      "asset_paths": [
+        "data/destinations/maldives/photo-assets/oneonly-reethi-rah/oneonly-reethi-vogue-scenes-01.jpg",
+        "data/destinations/maldives/photo-assets/oneonly-reethi-rah/oneonly-reethi-vogue-scenes-02.jpg",
+        "data/destinations/maldives/photo-assets/oneonly-reethi-rah/oneonly-reethi-vogue-scenes-03.jpg",
+        "data/destinations/maldives/photo-assets/oneonly-reethi-rah/oneonly-reethi-vogue-scenes-04.jpg",
+        "data/destinations/maldives/photo-assets/oneonly-reethi-rah/oneonly-reethi-vogue-scenes-05.jpg",
+        "data/destinations/maldives/photo-assets/oneonly-reethi-rah/oneonly-reethi-vogue-scenes-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "fs-landaa-mynavi-overwater-chapel",
+      "venue_id": "fs-landaa-giraavaru",
+      "source_id": "fs-landaa-mynavi-overwater-chapel",
+      "asset_paths": [
+        "data/destinations/maldives/photo-assets/fs-landaa-giraavaru/fs-landaa-mynavi-overwater-chapel-01.jpg",
+        "data/destinations/maldives/photo-assets/fs-landaa-giraavaru/fs-landaa-mynavi-overwater-chapel-02.jpg",
+        "data/destinations/maldives/photo-assets/fs-landaa-giraavaru/fs-landaa-mynavi-overwater-chapel-03.jpg",
+        "data/destinations/maldives/photo-assets/fs-landaa-giraavaru/fs-landaa-mynavi-overwater-chapel-04.jpg",
+        "data/destinations/maldives/photo-assets/fs-landaa-giraavaru/fs-landaa-mynavi-overwater-chapel-05.jpg",
+        "data/destinations/maldives/photo-assets/fs-landaa-giraavaru/fs-landaa-mynavi-overwater-chapel-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "fs-landaa-elledecor-pavilion",
+      "venue_id": "fs-landaa-giraavaru",
+      "source_id": "fs-landaa-elledecor-pavilion",
+      "asset_paths": [
+        "data/destinations/maldives/photo-assets/fs-landaa-giraavaru/fs-landaa-elledecor-pavilion-01.jpg",
+        "data/destinations/maldives/photo-assets/fs-landaa-giraavaru/fs-landaa-elledecor-pavilion-02.jpg",
+        "data/destinations/maldives/photo-assets/fs-landaa-giraavaru/fs-landaa-elledecor-pavilion-03.jpg",
+        "data/destinations/maldives/photo-assets/fs-landaa-giraavaru/fs-landaa-elledecor-pavilion-04.jpg",
+        "data/destinations/maldives/photo-assets/fs-landaa-giraavaru/fs-landaa-elledecor-pavilion-05.jpg",
+        "data/destinations/maldives/photo-assets/fs-landaa-giraavaru/fs-landaa-elledecor-pavilion-06.jpeg"
+      ]
+    },
+    {
+      "photo_entry_id": "conrad-rangali-mynavi-ithaa",
+      "venue_id": "conrad-rangali-island",
+      "source_id": "conrad-rangali-mynavi-ithaa",
+      "asset_paths": [
+        "data/destinations/maldives/photo-assets/conrad-rangali-island/conrad-rangali-mynavi-ithaa-01.jpg",
+        "data/destinations/maldives/photo-assets/conrad-rangali-island/conrad-rangali-mynavi-ithaa-02.jpg",
+        "data/destinations/maldives/photo-assets/conrad-rangali-island/conrad-rangali-mynavi-ithaa-03.jpg",
+        "data/destinations/maldives/photo-assets/conrad-rangali-island/conrad-rangali-mynavi-ithaa-04.jpg",
+        "data/destinations/maldives/photo-assets/conrad-rangali-island/conrad-rangali-mynavi-ithaa-05.jpg",
+        "data/destinations/maldives/photo-assets/conrad-rangali-island/conrad-rangali-mynavi-ithaa-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "baros-traveltrade-piano-deck",
+      "venue_id": "baros-maldives",
+      "source_id": "baros-traveltrade-piano-deck",
+      "asset_paths": [
+        "data/destinations/maldives/photo-assets/baros-maldives/baros-traveltrade-piano-deck-01.jpg",
+        "data/destinations/maldives/photo-assets/baros-maldives/baros-traveltrade-piano-deck-02.jpg",
+        "data/destinations/maldives/photo-assets/baros-maldives/baros-traveltrade-piano-deck-03.jpg",
+        "data/destinations/maldives/photo-assets/baros-maldives/baros-traveltrade-piano-deck-04.jpg",
+        "data/destinations/maldives/photo-assets/baros-maldives/baros-traveltrade-piano-deck-05.jpg",
+        "data/destinations/maldives/photo-assets/baros-maldives/baros-traveltrade-piano-deck-06.jpg"
+      ]
+    },
+    {
+      "photo_entry_id": "soneva-beyondweddings-fushi-sandbank",
+      "venue_id": "soneva-fushi",
+      "source_id": "soneva-beyondweddings-fushi",
+      "asset_paths": [
+        "data/destinations/maldives/photo-assets/soneva-fushi/soneva-beyondweddings-fushi-sandbank-01.webp",
+        "data/destinations/maldives/photo-assets/soneva-fushi/soneva-beyondweddings-fushi-sandbank-02.webp",
+        "data/destinations/maldives/photo-assets/soneva-fushi/soneva-beyondweddings-fushi-sandbank-03.jpg",
+        "data/destinations/maldives/photo-assets/soneva-fushi/soneva-beyondweddings-fushi-sandbank-04.jpg",
+        "data/destinations/maldives/photo-assets/soneva-fushi/soneva-beyondweddings-fushi-sandbank-05.jpg",
+        "data/destinations/maldives/photo-assets/soneva-fushi/soneva-beyondweddings-fushi-sandbank-06.jpg"
+      ]
+    }
+  ]
+}

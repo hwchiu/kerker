@@ -62,7 +62,13 @@
     "last_verified_at": "2026-07-11",
     "data_freshness": "recent",
     "open_questions": ["確認 Wedding Pavilion、Blu Beach 與 jungle clearing 的實際儀式/晚宴容量。", "索取 2026-2027 婚禮套裝價格與雨備 SOP。"],
-    "source_ids": ["fs-landaa-official-weddings", "fs-landaa-official-venues", "fs-landaa-official-transfer"],
+    "source_ids": [
+      "fs-landaa-official-weddings",
+      "fs-landaa-official-venues",
+      "fs-landaa-official-transfer",
+      "fs-landaa-mynavi-overwater-chapel",
+      "fs-landaa-elledecor-pavilion"
+    ],
     "photo_index_id": "fs-landaa-giraavaru-photos",
     "wedding_spaces": [
       {
@@ -231,7 +237,11 @@
     "last_verified_at": "2026-07-11",
     "data_freshness": "recent",
     "open_questions": ["確認 Ithaa、Overwater Spa Deck、Sunset Tip Beach 的婚禮容量與可包場費用。", "確認雨天是否能保留同等質感的室內晚餐。"],
-    "source_ids": ["conrad-rangali-official-weddings", "conrad-rangali-official-location"],
+    "source_ids": [
+      "conrad-rangali-official-weddings",
+      "conrad-rangali-official-location",
+      "conrad-rangali-mynavi-ithaa"
+    ],
     "photo_index_id": "conrad-rangali-island-photos",
     "wedding_spaces": [
       {
@@ -389,7 +399,11 @@
     "last_verified_at": "2026-07-11",
     "data_freshness": "recent",
     "open_questions": ["確認 Piano Deck 與 private sandbank 的婚禮容量、潮汐限制與費用。", "確認雨天是否可轉至 Lighthouse 或其他 covered dining space。"],
-    "source_ids": ["baros-official-vows", "baros-official-location"],
+    "source_ids": [
+      "baros-official-vows",
+      "baros-official-location",
+      "baros-traveltrade-piano-deck"
+    ],
     "photo_index_id": "baros-maldives-photos",
     "wedding_spaces": [
       {
@@ -468,7 +482,11 @@
     "last_verified_at": "2026-07-11",
     "data_freshness": "recent",
     "open_questions": ["確認 Soneva Fushi 可用婚禮空間、容量與 2026-2027 套裝。", "確認 sandbar setup 是否可辦儀式與天候備案。"],
-    "source_ids": ["soneva-celebrations", "soneva-fushi-official-resort"],
+    "source_ids": [
+      "soneva-celebrations",
+      "soneva-fushi-official-resort",
+      "soneva-beyondweddings-fushi"
+    ],
     "photo_index_id": "soneva-fushi-photos",
     "wedding_spaces": [
       {

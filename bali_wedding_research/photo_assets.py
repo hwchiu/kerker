@@ -3,9 +3,11 @@ from __future__ import annotations
 from datetime import date
 from hashlib import md5
 from html import unescape
+from http.client import InvalidURL
 import io
 from pathlib import Path
 import re
+import ssl
 from shutil import copy2, rmtree
 from typing import Callable
 from urllib.error import HTTPError, URLError
@@ -14,6 +16,11 @@ from urllib.request import Request, urlopen
 
 from .io import load_json_file, load_workspace_records, write_json_file
 from .paths import workspace_paths
+
+try:  # pragma: no cover - availability depends on the local Python install.
+    import certifi
+except ImportError:  # pragma: no cover
+    certifi = None  # type: ignore[assignment]
 
 FetchBytes = Callable[[str], bytes]
 
@@ -117,6 +124,17 @@ SUPPORTED_PAGE_HOSTS = {
     "kvision.tw",
     "ameblo.jp",
     "www.ameblo.jp",
+    "www.traveltrademaldives.com",
+    "traveltrademaldives.com",
+    "beyondweddings.com",
+    "www.beyondweddings.com",
+    "wedding.mynavi.jp",
+    "www.vogue.com",
+    "vogue.com",
+    "www.elledecor.com",
+    "elledecor.com",
+    "maldivesisle.wordpress.com",
+    "blog.maldivescomplete.com",
 }
 
 
@@ -131,7 +149,8 @@ def _default_fetcher(url: str) -> bytes:
             )
         },
     )
-    with urlopen(request, timeout=12) as response:
+    context = ssl.create_default_context(cafile=certifi.where()) if certifi else None
+    with urlopen(request, timeout=12, context=context) as response:
         return response.read()
 
 
@@ -165,6 +184,13 @@ def _is_supported_page_host(host: str) -> bool:
         or host.endswith("theweddingnotebook.com")
         or host.endswith("kvision.tw")
         or host.endswith("ameblo.jp")
+        or host.endswith("traveltrademaldives.com")
+        or host.endswith("beyondweddings.com")
+        or host.endswith("wedding.mynavi.jp")
+        or host.endswith("vogue.com")
+        or host.endswith("elledecor.com")
+        or host.endswith("maldivesisle.wordpress.com")
+        or host.endswith("maldivescomplete.com")
     )
 
 
@@ -244,6 +270,37 @@ def _is_supported_image_host(page_host: str, image_host: str, image_path: str) -
         return image_host.endswith("watabe-wedding.co.jp") and (
             "/resort_wedding/wedding_report/uploads/" in image_path
         )
+    if "traveltrademaldives.com" in page_host:
+        return image_host.endswith("traveltrademaldives.com") and (
+            "/wp-content/uploads/" in image_path
+            or "/assets/" in image_path
+        )
+    if "beyondweddings.com" in page_host:
+        return image_host.endswith("beyondweddings.com") and "/wp-content/uploads/" in image_path
+    if "wedding.mynavi.jp" in page_host:
+        return image_host.endswith("mynavi.jp") and (
+            "/var/www/html/thumb/" in image_path
+            or "/contents/resort/" in image_path
+            or "/contents/wedding/" in image_path
+            or "/wedding/abroad/" in image_path
+            or "/photo/" in image_path
+        )
+    if "vogue.com" in page_host:
+        return image_host.endswith("vogue.com") or image_host.endswith("condenast.com")
+    if "elledecor.com" in page_host:
+        return (
+            image_host.endswith("elledecor.com")
+            or image_host.endswith("hearstapps.com")
+            or image_host.endswith("hearstapps.net")
+        )
+    if "maldivesisle.wordpress.com" in page_host:
+        return (
+            image_host.endswith("maldivesisle.wordpress.com")
+            or image_host.endswith("wp.com")
+        ) and (
+            "/wp-content/uploads/" in image_path
+            or "/maldivesisle.wordpress.com/" in image_path
+        )
     return True
 
 
@@ -308,6 +365,27 @@ def _normalize_image_url(page_host: str, url: str) -> str:
             netloc=host,
             path=path,
             query="",
+            fragment="",
+        ).geturl()
+    elif host.endswith("mynavi.jp"):
+        return parsed._replace(
+            scheme=scheme,
+            netloc=host,
+            path=path,
+            fragment="",
+        ).geturl()
+    elif host.endswith("vogue.com") or host.endswith("condenast.com"):
+        return parsed._replace(
+            scheme=scheme,
+            netloc=host,
+            path=path,
+            fragment="",
+        ).geturl()
+    elif host.endswith("hearstapps.com") or host.endswith("hearstapps.net"):
+        return parsed._replace(
+            scheme=scheme,
+            netloc=host,
+            path=path,
             fragment="",
         ).geturl()
 
@@ -387,6 +465,10 @@ def _resolve_candidate_url(page_url: str, candidate: str) -> str:
     )
     if not stripped:
         return ""
+    if re.search(r",\s+", stripped):
+        stripped = stripped.split(",", 1)[0].strip()
+    if " " in stripped:
+        stripped = stripped.split()[0].strip()
     stripped = _unwrap_proxy_url(stripped)
     return urljoin(page_url, stripped)
 
@@ -436,9 +518,29 @@ def _candidate_priority(page_host: str, url: str, *, order: int) -> int:
         score += 6000
     if "bridestory.com" in page_host and "/images/c_fill" in lowered:
         score -= 2000
+    if "traveltrademaldives.com" in page_host and "/wp-content/uploads/" in lowered:
+        score += 6500
+    if "traveltrademaldives.com" in page_host and "baros-maldives_piano-deck" in lowered:
+        score += 9000
+    if "traveltrademaldives.com" in page_host and "/assets/2026/" in lowered:
+        score -= 5000
+    if "beyondweddings.com" in page_host and "/wp-content/uploads/" in lowered:
+        score += 6500
+    if "wedding.mynavi.jp" in page_host and "mynavi.jp" in lowered:
+        score += 6500
+    if "wedding.mynavi.jp" in page_host and "/var/www/html/thumb/" in lowered:
+        score += 2500
+    if "wedding.mynavi.jp" in page_host and ("/contents/campaign/" in lowered or "/img/ogp_image" in lowered or "/images/common/" in lowered):
+        score -= 9000
+    if "vogue.com" in page_host and ("assets.vogue.com" in lowered or "media.vogue.com" in lowered):
+        score += 6000
+    if "elledecor.com" in page_host and ("hips.hearstapps.com" in lowered or "elledecor.com" in lowered):
+        score += 6000
+    if "maldivesisle.wordpress.com" in page_host and ("/wp-content/uploads/" in lowered or ".wp.com/" in lowered):
+        score += 5500
     if any(
         token in lowered
-        for token in {"w_45", "h_45", "150x150", "100x100", "60x60", "45x45", "32x32"}
+        for token in {"logo", "avatar", "author", "w_45", "h_45", "150x150", "100x100", "60x60", "45x45", "32x32"}
     ):
         score -= 5000
     if "/images/upload/products/thumbs/" in lowered:
@@ -500,7 +602,7 @@ def extract_candidate_image_urls(html: str, *, page_url: str) -> list[str]:
 def _safe_fetch(url: str, fetcher: FetchBytes) -> bytes | None:
     try:
         return fetcher(url)
-    except (HTTPError, URLError, TimeoutError, ValueError):
+    except (HTTPError, URLError, TimeoutError, ValueError, InvalidURL):
         return None
 
 

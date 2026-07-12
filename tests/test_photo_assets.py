@@ -52,6 +52,63 @@ class PhotoAssetsTest(unittest.TestCase):
 
         self.assertEqual(urls, ["https://dimg04.c-ctrip.com/images/a1.jpg"])
 
+    def test_extract_candidate_image_urls_supports_traveltrade_maldives_assets(self) -> None:
+        html = """
+        <meta property="og:image" content="https://www.traveltrademaldives.com/assets/2021/08/Baros-Maldives_Piano-Deck-Wedding-new-672x428.jpg">
+        <img src="https://www.traveltrademaldives.com/assets/2026/07/Photo-2-28-1008x636.jpg">
+        <img src="https://www.traveltrademaldives.com/assets/2021/08/Baros-Maldives_Piano-Deck-Wedding-qqqq-768x575.jpg">
+        """
+
+        urls = extract_candidate_image_urls(
+            html,
+            page_url="https://www.traveltrademaldives.com/say-yes-on-the-piano-deck-at-baros-maldives/",
+        )
+
+        self.assertEqual(
+            urls[:2],
+            [
+                "https://www.traveltrademaldives.com/assets/2021/08/Baros-Maldives_Piano-Deck-Wedding-qqqq-768x575.jpg",
+                "https://www.traveltrademaldives.com/assets/2021/08/Baros-Maldives_Piano-Deck-Wedding-new-672x428.jpg",
+            ],
+        )
+
+    def test_extract_candidate_image_urls_supports_mynavi_wedding_thumbs(self) -> None:
+        html = """
+        <img src="https://wedding.mynavi.jp/img/ogp_image.jpg">
+        <img src="https://wedding.mynavi.jp/contents/campaign/20260610/wedding/960_150.jpg">
+        <img src="https://wedding.mynavi.jp/var/www/html/thumb/f1/94/562000731.jpg">
+        <img src="https://wedding.mynavi.jp/var/www/html/thumb/f1/94/562000731_sd_ll.jpg">
+        """
+
+        urls = extract_candidate_image_urls(
+            html,
+            page_url="https://wedding.mynavi.jp/wedding/abroad/chapel/107/",
+        )
+
+        self.assertEqual(
+            urls,
+            [
+                "https://wedding.mynavi.jp/var/www/html/thumb/f1/94/562000731.jpg",
+                "https://wedding.mynavi.jp/var/www/html/thumb/f1/94/562000731_sd_ll.jpg",
+            ],
+        )
+
+    def test_extract_candidate_image_urls_supports_vogue_assets(self) -> None:
+        html = """
+        <img src="https://assets.vogue.com/photos/58dbd6e02e5ec016cd5f37a0/master/w_2560,c_limit/maldives-wedding.jpg">
+        <img src="https://www.vogue.com/logo.png">
+        """
+
+        urls = extract_candidate_image_urls(
+            html,
+            page_url="https://www.vogue.com/article/destination-wedding-elopement-private-island-maldives",
+        )
+
+        self.assertEqual(
+            urls,
+            ["https://assets.vogue.com/photos/58dbd6e02e5ec016cd5f37a0/master/w_2560,c_limit/maldives-wedding.jpg"],
+        )
+
     def test_extract_candidate_image_urls_dedupes_wordpress_resized_variants(self) -> None:
         html = """
         <img src="https://balifortwo2.com/wp-content/uploads/2026/02/UWT08-300x200.jpg">

@@ -76,5 +76,70 @@
     "coverage_type": "large_gallery",
     "decision_value": "medium",
     "decision_notes": "官方 celebrations 頁展示 Soneva 的 barefoot ceremony 與 sandbar setup，仍需補單島真實照片。"
+  },
+  {
+    "photo_entry_id": "fs-landaa-mynavi-overwater-chapel",
+    "venue_id": "fs-landaa-giraavaru",
+    "source_id": "fs-landaa-mynavi-overwater-chapel",
+    "page_url": "https://wedding.mynavi.jp/wedding/abroad/chapel/123/",
+    "image_url_or_gallery_url": "https://wedding.mynavi.jp/wedding/abroad/chapel/123/",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": ["water-platform", "entrance-procession", "guest-seating"],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "日本婚禮平台頁面含多張 Landaa 水上儀式、玻璃走道與海景儀式照片，適合補足水上亭真實觀看感。"
+  },
+  {
+    "photo_entry_id": "fs-landaa-elledecor-pavilion",
+    "venue_id": "fs-landaa-giraavaru",
+    "source_id": "fs-landaa-elledecor-pavilion",
+    "page_url": "https://www.elledecor.com/life-culture/travel/news/a8184/over-water-wedding-pavilion/",
+    "image_url_or_gallery_url": "https://www.elledecor.com/life-culture/travel/news/a8184/over-water-wedding-pavilion/",
+    "image_type": "press_feature",
+    "scene_tags": ["water-platform", "floral-setup", "guest-seating"],
+    "authenticity": "unknown",
+    "coverage_type": "small_gallery",
+    "decision_value": "medium",
+    "decision_notes": "媒體文章提供 Landaa over-water pavilion 的外觀、玻璃地板與儀式空間照片，適合作為跨來源核對。"
+  },
+  {
+    "photo_entry_id": "conrad-rangali-mynavi-ithaa",
+    "venue_id": "conrad-rangali-island",
+    "source_id": "conrad-rangali-mynavi-ithaa",
+    "page_url": "https://wedding.mynavi.jp/wedding/abroad/chapel/107/",
+    "image_url_or_gallery_url": "https://wedding.mynavi.jp/wedding/abroad/chapel/107/",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": ["rain-backup-space", "floral-setup", "entrance-procession"],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "Mynavi 頁面含 Ithaa 水中餐廳婚禮照片與前輩新人報告入口，對判斷話題性室內/雨備式場很有價值。"
+  },
+  {
+    "photo_entry_id": "baros-traveltrade-piano-deck",
+    "venue_id": "baros-maldives",
+    "source_id": "baros-traveltrade-piano-deck",
+    "page_url": "https://www.traveltrademaldives.com/say-yes-on-the-piano-deck-at-baros-maldives/",
+    "image_url_or_gallery_url": "https://www.traveltrademaldives.com/say-yes-on-the-piano-deck-at-baros-maldives/",
+    "image_type": "press_feature",
+    "scene_tags": ["water-platform", "floral-setup", "night-view"],
+    "authenticity": "unknown",
+    "coverage_type": "small_gallery",
+    "decision_value": "high",
+    "decision_notes": "Travel Trade Maldives 文章展示 Baros Piano Deck 白天與日落儀式畫面，能直接補足 overwater deck 婚禮封面。"
+  },
+  {
+    "photo_entry_id": "soneva-beyondweddings-fushi-sandbank",
+    "venue_id": "soneva-fushi",
+    "source_id": "soneva-beyondweddings-fushi",
+    "page_url": "https://beyondweddings.com/maldives/weddings-at-soneva-fushi-maldives/",
+    "image_url_or_gallery_url": "https://beyondweddings.com/maldives/weddings-at-soneva-fushi-maldives/",
+    "image_type": "platform_listing_gallery",
+    "scene_tags": ["beach-ceremony", "guest-seating", "arrival-flow"],
+    "authenticity": "unknown",
+    "coverage_type": "large_gallery",
+    "decision_value": "high",
+    "decision_notes": "Beyond Weddings 頁面提供 Soneva Fushi 私人沙洲儀式與 dhow arrival 視角，適合作為首頁封面與沙洲場景判斷。"
   }
 ]
